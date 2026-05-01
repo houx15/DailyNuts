@@ -262,5 +262,75 @@ class TestMainPipeline:
         assert deduplicate_items([]) == []
 
 
+class TestUtils:
+    def test_get_random_user_agent(self):
+        from utils import get_random_user_agent
+        ua = get_random_user_agent()
+        assert isinstance(ua, str)
+        assert len(ua) > 0
+        assert 'Mozilla' in ua
+
+    def test_is_url_allowed(self):
+        from utils import is_url_allowed
+        
+        assert is_url_allowed('https://example.com/page', set()) is True
+        assert is_url_allowed('https://example.com/admin', {'/admin'}) is False
+        assert is_url_allowed('https://example.com/page', {'/admin'}) is True
+
+    def test_rate_limiter(self):
+        from utils import RateLimiter
+        import time
+        
+        limiter = RateLimiter(default_delay=0.1)
+        limiter.wait('example.com')
+        start = time.time()
+        limiter.wait('example.com')
+        elapsed = time.time() - start
+        assert elapsed >= 0.1
+
+
+class TestCostMonitor:
+    def test_estimate_tokens(self):
+        from cost_monitor import CostMonitor
+        monitor = CostMonitor()
+        tokens = monitor.estimate_tokens("This is a test prompt")
+        assert tokens > 0
+
+    def test_calculate_cost(self):
+        from cost_monitor import CostMonitor
+        monitor = CostMonitor(model='gpt-4o-mini')
+        cost = monitor.calculate_cost(1000, 500)
+        assert cost > 0
+        assert cost < 0.01
+
+    def test_log_request(self):
+        from cost_monitor import CostMonitor
+        monitor = CostMonitor(model='gpt-4o-mini')
+        result = monitor.log_request("Test prompt", "Test response")
+        
+        assert result['input_tokens'] > 0
+        assert result['output_tokens'] > 0
+        assert result['cost'] >= 0
+        assert result['total_cost'] >= 0
+        assert monitor.request_count == 1
+
+    def test_is_over_budget(self):
+        from cost_monitor import CostMonitor
+        monitor = CostMonitor(cost_limit=0.001)
+        monitor.daily_cost = 0.002
+        assert monitor.is_over_budget() is True
+
+    def test_get_summary(self):
+        from cost_monitor import CostMonitor
+        monitor = CostMonitor(model='gpt-4o-mini')
+        monitor.log_request("Test", "Response")
+        summary = monitor.get_summary()
+        
+        assert summary['model'] == 'gpt-4o-mini'
+        assert summary['requests'] == 1
+        assert summary['total_cost_usd'] >= 0
+        assert 'remaining_usd' in summary
+
+
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])

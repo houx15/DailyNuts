@@ -1,9 +1,9 @@
-import requests
 import os
 from datetime import datetime, timedelta, timezone
 from typing import List
 
 from .base import BaseAdapter, RawItem
+from utils import fetch_with_retry
 
 
 class GitHubReleasesAdapter(BaseAdapter):
@@ -28,8 +28,7 @@ class GitHubReleasesAdapter(BaseAdapter):
             headers['Authorization'] = f'token {token}'
         
         url = f"https://api.github.com/orgs/{org}/repos?sort=updated&per_page=20"
-        response = requests.get(url, headers=headers, timeout=30)
-        response.raise_for_status()
+        response = fetch_with_retry(url, headers=headers, timeout=30)
         
         return [repo['name'] for repo in response.json()]
     
@@ -39,11 +38,12 @@ class GitHubReleasesAdapter(BaseAdapter):
             headers['Authorization'] = f'token {token}'
         
         url = f"https://api.github.com/repos/{org}/{repo}/releases?per_page=5"
-        response = requests.get(url, headers=headers, timeout=30)
-        
-        if response.status_code == 404:
-            return []
-        response.raise_for_status()
+        try:
+            response = fetch_with_retry(url, headers=headers, timeout=30)
+        except Exception as e:
+            if '404' in str(e):
+                return []
+            raise
         
         items = []
         yesterday = datetime.now(timezone.utc) - timedelta(days=2)

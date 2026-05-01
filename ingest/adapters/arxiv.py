@@ -1,9 +1,9 @@
-import requests
 from datetime import datetime, timedelta
 from typing import List
 import xml.etree.ElementTree as ET
 
 from .base import BaseAdapter, RawItem
+from utils import fetch_with_retry
 
 
 class ArxivAdapter(BaseAdapter):
@@ -20,9 +20,6 @@ class ArxivAdapter(BaseAdapter):
             return []
     
     def _fetch_arxiv(self, categories: List[str], keywords: List[str], max_results: int) -> List[RawItem]:
-        yesterday = (datetime.utcnow() - timedelta(days=1)).strftime('%Y-%m-%d')
-        today = datetime.utcnow().strftime('%Y-%m-%d')
-        
         cat_query = ' OR '.join(f'cat:{cat}' for cat in categories)
         url = (
             f"http://export.arxiv.org/api/query?"
@@ -31,8 +28,7 @@ class ArxivAdapter(BaseAdapter):
             f"sortBy=submittedDate&sortOrder=descending"
         )
         
-        response = requests.get(url, timeout=60)
-        response.raise_for_status()
+        response = fetch_with_retry(url, max_retries=3, base_delay=3.0, timeout=60)
         
         root = ET.fromstring(response.content)
         ns = {'atom': 'http://www.w3.org/2005/Atom'}

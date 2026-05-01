@@ -1,24 +1,24 @@
 import feedparser
-import requests
 from datetime import datetime
 from typing import List
-from urllib.parse import urljoin
 
 from .base import BaseAdapter, RawItem
+from utils import fetch_with_retry
 
 
 class RSSAdapter(BaseAdapter):
-    """Generic RSS/Atom feed adapter using feedparser."""
-    
     def fetch(self) -> List[RawItem]:
         url = self.config['url']
         
         try:
             if url.startswith('http'):
-                response = requests.get(url, timeout=30, headers={
-                    'User-Agent': 'DailyNuts-Bot/1.0'
-                })
-                response.raise_for_status()
+                response = fetch_with_retry(
+                    url,
+                    max_retries=3,
+                    base_delay=1.0,
+                    timeout=30,
+                    headers={'User-Agent': 'DailyNuts-Bot/1.0'}
+                )
                 feed = feedparser.parse(response.content)
             else:
                 feed = feedparser.parse(url)

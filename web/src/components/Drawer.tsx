@@ -51,9 +51,11 @@ export function Drawer({ item, lang, sources, onClose }: DrawerProps) {
         onClick={onClose}
       />
       <aside
-        className={`fixed top-0 right-0 bottom-0 w-[min(640px,100vw)] bg-paper border-l border-ink z-[90] transition-transform duration-[320ms] ease-[cubic-bezier(0.32,0.72,0.16,1)] overflow-y-auto flex flex-col ${
-          open ? 'translate-x-0' : 'translate-x-full'
-        }`}
+        className={`fixed bg-paper z-[90] transition-transform duration-[320ms] ease-[cubic-bezier(0.32,0.72,0.16,1)] overflow-y-auto flex flex-col
+          max-md:bottom-0 max-md:left-0 max-md:right-0 max-md:top-auto max-md:h-[85vh] max-md:rounded-t-2xl max-md:border-t max-md:border-ink
+          md:top-0 md:right-0 md:bottom-0 md:w-[min(640px,100vw)] md:border-l md:border-ink
+          ${open ? 'max-md:translate-y-0 md:translate-x-0' : 'max-md:translate-y-full md:translate-x-full'}
+        `}
       >
         <div className="flex justify-between items-center px-9 py-[18px] border-b border-rule font-mono text-[11px] tracking-[0.16em] uppercase text-muted max-md:px-[22px] max-md:py-3">
           <span>№ {display.id}</span>

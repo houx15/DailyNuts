@@ -68,10 +68,25 @@ class BriefGenerator:
             for item in items[:50]
         ], ensure_ascii=False, indent=2)
         
+        themes = {
+            'zh': ['可解释性与对齐', '模型架构与记忆', 'Agent 工程', '新模型发布', '评估与基准', '应用与产品', '其他'],
+            'en': ['Interpretability & Alignment', 'Architecture & Memory', 'Agent Engineering', 'Model Releases', 'Evals & Benchmarks', 'Applications & Product', 'Other']
+        }
+        
         return (
-            f"Given {len(items)} items, create a daily brief in {lang_name}.\n\n"
+            f"You are an expert AI research analyst creating a daily intelligence brief in {lang_name}.\n\n"
+            f"Given {len(items)} items from today's AI/ML landscape, create a compelling editorial-style brief.\n\n"
+            f"Requirements:\n"
+            f"1. HEADLINE: Punchy, informative headline (max 15 words) that captures the day's most important development\n"
+            f"2. LEDE: 2-3 sentence opening paragraph summarizing the day's key themes and most significant items\n"
+            f"3. SECTIONS: Group items into 2-4 thematic sections from these categories: {', '.join(themes[language])}\n"
+            f"   - Each section should have a clear title and 2-4 sentences synthesizing the items\n"
+            f"   - Connect related items, don't just list them\n"
+            f"   - Highlight why these developments matter\n"
+            f"4. TOP_PICKS: Identify the 3-5 most important item indices (0-based) that deserve special attention\n\n"
             f"Items:\n{items_text}\n\n"
-            f"Respond with JSON: {{\"headline\": \"...\", \"lede\": \"...\", \"sections\": [{{\"title\": \"...\", \"body\": \"...\"}}]}}"
+            f"Respond with valid JSON:\n"
+            f'{{"headline": "...", "lede": "...", "sections": [{{"title": "...", "body": "..."}}], "top_picks": [0, 1, 2]}}'
         )
     
     def _parse_response(self, content: str, items: List[dict], language: str) -> Dict:
@@ -82,10 +97,19 @@ class BriefGenerator:
                 content = content.split('```')[1].split('```')[0]
             
             data = json.loads(content.strip())
+            top_picks = data.get('top_picks', [])
+            
+            if isinstance(top_picks, list) and len(top_picks) > 0:
+                top_picks = [
+                    items[i]['id'] for i in top_picks
+                    if isinstance(i, int) and 0 <= i < len(items) and 'id' in items[i]
+                ]
+            
             return {
                 f'headline_{language}': data.get('headline', ''),
                 f'lede_{language}': data.get('lede', ''),
                 f'sections_{language}': data.get('sections', []),
+                'top_picks': top_picks,
                 'item_count': len(items),
                 'source_breakdown': self._count_sources(items),
                 'generated_at': datetime.utcnow().isoformat() + 'Z'
@@ -95,11 +119,13 @@ class BriefGenerator:
             return self._fallback_brief(items, language)
     
     def _fallback_brief(self, items: List[dict], language: str) -> Dict:
+        top_picks = [item.get('id') for item in items[:3] if 'id' in item]
         if language == 'zh':
             return {
                 'headline_zh': f'今日共采集 {len(items)} 项内容',
                 'lede_zh': f'今日共采集 {len(items)} 项内容。',
                 'sections_zh': [],
+                'top_picks': top_picks,
                 'item_count': len(items),
                 'source_breakdown': self._count_sources(items),
                 'generated_at': datetime.utcnow().isoformat() + 'Z'
@@ -109,6 +135,7 @@ class BriefGenerator:
                 'headline_en': f'{len(items)} items collected today',
                 'lede_en': f'{len(items)} items collected today.',
                 'sections_en': [],
+                'top_picks': top_picks,
                 'item_count': len(items),
                 'source_breakdown': self._count_sources(items),
                 'generated_at': datetime.utcnow().isoformat() + 'Z'

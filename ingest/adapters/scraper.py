@@ -1,22 +1,42 @@
-import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 from typing import List
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 from .base import BaseAdapter, RawItem
+from utils import fetch_with_retry, parse_robots_txt, is_url_allowed, RateLimiter
 
 
 class ScraperAdapter(BaseAdapter):
+    def __init__(self, source_config: dict):
+        super().__init__(source_config)
+        self.rate_limiter = RateLimiter(default_delay=2.0)
+        self._robots_cache = {}
+    
     def fetch(self) -> List[RawItem]:
         url = self.config['url']
         selectors = self.config.get('selectors', {})
         
+        domain = urlparse(url).netloc
+        
+        if domain not in self._robots_cache:
+            self._robots_cache[domain] = parse_robots_txt(url)
+        
+        disallowed = self._robots_cache[domain]
+        
+        if not is_url_allowed(url, disallowed):
+            print(f"URL disallowed by robots.txt: {url}")
+            return []
+        
+        self.rate_limiter.wait(domain)
+        
         try:
-            response = requests.get(url, timeout=30, headers={
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-            })
-            response.raise_for_status()
+            response = fetch_with_retry(
+                url,
+                max_retries=3,
+                base_delay=2.0,
+                timeout=30
+            )
         except Exception as e:
             print(f"Scraper fetch error for {self.source_id}: {e}")
             return []
@@ -43,6 +63,9 @@ class ScraperAdapter(BaseAdapter):
                 
                 href = link_elem.get('href', '')
                 link = urljoin(url, href)
+                
+                if not is_url_allowed(link, disallowed):
+                    continue
                 
                 date_elem = element.select_one(date_selector)
                 published = self._parse_date(date_elem.get_text(strip=True) if date_elem else '')
