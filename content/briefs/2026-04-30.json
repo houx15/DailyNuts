@@ -1,0 +1,18 @@
+{
+  "date": "2026-04-30",
+  "brief_en": "OpenAI ships Agent SDK 1.0; open-source tool-use benchmarks refresh",
+  "brief_zh": "OpenAI 推出 Agent SDK 1.0，开源工具调用基准更新",
+  "headline_en": "OpenAI ships Agent SDK 1.0; open-source tool-use benchmarks refresh",
+  "headline_zh": "OpenAI 推出 Agent SDK 1.0，开源工具调用基准更新",
+  "lede_en": "Twenty-two items today. OpenAI shipped Agent SDK 1.0 with persistent sessions and workflow primitives; the open-source community is digesting a new BFCL benchmark release.",
+  "lede_zh": "今日共采集 22 项内容。OpenAI 正式发布 Agent SDK 1.0，引入持久会话与工作流编排原语；开源社区围绕新版 BFCL 基准更新讨论激烈。",
+  "sections_en": [{ "title": "Tools & Benchmarks", "body": "..." }],
+  "sections_zh": [{ "title": "工具与基准", "body": "..." }],
+  "top_picks": [],
+  "item_count": 22,
+  "source_breakdown": {
+    "openai_news": 1,
+    "arxiv": 1
+  },
+  "generated_at": "2026-04-30T12:30:00Z"
+}

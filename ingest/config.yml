@@ -1,0 +1,177 @@
+llm:
+  base_url: "https://api.openai.com/v1"
+  model: "gpt-4o-mini"
+  api_key: "${LLM_API_KEY}"
+  max_tokens: 500
+  temperature: 0.3
+
+languages:
+  - en
+  - zh
+
+schedule:
+  cron: "0 8 * * *"
+
+sources:
+  - id: openai_news
+    name: "OpenAI News"
+    name_zh: "OpenAI 新闻"
+    type: rss
+    url: "https://openai.com/news/rss.xml"
+    category: company_blog
+
+  - id: google_research
+    name: "Google Research Blog"
+    name_zh: "Google Research 博客"
+    type: rss
+    url: "https://research.google/blog/rss"
+    category: company_blog
+
+  - id: arxiv_cs_cl
+    name: "arXiv cs.CL"
+    name_zh: "arXiv 计算语言学"
+    type: arxiv
+    categories: ["cs.CL", "cs.AI", "cs.LG"]
+    keywords: ["large language model", "LLM", "agent", "reasoning",
+               "alignment", "RLHF", "instruction tuning", "RAG",
+               "multi-agent", "tool use", "code generation",
+               "chain of thought", "transformer"]
+    max_results_per_day: 30
+    category: paper
+
+  - id: hf_papers
+    name: "Hugging Face Daily Papers"
+    name_zh: "Hugging Face 每日论文"
+    type: rss
+    url: "https://papers.takara.ai/api/feed"
+    category: paper
+
+  - id: anthropic_research
+    name: "Anthropic Research"
+    name_zh: "Anthropic 研究"
+    type: rss
+    url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/refs/heads/main/feeds/anthropic/research/feed.xml"
+    category: company_blog
+
+  - id: anthropic_news
+    name: "Anthropic News"
+    name_zh: "Anthropic 新闻"
+    type: rss
+    url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/refs/heads/main/feeds/anthropic/news/feed.xml"
+    category: company_blog
+
+  - id: anthropic_engineering
+    name: "Anthropic Engineering"
+    name_zh: "Anthropic 工程"
+    type: rss
+    url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/refs/heads/main/feeds/anthropic/engineering/feed.xml"
+    category: company_blog
+
+  - id: meta_ai
+    name: "Meta AI Blog"
+    name_zh: "Meta AI 博客"
+    type: rss
+    url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/refs/heads/main/feeds/meta/ai/feed.xml"
+    category: company_blog
+
+  - id: deepmind_blog
+    name: "Google DeepMind Blog"
+    name_zh: "Google DeepMind 博客"
+    type: rss
+    url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/refs/heads/main/feeds/deepmind/blog/feed.xml"
+    category: company_blog
+
+  - id: deepseek_blog
+    name: "DeepSeek Blog"
+    name_zh: "DeepSeek 博客"
+    type: scraper
+    url: "https://www.deepseek.com/blog"
+    selectors:
+      item: ".blog-post"
+      title: ".post-title"
+      link: ".post-link"
+      date: ".post-date"
+    category: company_blog
+
+  - id: qwen_blog
+    name: "Qwen Blog"
+    name_zh: "通义千问博客"
+    type: scraper
+    url: "https://qwen.ai/blog"
+    selectors:
+      item: ".blog-card"
+      title: ".card-title"
+      link: "a"
+      date: ".card-date"
+    category: company_blog
+
+  - id: zhipu_news
+    name: "Zhipu AI"
+    name_zh: "智谱 AI"
+    type: scraper
+    url: "https://www.zhipuai.cn/"
+    selectors:
+      item: ".news-item"
+      title: ".news-title"
+      link: "a"
+      date: ".news-date"
+    category: company_blog
+
+  - id: moonshot_blog
+    name: "Moonshot AI Blog"
+    name_zh: "月之暗面博客"
+    type: scraper
+    url: "https://platform.moonshot.cn/blog"
+    selectors:
+      item: ".blog-item"
+      title: ".item-title"
+      link: "a"
+      date: ".item-date"
+    category: company_blog
+
+  - id: minimax_news
+    name: "MiniMax News"
+    name_zh: "MiniMax 新闻"
+    type: scraper
+    url: "https://www.minimaxi.com/news"
+    selectors:
+      item: ".news-card"
+      title: ".card-title"
+      link: "a"
+      date: ".card-date"
+    category: company_blog
+
+  - id: deepseek_github
+    name: "DeepSeek GitHub"
+    name_zh: "DeepSeek GitHub"
+    type: github_releases
+    repo: "deepseek-ai"
+    category: release
+
+  - id: qwen_github
+    name: "Qwen GitHub"
+    name_zh: "Qwen GitHub"
+    type: github_releases
+    repo: "QwenLM"
+    category: release
+
+  - id: thudm_github
+    name: "THUDM GitHub (ChatGLM)"
+    name_zh: "THUDM GitHub (ChatGLM)"
+    type: github_releases
+    repo: "THUDM"
+    category: release
+
+  - id: hunyuan_github
+    name: "Tencent Hunyuan GitHub"
+    name_zh: "腾讯混元 GitHub"
+    type: github_releases
+    repo: "Tencent-Hunyuan"
+    category: release
+
+  - id: moonshot_github
+    name: "Moonshot AI GitHub"
+    name_zh: "Moonshot AI GitHub"
+    type: github_releases
+    repo: "MoonshotAI"
+    category: release

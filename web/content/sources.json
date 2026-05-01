@@ -1,0 +1,155 @@
+{
+  "anthropic_research": {
+    "mono": "A",
+    "tone": "#C97B4F",
+    "name": "Anthropic Research",
+    "name_zh": "Anthropic 研究",
+    "kind": "company_blog",
+    "kind_label_en": "Research",
+    "kind_label_zh": "研究"
+  },
+  "anthropic_news": {
+    "mono": "A",
+    "tone": "#C97B4F",
+    "name": "Anthropic News",
+    "name_zh": "Anthropic 新闻",
+    "kind": "company_blog",
+    "kind_label_en": "News",
+    "kind_label_zh": "新闻"
+  },
+  "anthropic_eng": {
+    "mono": "A",
+    "tone": "#C97B4F",
+    "name": "Anthropic Engineering",
+    "name_zh": "Anthropic 工程",
+    "kind": "company_blog",
+    "kind_label_en": "Engineering",
+    "kind_label_zh": "工程"
+  },
+  "openai_news": {
+    "mono": "O",
+    "tone": "#1F8F6B",
+    "name": "OpenAI News",
+    "name_zh": "OpenAI 新闻",
+    "kind": "company_blog",
+    "kind_label_en": "News",
+    "kind_label_zh": "新闻"
+  },
+  "google_research": {
+    "mono": "G",
+    "tone": "#3F6FB8",
+    "name": "Google Research",
+    "name_zh": "Google 研究",
+    "kind": "company_blog",
+    "kind_label_en": "Research",
+    "kind_label_zh": "研究"
+  },
+  "deepmind_blog": {
+    "mono": "D",
+    "tone": "#3F6FB8",
+    "name": "DeepMind",
+    "name_zh": "DeepMind",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "meta_ai": {
+    "mono": "M",
+    "tone": "#2563A8",
+    "name": "Meta AI",
+    "name_zh": "Meta AI",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "arxiv": {
+    "mono": "arXiv",
+    "tone": "#A02B2B",
+    "name": "arXiv",
+    "name_zh": "arXiv",
+    "kind": "paper",
+    "kind_label_en": "Paper",
+    "kind_label_zh": "论文"
+  },
+  "hf_papers": {
+    "mono": "HF",
+    "tone": "#D69014",
+    "name": "HF Daily Papers",
+    "name_zh": "HF 每日论文",
+    "kind": "paper",
+    "kind_label_en": "Paper",
+    "kind_label_zh": "论文"
+  },
+  "deepseek_blog": {
+    "mono": "深",
+    "tone": "#3D5AB7",
+    "name": "DeepSeek",
+    "name_zh": "DeepSeek",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "qwen_blog": {
+    "mono": "通",
+    "tone": "#7339B0",
+    "name": "Qwen",
+    "name_zh": "通义千问",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "zhipu_news": {
+    "mono": "智",
+    "tone": "#1F7A6F",
+    "name": "Zhipu AI",
+    "name_zh": "智谱 AI",
+    "kind": "company_blog",
+    "kind_label_en": "News",
+    "kind_label_zh": "新闻"
+  },
+  "moonshot_blog": {
+    "mono": "月",
+    "tone": "#1A1A2E",
+    "name": "Moonshot",
+    "name_zh": "月之暗面",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "minimax_news": {
+    "mono": "MX",
+    "tone": "#5B3FA8",
+    "name": "MiniMax",
+    "name_zh": "MiniMax",
+    "kind": "company_blog",
+    "kind_label_en": "News",
+    "kind_label_zh": "新闻"
+  },
+  "deepseek_github": {
+    "mono": "深",
+    "tone": "#3D5AB7",
+    "name": "DeepSeek GitHub",
+    "name_zh": "DeepSeek GitHub",
+    "kind": "release",
+    "kind_label_en": "Release",
+    "kind_label_zh": "发布"
+  },
+  "qwen_github": {
+    "mono": "通",
+    "tone": "#7339B0",
+    "name": "Qwen GitHub",
+    "name_zh": "Qwen GitHub",
+    "kind": "release",
+    "kind_label_en": "Release",
+    "kind_label_zh": "发布"
+  },
+  "thudm_github": {
+    "mono": "清",
+    "tone": "#7E1D1D",
+    "name": "THUDM GitHub",
+    "name_zh": "THUDM GitHub",
+    "kind": "release",
+    "kind_label_en": "Release",
+    "kind_label_zh": "发布"
+  }
+}
