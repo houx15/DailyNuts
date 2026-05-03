@@ -46,79 +46,97 @@ sources:
     url: "https://papers.takara.ai/api/feed"
     category: paper
 
-  # - id: meta_ai
-  #   name: "Meta AI Blog"
-  #   name_zh: "Meta AI 博客"
-  #   type: rss
-  #   url: "..."
-  #   category: company_blog
+  - id: anthropic_research
+    name: "Anthropic Research"
+    name_zh: "Anthropic 研究"
+    type: rss
+    url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml"
+    category: company_blog
 
-  # - id: deepmind_blog
-  #   name: "Google DeepMind Blog"
-  #   name_zh: "Google DeepMind 博客"
-  #   type: rss
-  #   url: "..."
-  #   category: company_blog
+  - id: anthropic_news
+    name: "Anthropic News"
+    name_zh: "Anthropic 新闻"
+    type: rss
+    url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml"
+    category: company_blog
 
+  - id: anthropic_engineering
+    name: "Anthropic Engineering"
+    name_zh: "Anthropic 工程"
+    type: rss
+    url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml"
+    category: company_blog
+
+  - id: meta_ai
+    name: "Meta AI Blog"
+    name_zh: "Meta AI 博客"
+    type: rss
+    url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_ai.xml"
+    category: company_blog
+
+  # The following sites are JavaScript-rendered SPAs.
+  # BeautifulSoup cannot execute JS. To scrape these, switch to
+  # Playwright / Selenium, or use their API / sitemap if available.
+  #
   # - id: deepseek_blog
   #   name: "DeepSeek Blog"
   #   name_zh: "DeepSeek 博客"
   #   type: scraper
-  #   url: "..."
+  #   url: "https://api-docs.deepseek.com/news"
   #   selectors:
   #     item: ".blog-post"
   #     title: ".post-title"
   #     link: ".post-link"
   #     date: ".post-date"
   #   category: company_blog
-
+  #
   # - id: qwen_blog
   #   name: "Qwen Blog"
   #   name_zh: "通义千问博客"
   #   type: scraper
-  #   url: "..."
+  #   url: "https://qwen.ai/blog"
   #   selectors:
   #     item: ".blog-card"
   #     title: ".card-title"
   #     link: "a"
   #     date: ".card-date"
   #   category: company_blog
-
+  #
   # - id: zhipu_news
   #   name: "Zhipu AI"
   #   name_zh: "智谱 AI"
   #   type: scraper
-  #   url: "..."
+  #   url: "https://www.zhipuai.cn/en/news"
   #   selectors:
   #     item: ".news-item"
   #     title: ".news-title"
   #     link: "a"
   #     date: ".news-date"
   #   category: company_blog
-
-  # - id: moonshot_blog
-  #   name: "Moonshot AI Blog"
-  #   name_zh: "月之暗面博客"
-  #   type: scraper
-  #   url: "..."
-  #   selectors:
-  #     item: ".blog-item"
-  #     title: ".item-title"
-  #     link: "a"
-  #     date: ".item-date"
-  #   category: company_blog
-
+  #
   # - id: minimax_news
   #   name: "MiniMax News"
   #   name_zh: "MiniMax 新闻"
   #   type: scraper
-  #   url: "..."
+  #   url: "https://www.minimax.io/news"
   #   selectors:
   #     item: ".news-card"
   #     title: ".card-title"
   #     link: "a"
   #     date: ".card-date"
   #   category: company_blog
+
+  - id: moonshot_blog
+    name: "Moonshot AI Blog"
+    name_zh: "月之暗面博客"
+    type: scraper
+    url: "https://platform.moonshot.ai/blog"
+    selectors:
+      item: ".nx-mt-12"
+      title: "h2"
+      link: "a"
+      date: "time"
+    category: company_blog
 
   - id: deepseek_github
     name: "DeepSeek GitHub"
