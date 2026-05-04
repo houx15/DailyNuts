@@ -35,8 +35,12 @@ jobs:
   deploy:
     needs: ingest
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
@@ -47,3 +51,10 @@ jobs:
         run: |
           npm ci
           npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: web/dist
+          commit_message: "Deploy: ${{ github.event.head_commit.message || 'Daily build' }}"
