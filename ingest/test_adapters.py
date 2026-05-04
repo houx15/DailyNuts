@@ -169,8 +169,13 @@ class TestGitHubReleasesAdapter:
         assert repos == ['repo1', 'repo2']
 
     def test_fetch_releases(self):
+        from datetime import datetime, timezone
+        
         config = {'id': 'github', 'name': 'GitHub', 'repo': 'test-org'}
         adapter = GitHubReleasesAdapter(config)
+        
+        # Use today's date so the 2-day recency filter passes
+        today_str = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
         
         with patch('requests.get') as mock_get:
             mock_get.return_value = Mock(
@@ -178,7 +183,7 @@ class TestGitHubReleasesAdapter:
                     'name': 'v1.0.0',
                     'tag_name': 'v1.0.0',
                     'html_url': 'https://github.com/test-org/repo1/releases/tag/v1.0.0',
-                    'published_at': '2026-05-01T10:00:00Z',
+                    'published_at': today_str,
                     'body': 'Release notes'
                 }]),
                 raise_for_status=Mock(),
