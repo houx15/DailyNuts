@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError
 from datetime import datetime
 from typing import List, Dict
 import yaml
@@ -19,6 +20,8 @@ ADAPTER_MAP = {
     'arxiv': ArxivAdapter,
     'github_releases': GitHubReleasesAdapter,
 }
+
+ADAPTER_TIMEOUT = 120  # seconds per source
 
 
 def load_config(path: str = None) -> dict:
@@ -43,7 +46,14 @@ def run_adapters(config: dict) -> List[dict]:
         
         try:
             adapter = adapter_class(source_config)
-            raw_items = adapter.fetch()
+            
+            with ThreadPoolExecutor(max_workers=1) as executor:
+                future = executor.submit(adapter.fetch)
+                try:
+                    raw_items = future.result(timeout=ADAPTER_TIMEOUT)
+                except FuturesTimeoutError:
+                    print(f"Timeout fetching from {source_id} (>{ADAPTER_TIMEOUT}s), skipping")
+                    continue
             
             for item in raw_items:
                 all_items.append({
