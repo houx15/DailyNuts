@@ -20,7 +20,9 @@ jobs:
 
       - name: Run ingest pipeline
         env:
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python ingest/main.py
 

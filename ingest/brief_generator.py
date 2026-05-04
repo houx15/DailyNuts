@@ -14,9 +14,14 @@ class BriefGenerator:
     def _init_client(self):
         try:
             import openai
+            base_url = os.environ.get('LLM_BASE_URL', self.config.get('base_url', 'https://api.openai.com/v1'))
+            api_key = os.environ.get('LLM_API_KEY', '')
+            if not api_key:
+                print("LLM_API_KEY not set, brief generation will be skipped")
+                return
             self.client = openai.OpenAI(
-                base_url=self.config['base_url'],
-                api_key=os.environ.get('LLM_API_KEY', self.config.get('api_key', ''))
+                base_url=base_url,
+                api_key=api_key
             )
         except ImportError:
             print("openai package not installed, brief generation will be skipped")
@@ -30,7 +35,7 @@ class BriefGenerator:
         for attempt in range(3):
             try:
                 response = self.client.chat.completions.create(
-                    model=self.config['model'],
+                    model=os.environ.get('LLM_MODEL', self.config.get('model', 'gpt-4o-mini')),
                     messages=[
                         {"role": "system", "content": self._system_prompt(language)},
                         {"role": "user", "content": prompt}
