@@ -125,6 +125,44 @@ DailyNuts/
     └── sources.json       # 来源元数据
 ```
 
+## 部署
+
+### 推荐方案：Vercel
+
+1. 将此仓库导入 [Vercel](https://vercel.com) — 自动识别 Next.js 项目
+2. 无需配置环境变量（内容 JSON 存放在仓库中）
+3. 完成。每次推送至 `main` 分支即自动重建
+
+**自动触发流程：**
+
+```
+GitHub Actions（每日 08:00 UTC）
+    → 采集内容，提交并推送至 main 分支
+    → Vercel 检测到推送 → 自动使用最新内容重建网站
+```
+
+无需人工干预——流水线和部署完全自动化运行。
+
+### 替代方案：GitHub Pages
+
+如需零成本托管，可使用 `daily-ingest.yml` 中已有的 `deploy` 任务：
+
+```yaml
+deploy:
+  needs: ingest
+  steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+    - run: npm ci && npm run build
+      working-directory: web
+    - uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: web/out
+```
+
+在仓库 Settings → Pages 中启用，Source 设置为 `gh-pages` 分支。
+
 ## 许可
 
 MIT 许可证
