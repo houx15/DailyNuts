@@ -131,7 +131,6 @@ sources:
     name_zh: "月之暗面博客"
     type: scraper
     url: "https://platform.moonshot.ai/blog"
-    category: company_blog
     selectors:
       item: ".post-item"
       title: "h3"

@@ -145,23 +145,16 @@ GitHub Actions（每日 08:00 UTC）
 
 ### 替代方案：GitHub Pages
 
-如需零成本托管，可使用 `daily-ingest.yml` 中已有的 `deploy` 任务：
+如需零成本托管，`daily-ingest.yml` 中的 `deploy` 任务可在每次采集完成后自动发布到 GitHub Pages。
 
-```yaml
-deploy:
-  needs: ingest
-  steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-    - run: npm ci && npm run build
-      working-directory: web
-    - uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: web/out
-```
+在仓库 Settings → Pages → Source 中选择 "Deploy from a branch"，分支选择 `gh-pages`（根目录）。
+网站将部署在 `https://houx15.github.io/DailyNuts/`。
 
-在仓库 Settings → Pages 中启用，Source 设置为 `gh-pages` 分支。
+首次部署步骤：
+1. 进入仓库 Settings → Secrets and variables → Actions，添加密钥：
+   - `LLM_API_KEY` — OpenAI 兼容的 API 密钥，用于 LLM 摘要生成
+   - `GITHUB_TOKEN` — 已通过 `${{ secrets.GITHUB_TOKEN }}` 自动提供
+2. 进入 Actions 标签页 → Daily Ingest → Run workflow 手动触发首次部署
 
 ## 许可
 

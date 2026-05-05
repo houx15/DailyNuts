@@ -145,23 +145,16 @@ No manual intervention — the pipeline and deployment run fully unattended.
 
 ### Alternative: GitHub Pages
 
-For zero-cost hosting, use the existing `deploy` job in `daily-ingest.yml`:
+For zero-cost hosting, the `deploy` job in `daily-ingest.yml` publishes to GitHub Pages automatically after each ingest run.
 
-```yaml
-deploy:
-  needs: ingest
-  steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-    - run: npm ci && npm run build
-      working-directory: web
-    - uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: web/out
-```
+Enable GitHub Pages in repo Settings → Pages → Source: "Deploy from a branch" → Branch: `gh-pages` (root).
+The site will be available at `https://houx15.github.io/DailyNuts/`.
 
-Enable GitHub Pages in repo Settings → Source: `gh-pages` branch.
+First-time setup:
+1. Go to repo Settings → Secrets and variables → Actions → add secrets:
+   - `LLM_API_KEY` — your OpenAI-compatible API key for LLM summarization
+   - `GITHUB_TOKEN` — already available as `${{ secrets.GITHUB_TOKEN }}`
+2. Go to Actions tab → Daily Ingest → Run workflow to trigger the first deploy
 
 ## License
 
