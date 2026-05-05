@@ -87,6 +87,45 @@ def deduplicate_items(items: List[dict]) -> List[dict]:
     return unique
 
 
+def get_recent_urls(content_dir: str = '../content', lookback_days: int = 7) -> set:
+    """Load URLs from recent item files to avoid cross-day repeats."""
+    from datetime import datetime as dt, timedelta
+    
+    urls = set()
+    today = dt.utcnow().date()
+    
+    for i in range(1, lookback_days + 1):
+        date_str = (today - timedelta(days=i)).strftime('%Y-%m-%d')
+        filepath = f'{content_dir}/items/{date_str}.json'
+        if os.path.exists(filepath):
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    for item in data.get('items', []):
+                        if 'url' in item:
+                            urls.add(item['url'])
+            except Exception as e:
+                print(f"Error reading {filepath}: {e}")
+    
+    if urls:
+        print(f"Loaded {len(urls)} recent URLs for cross-day dedup")
+    return urls
+
+
+def filter_repeat_items(items: List[dict], recent_urls: set) -> List[dict]:
+    fresh = []
+    skipped = 0
+    for item in items:
+        if item['url'] in recent_urls:
+            skipped += 1
+        else:
+            fresh.append(item)
+    
+    if skipped > 0:
+        print(f"Skipped {skipped} items already seen in previous days")
+    return fresh
+
+
 def summarize_items(items: List[dict], summarizer: Summarizer, languages: List[str]) -> List[dict]:
     for item in items:
         for lang in languages:
@@ -145,7 +184,12 @@ def main():
     items = run_adapters(config)
     items = deduplicate_items(items)
     
-    print(f"Total unique items: {len(items)}")
+    print(f"Total unique items (same-day): {len(items)}")
+    
+    recent_urls = get_recent_urls()
+    items = filter_repeat_items(items, recent_urls)
+    
+    print(f"Items after cross-day dedup: {len(items)}")
     
     llm_config = config.get('llm', {})
     summarizer = Summarizer(llm_config)
