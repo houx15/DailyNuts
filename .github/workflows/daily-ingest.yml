@@ -51,6 +51,8 @@ jobs:
 
       - name: Build Next.js
         working-directory: web
+        env:
+          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH || '/DailyNuts' }}
         run: |
           npm ci
           npm run build
