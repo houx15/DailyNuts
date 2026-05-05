@@ -1,17 +1,9 @@
 import feedparser
-from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError
 from datetime import datetime
 from typing import List
 
 from .base import BaseAdapter, RawItem
 from utils import fetch_with_retry
-
-
-FEEDPARSE_TIMEOUT = 30  # seconds for feed parsing
-
-
-def _parse_feed(content):
-    return feedparser.parse(content)
 
 
 class RSSAdapter(BaseAdapter):
@@ -27,17 +19,15 @@ class RSSAdapter(BaseAdapter):
                     timeout=30,
                     headers={'User-Agent': 'DailyNuts-Bot/1.0'}
                 )
-                with ThreadPoolExecutor(max_workers=1) as executor:
-                    future = executor.submit(_parse_feed, response.content)
-                    try:
-                        feed = future.result(timeout=FEEDPARSE_TIMEOUT)
-                    except FuturesTimeoutError:
-                        print(f"Feed parse timeout for {self.source_id}, skipping")
-                        return []
+                feed = feedparser.parse(response.content)
             else:
                 feed = feedparser.parse(url)
         except Exception as e:
             print(f"RSS fetch error for {self.source_id}: {e}")
+            return []
+        
+        if len(feed.entries) == 0:
+            print(f"WARNING: Feed for {self.source_id} returned 0 entries. URL may have changed or be blocked: {url}")
             return []
         
         items = []

@@ -43,7 +43,7 @@ sources:
     name: "Hugging Face Daily Papers"
     name_zh: "Hugging Face 每日论文"
     type: rss
-    url: "https://papers.takara.ai/api/feed"
+    url: "https://tldr.takara.ai/api/papers"
     category: paper
 
   - id: anthropic_research
@@ -127,13 +127,14 @@ sources:
   #   category: company_blog
 
   - id: moonshot_blog
-    name: "Moonshot AI Blog"
+    name: "Moonshot Blog"
     name_zh: "月之暗面博客"
     type: scraper
     url: "https://platform.moonshot.ai/blog"
+    category: company_blog
     selectors:
-      item: ".nx-mt-12"
-      title: "h2"
+      item: ".post-item"
+      title: "h3"
       link: "a"
       date: "time"
     category: company_blog

@@ -22,13 +22,16 @@ class ArxivAdapter(BaseAdapter):
     def _fetch_arxiv(self, categories: List[str], keywords: List[str], max_results: int) -> List[RawItem]:
         cat_query = ' OR '.join(f'cat:{cat}' for cat in categories)
         url = (
-            f"http://export.arxiv.org/api/query?"
+            f"https://export.arxiv.org/api/query?"
             f"search_query={cat_query}&"
             f"start=0&max_results={max_results}&"
             f"sortBy=submittedDate&sortOrder=descending"
         )
         
-        response = fetch_with_retry(url, max_retries=3, base_delay=3.0, timeout=60)
+        response = fetch_with_retry(
+            url, max_retries=3, base_delay=3.0, timeout=60,
+            headers={'Accept': 'application/atom+xml'}
+        )
         
         root = ET.fromstring(response.content)
         ns = {'atom': 'http://www.w3.org/2005/Atom'}

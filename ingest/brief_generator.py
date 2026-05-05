@@ -119,9 +119,9 @@ class BriefGenerator:
                 'source_breakdown': self._count_sources(items),
                 'generated_at': datetime.utcnow().isoformat() + 'Z'
             }
-        except Exception as e:
+        except (json.JSONDecodeError, KeyError, IndexError) as e:
             print(f"Error parsing brief response: {e}")
-            return self._fallback_brief(items, language)
+            raise  # let retry loop handle it
     
     def _fallback_brief(self, items: List[dict], language: str) -> Dict:
         top_picks = [item.get('id') for item in items[:3] if 'id' in item]
