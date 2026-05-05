@@ -241,9 +241,9 @@ class TestBriefGenerator:
         generator = BriefGenerator(config)
         
         items = [
-            {'source_id': 'source_a'},
-            {'source_id': 'source_a'},
-            {'source_id': 'source_b'}
+            {'source': 'source_a'},
+            {'source': 'source_a'},
+            {'source': 'source_b'}
         ]
         counts = generator._count_sources(items)
         

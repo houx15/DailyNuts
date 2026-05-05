@@ -67,7 +67,7 @@ class BriefGenerator:
             {
                 "title": item.get(f'title_{language}', item.get('title_en', '')),
                 "summary": item.get(f'summary_{language}', item.get('summary_en', '')),
-                "source": item.get('source_id', ''),
+                "source": item.get('source', ''),
                 "theme": item.get('theme', 'other')
             }
             for item in items[:50]
@@ -149,6 +149,6 @@ class BriefGenerator:
     def _count_sources(self, items: List[dict]) -> Dict[str, int]:
         counts = {}
         for item in items:
-            source = item.get('source_id', 'unknown')
+            source = item.get('source', 'unknown')
             counts[source] = counts.get(source, 0) + 1
         return counts

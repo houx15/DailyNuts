@@ -173,6 +173,102 @@ def save_brief(brief: dict, date: str, content_dir: str = '../content'):
     print(f"Saved brief to {filepath}")
 
 
+THEME_MAP = {
+    'company_blog': 'apps',
+    'paper': 'arch',
+    'release': 'release',
+}
+
+CATEGORIES_EN_MAP = {
+    'company_blog': ['Industry'],
+    'paper': ['Research'],
+    'release': ['Release'],
+}
+CATEGORIES_ZH_MAP = {
+    'company_blog': ['业界'],
+    'paper': ['研究'],
+    'release': ['发布'],
+}
+
+
+def normalize_item(item: dict, source_config: dict) -> dict:
+    normalized = dict(item)
+    
+    normalized['source'] = normalized.pop('source_id', 'unknown')
+    
+    lang = item.get('original_language', 'en')
+    if lang == 'zh':
+        normalized['title_zh'] = item.get('title', '')
+        normalized['title_en'] = item.get('title_en', '')
+    else:
+        normalized['title_en'] = item.get('title', '')
+        normalized['title_zh'] = item.get('title_zh', '')
+    
+    category = source_config.get('category', 'company_blog')
+    normalized['theme'] = source_config.get('theme', THEME_MAP.get(category, 'other'))
+    
+    normalized.setdefault('categories_en', CATEGORIES_EN_MAP.get(category, ['Other']))
+    normalized.setdefault('categories_zh', CATEGORIES_ZH_MAP.get(category, ['其他']))
+    
+    normalized.pop('original_summary', None)
+    normalized.pop('authors', None)
+    normalized.pop('extra', None)
+    
+    return normalized
+
+
+def generate_sources(config: dict, content_dir: str = '../content') -> dict:
+    sources = {}
+    for src in config.get('sources', []):
+        sid = src['id']
+        category = src.get('category', 'company_blog')
+        
+        kind_labels = {
+            'company_blog': {'en': 'Blog', 'zh': '博客'},
+            'paper': {'en': 'Paper', 'zh': '论文'},
+            'release': {'en': 'Release', 'zh': '发布'},
+        }
+        labels = kind_labels.get(category, {'en': 'Other', 'zh': '其他'})
+        
+        sources[sid] = {
+            'mono': src.get('name', src['id'])[0].upper(),
+            'tone': src.get('color', DEFAULT_COLORS.get(sid, '#888888')),
+            'name': src.get('name', sid),
+            'name_zh': src.get('name_zh', src.get('name', sid)),
+            'kind': category,
+            'kind_label_en': src.get('kind_label_en', labels['en']),
+            'kind_label_zh': src.get('kind_label_zh', labels['zh']),
+        }
+    
+    os.makedirs(f'{content_dir}', exist_ok=True)
+    filepath = f'{content_dir}/sources.json'
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(sources, f, ensure_ascii=False, indent=2)
+    
+    print(f"Saved sources.json with {len(sources)} sources")
+    return sources
+
+
+DEFAULT_COLORS = {
+    'openai_news': '#1F8F6B',
+    'anthropic_research': '#C97B4F',
+    'anthropic_news': '#C97B4F',
+    'anthropic_engineering': '#C97B4F',
+    'anthropic_eng': '#C97B4F',
+    'google_research': '#3F6FB8',
+    'meta_ai': '#2563A8',
+    'arxiv_cs_cl': '#A02B2B',
+    'hf_papers': '#D69014',
+    'deepseek_github': '#3D5AB7',
+    'qwen_github': '#7339B0',
+    'thudm_github': '#7E1D1D',
+    'moonshot_blog': '#1A1A2E',
+    'moonshot_github': '#1A1A2E',
+    'hunyuan_github': '#5B3FA8',
+    'zhipu_news': '#1F7A6F',
+}
+
+
 def main():
     config = load_config()
     
@@ -194,6 +290,14 @@ def main():
     llm_config = config.get('llm', {})
     summarizer = Summarizer(llm_config)
     items = summarize_items(items, summarizer, languages)
+    
+    source_by_id = {s['id']: s for s in config.get('sources', [])}
+    items = [
+        normalize_item(item, source_by_id.get(item.get('source_id', ''), {}))
+        for item in items
+    ]
+    
+    generate_sources(config)
     
     generator = BriefGenerator(llm_config)
     brief = generate_briefs(items, generator, languages)
