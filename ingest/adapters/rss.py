@@ -1,5 +1,5 @@
 import feedparser
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from typing import List
 
 from .base import BaseAdapter, RawItem
@@ -9,6 +9,8 @@ from utils import fetch_with_retry
 class RSSAdapter(BaseAdapter):
     def fetch(self) -> List[RawItem]:
         url = self.config['url']
+        max_age_days = self.config.get('max_age_days', 2)
+        cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
         
         try:
             if url.startswith('http'):
@@ -31,18 +33,24 @@ class RSSAdapter(BaseAdapter):
             return []
         
         items = []
+        skipped = 0
         for entry in feed.entries:
             try:
-                item = self._parse_entry(entry)
+                item = self._parse_entry(entry, cutoff)
                 if item:
                     items.append(item)
+                else:
+                    skipped += 1
             except Exception as e:
                 print(f"Error parsing entry from {self.source_id}: {e}")
                 continue
         
+        if skipped > 0:
+            print(f"Filtered {skipped} items older than {max_age_days}d from {self.source_id}")
+        
         return items
     
-    def _parse_entry(self, entry) -> RawItem:
+    def _parse_entry(self, entry, cutoff=None) -> RawItem:
         title = entry.get('title', '').strip()
         link = entry.get('link', '')
         
@@ -50,6 +58,10 @@ class RSSAdapter(BaseAdapter):
             return None
         
         published = self._parse_date(entry)
+        
+        if cutoff and published.replace(tzinfo=timezone.utc) < cutoff:
+            return None
+        
         summary = entry.get('summary', '') or entry.get('description', '')
         
         return self._make_item(
