@@ -56,7 +56,7 @@ export interface SourcesData {
   [key: string]: Source
 }
 
-const CONTENT_DIR = path.join(/*turbopackIgnore: true*/ process.cwd(), 'content')
+const CONTENT_DIR = path.join(/*turbopackIgnore: true*/ process.cwd(), '..', 'content')
 
 export function getItems(date: string): ItemsData {
   try {
