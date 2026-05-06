@@ -14,6 +14,10 @@ from summarizer import Summarizer
 from brief_generator import BriefGenerator
 
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CONTENT_DIR = os.path.join(BASE_DIR, '..', 'content')
+
+
 ADAPTER_MAP = {
     'rss': RSSAdapter,
     'scraper': ScraperAdapter,
@@ -87,7 +91,7 @@ def deduplicate_items(items: List[dict]) -> List[dict]:
     return unique
 
 
-def get_recent_urls(content_dir: str = '../content', lookback_days: int = 7) -> set:
+def get_recent_urls(content_dir: str = CONTENT_DIR, lookback_days: int = 7) -> set:
     """Load URLs from recent item files to avoid cross-day repeats."""
     from datetime import datetime as dt, timedelta
     
@@ -153,7 +157,7 @@ def generate_briefs(items: List[dict], generator: BriefGenerator, languages: Lis
     return brief
 
 
-def save_items(items: List[dict], date: str, content_dir: str = '../content'):
+def save_items(items: List[dict], date: str, content_dir: str = CONTENT_DIR):
     os.makedirs(f'{content_dir}/items', exist_ok=True)
     
     filepath = f'{content_dir}/items/{date}.json'
@@ -163,7 +167,7 @@ def save_items(items: List[dict], date: str, content_dir: str = '../content'):
     print(f"Saved {len(items)} items to {filepath}")
 
 
-def save_brief(brief: dict, date: str, content_dir: str = '../content'):
+def save_brief(brief: dict, date: str, content_dir: str = CONTENT_DIR):
     os.makedirs(f'{content_dir}/briefs', exist_ok=True)
     
     filepath = f'{content_dir}/briefs/{date}.json'
@@ -217,7 +221,7 @@ def normalize_item(item: dict, source_config: dict) -> dict:
     return normalized
 
 
-def generate_sources(config: dict, content_dir: str = '../content') -> dict:
+def generate_sources(config: dict, content_dir: str = CONTENT_DIR) -> dict:
     sources = {}
     for src in config.get('sources', []):
         sid = src['id']
