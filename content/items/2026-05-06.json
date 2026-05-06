@@ -1,0 +1,708 @@
+{
+  "date": "2026-05-06",
+  "items": [
+    {
+      "id": 3455765063,
+      "url": "http://arxiv.org/abs/2605.04039v1",
+      "title": "Safety and accuracy follow different scaling laws in clinical large language models",
+      "published_at": "2026-05-05T17:57:19+00:00",
+      "original_language": "en",
+      "summary_en": "The work addresses the flawed assumption that scaling clinical large language models for higher accuracy (via larger size, longer context, or better retrieval) automatically improves safety. Using the SaFE-Scale framework and a new radiology benchmark (RadSaFE-200), the authors demonstrate that safety and accuracy follow distinct scaling laws—while accuracy often improves with scale, safety can degrade, with models producing more confident, high-risk, or evidence-contradicting errors. This finding is critical for medical deployment, showing that safety must be independently evaluated and optimized, not simply inferred from accuracy gains.",
+      "summary_zh": "该研究针对临床大语言模型中“高准确率即等同于高安全性”这一不完整假设，通过提出SaFE-Scale框架与放射学安全基准RadSaFE-200，系统揭示了安全性与准确性在模型规模、证据质量等维度上遵循不同的缩放规律。研究发现，即便模型精度提升，自信的高风险错误和证据矛盾仍可能存在，这强调了医疗AI评估必须独立考察安全性，以避免忽视少数但后果严重的失误。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Safety and accuracy follow different scaling laws in clinical large language models",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 813866101,
+      "url": "http://arxiv.org/abs/2605.04036v1",
+      "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+      "published_at": "2026-05-05T17:55:25+00:00",
+      "original_language": "en",
+      "summary_en": "A simple supervised fine-tuning approach with carefully designed, high-difficulty data—achieved by scaling knowledge graphs, expanding tools, and filtering low-step trajectories—enables the 30B OpenSeeker-v2 agent to reach state-of-the-art search performance across multiple benchmarks, rivaling resource-intensive industry pipelines. This work demonstrates that efficient data synthesis, rather than massive multi-stage training, can produce frontier search agents with just 10.6k training examples, making advanced search capabilities more accessible.",
+      "summary_zh": "针对大语言模型搜索智能体训练资源消耗大、被工业巨头垄断的问题，OpenSeeker-v2 展示了仅用监督微调（SFT）结合高质量、高难度轨迹即可取得突破性效果。通过扩大知识图谱、扩展工具集和严格低步数过滤这三种简单数据合成方式，仅用 10.6k 数据训练的 30B 模型在多项基准上达到最优，证明了数据驱动策略在低成本下也能推动前沿搜索能力的进步。",
+      "source": "arxiv_cs_cl",
+      "title_en": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2378268988,
+      "url": "http://arxiv.org/abs/2605.04019v1",
+      "title": "Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours",
+      "published_at": "2026-05-05T17:43:52+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the slow, manual process of AI red teaming, where operators waste weeks reassembling attack workflows instead of probing vulnerabilities. It presents an agentic red teaming tool that interprets natural language goals and automatically constructs workflows from a vast library of attacks, transforms, and scorers, compressing the task from weeks to hours. This shift enables rapid, scalable security and safety testing of complex AI systems in critical domains, letting red teamers focus on what to probe rather than how.",
+      "summary_zh": "现有AI红队测试依赖手工拼凑攻击流程，往往耗费数周时间且难以复用。本研究提出基于Dreadnode SDK的智能红队代理，利用45+攻击、450+变换和130+评分器的预置组件，让操作员通过自然语言描述目标，自动构建并执行探测，将红队评估从数周缩短至数小时。该方法显著提升了多智能体、多语言及多模态系统安全漏洞的发现效率，使防御者能专注于“测什么”而非“如何测”。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3257605063,
+      "url": "http://arxiv.org/abs/2605.04018v1",
+      "title": "Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems",
+      "published_at": "2026-05-05T17:42:50+00:00",
+      "original_language": "en",
+      "summary_en": "This work tackles the gap in evaluating and training retrievers for reasoning-intensive agentic search, where systems must gather complementary evidence iteratively rather than just topically relevant passages. It introduces BRIGHT-Pro, an expert-annotated benchmark with multi-aspect gold evidence and agentic search protocols, and RTriever-Synth, a synthetic corpus that generates aspect-decomposed positives and hard negatives to fine-tune a model (RTriever-4B). This matters because it provides more realistic assessment and targeted training for retrievers that support complex, multi-step reasoning, moving beyond single-passage relevance.",
+      "summary_zh": "本文针对推理密集型检索在智能体搜索系统中评估与训练不足的问题，提出了专家标注的基准 BRIGHT-Pro 和方面分解的合成训练语料 RTriever-Synth，从而能更全面地评估检索器在静态与迭代搜索协议下的证据构建能力。关键发现是，利用该合成数据微调得到的 RTriever-4B 模型能有效生成互补证据组合，这对支撑下游推理和提升智能体系统的多步搜索合成效果具有重要意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1922986226,
+      "url": "http://arxiv.org/abs/2605.04013v1",
+      "title": "Conditional Diffusion Sampling",
+      "published_at": "2026-05-05T17:36:29+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the challenge of efficiently sampling from unnormalized multimodal distributions when density evaluations are limited. It introduces Conditional Diffusion Sampling (CDS), a framework that merges parallel tempering with diffusion-based transport using closed-form, neural-free stochastic processes. This approach provides a computationally efficient, principled sampling method without the burden of neural training, advancing simulation tools for machine learning and the natural sciences.",
+      "summary_zh": "条件扩散采样（CDS）旨在解决从未归一化多模态分布中高效采样且密度评估次数有限这一难题。其核心是结合并行回火与扩散模型，推导出“条件插值过程”，该过程的动力学由精确的闭式随机微分方程驱动，无需神经网络训练，从而避免了近似误差。CDS通过两阶段策略（先初始化再短时扩散）实现采样，理论证明随着扩散时间缩短，初始化成本可忽略，这为复杂分布采样提供了一种兼具精确性与计算效率的连续框架，突破了传统方法的局限。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Conditional Diffusion Sampling",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3198907214,
+      "url": "http://arxiv.org/abs/2605.04012v1",
+      "title": "SymptomAI: Towards a Conversational AI Agent for Everyday Symptom Assessment",
+      "published_at": "2026-05-05T17:36:12+00:00",
+      "original_language": "en",
+      "summary_en": "SymptomAI tackles the lack of real-world evaluation for conversational AI in symptom assessment by running a large randomized trial through the Fitbit app, where over 13,000 participants interacted with AI agents for end-to-end interviewing and differential diagnosis. The key finding was that SymptomAI's diagnoses were significantly more accurate than those from independent clinicians given the same dialogues (OR=2.47), demonstrating its effectiveness in everyday, low-context symptom reporting. This matters because it shows language models can outperform clinicians in realistic primary-care-like settings, potentially improving access to accurate preliminary assessments outside curated clinical vignettes.",
+      "summary_zh": "该研究解决了现有语言模型在复杂诊疗案例中表现良好，但缺乏对真实日常症状报告场景评估的问题。通过在Fitbit应用中部署SymptomAI进行大规模随机对照试验（N=13,917），收集了真实世界人群的对话数据，并发现其鉴别诊断准确率显著优于独立临床医生（OR=2.47）。这一发现表明，对话式AI在基于日常自述症状的初步评估中具有重要应用价值，有望辅助甚至超越人类医生的诊断水平。",
+      "source": "arxiv_cs_cl",
+      "title_en": "SymptomAI: Towards a Conversational AI Agent for Everyday Symptom Assessment",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4000992250,
+      "url": "http://arxiv.org/abs/2605.04003v1",
+      "title": "Physics-Grounded Multi-Agent Architecture for Traceable, Risk-Aware Human-AI Decision Support in Manufacturing",
+      "published_at": "2026-05-05T17:24:53+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the inability of off-the-shelf LLMs to reliably execute risk-constrained numerical workflows with auditable provenance for high-precision machining of aerospace components. It proposes MAKA, a multi-agent architecture that physically grounds decision support by separating intent routing, tools-only quantitative analysis, knowledge graph retrieval, and critic-based verification before human approval, demonstrated on a Ti-6Al-4V rotor blade testbed fusing simulation, inspection, and process data. This matters because it ensures traceable, safety-bounded human-AI collaboration in manufacturing, where physical plausibility and decision accountability are critical.",
+      "summary_zh": "针对大型语言模型在制造业高风险决策中无法可靠执行数值流程且缺乏可审计溯源的问题，MAKA架构通过多智能体分工（意图路由、工具定量分析、知识图谱与合规验证）强制融入物理合理性、安全约束与溯源完整性。在钛合金叶片加工实例中，该方法融合仿真与检测数据生成可追溯的证据链，确保补偿建议在人工审批前既风险可控又物理可行，为精密制造中人机协同决策提供了关键信任基础。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Physics-Grounded Multi-Agent Architecture for Traceable, Risk-Aware Human-AI Decision Support in Manufacturing",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1172311157,
+      "url": "http://arxiv.org/abs/2605.03998v1",
+      "title": "EQUITRIAGE: A Fairness Audit of Gender Bias in LLM-Based Emergency Department Triage",
+      "published_at": "2026-05-05T17:20:55+00:00",
+      "original_language": "en",
+      "summary_en": "EQUITRIAGE audits gender bias in LLM-based emergency department triage by evaluating five models on 374,275 assessments of clinical vignettes paired with gender-swapped counterfactuals, revealing that all models exceeded a 5% flip-rate threshold (up to 43.8%) with some displaying directional female undertriage. The findings, including a model whose gender bias coexisted with poor outcome calibration, highlight that LLMs can reproduce or introduce triage disparities. This matters for hospitals piloting these systems, as it demonstrates that rigorous fairness testing is essential to avoid automating and amplifying known human biases in patient acuity scoring.",
+      "summary_zh": "该研究针对急诊分诊中已知的性别差异，审计了五种大语言模型在决策支持中是否复现或缓解偏倚。通过对一万八千余份临床案例及其性别交换版本的大规模评估，发现所有模型的分诊等级翻转率均超过预设的5%阈值，其中两个模型还表现出定向的女性低估病情严重度倾向。这一结果警示在将大语言模型部署于高风险临床场景前，必须对其公平性进行严格审计，以防固化甚至放大现有的人类偏见。",
+      "source": "arxiv_cs_cl",
+      "title_en": "EQUITRIAGE: A Fairness Audit of Gender Bias in LLM-Based Emergency Department Triage",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 209169151,
+      "url": "http://arxiv.org/abs/2605.03989v1",
+      "title": "An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration",
+      "published_at": "2026-05-05T17:10:25+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the problem that a single retrieval pipeline often fails to meet the diverse needs of heterogeneous tasks like factoid QA, multi-hop reasoning, and scientific verification. The key approach is Experience-RAG Skill, a pluggable agent layer that dynamically selects retrieval strategies by analyzing the query and consulting an experience memory. It achieves strong retrieval performance across multiple benchmarks, showing that retrieval orchestration can be effectively modularized as a reusable agent skill rather than hard-coded into workflows.",
+      "summary_zh": "针对检索增强生成系统在不同任务中需适配多样检索策略的挑战，本文提出可插拔的代理技能 Experience-RAG，它通过分析场景、参考经验记忆动态编排检索策略，从而为代理提供结构化证据。在多个基准上，该方法以固定候选池取得顶尖 nDCG@10 成绩，优于固定检索器并与自适应路由方案相媲美，表明将检索策略选择封装为可重用代理技能，比在顶层工作流中硬编码更有效。",
+      "source": "arxiv_cs_cl",
+      "title_en": "An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3184968997,
+      "url": "http://arxiv.org/abs/2605.03986v1",
+      "title": "From Intent to Execution: Composing Agentic Workflows with Agent Recommendation",
+      "published_at": "2026-05-05T17:08:26+00:00",
+      "original_language": "en",
+      "summary_en": "This paper tackles the manual and complex process of building multi-agent systems by introducing an automated framework that composes plans, selects agents, and generates execution workflows. It uses an LLM-based planner, a dynamic task graph, and a two-stage agent recommender (fast retrieval plus LLM re-ranking) to match tasks to the best agents. This automation streamlines the creation of intent-driven applications, reducing human effort and scaling multi-agent system design.",
+      "summary_zh": "该研究解决了当前多智能体系统构建中需手动设计规划、选择智能体及生成执行图的问题，提出一种自动化框架，通过LLM规划器、任务编排器和基于两阶段检索重排的智能体推荐机制，实现了从意图到执行流程的自动组合。这一方法显著降低了人工设计成本，提升了利用智能体构建复杂应用的效率和适应性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "From Intent to Execution: Composing Agentic Workflows with Agent Recommendation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1938498870,
+      "url": "http://arxiv.org/abs/2605.03971v1",
+      "title": "Logical Consistency as a Bridge: Improving LLM Hallucination Detection via Label Constraint Modeling between Responses and Self-Judgments",
+      "published_at": "2026-05-05T16:53:20+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles LLM factual hallucinations by bridging the gap between isolated neural uncertainty patterns and explicit self-judgments. It introduces LaaB, a framework that uses a meta-judgment process to map symbolic labels back to neural features, aligning them through the logical consistency between response and judgment labels. This unified approach improves hallucination detection by exploiting the interdependence of both signal types, leading to more reliable and robust AI systems.",
+      "summary_zh": "该论文针对大语言模型容易产生事实性幻觉的问题，指出已有检测方法孤立地处理隐式神经不确定性和显式符号推理，忽略了二者的相互依赖。提出的LaaB框架通过“元判断”将符号标签映射回特征空间，并利用响应标签与自我判断标签基于语义一致或相反的逻辑约束，桥接神经特征与符号推理，从而融合双重信号实现更全面的幻觉检测。这一方法为提升大模型在实际应用中的可靠性提供了新的统一视角。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Logical Consistency as a Bridge: Improving LLM Hallucination Detection via Label Constraint Modeling between Responses and Self-Judgments",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1896601880,
+      "url": "http://arxiv.org/abs/2605.03969v1",
+      "title": "Feature-Augmented Transformers for Robust AI-Text Detection Across Domains and Generators",
+      "published_at": "2026-05-05T16:52:26+00:00",
+      "original_language": "en",
+      "summary_en": "This paper addresses the brittleness of AI-generated text detectors under distribution shifts across different domains and generators. It proposes feature-augmented transformers that use attention-based fusion of linguistic features, which significantly improves cross-dataset transfer performance—achieving 85.9% balanced accuracy on the M4 benchmark compared to baseline models' near-ceiling in-domain but fragile out-of-domain results. This matters because it offers a more robust, fixed-threshold detection approach that can generalize without per-distribution recalibration, a key requirement for real-world deployment.",
+      "summary_zh": "该研究针对AI生成文本检测在不同领域和生成模型间的鲁棒性不足问题，提出特征增强的Transformer方法，通过注意力机制融合语言特征提升跨分布迁移能力。实验表明，固定阈值下基础模型在分布偏移时表现脆弱，而最佳模型DeBERTa-v3-base+FeatAttn在M4基准上达到85.9%的平衡准确率，验证了特征增强对提升检测鲁棒性的重要作用。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Feature-Augmented Transformers for Robust AI-Text Detection Across Domains and Generators",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1703871470,
+      "url": "http://arxiv.org/abs/2605.03968v1",
+      "title": "Label-Efficient School Detection from Aerial Imagery via Weakly Supervised Pretraining and Fine-Tuning",
+      "published_at": "2026-05-05T16:51:28+00:00",
+      "original_language": "en",
+      "summary_en": "This work addresses the challenge of detecting schools in regions with scarce manual annotations by proposing a weakly supervised framework that automatically generates bounding box labels from sparse location points and semantic segmentation. The detectors are pretrained on these synthetic labels to learn school-like features, then fine-tuned on the few available manual annotations, enabling label-efficient and scalable mapping. This approach significantly reduces annotation effort, making it practical for global education infrastructure planning and internet connectivity initiatives in underserved areas.",
+      "summary_zh": "该研究针对全球许多地区学校官方记录缺失或过时、人工标注费时费力的问题，提出一种弱监督框架，利用稀疏位置点和语义分割自动生成标签，在标注极少的低数据场景下训练检测器。其关键创新在于通过自动标注管线生成边界框，以弱监督预训练学习学校表征，从而大幅降低了对人工标注的依赖，有力支撑了教育基础设施规划和互联网接入等全球性任务。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Label-Efficient School Detection from Aerial Imagery via Weakly Supervised Pretraining and Fine-Tuning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 706259051,
+      "url": "http://arxiv.org/abs/2605.03964v1",
+      "title": "Pretrained Model Representations as Acquisition Signals for Active Learning of MLIPs",
+      "published_at": "2026-05-05T16:48:23+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the high cost of labeling data for training machine learning interatomic potentials in reactive chemistry, where transition states are rare. It proposes using the latent space of a pretrained potential (MACE) to directly derive acquisition signals—specifically a finite-width neural tangent kernel and an activation kernel—bypassing the need for auxiliary uncertainty models or ensembles. These signals significantly outperform conventional baselines, cutting the required data by 38% on energy error, which simplifies and accelerates active learning for chemical MLIPs.",
+      "summary_zh": "该工作针对反应化学中训练机器学习原子间势（MLIP）时量子化学标注成本高且过渡态构型稀缺的瓶颈，提出直接从预训练MACE势的潜空间提取采集信号（有限宽度神经正切核与激活核），无需额外的不确定性建模或集成学习。在反应化学基准上，这两种核显著优于固定描述符、委员会分歧和随机采集，平均降低38%的能量误差所需数据量，为更高效、低成本的主动学习策略提供了新路径。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Pretrained Model Representations as Acquisition Signals for Active Learning of MLIPs",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 659762607,
+      "url": "http://arxiv.org/abs/2605.03954v1",
+      "title": "Inconsistent Databases and Argumentation Frameworks with Collective Attacks",
+      "published_at": "2026-05-05T16:38:31+00:00",
+      "original_language": "en",
+      "summary_en": "This paper bridges inconsistent database repairs and SET-based Argumentation Frameworks (SETAFs) by showing that subset-maximal repairs under denial constraints map to naive, preferred, and stable extensions, while repairs under local-as-view tuple-generating dependencies correspond to preferred extensions (with preprocessing yielding a unique stable extension). The connection matters because it enables reasoning about database repairs through well-studied argumentation semantics, potentially facilitating new data-cleaning methods.",
+      "summary_zh": "本文揭示了在不一致数据库中，当完整性约束包含否定约束和局部视图元组生成依赖时，修复与论证框架之间的新联系：必须采用支持集体攻击的SETAF。研究发现，否定约束下的子集最大修复对应天真扩展，而特定元组生成依赖下的修复则对应首选扩展，且通过预处理可得到唯一稳定扩展。这一成果扩展了不一致数据库修复与抽象论证的对应关系，为异构约束下的数据清洗提供了更精确的语义基础。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Inconsistent Databases and Argumentation Frameworks with Collective Attacks",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2662013053,
+      "url": "http://arxiv.org/abs/2605.03953v1",
+      "title": "Transformers with Selective Access to Early Representations",
+      "published_at": "2026-05-05T16:38:29+00:00",
+      "original_language": "en",
+      "summary_en": "SATFormer tackles the problem that uniform access to early-layer representations (like V₁) in Transformers is suboptimal because the usefulness of low-level lexical or semantic information varies across tokens, heads, and contexts. It redefines early-representation reuse as a retrieval problem, introducing context-dependent gating that selectively exposes later layers to the first-layer value pathway, rather than relying on static or costly dense connections. This provides a more efficient and flexible mechanism for balancing performance gains from early features with computational overhead.",
+      "summary_zh": "针对Transformer深层网络中早期低级特征难以恢复的问题，作者将早期表征复用视为一种检索任务，提出了选择性访问Transformer（SATFormer），它保留第一层的值通路并通过上下文相关的机制控制访问，而非使用固定的静态系数。该方法在参数效率与表达灵活性之间取得了平衡，避免了均匀访问的局限和动态访问的高开销，对提升模型的长距离依赖建模能力具有重要意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Transformers with Selective Access to Early Representations",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3697399311,
+      "url": "http://arxiv.org/abs/2605.03952v1",
+      "title": "MOSAIC-Bench: Measuring Compositional Vulnerability Induction in Coding Agents",
+      "published_at": "2026-05-05T16:38:23+00:00",
+      "original_language": "en",
+      "summary_en": "Existing safety evaluations for coding agents focus on isolated prompts, missing how sequences of benign requests can be composed into malicious outcomes. MOSAIC-Bench introduces a benchmark of 199 attack chains that test this \"compositional vulnerability induction,\" finding that nine production agents succeed in producing exploitable code at high rates (53–86%) with almost no refusals. This reveals a critical security blind spot, showing that even frontier models can be maneuvered into shipping vulnerable software when tasks are decomposed into routine tickets.",
+      "summary_zh": "MOSAIC-Bench 针对代码智能体在序列化无害请求中复合出可被利用的恶意代码这一结构性安全问题，提出了包含 199 个三阶段攻击链和确定性漏洞验证的基准。研究发现九款主流编码智能体端到端攻击成功率高达 53-86%，且几乎不拒绝执行，而直接提示则几乎无效；该基准首次将漏洞真实性审计与下游审查协议纳入评估，揭示了当前安全对齐在组合式诱导下的根本盲区。",
+      "source": "arxiv_cs_cl",
+      "title_en": "MOSAIC-Bench: Measuring Compositional Vulnerability Induction in Coding Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2968453581,
+      "url": "http://arxiv.org/abs/2605.03944v1",
+      "title": "TabSurv: Adapting Modern Tabular Neural Networks to Survival Analysis",
+      "published_at": "2026-05-05T16:32:10+00:00",
+      "original_language": "en",
+      "summary_en": "TabSurv tackles the rigid, task-specific nature of existing deep survival models by adapting modern tabular architectures—including deep ensembles of MLPs—for survival analysis, using either a Weibull distribution or non‑parametric prediction. Its key innovation is a novel histogram loss function (SurvHL) that naturally handles censored data, and it promotes ensemble diversity by training components in parallel before averaging distribution parameters. Evaluated on ten diverse real‑world datasets, TabSurv consistently outperforms prior methods, offering a flexible and high‑performing framework that bridges advances in tabular learning with survival analysis.",
+      "summary_zh": "TabSurv 解决了将现代表格神经网络有效应用于生存分析时方法过于任务特定、难以迁移的问题。它的关键方法是利用 Weibull 分布或非参数预测，并通过一种支持删失数据的新型直方图损失函数 SurvHL 来并行训练深度集成网络，从而在平均前先优化各成员的生存分布参数以增强多样性。该方法在多个真实数据集上表现出一致的优越性能，为表格数据生存分析提供了更灵活且高性能的通用框架。",
+      "source": "arxiv_cs_cl",
+      "title_en": "TabSurv: Adapting Modern Tabular Neural Networks to Survival Analysis",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 206027840,
+      "url": "http://arxiv.org/abs/2605.03941v1",
+      "title": "A Benchmark for Interactive World Models with a Unified Action Generation Framework",
+      "published_at": "2026-05-05T16:30:03+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the absence of large-scale benchmarks for evaluating interactive world models' physical reasoning by introducing iWorld-Bench, a benchmark featuring a diverse 330k video clip dataset and a unified action generation framework that standardizes assessment across six tasks like visual generation, trajectory following, and memory. Testing 14 representative models reveals critical limitations in capabilities such as distance perception and memory, offering a foundational tool to guide progress toward more adaptive, interactive AI.",
+      "summary_zh": "该研究针对通用人工智能中交互式世界模型缺乏大规模基准与统一评估的问题，提出了iWorld-Bench基准和统一行动生成框架，构建了包含33万视频片段与六类任务的测试集。通过评估14个代表性模型，系统揭示了视觉生成、轨迹跟随等物理交互能力的关键局限，为交互式世界模型的标准化训练和评测提供了重要基础。",
+      "source": "arxiv_cs_cl",
+      "title_en": "A Benchmark for Interactive World Models with a Unified Action Generation Framework",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3747889853,
+      "url": "http://arxiv.org/abs/2605.03936v1",
+      "title": "The Counterexample Game: Iterated Conceptual Analysis and Repair in Language Models",
+      "published_at": "2026-05-05T16:26:30+00:00",
+      "original_language": "en",
+      "summary_en": "This paper examines whether language models can perform the iterative process of conceptual analysis—proposing definitions and refining them through counterexamples—central to philosophical methodology. In experiments across 20 concepts, the authors find that language models generate many invalid counterexamples, and that an LM-based judge accepts roughly twice as many of these as human experts do, while repeated repair cycles produce longer but not more accurate definitions. The results highlight the limitations of current language models in sustaining meaningful philosophical reasoning and caution against relying on automated evaluation in such tasks.",
+      "summary_zh": "Conceptual analysis -- proposing definitions and refining them through counterexamples -- is central to philosophical methodology. We study whether language models can perform this task through iterated analysis and repair chains: one model instance generates counterexamples to a proposed definition",
+      "source": "arxiv_cs_cl",
+      "title_en": "The Counterexample Game: Iterated Conceptual Analysis and Repair in Language Models",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1931883675,
+      "url": "http://arxiv.org/abs/2605.03934v1",
+      "title": "Towards Open World Sound Event Detection",
+      "published_at": "2026-05-05T16:23:06+00:00",
+      "original_language": "en",
+      "summary_en": "This work introduces Open-World Sound Event Detection (OW-SED) to overcome the limitations of traditional closed-set systems that cannot recognize or learn from novel acoustic events in real-world settings. The key approach is a novel WOOT framework that combines a 1D deformable attention mechanism to capture salient temporal patterns with feature disentanglement to separate class-specific and class-agnostic representations. This matters because it enables sound event detection models to continuously adapt to new, unseen events, improving robustness in dynamic environments like smart cities and surveillance.",
+      "summary_zh": "该工作针对传统声音事件检测在封闭世界假设下难以应对新出现声学事件的问题，提出开放世界声音事件检测（OW-SED）新范式。核心方法是设计一种基于1D可变形注意力的WOOT Transformer框架，通过特征解耦分离类别特定与类别无关表征，并支持对未知事件的识别与增量学习。这一研究使模型能够在真实开放环境中持续适应新声音，对监控、智能城市等应用具有重要价值。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Towards Open World Sound Event Detection",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 463147768,
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "title": "Agents for financial services",
+      "published_at": "2026-05-05T00:00:00",
+      "original_language": "en",
+      "summary_en": "This work explores the deployment of autonomous AI agents to automate complex decision-making and customer interactions in financial services, addressing challenges in efficiency and scalability. The key approach involves designing agents that can analyze real-time data, execute compliant transactions, and personalize advice, often using large language models for reasoning. This matters because it can significantly reduce operational costs, minimize human error, and enable more accessible, tailored financial products.",
+      "summary_zh": "该研究探讨了AI智能体在金融服务中的应用，旨在通过自主决策与任务执行，解决传统流程中的效率低、响应慢等问题。核心思路是利用智能体实现交易、风控或客服的自动化，其意义在于提升金融服务的精准度与运营效能。",
+      "source": "anthropic_news",
+      "title_en": "Agents for financial services",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1466199275,
+      "url": "https://platform.moonshot.ai/blog/posts/what-is-openclaw",
+      "title": "OpenClaw and OpenClaw API: The Complete Guide",
+      "published_at": "2026-02-25T00:00:00",
+      "original_language": "zh",
+      "summary_en": "OpenClaw is a local AI agent designed to address the need for privacy-preserving, self-hosted AI automation. The guide explains its architecture, API, and setup, demonstrating how to integrate agent capabilities without relying on cloud services. This matters for developers who require data sovereignty and low-latency, customizable AI workflows in their applications.",
+      "summary_zh": "本文系统介绍了本地AI代理OpenClaw及其API，旨在解决开发者如何便捷部署与集成自主AI代理的问题。核心内容涵盖OpenClaw的工作原理、关键功能、典型用例以及逐步设置指南，为构建本地化智能应用提供了完整的实践参考。该指南的重要性在于帮助技术人员快速上手并充分利用本地AI代理的潜力，降低开发门槛。",
+      "source": "moonshot_blog",
+      "title_zh": "OpenClaw and OpenClaw API: The Complete Guide",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3458541510,
+      "url": "https://platform.moonshot.ai/blog/posts/clawdbot-moltbot-openclaw-tutorial",
+      "title": "Clawdbot in 2026: From Concept to OpenClaw Implementation",
+      "published_at": "2026-02-05T00:00:00",
+      "original_language": "zh",
+      "summary_en": "This guide addresses the transition of a proprietary AI assistant concept (Clawdbot) to an open-source framework (OpenClaw), providing a full architectural blueprint, security considerations, and integration steps. The key finding is a practical roadmap that enables developers to replicate and extend a conversational AI agent, culminating in an official connection procedure for the Kimi K2.5 model. This matters because it lowers barriers to building secure, transparent, and customizable AI assistants while fostering community-driven innovation.",
+      "summary_zh": "A complete guide to Clawdbot and its evolution into OpenClaw, covering architecture, use cases, security, and official steps to connect Kimi K2.5.Read More →",
+      "source": "moonshot_blog",
+      "title_zh": "Clawdbot in 2026: From Concept to OpenClaw Implementation",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1948382326,
+      "url": "https://platform.moonshot.ai/blog/posts/changelog",
+      "title": "Kimi Open Platform: New Feature Release Log",
+      "published_at": "2025-12-31T00:00:00",
+      "original_language": "zh",
+      "summary_en": "The Kimi Open Platform release log addresses the need for developers and researchers to stay current with evolving AI tooling by systematically documenting new features and API updates. This structured changelog matters because it enables seamless integration and ensures users can rapidly adopt enhanced capabilities in their AI/ML workflows.",
+      "summary_zh": "该更新日志记录了Kimi开放平台的新功能发布和文档变更，旨在解决开发者对平台能力演进的信息同步需求。它以集中的版本记录方式呈现关键改进，有助于开发者快速集成并充分利用最新的人工智能服务，从而提升应用开发效率。",
+      "source": "moonshot_blog",
+      "title_zh": "Kimi Open Platform: New Feature Release Log",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3936404792,
+      "url": "https://platform.moonshot.ai/blog/posts/ICYMI_The_Kimi_Playground",
+      "title": "ICYMI: The Kimi Playground: Your faster way to iterate and test",
+      "published_at": "2025-12-30T00:00:00",
+      "original_language": "zh",
+      "summary_en": "The Kimi Playground addresses the bottleneck of slow iteration cycles in AI model development by offering a rapid, interactive testing environment. It enables researchers to quickly experiment with model behavior and refine prompts or parameters in real time. This accelerates prototyping, reduces time-to-insight, and streamlines the experimentation workflow, which is critical for efficient model evaluation and deployment.",
+      "summary_zh": "Kimi Playground 旨在解决 AI 模型迭代与测试速度慢的问题，它提供了一个即时可用的实验环境，让研究者能快速调整参数、评估效果。该工具通过简化工作流，显著缩短了从想法到验证的周期，对提升模型研发效率至关重要。",
+      "source": "moonshot_blog",
+      "title_zh": "ICYMI: The Kimi Playground: Your faster way to iterate and test",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 186794357,
+      "url": "https://platform.moonshot.ai/blog/posts/coding_with_kimi_agents_setup",
+      "title": "Coding with Kimi K2: Top 6 Agents & Setup Guides",
+      "published_at": "2025-12-22T00:00:00",
+      "original_language": "zh",
+      "summary_en": "This guide addresses the challenge of leveraging Kimi K2 for coding by presenting six top-performing AI agents with detailed setup instructions. It likely demonstrates how these agents automate or enhance development tasks, offering a practical framework that streamlines integration and improves coding efficiency. The work matters because it equips developers with a ready-to-use blueprint to harness Kimi K2’s capabilities, accelerating adoption and productivity in agent-assisted programming.",
+      "summary_zh": "本文聚焦于如何将 Kimi K2 模型应用于编码任务，通过梳理六大核心智能体配置及完整搭建流程，为开发者提供可直接落地的集成方案，从而显著提升编程效率与自动化水平。",
+      "source": "moonshot_blog",
+      "title_zh": "Coding with Kimi K2: Top 6 Agents & Setup Guides",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2329258591,
+      "url": "https://platform.moonshot.ai/blog/posts/Kimi_Founders_AMA_Recap",
+      "title": "Kimi Founder's AMA Recap: First Look at Vision Plans & Roadmap",
+      "published_at": "2025-12-03T00:00:00",
+      "original_language": "zh",
+      "summary_en": "The Kimi founder's AMA addresses uncertainty about the platform's future by publicly revealing its vision and development roadmap. This first look outlines upcoming features and strategic direction, offering transparency that aligns user expectations and builds community trust.",
+      "summary_zh": "Kimi创始人分享了首款视觉模型的初步规划与产品路线图，旨在解决当前多模态理解与生成能力的瓶颈。其关键思路是通过分阶段迭代视觉技术，实现从图像识别到更复杂的视觉推理与交互，以拓展AI助手在现实场景中的应用边界。这标志着Kimi向全面感知进化，能提升复杂任务处理效率并开启更自然的人机协作可能。",
+      "source": "moonshot_blog",
+      "title_zh": "Kimi Founder's AMA Recap: First Look at Vision Plans & Roadmap",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1772957747,
+      "url": "https://platform.moonshot.ai/blog/posts/K2_Vendor_Verifier_Newsletter",
+      "title": "K2-Vendor-Verifier Now Includes \"Kimi K2 Thinking\"",
+      "published_at": "2025-11-18T00:00:00",
+      "original_language": "zh",
+      "summary_en": "The K2-Vendor-Verifier now incorporates \"Kimi K2 Thinking\" to address the need for more sophisticated automated reasoning in vendor verification workflows. This integration likely leverages the K2 model's advanced chain-of-thought capabilities to enhance logical assessment of vendor risk and compliance. The addition matters because it brings state-of-the-art AI reasoning into real-world supply chain management, promising improved accuracy and reduced manual oversight.",
+      "summary_zh": "K2-Vendor-Verifier工具现已集成对“Kimi K2 Thinking”模型的验证支持，旨在解决AI模型输出可靠性检验的问题。该更新通过适配新一代思考型模型，增强了跨厂商验证的兼容性与准确度，对保障多模型生态下的质量一致性具有重要意义。",
+      "source": "moonshot_blog",
+      "title_zh": "K2-Vendor-Verifier Now Includes \"Kimi K2 Thinking\"",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3831641223,
+      "url": "https://platform.moonshot.ai/blog/posts/Kimi_API_Newsletter",
+      "title": "New Kimi K2 Models & Updated Pricing",
+      "published_at": "2025-11-08T00:00:00",
+      "original_language": "zh",
+      "summary_en": "The announcement introduces new Kimi K2 models with updated pricing, targeting the need for more affordable and capable AI by reducing operational costs. The key approach is offering enhanced model performance at a lower price point, making advanced language models accessible for broader experimentation and deployment. This matters as it enables cost-sensitive AI/ML projects to leverage cutting-edge models without prohibitive overhead.",
+      "summary_zh": "Kimi K2 新模型及其定价更新发布，旨在以更低成本提供更强的语言理解与推理能力，这一举措降低了先进 AI 模型的接入门槛，对推动应用普及和开发者采用具有重要意义。",
+      "source": "moonshot_blog",
+      "title_zh": "New Kimi K2 Models & Updated Pricing",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 283254535,
+      "url": "https://platform.moonshot.ai/blog/posts/k2-report",
+      "title": "Kimi K2: Open Agentic Intelligence",
+      "published_at": "2025-07-11T00:00:00",
+      "original_language": "zh",
+      "summary_en": "Kimi K2 addresses the lack of open, high-performance autonomous AI agents by releasing a state-of-the-art agentic model that combines large-scale reinforcement learning with robust tool use. Its reported strong benchmark performance and open availability democratize access to cutting-edge agentic intelligence, enabling community-driven innovation and safety research.",
+      "summary_zh": "Kimi K2 报告聚焦于打造一个开放的智能体智能系统，旨在解决现有智能体在自主性与适应性方面的局限。其核心方法可能是通过开源架构实现高级决策与环境交互能力，这一工作有助于降低智能体技术的研究与应用门槛，推动通用人工智能走向更开放、可协作的未来。",
+      "source": "moonshot_blog",
+      "title_zh": "Kimi K2: Open Agentic Intelligence",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1605796618,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.7-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.15.7-preview.0",
+      "published_at": "2026-05-06T01:59:44+00:00",
+      "original_language": "en",
+      "summary_en": "This preview release improves coding assistant efficiency by adding a file read cache that skips unchanged file reads, reducing latency. It also fixes CLI proxy configuration and introduces a shared permission flow to streamline tool execution approvals. These changes make the tool more responsive and user-friendly when handling repetitive file access and security prompts.",
+      "summary_zh": "该版本通过引入文件读取缓存（FileReadCache）和短路不变读取机制，解决了重复文件操作导致的性能瓶颈；同时修复了命令行工具的代理设置问题，确保网络配置能正确生效。这些改进显著提升了代码处理效率并增强了工具在受限网络环境中的可用性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.15.7-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2580101246,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.6-preview.1",
+      "title": "QwenLM/qwen-code: Release v0.15.6-preview.1",
+      "published_at": "2026-05-06T00:33:23+00:00",
+      "original_language": "en",
+      "summary_en": "This release of Qwen-code addresses performance and configuration issues by adding a file read cache that short-circuits unchanged reads to reduce redundant I/O, fixing the CLI to respect proxy settings, and introducing a shared permission flow for secure tool execution. These improvements boost efficiency in code analysis workflows, ensure proper network routing, and tighten control over automated tool actions.",
+      "summary_zh": "Qwen-code v0.15.6-preview.1 通过引入文件读取缓存与短路机制优化了未变化文件的处理性能，修复了命令行代理设置问题，并新增共享权限流程以增强工具执行的安全性，从而提升了代码助手的响应速度与可靠性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.15.6-preview.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2819431394,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.6-nightly.20260506.2a5be0d3b",
+      "title": "QwenLM/qwen-code: Release v0.15.6-nightly.20260506.2a5be0d3b",
+      "published_at": "2026-05-06T00:30:41+00:00",
+      "original_language": "en",
+      "summary_en": "This QwenLM/qwen-code release improves performance and reliability by adding a file‑read cache that skips unchanged content, fixing CLI proxy handling, and introducing a shared permission workflow for tool execution. These changes reduce redundant I/O, ensure network traffic respects user proxy settings, and offer a more secure, streamlined permission experience during automated operations.",
+      "summary_zh": "此次更新通过引入文件读取缓存和未变更文件的短路读取机制，解决了重复读取相同文件导致的资源浪费问题；同时修复了代理设置未被遵守的缺陷，并新增了工具执行的共享权限流程以平衡安全与便捷性。这些改进显著提升了AI编码助手的运行效率与网络环境适应性，并为多工具联合执行提供了更流畅的授权体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.15.6-nightly.20260506.2a5be0d3b",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 4090556359,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.6-nightly.20260505.2e69d641d",
+      "title": "QwenLM/qwen-code: Release v0.15.6-nightly.20260505.2e69d641d",
+      "published_at": "2026-05-05T00:31:07+00:00",
+      "original_language": "en",
+      "summary_en": "Qwen-code v0.15.6 introduces a FileReadCache to skip re-reading unchanged files, reducing performance overhead, and adds a shared permission flow for executing tools, improving security and collaboration among agents. It also fixes a CLI bug that previously ignored proxy settings and removes legacy Gemini workflows, making the tool more reliable and maintainable.",
+      "summary_zh": "此版本通过引入 FileReadCache 和短路读取机制，优化了重复文件访问的性能，解决了大型代码库处理时的效率问题；同时新增了工具执行的共享权限流程，加强了安全控制，并修复了 CLI 代理设置不符预期的问题。这些改进使该 AI 代码工具在本地开发场景下响应更快且更加安全可靠。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.15.6-nightly.20260505.2e69d641d",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3233584567,
+      "url": "https://github.com/MoonshotAI/walle/releases/tag/v0.1.7",
+      "title": "MoonshotAI/walle: v0.1.7",
+      "published_at": "2026-05-06T08:09:32+00:00",
+      "original_language": "en",
+      "summary_en": "",
+      "summary_zh": "MoonshotAI 发布的 walle v0.1.7 版本，旨在提升多模态模型的视觉理解与推理能力，通过优化模型架构或训练策略来增强复杂场景下的表现。该版本可能针对图像-文本对齐、细粒度识别等任务进行了改进，有助于高效部署在需要精准视觉解析的应用中。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/walle: v0.1.7",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 626151025,
+      "url": "https://github.com/MoonshotAI/walle/releases/tag/v0.1.6",
+      "title": "MoonshotAI/walle: v0.1.6",
+      "published_at": "2026-05-06T07:22:00+00:00",
+      "original_language": "en",
+      "summary_en": "",
+      "summary_zh": "月之暗面（MoonshotAI）发布了其开源项目 walle 的 v0.1.6 版本，主要针对早期使用中发现的稳定性与性能问题进行了修复与优化。该版本进一步提升了工具链的易用性，为开发者构建和集成 AI 应用提供了更可靠的基础，有助于加速相关技术落地。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/walle: v0.1.6",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
