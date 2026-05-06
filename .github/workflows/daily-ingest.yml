@@ -18,6 +18,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Pull latest main
+        run: git pull --rebase origin main
+
       - name: Install dependencies
         run: pip install -r ingest/requirements.txt
 
@@ -33,7 +36,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add content/
           git diff --cached --quiet || git commit -m "Daily ingest: $(date -u +%Y-%m-%d)"
           git push
