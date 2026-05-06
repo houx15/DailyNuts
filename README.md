@@ -20,21 +20,56 @@ DailyNuts automatically collects technical content from major AI companies and r
 
 ## Architecture
 
+Two branches power the entire system — `main` is the source of truth, `gh-pages` is a disposable build artifact.
+
 ```
-GitHub Actions (daily cron @ 08:00 UTC)
-    ├── Python ingest pipeline (ingest/)
-    │   ├── adapters: RSS, scraper, arXiv, GitHub releases
-    │   ├── summarizer.py — LLM API calls (OpenAI-compatible)
-    │   └── brief_generator.py — daily brief generation
-    ├── content/ — JSON artifacts committed to repo
-    │   ├── items/YYYY-MM-DD.json
-    │   ├── briefs/YYYY-MM-DD.json
-    │   └── sources.json
-    └── Next.js SSG (web/)
-        ├── App Router, static export
-        ├── Reads content/ JSON at build time
-        └── Deployed to Vercel
+main branch                          gh-pages branch
+(source of truth)                    (static site, force-pushed)
+
+  DailyNuts/                           index.html
+  ├── ingest/                          _next/
+  │   ├── adapters/          ──build──►├── static/
+  │   └── main.py            (once)    └── ...
+  ├── content/
+  │   ├── items/YYYY-MM-DD.json        ↑ served by
+  │   ├── briefs/YYYY-MM-DD.json       GitHub Pages
+  │   └── sources.json                 at digest.kookat.icu
+  └── web/
+      └── src/ (Next.js SSG)
 ```
+
+**Data flows one way: main → build → gh-pages → live site.** Nothing ever flows back.
+
+### How the workflow runs
+
+One workflow (`daily-ingest.yml`), two sequential jobs:
+
+```
+08:00 UTC cron fires
+  │
+  ▼
+┌─ ingest job ──────────────────────────────────────┐
+│  1. checkout main                                  │
+│  2. python ingest/main.py                          │
+│     ├── fetch RSS/arXiv/scraper/GitHub releases    │
+│     ├── LLM summarizes → bilingual                 │
+│     └── save content/items/2026-05-06.json         │
+│  3. git add content/ → git commit → git push main  │
+└──────────────────┬─────────────────────────────────┘
+                   │
+                   ▼
+┌─ deploy job (needs: ingest) ───────────────────────┐
+│  4. checkout main (picks up the fresh content)     │
+│  5. npm run build → reads content/ → web/dist/     │
+│  6. push web/dist/ to gh-pages branch              │
+└──────────────────┬─────────────────────────────────┘
+                   │
+                   ▼
+         GitHub Pages serves gh-pages
+            at digest.kookat.icu
+```
+
+No database, no backend server. The repo itself is the content store. Content files (`content/items/*.json`) are version-controlled alongside source code — every day's ingest is a git commit.
 
 ## Tech Stack
 
@@ -42,7 +77,7 @@ GitHub Actions (daily cron @ 08:00 UTC)
 |-------|-----------|
 | Frontend | Next.js 16+, Tailwind CSS, TypeScript |
 | Pipeline | Python 3.12, feedparser, requests, BeautifulSoup |
-| Deployment | Vercel (frontend), GitHub Actions (pipeline) |
+| Deployment | GitHub Pages via `peaceiris/actions-gh-pages@v4` |
 | Content | Static JSON files, version-controlled |
 
 ## Sources
@@ -127,34 +162,30 @@ DailyNuts/
 
 ## Deployment
 
-### Recommended: Vercel
+This project is deployed on GitHub Pages at [digest.kookat.icu](https://digest.kookat.icu). The `deploy` job in `daily-ingest.yml` publishes to the `gh-pages` branch automatically after each ingest run.
 
-1. Import this repo into [Vercel](https://vercel.com) — auto-detects Next.js
-2. No env vars required (content JSON lives in the repo)
-3. Done. Every push to `main` triggers a rebuild
-
-**Auto-trigger flow:**
+### Auto-trigger flow
 
 ```
 GitHub Actions (daily @ 08:00 UTC)
     → ingests content, commits & pushes to main
-    → Vercel detects push → auto-rebuilds with fresh content
+    → builds Next.js static export
+    → pushes web/dist/ to gh-pages
+    → GitHub Pages serves fresh content
 ```
 
 No manual intervention — the pipeline and deployment run fully unattended.
 
-### Alternative: GitHub Pages
+### First-time setup
 
-For zero-cost hosting, the `deploy` job in `daily-ingest.yml` publishes to GitHub Pages automatically after each ingest run.
-
-Enable GitHub Pages in repo Settings → Pages → Source: "Deploy from a branch" → Branch: `gh-pages` (root).
-The site will be available at `https://houx15.github.io/DailyNuts/`.
-
-First-time setup:
-1. Go to repo Settings → Secrets and variables → Actions → add secrets:
-   - `LLM_API_KEY` — your OpenAI-compatible API key for LLM summarization
-   - `GITHUB_TOKEN` — already available as `${{ secrets.GITHUB_TOKEN }}`
-2. Go to Actions tab → Daily Ingest → Run workflow to trigger the first deploy
+1. Enable GitHub Pages in repo Settings → Pages → Source: "Deploy from a branch" → Branch: `gh-pages` (root)
+2. Set custom domain: `digest.kookat.icu` (creates `web/public/CNAME`)
+3. Go to repo Settings → Secrets and variables → Actions → add secrets:
+   - `LLM_API_KEY` — OpenAI-compatible API key for LLM summarization
+   - `LLM_BASE_URL` — API endpoint (if not using OpenAI's default)
+   - `LLM_MODEL` — model name to use
+   - `GITHUB_TOKEN` — auto-provided by GitHub Actions
+4. Go to Actions tab → Daily Ingest → Run workflow to trigger the first deploy
 
 ## License
 
