@@ -138,6 +138,54 @@ sources:
       date: "time"
     category: company_blog
 
+  - id: latent_space
+    name: "Latent Space Podcast"
+    name_zh: "Latent Space 播客"
+    type: rss
+    url: "https://api.substack.com/feed/podcast/1084089.rss"
+    category: company_blog
+    max_age_days: 7
+
+  - id: training_data_podcast
+    name: "Training Data Podcast"
+    name_zh: "Training Data 播客"
+    type: rss
+    url: "https://feeds.megaphone.fm/trainingdata"
+    category: company_blog
+    max_age_days: 7
+
+  - id: no_priors
+    name: "No Priors Podcast"
+    name_zh: "No Priors 播客"
+    type: rss
+    url: "https://feeds.megaphone.fm/nopriors"
+    category: company_blog
+    max_age_days: 7
+
+  - id: unsupervised_learning
+    name: "Unsupervised Learning Podcast"
+    name_zh: "Unsupervised Learning 播客"
+    type: rss
+    url: "https://feeds.simplecast.com/dOSE_bdP"
+    category: company_blog
+    max_age_days: 7
+
+  - id: mad_podcast
+    name: "The MAD Podcast"
+    name_zh: "The MAD 播客"
+    type: rss
+    url: "https://anchor.fm/s/f2ee4948/podcast/rss"
+    category: company_blog
+    max_age_days: 7
+
+  - id: ai_and_i
+    name: "AI & I Podcast"
+    name_zh: "AI & I 播客"
+    type: rss
+    url: "https://anchor.fm/s/ed1f5584/podcast/rss"
+    category: company_blog
+    max_age_days: 7
+
   - id: deepseek_github
     name: "DeepSeek GitHub"
     name_zh: "DeepSeek GitHub"

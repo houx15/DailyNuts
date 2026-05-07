@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from typing import List
 from urllib.parse import urljoin, urlparse
 
@@ -16,6 +16,8 @@ class ScraperAdapter(BaseAdapter):
     def fetch(self) -> List[RawItem]:
         url = self.config['url']
         selectors = self.config.get('selectors', {})
+        max_age_days = self.config.get('max_age_days', 2)
+        cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
         
         domain = urlparse(url).netloc
         
@@ -43,6 +45,7 @@ class ScraperAdapter(BaseAdapter):
         
         soup = BeautifulSoup(response.content, 'html.parser')
         items = []
+        skipped = 0
         
         item_selector = selectors.get('item', 'article')
         title_selector = selectors.get('title', 'h2')
@@ -70,6 +73,10 @@ class ScraperAdapter(BaseAdapter):
                 date_elem = element.select_one(date_selector)
                 published = self._parse_date(date_elem.get_text(strip=True) if date_elem else '')
                 
+                if published.replace(tzinfo=timezone.utc) < cutoff:
+                    skipped += 1
+                    continue
+                
                 summary_elem = element.select_one('p')
                 summary = summary_elem.get_text(strip=True)[:500] if summary_elem else ''
                 
@@ -83,6 +90,9 @@ class ScraperAdapter(BaseAdapter):
             except Exception as e:
                 print(f"Error parsing element from {self.source_id}: {e}")
                 continue
+        
+        if skipped > 0:
+            print(f"Filtered {skipped} items older than {max_age_days}d from {self.source_id}")
         
         return items
     

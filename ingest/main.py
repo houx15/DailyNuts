@@ -270,6 +270,12 @@ DEFAULT_COLORS = {
     'moonshot_github': '#1A1A2E',
     'hunyuan_github': '#5B3FA8',
     'zhipu_news': '#1F7A6F',
+    'latent_space': '#7C3AED',
+    'training_data_podcast': '#2563EB',
+    'no_priors': '#059669',
+    'unsupervised_learning': '#DC2626',
+    'mad_podcast': '#EA580C',
+    'ai_and_i': '#0891B2',
 }
 
 
