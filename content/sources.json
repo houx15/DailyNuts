@@ -71,11 +71,110 @@
     "kind_label_en": "Blog",
     "kind_label_zh": "博客"
   },
+  "deepseek_blog": {
+    "mono": "D",
+    "tone": "#3D5AB7",
+    "name": "DeepSeek Blog",
+    "name_zh": "DeepSeek 博客",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "qwen_blog": {
+    "mono": "Q",
+    "tone": "#7339B0",
+    "name": "Qwen Blog",
+    "name_zh": "通义千问博客",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "zhipu_news": {
+    "mono": "Z",
+    "tone": "#1F7A6F",
+    "name": "Zhipu AI",
+    "name_zh": "智谱 AI",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "minimax_news": {
+    "mono": "M",
+    "tone": "#E85D04",
+    "name": "MiniMax News",
+    "name_zh": "MiniMax 新闻",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "claude_blog": {
+    "mono": "C",
+    "tone": "#C46849",
+    "name": "Claude Blog",
+    "name_zh": "Claude 博客",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
   "moonshot_blog": {
     "mono": "M",
     "tone": "#1A1A2E",
     "name": "Moonshot Blog",
     "name_zh": "月之暗面博客",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "latent_space": {
+    "mono": "L",
+    "tone": "#7C3AED",
+    "name": "Latent Space Podcast",
+    "name_zh": "Latent Space 播客",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "training_data_podcast": {
+    "mono": "T",
+    "tone": "#2563EB",
+    "name": "Training Data Podcast",
+    "name_zh": "Training Data 播客",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "no_priors": {
+    "mono": "N",
+    "tone": "#059669",
+    "name": "No Priors Podcast",
+    "name_zh": "No Priors 播客",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "unsupervised_learning": {
+    "mono": "U",
+    "tone": "#DC2626",
+    "name": "Unsupervised Learning Podcast",
+    "name_zh": "Unsupervised Learning 播客",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "mad_podcast": {
+    "mono": "T",
+    "tone": "#EA580C",
+    "name": "The MAD Podcast",
+    "name_zh": "The MAD 播客",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
+  "ai_and_i": {
+    "mono": "A",
+    "tone": "#0891B2",
+    "name": "AI & I Podcast",
+    "name_zh": "AI & I 播客",
     "kind": "company_blog",
     "kind_label_en": "Blog",
     "kind_label_zh": "博客"
