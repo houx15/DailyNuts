@@ -22,7 +22,9 @@ jobs:
         run: git pull --rebase origin main
 
       - name: Install dependencies
-        run: pip install -r ingest/requirements.txt
+        run: |
+          pip install -r ingest/requirements.txt
+          python -m playwright install --with-deps chromium
 
       - name: Run ingest pipeline
         env:

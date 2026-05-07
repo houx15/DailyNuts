@@ -8,6 +8,7 @@ import yaml
 
 from adapters.rss import RSSAdapter
 from adapters.scraper import ScraperAdapter
+from adapters.playwright_scraper import PlaywrightScraperAdapter
 from adapters.arxiv import ArxivAdapter
 from adapters.github_releases import GitHubReleasesAdapter
 from summarizer import Summarizer
@@ -21,6 +22,7 @@ CONTENT_DIR = os.path.join(BASE_DIR, '..', 'content')
 ADAPTER_MAP = {
     'rss': RSSAdapter,
     'scraper': ScraperAdapter,
+    'playwright_scraper': PlaywrightScraperAdapter,
     'arxiv': ArxivAdapter,
     'github_releases': GitHubReleasesAdapter,
 }
@@ -276,6 +278,11 @@ DEFAULT_COLORS = {
     'unsupervised_learning': '#DC2626',
     'mad_podcast': '#EA580C',
     'ai_and_i': '#0891B2',
+    'deepseek_blog': '#3D5AB7',
+    'qwen_blog': '#7339B0',
+    'zhipu_news': '#1F7A6F',
+    'minimax_news': '#E85D04',
+    'claude_blog': '#C46849',
 }
 
 

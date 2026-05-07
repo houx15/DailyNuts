@@ -4,3 +4,4 @@ beautifulsoup4
 pyyaml
 openai
 arxiv
+playwright

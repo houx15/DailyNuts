@@ -74,57 +74,70 @@ sources:
     url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_ai.xml"
     category: company_blog
 
-  # The following sites are JavaScript-rendered SPAs.
-  # BeautifulSoup cannot execute JS. To scrape these, switch to
-  # Playwright / Selenium, or use their API / sitemap if available.
-  #
-  # - id: deepseek_blog
-  #   name: "DeepSeek Blog"
-  #   name_zh: "DeepSeek 博客"
-  #   type: scraper
-  #   url: "https://api-docs.deepseek.com/news"
-  #   selectors:
-  #     item: ".blog-post"
-  #     title: ".post-title"
-  #     link: ".post-link"
-  #     date: ".post-date"
-  #   category: company_blog
-  #
-  # - id: qwen_blog
-  #   name: "Qwen Blog"
-  #   name_zh: "通义千问博客"
-  #   type: scraper
-  #   url: "https://qwen.ai/blog"
-  #   selectors:
-  #     item: ".blog-card"
-  #     title: ".card-title"
-  #     link: "a"
-  #     date: ".card-date"
-  #   category: company_blog
-  #
-  # - id: zhipu_news
-  #   name: "Zhipu AI"
-  #   name_zh: "智谱 AI"
-  #   type: scraper
-  #   url: "https://www.zhipuai.cn/en/news"
-  #   selectors:
-  #     item: ".news-item"
-  #     title: ".news-title"
-  #     link: "a"
-  #     date: ".news-date"
-  #   category: company_blog
-  #
-  # - id: minimax_news
-  #   name: "MiniMax News"
-  #   name_zh: "MiniMax 新闻"
-  #   type: scraper
-  #   url: "https://www.minimax.io/news"
-  #   selectors:
-  #     item: ".news-card"
-  #     title: ".card-title"
-  #     link: "a"
-  #     date: ".card-date"
-  #   category: company_blog
+  - id: deepseek_blog
+    name: "DeepSeek Blog"
+    name_zh: "DeepSeek 博客"
+    type: playwright_scraper
+    url: "https://api-docs.deepseek.com/news"
+    selectors:
+      item: ".blog-post"
+      title: ".post-title"
+      link: ".post-link"
+      date: ".post-date"
+    category: company_blog
+    lang: zh
+
+  - id: qwen_blog
+    name: "Qwen Blog"
+    name_zh: "通义千问博客"
+    type: playwright_scraper
+    url: "https://qwen.ai/blog"
+    selectors:
+      item: ".blog-card"
+      title: ".card-title"
+      link: "a"
+      date: ".card-date"
+    category: company_blog
+    lang: zh
+
+  - id: zhipu_news
+    name: "Zhipu AI"
+    name_zh: "智谱 AI"
+    type: playwright_scraper
+    url: "https://www.zhipuai.cn/en/news"
+    selectors:
+      item: ".news-item"
+      title: ".news-title"
+      link: "a"
+      date: ".news-date"
+    category: company_blog
+    lang: zh
+
+  - id: minimax_news
+    name: "MiniMax News"
+    name_zh: "MiniMax 新闻"
+    type: playwright_scraper
+    url: "https://www.minimax.io/news"
+    selectors:
+      item: ".news-card"
+      title: ".card-title"
+      link: "a"
+      date: ".card-date"
+    category: company_blog
+    lang: en
+
+  - id: claude_blog
+    name: "Claude Blog"
+    name_zh: "Claude 博客"
+    type: playwright_scraper
+    url: "https://claude.com/blog"
+    selectors:
+      item: ".w-dyn-item"
+      title: "h3"
+      link: "a[href*='/blog/']"
+      date: "time"
+    category: company_blog
+    lang: en
 
   - id: moonshot_blog
     name: "Moonshot Blog"
