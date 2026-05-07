@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 8 * * *'
   workflow_dispatch:
+  push:
+    tags:
+      - 'run-*'
 
 permissions:
   contents: write
@@ -41,6 +44,10 @@ jobs:
           git add content/
           git diff --cached --quiet || git commit -m "Daily ingest: $(date -u +%Y-%m-%d)"
           git push
+
+      - name: Clean up trigger tag
+        if: startsWith(github.ref, 'refs/tags/run-')
+        run: git push origin --delete "${{ github.ref_name }}"
 
   deploy:
     needs: ingest
