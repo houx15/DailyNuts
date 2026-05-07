@@ -80,12 +80,13 @@ sources:
     type: playwright_scraper
     url: "https://api-docs.deepseek.com/news"
     selectors:
-      item: ".blog-post"
-      title: ".post-title"
-      link: ".post-link"
-      date: ".post-date"
+      item: "article"
+      title: "h2"
+      link: "a"
+      date: "time"
     category: company_blog
     lang: zh
+    render_wait: 10000
 
   - id: qwen_blog
     name: "Qwen Blog"
@@ -93,12 +94,13 @@ sources:
     type: playwright_scraper
     url: "https://qwen.ai/blog"
     selectors:
-      item: ".blog-card"
-      title: ".card-title"
+      item: "article"
+      title: "h2"
       link: "a"
-      date: ".card-date"
+      date: "time"
     category: company_blog
     lang: zh
+    render_wait: 10000
 
   - id: zhipu_news
     name: "Zhipu AI"
@@ -106,12 +108,13 @@ sources:
     type: playwright_scraper
     url: "https://www.zhipuai.cn/en/news"
     selectors:
-      item: ".news-item"
-      title: ".news-title"
-      link: "a"
-      date: ".news-date"
+      item: "a.group"
+      title: "h3"
+      link: ""
+      date: "p"
     category: company_blog
     lang: zh
+    render_wait: 8000
 
   - id: minimax_news
     name: "MiniMax News"
@@ -119,12 +122,13 @@ sources:
     type: playwright_scraper
     url: "https://www.minimax.io/news"
     selectors:
-      item: ".news-card"
-      title: ".card-title"
+      item: "article"
+      title: "h2"
       link: "a"
-      date: ".card-date"
+      date: "time"
     category: company_blog
     lang: en
+    render_wait: 10000
 
   - id: claude_blog
     name: "Claude Blog"

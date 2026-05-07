@@ -60,7 +60,9 @@ class ScraperAdapter(BaseAdapter):
                 
                 title = title_elem.get_text(strip=True)
                 
-                link_elem = element.select_one(link_selector)
+                link_elem = element.select_one(link_selector) if link_selector else None
+                if not link_elem and element.name == 'a' and element.get('href'):
+                    link_elem = element
                 if not link_elem:
                     continue
                 

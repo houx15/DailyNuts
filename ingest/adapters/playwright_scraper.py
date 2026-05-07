@@ -30,7 +30,8 @@ class PlaywrightScraperAdapter(ScraperAdapter):
                 browser = p.chromium.launch(headless=True)
                 page = browser.new_page()
                 page.goto(url, wait_until='domcontentloaded', timeout=30000)
-                page.wait_for_timeout(3000)
+                render_wait = self.config.get('render_wait', 5000)
+                page.wait_for_timeout(render_wait)
                 html = page.content()
                 browser.close()
         except Exception as e:
@@ -56,7 +57,9 @@ class PlaywrightScraperAdapter(ScraperAdapter):
                 if not title:
                     continue
 
-                link_elem = element.select_one(link_selector)
+                link_elem = element.select_one(link_selector) if link_selector else None
+                if not link_elem and element.name == 'a' and element.get('href'):
+                    link_elem = element
                 if not link_elem:
                     continue
 
