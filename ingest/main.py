@@ -27,7 +27,7 @@ ADAPTER_MAP = {
     'github_releases': GitHubReleasesAdapter,
 }
 
-ADAPTER_TIMEOUT = 120  # seconds per source
+ADAPTER_TIMEOUT = 60  # seconds per source
 
 
 def load_config(path: str = None) -> dict:
