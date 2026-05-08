@@ -1,0 +1,2095 @@
+{
+  "date": "2026-05-08",
+  "items": [
+    {
+      "id": 3604195035,
+      "url": "http://arxiv.org/abs/2605.06665v1",
+      "title": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
+      "published_at": "2026-05-07T17:59:44+00:00",
+      "original_language": "en",
+      "summary_en": "Modern MoE models allocate separate expert sets per layer, forcing linear growth in expert parameters with depth—but UniPool reveals that this per-layer isolation is largely redundant, as random routing in deeper layers drops accuracy by only ~1 point. The paper introduces a single globally shared expert pool with independent per-layer routers and a pool-level load-balancing loss, enabling depth scaling without a matching explosion in total experts. This design decouples model depth from expert capacity, offering a more parameter-efficient way to scale large language models.",
+      "summary_zh": "传统MoE架构为每个Transformer层单独分配专家集合，导致深度扩展时专家参数量线性增长且深层路由器存在显著冗余。研究发现将深层路由替换为随机路由仅造成1.0-1.6个点的准确率下降，受此启发提出UniPool，将专家容量设计为全局共享池，各层独立路由共享专家，并引入池级辅助损失与NormRouter实现稳定、均衡的训练。该方法解耦了模型深度与专家参数规模的强绑定，大幅提升了专家利用",
+      "source": "arxiv_cs_cl",
+      "title_en": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2288478983,
+      "url": "http://arxiv.org/abs/2605.06664v1",
+      "title": "BAMI: Training-Free Bias Mitigation in GUI Grounding",
+      "published_at": "2026-05-07T17:59:31+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the problem of poor GUI grounding performance on complex benchmarks like ScreenSpot-Pro, caused by precision bias from high image resolution and ambiguity bias from intricate interface elements. It proposes Bias-Aware Manipulation Inference (BAMI), a training-free method that uses coarse-to-fine focus and candidate selection to mitigate these biases. This approach significantly boosts accuracy of existing models, enhancing GUI agent reliability in challenging real-world scenarios without retraining.",
+      "summary_zh": "该研究针对GUI智能体在复杂界面中因高分辨率（精度偏差）和复杂元素（歧义偏差）导致的定位错误，提出一种无需训练的偏置感知操作推理方法BAMI。其核心是通过“粗到细聚焦”与“候选选择”两种操作有效缓解上述偏差，并在ScreenSpot-Pro等基准上将现有模型准确率提升20个百分点以上。这一训练自由的方法为快速增强GUI grounding模型的实战能力提供了低成本、高实效的解决方案。",
+      "source": "arxiv_cs_cl",
+      "title_en": "BAMI: Training-Free Bias Mitigation in GUI Grounding",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1525571618,
+      "url": "http://arxiv.org/abs/2605.06663v1",
+      "title": "EMO: Pretraining Mixture of Experts for Emergent Modularity",
+      "published_at": "2026-05-07T17:59:20+00:00",
+      "original_language": "en",
+      "summary_en": "Large language models are typically deployed as monolithic systems, requiring the full model even when applications need only a narrow subset of capabilities, e.g., code, math, or domain-specific knowledge. Mixture-of-Experts (MoEs) seemingly offer a potential alternative by activating only a subset",
+      "summary_zh": "EMO 旨在解决现有 Mixture-of-Experts 模型在仅激活领域子集时性能大幅下降的问题，限制了在内存受限场景下的实用性。其关键方法是让同一文档的令牌从共享专家池中选择，从而无先验地鼓励模块化，实现专家子集的独立使用与组合。这项工作使大语言模型能更高效地按需加载领域能力，对稀疏模型的轻量化部署具有重要意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "EMO: Pretraining Mixture of Experts for Emergent Modularity",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1893089807,
+      "url": "http://arxiv.org/abs/2605.06660v1",
+      "title": "Verifier-Backed Hard Problem Generation for Mathematical Reasoning",
+      "published_at": "2026-05-07T17:58:32+00:00",
+      "original_language": "en",
+      "summary_en": "VHG addresses the challenge of generating valid, challenging, and novel mathematical problems with LLMs, where naive self-play often leads to invalid outputs due to reward hacking. By introducing an independent verifier that jointly evaluates problem validity and difficulty alongside a solver, the framework constrains the generation process and ensures reliable hard problem creation. This approach reduces costly human involvement and enables scalable, automated problem generation for advancing LLM training and autonomous research.",
+      "summary_zh": "VHG框架通过引入独立验证器，将问题有效性和难度共同纳入奖励机制，解决了大语言模型在生成有效且具挑战性数学难题时易出现奖励作弊的问题。该方法在不定积分和通用数学推理任务上，借助符号验证器或基于LLM的软验证器，显著提升了生成问题的有效性与多样性。这项工作为无需昂贵人类参与的自主科研与模型训练提供了可靠的问题生成范式。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Verifier-Backed Hard Problem Generation for Mathematical Reasoning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3186856537,
+      "url": "http://arxiv.org/abs/2605.06656v1",
+      "title": "Why Global LLM Leaderboards Are Misleading: Small Portfolios for Heterogeneous Supervised ML",
+      "published_at": "2026-05-07T17:57:58+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the misleading nature of global LLM leaderboards based on pairwise human feedback. It shows that a single global ranking cancels out conflicting but coherent opinions across languages, tasks, and time, making top models statistically indistinguishable. The key finding is that grouping evaluations by language dramatically increases agreement and yields consistent, widely separated rankings, revealing that global noise masks structured heterogeneity. This matters because it demonstrates that current leaderboards fail to capture meaningful distinctions, necessitating a portfolio of smaller, domain-specific evaluations for reliable model comparison.",
+      "summary_zh": "当前LLM排行榜基于全球成对比较，但分析发现其排名严重误导：近三分之二决定性投票相互抵消，前50名模型统计上几乎无法区分。根本原因在于语言、任务和时间维度上存在强烈的结构性异构，其中语言是最关键的因素——按语言分组后，投票一致性大幅提升，ELO分数跨度增加两个数量级，形成高度一致的子群体排名。这揭示了所谓“全局噪声”实则是多个内在一致但相互冲突的亚群体混合，因此对LLM的监督评估必须转向更细粒度的、按子群体划分的排名体系才真正有意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Why Global LLM Leaderboards Are Misleading: Small Portfolios for Heterogeneous Supervised ML",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1531901689,
+      "url": "http://arxiv.org/abs/2605.06654v1",
+      "title": "Optimizer-Model Consistency: Full Finetuning with the Same Optimizer as Pretraining Forgets Less",
+      "published_at": "2026-05-07T17:57:02+00:00",
+      "original_language": "en",
+      "summary_en": "Optimizers play an important role in both pretraining and finetuning stages when training large language models (LLMs). In this paper, we present an observation that full finetuning with the same optimizer as in pretraining achieves a better learning-forgetting tradeoff, i.e., forgetting less while ",
+      "summary_zh": "该研究发现在大模型监督微调中，使用与预训练阶段相同的优化器进行全量微调，能够实现更优的学习-遗忘平衡，其效果甚至优于LoRA等参数高效方法。作者将这种现象命名为优化器-模型一致性，并通过理论分析和实验证明，优化器通过正则化效应塑造激活分布和损失景观，使得微调权重更新必须遵循特定结构才能减少灾难性遗忘。这一发现为提升模型微调效率与知识保持提供了新的视角。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Optimizer-Model Consistency: Full Finetuning with the Same Optimizer as Pretraining Forgets Less",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4228003541,
+      "url": "http://arxiv.org/abs/2605.06652v1",
+      "title": "When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels",
+      "published_at": "2026-05-07T17:56:41+00:00",
+      "original_language": "en",
+      "summary_en": "This paper tackles the problem of comparing LLM safety in settings where no labeled benchmark exists—a common scenario when deploying models in new languages or regulatory contexts. It proposes a validation framework based on instrumental validity, using responsiveness to a safe-versus-abliterated contrast, dominance of target-driven variance, and rerun stability, implemented in a tool called SimpleAudit. The key finding is that this approach reliably separates safe and abliterated models (AUROC 0.89–1.00) in a Norwegian safety audit, enabling credible safety evidence without ground-truth labels.",
+      "summary_zh": "在缺乏标注基准的前提下比较语言模型安全性，本文将该场景形式化为无基准对比安全评分，并制定基于场景审计的部署证据契约。核心方法是以受控的安全与消除（abliterated）对比响应性、目标驱动方差主导性及重运行稳定性，替代真值一致性构建工具效度链，并在挪威安全数据集上通过SimpleAudit工具验证，安全与消除模型的AUC达0.89–1.00，且目标身份占方差主导地位（η²≈0.52）。这一成果为无标签环境下的安全审计提供了可操作的验证框架，对需在特定语言或监管领域快速部署安全评估具有重要实践意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2063769185,
+      "url": "http://arxiv.org/abs/2605.06651v1",
+      "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI",
+      "published_at": "2026-05-07T17:56:32+00:00",
+      "original_language": "en",
+      "summary_en": "The AI co-mathematician tackles the challenge of supporting open-ended, iterative mathematical research by offering an agentic, stateful workspace that mirrors human collaboration—managing uncertainty, refining intent, and tracking failed hypotheses. It successfully aids researchers in solving open problems, identifying new directions, and uncovering overlooked literature, while also achieving a new state-of-the-art score of 48% on the FrontierMath Tier 4 benchmark. This work demonstrates a transformative paradigm for human-AI collaboration that accelerates mathematical discovery and pushes the frontier on hard problem-solving.",
+      "summary_zh": "该工具解决了数学研究流程中探索性强、迭代频繁且需处理不确定性等现实挑战，通过一个异步、状态化的智能代理工作台，协助数学家进行构思、文献搜索和定理证明等全流程工作。其关键特点在于能细化用户意图、追踪失败假设并输出规范数学成果，从而模仿人类协作，帮助研究者发现新方向、解决开放问题。这不仅示范了高度交互的AI辅助数学发现范式，还在FrontierMath Tier 4等难题基准上取得了48%的领先成绩，证明能切实加速数学创新。",
+      "source": "arxiv_cs_cl",
+      "title_en": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2974961062,
+      "url": "http://arxiv.org/abs/2605.06650v1",
+      "title": "Beyond Negative Rollouts: Positive-Only Policy Optimization with Implicit Negative Gradients",
+      "published_at": "2026-05-07T17:55:21+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the limitation of using negative rollouts in sparse binary reward settings, where penalizing a few sampled failures fails to capture meaningful gradient signals. It proposes POPO, a positive-only policy optimization that learns exclusively from online positive rollouts via bounded importance sampling, eliminating the need for negative rollouts. This matters because it simplifies reinforcement learning for verifiable rewards and can improve reasoning enhancement in LLMs by focusing gradients on successful examples.",
+      "summary_zh": "针对大语言模型推理训练中基于验证奖励的强化学习（RLVR）负样本梯度信号稀疏且难以表征失败严重程度的问题，本文提出仅使用正样本的策略优化框架 POPO。该方法通过有界重要性采样从正样本中隐式获取负梯度指导，摒弃了显式负样本，从而在稀疏二元奖励下更稳定高效地进行策略学习。这项工作为 RLVR 提供了无需依赖负样本的新范式，对提升 LLM 推理能力具有实际意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Beyond Negative Rollouts: Positive-Only Policy Optimization with Implicit Negative Gradients",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3327667101,
+      "url": "http://arxiv.org/abs/2605.06647v1",
+      "title": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "published_at": "2026-05-07T17:54:29+00:00",
+      "original_language": "en",
+      "summary_en": "The paper identifies that current retrieval-augmented agents rely on inefficient, multi-round exploratory search, leading to high latency and poor recall. It introduces the SuperIntelligent Retrieval Agent (SIRA), which compresses this process into a single retrieval step by generating corpus-discriminative query terms—those that separate",
+      "summary_zh": "该工作针对当前检索代理将检索视为黑箱、导致多轮探索、延迟高且召回率低的问题，提出超智能检索代理 SIRA，其核心思想是将多轮搜索压缩为单次语料辨别性检索动作，通过大模型离线补充文档缺失的搜索词汇，并让模型聚焦于识别能区分目标证据与语料干扰的判别性术语。该方法模拟了专家检索方式，显著减少了无效迭代，有望提升企业知识库检索的效率与召回质量。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 373835665,
+      "url": "http://arxiv.org/abs/2605.06644v1",
+      "title": "Edge-specific signal propagation on mature chromophore-region 3D mechanism graphs for fluorescent protein quantum-yield prediction",
+      "published_at": "2026-05-07T17:51:41+00:00",
+      "original_language": "en",
+      "summary_en": "This work addresses the gap in predicting fluorescent protein quantum yield (QY) that sequence-based models miss: it explicitly models how local physical signals propagate from the 3D protein microenvironment onto specific regions of the mature chromophore. The key approach is a chromophore-centered mechanism graph that partitions the chromophore, applies channel-signal-region propagation, and uses 52 non-identity features for ExtraTrees regression, achieving top random-CV performance on a 531-protein benchmark. This matters because it not only improves QY prediction but also provides intrinsic interpretability by linking each prediction to specific contact channels and chromophore subregions.",
+      "summary_zh": "该研究针对荧光蛋白量子产率（QY）受局部物理信号影响而非仅序列决定的问题，提出了一种以成熟发色团（chromophore）为中心的三维机制图算法，通过区域化信号传播与52个非身份特征进行回归预测，在531个蛋白的基准测试中取得了最优性能，实现了可内禀解释的精准预测。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Edge-specific signal propagation on mature chromophore-region 3D mechanism graphs for fluorescent protein quantum-yield prediction",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3507794859,
+      "url": "http://arxiv.org/abs/2605.06643v1",
+      "title": "Are We Making Progress in Multimodal Domain Generalization? A Comprehensive Benchmark Study",
+      "published_at": "2026-05-07T17:51:16+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the lack of standardized evaluation in Multimodal Domain Generalization (MMDG), where inconsistent benchmarks obscure genuine algorithmic progress. It introduces MMDG‑Bench, a unified benchmark covering three tasks, six modalities, and practical challenges like missing modalities and corruptions, to enable rigorous and fair comparisons. This matters because it establishes a reliable foundation for measuring true advancement in multimodal robust generalization.",
+      "summary_zh": "现有MMDG研究因评估协议不一致而难以衡量真实进展，且忽视真实场景挑战。本文推出首个统一基准MMDG-Bench，覆盖三类任务、六种模态组合和多种算法，标准化了评估。这项工作揭示了领域现状并促进可信赖多模态泛化的公平比较与实质进步。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Are We Making Progress in Multimodal Domain Generalization? A Comprehensive Benchmark Study",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1129351452,
+      "url": "http://arxiv.org/abs/2605.06642v1",
+      "title": "StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction",
+      "published_at": "2026-05-07T17:51:16+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the challenge of training large language model agents for long-horizon decision making, where purely reactive methods weaken exploration and credit assignment. It introduces Strategic Trajectory Abstraction (StraTA), a framework that explicitly samples a compact strategy to condition actions, jointly trained with a hierarchical rollout approach that includes diverse strategies and self-judgment. Experiments on ALFWorld, WebShop, and SciWorld show StraTA significantly boosts sample efficiency and final success rates, highlighting the value of injecting high-level strategic reasoning into agentic reinforcement learning.",
+      "summary_zh": "针对大语言模型智能体在长周期决策中因纯反应模式而导致的探索困难和信用分配低效问题，StraTA框架引入了显式的轨迹级策略抽象，通过从初始状态采样紧凑策略来引导后续动作，并运用分层GRPO风格的训练机制联合优化策略生成与动作执行。该方法在ALFWorld、WebShop等环境上显著提升了样本效率和最终成功率，证明了将轨迹级策略嵌入智能体强化学习对提升长期决策性能的重要性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3092173957,
+      "url": "http://arxiv.org/abs/2605.06641v1",
+      "title": "GlazyBench: A Benchmark for Ceramic Glaze Property Prediction and Image Generation",
+      "published_at": "2026-05-07T17:51:13+00:00",
+      "original_language": "en",
+      "summary_en": "Developing ceramic glazes is a costly, time-consuming process of trial and error due to complex chemistry, placing a significant burden on independent artists. While recent advances in multimodal AI offer a modern solution, the field lacks the large-scale datasets required to train these models. We ",
+      "summary_zh": "GlazyBench 针对陶瓷釉料开发依赖高成本试错、缺乏大规模数据集的难题，提出了首个包含超过2.3万真实配方的大规模基准数据集。该基准支持从原料预测烧成后颜色、透明度等表面属性，并在此基础上生成逼真釉面图像，同时建立了基于传统机器学习和大型多模态模型的全面基线。这项工作开创了AI辅助材料设计的新方向，为艺术创作和工业研发提供了标准化评估平台，显著降低了独立艺术家的技术门槛。",
+      "source": "arxiv_cs_cl",
+      "title_en": "GlazyBench: A Benchmark for Ceramic Glaze Property Prediction and Image Generation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 612313836,
+      "url": "http://arxiv.org/abs/2605.06639v1",
+      "title": "Recursive Agent Optimization",
+      "published_at": "2026-05-07T17:49:09+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the challenge of scaling AI agents to extremely long contexts and harder tasks by introducing Recursive Agent Optimization (RAO), a reinforcement learning method that trains models to recursively spawn and delegate sub-tasks to copies of themselves. This approach enables a divide-and-conquer paradigm at inference time, allowing agents to operate beyond fixed context windows and generalize to problems far harder than those seen during training. The method is important because it yields improved training efficiency, reduced wall-clock time versus single-agent systems, and a principled way to unlock inference-time scaling for complex, open-ended tasks.",
+      "summary_zh": "该方法针对大模型在长上下文和复杂任务上的扩展瓶颈，提出用强化学习训练递归代理（RAO），使其能自动分解并递归委派子任务给自己，实现分治推理。实验表明，这样训练的代理训练更高效，能突破原始上下文窗口、泛化到更困难的任务，并减少实际运行时间。这为构建可自主扩展推理能力的AI系统提供了重要路径。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Recursive Agent Optimization",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4087941616,
+      "url": "http://arxiv.org/abs/2605.06638v1",
+      "title": "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key",
+      "published_at": "2026-05-07T17:48:42+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the lack of controlled benchmarks for studying how reinforcement learning (RL) scales with task difficulty when training LLMs to perform long-horizon reasoning. It introduces ScaleLogic, a synthetic framework that independently varies proof depth and logical expressiveness (from simple implication to full first-order logic), and reveals that RL training compute follows a power law with depth, where the scaling exponent increases sharply with expressiveness (from 1.04 to 2.60). This demonstrates that logical expressiveness is a critical factor in enabling LLMs to learn deep reasoning via RL, offering guidance for designing training environments and understanding scaling bottlenecks.",
+      "summary_zh": "Reinforcement learning (RL) has been applied to improve large language model (LLM) reasoning, yet the systematic study of how training scales with task difficulty has been hampered by the lack of controlled, scalable environments. We introduce ScaleLogic, a synthetic logical reasoning framework that",
+      "source": "arxiv_cs_cl",
+      "title_en": "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4207514991,
+      "url": "http://arxiv.org/abs/2605.06635v1",
+      "title": "Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents",
+      "published_at": "2026-05-07T17:46:45+00:00",
+      "original_language": "en",
+      "summary_en": "This paper tackles the problem that LLM-generated deep research agents cite sources without reliable verification, risking inaccessible, irrelevant, or factually inconsistent attributions. The key approach is a reproducible framework that extracts inline citations from Markdown reports using an AST parser, retrieves the actual source content,",
+      "summary_zh": "该研究针对大语言模型驱动的深度研究智能体生成的报告引用难以验证的问题，提出了首个可扩展的来源归因评估框架。其核心方法是通过AST解析器自动提取内联引用并检索原文，从链接可访问性、内容相关性和事实准确性三个维度进行闭环评估。该框架为衡量和提升智能体生成内容的引用可信度提供了可复现的基准，对保障AI研究助手的可靠性与透明度具有重要意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3716151273,
+      "url": "http://arxiv.org/abs/2605.06632v1",
+      "title": "Crafting Reversible SFT Behaviors in Large Language Models",
+      "published_at": "2026-05-07T17:44:07+00:00",
+      "original_language": "en",
+      "summary_en": "This work tackles the problem that SFT-induced behaviors in LLMs lack causal localization, making selective control at inference impossible with existing",
+      "summary_zh": "该研究针对大语言模型中监督微调行为缺乏结构化约束、难以在推理时选择性控制的问题，提出将微调行为压缩至稀疏且机制必要的“载体”子网络中。通过联合优化路由掩码与权重的LCDD方法构建载体，并用基于激活匹配的软提示SFT-Eraser实现行为擦除，从而无需修改模型权重即可灵活开启或关闭特定行为，这为提升模型安全性与可控性提供了新的因果视角。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Crafting Reversible SFT Behaviors in Large Language Models",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 499762748,
+      "url": "http://arxiv.org/abs/2605.06627v1",
+      "title": "PianoCoRe: Combined and Refined Piano MIDI Dataset",
+      "published_at": "2026-05-07T17:41:07+00:00",
+      "original_language": "en",
+      "summary_en": "Existing piano MIDI datasets are often limited in composer breadth, performance variety, and precise note-level alignment. PianoCoRe addresses this by merging and refining major open-source corpora into a unified resource of 250K performances from 483 composers, released as tiered subsets—most notably PianoCoRe-A, the largest note-aligned collection to date. This comprehensive, high-quality dataset enables scalable music analysis, pre-training, and expressive performance modeling, significantly advancing symbolic music information retrieval.",
+      "summary_zh": "PianoCoRe解决了现有符号音乐数据集中乐谱与演奏配对稀缺、作曲家覆盖范围有限、缺乏音符级对齐及命名格式不一致等问题。该工作通过统一并精炼多个开源钢琴MIDI语料，构建了一个包含483位作曲家、5,625首作品、250,046个演奏记录的大规模数据集，并按需提供分层子集，其中PianoCoRe-A是目前最大的音符级对齐开源资源。这一贡献为大规模预训练、音乐分析及表现力建模提供了高质量基础，其附带的MIDI质量分类器也提升了数据清洗效率，对音乐信息检索研究具有重要推动作用。",
+      "source": "arxiv_cs_cl",
+      "title_en": "PianoCoRe: Combined and Refined Piano MIDI Dataset",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2283762486,
+      "url": "http://arxiv.org/abs/2605.06625v1",
+      "title": "Parser agreement and disagreement in L2 Korean UD: Implications for human-in-the-loop annotation",
+      "published_at": "2026-05-07T17:39:04+00:00",
+      "original_language": "en",
+      "summary_en": "This paper addresses the challenge of efficiently annotating second-language Korean corpora with Universal Dependencies by using parser agreement as a signal to streamline human-in-the-loop review. It finds strong alignment between parser agreement and human correctness judgments, allowing a simplified annotation workflow, and reveals that parser disagreements concentrate in linguistically predictable areas like grammatical relation and clause boundary ambiguity. This matters because it offers a practical, semi-automatic strategy to reduce manual annotation effort for low-resource learner languages while pinpointing cases that require deeper linguistic expertise or model improvement.",
+      "summary_zh": "该研究通过利用两个领域自适应解析器的一致性作为标注正确性的代理，提出了一种简化的人机协同二语韩语形态句法标注流程。关键发现表明，解析器一致性能够有效对应人工判断，且不一致主要集中在语法关系区分和从句边界歧义等可预测的语言学领域。这一发现为提升二语韩语语料库的标注效率与迭代优化提供了重要依据，兼具理论启示与实践价值。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Parser agreement and disagreement in L2 Korean UD: Implications for human-in-the-loop annotation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 445364216,
+      "url": "http://arxiv.org/abs/2605.06623v1",
+      "title": "MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems",
+      "published_at": "2026-05-07T17:35:26+00:00",
+      "original_language": "en",
+      "summary_en": "MASPO tackles the challenge of optimizing prompts in LLM-based multi-agent systems where local agent objectives often conflict with global system goals. It introduces a joint evaluation mechanism that rewards prompts based on their downstream impact on successor agents and uses evolutionary beam search to efficiently explore the prompt space. This eliminates dependency on ground-truth labels and significantly improves coordination in complex collaborative tasks.",
+      "summary_zh": "本文针对大模型多智能体系统中提示词联合优化的难题，提出了MASPO框架。其核心创新在于联合评估机制，不仅评估单个智能体的局部提示有效性，更关注其对后续智能体成功的影响，从而弥合本地交互与全局目标间的差距，并采用数据驱动的进化束搜索高效探索高维提示空间。该框架无需真实标签，便能自动迭代提升整个系统的协同性能，对于提升复杂协作任务中的多智能体系统效能具有重要价值。",
+      "source": "arxiv_cs_cl",
+      "title_en": "MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2426558491,
+      "url": "http://arxiv.org/abs/2605.06619v1",
+      "title": "Algospeak, Hiding in the Open: The Trade-off Between Legible Meaning and Detection Avoidance",
+      "published_at": "2026-05-07T17:34:01+00:00",
+      "original_language": "en",
+      "summary_en": "This research addresses the coevolution of linguistic evasion (Algospeak) and content moderation, formalizing how increasing evasion reduces both detectability and understandability. It introduces the concept of Majority Understandable Modulation (MUM)—the point where further obfuscation evades detectors but loses comprehension for most people—and offers a reproducible framework to generate tunable Algospeak variants, tested on a COVID-19 disinformation dataset. This matters because it quantifies a critical trade-off, guiding the design of moderation systems that balance evasion resistance with public legibility.",
+      "summary_zh": "该研究针对大型语言模型时代内容规避策略（Algospeak）与检测系统之间的共生演化问题，将其构建为联合行动模型，揭示规避程度增加会同时降低可检测性和可理解性，并引入“多数人可理解调制”（MUM）概念，以刻画规避增益与理解丧失的临界点。其关键贡献在于提出一个可复现的框架，能生成意义保留、调制水平可调的Algospeak变体，并通过COVID-19虚假信息实例构建基准数据集，实证展示了合法可读性与规避检测之间的核心权衡，为理解人机共生中的表达演变及设计更鲁棒的内容审核提供了理论依据。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Algospeak, Hiding in the Open: The Trade-off Between Legible Meaning and Detection Avoidance",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3783429811,
+      "url": "http://arxiv.org/abs/2605.06615v1",
+      "title": "When and Why SignSGD Outperforms SGD: A Theoretical Study Based on $\\ell_1$-norm Lower Bounds",
+      "published_at": "2026-05-07T17:32:09+00:00",
+      "original_language": "en",
+      "summary_en": "This paper addresses the lack of theoretical understanding for why sign-based optimizers like SignSGD often outperform SGD in large-scale training, despite SGD's well-known minimax optimality under standard smoothness assumptions. By introducing a problem setting based on ℓ₁-norm stationarity, ℓ∞-smoothness, and separable noise, the authors derive matching upper and lower bounds that reveal a specific problem class where SignSGD",
+      "summary_zh": "本论文针对SignSGD符号优化算法在理论上何时、为何能超越SGD这一悬而未决的问题，突破了传统ℓ₂范数下SGD极小极大最优的障碍。通过引入ℓ₁范数平稳性、ℓ∞光滑度以及可分离噪声模型，首次为SignSGD推导出匹配的上下界，并明确刻画了其可证明优于SGD的具体问题几何类别。这一工作为符号优化方法在大",
+      "source": "arxiv_cs_cl",
+      "title_en": "When and Why SignSGD Outperforms SGD: A Theoretical Study Based on $\\ell_1$-norm Lower Bounds",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2243430709,
+      "url": "http://arxiv.org/abs/2605.06614v1",
+      "title": "SkillOS: Learning Skill Curation for Self-Evolving Agents",
+      "published_at": "2026-05-07T17:31:50+00:00",
+      "original_language": "en",
+      "summary_en": "LLM-based agents often fail to evolve from past task experiences due to the challenge of learning long-term skill curation from indirect, delayed feedback. SkillOS addresses this by pairing a frozen agent executor with a trainable skill curator that is optimized via reinforcement learning with composite rewards on grouped task streams, enabling the agent to autonomously update an external skill repository. This approach matters because it allows agents to continuously distill and curate reusable skills, transforming them from one-off problem solvers into self-evolving systems for streaming environments.",
+      "summary_zh": "针对LLM智能体难以从历史交互中持续进化、高质量技能管理成为瓶颈的问题，SkillOS提出一种经验驱动的强化学习训练方案，通过冻结的技能执行器搭配可训练的技能策展器，结合复合奖励和分组任务流来学习长期技能策展策略。该方法让智能体能够从间接延迟反馈中学会高效组织复用技能，突破了手动或短视策展的限制，为实现真正自我进化的智能体提供了关键路径。",
+      "source": "arxiv_cs_cl",
+      "title_en": "SkillOS: Learning Skill Curation for Self-Evolving Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2326550402,
+      "url": "https://www.anthropic.com/research/anthropic-institute-agenda",
+      "title": "May 7, 2026PolicyFocus areas for The Anthropic Institute",
+      "published_at": "2026-05-07T00:00:00",
+      "original_language": "en",
+      "summary_en": "The document outlines The Anthropic Institute's policy focus areas as of May 2026, addressing the need for structured governance to guide the safe development and deployment of advanced AI systems. It identifies key priorities—likely spanning safety research, regulatory frameworks, and industry standards—to steer AI progress toward beneficial outcomes. This matters because it provides a strategic roadmap for policymakers and researchers to mitigate risks while fostering responsible innovation.",
+      "summary_zh": "该文件聚焦于2026年5月7日Anthropic研究所的政策重点领域，旨在明确优先研究方向以应对先进AI系统的安全与治理挑战，这对于引导全球负责任的AI发展具有重要意义。",
+      "source": "anthropic_research",
+      "title_en": "May 7, 2026PolicyFocus areas for The Anthropic Institute",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 388593627,
+      "url": "https://www.anthropic.com/research/donating-open-source-petri",
+      "title": "May 7, 2026AlignmentDonating our open-source alignment tool",
+      "published_at": "2026-05-07T00:00:00",
+      "original_language": "en",
+      "summary_en": "On May 7, 2026, the team donated their open-source alignment tool to publicly share a practical resource for improving AI system alignment. This initiative addresses the difficulty of democratizing access to alignment techniques, directly supporting safer AI development through community collaboration. By releasing the tool openly, it accelerates collective progress on a critical challenge in AI safety.",
+      "summary_zh": "文章宣布将其开源AI对齐工具捐赠给社区，旨在推动解决人工智能系统与人类价值观对齐的关键问题。该举措通过开放核心工具，降低了对齐研究门槛，有望加速安全、可控AI的开发进程。",
+      "source": "anthropic_research",
+      "title_en": "May 7, 2026AlignmentDonating our open-source alignment tool",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 282280508,
+      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "title": "Natural Language Autoencoders: Turning Claude’s thoughts into text",
+      "published_at": "2026-05-07T00:00:00",
+      "original_language": "en",
+      "summary_en": "This work tackles the challenge of interpreting the internal representations of large language models by introducing a natural language autoencoder, which compresses a model's latent activations into an explicit, human-readable text description. The key finding is that by forcing the model to reconstruct its own \"thoughts\" through a textual bottleneck, the latent space can be mapped to semantically meaningful concepts, enabling direct translation of hidden states into coherent natural language. This matters for AI transparency and safety, as it provides a method to audit and understand what a model is \"thinking\" before it generates output.",
+      "summary_zh": "针对语言模型内部表征难以理解的问题，本文提出“自然语言自编码器”方法，将Claude的潜在“思想”直接解码为可读的文本描述。这一技术解锁了从模型内部状态还原其推理过程的可能，为提升大规模语言模型的可解释性与安全性提供了重要工具。",
+      "source": "anthropic_research",
+      "title_en": "Natural Language Autoencoders: Turning Claude’s thoughts into text",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 352214068,
+      "url": "https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook",
+      "title": "Collaborate with Claude across Excel, PowerPoint, Word and Outlook",
+      "published_at": "2026-05-08T02:48:26.957940",
+      "original_language": "en",
+      "summary_en": "The title describes an integration of Anthropic's Claude AI assistant with Microsoft Office applications, addressing the friction of context-switching between productivity tools and separate AI interfaces. The approach embeds Claude directly into Excel, PowerPoint, Word, and Outlook, enabling real-time data analysis, content generation, and communication support within familiar workflows. This matters because it reduces cognitive load, streamlines document-centric tasks, and brings intelligent automation to enterprise environments where Office remains dominant.",
+      "summary_zh": "该方案旨在解决跨 Office 办公套件（Excel、PPT、Word、Outlook）高效协作的痛点，通过集成Claude的AI能力，实现在不同文档类型间无缝调用智能分析、内容生成与数据处理功能。其核心价值在于将大语言模型深度嵌入日常工作流，显著提升自动化办公与创意效率。",
+      "source": "claude_blog",
+      "title_en": "Collaborate with Claude across Excel, PowerPoint, Word and Outlook",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3692258432,
+      "url": "https://podcasters.spotify.com/pod/show/firstmark/episodes/OpenAI-Board-Member-Zico-Kolter-on-the-Real-Risks-of-Frontier-AI-e3j1196",
+      "title": "OpenAI Board Member Zico Kolter on the Real Risks of Frontier AI",
+      "published_at": "2026-05-07T11:30:01",
+      "original_language": "en",
+      "summary_en": "The episode addresses the challenge of ensuring frontier AI models are safe before public release, exploring the real risks and oversight mechanisms. Key insight from Zico Kolter: scaling model capability does not automatically improve safety, necessitating explicit safety evaluations and governance, such as OpenAI's board-level review process. This matters because understanding and mitigating these risks is critical as AI systems become more powerful and widely deployed.",
+      "summary_zh": "该期播客聚焦前沿AI模型发布前的真实风险与安全决策流程，OpenAI董事会成员Zico Kolter详解了其内部监督机制。关键发现是更强大的模型并不自动意味着更安全，凸显了独立评估与治理在负责任地推进AI能力中的核心作用。",
+      "source": "mad_podcast",
+      "title_en": "OpenAI Board Member Zico Kolter on the Real Risks of Frontier AI",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4113804576,
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.133",
+      "title": "Claude v2.1.133 版本更新",
+      "published_at": "2026-05-07T23:49:04+00:00",
+      "original_language": "zh",
+      "summary_en": "Claude v2.1.133 addresses stability, configurability, and deployment flexibility by introducing new settings (e.g., custom sandbox binaries, worktree base reference, parent settings merging) and by enhancing hooks, Bash tools, and background process management. It fixes critical issues like parallel session deadlocks, permission mismatches, proxy failures, and network drive access denials, while also improving VSCode extension behavior. These updates matter because they give administrators and users greater control over execution environments and ensure more reliable, consistent performance across diverse setups.",
+      "summary_zh": "Claude v2.1.133 版本通过新增工作树基引用、沙箱自定义路径和父设置合并策略等配置，增强了管理员控制与工具链灵活性，同时修复了并行会话死锁、权限误匹配等稳定性问题。这一更新重点解决了多会话协作、环境定制和远程控制中的可靠性缺陷，显著提升了 AI 助手在复杂开发与部署场景下的可用性。",
+      "source": "aihot_selected",
+      "title_zh": "Claude v2.1.133 版本更新",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3805200464,
+      "url": "https://x.com/rohanpaul_ai/status/2052533657525698802",
+      "title": "atomic.chat为LLaMA.cpp引入多令牌预测技术，显著加速本地模型推理",
+      "published_at": "2026-05-07T23:38:52+00:00",
+      "original_language": "zh",
+      "summary_en": "atomic.chat addresses slow local LLM inference by integrating multi-token prediction into LLaMA.cpp, where a small auxiliary model drafts multiple subsequent tokens that the main model then verifies. This approach achieved a ~40% increase in token generation speed and 1.5× overall runtime improvement for Gemma 4 26B on a MacBook, demonstrating how speculative decoding can make large models practical on consumer hardware. The work reinforces LLaMA.cpp’s central role in efficient on-device AI deployment, benefiting desktop assistants, coding tools, and private AI applications.",
+      "summary_zh": "atomic.chat 通过为 LLaMA.cpp 引入多令牌预测技术，解决了本地大模型推理效率低下的问题，其核心是利用小型辅助模型生成令牌草案、主模型并行验证，实现了约40%的生成速度提升与1.5倍整体加速。这一突破在 MacBook Pro 上显著优化了 Gemma 等模型的本地运行体验，进一步巩固了 LLaMA.cpp 与 GGUF 生态的主导地位，并为桌面应用、编程助手等私有部署场景奠定了高效基础。",
+      "source": "aihot_selected",
+      "title_zh": "atomic.chat为LLaMA.cpp引入多令牌预测技术，显著加速本地模型推理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2380879762,
+      "url": "https://x.com/OpenAIDevs/status/2052530378184032560",
+      "title": "GPT实时模型提示指南发布",
+      "published_at": "2026-05-07T23:25:50+00:00",
+      "original_language": "zh",
+      "summary_en": "A new prompting guide for GPT-Realtime-2 addresses the complexities of building voice applications by detailing techniques to adjust reasoning intensity, structure preamble instructions, design tool behaviors, and handle unclear audio. It also covers accurate entity capture and state management across long conversations, helping developers create more reliable and effective real-time voice interactions.",
+      "summary_zh": "该指南旨在解决构建高质量语音应用时，如何有效配置GPT实时模型的问题。它通过提供调整推理强度、设计工具行为及处理模糊音频等具体策略，帮助开发者实现准确实体捕获与长对话状态维护，从而显著提升语音交互的可靠性和实用性。",
+      "source": "aihot_selected",
+      "title_zh": "GPT实时模型提示指南发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 688075699,
+      "url": "https://x.com/xai/status/2052529102280880234",
+      "title": "Grok语音助手高效处理复杂工作流",
+      "published_at": "2026-05-07T23:20:46+00:00",
+      "original_language": "zh",
+      "summary_en": "Grok Voice Think Fast 1.0 tackles the challenge of building voice assistants for real-world customer service, specifically handling complex, multi-step workflows with speed and accuracy even in noisy environments. Its key capability lies in reliably executing frequent tool calls and multi-step troubleshooting. This matters because it enables robust, efficient automation of demanding customer interactions outside of quiet, controlled settings.",
+      "summary_zh": "Grok Voice Think Fast 1.0 解决了现实嘈杂环境下语音助手难以高效完成多步骤复杂任务的问题，通过快速准确的语音理解与高频工具调用能力，让客户服务能安心应对故障排除等高要求工作流，在速度和准确性上取得突破。这一进展让语音助手从简单问答升级为可处理复杂业务的实用工具。",
+      "source": "aihot_selected",
+      "title_zh": "Grok语音助手高效处理复杂工作流",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1062420489,
+      "url": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows",
+      "title": "提升 GitHub Agentic Workflows 的 Token 使用效率",
+      "published_at": "2026-05-07T23:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The problem is that GitHub's agentic workflows running on every pull request accumulate high API costs due to inefficient language model usage. The key approach involved monitoring production workflows, identifying inefficiencies, and building a dedicated agent to optimize them. This matters because it significantly reduces token consumption and associated expenses, directly improving the cost-effectiveness and operational efficiency of AI-driven development processes.",
+      "summary_zh": "该工作解决了由智能体工作流在每个拉取请求中频繁调用大语言模型所导致的过高 API 成本问题。其关键方法是监测自身生产工作流以定位效率瓶颈，并量身定制专用智能体进行针对性优化。这能直接削减 Token 消耗与相关费用，从而显著提升工作流的经济性和运行效率。",
+      "source": "aihot_selected",
+      "title_zh": "提升 GitHub Agentic Workflows 的 Token 使用效率",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2611770106,
+      "url": "https://www.ithome.com/0/947/455.htm",
+      "title": "苹果首款 AI 可穿戴设备：内置摄像头的 AirPods 已进入 DVT 阶段，预计最快 9 月搭载新 Siri 亮相",
+      "published_at": "2026-05-07T22:55:17+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple is addressing the limitation of voice-only assistants by equipping AirPods with low-resolution cameras to capture environmental visual context, enabling an upgraded, visually-aware Siri. The key approach integrates these cameras into a familiar form factor and partners with Google Gemini to power visual Q&A and navigation, while a privacy light indicator addresses surveillance concerns. This matters as Apple’s first dedicated AI wearable, pushing always-available assistants toward richer, real-world scene understanding.",
+      "summary_zh": "苹果首款AI可穿戴设备——内置摄像头的AirPods，通过左右耳机低分辨率摄像头捕获环境信息，并结合与谷歌Gemini合作升级的Siri实现视觉问答等智能功能。此举旨在解决传统耳机缺乏视觉感知的问题，标志着苹果将AI交互从语音拓展至多模态感知，同时通过隐私指示灯设计缓解数据上传顾虑。",
+      "source": "aihot_selected",
+      "title_zh": "苹果首款 AI 可穿戴设备：内置摄像头的 AirPods 已进入 DVT 阶段，预计最快 9 月搭载新 Siri 亮相",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 395029895,
+      "url": "https://x.com/dotey/status/2052512560264380737",
+      "title": "OpenAI 上线官方命令行工具 openai-cli，终端直接调用 API",
+      "published_at": "2026-05-07T22:15:02+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI's openai-cli addresses the lack of a first-party command-line interface for interacting with their APIs, which previously required language SDKs. The tool enables direct terminal access to agent workflows, structured outputs, and multimodal tasks via a resource-oriented command structure, bridging the gap for automation and server-side integration. This matters because it simplifies embedding API calls into scripts and pipelines, reducing friction for developers who need quick, codeless access to OpenAI's capabilities.",
+      "summary_zh": "OpenAI 开源的命令行工具 openai-cli 解决了开发者需手动编写 SDK 来调用 API 的不便，可直接在终端通过资源化命令调用云端工具、结构化输出和生成任务。这弥补了官方此前仅提供语言 SDK 的不足，大幅提升了将 OpenAI API 集成到自动化流程和服务器环境的便捷性。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 上线官方命令行工具 openai-cli，终端直接调用 API",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2040589384,
+      "url": "https://x.com/dotey/status/2052500525598527732",
+      "title": "ChatGPT中文回复频现\"我会稳稳地接住你\"，WIRED剖析成因",
+      "published_at": "2026-05-07T21:27:13+00:00",
+      "original_language": "zh",
+      "summary_en": "ChatGPT's repeated use of the emotionally charged Chinese phrase \"我会稳稳地接住你\" (I'll catch you steadily) stems from \"mode collapse\" in post-training—a combination of literal translation of English idioms like \"I've got you\" and reinforcement learning rewarding overly comforting responses. This phenomenon, also seen in rival models like Claude and DeepSeek, matters because it reveals how current alignment techniques can inadvertently create rigid, unnatural, and sometimes manipulative language patterns across major AI systems.",
+      "summary_zh": "ChatGPT等模型在中文对话中频繁出现“我会稳稳地接住你”等机械化的煽情表达，根源在于后训练反馈导致的“模式坍缩”，即翻译错位将英文口语生硬直译，叠加RLHF强化学习奖励促使模型过度追求讨好用户的回复。这一现象并非OpenAI独有，反映出当前大模型在多语言对齐中容易陷入短语滥用与风格失真的共性问题。",
+      "source": "aihot_selected",
+      "title_zh": "ChatGPT中文回复频现\"我会稳稳地接住你\"，WIRED剖析成因",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1264970895,
+      "url": "https://x.com/oran_ge/status/2052497363043049662",
+      "title": "开源AI Agent网盘NeuDrive，支持主流工具与自动同步",
+      "published_at": "2026-05-07T21:14:39+00:00",
+      "original_language": "zh",
+      "summary_en": "NeuDrive is an open-source cloud storage solution tailored for AI agents, enabling automatic synchronization of agent memory, skills, and files across tools like Claude Code, Codex, and Cursor. It provides both free and paid tiers, with a generous free version covering most use cases, making agent state portable and reducing setup friction. This tool matters because it addresses the fragmentation of AI agent workflows by offering a unified, seamlessly integrated persistence layer for autonomous development environments.",
+      "summary_zh": "开发者为 AI Agent 设计了开源网盘 NeuDrive，用于自动同步 Agent 的记忆、技能和文件，解决多工具协作时数据孤岛与状态迁移的问题。该项目集成 Claude Code、Codex、Cursor 等主流开发环境与网页应用，并在 GitHub 开源，免费版即可满足多数需求，大幅降低 Agent 持久化与跨平台复用的成本。",
+      "source": "aihot_selected",
+      "title_zh": "开源AI Agent网盘NeuDrive，支持主流工具与自动同步",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3498759210,
+      "url": "https://x.com/LumaLabsAI/status/2052485077310042321",
+      "title": "Luma Agents 根据标语自动生成广告",
+      "published_at": "2026-05-07T20:25:50+00:00",
+      "original_language": "zh",
+      "summary_en": "Luma Agents tackle the time-consuming gap between a raw tagline and a finished advertisement by letting users supply a slogan and an aesthetic style, then automatically generating the ad. This AI-driven pipeline eliminates manual production steps, enabling rapid creative iteration and dramatically lowering the barrier to professional-quality ad creation.",
+      "summary_zh": "Luma Agents 解决了将标语快速转化为完整广告视频的创意难题。用户只需提供标语并指定美学风格，系统就能自动生成匹配的视觉内容。这一工具简化了广告创作流程，降低了制作门槛，让创意概念即时可视。",
+      "source": "aihot_selected",
+      "title_zh": "Luma Agents 根据标语自动生成广告",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2770813930,
+      "url": "https://x.com/OpenAI/status/2052480800004956323",
+      "title": "Codex插件现支持Chrome跨标签并行运行",
+      "published_at": "2026-05-07T20:08:50+00:00",
+      "original_language": "zh",
+      "summary_en": "Codex addresses the limitation of browser-based AI tools that monopolize control by now enabling background, cross-tab parallel processing in Chrome. The key approach is a Chrome extension that allows Codex to work across multiple tabs simultaneously without disrupting the user's browsing session. This matters because it significantly improves efficiency for tasks spanning multiple web apps and sites on macOS and Windows.",
+      "summary_zh": "Codex 现已通过 Chrome 插件支持在 macOS 和 Windows 上跨标签页并行运行，解决了一直以来在浏览器中使用 AI 助手时需频繁切换窗口或占用主控制权的问题。该方案让 Codex 能在后台同时处理多个标签页中的任务，不影响用户正常浏览，显著提升了在 Chrome 中处理应用和网站的流畅度与效率。",
+      "source": "aihot_selected",
+      "title_zh": "Codex插件现支持Chrome跨标签并行运行",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 535883493,
+      "url": "https://x.com/rohanpaul_ai/status/2052469258584822006",
+      "title": "冻结大语言模型隐藏状态中仍存可读行为信号，新技术大幅提升准确性",
+      "published_at": "2026-05-07T19:22:58+00:00",
+      "original_language": "zh",
+      "summary_en": "Cygnus technology addresses the problem of improving frozen large language model performance without retraining by extracting behavioral signals from hidden states. It adds self-awareness adapters that project hidden states into a mathematical space defined by the gl(4,R) Lie algebra, isolating \"dark patterns\" that carry strong accuracy signals. This approach enabled an accuracy leap on ARC-Challenge from 82.2% to 94.97% for Qwen-32B using only a single RTX 3090 GPU, demonstrating efficient, scalable model enhancement ready for high-concurrency deployment.",
+      "summary_zh": "该技术针对冻结大语言模型内部可读行为信号未被充分利用的问题，提出通过自感知适配器将隐藏状态投影至 gl(4, R) 李代数定义的数学空间，从中分离出关键“暗模式”，无需重新训练即可大幅提升模型准确率。这一方法以极低成本将 Qwen-32B 在 ARC-Challenge 上的准确率从 82.2% 提升至 94.97%，展示了通过解读认知几何来增强冻结模型性能的重要潜力。",
+      "source": "aihot_selected",
+      "title_zh": "冻结大语言模型隐藏状态中仍存可读行为信号，新技术大幅提升准确性",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3974015163,
+      "url": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them",
+      "title": "Agent pull requests 无处不在：如何审查它们",
+      "published_at": "2026-05-07T19:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "As AI agents increasingly contribute code, this guide addresses the challenge of reviewing their pull requests by pinpointing common pitfalls like logic errors and security vulnerabilities, and outlining steps to detect technical debt before merging. It offers a systematic evaluation strategy to uphold code quality and prevent defects from reaching production, which is crucial as AI-driven development becomes more widespread.",
+      "summary_zh": "面对AI代理生成Pull Request日益普及的挑战，本指南提出了一套系统审查方法，重点检查逻辑错误、安全漏洞及潜在技术债务。它通过具体步骤帮助开发者主动评估代码变更，确保在合并前有效规避风险，从而在AI辅助开发中维持代码质量与生产安全。",
+      "source": "aihot_selected",
+      "title_zh": "Agent pull requests 无处不在：如何审查它们",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2043921546,
+      "url": "https://github.com/antirez/ds4",
+      "title": "DeepSeek 4：适用于 Metal 的 Flash 本地推理引擎",
+      "published_at": "2026-05-07T18:45:55.507000+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek 4 Flash is an open-source local inference engine engineered for Apple’s Metal framework, enabling efficient offline execution of the DeepSeek 4 model on Macs with Apple Silicon. It leverages Metal Performance Shaders to accelerate computation, cut latency, and lower memory footprint. This allows developers to run capable AI models locally, without cloud dependency, directly on consumer hardware.",
+      "summary_zh": "DeepSeek 4 Flash 引擎针对 Apple Silicon 设备上大模型本地部署的难题，利用 Metal Performance Shaders 深度优化推理性能，实现低延迟、低内存占用的离线运行。这一开源方案让开发者无需联网即可在 Mac 上高效执行模型，对隐私保护、边缘智能及减少云依赖具有重要价值。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek 4：适用于 Metal 的 Flash 本地推理引擎",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 760510271,
+      "url": "https://x.com/kimmonismus/status/2052450461278744798",
+      "title": "谷歌研究揭示：结构化问询与可穿戴数据是AI医疗诊断的关键",
+      "published_at": "2026-05-07T18:08:17+00:00",
+      "original_language": "zh",
+      "summary_en": "A Google study reveals that current LLMs relying solely on unstructured user input exhibit a ~27% drop in diagnostic accuracy compared to AI-led structured interviews. Combining Fitbit sensor data—which can detect physiological changes days before symptoms are reported—with active, systematic questioning led clinicians to prefer AI diagnoses over independent doctors (53% vs. 24%). This demonstrates that integrating proactive conversational AI with early-warning sensor data is critical for effective medical AI, rather than simple chatbot-style responses.",
+      "summary_zh": "谷歌研究指出，当前消费者AI仅基于用户直接输入进行诊断存在明显缺陷，准确率较结构化访谈下降约27%。通过结合主动问询的对话AI和可穿戴设备提前监测的生理数据，临床医生首选AI诊断的比例显著提升至53%，揭示了结构化交互与传感器预警才是AI医疗诊断的关键路径。",
+      "source": "aihot_selected",
+      "title_zh": "谷歌研究揭示：结构化问询与可穿戴数据是AI医疗诊断的关键",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2863939767,
+      "url": "https://x.com/perplexity_ai/status/2052445405754040816",
+      "title": "Perplexity推出Mac版个人计算机应用",
+      "published_at": "2026-05-07T17:48:11+00:00",
+      "original_language": "zh",
+      "summary_en": "Perplexity’s new Mac app tackles the fragmentation of personal computing tasks by deploying an AI agent that seamlessly operates across local files, native Mac applications, the web, and Perplexity’s secure servers. This unified approach automates complex cross-platform workflows, boosting productivity while maintaining privacy through a mix of on-device and secure cloud execution.",
+      "summary_zh": "Perplexity 推出 Mac 版应用，旨在打破 AI 助手与本地文件、原生应用及网络间的壁垒，通过跨本地、云端的一体化任务执行能力，实现无缝整合。此举让 AI 能力深度融入个人计算环境，大幅提升日常工作效率。",
+      "source": "aihot_selected",
+      "title_zh": "Perplexity推出Mac版个人计算机应用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2431265119,
+      "url": "https://x.com/Replit/status/2052444908154433567",
+      "title": "安全中心2.0升级 批量管理应用安全",
+      "published_at": "2026-05-07T17:46:13+00:00",
+      "original_language": "zh",
+      "summary_en": "The Replit Security Center 2.0 upgrade tackles the challenge of efficiently managing application security at scale by providing a centralized view of each app's security posture and enabling bulk actions. It allows instant identification of high-risk apps, rapid vulnerability remediation via an AI Agent, and batch operations like owner notification or app takedown, while also supporting SBOM exports for external tool integration. This matters because it dramatically simplifies and accelerates security workflows, reducing risk across large portfolios of applications.",
+      "summary_zh": "Replit推出安全中心2.0，用于简化对每个应用安全状况的逐个梳理，并支持批量操作。它通过即时识别高风险应用、Agent自动修复漏洞、批量通知或下架，并导出SBOM等方式，让安全管理变得更高效。这标志着Replit在统一、便捷的安全防护上迈出关键一步，帮助开发者快速降低整体风险。",
+      "source": "aihot_selected",
+      "title_zh": "安全中心2.0升级 批量管理应用安全",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3174710812,
+      "url": "https://x.com/OpenRouter/status/2052444130287210984",
+      "title": "Gemini 3.1 Flash Lite正式上线OpenRouter",
+      "published_at": "2026-05-07T17:43:07+00:00",
+      "original_language": "zh",
+      "summary_en": "Gemini 3.1 Flash Lite addresses the need for an affordable, multimodal AI service by offering a lightweight version of Google DeepMind's model on OpenRouter, supporting text, image, video, audio, and PDF inputs with a 1M-token context window. It introduces a configurable \"thinking level\" and a new service tier parameter, allowing developers to dynamically balance cost (starting at $0.25 per million input tokens) and latency. This launch makes advanced multimodal reasoning and large-context processing broadly accessible for cost-sensitive applications.",
+      "summary_zh": "Gemini 3.1 Flash Lite模型解决了多模态内容处理的高成本与效率平衡问题，其核心方法是提供百万级上下文窗口、可选思考层级及新的延迟/成本权衡参数，定价低至每百万输入$0.25。这一发布让开发者能以极低的门槛调用强大推理能力，加速多模态AI应用的普及与落地。",
+      "source": "aihot_selected",
+      "title_zh": "Gemini 3.1 Flash Lite正式上线OpenRouter",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3468568855,
+      "url": "https://x.com/Zai_org/status/2052426777654387168",
+      "title": "GLM-5V-Turbo技术报告发布，迈向原生多模态智能体基础模型",
+      "published_at": "2026-05-07T16:34:10+00:00",
+      "original_language": "zh",
+      "summary_en": "The GL",
+      "summary_zh": "GLM-5V-Turbo技术报告聚焦于构建原生多模态智能体基础模型，通过模型设计、多模态训练、强化学习及工具链与智能体框架的深度集成，显著提升了视觉工具的调用能力和基于框架的智能体任务性能，在多模态编码与智能体应用中实现了突出表现。",
+      "source": "aihot_selected",
+      "title_zh": "GLM-5V-Turbo技术报告发布，迈向原生多模态智能体基础模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2664256760,
+      "url": "https://x.com/suno/status/2052422389401620760",
+      "title": "NBC关注Suno短信转歌曲AI热潮",
+      "published_at": "2026-05-07T16:16:44+00:00",
+      "original_language": "zh",
+      "summary_en": "A viral trend using Suno AI to transform text message threads into songs is gaining attention, as highlighted by NBC News. This approach leverages generative AI to easily convert personal conversations into music, making creative expression accessible to anyone. It matters because it shows how AI is driving new forms of social media entertainment and personalized content creation.",
+      "summary_zh": "NBC新闻报道了人们利用Suno AI将短信对话转化为歌曲的社交媒体新趋势，这展现了生成式AI在日常创意表达中的新应用。该现象不仅演示了Suno如何让用户轻松地将文本情感转化为音乐，还反映出AI工具正加速进入大众文化，降低创作门槛并激发新的社交互动形式。",
+      "source": "aihot_selected",
+      "title_zh": "NBC关注Suno短信转歌曲AI热潮",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 418888240,
+      "url": "https://x.com/vista8/status/2052421411445375089",
+      "title": "AI助手可一键生成70余种公众号排版风格",
+      "published_at": "2026-05-07T16:12:51+00:00",
+      "original_language": "zh",
+      "summary_en": "This AI assistant addresses the tedious manual coding of WeChat public account layouts by leveraging a reference library called Design md, enabling one-click generation of over 70 styles inspired by well-known websites. The key approach is using a curated set of CSS templates that the agent can adapt and optimize, significantly streamlining content creation and offering diverse, professional aesthetics with minimal effort.",
+      "summary_zh": "该工具通过AI助手一键生成70余种不同风格的公众号排版CSS，解决了手动设计排版繁琐耗时的问题。它借鉴了知名网站的设计模板，用户只需简单指令即可快速应用并优化，大幅提升了内容创作者的排版效率与视觉多样性。",
+      "source": "aihot_selected",
+      "title_zh": "AI助手可一键生成70余种公众号排版风格",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3224526457,
+      "url": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
+      "title": "走进中国AI实验室内部笔记",
+      "published_at": "2026-05-07T15:42:43+00:00",
+      "original_language": "zh",
+      "summary_en": "The author’s site visits to leading Chinese AI labs reveal that domestic models are rapidly catching up to international standards—even outperforming GPT‑4 in some Chinese‑language tasks—and that companies commonly combine large‑scale foundation models with smaller vertical models. Tight computing resources are driving innovations in model compression and private deployment, and labs are shifting from technology catch‑up to deep application in traditional sectors like healthcare and manufacturing, where scaled implementations are already underway. This signals that China’s AI ecosystem is moving beyond capability benchmarking toward real‑world, industry‑specific value creation.",
+      "summary_zh": "本文揭示中国AI实验室正通过模型能力快速追赶（部分中文场景超越GPT-4）、大小模型混合策略与应对算力压力的创新（如模型压缩、私有化部署），从技术追赶快进到应用深耕，已在医疗、制造等领域实现规模化落地，标志着中国AI发展进入务实创新的新阶段。",
+      "source": "aihot_selected",
+      "title_zh": "走进中国AI实验室内部笔记",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2141170522,
+      "url": "https://x.com/AntLingAGI/status/2052404630488023536",
+      "title": "万亿参数指令模型Ling-2.6-1T发布",
+      "published_at": "2026-05-07T15:06:10+00:00",
+      "original_language": "zh",
+      "summary_en": "Ling-2.6-1T is a trillion-parameter instruction model designed for real-world AI agents, addressing the need to balance cutting-edge performance with cost efficiency. By employing a \"fast thinking\" approach, it maintains top scores on benchmarks like AIME26 and SWE-bench Verified while slashing deployment costs by around 75%. This makes advanced reasoning, coding, and large-scale agent workflows significantly more accessible and economical for practical applications.",
+      "summary_zh": "万亿参数指令模型Ling-2.6-1T聚焦于解决现实世界智能体应用的高成本问题，通过“快速思考”方法在维持复杂推理和编程顶尖性能的同时，将推理成本降低约75%。这为高级编程、复杂推理及大规模智能体工作流的实际部署提供了高性价比的旗舰模型选择。",
+      "source": "aihot_selected",
+      "title_zh": "万亿参数指令模型Ling-2.6-1T发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4175750897,
+      "url": "https://x.com/berryxia/status/2052403652674093166",
+      "title": "SenseNova-U1开源8步蒸馏LoRA，扩散模型推理提速11倍",
+      "published_at": "2026-05-07T15:02:17+00:00",
+      "original_language": "zh",
+      "summary_en": "SenseNova-U1 addresses the slow inference of diffusion models by open-sourcing an 8-step distillation LoRA that compresses the generation process from 100 steps to 8, reducing GPU inference time from 23 seconds to 2 seconds—an 11× speedup. This technique, fully integrated with ComfyUI and supporting text-to-image, image editing, and interleaved generation workflows, marks a practical breakthrough that shifts diffusion models from research to real-world use and ignites debate on prioritizing speed over further scaling.",
+      "summary_zh": "SenseNova-U1通过8步蒸馏LoRA技术，将扩散模型的生成步骤从100步压缩至8步，使GPU推理时间大幅缩短，速度提升达11倍。该突破直接解决了扩散模型推理慢的难题，推动其从研究走向实用化，并引发业界对速度与实用性优先的思考。",
+      "source": "aihot_selected",
+      "title_zh": "SenseNova-U1开源8步蒸馏LoRA，扩散模型推理提速11倍",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3130256714,
+      "url": "https://x.com/shao__meng/status/2052397575446417822",
+      "title": "Apify mcpc 与 x402：给 AI Agent 装上\"自动付款的钱包\"",
+      "published_at": "2026-05-07T14:38:08+00:00",
+      "original_language": "zh",
+      "summary_en": "Apify’s mcpc CLI tool addresses the manual billing bottleneck faced by AI agents when calling paid APIs by integrating the x402 payment protocol, which condenses payment into a single HTTP round‑trip with a cryptographic signature. It equips MCP‑compatible agents like Claude Code with a USDC wallet that automatically handles HTTP 402 “Payment Required” responses, enabling autonomous, human‑free transactions. This eliminates manual registration and card binding, allowing AI agents to seamlessly access monetized services at scale.",
+      "summary_zh": "Apify的mcpc工具通过集成x402支付协议，解决了AI智能体调用付费API时必须人工处理计费的瓶颈。其核心方法是利用加密钱包在遭遇HTTP 402状态码时自动签名完成交易，将支付压缩为一次往返，使程序能自主结算。这一突破让智能体无需人工干预即可直接访问付费服务，大幅推动了AI代理的经济自动化。",
+      "source": "aihot_selected",
+      "title_zh": "Apify mcpc 与 x402：给 AI Agent 装上\"自动付款的钱包\"",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3061052654,
+      "url": "https://x.com/OpenRouter/status/2052396767652544552",
+      "title": "OpenRouter新增音频端点，支持语音合成与识别",
+      "published_at": "2026-05-07T14:34:55+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter now supports audio as a first-class modality by launching two new API endpoints: text-to-speech (/api/v1/audio/speech) and speech-to-text (/api/v1/audio/transcriptions). These endpoints reuse the same routing, billing, and key management already in place for text, image, and video, enabling seamless integration of voice synthesis and recognition into AI applications. This expansion matters because it gives developers a unified, multimodal interface for building interactive voice-based features without separate infrastructure.",
+      "summary_zh": "OpenRouter 新增两个音频端点，支持文本转语音（TTS）与语音转文本（STT），使音频首次成为平台的一等公民，并沿用与文本、图像、视频相同的路由、计费和密钥体系。这一升级将多模态能力直接嵌入既有工作流，大幅简化开发者在单一平台上统一调用各类 AI 模型的接入成本。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter新增音频端点，支持语音合成与识别",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1551139425,
+      "url": "https://x.com/oran_ge/status/2052385988375408749",
+      "title": "ColaMD 1.5版实现Markdown内容与HTML模板分离",
+      "published_at": "2026-05-07T13:52:05+00:00",
+      "original_language": "zh",
+      "summary_en": "ColaMD 1.5 addresses the inconvenience of modifying presentation content by separating Markdown files (content layer) from HTML templates (view layer), inspired by the “Markdown as Database” concept. Users can simply edit the Markdown content to generate final outputs in different forms like slides or blogs, with templates being swappable and extensible through open-source community or AI contributions. This approach streamlines content repurposing and makes presentations more maintainable.",
+      "summary_zh": "ColaMD 1.5版针对演示文稿修改繁琐的问题，提出了一种内容与视图分离的方案：以Markdown文件为内容层，HTML为可更换的模板层，用户仅更新内容即可生成幻灯片、博客等多种形式。这一设计内置支持且开源，便于社区或AI扩展模板，显著提升了内容复用与多场景发布的效率。",
+      "source": "aihot_selected",
+      "title_zh": "ColaMD 1.5版实现Markdown内容与HTML模板分离",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1523083865,
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "published_at": "2026-05-07T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI addresses the challenge of securing critical infrastructure by expanding its trusted access program with GPT-5.5 and a cybersecurity-focused model, GPT-5.5-Cyber. The key approach is to give vetted defenders specialized AI tools to accelerate vulnerability research, directly strengthening protection against evolving threats.",
+      "summary_zh": "OpenAI 为应对关键基础设施面临的网络安全威胁，推出了 GPT-5.5 及专用的 GPT-5.5-Cyber 模型，将可信访问计划扩展至安全防御领域。此举通过为经过验证的防御者提供更强大的 AI 工具，加速漏洞挖掘与分析，从而提升对关键系统的保护能力，对抵御国家级网络攻击具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4030985323,
+      "url": "https://x.com/vista8/status/2052363294472815062",
+      "title": "开源，通通开源，哈哈哈。",
+      "published_at": "2026-05-07T12:21:55+00:00",
+      "original_language": "zh",
+      "summary_en": "This release addresses the challenge of adapting marketing practices to generative AI search by providing a curated collection of reusable prompt templates. The key contribution is an open-source set of 25 prompts for AI marketing and Generative Engine Optimization (GEO), along with additional short-video and copywriting prompts, designed to guide content creation and optimization for AI-driven platforms. It matters because it equips marketers with ready-to-use, expert-crafted prompting strategies, accelerating the transition from traditional SEO to GEO and enabling more effective use of large language models in marketing workflows.",
+      "summary_zh": "该分享将新书《AI营销：从SEO到GEO》中的25个实用提示词全套开源，旨在解决营销人员从传统搜索引擎优化向生成引擎优化转型时缺乏可复用工具的问题。关键做法是将GEO与短视频、文案等场景的提示词结构化公开在GitHub，让从业者可直接下载或定制。这降低了AI营销实践的门槛，并推动了行业知识的开放协作。",
+      "source": "aihot_selected",
+      "title_zh": "开源，通通开源，哈哈哈。",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 36019986,
+      "url": "https://x.com/PixVerse_/status/2052362932634411243",
+      "title": "4K超分功能上线 限时免费体验与优惠",
+      "published_at": "2026-05-07T12:20:28+00:00",
+      "original_language": "zh",
+      "summary_en": "A 4K super-resolution feature is introduced to enhance low-resolution images and videos, addressing the need for high-quality upscaling. The service employs an AI-driven approach (likely deep learning-based) to upscale media to 4K resolution. Its limited-time free trial and 35% credit discount from May 7–14 offer researchers a cost-effective way to test or integrate high-fidelity upscaling for",
+      "summary_zh": "该公告推出4K超分功能，解决用户对低分辨率图像和视频质量提升的痛点，通过一键增强技术实现清晰度升级。活动期间提供3次免费试用及后续积分折扣，降低使用门槛，旨在吸引用户快速体验并节省成本，体现平台对高清内容生成需求的及时响应。",
+      "source": "aihot_selected",
+      "title_zh": "4K超分功能上线 限时免费体验与优惠",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3655167551,
+      "url": "https://openrouter.ai/announcements/agentic-web-tools",
+      "title": "为所有模型提供一致的网络搜索与抓取能力",
+      "published_at": "2026-05-07T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This tool addresses the challenge of integrating web search and scraping capabilities across different large language models without per-model customization. It provides a unified interface that enables any model with tool-calling ability to autonomously search and retrieve web content using selectable search and scraping engines, ensuring consistent behavior. This greatly simplifies development by allowing seamless integration of real-time web information into models like GPT, Claude, and LLaMA through a single solution.",
+      "summary_zh": "该工具旨在解决大语言模型缺乏实时网络信息获取能力的问题，通过为任何具备工具调用能力的模型提供统一的网络搜索与网页抓取接口，允许开发者灵活选择多种搜索引擎。其关键价值在于实现了跨模型（如GPT、Claude等）的一致性操作，大幅降低了为不同模型单独适配网络功能的复杂度，让实时信息集成更加便捷可靠。",
+      "source": "aihot_selected",
+      "title_zh": "为所有模型提供一致的网络搜索与抓取能力",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2113808972,
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "title": "通过 API 中的新模型推进语音智能",
+      "published_at": "2026-05-07T10:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This advancement tackles the challenge of making voice interactions more natural and intelligent by introducing new real-time speech models in the OpenAI API that handle reasoning, translation, and transcription with seamless multilingual support. The key approach is delivering low-latency, versatile speech processing that developers can integrate directly, enabling more fluid and smart voice applications. This matters because it empowers developers to build next-generation voice experiences that are more responsive, globally accessible, and capable of complex tasks like real-time translation and contextual reasoning.",
+      "summary_zh": "OpenAI API 推出的新型实时语音模型旨在解决语音交互中实时推理与多语言转换的难题，通过整合推理、翻译和转录功能，显著提升了语音处理的自然度和智能水平。这一进展为开发者提供了构建更流畅、更智能语音应用的核心工具，将推动语音智能在多种场景中的实际落地。",
+      "source": "aihot_selected",
+      "title_zh": "通过 API 中的新模型推进语音智能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 186618824,
+      "url": "https://x.com/berryxia/status/2052309864194691164",
+      "title": "开源20B参数MoE模型本地流畅运行",
+      "published_at": "2026-05-07T08:49:36+00:00",
+      "original_language": "zh",
+      "summary_en": "This work demonstrates that a 20B-parameter mixture-of-experts model, quantized to 3-bit and optimized with MLX, runs smoothly on consumer MacBooks without cloud dependency or subscriptions. It addresses the hardware barrier for local large models, enabling private, cost-free AI tasks like chatting, writing, and coding with a 131K context length. The significance lies in making capable language models truly portable for everyday use and enterprise deployment without specialized GPUs.",
+      "summary_zh": "该模型解决了本地部署大语言模型需要高端显卡的问题：通过社区对OpenAI的20B参数MoE模型进行3-bit量化和MLX优化，使其能在普通M系列MacBook上流畅运行。这一发现意味着日常AI应用可完全离线、低成本地运行，显著降低了企业部署和用户使用的硬件门槛。",
+      "source": "aihot_selected",
+      "title_zh": "开源20B参数MoE模型本地流畅运行",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 733695081,
+      "url": "https://www.ithome.com/0/947/300.htm",
+      "title": "全国首例 AI 短剧侵权刑事案一审宣判：盗录超 1700 部牟利获刑，构成侵犯著作权罪",
+      "published_at": "2026-05-07T07:58:08+00:00",
+      "original_language": "zh",
+      "summary_en": "China's first criminal case on AI-generated short drama infringement saw a defendant convicted for pirating over 1,700 AI-created works and reselling them, with the court ruling these dramas—generated from user-input original scripts and prompts—exhibit sufficient originality to be protected by copyright. This landmark judgment sets a crucial precedent by affirming the copyright eligibility of AI-assisted creative content and penalizing large-scale unauthorized distribution, safeguarding the growing market for AI-generated media.",
+      "summary_zh": "该案明确了AI生成短剧在用户提供原创性提示词的前提下，可构成受著作权法保护的作品，解决了AI创作成果版权归属的争议。被告人通过盗录并低价打包销售此类短剧牟利，被法院以侵犯著作权罪判刑，体现了司法对新型数字内容侵权的打击。这一判例为AI生成内容的独创性认定与刑事保护提供了重要参照，对规范AI创作生态和版权秩序具有里程碑意义。",
+      "source": "aihot_selected",
+      "title_zh": "全国首例 AI 短剧侵权刑事案一审宣判：盗录超 1700 部牟利获刑，构成侵犯著作权罪",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4082861774,
+      "url": "https://simonwillison.net/2026/May/7/github-repo-stats",
+      "title": "GitHub Repo Stats",
+      "published_at": "2026-05-07T07:25:14+00:00",
+      "original_language": "zh",
+      "summary_en": "This tool tackles the missing commit count on GitHub’s mobile site by letting users query a repo URL or “owner/repo” ID through REST/GraphQL APIs to display key stats, with total commits as the primary metric. It matters because it gives developers immediate mobile access to a crucial engagement indicator that the standard interface omits, as shown with repos like simonw/datasette and simonw/llm.",
+      "summary_zh": "该工具旨在解决GitHub移动端网站不显示仓库提交总数的问题，用户只需输入仓库地址即可通过REST或GraphQL API获取提交次数等关键统计数据。这一方法消除了移动端在查看项目活跃度时的信息盲区，便于开发者快速评估仓库状态。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub Repo Stats",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 359222454,
+      "url": "https://www.ithome.com/0/947/207.htm",
+      "title": "用嘴干活：阿里千问 PC 端上线 AI 语音输入功能",
+      "published_at": "2026-05-07T06:51:30+00:00",
+      "original_language": "zh",
+      "summary_en": "阿里千问在PC端上线AI语音输入功能，用户通过快捷键即可在各类桌面应用中直接使用。该功能不仅支持去除语气词、纠错和格式化整理口语内容，更能基于上下文智能回复，并可直接下达创作、问答、翻译等指令。其设计逻辑超越传统语音打字工具，旨在成为跨应用的AI任务调度中枢：用户通过按住快捷键启动语音输入模式，或双击切换至AI指令模式，可直接派发信息检索、文档生成等任务。该功能覆盖文档编辑、网页浏览、即时通讯等主流办公场景，无需切换客户端或打开额外窗口，目前所有用户可免费使用。",
+      "summary_zh": "阿里千问PC端AI语音输入功能旨在解决传统语音工具仅限转录的问题，通过集成语义理解与任务调度能力，让用户以语音直接操控跨应用工作流。其关键创新在于将“快捷键”入口设计为AI指令中枢，支持口语整理、智能回复和任务下发，无需切换客户端即可覆盖文档编辑、网页浏览等全办公场景。该功能免费全面开放，显著提升了桌面端交互效率，重新定义了语音在办公生态中的角色。",
+      "source": "aihot_selected",
+      "title_zh": "用嘴干活：阿里千问 PC 端上线 AI 语音输入功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1843378657,
+      "url": "https://x.com/dotey/status/2052255174706479349",
+      "title": "OpenAI 政变之夜内部短信曝光：董事会为何执意赶走 Altman？",
+      "published_at": "2026-05-07T05:12:17+00:00",
+      "original_language": "zh",
+      "summary_en": "The leaked internal messages from OpenAI’s “coup night” reveal that the board ousted Sam Altman primarily because they did not want AGI control to rest with him, and even considered a Microsoft acquisition as an alternative governance path. This evidence directly supports Elon Musk’s lawsuit alleging that OpenAI has betrayed its original non‑profit mission by pursuing a for‑profit model, and it underscores the high stakes of a case seeking to overturn that model with claims totaling $180 billion.",
+      "summary_zh": "OpenAI内部短信曝光显示，董事会罢免Altman的核心原因是“不想让AGI掌控在你手上”，而非单纯的管理分歧。这一证词成为马斯克诉讼的关键证据，用以指控OpenAI背离非营利初衷，进而可能推翻其营利模式并涉及巨额索赔。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 政变之夜内部短信曝光：董事会为何执意赶走 Altman？",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2155078626,
+      "url": "https://x.com/berryxia/status/2052228465496322318",
+      "title": "卡兹克公开AI信息源，免费追踪平台上线",
+      "published_at": "2026-05-07T03:26:09+00:00",
+      "original_language": "zh",
+      "summary_en": "一位知名博主公开了其日常使用的AI信息源整合平台，免费且无需登录，通过时间线和分类直接追踪优质AI动态。该工具帮助用户轻松对齐顶级从业者的信息渠道，解决了AI信息分散、难以高效追踪的痛点。",
+      "summary_zh": "卡兹克公开其日常使用的AI信息源，推出免费追踪平台aihot.virxact.com，解决了普通用户难以高效获取高质量AI信息的痛点。平台无需登录，以时间线分类整合官方、博主等信源，并提供AI日报，让用户能直接与顶流博主的信息流保持同步，降低了信息获取门槛。",
+      "source": "aihot_selected",
+      "title_zh": "卡兹克公开AI信息源，免费追踪平台上线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2262231196,
+      "url": "https://x.com/shao__meng/status/2052212574306095337",
+      "title": "Amp发布新版CLI工具Neo，引领Coding Agent向长链路转型",
+      "published_at": "2026-05-07T02:23:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Amp’s Neo CLI shifts coding agents from short-turn assistance to long-chain autonomous workflows, tackling the need for reduced human oversight and flexible, anywhere execution. It achieves this through automatic context compression, remote thread orchestration, a plugin API with a reversed default-allow permission model, and significant CPU/memory optimizations, enabling more efficient, scalable, and self-directed software development agents.",
+      "summary_zh": "Amp 推出 CLI 工具 Neo，旨在将编程代理从频繁人工交互的“陪伴式”模式，转向可远程触发、自主执行的长链路工作流，以大幅降低人类介入。其关键创新在于通过远程线程编排、自动上下文压缩、插件扩展 API 和权限模型反转，构建了一个更自主、高效且可定制的智能代理架构。这标志着开发工具正迈向真正无人值守的复杂任务执行，对提升开发效率与构建下一代自主编码系统具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Amp发布新版CLI工具Neo，引领Coding Agent向长链路转型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2486612181,
+      "url": "https://x.com/vista8/status/2052203194982248537",
+      "title": "Open Slide：让 AI 来写你的 PPT 代码",
+      "published_at": "2026-05-07T01:45:44+00:00",
+      "original_language": "zh",
+      "summary_en": "Open Slide addresses the inefficiency of manual slide creation by building a React-based framework designed for AI agents to generate and modify presentation code. Its key approach uses a rich React component library for extensibility and chart integration, a visual editor for manual tweaks, and AI that can interpret user comments to collaboratively update slides—backed by an SVGL library of 1,500+ brand logos for technical demos. This matters because it automates repetitive styling and content insertion tasks, enabling faster, more scalable presentation development while keeping human oversight accessible.",
+      "summary_zh": "该项目解决AI辅助PPT制作的效率与自动化问题，通过基于React框架构建的工作流和丰富组件库，让AI Agent能直接生成并协同修改演示文稿。其核心创新在于AI能读取用户评论并融入可视化编辑器，结合1500+品牌Logo库，显著提升了技术演示稿的搭建速度和可编辑性。",
+      "source": "aihot_selected",
+      "title_zh": "Open Slide：让 AI 来写你的 PPT 代码",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3260553407,
+      "url": "https://x.com/dotey/status/2052200047278739457",
+      "title": "Chrome调试Codex应用技巧",
+      "published_at": "2026-05-07T01:33:13+00:00",
+      "original_language": "zh",
+      "summary_en": "This tip solves the problem of debugging the Codex application's user interface by leveraging the Chrome DevTools. It instructs users to launch Codex from the command line with specific flags (`--remote-debugging-port=8315 --remote-allow-origins=http://localhost:8315`) and then connect through `chrome://inspect`, enabling standard web inspection. This approach is valuable because it gives developers and power users familiar, powerful debugging tools to inspect and troubleshoot the app's web-based components.",
+      "summary_zh": "本技巧解决了无法直接使用浏览器开发者工具调试 Codex 桌面应用的问题。通过命令行参数启用远程调试端口，再在 Chrome 的 `chrome://inspect` 中连接，即可像调试网页一样检查 Codex 的前端界面。这为开发者排查和优化 Codex 应用提供了便捷的调试手段。",
+      "source": "aihot_selected",
+      "title_zh": "Chrome调试Codex应用技巧",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1118923458,
+      "url": "https://x.com/vista8/status/2052199176218259752",
+      "title": "Flue框架：TypeScript智能体开发新选择",
+      "published_at": "2026-05-07T01:29:46+00:00",
+      "original_language": "zh",
+      "summary_en": "Flue is a new TypeScript-based framework for building AI agents in the style of Claude Code. Its key feature is extremely simple setup, using a single prompt command to fetch a starter template, which lowers the barrier for developers wanting to create custom agents. This provides a lightweight and accessible option for rapid agent prototyping and experimentation.",
+      "summary_zh": "Flue框架解决了TypeScript开发者快速构建类似Claude Code风格智能体的需求，通过极简安装流程和预置启动提示（fetch官方链接即可创建新agent），显著降低了自定义智能体的开发门槛。这一方法让非专业用户也能轻松折腾自己的Agent，推动了Agent开发工具的平民化。",
+      "source": "aihot_selected",
+      "title_zh": "Flue框架：TypeScript智能体开发新选择",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2672431297,
+      "url": "https://x.com/vista8/status/2052187256920691131",
+      "title": "Al Agent装进口袋：TRAE SOLO移动端上手全攻略",
+      "published_at": "2026-05-07T00:42:24+00:00",
+      "original_language": "zh",
+      "summary_en": "TRAE SOLO addresses the challenge of executing long-chain, non-coding AI tasks on mobile by providing cross-device access to computer projects, skill invocation, and deep integration with productivity tools like Feishu. Its mobile-first approach enables seamless automation of complex workflows—from data analysis to scheduling—directly from a smartphone. This matters because it shifts AI agents from code-centric assistants to general-purpose orchestrators, extending their utility to on-the-go productivity and bridging device ecosystems.",
+      "summary_zh": "字节推出的 TRAE SOLO AI Agent 工具解决了 AI 助手难以在移动端高效处理长程复杂任务的问题，通过跨设备无缝衔接、技能调用及与飞书深度集成，让用户在手机、网页和桌面均可访问电脑项目并执行数据分析、自动化等任务。该工具强调“不止于编程”的理念，并支持第三方模型扩展，使得 AI Agent 真正“装进口袋”，大幅提升了移动办公与学习的便捷性和实用性。",
+      "source": "aihot_selected",
+      "title_zh": "Al Agent装进口袋：TRAE SOLO移动端上手全攻略",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 302904429,
+      "url": "https://x.com/Replit/status/2052181075988992004",
+      "title": "首届AI创意大会即将登陆纽约",
+      "published_at": "2026-05-07T00:17:50+00:00",
+      "original_language": "zh",
+      "summary_en": "The inaugural AI Creativity Conference aims to bridge the gap between technical AI development and cultural/artistic applications by bringing together practitioners from both domains. Set for June 17–18 in New York, the event creates a space for interdisciplinary exchange, which matters for fostering novel uses of AI beyond pure engineering.",
+      "summary_zh": "首届AI创意大会旨在弥合人工智能技术与文化创意之间的鸿沟，将于6月17-18日在纽约举办。会议为开发者、艺术家与设计师提供跨界交流平台，探索AI在艺术、内容生成等领域的创新应用路径，对推动技术落地与人文融合具有实践意义。",
+      "source": "aihot_selected",
+      "title_zh": "首届AI创意大会即将登陆纽约",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 184940262,
+      "url": "https://arxiv.org/abs/2605.06651",
+      "title": "AI协数学家：以智能体AI加速数学研究",
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The AI Co-Mathematician addresses the inefficient, fragmented workflow of open-ended mathematical research by providing an asynchronous, stateful AI agent platform that mirrors human collaboration—managing uncertainty, tracking failed hypotheses, and refining user intent across ideation, literature search, computation, and theorem proving. Early results show it enabled discoveries and set a new state-of-the-art 48% on the extremely hard FrontierMath Tier 4 benchmark, highlighting a transformative interactive paradigm that accelerates AI-assisted mathematical discovery.",
+      "summary_zh": "针对数学研究探索性与迭代性强的特点，AI协数学家平台通过集成构思、文献检索、计算探索与定理证明的异步协作工作空间，有效模拟人类协作模式以管理不确定性与失败假设。关键发现是它在极难基准FrontierMath Tier 4上取得了48%的最新最高分，并帮助研究人员解决开放问题及发现新方向。这标志着AI正从工具演进为真正的数学研究协作者，展现了高度交互式智能体加速数学发现的重要范式。",
+      "source": "aihot_selected",
+      "title_zh": "AI协数学家：以智能体AI加速数学研究",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3930181718,
+      "url": "https://www.tomtunguz.com/ai-at-discount",
+      "title": "估值折价：Anthropic高增长背后的市场疑虑",
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic在15个月内估值从10亿飙升至300亿美元，但其企业价值与未来收入之比仅为17倍，远低于增长更慢的Palantir（49倍）。这一估值折扣主要源于四大因素：极高的资本密集度（如年成本达62亿美元的GPU协议）、未来盈利能力不明（可能成为软件公司或资本密集型公共事业）、收入增长的波动性，以及外生的政治与监管风险。市场正通过折扣来反映这个高速变化领域的不确定性。",
+      "summary_zh": "Anthropic虽在15个月内估值飙升，但市场对其应用远低于同类公司的估值折价，以此研究高增长AI企业面临的关键风险。文章指出，这种折价源于极高的资本密集度、盈利前景不明、收入波动以及外部政策不确定性，反映出市场对快速变化领域内在不确定性的定价逻辑。这一发现有助于理解投资者如何通过估值折扣来权衡AI公司的高增长与高风险。",
+      "source": "aihot_selected",
+      "title_zh": "估值折价：Anthropic高增长背后的市场疑虑",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 710476467,
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "title": "在ChatGPT中测试广告",
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI is testing advertisements in ChatGPT to fund its free service, addressing the challenge of sustainable monetization. The approach ensures ads are clearly labeled and do not influence the independence of ChatGPT's responses, alongside strict privacy measures and user control over ad experiences. This matters because it explores a revenue model that could preserve service accessibility without compromising user trust or response quality.",
+      "summary_zh": "OpenAI在ChatGPT中测试广告功能，以支持免费服务的运营，重点确保广告标识清晰、不影响回答独立性，并强化隐私保护和用户控制。该举措旨在平衡商业化与用户体验，为AI服务可持续性提供新路径。",
+      "source": "aihot_selected",
+      "title_zh": "在ChatGPT中测试广告",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3268031343,
+      "url": "https://machinelearning.apple.com/research/text-conditional-jepa-visual-representations",
+      "title": "用于学习语义丰富视觉表征的文本条件JEPA",
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This work addresses the problem of visual uncertainty in masked feature prediction, which limits semantic learning in vision models. The proposed Text-Conditioned Joint Embedding Predictive Architecture (TC-JEPA) uses image captions as conditioning information via a fine-grained text modulator with sparse cross-attention to guide predicted patch features. As a result, TC-JEPA learns semantically richer visual representations compared to prior methods, showing how language guidance can resolve ambiguity and improve self-supervised vision pretraining.",
+      "summary_zh": "该工作针对基于掩码特征预测（I-JEPA）中因视觉不确定性导致语义表征学习不足的问题，提出引入图像描述文本作为条件信号的文本条件联合嵌入预测架构（TC-JEPA）。其关键设计是通过细粒度文本调节器对输入文本令牌计算稀疏交叉注意力，从而精准调制被遮挡图像块的特征预测，显著增强了所学视觉表征的语义丰富性。该方法为提升自监督学习的语义理解能力提供了新的思路。",
+      "source": "aihot_selected",
+      "title_zh": "用于学习语义丰富视觉表征的文本条件JEPA",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 254010420,
+      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "ChatGPT introduces an optional safety feature that notifies a user’s pre-designated trusted contact when the system detects serious self-harm risk. The approach leverages social support intervention to address mental health crises in real time. This matters because it adds a critical layer of protection for vulnerable users, potentially preventing harm through proactive, trusted-human outreach.",
+      "summary_zh": "ChatGPT推出“可信联系人”功能，旨在应对用户出现严重自残风险的心理健康危机。该功能在系统检测到风险时主动通知用户预先设定的信任联系人，通过社交支持进行干预。这一机制为用户提供了关键节点的额外安全保障，有助于预防悲剧发生。",
+      "source": "aihot_selected",
+      "title_zh": "Introducing Trusted Contact in ChatGPT",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1790622247,
+      "url": "https://machinelearning.apple.com/research/compression",
+      "title": "实用学习型图像压缩的关键要素",
+      "published_at": "2026-05-07T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This work tackles the gap between perceptual quality and practical efficiency in learned image compression by systematically analyzing key modeling choices and introducing novel techniques for joint optimization. Through a performance-aware neural architecture optimization approach, it establishes design guidelines and benchmarks that pave the way for truly practical, perceptually optimized image codecs.",
+      "summary_zh": "本研究针对学习型图像压缩难以同时兼顾感知质量与实用性的问题，通过系统分析关键建模选择并引入新技术，探索感知质量与运行效率的联合优化。研究还提出性能感知的神经架构优化方法，为构建实用化学习型图像压缩系统提供了系统性的设计指南与实验基准。",
+      "source": "aihot_selected",
+      "title_zh": "实用学习型图像压缩的关键要素",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3435742457,
+      "url": "https://x.com/Replit/status/2052175144349848033",
+      "title": "Replit支持私有应用安全连接外部服务",
+      "published_at": "2026-05-06T23:54:16+00:00",
+      "original_language": "zh",
+      "summary_en": "Replit now enables all developers to securely connect external services like webhooks, GitHub, and Slack to private applications, solving the challenge of keeping internal tools or business apps private while still receiving external updates (e.g., Slack notifications or Stripe payments). The key approach is a new \"external access token\" option in the deployment panel, where users can create and manage tokens for these connections. This matters because it allows private Replit apps to integrate with external systems without exposing the app to the public Internet.",
+      "summary_zh": "Replit 现在解决了私有应用难以安全连接外部服务的问题，通过在发布面板中提供外部访问令牌的创建和管理功能，让开发者能安全地将 webhooks、Slack 等外部服务集成到私密应用中。这一功能使内部工具或商业应用在保持组织私密性的同时，仍能正常发送通知或处理支付，显著提升了私有应用的实用性和安全性。",
+      "source": "aihot_selected",
+      "title_zh": "Replit支持私有应用安全连接外部服务",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4222117950,
+      "url": "https://x.com/berryxia/status/2052172994437681315",
+      "title": "Google翻译推出实时耳机传译，支持70多种语言",
+      "published_at": "2026-05-06T23:45:44+00:00",
+      "original_language": "zh",
+      "summary_en": "Google Translate's Live feature addresses the problem of unnatural cross-language communication by leveraging the Gemini advanced voice model to deliver real-time translation through headphones, preserving not just semantic meaning but also speaker tone, emphasis, and rhythm. This approach enables more natural, conversational interactions for users abroad, effectively lowering language barriers.",
+      "summary_zh": "Google翻译推出的实时耳机传译功能解决了跨语言面对面交流中语义和自然度不足的问题。它利用Gemini高级语音模型，在保留说话人语气、重音和节奏等细微特征的同时，实现70多种语言的实时同声传译。这项技术显著降低了沟通障碍，让海外交流更接近真人对话，提升了自然度与便捷性。",
+      "source": "aihot_selected",
+      "title_zh": "Google翻译推出实时耳机传译，支持70多种语言",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2009053357,
+      "url": "https://alignment.openai.com/accidental-cot-grading",
+      "title": "研究强化学习中意外对思维链（CoT）评分的影响",
+      "published_at": "2026-05-06T23:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This study examines accidental scoring of chain-of-thought (CoT) reasoning during reinforcement learning, finding that its occurrence in some models was limited. The team repaired the affected reward pathways and verified that there is no clear evidence of decreased monitorability. The results suggest that unintended CoT scoring has minimal impact and that the fix does not harm model monitoring, reinforcing the robustness of current training approaches.",
+      "summary_zh": "该研究探讨了强化学习训练过程中，意外对思维链（CoT）内容进行评分的问题，发现部分模型存在有限的意外评分现象。团队通过修复受影响的奖励通路，证实没有明显证据表明模型的可监控性因此受损，表明这种意外影响是可控的。这一发现对确保基于CoT的强化学习系统的可靠性与安全性有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "研究强化学习中意外对思维链（CoT）评分的影响",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2014671408,
+      "url": "https://x.com/testingcatalog/status/2052149633913139655",
+      "title": "Google DeepMind与EVE Online合作研究复杂智能系统",
+      "published_at": "2026-05-06T22:12:54+00:00",
+      "original_language": "zh",
+      "summary_en": "Google DeepMind is partnering with Fenris Creations to use the player-driven, dynamic world of EVE Online as a testbed for studying artificial intelligence in complex systems. This collaboration leverages the game’s rich, emergent environment to advance research on how AI can learn, adapt, and interact within intricate, real-time social and economic networks. The work matters because it pushes AI beyond static benchmarks, exploring how intelligent agents cope with the unpredictability and scale of human-driven virtual worlds.",
+      "summary_zh": "Google DeepMind 与 Fenris Creations 合作，旨在通过在独立的 EVE Online 游戏环境中开展研究，解决如何在复杂、动态且由玩家驱动的系统中发展智能的问题。其核心方法是利用游戏这一独特试验场来探索和模拟复杂系统行为。这一合作之所以重要，是因为它能借助大规模玩家互动环境，推动人工智能在理解与应对现实世界复杂系统方面的能力进步。",
+      "source": "aihot_selected",
+      "title_zh": "Google DeepMind与EVE Online合作研究复杂智能系统",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2871933801,
+      "url": "https://tilde.run/",
+      "title": "Show HN： Tilde.run - 具备事务性和版本控制文件系统的代理沙箱",
+      "published_at": "2026-05-06T21:58:04.178000+00:00",
+      "original_language": "zh",
+      "summary_en": "Tilde.run introduces an agent sandbox that solves the problem of unreliable code execution in automated agents and script testing by providing a transactional, version-controlled filesystem. Its key approach is offering atomic file changes with full version history, ensuring every modification is isolated and reversible. This matters because it gives developers a safe, auditable environment for high-reliability use cases where rollback and consistency are critical.",
+      "summary_zh": "Tilde.run 针对自动化代理和脚本测试中对文件操作安全性与可回溯性的需求，推出了一款具备事务性和版本控制功能的代理沙箱。其核心方法是通过事务机制确保文件更改的原子性，并保留完整版本历史，从而提供可审计的可靠执行环境。该工具为高可靠性场景下的代码执行提供了关键保障，在 Hacker News 上迅速获得 102 点关注。",
+      "source": "aihot_selected",
+      "title_zh": "Show HN： Tilde.run - 具备事务性和版本控制文件系统的代理沙箱",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3641852313,
+      "url": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic",
+      "title": "Validating agentic behavior when \"correct\" isn't deterministic",
+      "published_at": "2026-05-06T21:16:31+00:00",
+      "original_language": "zh",
+      "summary_en": "This article addresses the challenge of validating autonomous AI coding assistants when there is no single deterministic correct answer. It proposes using domain analysis to build a trust layer, which avoids fragile scripts or opaque evaluation methods. This approach enhances the reliability and transparency of AI coding agents by ensuring their behavior aligns with expected standards.",
+      "summary_zh": "本文针对“正确”答案非确定性场景下验证AI编码智能体自主行为的难题，提出通过领域分析构建信任层的方法。该方法避免依赖脆弱脚本或黑盒判断，旨在提升Copilot等编码助手的可靠性与行为透明度，确保其行为符合预期标准。",
+      "source": "aihot_selected",
+      "title_zh": "Validating agentic behavior when \"correct\" isn't deterministic",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3037150591,
+      "url": "https://x.com/rohanpaul_ai/status/2052120407281721513",
+      "title": "xAI将并入SpaceX成为SpaceXAI",
+      "published_at": "2026-05-06T20:16:46+00:00",
+      "original_language": "zh",
+      "summary_en": "xAI is merging with SpaceX to form SpaceXAI, addressing the fragmentation between advanced AI research and large-scale space systems development. This consolidation aims to tightly integrate AI models with SpaceX’s hardware, infrastructure, and real-world operational data, potentially accelerating breakthroughs in autonomous navigation, robotics, and resource optimization. The merger matters because it could create a uniquely capable entity that combines cutting-edge AI with spaceflight, manufacturing, and extraterrestrial applications, setting a new precedent for AI deployment in extreme environments.",
+      "summary_zh": "xAI并入SpaceX组建SpaceXAI，旨在将太空基础设施与先进AI研发深度结合，突破地面算力与能源瓶颈。此举可能通过在轨部署分布式计算单元，利用太空太阳能和极低温环境实现大规模模型训练与推理，为下一代超级智能系统奠定物理基础。",
+      "source": "aihot_selected",
+      "title_zh": "xAI将并入SpaceX成为SpaceXAI",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 672190145,
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "title": "vLLM V0 到 V1：在线强化学习中优先确保后端行为正确性",
+      "published_at": "2026-05-06T19:06:55+00:00",
+      "original_language": "zh",
+      "summary_en": "The vLLM upgrade from V0 to V1 introduced discrepancies in online reinforcement learning training results due to backend behavioral changes. To resolve this, the team prioritized aligning the V1 backend with V0 reference runs by correcting log-probability modes, disabling V1-specific optimizations like prefix caching and asynchronous scheduling, and enforcing fp32 precision in the rollout head, among other fixes. This eliminated policy ratio biases and achieved metric consistency, ensuring reliable and reproducible RL training after the major rewrite.",
+      "summary_zh": "为确保 vLLM 从 V0 到 V1 的大版本重写后在线强化学习训练结果可复现，团队优先修复后端行为偏差而非调整学习目标，通过统一日志概率模式、禁用 V1 默认的异步调度与缓存、对齐权重更新路径和强制使用 fp32 投影，最终消除了策略比率均值偏差，使 V1 在 KL 散度等重要指标上与 V0 严格一致，保障了 RL 训练的正确性。",
+      "source": "aihot_selected",
+      "title_zh": "vLLM V0 到 V1：在线强化学习中优先确保后端行为正确性",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 588187495,
+      "url": "https://x.com/OpenAI/status/2052086313797705954",
+      "title": "ChatGPT未来班2026届学员发布AI应用成果",
+      "published_at": "2026-05-06T18:01:17+00:00",
+      "original_language": "zh",
+      "summary_en": "A cohort of 26 university graduates who used ChatGPT throughout their studies developed AI applications tackling large-scale societal problems in astronomy, disaster rescue, language preservation, and waste reduction. Their work demonstrates that equipping students with generative AI tools can accelerate real-world impact, from cataloging unseen celestial objects to diverting millions of pounds of surplus goods from landfills. The project highlights the educational value of sustained AI integration, showing how it can empower early-career researchers to deploy solutions at unprecedented scale across scientific and humanitarian domains.",
+      "summary_zh": "ChatGPT未来班2026届的26名毕业生全程借助AI，在太空探索、灾难救援、语言保护等公益领域取得突破，如绘制150万未知天体、探测废墟幸存者，并让超1亿张星系图像可检索。这些成果展示了AI赋能年轻一代高效解决重大社会与科学难题的潜力，将前沿技术转化为直接的社会价值。",
+      "source": "aihot_selected",
+      "title_zh": "ChatGPT未来班2026届学员发布AI应用成果",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 673532346,
+      "url": "https://x.com/kimmonismus/status/2052084057014407615",
+      "title": "OrcaRouter-Lite 开源：自托管LLM路由工具，支持自动选择最低成本模型",
+      "published_at": "2026-05-06T17:52:19+00:00",
+      "original_language": "zh",
+      "summary_en": "OrcaRouter-Lite is an open-source, self-hosted LLM routing tool that solves the challenge of manually writing complex model-selection logic by automatically choosing the lowest-cost, capability-matched model across multiple providers using its `model=\"auto\"` mode. It also offers deterministic prompt caching, enabling repeated requests to return instantly at zero cost. This matters because it simplifies integration, reduces operational costs, and eliminates latency, all through a straightforward Docker deployment.",
+      "summary_zh": "OrcaRouter-Lite 开源解决了开发团队需手动编写复杂模型选择逻辑的痛点，其核心创新是“model=auto”模式能自动为每次请求匹配成本最低且能力相符的模型，并借助跨提供商确定性缓存让重复请求零成本毫秒级返回。这大幅简化了多模型服务集成的部署与成本优化，对降低 LLM 应用开销具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "OrcaRouter-Lite 开源：自托管LLM路由工具，支持自动选择最低成本模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1957255861,
+      "url": "https://x.com/GeminiApp/status/2052081499437166749",
+      "title": "个人智能与Nano Banana 2协同创作图像",
+      "published_at": "2026-05-06T17:42:09+00:00",
+      "original_language": "zh",
+      "summary_en": "This announcement showcases a feature that addresses personalized image generation by enabling users to convert their interests into visual content through a collaborative process between the user's personal intelligence and the model Nano Banana 2 within the Gemini platform. The key approach is a synergistic pipeline where personal context likely guides Nano Banana 2's generation, demonstrating a practical integration of user-specific data with a generative model. This matters as it highlights a shift toward context-aware, personalized AI tools that could enhance creative expression and user relevance in mainstream AI assistants.",
+      "summary_zh": "这项技术让个人智能与Nano Banana 2模型协同，实现了用户将自身兴趣直接转化为Gemini平台中的图像，解决了从抽象兴趣到视觉创作的便捷转化问题。通过协同工作流程，降低了创作门槛，使个性化表达更加高效直观。此举意义在于将AI创作能力与用户内在兴趣深度结合，开启了更主动的智能创作体验，并通过社区活动进一步推广实时互动。",
+      "source": "aihot_selected",
+      "title_zh": "个人智能与Nano Banana 2协同创作图像",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3890542137,
+      "url": "https://x.com/EpochAIResearch/status/2052069897530933438",
+      "title": "推出领域能力评分与自定义ECI功能",
+      "published_at": "2026-05-06T16:56:03+00:00",
+      "original_language": "zh",
+      "summary_en": "This update introduces domain-specific capability scoring that uses the standard ECI scale to specifically track model performance in software engineering and mathematics. By also allowing users to create custom ECI variants, this feature enables more granular, tailored evaluations of AI models in specialized fields beyond general intelligence metrics.",
+      "summary_zh": "新功能引入了针对软件工程和数学等特定领域的模型能力评分，沿用通用ECI的统一量表进行追踪，并支持用户自定义创建ECI变体。这一更新使评估更贴近关键应用场景，同时赋予用户灵活调整指标的能力，有助于精准定位模型长处与短板。",
+      "source": "aihot_selected",
+      "title_zh": "推出领域能力评分与自定义ECI功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3818851157,
+      "url": "https://x.com/natolambert/status/2052067048206090610",
+      "title": "月之暗面完成20亿美元融资，估值超200亿",
+      "published_at": "2026-05-06T16:44:44+00:00",
+      "original_language": "zh",
+      "summary_en": "Moonshot AI, developer of the Kimi assistant, has raised $2 billion at a post-money valuation exceeding $20 billion, bringing its first-half 2025 total funding to over $3.9 billion and making it China’s most heavily funded AI startup. The company’s annual recurring revenue more than doubled to over $200 million, driven by accelerating paid subscriptions and API usage, signaling strong product-market fit and rapid commercialization in the Chinese AI landscape.",
+      "summary_zh": "本文报道了AI初创企业月之暗面完成新一轮约20亿美元融资，投后估值突破200亿美元，收入快速攀升，凸显其产品Kimi在商业化落地上的强劲势头。这一融资规模和估值增长，反映出市场对对话式AI应用前景的高度信心，也巩固了其作为中国融资体量最大AI公司的地位。",
+      "source": "aihot_selected",
+      "title_zh": "月之暗面完成20亿美元融资，估值超200亿",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 190834647,
+      "url": "https://x.com/berryxia/status/2052046098966220980",
+      "title": "2026年开源LLM默认架构模板：90%设计已收敛，可直接套用",
+      "published_at": "2026-05-06T15:21:29+00:00",
+      "original_language": "zh",
+      "summary_en": "The article highlights that the design of large language models has largely converged, with about 90% of architectural components now forming a common template—including pre-norm, RMS Norm, SwiGLU/GeGLU activations, RoPE positional encoding, and standardized hyperparameters. This convergence provides a reliable \"default configuration\" for future open-source LLMs, simplifying development and ensuring training stability, efficient inference, and effective long-context processing.",
+      "summary_zh": "斯坦福CS336课程指出，过去三年主流大语言模型在架构、标准组件与超参数上高度收敛，约90%的设计已形成可直接套用的共通模板。模板集成了pre-norm、RMS Norm、SwiGLU/GeGLU激活、RoPE位置编码以及GQA等推理优化技术，并引入Z-loss、QK norm等训练稳定策略，为高效构建和部署长上下文模型提供了成熟方案。这一共识被视为2026年开源LLM的“默认配置”，将显著降低研发门槛并加速模型迭代。",
+      "source": "aihot_selected",
+      "title_zh": "2026年开源LLM默认架构模板：90%设计已收敛，可直接套用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3607040776,
+      "url": "https://x.com/SenseTime_AI/status/2052033518121955818",
+      "title": "SenseNova-U1开源8步蒸馏LoRA，推理速度大幅提升",
+      "published_at": "2026-05-06T14:31:30+00:00",
+      "original_language": "zh",
+      "summary_en": "SenseNova-U1 addresses the problem of slow inference by releasing an open-source distilled LoRA that reduces the number of function evaluations from 100 to just 8, slashing generation time on H100 GPUs from 23 seconds to 2 seconds. This significant speedup, paired with ready-made ComfyUI workflows for text-to-image, editing, and interleaved generation, makes high-quality generative models far more practical for real-time applications and easier to integrate into existing pipelines.",
+      "summary_zh": "SenseNova-U1 通过开源8步蒸馏LoRA，将推理步骤从100步降至8步，使H100上的图像生成时间从23秒缩短至2秒，解决了高耗时问题。该优化大幅提升了推理效率，并已集成ComfyUI，便于用户直接使用文生图、图像编辑等即用工作流，增强了实用性和可及性。",
+      "source": "aihot_selected",
+      "title_zh": "SenseNova-U1开源8步蒸馏LoRA，推理速度大幅提升",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2487421643,
+      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering",
+      "title": "编程模式界限模糊：从\"感觉编码\"到\"代理工程\"的融合与隐忧",
+      "published_at": "2026-05-06T14:24:08+00:00",
+      "original_language": "zh",
+      "summary_en": "The author reflects on how the strictly separated AI coding modes of “vibe coding” (unreviewed generation) and “agent engineering” (professional, reviewed development) are converging, as increasing reliability of agents like Claude leads even experienced developers to skip line-by-line code reviews and treat outputs as semi-trusted black boxes. This shift risks “deviation normalization,” where consistently correct but unaccountable AI code may embed hidden flaws, while simultaneously rendering traditional quality metrics like commit counts and test coverage unreliable. The piece highlights a growing tension between trust in AI output and the erosion of human oversight, posing new challenges for software responsibility and assessment.",
+      "summary_zh": "本文揭示了两种AI编程模式——依赖直觉的“感觉编码”与专业严谨的“代理工程”——其界限正因编码代理可靠性提升而快速模糊，研究者甚至开始将AI生成代码视为无需审查的“半黑箱”。这一转变带来了责任缺口与“偏差正常化”风险，即看似持续正确的AI输出可能在关键时点埋下隐患，同时使得提交次数、测试覆盖等传统质量评估指标失效。该观察警示，AI编码工具的便利性正在潜移默化地动摇软件工程的信任基础与质量衡量标准，需警惕长期可靠性被短期效率裹挟。",
+      "source": "aihot_selected",
+      "title_zh": "编程模式界限模糊：从\"感觉编码\"到\"代理工程\"的融合与隐忧",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4051142512,
+      "url": "https://x.com/perplexity_ai/status/2052028012313649194",
+      "title": "Perplexity Agent API 新增金融搜索功能",
+      "published_at": "2026-05-06T14:09:37+00:00",
+      "original_language": "zh",
+      "summary_en": "The Perplexity Agent API now addresses the challenge of building AI agents that require current, verifiable financial information by offering a new financial search capability. Accessed via a single tool call, it provides developers with authorized financial datasets, real-time market data, and cited web sources. This matters because it streamlines the creation of trustworthy financial agents, ensuring outputs are timely and backed by authoritative data.",
+      "summary_zh": "Perplexity Agent API 新增金融搜索功能，解决了智能体在提供可验证金融答案时缺少权威、实时数据的问题。开发者只需单次工具调用，即可获取授权金融数据集、实时市场行情及带引用的网络资源。此举大幅简化了集成流程，让金融智能体的回答更准确、更及时。",
+      "source": "aihot_selected",
+      "title_zh": "Perplexity Agent API 新增金融搜索功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2386067416,
+      "url": "https://x.com/vista8/status/2052027791546233050",
+      "title": "姚老师开源百个商业实用AI提示词合集",
+      "published_at": "2026-05-06T14:08:44+00:00",
+      "original_language": "zh",
+      "summary_en": "This project addresses the lack of practical, business-tested AI prompts by open-sourcing a curated collection of around 100 prompts derived from real-world demands. It covers scenarios like work, learning, programming, and marketing, with a highlight on meta-prompts that help users craft better instructions, making it valuable for immediate commercial application and community-driven iteration on GitHub.",
+      "summary_zh": "姚老师针对商业场景中缺乏系统实用AI提示词的问题，开源了约100个源于真实业务需求的提示词合集，覆盖工作、学习、编程等九类场景，尤其提供了元提示词进阶版本。这一项目通过GitHub持续更新，为用户直接提供高质量、可迭代的提示词资源，有助于提升AI在商业、内容创作等实干领域的应用效率与落地价值。",
+      "source": "aihot_selected",
+      "title_zh": "姚老师开源百个商业实用AI提示词合集",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2783510187,
+      "url": "https://www.ithome.com/0/947/010.htm",
+      "title": "豆包大模型家族首款全模态理解模型：字节跳动 Doubao-Seed-2.0-lite 升级",
+      "published_at": "2026-05-06T13:51:02+00:00",
+      "original_language": "zh",
+      "summary_en": "ByteDance’s Doubao-Seed-2.0-lite tackles the challenge of fragmented multimodal understanding by natively unifying video, image, audio, and text into a single model, achieving superior cross-modal reasoning that surpasses its former Pro version and Gemini-3.1-Pro on key benchmarks. The model also enhances agent, coding, and GUI capabilities for long-horizon tasks, enabling a cost-effective, all-in-one multimodal deployment solution for enterprises via the Volcano Ark platform.",
+      "summary_zh": "豆包-Seed-2.0-lite 升级版通过原生统一架构同时覆盖视频、图像、音频与文本理解，解决了多模态任务模型分散、成本高的问题。该模型在物理、医疗等学科推理和细粒度感知上超越前代 Pro 版本，并在音频转写翻译等基准上优于 Gemini-3.1-Pro。这一轻量级全模态方案以高性价比方式为企业提供从感知到操作闭环的完整能力，显著降低多模态应用部署门槛。",
+      "source": "aihot_selected",
+      "title_zh": "豆包大模型家族首款全模态理解模型：字节跳动 Doubao-Seed-2.0-lite 升级",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3935814334,
+      "url": "https://blogs.nvidia.com/blog/category/enterprise/intelligent-networking",
+      "title": "NVIDIA Spectrum-X -- 开放的、AI原生的以太网架构 -- 为千兆级AI树立标准，现已支持MRC",
+      "published_at": "2026-05-06T11:30:20+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA introduces Spectrum-X, an open, AI-native Ethernet architecture designed to meet the extreme scalability and performance demands of gigascale AI factories. By adding multi-resource container (MRC) support, it now enables fine-grained resource isolation and management for multi-tenant, multi-workload environments, helping maintain cluster efficiency under complex AI workloads.",
+      "summary_zh": "NVIDIA Spectrum-X 是一个面向 AI 原生的开放以太网架构，旨在解决大规模 AI 训练与推理对高性能、可扩展网络的迫切需求，为千兆级 AI 工厂提供网络标准。其关键进展是引入多资源容器（MRC）支持，从而增强资源隔离与管理能力，更好地支撑多租户、多工作负载的复杂环境。这一突破为构建高效、可扩展的 AI 基础设施确立了关键基准，确保大规模 AI 集群的性能与效率。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA Spectrum-X -- 开放的、AI原生的以太网架构 -- 为千兆级AI树立标准，现已支持MRC",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1082196909,
+      "url": "https://x.com/TencentHunyuan/status/2051978552900538403",
+      "title": "Hy3预览版周榜夺魁，周增298%",
+      "published_at": "2026-05-06T10:53:05+00:00",
+      "original_language": "zh",
+      "summary_en": "Hy3 Preview addresses the need for a powerful open-source AI model specialized in tool calling and programming tasks. Within two weeks of release, it topped the OpenRouter weekly ranking with 3.66 T tokens processed and 298% growth, capturing a 15.4% platform market share and leading in total usage, tool calling, and coding. This rapid adoption by developer tools like Cline and Kilo Code signals strong real-world performance and positions Hy3 as a significant new contender in agentic AI applications.",
+      "summary_zh": "Hy3预览版发布两周即登顶OpenRouter周榜，处理量达3.66T且周增298%，在总使用量、工具调用和编程领域均排名第一，全平台市场占有率15.4%。这一表现源于其在多款热门开发工具中的集成应用，证明了该模型在实用场景中的高可靠性与广泛接受度，对AI开发者生态具有重要带动作用。",
+      "source": "aihot_selected",
+      "title_zh": "Hy3预览版周榜夺魁，周增298%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1419619589,
+      "url": "https://deepmind.google/blog/alphaevolve-impact",
+      "title": "AlphaEvolve：我们由Gemini驱动的编程智能体如何跨领域扩展影响力",
+      "published_at": "2026-05-06T10:43:49+00:00",
+      "original_language": "zh",
+      "summary_en": "AlphaEvolve introduces a Gemini-powered programming agent that addresses the challenge of scaling AI-driven automation across diverse domains. The key finding is that it achieves practical impact in business workflows, infrastructure optimization, and scientific research by automating code generation and problem-solving, significantly accelerating development cycles. This matters because it marks a shift from AI as an assistant to a core productivity engine, demonstrating broad, real-world utility.",
+      "summary_zh": "AlphaEvolve 基于 Gemini 大模型的编程智能体，解决了编程辅助工具向全领域生产力引擎跨越的难题，通过自动化代码生成与问题解决，在商业流程、基础设施优化和科学研究三大领域实现规模化应用。其关键发现是能显著加速开发周期并承担复杂任务，标志着 AI 编程助手从被动辅助进化为主动驱动效率的核心力量，对产业升级与科研提速具有重要价值。",
+      "source": "aihot_selected",
+      "title_zh": "AlphaEvolve：我们由Gemini驱动的编程智能体如何跨领域扩展影响力",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3771610680,
+      "url": "https://x.com/berryxia/status/2051974536481198511",
+      "title": "国家队领投DeepSeek估值飙升至450亿美元",
+      "published_at": "2026-05-06T10:37:07+00:00",
+      "original_language": "zh",
+      "summary_en": "China’s lack of state-backed investment in domestic large language model firms is being addressed through a landmark funding round where the National Integrated Circuit Industry Investment Fund led a $45B valuation jump for DeepSeek, with Tencent and the founder also participating. This first",
+      "summary_zh": "DeepSeek估值短期内飙升至450亿美元，由国家大基金领投，标志着国家队首次公开投资本土大模型公司。这一融资举动将AI大模型正式纳入“半导体国家战略”，明确传递国家全力支持国产AI发展的信号，对行业格局具有战略转折意义。",
+      "source": "aihot_selected",
+      "title_zh": "国家队领投DeepSeek估值飙升至450亿美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3124105671,
+      "url": "https://www.ithome.com/0/946/947.htm",
+      "title": "让 AI 检查软件卡顿问题，Qt 推出智能体代码分析技能",
+      "published_at": "2026-05-06T09:55:43+00:00",
+      "original_language": "zh",
+      "summary_en": "Qt推出的QML分析器AI智能体技能，解决了2D Qt Quick应用程序中渲染、逻辑和内存导致的卡顿与帧率下降等性能问题。其关键方法是利用AI自动诊断代码并生成性能瓶颈报告，已在多个主流大模型和开发环境中验证有效性。这一工具将繁琐的性能分析委托给AI，有望显著提升开发者定位和解决界面卡顿问题的效率。",
+      "summary_zh": "Qt 推出 QML 分析器技能，让 AI 智能体自动诊断 2D Qt Quick 应用的渲染、逻辑与内存卡顿问题，生成性能瓶颈报告。该技能通过将性能分析委托给大模型，能高效定位界面卡顿或帧率下降的根因，已与主流 AI 编程环境集成，显著提升了 Qt 开发者排查性能问题的效率。",
+      "source": "aihot_selected",
+      "title_zh": "让 AI 检查软件卡顿问题，Qt 推出智能体代码分析技能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2269041083,
+      "url": "https://x.com/AYi_AInotes/status/2051958831320588797",
+      "title": "这个创造了Claude Code的男人Boris Cherny大神，完整公开了自己的工作流，并直播演示了一半的编码工作在手机上完成🤪",
+      "published_at": "2026-05-06T09:34:43+00:00",
+      "original_language": "zh",
+      "summary_en": "Boris Cherny tackles efficient AI-assisted coding by sharing a counterintuitive workflow that prioritizes always using the most capable (and expensive) models for initial planning, maintaining a shared plain‑text knowledge base to give Claude persistent memory of past errors, and letting the model inspect its own code execution. The approach enables highly productive development, with half the coding demonstrated live on a phone, and shows how these practices reduce wasted tokens and iteration cycles.",
+      "summary_zh": "Boris Cherny 提出的 AI 编码工作流旨在解决低效试错与记忆丢失难题，核心在于始终使用最昂贵模型进行一次性清晰规划、用纯文本知识库持续记录每次错误形成“长期记忆”，并强制 AI 实时查看自身代码的执行结果。这套反直觉方法通过在手机上并行运行多个实例实现高效自动修改，对提升 AI 辅助开发的可靠性与产出效率具有重要参考价值。",
+      "source": "aihot_selected",
+      "title_zh": "这个创造了Claude Code的男人Boris Cherny大神，完整公开了自己的工作流，并直播演示了一半的编码工作在手机上完成🤪",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2276232582,
+      "url": "https://x.com/vista8/status/2051940612698776022",
+      "title": "开发者整合Canvas库实现Markdown编辑器内多图拼接",
+      "published_at": "2026-05-06T08:22:19+00:00",
+      "original_language": "zh",
+      "summary_en": "This solution tackles the cumbersome process of stitching multiple images for tutorials, which previously required external tools like Figma. By integrating an HTML5 Canvas library into a Markdown editor, users can now combine images directly within the editor and insert or export the result. The code has been open-sourced on GitHub, streamlining tutorial creation workflows.",
+      "summary_zh": "该工作针对教程写作中借助 Figma 等工具拼接多张图片流程繁琐的问题，通过在 Markdown 编辑器中集成 HTML5 Canvas 库，实现了编辑器内直接拼接图片并插入文章或导出。这一改进让图片拼接与写作无缝衔接，显著简化内容创作流程，且相关代码已开源，便于复用。",
+      "source": "aihot_selected",
+      "title_zh": "开发者整合Canvas库实现Markdown编辑器内多图拼接",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3490149510,
+      "url": "https://www.ithome.com/0/946/848.htm",
+      "title": "PayPal 启动 AI 转型自救，拟裁员两成并精简业务架构",
+      "published_at": "2026-05-06T07:08:05+00:00",
+      "original_language": "zh",
+      "summary_en": "PayPal is tackling stalled growth and a sharp stock decline by launching an AI-driven restructuring that will cut 20% of its workforce and streamline operations into three segments. The key approach is to modernize technology, shift to cloud-native architecture, and embed AI across the business to boost development efficiency and shorten product cycles. This matters because the company aims to save at least $1.5 billion in costs over two to three years while regaining competitiveness in a market where its valuation has fallen over 80% since its 2021 peak.",
+      "summary_zh": "PayPal 正面临增长停滞和股价大跌，为此启动一场以人工智能为核心的转型自救，计划通过裁员约两成并精简业务架构来应对困境。核心方法是向云原生架构迁移、全面推行 AI 应用，以提升开发效率、缩短产品周期，并预计在未来两到三年节省至少 15 亿美元成本。这表明传统金融科技巨头正借助生成式 AI 进行深度组织变革与降本增效，以求在激烈竞争中重获增长动力。",
+      "source": "aihot_selected",
+      "title_zh": "PayPal 启动 AI 转型自救，拟裁员两成并精简业务架构",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3440682705,
+      "url": "https://blog.cloudflare.com/agents-stripe-projects",
+      "title": "代理商现在可以创建 Cloudflare 账户、购买域名并进行部署",
+      "published_at": "2026-05-06T05:10:03.970000+00:00",
+      "original_language": "zh",
+      "summary_en": "Cloudflare addresses the fragmented workflow that agency partners previously faced by integrating account creation, domain purchasing, and service deployment into a single streamlined process. This new capability eliminates administrative friction, giving partners greater",
+      "summary_zh": "Cloudflare 为代理商合作伙伴推出一体化功能，解决此前账户创建、域名注册与部署需多步骤操作的低效问题。该方法将三项流程整合到单一界面，显著简化管理并提升代理商的自主性。这一举措有助于加速服务交付、增强合作伙伴关系，并扩大 Cloudflare 的生态系统覆盖范围。",
+      "source": "aihot_selected",
+      "title_zh": "代理商现在可以创建 Cloudflare 账户、购买域名并进行部署",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 241105361,
+      "url": "https://x.com/shao__meng/status/2051865033425190994",
+      "title": "Warp团队开源15个内部工作流加速工具\"Oz Skills\"",
+      "published_at": "2026-05-06T03:22:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Warp’s open-sourcing of its “Oz Skills” toolset addresses fragmented developer workflows by providing 15 purpose-built accelerators across Git/GitHub collaboration, data standardization, web quality audits, infrastructure best practices, and general productivity. The key approach is designing these tools as cohesive workflow enablers rather than superficial API wrappers, reflecting internal practices that streamline repetitive tasks. This release matters because it shares proven efficiency gains with the open-source community, lowering friction in everyday development and operations work.",
+      "summary_zh": "Warp团队开源了15个内部工作流加速工具“Oz Skills”，解决开发者日常在Git协作、数据分析、Web审计、基础设施规范及通用生产力等方面的效率瓶颈。这些工具以“构建工作流”而非简单API封装为核心设计，通过自动化和标准化提升团队实践。此举将内部验证的效率经验开放给开源社区，有助于推动开发工作流优化的共享与复用。",
+      "source": "aihot_selected",
+      "title_zh": "Warp团队开源15个内部工作流加速工具\"Oz Skills\"",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3802538435,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.8-nightly.20260508.0491252b2",
+      "title": "QwenLM/qwen-code: Release v0.15.8-nightly.20260508.0491252b2",
+      "published_at": "2026-05-08T00:32:00+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release adds an opt-in mechanism for including sensitive span attributes in telemetry data, allowing users to share fine-grained debugging information voluntarily. The feature helps balance detailed tracing for AI/ML performance analysis with privacy, ensuring that potentially confidential data is only exposed with explicit consent. This matters for researchers who need",
+      "summary_zh": "此版本为 QwenLM/qwen-code 的遥测功能引入了敏感跨度属性的用户可选加入机制，允许按需收集更详细的请求链路数据，从而帮助开发者更精准地诊断性能或行为问题。该更新在默认保护用户隐私的前提下，强化了可观测性与调试能力，对提升工具可靠性和用户信任有重要意义。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.15.8-nightly.20260508.0491252b2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 4187005985,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.8",
+      "title": "QwenLM/qwen-code: Release v0.15.8",
+      "published_at": "2026-05-07T16:24:27+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses two issues: a restrictive symlink policy within skills directories and a missing light theme option for HTML exports. It enables symlinks pointing outside the skills directory and adds a light theme with a toggle to the `/export` HTML feature. These changes improve developer flexibility and user experience when generating and customizing exported web content.",
+      "summary_zh": "该版本修复了技能目录中符号链接指向外部路径的限制，增强了文件组织灵活性；同时为HTML导出页面新增亮色主题与切换功能，改善了可视化体验；此外改进了SDK端到端测试，确保工具控制逻辑严格遵循“先读后执行”策略，提升代码可靠性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.15.8",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}

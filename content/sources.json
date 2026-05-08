@@ -179,6 +179,15 @@
     "kind_label_en": "Blog",
     "kind_label_zh": "博客"
   },
+  "aihot_selected": {
+    "mono": "A",
+    "tone": "#FF6B2B",
+    "name": "AI HOT — 精选",
+    "name_zh": "AI HOT 精选",
+    "kind": "company_blog",
+    "kind_label_en": "Blog",
+    "kind_label_zh": "博客"
+  },
   "deepseek_github": {
     "mono": "D",
     "tone": "#3D5AB7",
