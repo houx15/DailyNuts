@@ -10,11 +10,31 @@ import { ArchivePage } from '@/components/ArchivePage'
 import { Drawer } from '@/components/Drawer'
 import { Item, Brief, SourcesData } from '@/lib/content'
 
+function emptyBrief(date: string): Brief {
+  return {
+    date,
+    brief_en: '',
+    brief_zh: '',
+    headline_en: `No brief for ${date}`,
+    headline_zh: `${date} 无简报`,
+    lede_en: '',
+    lede_zh: '',
+    sections_en: [],
+    sections_zh: [],
+    top_picks: [],
+    item_count: 0,
+    source_breakdown: {},
+    generated_at: '',
+  }
+}
+
 interface AppShellProps {
   initialDate: string
   availableDates: string[]
   initialItems: Item[]
   initialBrief: Brief
+  allItems: Record<string, Item[]>
+  allBriefs: Record<string, Brief>
   sources: SourcesData
 }
 
@@ -23,6 +43,8 @@ export function AppShell({
   availableDates,
   initialItems,
   initialBrief,
+  allItems,
+  allBriefs,
   sources,
 }: AppShellProps) {
   const [lang, setLang] = useState<Lang>(() => {
@@ -33,6 +55,8 @@ export function AppShell({
   })
   const [route, setRoute] = useState('today')
   const [date, setDate] = useState(initialDate)
+  const [items, setItems] = useState(initialItems)
+  const [brief, setBrief] = useState(initialBrief)
   const [openItem, setOpenItem] = useState<Item | null>(null)
 
   useEffect(() => {
@@ -40,11 +64,10 @@ export function AppShell({
     document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en'
   }, [lang])
 
-  const items = initialItems
-  const brief = initialBrief
-
   function pickDate(d: string) {
     setDate(d)
+    setItems(allItems[d] || [])
+    setBrief(allBriefs[d] || emptyBrief(d))
     setRoute('today')
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
