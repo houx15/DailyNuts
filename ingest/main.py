@@ -9,6 +9,7 @@ import yaml
 from adapters.rss import RSSAdapter
 from adapters.scraper import ScraperAdapter
 from adapters.playwright_scraper import PlaywrightScraperAdapter
+from adapters.aihot_api import AihotApiAdapter
 from adapters.arxiv import ArxivAdapter
 from adapters.github_releases import GitHubReleasesAdapter
 from summarizer import Summarizer
@@ -23,6 +24,7 @@ ADAPTER_MAP = {
     'rss': RSSAdapter,
     'scraper': ScraperAdapter,
     'playwright_scraper': PlaywrightScraperAdapter,
+    'aihot_api': AihotApiAdapter,
     'arxiv': ArxivAdapter,
     'github_releases': GitHubReleasesAdapter,
 }
@@ -283,6 +285,8 @@ DEFAULT_COLORS = {
     'zhipu_news': '#1F7A6F',
     'minimax_news': '#E85D04',
     'claude_blog': '#C46849',
+    'aihot_selected': '#FF6B2B',
+    'aihot_daily': '#FF6B2B',
 }
 
 

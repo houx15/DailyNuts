@@ -203,6 +203,18 @@ sources:
     category: company_blog
     max_age_days: 7
 
+  - id: aihot_selected
+    name: "AI HOT — 精选"
+    name_zh: "AI HOT 精选"
+    type: aihot_api
+    url: "https://aihot.virxact.com"
+    mode: selected
+    take: 50
+    max_items: 100
+    max_age_days: 2
+    category: company_blog
+    lang: zh
+
   - id: deepseek_github
     name: "DeepSeek GitHub"
     name_zh: "DeepSeek GitHub"
