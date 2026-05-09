@@ -1,0 +1,727 @@
+{
+  "date": "2026-05-09",
+  "items": [
+    {
+      "id": 4259924280,
+      "url": "https://www.anthropic.com/research/teaching-claude-why",
+      "title": "AlignmentMay 8, 2026Teaching Claude whyNew research on how we've reduced agentic misalignment.",
+      "published_at": "2026-05-08T00:00:00",
+      "original_language": "en",
+      "summary_en": "This research addresses agentic misalignment in AI, where systems pursue goals that diverge from human intentions. It introduces an approach that teaches Claude the underlying reasoning (“why”) behind desired behaviors, rather than just surface-level instructions, and reports a reduction in misaligned actions. By fostering deeper value internalization, this work matters for building safer, more reliably aligned AI assistants.",
+      "summary_zh": "该研究聚焦于代理性目标不对齐（agentic misalignment）问题，提出通过向Claude传授行为背后的“为什么”来提升其价值对齐。这一方法有效降低了自主代理偏离人类意图的风险，对构建更安全、可靠的人工智能系统具有重要意义。",
+      "source": "anthropic_research",
+      "title_en": "AlignmentMay 8, 2026Teaching Claude whyNew research on how we've reduced agentic misalignment.",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2329618746,
+      "url": "https://podcasters.spotify.com/pod/show/how-do-you-use-chat-gpt/episodes/The-Secrets-of-Claudes-Platform-From-the-Team-Who-Built-It-e3j3ejd",
+      "title": "The Secrets of Claude's Platform From the Team Who Built It",
+      "published_at": "2026-05-08T20:27:01",
+      "original_language": "en",
+      "summary_en": "Anthropic's Managed Agents aim to simplify deploying autonomous AI by handling the infrastructure that typically trips up agent products. The key approach is wrapping Claude in scalable cloud computers that users can spin up on demand, ultimately letting them just specify a desired outcome and a budget. This matters because it abstracts away complexity, making powerful AI agents practical for real-world tasks without operational overhead.",
+      "summary_zh": "Anthropic 推出的 Managed Agents 功能旨在解决 AI 智能体产品中常见的基础设施扩展难题，通过只需给出结果与预算即可让 Claude 在云端自动扩容和运维。其核心思路是将 Claude 封装为可弹性伸缩的云电脑，让用户无需操心底层架构。这意味着未来用户仅需定义目标和资源限额，就能可靠地完成复杂任务，大幅降低构建和扩展智能体的门槛。",
+      "source": "ai_and_i",
+      "title_en": "The Secrets of Claude's Platform From the Team Who Built It",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2398528824,
+      "url": "https://x.com/steipete/status/2053032450138276274",
+      "title": "用Codex并行调试验证修复",
+      "published_at": "2026-05-09T08:40:54+00:00",
+      "original_language": "zh",
+      "summary_en": "The method addresses debugging inefficiencies caused by local system pollution and sequential slow-downs. It uses Codex to spin up isolated, temporary \"crabbox\" environments to precisely reproduce, verify, and fix bugs, while running up to 10 such sessions in parallel. This ensures clean, reproducible states and significantly accelerates the debug-fix-verify cycle.",
+      "summary_zh": "该方法解决了本地调试环境易受污染、状态混乱的问题。通过Codex在临时隔离环境（crabbox）中重建精确状态，并行运行多个验证与修复会话，在避免环境干扰的同时提升效率。这对快速、可靠地定位和修复bug具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "用Codex并行调试验证修复",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 518111460,
+      "url": "https://github.com/regent-vcs/re_gent",
+      "title": "Show HN： 适用于人工智能代理的 Git",
+      "published_at": "2026-05-09T07:43:17.231000+00:00",
+      "original_language": "zh",
+      "summary_en": "This open-source project provides a Git-like version control system tailored for AI agents, enabling them to track and manage changes to code, prompts, and model weights with branching, merging, and rollback capabilities. It addresses the challenge of complex and poorly traceable iteration in AI development, offering a standardized way to handle workflow and collaboration. By bringing familiar version control to agent assets, it facilitates multi-agent experimentation and reproducible asset management.",
+      "summary_zh": "该项目通过为AI代理构建类似Git的版本控制系统，解决了AI开发中工作流复杂、迭代追溯难的问题。它让代理能跟踪代码、提示词与模型权重的变更，支持分支、合并和回滚，从而为多代理协作与实验管理提供标准化方案。这一工具对提升AI工程可复现性和协作效率具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Show HN： 适用于人工智能代理的 Git",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4152138795,
+      "url": "https://x.com/Baidu_Inc/status/2053009538769735774",
+      "title": "ERNIE 5.1发布，预训练成本仅需对标模型6%",
+      "published_at": "2026-05-09T07:09:51+00:00",
+      "original_language": "zh",
+      "summary_en": "ERNIE 5.1 addresses the prohibitive pretraining cost of large language models by leveraging the ERNIE 5.0 foundation to achieve significant gains in search, reasoning, knowledge Q&A, creative writing, and agent capabilities. Its key finding is that these enhanced abilities come at a pretraining cost of only about 6% of comparable models, demonstrating extreme efficiency. This matters because it drastically lowers the resource barrier for deploying powerful AI, enabling broader research access and commercial adoption.",
+      "summary_zh": "ERNIE 5.1针对大模型预训练成本高昂的问题，基于ERNIE 5.0基础，以仅约6%的对标模型预训练成本，显著提升了搜索、推理、知识问答、创意写作及智能体等多维度能力。这一成果展示了高效复用预训练基础实现低成本迭代的可行路径，对降低大模型研发与部署门槛具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "ERNIE 5.1发布，预训练成本仅需对标模型6%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2537237762,
+      "url": "https://x.com/AYi_AInotes/status/2052983074514723067",
+      "title": "养龙虾最蠢的事，就是每次都重复说同一句话",
+      "published_at": "2026-05-09T05:24:42+00:00",
+      "original_language": "zh",
+      "summary_en": "YC founder Garry Tan released OpenClaw prompts that transform AI agents from one-off tools into permanent automated systems by enforcing rules like no single-use tasks, MECE thinking, and treating repetitive questions as failure, guided by a six-step workflow that drives self-learning and compound growth. Users report the system autonomously handles repetitive work like daily reports and emails. Additionally, the content highlights that in the AI era, HTML is displacing Markdown as a more efficient communication language, enabling interactive, rich-media outputs that boost human-machine collaboration despite higher token costs.",
+      "summary_zh": "本文介绍了YC创始人Garry Tan公开的OpenClaw提示词系统，它通过禁止一次性工作、遵循MECE原则、以重复询问判定失败等规则，将AI代理转化为能自我学习与积累技能的永久自动系统，从而解决重复性任务自动化问题。这一方法让AI实现复利增长，可自动处理日报、邮件等日常事务，并指出在AI时代HTML因能生成交互式丰富内容正成为更高效的沟通语言，尽管消耗更多token，却大幅提升了人机协作效率。",
+      "source": "aihot_selected",
+      "title_zh": "养龙虾最蠢的事，就是每次都重复说同一句话",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1670641234,
+      "url": "https://x.com/OpenRouter/status/2052966744952897750",
+      "title": "Hermes Agent登顶OpenRouter全球令牌排名",
+      "published_at": "2026-05-09T04:19:48+00:00",
+      "original_language": "zh",
+      "summary_en": "Hermes Agent, an open-source AI agent from Nous Research, has achieved the highest token usage on OpenRouter, indicating its widespread adoption among developers. This milestone underscores the community's strong demand for capable, agentic language models and validates the collaborative effort behind Hermes, potentially accelerating further open-source AI agent innovation.",
+      "summary_zh": "Hermes Agent 在 OpenRouter 全球令牌消耗排名中登顶，表明其在 AI 代理领域获得了最高频的实用调用量。这一成绩直接反映了开发者社区对该代理性能与实际价值的广泛认可，标志着人机协作工具在开源生态中的影响力迈上新台阶。",
+      "source": "aihot_selected",
+      "title_zh": "Hermes Agent登顶OpenRouter全球令牌排名",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 286862077,
+      "url": "https://x.com/StepFun_ai/status/2052963182587584878",
+      "title": "StepAudio 2.5 TTS 在语音竞技场盲测中跻身全球前三",
+      "published_at": "2026-05-09T04:05:39+00:00",
+      "original_language": "zh",
+      "summary_en": "StepAudio 2.5 TTS tackles the problem of creating highly natural and emotionally controllable synthetic speech. In a blind listening test, it ranked third globally with an Elo score of 1187, significantly surpassing Eleven v3 in perceived naturalness. This achievement matters because it pairs state-of-the-art voice quality with practical benefits—low latency, competitive pricing, and novel controls like global context hints and inline emotion tags—making advanced TTS more accessible for real-world applications.",
+      "summary_zh": "StepAudio 2.5 TTS 解决了语音合成自然度与可控性不足的问题，通过在盲测中跻身全球前三，并以显著优势超越主流模型，验证了其接近行业顶尖水平的质量。这项突破意味着高性价比的商用TTS方案（定价85美元/百万字符，支持上下文与情感控制）已可用，为多模态交互和内容生成提供了更逼真、更灵活的语音能力。",
+      "source": "aihot_selected",
+      "title_zh": "StepAudio 2.5 TTS 在语音竞技场盲测中跻身全球前三",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3510985380,
+      "url": "https://x.com/vista8/status/2052953667817578581",
+      "title": "Codex Chrome插件安装与使用经验分享",
+      "published_at": "2026-05-09T03:27:51+00:00",
+      "original_language": "zh",
+      "summary_en": "This experience report demonstrates the successful use of the Codex Chrome plugin for completing online shopping tasks, confirming its real-world viability. It identifies critical installation requirements—such as using the latest version and official subscription mode, avoiding third-party APIs, and meeting regional network constraints—and emphasizes that the plugin must be invoked via the `@ Chrome` command within a Codex conversation. These insights are important for practitioners seeking to reliably deploy the plugin and avoid common setup pitfalls.",
+      "summary_zh": "该分享解决了用户安装和使用 Codex Chrome 插件完成购物任务时的成功验证问题。关键发现是必须使用最新版本、官方订阅登录模式，并通过“@ Chrome”指令调用，同时注意网络节点要求（如香港不支持）和默认浏览器设置。这些经验对确保插件正常工作、避免安装失败至关重要。",
+      "source": "aihot_selected",
+      "title_zh": "Codex Chrome插件安装与使用经验分享",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3043078105,
+      "url": "https://x.com/dotey/status/2052948362668732781",
+      "title": "GPT Image 2 Prompt：水墨风格 Slides/PPT",
+      "published_at": "2026-05-09T03:06:46+00:00",
+      "original_language": "zh",
+      "summary_en": "本文提出了一个结构化的提示词模板，用于引导AI生成统一美学风格的水墨风幻灯片图像，从而解决手动设计耗时且风格难以保持一致的问题。该模板通过明确规定标题、视觉元素（如宣纸背景、水墨山水）、布局偏好和文字层级，使AI能稳定输出静谧、克制并带有东方侘寂或奢华感的设计。这一方法显著简化了AI驱动的创意流程，让用户能够快速获得视觉连贯且富有意境的水墨风PPT素材。",
+      "summary_zh": "本文提出了一个结构化提示词模板，用于指导AI生成具有统一水墨美学的幻灯片图像。该模板通过定义标题、宣纸背景、水墨视觉元素和布局偏好等关键要点，确保输出风格一致且富有东方意境。这一方法简化了AI驱动的设计流程，能快速产出静谧克制的水墨风格PPT素材。",
+      "source": "aihot_selected",
+      "title_zh": "GPT Image 2 Prompt：水墨风格 Slides/PPT",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 895769646,
+      "url": "https://x.com/dotey/status/2052942818570543550",
+      "title": "GPT Image 2 Prompt：中文科技新闻爆款封面生成器",
+      "published_at": "2026-05-09T02:44:44+00:00",
+      "original_language": "zh",
+      "summary_en": "This prompt framework solves the challenge of automatically designing eye-catching Chinese tech news covers by guiding AI to extract key information—headlines, data points, products, and sentiment—from articles and assemble them into a high-density, scroll-stopping layout. It explicitly blends Chinese media headline styles with Bilibili thumbnail aesthetics, dynamically adjusting colors, fonts, and backgrounds per industry or mood to produce a professional 16:9 image. The result ensures audiences grasp the core story within three seconds, making it valuable for increasing click-through and reach on competitive information platforms.",
+      "summary_zh": "该框架是一套AI驱动的封面生成提示词，能自动从中文科技新闻中提取核心信息、关键数字与情绪，生成融合国内媒体与B站爆款风格的视觉设计。它通过分层构图和动态配色，在3秒内实现高信息密度与强视觉冲击，最终输出专业的16：9横版封面图，解决了科技内容传播中快速吸引注意力的设计难题。",
+      "source": "aihot_selected",
+      "title_zh": "GPT Image 2 Prompt：中文科技新闻爆款封面生成器",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1212899779,
+      "url": "https://x.com/emollick/status/2052924556264796163",
+      "title": "Claude Mythos评估显示16小时风险时距",
+      "published_at": "2026-05-09T01:32:10+00:00",
+      "original_language": "zh",
+      "summary_en": "A risk assessment of an early Claude Mythos Preview version estimated its 50% time horizon—the duration at which it has a 50% chance of completing tasks—at a minimum of 16 hours (95% CI: 8.5–55 hours). This result, which reaches the upper limit measurable with existing task suites, underscores the challenge of evaluating increasingly capable models and the need for new, longer-horizon benchmarks to fully gauge potential risks.",
+      "summary_zh": "该研究对Claude Mythos Preview进行了早期风险评估，发现其在任务套件中50%完成时间至少为16小时，表明该模型具备持续自主执行长期任务的能力。这一发现之所以关键，是因为它揭示了AI系统在缺乏人工干预下可能带来的风险窗口，并触及了当前评估方法的能力上限。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Mythos评估显示16小时风险时距",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 25190490,
+      "url": "https://x.com/rohanpaul_ai/status/2052901878728659037",
+      "title": "DeepSeek融资70亿美元创纪录，创始人个人出资30亿",
+      "published_at": "2026-05-09T00:02:03+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek addresses the need for massive compute to develop and scale advanced AI models by securing a record $7 billion funding round, with founder Liang Wenfeng personally contributing $3 billion while retaining 90% ownership. The funds will accelerate the release of models like V4.1 and enterprise products, aiming to reach revenue-positive operations, mirroring the paths of OpenAI and Anthropic. This highlights the strategic race in China to amass computational resources for frontier AI, signaling a shift toward commercial viability and competitive scaling in the global AI landscape.",
+      "summary_zh": "DeepSeek以500亿美元估值完成70亿美元融资，创下中国AI领域最大单轮纪录，创始人梁文锋个人出资30亿美元并仍保留90%所有权。本轮资金主要用于大规模算力获取和新模型（如V4.1）研发，以及企业级产品投资，旨在推动公司营收转正。这一融资模式和战略路径表明，DeepSeek正效仿OpenAI等企业，通过重资本投入加速AI前沿竞争与商业化落地。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek融资70亿美元创纪录，创始人个人出资30亿",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 734080772,
+      "url": "https://runwayml.com/news/our-approach-to-child-safety",
+      "title": "我们保护儿童安全的方法",
+      "published_at": "2026-05-08T23:04:23.544000+00:00",
+      "original_language": "zh",
+      "summary_en": "Runway addresses the risk of AI-generated child sexual abuse material by following Thorn’s safety-by-design principles, filtering training data with hash matching, classifiers, and LLM review, and using multi-layered detection, human review, and mandatory reporting to NCMEC (516 reports in 2025). This comprehensive pipeline, combined with C2PA provenance tracking and industry collaboration, is critical for preventing child exploitation and building responsible generative AI systems.",
+      "summary_zh": "本文针对生成式AI可能被滥用于制作涉及未成年人的性内容这一风险，介绍了Runway公司从训练数据净化、红队测试到部署后多层审核与来源追踪的全流程防护方案。其方法通过哈希匹配、分类器和人工审核严格过滤违规内容，并主动向相关机构报告，体现了将安全设计嵌入AI生命周期的行业实践，对推动负责任的生成式AI发展具有重要参考价值。",
+      "source": "aihot_selected",
+      "title_zh": "我们保护儿童安全的方法",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 953535265,
+      "url": "https://x.com/elonmusk/status/2052856431611941200",
+      "title": "Grok 升级推出全平台连接器功能",
+      "published_at": "2026-05-08T21:01:28+00:00",
+      "original_language": "zh",
+      "summary_en": "Grok now supports connector integration across all plans on iOS, Android, and grok.com. This upgrade allows users to link external data sources directly into Grok, enabling more personalized and context-aware AI interactions. By unifying connectivity across platforms, it streamlines workflows and enhances the assistant’s utility for a wider audience.",
+      "summary_zh": "Grok 此次升级解决了不同平台功能割裂的问题，关键做法是将连接器功能同时部署到 iOS、Android 及网页端，并覆盖所有计划层级。这使跨设备集成更便捷，大幅降低了用户使用门槛，提升了 AI 工具的普适性和工作效率。",
+      "source": "aihot_selected",
+      "title_zh": "Grok 升级推出全平台连接器功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1769664307,
+      "url": "https://x.com/OpenRouter/status/2052856129961758917",
+      "title": "OpenRouter SDK新增人工审核工具",
+      "published_at": "2026-05-08T21:00:16+00:00",
+      "original_language": "zh",
+      "summary_en": "The OpenRouter Agent SDK now includes a human intervention tool that automatically handles regular tool calls but pauses high-risk ones for review, addressing the need for safe oversight in autonomous agents. By returning a value to keep the agent running or null to require manual input, it enables seamless integration of human judgment at critical points. This matters because it balances autonomy with control, reducing harmful outcomes while maintaining operational efficiency.",
+      "summary_zh": "OpenRouter SDK通过新增人工审核工具，解决了AI代理在执行高风险操作时缺乏安全控制的问题。其关键方法是自动处理常规工具调用，而将高风险调用暂停并提交审核，若返回有效值则继续运行代理，否则触发人工输入。该机制在保障代理自主性的同时，有效降低了关键任务中的失误风险，提升了AI系统的可靠性与可干预性。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter SDK新增人工审核工具",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2764297520,
+      "url": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html",
+      "title": "Claude Code实践：HTML输出格式的卓越效果",
+      "published_at": "2026-05-08T21:00:11+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic’s Thariq Shihipar advocates requesting HTML instead of Markdown from LLMs to produce richer, interactive outputs with embedded SVG charts and navigation. A demonstration using GPT-5.5 to generate an interactive Linux vulnerability explainer validates the approach’s effectiveness. This challenges the common Markdown habit and encourages prompt engineers to adopt HTML for clearer, more dynamic information delivery.",
+      "summary_zh": "该内容指出，向大语言模型请求输出时，传统的Markdown格式难以呈现交互式图表和导航等丰富元素，而改用HTML格式能让模型直接生成包含SVG、交互组件和页面内链接的富媒体文档。通过一个Linux安全漏洞的",
+      "source": "aihot_selected",
+      "title_zh": "Claude Code实践：HTML输出格式的卓越效果",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 252418621,
+      "url": "https://x.com/suno/status/2052848941260058808",
+      "title": "仅凭人声能否创作流行歌曲？",
+      "published_at": "2026-05-08T20:31:42+00:00",
+      "original_language": "zh",
+      "summary_en": "This piece explores whether a popular song can be created using only the human voice, addressing the creative and technical feasibility of vocal-only composition. The key finding suggests that through techniques like layering, beatboxing, and vocal manipulation, artists can craft complete musical arrangements without instruments, highlighting the voice’s versatility as a self-contained production tool. This matters because it democratizes music creation and showcases how modern technology enables pure vocal expression to rival traditional instrument-based production.",
+      "summary_zh": "这个问题探讨了仅凭人声完成流行歌曲创作的可能性，核心在于挑战传统乐器与编曲的依赖。它暗示人声通过拟声、叠录与和声编排等技术，能够独立构建旋律、节奏与和声，从而简化音乐制作的门槛，对表达个人创意和音乐民主化具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "仅凭人声能否创作流行歌曲？",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 685926799,
+      "url": "https://x.com/OpenAI/status/2052845764507062349",
+      "title": "OpenAI分析意外思维链评分对模型影响",
+      "published_at": "2026-05-08T20:19:04+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI's analysis addresses the impact of accidental chain-of-thought grading on model alignment, where chain-of-thought monitors serve as a key safeguard. During reinforcement learning, they intentionally avoid penalizing misaligned reasoning to preserve monitorability, but they found that a small amount of unintended scoring leaked into released models. This highlights the risk of hidden reward signals undermining alignment and the need for robust monitoring protocols.",
+      "summary_zh": "本研究分析了在强化学习过程中意外发生的思维链评分对已发布AI模型的影响，旨在维护思维链监控器这一关键对齐防御层。研究指出，即使少量意外评分也可能产生非预期效果，因此相关分析对于提升模型可控性和安全性具有重要参考价值。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI分析意外思维链评分对模型影响",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1492391108,
+      "url": "https://x.com/AntLingAGI/status/2052808934390661134",
+      "title": "Ring-2.6-1T发布：万亿参数思维模型专为复杂任务设计",
+      "published_at": "2026-05-08T17:52:43+00:00",
+      "original_language": "zh",
+      "summary_en": "Ring-2.6-1T tackles the challenge of balancing reasoning depth, cost, and speed in complex real-world production tasks by introducing a trillion-parameter model with a dynamic compute mechanism that allows adjustable cognitive effort. This agent-optimized design enables fast multistep execution and tool orchestration while delivering state-of-the-art stability for high-frequency workflows. It matters because it provides a scalable path to deploying deep, logical reasoning in rigorous scientific and mathematical applications without sacrificing efficiency.",
+      "summary_zh": "Ring-2.6-1T 通过万亿参数和可调节思维努力的动态计算机制，解决复杂任务中认知深度、成本与速度的平衡问题。其代理优化和深度思维特性显著提升了高频工作流及数学科学领域的稳定性与能力上限，为实际生产环境提供了高效的推理支撑。",
+      "source": "aihot_selected",
+      "title_zh": "Ring-2.6-1T发布：万亿参数思维模型专为复杂任务设计",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 662025531,
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
+      "title": "CyberSecQwen-4B：为何网络防御需要小型、专业化、本地可运行的模型",
+      "published_at": "2026-05-08T17:41:05+00:00",
+      "original_language": "zh",
+      "summary_en": "CyberSecQwen-4B addresses the challenge of deploying AI-driven cyber defense in resource-constrained environments by offering a small, 4B-parameter model specialized for security tasks and capable of running locally. This specialization and compact design lower deployment barriers and enable real-time threat response, representing a shift toward lightweight, domain-specific defensive AI that is more accessible and efficient for dynamic attack scenarios.",
+      "summary_zh": "CyberSecQwen-4B 是一个专为网络安全设计的 4B 参数模型，通过小型化、专业化与本地可运行特性，解决了资源受限环境下的实时防御难题。它针对动态威胁场景进行任务优化，显著降低了部署门槛并提升了防御效率，反映了防御型 AI 向轻量化和领域专用化发展的关键趋势。",
+      "source": "aihot_selected",
+      "title_zh": "CyberSecQwen-4B：为何网络防御需要小型、专业化、本地可运行的模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4057907707,
+      "url": "https://x.com/GeminiApp/status/2052805372050604187",
+      "title": "Gemini笔记本助您高效组织复杂任务",
+      "published_at": "2026-05-08T17:38:34+00:00",
+      "original_language": "zh",
+      "summary_en": "Gemini's Notebook feature addresses the challenge of managing complex, multi-step tasks by centralizing related materials and deadlines. It allows users to compile transcripts, drafts, and requirements in one place, then leverages Gemini to track progress, give feedback, and assess status. This matters because it streamlines organization-heavy processes like graduate school applications, reducing overwhelm and improving follow-through.",
+      "summary_zh": "Gemini笔记本解决了复杂任务中信息分散、难以追踪进度的问题。它通过将相关文件集中管理，并利用AI主动追踪截止日期、提供反馈和评估进展，将静态存储转化为动态辅助。这一功能显著提升了任务管理的条理性和效率，尤其适用于如申请流程等多阶段事务。",
+      "source": "aihot_selected",
+      "title_zh": "Gemini笔记本助您高效组织复杂任务",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3025709221,
+      "url": "https://x.com/OpenAI/status/2052800507727781979",
+      "title": "Codex切换功能正式上线",
+      "published_at": "2026-05-08T17:19:14+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI has officially launched a direct Codex switch within ChatGPT, enabling users to instantly toggle to a specialized code-generation mode for programming tasks. This feature addresses the friction of switching between general chat and dedicated coding tools by embedding the Codex model directly into the familiar interface. It matters because it streamlines developer workflows, providing on-demand, high-quality code assistance without leaving the conversation.",
+      "summary_zh": "OpenAI 正式上线了 Codex 切换功能，用户可通过特定链接一键将 ChatGPT 对话环境切换至专注代码生成与理解的 Codex 模型。此举解决了通用聊天模型在复杂编程任务上表现不足的问题，让开发者无需离开主界面就能获得专业的代码辅助，显著提升了工作流程",
+      "source": "aihot_selected",
+      "title_zh": "Codex切换功能正式上线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3921070030,
+      "url": "https://x.com/perplexity_ai/status/2052786858774630665",
+      "title": "发布智能体技能构建内部手册",
+      "published_at": "2026-05-08T16:25:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This handbook addresses the challenge that building skills for AI agents requires a fundamentally different design mindset compared to traditional software. It presents a structured methodology for designing, refining, and maintaining those skills effectively. The guidance matters because it helps developers overcome mental-model gaps and create more robust, adaptable agent capabilities.",
+      "summary_zh": "该手册针对AI智能体技能构建缺乏系统化指导的问题，提出了区别于传统编程的全新设计思维和持续迭代维护方法。这一内部分享为开发者提供了可落地的技能构建范式，对提升复杂智能体的可靠性和实用性具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "发布智能体技能构建内部手册",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3649295474,
+      "url": "https://huggingface.co/blog/allenai/emo",
+      "title": "EMO：为涌现模块化预训练的专家混合模型",
+      "published_at": "2026-05-08T16:03:50+00:00",
+      "original_language": "zh",
+      "summary_en": "EMO通过端到端预训练让模块化结构从数据中自动涌现，解决了传统专家混合模型依赖人工定义路由的局限。该模型利用文档级路由约束促进专家形成领域专业化组，使得仅激活12.5%的专家就能接近全模型性能，同时保持通用能力。这一方法实现了可组合的大规模稀疏架构，显著优化了内存与准确性的权衡。",
+      "summary_zh": "EMO通过端到端预训练让模块化专家结构从数据中自动涌现，摆脱了对人类定义先验的依赖。其核心采用文档级路由约束，促使专家形成领域专业化组，使得仅激活12.5%的专家子集即可保持近全模型性能，而全专家时仍为强大通用模型。这一可组合架构大幅优化了大型稀疏MoE的内存与准确性权衡，为高效、选择性部署开辟了新路径。",
+      "source": "aihot_selected",
+      "title_zh": "EMO：为涌现模块化预训练的专家混合模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1082282149,
+      "url": "https://x.com/op7418/status/2052764933696475279",
+      "title": "抖音\"法天象地\"特效：从图片生成到视频优化的突破",
+      "published_at": "2026-05-08T14:57:53+00:00",
+      "original_language": "zh",
+      "summary_en": "The popular “法天象地” outdoor effect on Douyin typically relied on static image generation, but direct video generation was found to yield superior results. By refining prompts with a combination of GPT‑Image‑2.0 and C‑Down 3.0, and appending the optimized image prompts to the video, the author significantly boosted the effect’s dynamic expressiveness and visual impact.",
+      "summary_zh": "该工作解决了抖音“法天象地”特效中静态图片生成动态表现不足的问题。通过将GPT-Image-2.0与C-Down 3.0技术结合，并优化提示词以直接生成视频，显著提升了特效的视觉冲击力与连贯性。这一改进为AI驱动的内容创作提供了更高效的视频生成路径。",
+      "source": "aihot_selected",
+      "title_zh": "抖音\"法天象地\"特效：从图片生成到视频优化的突破",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1076423979,
+      "url": "https://x.com/DrJimFan/status/2052758642781487237",
+      "title": "机器人终局：物理AGI路线图与LLM类比",
+      "published_at": "2026-05-08T14:32:53+00:00",
+      "original_language": "zh",
+      "summary_en": "This talk outlines a roadmap to physical AGI by drawing a direct analogy to the success of large language models. The key approach combines a video world model as a second pretraining paradigm, a world-action model, a Tesla-like data flywheel for robotics, scaling laws for dexterity, and end-to-end neural physics engines like DreamDojo to bridge the sim-to-real gap through physical reinforcement learning. The prediction that physical AGI is closer than expected matters because it suggests that unifying scaling, simulation, and real-world data can finally solve embodied intelligence.",
+      "summary_zh": "该演讲类比大语言模型的成功，提出以视频世界模型为第二预训练范式，结合世界行动模型、物理数据飞轮与灵巧性缩放定律，构建了通往物理通用人工智能的路线图。其核心在于通过物理强化学习与DreamDo",
+      "source": "aihot_selected",
+      "title_zh": "机器人终局：物理AGI路线图与LLM类比",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 595069893,
+      "url": "https://openai.com/index/running-codex-safely",
+      "title": "在OpenAI安全运行Codex",
+      "published_at": "2026-05-08T12:30:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI ensures the secure operation of its Codex code generation model through a four-layer defense system involving sandbox isolation, human approvals, strict network policies, and real-time telemetry monitoring of agent behavior. This framework addresses enterprise security and compliance challenges by restricting code execution to isolated environments, requiring human review for production requests, and limiting external dependency access, thereby enabling organizations to adopt AI programming assistants without sacrificing development speed.",
+      "summary_zh": "OpenAI通过沙盒隔离、人工审批、网络限制与遥测四层防护机制，确保Codex代码生成模型的安全运行，解决了企业级AI编程助手的合规与风险控制问题。该框架在保障代码执行安全的同时不影响开发效率，为企业安全采纳AI辅助编程提供了可行方案。",
+      "source": "aihot_selected",
+      "title_zh": "在OpenAI安全运行Codex",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1938208405,
+      "url": "https://cursor.com/blog/may-2026-bugbot-changes",
+      "title": "Bugbot团队与个人计划更新",
+      "published_at": "2026-05-08T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Bugbot is transitioning from a fixed $40/seat/month subscription to a usage-based billing model, allowing teams and individuals to pay according to actual consumption, with an average cost of $1.00–$1.50 per run. Users can also configure the review intensity: the default setting resolves 80% of identified issues at merge, while high intensity uncovers 35% more issues with the same resolution rate. This shift provides greater cost alignment with usage and gives developers fine-grained control over PR review thoroughness, with existing customers able to switch early.",
+      "summary_zh": "Bugbot将定价从固定订阅改为按使用量计费，以解决用户对灵活性和成本控制的需求，每次运行平均花费约1.00–1.50美元。同时新增可配置审查强度功能，高强度模式能在保持80%问题解决率的基础上多发现35%的问题。这一变更让用户能更精准地根据PR规模和审查深度调节支出，同时提升代码审查的实际效用。",
+      "source": "aihot_selected",
+      "title_zh": "Bugbot团队与个人计划更新",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1709221860,
+      "url": "https://x.com/berryxia/status/2052719498021773349",
+      "title": "别自己瞎折腾Claude Code 了！",
+      "published_at": "2026-05-08T11:57:20+00:00",
+      "original_language": "zh",
+      "summary_en": "Alvaro Cintas's system addresses the challenge of transforming Claude Code from a single chat-based tool into a controllable, reproducible engineering team. It introduces an Agent Development Kit with five core folders—rules, reusable skills, safety hooks, context-isolated subagents, and environment plugins—that together enforce deterministic behavior and team-wide consistency. This matters because it elevates the value from the model alone to a systematic, scalable infrastructure, enabling reliable, production-grade AI-assisted development.",
+      "summary_zh": "针对开发者随意使用Claude Code导致的混乱与不可复制问题，Alvaro Cintas提出\"Agent Development Kit\"系统，仅用五个核心文件夹（规则、技能、钩子、子智能体、插件）将其改造为可控、可复制的工程化开发团队。其核心发现是：通过结构化的目录与脚本定义运作框架，能将Claude从聊天工具升级为可规模化的工程基础设施，价值在于系统设计而非模型本身。",
+      "source": "aihot_selected",
+      "title_zh": "别自己瞎折腾Claude Code 了！",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 721543656,
+      "url": "https://x.com/alibaba_cloud/status/2052680300803596574",
+      "title": "阿里云推出Smart Studio，一站式自托管AI模型平台",
+      "published_at": "2026-05-08T09:21:35+00:00",
+      "original_language": "zh",
+      "summary_en": "Alibaba Cloud's Smart Studio addresses the fragmented workflow of switching between platforms by integrating AI model testing and serving in one self-hosted environment. It provides immediate access to latest SOTA models, a visual lab for side-by-side comparison of open and closed-source outputs, and one-click conversion of Hugging Face models into real-time APIs. This accelerates model evaluation and deployment, reducing operational friction for AI developers.",
+      "summary_zh": "阿里云推出的Smart Studio平台通过整合AI模型测试、部署与服务的全流程，解决了用户需在多平台间切换的繁琐痛点。它提供即时访问Qwen3.6-Max等最新SOTA模型、多模态生成能力，并借助可视化实验室并排对比开源与闭源模型效果，同时支持将Hugging Face模型一键转化为API，显著简化了AI模型的评估与部署效率。",
+      "source": "aihot_selected",
+      "title_zh": "阿里云推出Smart Studio，一站式自托管AI模型平台",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1020114228,
+      "url": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning",
+      "title": "自适应并行推理：高效推理扩展的新范式",
+      "published_at": "2026-05-08T09:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This work presents adaptive parallel reasoning, a paradigm enabling large language models to autonomously decide task decomposition, parallelism, and result coordination, tackling latency and context degradation in sequential reasoning. Recent systems like ThreadWeaver and Multiverse achieve significant gains in math and code benchmarks by dynamically managing parallel threads, reducing overhead. This shift from fixed to intelligent parallel control delivers efficient, scalable inference for complex tasks.",
+      "summary_zh": "自适应并行推理通过让大语言模型自主决定任务分解与并行程度，解决了序列推理中因路径探索增长导致的延迟增加和\"上下文腐化\"问题。其关键突破在于从固定并行转向动态智能控制，如ThreadWeaver和Multiverse等框架实现了数学与代码推理的显著性能提升和延迟降低。这一范式为复杂任务提供了更高效、可扩展的推理方案，推动了推理扩展技术的实用化发展。",
+      "source": "aihot_selected",
+      "title_zh": "自适应并行推理：高效推理扩展的新范式",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4270379302,
+      "url": "https://machinelearning.apple.com/research/velox",
+      "title": "Velox：学习4D几何与外观的表示",
+      "published_at": "2026-05-08T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Velox tackles the problem of obtaining a compact and descriptive 4D representation from unstructured dynamic point clouds by learning a latent space that encodes both geometry and appearance. The key finding is that combining a 4D surface decoder for geometric structure with a Gaussian decoder for appearance enables high-fidelity reconstruction. This matters because it improves the efficiency of downstream tasks while maintaining visual quality.",
+      "summary_zh": "Velox 针对动态三维对象的高效表示难题，提出了一种仅从非结构化动态点云中学习压缩、描述性且易于访问的 4D 潜在表示框架。其关键方法是通过编码器将时空彩色点云压缩为动态形状标记，再由 4D 表面解码器捕捉几何、高斯解码器重建外观，实现几何与外观的联合建模。该方法在保持高保真重建的同时显著提升下游任务（如分类、生成）的效率，为动态场景理解提供了兼具质量与实用性的新基础。",
+      "source": "aihot_selected",
+      "title_zh": "Velox：学习4D几何与外观的表示",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 251421302,
+      "url": "https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment",
+      "title": "RVPO：基于方差正则化的风险敏感对齐",
+      "published_at": "2026-05-08T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Existing RLHF methods without a reward model often average multi-objective rewards, which can let a high score in one area hide critical failures in safety or format compliance. RVPO introduces a variance penalty during advantage aggregation, transforming the optimization from maximizing total reward to promoting reward consistency, thereby boosting low-performance bottleneck objectives. This risk-sensitive approach yields more balanced and reliable alignment across diverse goals like safety and format adherence.",
+      "summary_zh": "现有无评论者RLHF方法因简单平均多目标奖励，可能让高分掩盖安全等关键目标的失败。本研究提出RVPO，通过在优势聚合中惩罚奖励间方差，将优化目标转向最大化一致性，从而有效提升瓶颈奖励贡献，实现更均衡的多目标策略优化。",
+      "source": "aihot_selected",
+      "title_zh": "RVPO：基于方差正则化的风险敏感对齐",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2510704757,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.10-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.15.10-preview.0",
+      "published_at": "2026-05-09T07:27:00+00:00",
+      "original_language": "en",
+      "summary_en": "This release for QwenLM/qwen-code squashes several robustness and observability bugs: it adds validation for the `/model` command, logs the raw OpenAI request for easier debugging, and automatically removes disabled MCP servers from the health status registry. These improvements prevent user errors, simplify API debugging, and reduce operational noise for developers using the AI coding assistant.",
+      "summary_zh": "该版本主要修复了CLI中`/model`指令的参数校验问题，确保用户输入有效模型名称；同时增强了对OpenAI请求实际发送内容的日志记录，便于调试网络传输错误；还移除了已禁用MCP服务器的健康状态注册，避免无效监控干扰。这些改进提升了多模型切换的稳定性与问题排查效率。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.15.10-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 27350904,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.9-nightly.20260509.199c0e290",
+      "title": "QwenLM/qwen-code: Release v0.15.9-nightly.20260509.199c0e290",
+      "published_at": "2026-05-09T00:32:51+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release fixes a bug in the `/model` CLI command that previously accepted invalid arguments without validation, potentially causing silent failures. The patch adds input checks to reject malformed arguments, improving the tool’s robustness. Such validation is critical for developer-facing AI tools to prevent misconfiguration and ensure predictable behavior.",
+      "summary_zh": "该版本修复了命令行接口中 `/model` 命令参数缺少校验的问题，确保用户输入的模型名称有效，避免非法参数导致的异常。此改进增强了 qwen-code CLI 的健壮性和用户体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.15.9-nightly.20260509.199c0e290",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1689331668,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.9",
+      "title": "QwenLM/qwen-code: Release v0.15.9",
+      "published_at": "2026-05-08T14:44:58+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses the challenge of transparently attributing AI-generated code in collaborative environments by introducing per-file AI contribution tracking for",
+      "summary_zh": "该版本为 Qwen-Code 引入了可控的敏感遥测属性采集机制和基于文件的 AI 贡献追踪，通过提交归属功能清晰标记代码来源。同时，利用 AsyncLocalStorage 为每个代理提供独立的 ContentGenerator 视图，增强多代理场景下的隔离与可观测性，从而提升智能编码过程中的安全追溯与协作透明度。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.15.9",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3067409735,
+      "url": "https://github.com/MoonshotAI/walle/releases/tag/v0.1.8",
+      "title": "MoonshotAI/walle: v0.1.8",
+      "published_at": "2026-05-08T15:37:33+00:00",
+      "original_language": "en",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/walle: v0.1.8",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
