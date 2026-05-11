@@ -184,7 +184,7 @@ class TestGitHubReleasesAdapter:
                     'tag_name': 'v1.0.0',
                     'html_url': 'https://github.com/test-org/repo1/releases/tag/v1.0.0',
                     'published_at': today_str,
-                    'body': 'Release notes'
+                    'body': '## What\'s Changed\n\n* Fixed a critical bug in the tokenizer by updating the encoding logic to handle multi-byte characters correctly. This improves compatibility with non-English text and reduces crashes in production. (#'
                 }]),
                 raise_for_status=Mock(),
                 status_code=200

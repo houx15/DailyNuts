@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import List
 import xml.etree.ElementTree as ET
 
@@ -11,19 +11,27 @@ class ArxivAdapter(BaseAdapter):
         categories = self.config.get('categories', ['cs.CL', 'cs.AI', 'cs.LG'])
         keywords = self.config.get('keywords', [])
         max_results = self.config.get('max_results_per_day', 30)
+        max_items = self.config.get('max_items', 5)
         
         try:
             items = self._fetch_arxiv(categories, keywords, max_results)
-            return items
+            return items[:max_items]
         except Exception as e:
             print(f"arXiv fetch error for {self.source_id}: {e}")
             return []
     
     def _fetch_arxiv(self, categories: List[str], keywords: List[str], max_results: int) -> List[RawItem]:
         cat_query = ' OR '.join(f'cat:{cat}' for cat in categories)
+        
+        # Only fetch papers from the last 2 days to avoid stale results.
+        # arXiv submittedDate format: YYYYMMDD0000
+        today = datetime.now(timezone.utc)
+        from_date = (today - timedelta(days=2)).strftime('%Y%m%d0000')
+        date_filter = f'+AND+submittedDate:[{from_date}+TO+999912310000]'
+        
         url = (
             f"https://export.arxiv.org/api/query?"
-            f"search_query={cat_query}&"
+            f"search_query={cat_query}{date_filter}&"
             f"start=0&max_results={max_results}&"
             f"sortBy=submittedDate&sortOrder=descending"
         )

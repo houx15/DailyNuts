@@ -1,4 +1,5 @@
 import os
+import re
 from datetime import datetime, timedelta, timezone
 from typing import List
 
@@ -57,11 +58,23 @@ class GitHubReleasesAdapter(BaseAdapter):
                 if published < yesterday:
                     continue
                 
+                body = (release.get('body') or '').strip()
+                # Skip releases with no meaningful body — the LLM cannot
+                # produce a useful summary from a title alone, so these
+                # items end up as "版本更新解决了xxx" hallucinations.
+                meaningful = body.replace('\r', '')
+                # Strip markdown headings and common boilerplate prefixes
+                meaningful = re.sub(r'^#+\s+.*$', '', meaningful, flags=re.MULTILINE)
+                meaningful = re.sub(r'\*\*Full Changelog\*\*.*$', '', meaningful, flags=re.DOTALL)
+                meaningful = meaningful.strip()
+                if len(meaningful) < 100:
+                    continue
+                
                 items.append(self._make_item(
                     title=f"{org}/{repo}: {release['name'] or release['tag_name']}",
                     url=release['html_url'],
                     published_at=published,
-                    original_summary=release.get('body', '')[:500],
+                    original_summary=body[:500],
                     original_language='en',
                     extra={'repo': f"{org}/{repo}", 'tag': release['tag_name']}
                 ))
