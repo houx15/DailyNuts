@@ -1,0 +1,49 @@
+{
+  "date": "2026-05-11",
+  "headline_en": "Agentic Reasoning Advances, Cerebras IPO Booms, and AI Agents Earn Real Money",
+  "lede_en": "Today's AI developments center on a shift toward automated reasoning, with new methods letting LLMs discover their own test-time scaling strategies, while agentic systems take tangible real-world actions—from earning cash bounties to streamlining manufacturing. Meanwhile, market signals like Cerebras' massive IPO oversubscription and Anthropic's unsubsidized token-share lead underscore the economic maturation of AI, even as diagnostic models outperform physicians in the emergency room.",
+  "sections_en": [
+    {
+      "title": "Architecture & Reasoning: Self-Improving Inference Pipelines Gain Ground",
+      "body": "A cluster of research papers signals a broader move to handcrafting less and letting models design their own reasoning enhancements. AutoTTS replaces manual test-time scaling heuristics with an environment-driven discovery framework, letting LLMs explore computation-allocation policies autonomously. VecCISC complements this by making confidence-weighted majority voting far cheaper, clustering reasoning traces to slash the number of expensive critic calls. Conformal Path Reasoning introduces path-level calibration for trustworthy knowledge-graph QA, while Flow-OPD tackles multi-task distillation in text-to-image models via on-policy sampling that avoids reward hacking. EmambaIR shows state-space models can efficiently capture global features for event-guided vision tasks. Together, these efforts point to more automated, reliable, and cost-effective reasoning pipelines across modalities."
+    },
+    {
+      "title": "Agent Engineering & Autonomous Systems: From Chat to Paychecks",
+      "body": "AI agents are crossing from conversation into concrete economic activity. The Codex model autonomously completed an open-source security audit bounty, submitting a pull request and earning $16.88—a tiny but symbolic step toward AI as an income generator. OpenCLI breaks down personal data silos, giving agents CLI access to private messaging platforms like WeChat, Telegram, and Discord. MachinaCheck deploys a multi-agent system on local hardware to slash CNC quoting from hours to 30 seconds. NousResearch’s guide for Hermes agents introduces Pareto Code routing, enabling fine-grained quality-cost-latency tradeoffs. Even the Qwen-code nightly release streamlines CLI metadata handling for more responsive agent sessions. The message is clear: AI agents are not just reasoning—they are interfacing, transacting, and delivering value in the open world."
+    },
+    {
+      "title": "Applications & Industry: Market Validation and Real-World Impact",
+      "body": "The application layer is seeing both explosive growth and credible impact. Cerebras’s wafer-scale chips are driving an IPO over 20x oversubscribed, fueled by orders from Amazon and OpenAI—a vote for specialized inference hardware. Anthropic’s models now lead token share without subsidies, proving that raw quality can win market adoption. In healthcare, even an older o1 model outperformed doctors in emergency department diagnostic accuracy, especially during early triage. Creative tools also advanced: a major update to the “Ghost Zang PPT Skill” uses GPT-Image 2.0 for automated professional design, HappyHorse delivers physics-accurate, lip-synced video for production use, and generative AI now lets a single domain expert build full 3D educational apps in days for under ten dollars. BlackBar brings Blacksmith’s dev services to the macOS menu bar, while a study on Claude’s anthropomorphization reminds the community to balance trust with caution. Across hardware, healthcare, content creation, and education, AI is moving from promise to performance."
+    }
+  ],
+  "top_picks": [
+    2008550096,
+    3216605016,
+    3883659347,
+    633767002,
+    4212297371
+  ],
+  "item_count": 18,
+  "source_breakdown": {
+    "arxiv_cs_cl": 5,
+    "aihot_selected": 12,
+    "qwen_github": 1
+  },
+  "generated_at": "2026-05-11T03:29:53.460545Z",
+  "headline_zh": "Codex自主赚赏金，Anthropic登顶，AI价值时代来临",
+  "lede_zh": "今日AI产业呈现两大里程碑：Codex智能体首次自主完成安全审计并赚取真金白银，预示AI正从工具向经济参与者转变；Anthropic则在没有任何补贴的情况下登顶令牌份额榜首，产品力获市场用脚投票。与此同时，测试时推理策略自动搜索框架AutoTTS等前沿突破，正从架构层面放大模型效能，专用芯片Cerebras的IPO超额认购更印证了推理硬件的爆发前夜。",
+  "sections_zh": [
+    {
+      "title": "推理优化与可信技术突破",
+      "body": "面对大模型推理计算的高成本与人工设计瓶颈，今日研究者集中突围：AutoTTS首创环境驱动的测试时策略自动搜索，告别手工调参；VecCISC基于语义聚类轻量化剪枝置信度评估，大幅节省推理资源；CPR为知识图谱问答引入共形预测，首次提供可证明的统计覆盖保证；Flow-OPD以在线策略蒸馏化解多任务文本到图像生成中的奖励黑客与跷跷板效应；EmambaIR则用状态空间模型高效融合事件流，为高分辨率重构开辟新路。这些成果从效率、可靠性与对齐维度系统推进，为AI规模化应用筑牢基座。"
+    },
+    {
+      "title": "智能体从执行工具到价值创造主体",
+      "body": "AI智能体正在跨越被动响应，主动融入经济流程。OpenAI的Codex接到赚5美元指令后，独立完成开源安全审计全流程并赢得16.88美元奖励，完成了一次迷你经济闭环；OpenCLI打通微信等私域信息流，让个人AI能聚合碎片化社交数据，获得前所未有的上下文深度；MachinaCheck在AMD芯片上本地运行多智能体系统，将CNC零件可制造性分析从半小时压缩至30秒，且数据不出厂；NousResearch发布的Hermes配置指南则为多任务智能体提供高效路由方案。这些进展共同指向一个未来：自主智能体正在从概念走向生产，开始直接创造经济与产业价值。"
+    },
+    {
+      "title": "产品与市场：落地加速，格局生变",
+      "body": "应用生态和商业格局同步激烈演化。Anthropic无补贴登顶令牌份额榜首，有力证明卓越产品能直接赢得付费意愿；AI芯片独角兽Cerebras凭借晶圆级推理芯片获20倍IPO认购，或将刷新2026年来最大规模纪录，昭示专用推理硬件黄金期到来。应用层面，HappyHorse视频引擎登陆阿里云，开源PPT工具注入AI配图能力，教育3D互动开发门槛归零，旧版o1模型急诊诊断已超人类医生——AI正以更快、更廉、更强的姿态渗入产业毛细血管。与此同时，Claude人格化趋势引发中期伦理审思，提醒我们在追求亲和力时需规避过度依赖与认知风险。"
+    }
+  ]
+}

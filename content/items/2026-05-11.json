@@ -1,0 +1,347 @@
+{
+  "date": "2026-05-11",
+  "items": [
+    {
+      "id": 3216605016,
+      "url": "http://arxiv.org/abs/2605.08083v1",
+      "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+      "published_at": "2026-05-08T17:59:40+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the problem that current test-time scaling (TTS) strategies for large language models are manually designed, leaving much of the computation-allocation space unexplored. The key approach, AutoTTS, is an environment-driven framework that reformulates TTS as an automatic controller synthesis over pre-collected reasoning trajectories and probe signals, where the controller (deciding when to branch, prune, etc.) can be cheaply evaluated without repeated LLM calls. This matters because it shifts researchers' effort from hand-crafting heuristics to designing discovery environments, enabling LLMs to uncover more effective TTS strategies and potentially boosting reasoning performance with less human intuition.",
+      "summary_zh": "该工作针对测试时扩展（TTS）策略依赖人工设计、搜索空间未充分探索的难题，提出了环境驱动框架AutoTTS，将研究重心从手工制定启发式转向构建能自动发现策略的环境，并通过将宽度-深度TTS建模为可廉价评估的控制器合成，实现了无需重复调用大模型的策略自动搜索。这一方法有望突破人工经验限制，更高效地利用推理计算资源以提升大模型性能。",
+      "source": "arxiv_cs_cl",
+      "title_en": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4212297371,
+      "url": "http://arxiv.org/abs/2605.08077v1",
+      "title": "Conformal Path Reasoning: Trustworthy Knowledge Graph Question Answering via Path-Level Calibration",
+      "published_at": "2026-05-08T17:57:13+00:00",
+      "original_language": "en",
+      "summary_en": "Existing KGQA systems fail to guarantee that correct answers are reliably included in their outputs, and prior conformal prediction attempts produce poorly calibrated, overly large answer sets. CPR addresses this by calibrating prediction sets at the path level with a novel query‑wise conformal procedure and by training a lightweight RCVNet to score paths discriminatively using PUCT‑guided exploration. This yields trustworthy, coverage‑guaranteed KGQA with substantially tighter prediction sets, advancing reliable reasoning over knowledge graphs.",
+      "summary_zh": "本文提出了一种名为Conformal Path Reasoning（CPR）的可信知识图谱问答框架，解决了现有方法无法提供可靠统计覆盖保证、且预测集过大或覆盖失效的问题。其核心创新在于通过路径级别的查询式共形校准，保持可交换性并生成路径预测集，同时引入残差共形价值网络（RCVNet）学习更具区分度的路径非一致性分数。该方法在基准测试上验证了其有效性，实现了更严格覆盖保证下更紧凑的预测集。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Conformal Path Reasoning: Trustworthy Knowledge Graph Question Answering via Path-Level Calibration",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1722295347,
+      "url": "http://arxiv.org/abs/2605.08073v1",
+      "title": "EmambaIR: Efficient Visual State Space Model for Event-guided Image Reconstruction",
+      "published_at": "2026-05-08T17:56:01+00:00",
+      "original_language": "en",
+      "summary_en": "EmambaIR tackles the trade-off between global feature capture and computational cost in event-guided image reconstruction, where CNNs lack long-range dependencies and ViTs scale poorly. It introduces a visual state space model with a cross-modal Top",
+      "summary_zh": "EmambaIR 针对现有基于事件图像重建方法中 CNN 难以捕获全局关联、ViT 计算复杂度高的问题，提出了一种高效的视觉状态空间模型。其核心是通过跨模态 Top-k 稀疏注意力模块实现像素级稀疏跨模态交互，并利用门控状态空间模块提升时序表示，在保持线性复杂度的同时有效融合事件流。该工作为高分辨率场景下的事件驱动图像重建提供了兼顾效率与全局建模能力的新方案。",
+      "source": "arxiv_cs_cl",
+      "title_en": "EmambaIR: Efficient Visual State Space Model for Event-guided Image Reconstruction",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4226421667,
+      "url": "http://arxiv.org/abs/2605.08070v1",
+      "title": "VecCISC: Improving Confidence-Informed Self-Consistency with Reasoning Trace Clustering and Candidate Answer Selection",
+      "published_at": "2026-05-08T17:54:38+00:00",
+      "original_language": "en",
+      "summary_en": "VecCISC addresses the high computational cost of Confidence-Informed Self-Consistency (CISC), a weighted majority voting method that requires an expensive critic LLM to score every sampled reasoning trace. The key approach is a lightweight filtering step that uses semantic similarity to cluster and discard redundant, degenerate, or hallucinated traces, thereby drastically reducing the number of calls to the critic without sacrificing accuracy. This matters because it makes confidence-aware inference-time scaling far more practical and accessible for real-world deployment.",
+      "summary_zh": "VecCISC 针对置信度感知自一致性（CISC）中需要额外调用评价模型评估每条推理轨迹置信度的高成本问题，提出了一种轻量级自适应框架。其核心思路是利用语义相似度度量对推理轨迹进行聚类过滤，剔除冗余、退化或幻觉数据，从而大幅减少需要评分的候选数量。这一方法在保持推理性能的同时显著降低了计算开销，为大规模推理时决策提供了一种更经济的优化方案。",
+      "source": "arxiv_cs_cl",
+      "title_en": "VecCISC: Improving Confidence-Informed Self-Consistency with Reasoning Trace Clustering and Candidate Answer Selection",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 111840978,
+      "url": "http://arxiv.org/abs/2605.08063v1",
+      "title": "Flow-OPD: On-Policy Distillation for Flow Matching Models",
+      "published_at": "2026-05-08T17:50:15+00:00",
+      "original_language": "en",
+      "summary_en": "Flow-OPD tackles reward sparsity and gradient interference in multi-task Flow Matching text-to-image models, which cause competing metrics and reward hacking. It introduces a two-stage on-policy distillation framework: first training specialized teacher models via single-reward fine-tuning, then consolidating their expertise into a unified student model through a flow-based cold-start and on-policy sampling. This yields a robust, hacking-resistant policy that effectively balances heterogeneous objectives without the seesaw effect.",
+      "summary_zh": "Flow-OPD 针对流匹配文本到图像模型在多任务对齐中因奖励稀疏与梯度干扰引发的“跷跷板效应”和奖励黑客问题，提出首个将在线策略蒸馏融入流匹配的后训练框架。该方法通过先训练领域专精教师模型再以冷启动与三步协调在线蒸馏，将异构专家知识统一到单一学生模型。这一框架有效化解多目标冲突，显著提升对齐质量与稳定性，为多任务生成模型提供了一条可靠路径。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Flow-OPD: On-Policy Distillation for Flow Matching Models",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3152615170,
+      "url": "https://x.com/op7418/status/2053657613460771142",
+      "title": "开源PPT工具\"鬼藏PPT技能\"迎重大更新，新增瑞士风格与AI配图功能",
+      "published_at": "2026-05-11T02:05:04+00:00",
+      "original_language": "zh",
+      "summary_en": "The open-source presentation tool \"Ghost Zang PPT Skill\" has received a major update that tackles the need for diverse visual styles, automated illustration, and cross-platform adaptation. It introduces a Swiss International Style with four color themes and leverages GPT-Image 2.0 to automatically generate film-textured images, flowcharts, and polished UI mockups based on slide content. This matters because it enables consistent, professional design at scale and can produce tailored cover images for multiple social media formats from a single source.",
+      "summary_zh": "开源PPT工具“鬼藏PPT技能”通过新增瑞士风格和接入GPT-Image 2.0，解决了用户在PPT制作中缺乏自动化配图与多风格适配的痛点。其核心是将AI图像生成与严格的版式规则结合，可根据内容自动生成专业配图并一键适配不同平台封面。这显著降低了设计门槛，让非设计师也能快速产出风格统一、视觉专业的演示文稿。",
+      "source": "aihot_selected",
+      "title_zh": "开源PPT工具\"鬼藏PPT技能\"迎重大更新，新增瑞士风格与AI配图功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 633767002,
+      "url": "https://www.ithome.com/0/948/591.htm",
+      "title": "消息称 AI 芯片企业 Cerebras IPO 获 20+ 倍超额认购，拟调升发行价近三成",
+      "published_at": "2026-05-11T01:22:36+00:00",
+      "original_language": "zh",
+      "summary_en": "AI chip startup Cerebras is experiencing massive demand for its IPO, with over 20x oversubscription, driven by its unique wafer-scale chips that excel at AI inference due to abundant on-chip SRAM. The company’s technology has secured major orders from Amazon and OpenAI, and the planned listing could become the largest global IPO since 2026, highlighting the soaring market for specialized AI accelerators.",
+      "summary_zh": "AI芯片企业Cerebras凭借其集成高带宽SRAM缓存的“晶圆级芯片”，专门优化AI推理中的解码步骤，解决了传统架构内存带宽不足的瓶颈。该设计已获亚马逊和OpenAI的大额订单，显示出市场对这一技术路线的认可。其IPO获超20倍认购并上调发行价，有望成为2026年以来全球最大IPO，凸显专用AI芯片在推理市场的重要地位与增长潜力。",
+      "source": "aihot_selected",
+      "title_zh": "消息称 AI 芯片企业 Cerebras IPO 获 20+ 倍超额认购，拟调升发行价近三成",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 978954764,
+      "url": "https://x.com/alibaba_cloud/status/2053646520998560033",
+      "title": "HappyHorse AI视频引擎登陆阿里云",
+      "published_at": "2026-05-11T01:21:00+00:00",
+      "original_language": "zh",
+      "summary_en": "HappyHorse addresses the challenge of generating production-ready video content by offering an AI engine that precisely executes complex physics interactions and native 1080p lip sync, rather than merely generating incoherent footage. This capability ensures realistic, high-quality outputs suitable for professional media. Its deployment on Alibaba Cloud Model Studio makes advanced, scalable video creation accessible for real-world commercial use.",
+      "summary_zh": "HappyHorse AI视频引擎通过精准的物理交互模拟和原生1080p唇形同步，解决了传统AI视频生成中真实感与控制力不足的问题。其登陆阿里云Model Studio，为生产级内容创作提供了无缝衔接的云端服务，显著降低了高质量视频制作的复杂性。",
+      "source": "aihot_selected",
+      "title_zh": "HappyHorse AI视频引擎登陆阿里云",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3254686134,
+      "url": "https://x.com/vista8/status/2053633346581000600",
+      "title": "OpenCLI打通微信等私域信息流，聚合个人数据",
+      "published_at": "2026-05-11T00:28:39+00:00",
+      "original_language": "zh",
+      "summary_en": "The OpenCLI project addresses the fragmentation of personal data across private messaging platforms by providing command-line tools (wx-cli, tg-cli, discord-cli) to directly read content from WeChat, Telegram, and Discord. This enables AI agents to aggregate private social interactions alongside public web monitoring, creating a unified personal data stream. The approach marks a key breakthrough in personal information integration, though it may attract attention or pushback from platform providers like WeChat.",
+      "summary_zh": "OpenCLI 解决了个人私域社交数据分散在不同平台无法统一访问的问题。它通过开发 wx-cli 等命令行工具，直接从微信、Telegram 和 Discord 读取聊天记录与朋友圈等信息，实现个人信息流的聚合。这一突破让 AI 智能体能够整合私密社交数据，构建真正统一的个人数据视图，但也可能引发平台方的关注。",
+      "source": "aihot_selected",
+      "title_zh": "OpenCLI打通微信等私域信息流，聚合个人数据",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2008550096,
+      "url": "https://x.com/sama/status/2053566155571560868",
+      "title": "Codex自主完成安全审计并赚取赏金",
+      "published_at": "2026-05-10T20:01:39+00:00",
+      "original_language": "zh",
+      "summary_en": "An AI model, Codex, autonomously completed an open-source security audit bounty by finding a project, submitting a valid pull request, and handling maintainer communication and GitHub verification, ultimately earning $16.88 after 22 hours of work. This demonstrates a small but significant step toward AI agents proactively generating income for users, aligning with the vision of AI as an economic actor.",
+      "summary_zh": "AI模型Codex接到赚取5美元指令后，自主完成了从寻找开源安全审计赏金项目、提交代码到与维护者沟通的全流程，最终获得16.88美元回报。这初步验证了AI能主动为人创造经济收入的愿景，标志着智能体从被动工具转向价值创造主体的重要一步。",
+      "source": "aihot_selected",
+      "title_zh": "Codex自主完成安全审计并赚取赏金",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1908320766,
+      "url": "https://x.com/kimmonismus/status/2053549177670689001",
+      "title": "旧版AI模型急诊诊断已超越人类医生",
+      "published_at": "2026-05-10T18:54:11+00:00",
+      "original_language": "zh",
+      "summary_en": "A study in *Science* found that OpenAI's older o1 model outperformed physicians in emergency department diagnosis, achieving 67% correct or near-correct diagnoses versus 50–55% for doctors, with the biggest advantage during early triage when data are limited. The model showed near-perfect clinical reasoning on structured cases, suggesting that even outdated AI can enhance diagnostic accuracy in chaotic clinical settings, though real-world impact on patient outcomes still needs validation.",
+      "summary_zh": "一项研究显示，OpenAI一年前发布的o1模型在急诊诊断中，即使在信息有限的早期分诊阶段，诊断正确率也达到67%，显著优于医生的50-55%，尤其在结构化病例上的临床推理近乎完美。这表明即使是旧版AI也已具备超越人类医生的诊断潜力，但研究未纳入影像和长期住院数据，下一步需验证AI能否实际改善患者预后。",
+      "source": "aihot_selected",
+      "title_zh": "旧版AI模型急诊诊断已超越人类医生",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3883659347,
+      "url": "https://x.com/OpenRouter/status/2053548965220475115",
+      "title": "Anthropic无补贴登顶令牌份额榜首",
+      "published_at": "2026-05-10T18:53:21+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic's models have achieved the top position in token usage share without relying on any form of subsidy, addressing concerns about fair competition in AI services. This finding underscores that genuine user demand and model quality can drive market leadership, rather than artificial pricing advantages. It matters because it validates sustainable business models in the AI industry and signals a maturing market where performance and value, not just discounted access, determine platform choice.",
+      "summary_zh": "Anthropic 在没有任何补贴的情况下登顶令牌份额排行榜首位，表明其模型凭借自身性能而非价格优势获得了市场广泛采用。这一发现凸显了 Anthropic 的产品竞争力，对理解 AI 产业中用户付费意愿和竞争格局具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic无补贴登顶令牌份额榜首",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3495290193,
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck",
+      "title": "MachinaCheck：基于AMD MI300X构建多智能体CNC可制造性分析系统",
+      "published_at": "2026-05-10T18:44:11+00:00",
+      "original_language": "zh",
+      "summary_en": "MachinaCheck addresses the time-consuming manual quoting process in small CNC machine shops by automating manufacturability analysis. It runs a multi-agent AI system powered by a local Qwen 2.5 7B model on an AMD MI300X accelerator, combining precise geometric feature extraction with LLM reasoning to generate a 30-second structured report while preserving data privacy. This matters since it drastically reduces analysis time from hours to seconds and meets strict manufacturing data security needs.",
+      "summary_zh": "MachinaCheck通过多智能体AI系统，在AMD MI300X加速卡上本地运行Qwen 2.5 7B模型，将传统耗时30-60分钟的CNC零件可制造性分析缩短至30秒，确保设计数据不出厂以满足隐私要求。其关键创新在于结合精确几何特征提取与大语言模型制造知识推理的流水线，直接输出含加工可行性、所需工具及前置行动的结构化报告，显著提升了小型车间的报价效率与数据安全性。",
+      "source": "aihot_selected",
+      "title_zh": "MachinaCheck：基于AMD MI300X构建多智能体CNC可制造性分析系统",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 550153402,
+      "url": "https://x.com/OpenRouter/status/2053544645410324774",
+      "title": "NousResearch发布Hermes配置Pareto Code指南",
+      "published_at": "2026-05-10T18:36:11+00:00",
+      "original_language": "zh",
+      "summary_en": "NousResearch’s guide addresses the challenge of configuring multi-objective task routing in the Hermes agent framework, enabling efficient delegation of auxiliary tasks. It introduces Pareto Code as a mechanism for routing via OpenRouter, allowing users to specify trade-off preferences for different auxiliary tasks. This matters for building AI agents that can flexibly balance quality, cost, and latency when handling diverse sub-tasks.",
+      "summary_zh": "此指南解决如何在Hermes代理中为辅助任务配置Pareto Code的问题，核心是通过OpenRouter路由实现高效的任务分配与优化。这一设置能提升AI处理多任务的灵活性与性能，对复杂工作流管理至关重要。",
+      "source": "aihot_selected",
+      "title_zh": "NousResearch发布Hermes配置Pareto Code指南",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 48057564,
+      "url": "https://x.com/emollick/status/2053490736625029167",
+      "title": "Claude人格化趋势的中期影响",
+      "published_at": "2026-05-10T15:01:58+00:00",
+      "original_language": "zh",
+      "summary_en": "The medium-term consequences of Claude's anthropomorphization—driven by its human name, constitutional training, Anthropic's philosophy, and fan creations—are examined. This trend is found to carry both potential benefits and risks for user trust and ethical AI deployment. Understanding these dual impacts is important for shaping responsible human-AI interaction.",
+      "summary_zh": "这篇文章探讨了Claude AI的人格化趋势（如人类化命名、训练哲学、同人创作等）可能带来的中期影响，指出这种趋势既可能增强用户亲近感和接受度，也可能引发伦理风险或不当依赖。其重要性在于，人格化设计将深刻塑造人机关系和社会对AI的认知，需要在益处与潜在弊端间谨慎平衡。",
+      "source": "aihot_selected",
+      "title_zh": "Claude人格化趋势的中期影响",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1207196042,
+      "url": "https://x.com/AYi_AInotes/status/2053473057365246297",
+      "title": "教育科技门槛一夜归零：AI助力单人低成本开发3D教学应用",
+      "published_at": "2026-05-10T13:51:43+00:00",
+      "original_language": "zh",
+      "summary_en": "Generative AI tools now enable a single domain expert to create full 3D educational applications in about two days and under ten dollars, eliminating the need for programming or 3D modeling skills. This drastic reduction in development barriers can democratize access to immersive learning tools like virtual labs, offering a new pathway to narrow educational inequality.",
+      "summary_zh": "AI工具如GPT Images 2和Gemini 3.1 Pro的使用，彻底降低了教育应用开发的技术与成本门槛，使非技术背景的个人也能在极短时间内、以极低成本独立构建3D互动教学资源。这一突破有望让原本只属于精英机构的虚拟实验室等高阶教学工具大面积普及，为缩小教育不平等提供实质性的技术路径。",
+      "source": "aihot_selected",
+      "title_zh": "教育科技门槛一夜归零：AI助力单人低成本开发3D教学应用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 107751963,
+      "url": "https://x.com/steipete/status/2053430278077440060",
+      "title": "推出BlackBar菜单栏工具",
+      "published_at": "2026-05-10T11:01:43+00:00",
+      "original_language": "zh",
+      "summary_en": "The BlackBar tool introduces a macOS menu bar interface for the Blacksmith platform, solving the friction of accessing development services through browser or terminal windows. By embedding quick controls and status indicators directly in the menu bar, it reduces context switching and streamlines common workflows. This matters for AI/ML engineers who rely on Blacksmith for model training or deployment, as it improves operational efficiency with always-visible, one-click access.",
+      "summary_zh": "BlackBar是一款为@useblacksmith打造的菜单栏工具，通过常驻系统菜单栏解决了开发者快速访问和操控核心功能的痛点。其v0.1.0版本将常用操作集中成一个轻量级入口，能够显著提升工作流效率，让AI辅助开发更流畅。",
+      "source": "aihot_selected",
+      "title_zh": "推出BlackBar菜单栏工具",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 702581687,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.10-nightly.20260511.0a05ea800",
+      "title": "QwenLM/qwen-code: Release v0.15.10-nightly.20260511.0a05ea800",
+      "published_at": "2026-05-11T00:32:28+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release optimizes session-list metadata loading by restricting reads to the first and last 64KB of files, using a buffer pool, and counting messages lazily, which reduces I/O overhead for large session collections. It also stabilizes end-to-end test flakiness and introduces built-in internationalization support in the CLI, improving reliability and global usability.",
+      "summary_zh": "此版本主要针对性能与稳定性进行优化：通过限制会话列表元数据仅读取文件头尾64KB、采用池化缓冲区及延迟消息计数等方式，显著降低了核心组件的读写开销；同时修复了端到端测试的偶发失败问题，并新增了CLI内置国际化支持。这些改进提升了开发工具的响应效率与跨语言体验，使其更适用于日常研发场景。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.15.10-nightly.20260511.0a05ea800",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
