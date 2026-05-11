@@ -38,6 +38,7 @@ sources:
                "chain of thought", "transformer"]
     max_results_per_day: 30
     max_items: 5
+    max_age_days: 1
     category: paper
 
   - id: hf_papers

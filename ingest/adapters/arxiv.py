@@ -12,26 +12,20 @@ class ArxivAdapter(BaseAdapter):
         keywords = self.config.get('keywords', [])
         max_results = self.config.get('max_results_per_day', 30)
         max_items = self.config.get('max_items', 5)
+        max_age_days = self.config.get('max_age_days', 1)
         
         try:
-            items = self._fetch_arxiv(categories, keywords, max_results)
+            items = self._fetch_arxiv(categories, keywords, max_results, max_age_days)
             return items[:max_items]
         except Exception as e:
             print(f"arXiv fetch error for {self.source_id}: {e}")
             return []
     
-    def _fetch_arxiv(self, categories: List[str], keywords: List[str], max_results: int) -> List[RawItem]:
+    def _fetch_arxiv(self, categories: List[str], keywords: List[str], max_results: int, max_age_days: int) -> List[RawItem]:
         cat_query = ' OR '.join(f'cat:{cat}' for cat in categories)
-        
-        # Only fetch papers from the last 2 days to avoid stale results.
-        # arXiv submittedDate format: YYYYMMDD0000
-        today = datetime.now(timezone.utc)
-        from_date = (today - timedelta(days=2)).strftime('%Y%m%d0000')
-        date_filter = f'+AND+submittedDate:[{from_date}+TO+999912310000]'
-        
         url = (
             f"https://export.arxiv.org/api/query?"
-            f"search_query={cat_query}{date_filter}&"
+            f"search_query={cat_query}&"
             f"start=0&max_results={max_results}&"
             f"sortBy=submittedDate&sortOrder=descending"
         )
@@ -44,11 +38,12 @@ class ArxivAdapter(BaseAdapter):
         root = ET.fromstring(response.content)
         ns = {'atom': 'http://www.w3.org/2005/Atom'}
         
+        cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
         items = []
         for entry in root.findall('atom:entry', ns):
             try:
                 item = self._parse_entry(entry, ns, keywords)
-                if item:
+                if item and item.published_at >= cutoff:
                     items.append(item)
             except Exception as e:
                 print(f"Error parsing arXiv entry: {e}")
