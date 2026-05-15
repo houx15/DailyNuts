@@ -1,0 +1,57 @@
+{
+  "date": "2026-05-15",
+  "headline_en": "Anthropic Hits $900B as Agents Learn to Dream and Infrastructure Backlash Grows",
+  "lede_en": "AI’s breakneck pace this week was marked by stratospheric valuations—Anthropic’s tripled to $900 billion—while agent engineering leapt forward with Claude Managed Agents' new 'dreaming' capability for multi-agent orchestration. At the same time, rigorous new benchmarks exposed stark capability gaps in long-range video consistency and real-world adaptability, and a Gallup poll revealed that 70% of Americans now oppose data centers near their homes, threatening the infrastructure underpinning the entire boom.",
+  "sections_en": [
+    {
+      "title": "Agent Engineering Comes of Age",
+      "body": "Multiple releases signal that AI agents are shifting from experimental demos to production-grade infrastructure. Claude Managed Agents introduced 'dreaming'—an internal simulation mechanism—to align multi-agent systems on goals before acting, while Codex added audit hooks, scoped access tokens, and mobile monitoring, and Genkit delivered stackable middleware for retries and human-in-the-loop controls. Underpinning this is a growing recognition, echoed by Daytona’s Ivan Burazin, that every agent requires its own secure, isolated 'computer'—a new infrastructure layer that transforms autonomous workflows from brittle to reliable."
+    },
+    {
+      "title": "Benchmarks Expose Real-World Gaps",
+      "body": "As models are pushed into enterprise and creative workflows, evaluators are raising the bar. EntityBench tests video generators on cross-shot consistency for up to 50 shots and 13 characters, revealing persistent failures that subjective reviews miss. FutureSim replays chronological news events through 2026 and shows the best frontier agent achieves only 25% accuracy, while a quantitative video-world-model benchmark lifts generated clips into 3D to expose geometric violations. These tools collectively force a reckoning: current systems still struggle with the temporal, causal, and physical coherence needed for trustworthy deployment."
+    },
+    {
+      "title": "Enterprise AI at Scale: Deployments and Tooling",
+      "body": "Adoption stories underscored AI’s ability to compress complex workflows—PwC’s Claude deployment slashed insurance underwriting from ten weeks to ten days, and a non-technical project manager shipped a stress-management app in six weeks using Claude Code. Recraft AI’s new image models streamlined asset generation, while Luma Agents automated e-commerce campaign production. Lessons from building Claude Code crystallized a key architectural insight: prompt caching is everything for responsive, affordable AI-assisted development, a principle that will influence tool design across the industry."
+    },
+    {
+      "title": "Market Momentum Meets Public Pushback",
+      "body": "Financial milestones rewrote the scale of the AI economy: Anthropic’s annual recurring revenue surged fivefold to $45 billion, propelling its valuation to $900 billion, and Microsoft renegotiated its OpenAI deal to cap cumulative shares and save an estimated $97 billion. Yet this growth is colliding with social resistance—69 U.S. jurisdictions have issued moratoriums on data centers, fueled by fears over electricity costs and water use. While Runway opens a Tokyo office after a 300% jump in Japanese enterprise customers, the infrastructure backbone of the AI revolution faces its most tangible headwind yet."
+    }
+  ],
+  "top_picks": [
+    2629561666,
+    3532988833,
+    2383063542,
+    2585967585,
+    2143113997
+  ],
+  "item_count": 57,
+  "source_breakdown": {
+    "arxiv_cs_cl": 5,
+    "anthropic_research": 1,
+    "anthropic_news": 1,
+    "claude_blog": 8,
+    "mad_podcast": 1,
+    "aihot_selected": 39,
+    "qwen_github": 2
+  },
+  "generated_at": "2026-05-15T10:36:25.534866Z",
+  "headline_zh": "AI商业化狂奔：Anthropic估值破9000亿，自主研究首次超越人类基准",
+  "lede_zh": "今日AI领域热点密集，商业化与智能体的突破并驾齐驱。Anthropic三个月内估值飙升近三倍，微软千亿投资尘埃落定并重塑合作条款，凸显资本对AI领导力的极度渴求；与此同时，AI自主研究在nanoGPT优化任务中首次超越人类基准，但在真正创新上依然乏力，揭示了当前智能体擅组合、弱原创的双重面貌。此外，多模态视频生成一致性评测、Agent动态适应能力模拟等基准工具密集涌现，正为下一代AI系统的可靠性校准航向。",
+  "sections_zh": [
+    {
+      "title": "应用与产品",
+      "body": "AI正以前所未有的速度渗透产业与开发者工具链。Anthropic以9000亿美元估值和450亿美元年经常性收入成为资本焦点，其与微软的百亿合作更通过取消收入分成、设定支出上限等方式重构了商业逻辑。普华永道全球部署Claude将保险承保压缩70%耗时，Runway斥资4000万美元深耕日本市场，均显示出头部企业加速AI落地的决心。面向开发者，Claude Code的最佳实践、API预缓存技巧、Genkit中间件系统和html-anything等工具大幅降低了AI辅助开发的门槛，而无代码背景人士六周上线完整应用的案例，则宣告了AI正将创造权从专业工程师手中扩散至更广泛的非技术人群。"
+    },
+    {
+      "title": "Agent 工程",
+      "body": "让智能体从“能说”走向“能干”仍是今天的主线。Anthropic的Claude托管代理引入“梦ing”能力和多代理编排，通过模拟与迭代优化提升多步骤任务质量；Codex推出的自动化钩子和程序化令牌则直指CI/CD流程中的安全与一致性痛点。更值得警惕的是Mythos AI在五天内辅助发现并串联两个macOS内核漏洞，形成完整攻击链，凸显出智能体在安全研究中的双刃剑效应。Kimi的网页桥接扩展和百度全栈AI云则从交互通道与基础设施层面，为大规模代理的可靠运行铺平道路。这些进展共同指向一个信号：智能体正在敲开企业核心业务的大门，但可信、可控的执行环境仍是规模化前必须跨越的障碍。"
+    },
+    {
+      "title": "评估与基准",
+      "body": "当AI能力不断膨胀，如何量化和诊断其短板变得愈发紧迫。EntityBench首次系统评估长视频生成中的跨镜头实体一致性，用三维保真度门控体系揭示模型在连贯叙事上的脆弱性；PDI-Bench则将生成视频提升到三维世界坐标，从尺度-深度对齐等维度审计物理合理性，为“世界模型”的可靠构建提供客观标尺。在动态智能体方面，FutureSim通过重播真实世界事件，发现前沿模型准确率上限仅25%，部分成绩甚至不及零预测基线，这为长期测试时适应指明了严苛的研究方向。检索策略的比较实验更发现，Agent架构与工具输出呈现方式对性能影响重大，单纯的检索算法升级并非万能。这些工作正合力为狂飙突进的AI开发注入冷静的衡量标准。"
+    }
+  ]
+}
