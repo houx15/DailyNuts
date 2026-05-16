@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-16",
+  "headline_en": "Agent Era Accelerates as AI Tools Flood Workplaces, But LeCun Warns LLMs Are a Dead End",
+  "lede_en": "Today’s AI developments reveal a field in overdrive: agents are being embedded into Notion, Microsoft Office, and programming workflows, while OpenAI restructures to chase the agent future and a macOS kernel exploit shows AI’s dark utility. Yet Yann LeCun’s fierce critique—calling large language models insufficient for real intelligence—underscores a brewing paradigm fight even as enterprise adoption and the $250B inference market ignite.",
+  "sections_en": [
+    {
+      "title": "Agent Engineering Reaches Every Surface",
+      "body": "The agent blueprint is spreading rapidly. OpenAI is merging ChatGPT, Codex, and its API under Greg Brockman to target the “agent era” and is building a secret desktop super app. Notion’s new CLI, compute workers, and AI agent tools turn its workspace into a programmable environment where agents can run code and orchestrate actions. Meanwhile, integrations like Grok-Hermes enable persistent, multi-platform agents, and Microsoft Research ships agentified GitHub workflows and verification-first agents to boost reliability. These moves matter because they transform static assistants into autonomous, stateful collaborators that can plan and execute across tools and sessions."
+    },
+    {
+      "title": "Enterprise AI Deepens Across Legal, Finance, and Creative Domains",
+      "body": "Anthropic is pushing Claude into high-stakes verticals: a specialized “Claude for Legal” model tackles contract analysis and case summarization, while the broader deployment across the legal industry promises efficiency gains. On the creativity front, Krea 2 and Pixverse’s concert template democratize professional-grade asset generation, and Cambridge’s Articraft autonomously produces interactive 3D assets from natural language, tackling data hunger in robotics. Not all integrations are benign—researchers used Anthropic’s Mythos to craft a macOS kernel exploit bypassing Apple’s memory integrity, and UK financial regulators warn that AI-powered cyberattacks now outpace human specialists. These stories highlight a dual reality: AI is becoming deeply embedded in sensitive workflows, lowering barriers for builders and attackers alike, while the inferential economy balloons, with firms like Datadog seeing AI-driven revenue nearly double in a quarter."
+    },
+    {
+      "title": "Paradigm Wars and the Search for True Intelligence",
+      "body": "Yann LeCun’s blunt dismissal of LLMs as “a dead end” and his advocacy for Joint Embedding Predictive Architectures (JEPA) sparked debate, echoed by his new venture AMI focused on world models and embodied intelligence. The interview at unsupervised_learning frames the endgame not as scaling but as architectures that can plan and reason in the physical world, warning that today’s leaders risk obsolescence. Complementing this, an analysis of AlphaGo’s search, learning, and self-play trio is pitched as a modular blueprint for general intelligence. These provocations matter because they challenge the industry’s massive compute investments and push the research community to look beyond autoregressive text models, even as the applications market races ahead."
+    }
+  ],
+  "top_picks": [
+    3390385377,
+    1300920602,
+    540436769,
+    268340193,
+    3907912704
+  ],
+  "item_count": 41,
+  "source_breakdown": {
+    "claude_blog": 2,
+    "unsupervised_learning": 1,
+    "aihot_selected": 36,
+    "qwen_github": 2
+  },
+  "generated_at": "2026-05-16T09:48:56.171233Z",
+  "headline_zh": "OpenAI重组迎竞争，杨立昆再批LLM",
+  "lede_zh": "今日AI领域迎来多重震荡：OpenAI宣布将ChatGPT、Codex与API合并为统一组织，由总裁Greg Brockman直接执掌产品战略，加速打造超级应用；杨立昆则通过访谈与社交媒体持续抨击大语言模型，主张转向世界模型并离职创业。安全方面，研究者利用Anthropic工具突破苹果M5芯片硬件防线，AI驱动的网络攻击风险亦被多国警告，技术与产业的碰撞进入新阶段。",
+  "sections_zh": [
+    {
+      "title": "应用与产品",
+      "body": "应用侧今日密集发布，Claude被深度嵌入法律文书审查与微软Office套装，Notion推出开发者平台，Krea 2正式面向专业用户，ChatGPT新增个人理财功能，显示AI正从单一对话向工作流渗透和个性化服务演进。同时，Pixverse等创意工具让普通用户一键生成专业内容，而Codex的销售管道简报、数据科学自动报告等功能则直接冲击白领办公链，AI落地场景空前碎片化却又高度集中。"
+    },
+    {
+      "title": "Agent 工程",
+      "body": "智能体工程迈入实战化节点。Codex实现多设备上下文共享，让用户在ChatGPT内无缝切换远程环境；剑桥大学Articraft系统通过AI智能体全自动生成可运动3D资产，并开源万件数据集；OpenSquilla则用智能路由将任务按难度分发，成本降至1/9。飞书开源CLI工具45天获万星，其“可见可控”设计被视作Agent接管办公的先决条件。这些进展共同指向一个方向：AI Agent正在从概念走向可组装、可审核的生产力单元。"
+    },
+    {
+      "title": "新模型发布",
+      "body": "模型发布方面，MiniMax M2.7上线OrcaRouter平台，提供统一API接口；微软研究院新工具与模型集中亮相，覆盖智能体、验证优先架构等前沿方向；X平台开源“For You”推荐算法Phoenix Transformer，揭示社交推荐背后的架构细节。这些发布既降低了开发者调用门槛，也为行业贡献了可复现的参考模板，工具链的持续完善正让模型能力更快融入真实产品。"
+    },
+    {
+      "title": "其他",
+      "body": "行业格局剧变：OpenAI重组折射出巨头在智能体时代的紧迫感；杨立昆与图灵奖分歧公开化，退出Meta创立AMI押注世界模型，呼吁年轻研究者放弃LLM热点；安全领域则揭示苹果耗时五年的MIE防御仍被绕过的尴尬，多国联合警告AI网络攻击能力已远超专业人员。英伟达黄仁勋则提醒务实的技工红利，AI引发的结构性机会与风险正同步放大。"
+    }
+  ]
+}
