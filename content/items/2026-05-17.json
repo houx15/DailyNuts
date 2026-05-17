@@ -1,0 +1,442 @@
+{
+  "date": "2026-05-17",
+  "items": [
+    {
+      "id": 2619338287,
+      "url": "https://x.com/rohanpaul_ai/status/2055919204591902771",
+      "title": "研究揭示LLM智能体记忆重写机制损害可靠性",
+      "published_at": "2026-05-17T07:51:50+00:00",
+      "original_language": "zh",
+      "summary_en": "研究指出，大型语言模型智能体采用的“重写记忆”机制——将原始经历压缩为书面教训——会损害记忆的可靠性，导致错误分组、规则过泛化或过拟合，从而使智能体遗忘细节或混淆任务。实验显示，GPT-4在无记忆时能100%解决小型ARC-AGI任务，而构建并流式更新记忆后性能骤降至约54%。因此，该研究主张应保留原始经历作为关键证据，而非盲目重写摘要，以提升智能体的持续学习可靠性。",
+      "summary_zh": "该研究揭示了大语言模型智能体通过将原始经历压缩为书面教训的记忆重写机制会严重损害记忆可靠性，在网页购物、模拟世界等任务中导致错误分组、规则过拟合等问题，甚至使GPT-4在ARC-AGI任务上从100%准确率降至54%。核心发现表明，自动将所有经验重写为摘要会丢失关键细节，主张智能体记忆系统应保留原始经历作为证据基础，并采用选择性摘要策略以平衡效率与准确性。",
+      "source": "aihot_selected",
+      "title_zh": "研究揭示LLM智能体记忆重写机制损害可靠性",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3523644797,
+      "url": "https://x.com/elonmusk/status/2055912040481599793",
+      "title": "Grok Imagine图像生成功能正式发布",
+      "published_at": "2026-05-17T07:23:22+00:00",
+      "original_language": "zh",
+      "summary_en": "Grok Imagine, now publicly available on X, addresses the need for accessible, high-quality image generation by leveraging a latest text-to-image model that produces realistic visuals across multiple aspect ratios. This integration empowers all users to effortlessly create professional-grade images directly within the platform, enhancing creative expression and content creation.",
+      "summary_zh": "Grok Imagine 正式向所有用户开放，解决了大众获取高质量、逼真图像生成工具的需求。其核心是基于最新的文本到图像模型，支持多宽高比输出，从而让用户能直接在 X 平台上便捷地生成专业级图像。",
+      "source": "aihot_selected",
+      "title_zh": "Grok Imagine图像生成功能正式发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3636185993,
+      "url": "https://x.com/gdb/status/2055882172884763012",
+      "title": "手机端ChatGPT应用集成Codex构建功能",
+      "published_at": "2026-05-17T05:24:41+00:00",
+      "original_language": "zh",
+      "summary_en": "The mobile ChatGPT app now integrates Codex, allowing users to directly build and execute software projects on their phone, addressing the need for on-the-go coding without desktop reliance. This approach streamlines portable development by embedding code generation and execution into a conversational interface. It matters because it lowers barriers to rapid prototyping and learning, making coding more accessible and accelerating iterative workflows anywhere.",
+      "summary_zh": "手机端ChatGPT应用现已集成Codex功能，用户能直接在应用内通过自然语言描述生成并部署完整项目，解决了移动端编程不便、难以快速实现创意的痛点。其核心方法是将代码生成与云端构建环境无缝嵌入对话界面，让非专业开发者在手机上一键将想法转化为可用应用。这一创新大幅降低了软件开发门槛，使随时随地的项目构建成为可能，有望加速原型迭代和创意验证。",
+      "source": "aihot_selected",
+      "title_zh": "手机端ChatGPT应用集成Codex构建功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 237532523,
+      "url": "https://x.com/berryxia/status/2055865005271314528",
+      "title": "微信读书Skill安装与使用指南",
+      "published_at": "2026-05-17T04:16:28+00:00",
+      "original_language": "zh",
+      "summary_en": "This guide provides steps for installing a WeChat Reading (微信读书) skill that enables AI assistants like Codex or Claude Code to access a user’s reading data, such as highlights and annotations. The key approaches include using an official installation command, a community-optimized version, or obtaining an API key from the official page. It matters because it bridges personal reading history with AI, allowing direct queries like “show my highlights from a specific book.”",
+      "summary_zh": "该指南解决了用户如何为AI助手安装与配置微信读书Skill的问题，提供了官方指令和网友优化版两种安装途径，以及获取API密钥的方法。这样用户可以直接通过自然语言指令调用微信读书中的个人数据（如高亮和划线），显著简化了与阅读内容交互的流程。",
+      "source": "aihot_selected",
+      "title_zh": "微信读书Skill安装与使用指南",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2046846483,
+      "url": "https://x.com/rohanpaul_ai/status/2055841486714147177",
+      "title": "Anthropic CEO预言软件免费化与职业结构巨变",
+      "published_at": "2026-05-17T02:43:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic CEO Dario Amodei warns that AI-driven efficiency will make software nearly free, disrupting the traditional model where costs are amortized over millions of users, and will eliminate many long-standing jobs. This transformation could restructure entire industries, but Amodei cautions that society is vastly underestimating the speed and magnitude of the impending change. The insight matters because it signals a fundamental economic shift that demands urgent preparation for widespread labor displacement and new value-creation models.",
+      "summary_zh": "Anthropic CEO Dario Amodei 预测软件成本将降至近乎免费，颠覆了传统需百万用户分摊成本的模式，同时指出大量既有工作与职业可能消亡。他强调社会尚未充分认识到这场变革的规模与速度，但相信人类有能力应对适应。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic CEO预言软件免费化与职业结构巨变",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3284822150,
+      "url": "https://crates.io/crates/zerostack/1.0.0",
+      "title": "Zerostack--一款采用纯Rust语言编写、受Unix启发的编程代理",
+      "published_at": "2026-05-17T00:46:13.673000+00:00",
+      "original_language": "zh",
+      "summary_en": "Zerostack tackles the challenge of boosting programming efficiency by offering a code-assistance agent built purely in Rust and inspired by Unix philosophy, which emphasizes modularity and simplicity. Its public 1.0 release and notable community engagement (115 points on Hacker News) highlight interest in a tool that combines Rust’s memory safety and performance with time-tested design principles. This matters because it provides",
+      "summary_zh": "Zerostack 是一款纯 Rust 实现的编程代理工具，通过融合 Unix 的简洁模块化思想与 Rust 的内存安全特性，致力于提升编程效率。其 1.0.0 版本发布后在 Hacker News 上获得高度关注，为代码辅助领域带来了一个兼具性能与工程美学的新选择。",
+      "source": "aihot_selected",
+      "title_zh": "Zerostack--一款采用纯Rust语言编写、受Unix启发的编程代理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 376979495,
+      "url": "https://x.com/berryxia/status/2055786570570137989",
+      "title": "Figure人形机器人连续自主运行四天，迈向实用化关键一步",
+      "published_at": "2026-05-16T23:04:47+00:00",
+      "original_language": "zh",
+      "summary_en": "Figure’s F.03 humanoid robot was tested for four days of continuous autonomous operation in a warehouse to evaluate long-duration task endurance and gather real-world failure and maintenance data. This experiment bridges the gap between single-action demonstrations and sustained practical capability",
+      "summary_zh": "该研究通过让Figure F.03人形机器人在真实仓库环境中连续四天自主执行抓取、搬运等任务，重点评估其长期耐力与故障、维护等实际运行数据。这突破了以往仅展示单次动作的局限，标志着人形机器人向具备持续工作能力的实用化阶段迈出关键一步。",
+      "source": "aihot_selected",
+      "title_zh": "Figure人形机器人连续自主运行四天，迈向实用化关键一步",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3468329201,
+      "url": "https://x.com/berryxia/status/2055766210512560416",
+      "title": "MagicPath与Codex深度整合，设计开发流程合二为一",
+      "published_at": "2026-05-16T21:43:53+00:00",
+      "original_language": "zh",
+      "summary_en": "MagicPath deeply integrates with Codex as a native design canvas, enabling real-time code generation from drag-and-drop UI creation and removing the need to switch between Figma and an IDE. This seamless design-to-code pipeline consolidates the entire “design–develop–iterate” workflow into a single window, dramatically shortening the distance from idea to running application.",
+      "summary_zh": "MagicPath 与 Codex 深度整合，解决了设计开发流程中频繁在 Figma 与 IDE 之间切换的割裂问题。其关键做法是将 MagicPath 作为原生画布嵌入 Codex，拖拽设计 UI 时 Codex 能实时感知项目并自动生成、编辑代码，实现一站式无缝衔接。此举将设计、开发与迭代融合在单一窗口，显著缩短了从创意到可运行应用的转化距离。",
+      "source": "aihot_selected",
+      "title_zh": "MagicPath与Codex深度整合，设计开发流程合二为一",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2766090138,
+      "url": "https://x.com/omarsar0/status/2055750162526715926",
+      "title": "工具使用代理认知与行动脱节机制研究",
+      "published_at": "2026-05-16T20:40:07+00:00",
+      "original_language": "zh",
+      "summary_en": "This paper investigates a disconnect in tool-using agents where models internally recognize the need to invoke a tool but fail to act on it, with mismatches reaching 26–54%. The failure arises entirely in the transition from cognition to action—not in the recognition itself—due to late-layer last-token mechanisms that rotate the decoded signal to be nearly orthogonal to the produced action. The findings suggest that common attributions like insufficient prompting overlook these later-layer geometric constraints, offering an explanation for performance ceilings in tool-use A/B testing.",
+      "summary_zh": "这篇论文揭示了工具使用代理中“认知-行动”脱节现象：模型内部能正确识别需调用工具（认知），但最终行动常失败，问题集中于后期层信号旋转导致决策方向近乎正交。研究通过探测隐藏状态解码了这一过渡阶段，指出归因于提示或训练不足的传统观点可能忽略了后期层几何结构，从而为A/B测试中的性能瓶颈提供了新解释。",
+      "source": "aihot_selected",
+      "title_zh": "工具使用代理认知与行动脱节机制研究",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1789027148,
+      "url": "https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai",
+      "title": "美国开始出现人工智能相关岗位的大规模裁员",
+      "published_at": "2026-05-16T19:58:00.612000+00:00",
+      "original_language": "zh",
+      "summary_en": "The US is seeing large-scale layoffs in AI-related positions, with Bloomberg reporting severe job losses in sectors impacted by AI. This marks a shift from theoretical concerns to real-world labor market disruption, as detailed layoff figures and affected industries continue to emerge.",
+      "summary_zh": "美国人工智能领域正出现大规模裁员，反映出AI技术对劳动力市场的冲击已从理论探讨转变为现实中的岗位流失。这一现象揭示了技术进步可能加剧就业结构性矛盾，亟待关注其对不同行业的差异化影响。",
+      "source": "aihot_selected",
+      "title_zh": "美国开始出现人工智能相关岗位的大规模裁员",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 163806010,
+      "url": "https://x.com/thsottiaux/status/2055735802894954612",
+      "title": "Codex新增键盘快捷键自定义功能",
+      "published_at": "2026-05-16T19:43:03+00:00",
+      "original_language": "zh",
+      "summary_en": "This update addresses the constraint of fixed keyboard shortcuts in Codex by introducing customizable key bindings. Users can now reconfigure shortcuts through settings to match their individual workflows, eliminating the need to adapt to defaults. This enhancement significantly improves user experience and productivity by allowing a more personalized and efficient interface.",
+      "summary_zh": "Codex 此次更新解决了用户必须适应固定键盘快捷键的不便，通过新增自定义快捷键功能，让用户能根据个人工作方式灵活配置。这一改进显著提升了使用体验的个性化和效率，使得交互更顺畅。",
+      "source": "aihot_selected",
+      "title_zh": "Codex新增键盘快捷键自定义功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2588993232,
+      "url": "https://www.dwarkesh.com/p/rlvr-might-be-disproportionately",
+      "title": "RLVR 可能在科学领域格外糟糕",
+      "published_at": "2026-05-16T19:00:59+00:00",
+      "original_language": "zh",
+      "summary_en": "The paper argues that Reinforcement Learning with Verification (RLVR) may be particularly ill-suited for scientific discovery because the verification cycle for scientific theories spans decades to centuries, and theories that appear better in the short term often make worse predictions. This mismatch reveals a fundamental conflict between short-feedback reinforcement learning paradigms and the long-horizon, complex nature of scientific exploration, highlighting structural limitations of current AI methods for tasks with extremely delayed feedback.",
+      "summary_zh": "该研究指出，强化学习与验证（RLVR）方法应用于科学发现时，因依赖短期反馈而面临根本性挑战：科学理论的验证往往需数十年甚至数百年，且当前看似更优的理论反而可能预测更差。这一发现揭示了现有AI强化学习范式与超长周期科学探索的结构性冲突，对设计面向科学发现的AI系统具有重要警示。",
+      "source": "aihot_selected",
+      "title_zh": "RLVR 可能在科学领域格外糟糕",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4079337395,
+      "url": "https://x.com/pmarca/status/2055723987850690927",
+      "title": "Eric Jang分享从零构建AlphaGo的经历与见解",
+      "published_at": "2026-05-16T18:56:06+00:00",
+      "original_language": "zh",
+      "summary_en": "Eric Jang replicated AlphaGo from scratch to demystify how self-play and search-augmented deep networks render superhuman game play, gaining insights beyond literature descriptions. He found that by 2026, training a strong Go AI costs only a few thousand dollars in cloud compute—dramatically lowering resource barriers. This matters because it demonstrates the rapid commoditization of once-expensive AI capabilities and provides open tutorials that let a broader community experiment with frontier techniques.",
+      "summary_zh": "Eric Jang通过亲手从零复现AlphaGo，深化了对这一自我对弈训练的搜索增强网络的理解，并揭示了前沿AI能力实现成本的快速下降：如今仅需几千美元算力即可训练强大围棋AI。这项工作以详细教程和代码开放分享，降低了先进技术复现的门槛，对AI研究民主化具有启示意义。",
+      "source": "aihot_selected",
+      "title_zh": "Eric Jang分享从零构建AlphaGo的经历与见解",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2283642007,
+      "url": "https://x.com/OpenAIDevs/status/2055717793841221796",
+      "title": "按需定制快捷键，优化工作流效率",
+      "published_at": "2026-05-16T18:31:30+00:00",
+      "original_language": "zh",
+      "summary_en": "This update addresses user feedback by introducing customizable keyboard shortcuts, allowing users to tailor Codex to their own workflow rather than adapting to default settings. By enabling shortcut customization, it streamlines efficiency and personalizes the tool to fit individual working styles.",
+      "summary_zh": "此更新针对用户需适应默认快捷键导致的效率低下问题，推出了键盘快捷键自定义功能。用户可按自身工作流灵活设置 Codex 的快捷操作，无需再受固定配置束缚。这将显著提升个人使用舒适度与整体工作效率。",
+      "source": "aihot_selected",
+      "title_zh": "按需定制快捷键，优化工作流效率",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3670974566,
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
+      "title": "最新开源成果（#21）：开源模型盛宴！Gemma 4、DeepSeek V4、Kimi K2.6、MiMo 2.5、GLM-5.1 等。基于CAISI的V4评估。",
+      "published_at": "2026-05-16T17:00:11+00:00",
+      "original_language": "zh",
+      "summary_en": "This summary covers the recent surge of open-source AI models—Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, and GLM-5.1—evaluated under the CAISI V4 framework. The key finding is that multiple teams released flagship-level updates in rapid succession, reflecting the intense pace of iteration in the open-source community. This matters because it provides a standardized performance comparison and underscores the accelerating democratization of cutting-edge AI capabilities.",
+      "summary_zh": "本月开源AI模型领域迎来密集发布，包括Gemma 4、DeepSeek V4、Kimi K2.6、MiMo 2.5和GLM-5.1等一系列重要新版本。这些模型均在CAISI的V4评估框架下进行了性能评测。多个团队几乎同期推出旗舰级更新，反映出开源社区当前高速迭代的竞争态势。",
+      "source": "aihot_selected",
+      "title_zh": "最新开源成果（#21）：开源模型盛宴！Gemma 4、DeepSeek V4、Kimi K2.6、MiMo 2.5、GLM-5.1 等。基于CAISI的V4评估。",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4162237316,
+      "url": "https://x.com/AntLingAGI/status/2055689329339760829",
+      "title": "社区协作再创佳绩，vLLM支持万亿级模型",
+      "published_at": "2026-05-16T16:38:23+00:00",
+      "original_language": "zh",
+      "summary_en": "The post highlights a community-led Day0 collaboration that extends vLLM to efficiently serve trillion-parameter models, solving the scalability bottleneck for ultra-large model inference. By enabling practical deployment at this scale, the integration democratizes access to frontier AI and reduces operational barriers for practitioners.",
+      "summary_zh": "vLLM通过社区紧密协作，成功实现对万亿级参数大模型的支持，解决了超大规模模型部署与推理的工程难题。这一突破标志着开源工具在极致规模上的又一里程碑，为后续更高效、更低成本的超大模型应用奠定了基础。",
+      "source": "aihot_selected",
+      "title_zh": "社区协作再创佳绩，vLLM支持万亿级模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3579265585,
+      "url": "https://x.com/AntLingAGI/status/2055681163033997815",
+      "title": "Ring-2.6-1T开源并上线OpenRouter，专为智能体工作流设计",
+      "published_at": "2026-05-16T16:05:56+00:00",
+      "original_language": "zh",
+      "summary_en": "Ring-2.6-1T tackles the challenge of building AI agents that can autonomously plan, use tools, and complete multi‑step real‑world tasks instead of merely generating answers. It uses a trillion‑parameter architecture trained with Async RL and IcePop methods to maintain context and execute complex workflows with high reasoning capability. The open‑source release on OpenRouter makes a powerful agent‑oriented reasoning model widely accessible for research and deployment.",
+      "summary_zh": "Ring-2.6-1T 模型针对现实世界智能体需要自主规划、调用工具并完成多步骤工作流的挑战，通过万亿级推理架构与 Async RL、IcePop 训练方法，实现了从回答问题到执行任务的能力跃升。其开源并登陆 OpenRouter 平台，大幅降低了高性能智能体技术的使用门槛，对推动具身化、任务导向型 AI 应用具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Ring-2.6-1T开源并上线OpenRouter，专为智能体工作流设计",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 203803491,
+      "url": "https://nvlabs.github.io/Sana/WM",
+      "title": "SANA-WM：一个用于生成1分钟720p视频的26亿级开源世界模型",
+      "published_at": "2026-05-16T15:25:59.778000+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA's SANA-WM addresses the challenge of generating coherent, minute-long 720p videos by releasing a 2.6-billion-parameter open-source world model, enabling high-fidelity long-video synthesis. Its public availability fosters research into scalable video generation and has already attracted significant industry interest.",
+      "summary_zh": "NVIDIA 发布的开源世界模型 SANA-WM 针对长时长、高分辨率视频生成难题，通过 26 亿参数的大规模架构，能够生成 1 分钟 720p 质量的视频。这一成果为高质量长视频合成研究提供了重要的基准和技术支撑，引起了业界的广泛关注。",
+      "source": "aihot_selected",
+      "title_zh": "SANA-WM：一个用于生成1分钟720p视频的26亿级开源世界模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2688257947,
+      "url": "https://github.com/dtnewman/burn-baby-burn",
+      "title": "Show HN： 烧吧，宝贝，烧吧（那些代币）",
+      "published_at": "2026-05-16T14:54:00.108000+00:00",
+      "original_language": "zh",
+      "summary_en": "This open-source project addresses cryptocurrency inflation by providing a tool for users to voluntarily destroy their own tokens, directly reducing total supply. By enabling deflationary action at the individual level, it aims to increase the scarcity and potential value of remaining tokens. This matters because it offers a decentralized, user-driven mechanism to counter inflationary pressures that can erode token worth.",
+      "summary_zh": "该项目针对加密货币领域的通胀问题，提供了一种开源工具，允许用户主动销毁自己持有的代币以减少总供给量。其核心思路是通过代币销毁机制人为创造通缩，从而提升剩余代币的稀缺性与潜在市场价值，该工具已在 GitHub 开源并引发社区关注。",
+      "source": "aihot_selected",
+      "title_zh": "Show HN： 烧吧，宝贝，烧吧（那些代币）",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3881769351,
+      "url": "https://arxiv.org/abs/2605.12357",
+      "title": "Δ-Mem：适用于大型语言模型的高效在线内存",
+      "published_at": "2026-05-16T13:49:59.872000+00:00",
+      "original_language": "zh",
+      "summary_en": "Δ-Mem addresses the high memory demands of large language models during online inference and continual learning by storing only incremental activation changes instead of full states, reducing memory usage by up to 70% while preserving output quality. This makes it feasible to deploy and adapt large-scale models in resource-constrained environments.",
+      "summary_zh": "Δ-Mem 通过仅存储和更新模型激活的增量变化，而非完整状态，有效解决了大语言模型在线推理和持续学习中的内存占用过高问题。该方法在将内存使用量降低高达 70% 的同时，基本无损地保持了模型输出质量，为资源受限环境下部署大规模模型提供了可行途径。",
+      "source": "aihot_selected",
+      "title_zh": "Δ-Mem：适用于大型语言模型的高效在线内存",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1453373419,
+      "url": "https://www.ithome.com/0/951/390.htm",
+      "title": "杭州基地启用，机器人有了国家级职业技能训练场",
+      "published_at": "2026-05-16T13:46:46+00:00",
+      "original_language": "zh",
+      "summary_en": "A new national AI pilot base in Hangzhou addresses the challenge of moving embodied intelligence from lab research to real-world deployment by offering robots professional skill training in realistic scenarios. Supported by a dedicated local regulation and an industrial cluster of over 700 enterprises with a projected output of 106",
+      "summary_zh": "杭州启用国家级具身智能中试基地，解决机器人从实验室到现实场景的技能训练与产业化转化难题。该基地通过提供职业技能训练场和集展示、研发、赋能于一体的综合平台，并借助地方立法和产业集聚，推动技术批量落地。此举加速了具身智能产业成熟，目前杭州相关集群产值已超千亿元，对规模化应用具有示范意义。",
+      "source": "aihot_selected",
+      "title_zh": "杭州基地启用，机器人有了国家级职业技能训练场",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2014857475,
+      "url": "https://x.com/berryxia/status/2055635826462130227",
+      "title": "Anthropic《Founder's Playbook》：AI提高创业失败率的警示",
+      "published_at": "2026-05-16T13:05:47+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic's internal handbook warns that AI tools like Claude Code increase startup failure rates by enabling rapid prototyping that founders mistake for validated market demand, while lowering execution costs so dramatically that sound judgment and structured domain expertise become the only defensible moats. The playbook identifies four startup stages where AI amplifies risks such as agentic technical debt and the founder becoming a decision bottleneck, arguing that the true differentiator is transforming vertical knowledge into proprietary skills rather than raw prototyping speed. This matters because it reframes AI's role from a productivity booster to a judgment-testing force that demands deeper validation and domain competence to avoid scaling flawed ideas.",
+      "summary_zh": "Anthropic 的《创始人手册》警示，AI（如 Claude Code）会降低创业执行成本，却因快速原型易让创始人混淆“能运行”与“有市场需求”而推高失败率，并强调真正的护城河在于将垂直领域知识结构化沉淀为专属 AI 技能，因为此时判断力已成为最稀缺资源。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic《Founder's Playbook》：AI提高创业失败率的警示",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1387934941,
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "title": "OpenAI 与马耳他合作，向所有公民提供 ChatGPT Plus",
+      "published_at": "2026-05-16T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI is partnering with Malta to provide free ChatGPT Plus subscriptions to all citizens, tackling the challenge of universal AI access and skills development. As the first national-scale rollout, this initiative combines direct tool access with practical training to foster responsible AI use, aiming to significantly raise AI literacy and application capabilities across an entire population.",
+      "summary_zh": "该合作聚焦于解决全民 AI 素养不足与技术普及不平等的问题，关键举措是通过政府补贴向所有公民免费提供 ChatGPT Plus，并配套技能培训以推动负责任的使用。作为国家级大规模推广的首例，此举不仅可快速提升马耳他的",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 与马耳他合作，向所有公民提供 ChatGPT Plus",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    }
+  ]
+}
