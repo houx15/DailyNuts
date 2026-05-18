@@ -1,0 +1,271 @@
+{
+  "date": "2026-05-18",
+  "items": [
+    {
+      "id": 1037282081,
+      "url": "https://www.ithome.com/0/951/677.htm",
+      "title": "腾讯 AI 设计智能体 Ardot 公测：一句话生成可编辑设计稿，一键转代码",
+      "published_at": "2026-05-18T02:43:58+00:00",
+      "original_language": "zh",
+      "summary_en": "Tencent's Ardot addresses the bottleneck of manually transforming design ideas into editable prototypes and production code by using natural language prompts to generate multi-format design drafts, integrate team component libraries, and automatically convert designs into code. This approach bridges the gap between design and development, enabling rapid iteration and real-time collaboration, which significantly accelerates the product design-to-delivery pipeline.",
+      "summary_zh": "腾讯推出了AI设计智能体平台Ardot，解决了传统设计流程中重复性高、协作效率低的问题。其核心能力是通过自然语言指令快速生成可编辑的设计稿，并支持调用组件库、导入Figma文件，还能一键将设计稿转换为开发代码，打通设计与开发环节。此举有助于降低设计门槛，提升团队从创意到落地的整体效率。",
+      "source": "aihot_selected",
+      "title_zh": "腾讯 AI 设计智能体 Ardot 公测：一句话生成可编辑设计稿，一键转代码",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 12734253,
+      "url": "https://x.com/PixVerse_/status/2056198882321904098",
+      "title": "一键生成韩国棒球AI视频模板爆火",
+      "published_at": "2026-05-18T02:23:10+00:00",
+      "original_language": "zh",
+      "summary_en": "那个热狗需要自己的座位\n\n【引用 @MrDasOnX】：这可能是最简单的病毒式AI编辑。\n\nPixVerse → 上传自拍 → 即时生成韩国棒球镜头视频\n\n无需指令。无需编辑。\n只需一键点击。\n\n@PixVerse_ 上的K-Baseball Sprint模板太疯狂了。",
+      "summary_zh": "该模板通过一键操作，解决了用户想快速将自拍转换为高质量韩国棒球主题视频的需求，无需任何编辑或指令。关键方法是利用PixVerse平台预置的AI生成模板，自动将上传的自拍融入棒球镜头场景。这种“零门槛”病毒式编辑降低了创作门槛，让任何人都能即时产出吸睛内容，推动了AI视频应用的普及和传播。",
+      "source": "aihot_selected",
+      "title_zh": "一键生成韩国棒球AI视频模板爆火",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3123148897,
+      "url": "https://x.com/alibaba_cloud/status/2056182152681644176",
+      "title": "阿里云推出HappyHorse视频生成模型",
+      "published_at": "2026-05-18T01:16:41+00:00",
+      "original_language": "zh",
+      "summary_en": "HappyHorse tackles the complex problem of text-to-video generation by offering a unified, end-to-end workflow that converts raw prompts into 1080p, multi-shot realistic footage without intermediate bottlenecks. This approach delivers movie-grade output directly, removing traditional editing hurdles and enabling pure performance. Its significance lies in democratizing high-quality video creation, making cinema-level production accessible for rapid prototyping and scalable storytelling.",
+      "summary_zh": "阿里云推出的HappyHorse视频生成模型，主要解决了从文本提示到高质量多镜头视频的一体化创作难题，通过统一工作流实现1080p现实感画面的端到端生成。其关键突破在于将电影级视觉质量与简化操作相结合，能显著降低专业视频制作门槛，对内容创作效率的提升具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "阿里云推出HappyHorse视频生成模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3478525059,
+      "url": "https://x.com/berryxia/status/2056173473588994392",
+      "title": "开源工具揭露AI API中转站安全风险与检测差异",
+      "published_at": "2026-05-18T00:42:12+00:00",
+      "original_language": "zh",
+      "summary_en": "This tool addresses security risks in AI API relay services, such as data tampering and fake responses, by using a dual-paper-anchored approach to perform verifiable three-state verdicts on common attacks. Compared to alternatives like hvoy.ai and cctest.ai, the open-source project api-relay-audit offers greater transparency and auditability through transparent logs and published methodology, enabling more reliable detection of manipulation in API relay chains.",
+      "summary_zh": "该开源工具针对AI API中转服务普遍存在的“掺水”“造假”等安全风险，通过双论文锚定的检测路线，对工具调用改写、错误信息泄露、上下文截断等攻击实施可验证的三态判定，并输出透明日志。相较于现有工具，其审计透明度与可验证性显著提升，为安全评估提供了更可靠且可复现的手段。",
+      "source": "aihot_selected",
+      "title_zh": "开源工具揭露AI API中转站安全风险与检测差异",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1452384957,
+      "url": "https://x.com/xiaohu/status/2056172740873511139",
+      "title": "人机快递分拣对决直播",
+      "published_at": "2026-05-18T00:39:17+00:00",
+      "original_language": "zh",
+      "summary_en": "This live demo addresses the challenge of automating parcel sorting in logistics by pitting a Figure robot against humans in real-time. The key finding is that while the robot can perform the task, humans currently maintain a slight performance edge, highlighting the gap between state-of-the-art robotic manipulation and human dexterity in dynamic, unstructured environments. This matters as it provides a candid, real-world benchmark for progress in AI-powered robotics for supply chain applications.",
+      "summary_zh": "该直播展示了人类与机器人在快递分拣任务中的实时对决，目前人类表现略占优势。这一对比直观反映出当前机器人分拣技术在高灵活性和复杂场景处理上仍面临挑战，凸显了人机协同与机器人技能优化的现实意义。",
+      "source": "aihot_selected",
+      "title_zh": "人机快递分拣对决直播",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2666172850,
+      "url": "https://x.com/vista8/status/2056170241147977741",
+      "title": "Hermes 可配置的国内外 AI 模型及使用方法",
+      "published_at": "2026-05-18T00:29:21+00:00",
+      "original_language": "zh",
+      "summary_en": "Hermes addresses the need to easily access and compare diverse AI models by providing a unified configuration system for both international and domestic models, including GPT-5.5, Gemini, DeepSeek, and Kimi. Users configure their API subscriptions, then switch models on-the-fly using a simple command like `/model gpt-5.5 --provider openai-codex`, which enables flexible, task-specific model selection without manual setup overhead. This streamlines experimentation and deployment for researchers who rely on multiple providers' strengths.",
+      "summary_zh": "Hermes 解决了用户在多 AI 模型间切换繁琐的问题，通过统一配置接口与 /model 指令，可快速调用 OpenAI GPT-5.5、DeepSeek V4 等国内外模型。该功能让用户按需灵活利用各模型优势，提升对话与任务处理的效率和适应性。",
+      "source": "aihot_selected",
+      "title_zh": "Hermes 可配置的国内外 AI 模型及使用方法",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3079390238,
+      "url": "https://x.com/vista8/status/2056050473392902430",
+      "title": "开源微信读书数据可视化工具yao-weread-skill发布",
+      "published_at": "2026-05-17T16:33:27+00:00",
+      "original_language": "zh",
+      "summary_en": "The open-source tool yao-weread-skill tackles the need for deeper, localized insights into WeChat Read usage by generating a private visual report from personal data, analyzing reading time and rhythm, book composition, preferences, and performing semantic analysis on notes. It presents findings through 26 visualization types including word clouds, heatmaps, and radar charts, empowering users to explore their reading habits independently and fostering community-driven customization.",
+      "summary_zh": "该工具解决了微信读书用户缺乏个人阅读数据分析手段的问题，通过将用户的阅读时长、节律、书籍构成、作者偏好及笔记语义等信息，自动生成包含词云、热力图等26种图表的本地可视化报告。这不仅能直观揭示个人阅读习惯，其开源特性也便于社区改进，具有实用与共享价值。",
+      "source": "aihot_selected",
+      "title_zh": "开源微信读书数据可视化工具yao-weread-skill发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 184333878,
+      "url": "https://x.com/berryxia/status/2056043674446995887",
+      "title": "Anthropic Claude 5天攻破Apple M5 macOS内核漏洞：5年数十亿防线，被AI一举击穿",
+      "published_at": "2026-05-17T16:06:26+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic's Claude model assisted security researchers in constructing, within just five days, the first public exploit chain that bypassed Apple's MIE hardware-level memory integrity protection on M5 macOS, achieving privilege escalation from user to root using only data manipulation. This demonstrates that AI-driven techniques can rapidly break defenses that required years and billions of dollars to develop, significantly accelerating offensive security and shifting the attack-defense balance.",
+      "summary_zh": "Anthropic的Claude模型在5天内协助安全团队发现并利用Apple M5芯片macOS内核的内存破坏漏洞，成功绕过数十亿美元打造的硬件级内存防护，从普通用户提权至root。这首次展示了AI能以极短时间攻破顶级硬件安全体系，标志着AI驱动安全研究已极大加速攻击端的发现速度，显著改变攻防力量平衡。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic Claude 5天攻破Apple M5 macOS内核漏洞：5年数十亿防线，被AI一举击穿",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2357590446,
+      "url": "https://x.com/op7418/status/2056021133477163298",
+      "title": "让 Codex 自己做了一条视频介绍了一下这个视频生成方案",
+      "published_at": "2026-05-17T14:36:51+00:00",
+      "original_language": "zh",
+      "summary_en": "该方案整合了藏师傅的PPT Skill（视觉与动效）、HyperFrames（时间线与渲染）、Listenhub Skill（配音）以及即梦CLI（补充片段）。核心在于，用户可通过Codex直接基于文本提示生成带动效的解释视频，并能在聊天界面内预览，极大提升了制作效率，特别适合产品介绍等视频内容。",
+      "summary_zh": "该方案解决了传统视频制作流程繁琐、效率低下的问题，通过将藏师傅的PPT Skill、HyperFrames时间线渲染、Listenhub配音及即梦CLI等工具整合到Codex中，用户只需输入文本提示即可生成带有动态效果和配音的解释视频，并能在对话界面直接预览。这一方法显著降低了视频创作门槛，尤其适用于产品介绍等内容，大幅提升了制作效率。",
+      "source": "aihot_selected",
+      "title_zh": "让 Codex 自己做了一条视频介绍了一下这个视频生成方案",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 52790482,
+      "url": "https://x.com/AYi_AInotes/status/2055954675526934642",
+      "title": "Garry Tan发布的GBrain直接捅破个人AI天花板",
+      "published_at": "2026-05-17T10:12:47+00:00",
+      "original_language": "zh",
+      "summary_en": "Garry Tan’s GBrain tackles AI agents’ memory deficits with an eight-layer knowledge system that goes beyond conventional RAG. The first four layers upgrade retrieval, while the rest enable lifelong memory and self-evolution, allowing agents to continuously track a user’s relationships, decision history, and cognitive shifts. By handling large‑scale data in production, prioritizing Markdown as a first‑class data source, and offering straightforward integration, GBrain moves the needle toward truly personal, self‑improving AI.",
+      "summary_zh": "GBrain突破了传统RAG工具的局限，构建了一个为AI Agent提供持久化上下文的知识系统。其八层架构不仅提升了基础检索能力，更实现了终身记忆与自我进化，使Agent能持续追踪用户复杂的人际关系与决策轨迹。这直接将AI从冷冰冰的工具推向了可深度理解并伴随个人成长的“个人AI”，具有重要的应用落地意义。",
+      "source": "aihot_selected",
+      "title_zh": "Garry Tan发布的GBrain直接捅破个人AI天花板",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3173214998,
+      "url": "https://x.com/kimmonismus/status/2055952702908355012",
+      "title": "微软AI CEO预测18个月内AI自动化所有白领工作",
+      "published_at": "2026-05-17T10:04:56+00:00",
+      "original_language": "zh",
+      "summary_en": "Mustafa Suleyman, Microsoft’s AI CEO, predicts that within 18 months AI will reach human-level performance and automate most cognitive professional tasks (e.g., accounting, legal, marketing), effectively replacing all “sit at a computer” white-collar roles. This forecast highlights an imminent paradigm shift where building advanced AI models becomes as routine as blogging, forcing a radical rethinking of knowledge work and economic structures.",
+      "summary_zh": "微软AI CEO预测，AI将在18个月内达到人类级性能，从而自动化会计、法律等所有基于电脑的白领工作。这一预测揭示了知识工作领域即将发生的根本性变革，其愿景是通过普及AI模型创建，加速“超级智能”的实现。",
+      "source": "aihot_selected",
+      "title_zh": "微软AI CEO预测18个月内AI自动化所有白领工作",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 81207350,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.11-nightly.20260518.f44ed0941",
+      "title": "QwenLM/qwen-code: Release v0.15.11-nightly.20260518.f44ed0941",
+      "published_at": "2026-05-18T00:37:02+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release enhances the Qwen Code CLI’s usability and stream-processing correctness. It wraps markdown links with OSC 8 escape sequences so URLs remain clickable in terminals, normalizes cumulative OpenAI stream deltas to avoid duplicate output, and auto-restores the prompt plus preserves the command queue when a user cancels an operation. Together, these fixes make the tool more robust and interactive for developers, reducing friction and loss of context during use.",
+      "summary_zh": "该版本针对 CLI 工具进行了多项交互优化，通过 OSC 8 协议包装 Markdown 链接使其保持可点击，并修复取消操作时自动恢复提示符与任务队列保留的问题；同时修复了 OpenAI 流式增量数据处理的规范化错误，新增自定义 API 密钥配置向导文档，整体提升了命令行开发环境的稳定性与用户友好性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.15.11-nightly.20260518.f44ed0941",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3294605168,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.16.0-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.16.0-preview.0",
+      "published_at": "2026-05-17T15:10:37+00:00",
+      "original_language": "en",
+      "summary_en": "This preview release for qwen-code improves CLI usability and API stream correctness. It wraps markdown links with OSC 8 terminal hyperlinks to keep URLs clickable, normalizes cumulative OpenAI stream deltas into suffix-only updates to avoid duplication, and introduces auto-restore of the prompt while preserving the command queue on cancellation. These fixes make the AI coding assistant more reliable and convenient for developers working directly in the terminal.",
+      "summary_zh": "QwenLM/qwen-code v0.16.0-preview.0 版本重点提升了命令行界面的交互可靠性与用户体验：通过将 Markdown 链接封装为 OSC 8 序列确保其可点击，修复了 OpenAI 流式响应的增量归一化问题，并实现了取消操作时自动恢复输入提示与任务队列。这些改进让开发者在 AI 辅助编码过程中操作更顺畅、状态更稳定，减少了中断带来的效率损失。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.16.0-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3448613146,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.12-preview.3",
+      "title": "QwenLM/qwen-code: Release v0.15.12-preview.3",
+      "published_at": "2026-05-17T10:23:21+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* feat(cli): wrap markdown links in OSC 8 so wrapped URLs stay clickable by @BZ-D in https://github.com/QwenLM/qwen-code/pull/4037\n* fix(core): normalize cumulative OpenAI stream deltas to suffixes by @chiga0 in https://github.com/QwenLM/qwen-code/pull/3896\n* fix(cli): auto-restore",
+      "summary_zh": "此版本主要修复了命令行工具中链接不可点击、流式响应累积增量处理错误以及取消操作导致上下文丢失等问题。通过为 Markdown 链接包裹 OSC 8 协议、将 OpenAI 流式累计增量规范为后缀追加、并实现取消时自动还原提示与保留队列，显著提升了交互的连贯性与稳定性。这些改进让开发者在使用代码助手时获得更流畅、可靠的体验，并为后续自定义 API 密钥等高级授权功能奠定了基础。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.15.12-preview.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
