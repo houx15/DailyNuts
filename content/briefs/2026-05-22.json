@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-22",
+  "headline_en": "43 items collected today",
+  "lede_en": "43 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    3438232479,
+    1566133058,
+    631508982
+  ],
+  "item_count": 43,
+  "source_breakdown": {
+    "claude_blog": 3,
+    "mad_podcast": 1,
+    "aihot_selected": 38,
+    "thudm_github": 1
+  },
+  "generated_at": "2026-05-22T11:04:02.852761Z",
+  "headline_zh": "今日共采集 43 项内容",
+  "lede_zh": "今日共采集 43 项内容。",
+  "sections_zh": []
+}
