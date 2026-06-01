@@ -59,4 +59,5 @@ class Summarizer:
         )
     
     def _build_prompt(self, title: str, original_text: str, language: str) -> str:
-        return f"Title: {title}\n\nContent: {original_text[:2000]}\n\nProvide a 2-3 sentence summary."
+        content = (original_text or title)[:2000]
+        return f"Title: {title}\n\nContent: {content}\n\nProvide a 2-3 sentence summary."

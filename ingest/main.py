@@ -138,15 +138,16 @@ def summarize_items(items: List[dict], summarizer: Summarizer, languages: List[s
     for item in items:
         for lang in languages:
             if f'summary_{lang}' not in item or not item[f'summary_{lang}']:
+                original_text = item.get('original_summary') or item.get('title', '')
                 summary = summarizer.summarize(
                     item['title'],
-                    item.get('original_summary', item['title']),
+                    original_text,
                     lang
                 )
                 if summary:
                     item[f'summary_{lang}'] = summary
                 else:
-                    item[f'summary_{lang}'] = item.get('original_summary', item['title'])[:300]
+                    item[f'summary_{lang}'] = (item.get('original_summary') or item.get('title', ''))[:300]
     
     return items
 

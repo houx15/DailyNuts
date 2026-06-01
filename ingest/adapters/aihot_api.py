@@ -85,7 +85,7 @@ class AihotApiAdapter(BaseAdapter):
                     title=raw.get("title", ""),
                     url=raw.get("url", ""),
                     published_at=published,
-                    original_summary=raw.get("summary", ""),
+                    original_summary=raw.get("summary") or "",
                     original_language="zh",
                     extra={
                         "aihot_source": raw.get("source", ""),
