@@ -1,0 +1,404 @@
+{
+  "date": "2026-06-02",
+  "items": [
+    {
+      "id": 2567107031,
+      "url": "http://arxiv.org/abs/2606.02578v1",
+      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+      "published_at": "2026-06-01T17:59:46+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the issue that multimodal LLM judges often favor textually plausible but perceptually incorrect answers over visually grounded ones, a phenomenon termed Perceptual Judgment Bias. The authors construct a dataset of minimally perturbed counterfactual responses to isolate perceptual errors, and propose a training framework combining GRPO-based reward with batch ranking to enforce globally coherent scoring. This work matters because it improves the reliability and verifiability of automated evaluation in multimodal AI systems.",
+      "summary_zh": "该研究揭示了多模态大模型在充当评估者时存在的“感知判断偏差”——当视觉证据与文本线索冲突时，模型倾向于奖励语言上的合理叙述，而非感知正确的答案。作者构建了一个通过最小编辑制造反事实回答的感知扰动判断数据集，以此隔离感知错误并提供可验证的监督信号，并在此基础上提出联合GRPO奖励与批量排序目标的统一训练框架。这项工作有助于提升多模态自动评估的可靠性与一致性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2404502809,
+      "url": "http://arxiv.org/abs/2606.02576v1",
+      "title": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
+      "published_at": "2026-06-01T17:59:13+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the problem of format-blind expert routing in multimodal continual instruction tuning, where image-text similarity routes tasks with different response structures (e.g., coordinate prediction vs. short text) to the same expert, causing gradient interference. It proposes ProtoAda, which adaptively expands adapters using prototypes and geometrically consolidates them to capture response structure differences, enabling more reliable task assignment. This approach reduces interference and improves collaboration, enabling MLLMs to continually learn diverse vision-language tasks more robustly.",
+      "summary_zh": "ProtoAda针对多模态持续指令调优中，仅依赖图文相似度路由会将回答结构不同的任务错误分配给同一专家，导致格式混杂与梯度干扰的问题。该方法提出原型引导的自适应适配器扩展与几何整合机制，用任务原型区分语义相似但输出格式相异的任务，动态增长并稳固专家分工。这项研究对提升多模态大模型持续学习时的抗干扰能力和协作效率具有关键意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3250419890,
+      "url": "http://arxiv.org/abs/2606.02569v1",
+      "title": "AdaCodec: A Predictive Visual Code for Video MLLMs",
+      "published_at": "2026-06-01T17:56:35+00:00",
+      "original_language": "en",
+      "summary_en": "AdaCodec tackles the wasteful redundancy in video multimodal LLMs, which typically encode each frame as an independent RGB image, by introducing a predictive visual code that only transmits full reference frames when needed and otherwise sends compact inter-frame change tokens (motion and residuals). This approach matches or outperforms the per-frame baseline at the same visual token budget and can maintain performance even at one-seventh of the token cost, demonstrating significant efficiency gains for video understanding.",
+      "summary_zh": "现有视频多模态大模型将每帧独立编码，忽略了帧间大量冗余，造成视觉token浪费。AdaCodec提出预测性视觉码，自适应地在场景难以预测时才使用完整参考帧，否则仅传输紧凑的帧间变化描述（运动与预测残差）。该方法在多个基准上以更低token预算超越逐帧编码基线，显著提升视频理解的效率。",
+      "source": "arxiv_cs_cl",
+      "title_en": "AdaCodec: A Predictive Visual Code for Video MLLMs",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 553314318,
+      "url": "http://arxiv.org/abs/2606.02568v1",
+      "title": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
+      "published_at": "2026-06-01T17:56:26+00:00",
+      "original_language": "en",
+      "summary_en": "ClinEnv addresses the lack of realistic, interactive benchmarks for clinical decision-making by simulating real inpatient admissions as multi-stage, longitudinal tasks where LLMs must actively gather heterogeneous information before making sequential, irreversible decisions on medications, procedures, and diagnoses. Evaluating seven models, the",
+      "summary_zh": "ClinEnv 针对现有静态基准无法模拟临床实践中渐进式信息收集与不可逆决策链的问题，提出了一个纵向住院模拟环境，要求大语言模型在多个决策阶段主动查询专门代理并做出诊断、用药等决策。关键发现是最强模型仅取得 0.31 的决策 F1 分数，且决策结果质量与信息收集过程质量严重脱节，这揭示了当前 AI 在动态、不确定的真实临床场景中能力的显著短板。",
+      "source": "arxiv_cs_cl",
+      "title_en": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1831208098,
+      "url": "http://arxiv.org/abs/2606.02559v1",
+      "title": "From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression",
+      "published_at": "2026-06-01T17:52:53+00:00",
+      "original_language": "en",
+      "summary_en": "The paper challenges the common practice in LLM compression of removing or replacing entire contiguous layers, arguing that redundancy is unevenly distributed across attention and feedforward submodules and not limited to contiguous regions. To address this, the authors propose SubFit, a post-training method that non-contiguously selects and replaces individual submodules with lightweight fitted residual bypasses, using only calibration data. This finer granularity yields more flexible and effective compression across diverse LLM architectures, advancing the state of post-training model reduction.",
+      "summary_zh": "该研究针对现有替换式大语言模型压缩方法仅支持全层粒度且要求连续选择组件的局限，揭示了模型冗余并非局限于连续层且在不同子模块间分布不均。关键创新在于提出 SubFit 方法，在子模块级别非连续地选择注意力与前馈单元，并为每个子模块定制轻量残差旁路，仅需校准数据即可实现高效压缩。这一更细粒度的压缩范式显著提升了模型压缩的灵活性，在多种模型上实现了性能与压缩率的更优平衡。",
+      "source": "arxiv_cs_cl",
+      "title_en": "From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 246138691,
+      "url": "https://transformer-circuits.pub/2026/may-update/index.html",
+      "title": "Anthropic可解释性研究：区分因果效应相似的特征",
+      "published_at": "2026-06-02T09:52:20.287000+00:00",
+      "original_language": "zh",
+      "summary_en": "The work addresses the challenge of distinguishing model features that fire together yet have different causal impacts. It predicts a feature’s downstream influence by analyzing weighted downstream connections via TWERA (virtual weights derived from co-activation statistics). This provides a sharper lens for identifying which internal components genuinely steer specific outputs, advancing mechanistic interpretability.",
+      "summary_zh": "Anthropic团队针对激活模式相似但因果效应不同的模型特征难以区分的问题，提出通过分析特征的下游连接并用TWERA虚拟权重加权排序来预测实际影响。该方法能更准确识别引导特定输出的真正因果组件，为模型内部机制的可解释性研究提供了新途径。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic可解释性研究：区分因果效应相似的特征",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3959862996,
+      "url": "https://x.com/alibaba_cloud/status/2061745401393291554",
+      "title": "阿里云发布AgentScope Java 1.1及Claw等新功能",
+      "published_at": "2026-06-02T09:43:03+00:00",
+      "original_language": "zh",
+      "summary_en": "Alibaba Cloud's AgentScope Java 1.1 addresses the challenge of constructing self-evolving AI agents that can operate securely across diverse environments, from laptops to clusters. It introduces a local shell-access agent (Claw), a zero-code multi-tenant enterprise platform (Builder), and workspace-driven evolution with distributed isolation for seamless scaling. This matters because it enables enterprises to deploy, manage, and scale intelligent agents without deep coding, while the agents continuously improve and function reliably in isolated, multi-user settings.",
+      "summary_zh": "阿里云推出的AgentScope Java 1.1及其新功能，通过自我进化的智能体框架、本地Shell访问组件（Claw）和零代码多租户平台（Builder），解决了AI代理开发中环境适应与规模化部署的难题，支持从笔记本到集群的无缝扩展，大幅降低了企业构建智能系统的门槛。",
+      "source": "aihot_selected",
+      "title_zh": "阿里云发布AgentScope Java 1.1及Claw等新功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 555765017,
+      "url": "https://www.ithome.com/0/958/810.htm",
+      "title": "SK会长崔泰源：SK海力士计划未来五年内晶圆产能翻倍",
+      "published_at": "2026-06-02T08:31:12+00:00",
+      "original_language": "zh",
+      "summary_en": "To address the escalating memory chip shortage driven by AI data centers and AI PCs, SK Hynix plans to double its wafer production capacity within five years through massive investments in equipment and new fabs. This expansion targets a persistent supply-demand imbalance expected to last until 2030, underscoring the critical role of memory manufacturing in sustaining the AI ecosystem.",
+      "summary_zh": "SK海力士计划五年内晶圆产能翻倍，以应对AI带来的持续存储供应短缺，并预测供需紧张可能延续至2030年。这一重大扩产举措凸显了AI对存储需求的强劲拉动，同时面临建厂周期长和成本上涨等挑战，对全球半导体供应链格局具有深远影响。",
+      "source": "aihot_selected",
+      "title_zh": "SK会长崔泰源：SK海力士计划未来五年内晶圆产能翻倍",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3951821620,
+      "url": "https://x.com/Khazix0918/status/2061669881725309048",
+      "title": "为了不花那120刀，我把电脑清理软件做成了开源skill",
+      "published_at": "2026-06-02T04:42:58+00:00",
+      "original_language": "zh",
+      "summary_en": "为解决付费软件CleanMyMac扫描不全且不透明的问题，作者利用AI对自己电脑的只读存储进行分析，发现大量隐藏可清理数据，随后开发并开源了一个跨平台智能清理工具。该工具以交互式HTML报告的形式区分安全、需确认和禁止操作的文件，并提供一键执行功能。实测释放了近120G空间，比同类收费软件更详细、更透明，显著提升了清理效率与安全性。",
+      "summary_zh": "作者为替代收费软件CleanMyMac，开发了一款开源的AI清理工具，利用AI分析文件并以三色分级生成可交互报告，安全释放磁盘空间。实测清理出近120G，远超CleanMyMac仅扫描的15.8G，解决了清理不透明、效果差的问题，降低了用户的软件开支。",
+      "source": "aihot_selected",
+      "title_zh": "为了不花那120刀，我把电脑清理软件做成了开源skill",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1491722510,
+      "url": "https://x.com/StepFun_ai/status/2061655529731342402",
+      "title": "阶跃星辰Step 3.7 Flash发布，专为高效推理设计",
+      "published_at": "2026-06-02T03:45:56+00:00",
+      "original_language": "zh",
+      "summary_en": "The Step 3.7 Flash model addresses the high inference cost of large-scale AI by introducing a 196B Mixture-of-Experts architecture with multi-matrix factorized attention, reducing KV-cache costs to about 22% of typical DeepSeek models. By also decoupling attention and feed-forward network computations for hardware-friendly execution, it delivers efficient, cost-effective serving under an Apache 2.0 license, making it practical for building scalable AI agents via platforms like Fireworks AI.",
+      "summary_zh": "阶跃星辰发布Step 3.7 Flash，针对大模型推理效率问题，采用196B MoE架构及多矩阵分解注意力机制，将KV-cache成本降至DeepSeek模型的约22%，并通过注意力与FFN解耦实现硬件优化。该模型以Apache 2.0许可开放，可直接用于构建智能体应用，为高效、低成本的大规模推理提供了重要选择。",
+      "source": "aihot_selected",
+      "title_zh": "阶跃星辰Step 3.7 Flash发布，专为高效推理设计",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2965446662,
+      "url": "https://openai.com/index/codex-for-knowledge-work",
+      "title": "Codex正在成为每个人的生产力工具",
+      "published_at": "2026-06-02T02:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The report \"The Next Era of Knowledge Work\" highlights how Codex is transforming knowledge work productivity by augmenting research, data analysis, workflow automation, and content creation with AI. This shift enables professionals to offload routine cognitive tasks and amplify their creative and analytical output, marking Codex as a versatile productivity tool for a wide range of users.",
+      "summary_zh": "Codex 瞄准知识工作者效率低的痛点，通过AI驱动研究、数据分析、流程自动化和内容生成四大能力，将复杂任务转化为简易操作。其核心发现是，这一工具能显著降低技术门槛，使非专业人员也能驾驭高阶工作，这标志着知识生产范式正从“人力密集”转向“智能增强”，对组织竞争力具有战略意义。",
+      "source": "aihot_selected",
+      "title_zh": "Codex正在成为每个人的生产力工具",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1692817471,
+      "url": "https://developer.nvidia.com/blog/deploy-agentic-ready-ai-at-the-edge-with-memory-efficiency-in-nvidia-jetpack-7-2",
+      "title": "NVIDIA JetPack 7.2支持内存优化的边缘智能体部署",
+      "published_at": "2026-06-02T02:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA JetPack 7.2 tackles the problem of deploying memory-hungry AI agents directly onto resource-limited edge devices. Its key approach combines memory optimizations with a one‑click deployment pipeline for the NemoClaw stack—which adds privacy and security controls to OpenClaw—and introduces dedicated agent skills tailored for Jetson hardware. This matters because it accelerates the reliable and secure migration of AI agents from digital prototypes to physical, real‑world applications.",
+      "summary_zh": "NVIDIA JetPack 7.2通过集成开源NemoClaw堆栈，为边缘智能体带来隐私与安全控制，同时引入专为Jetson设备优化的智能体技能，重点解决了边缘设备上AI代理部署时的内存效率瓶颈。这一版本显著降低了边缘部署的资源门槛，加速了AI代理从数字世界向物理环境的高效迁移。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA JetPack 7.2支持内存优化的边缘智能体部署",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1156325647,
+      "url": "https://x.com/shao__meng/status/2061612512580346245",
+      "title": "Anthropic 开发者分享 Claude Code「理解验证」工作流",
+      "published_at": "2026-06-02T00:55:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This workflow tackles the problem of humans becoming passive \"approval buttons\" in long AI sessions, losing real understanding of solutions. It uses a structured verification process—positioning the AI as a teacher who incrementally explains, has users paraphrase, and quizzes them across problem, solution, and context axes—to ensure deep, auditable comprehension before proceeding. This matters because it makes decision-making with AI transparent and forces lasting human mastery rather than opaque agent outputs.",
+      "summary_zh": "针对长会话中人类易沦为“审批按钮”的智能体黑箱问题，该工作流将 AI 定位为“高效且睿智的教师”，以增量教学、用户复述和清单测验等机制强制沉淀决策上下文，确保人对问题、方案及影响形成可复述、可辩护的理解，从而实现可审计的深度理解。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 开发者分享 Claude Code「理解验证」工作流",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2680915672,
+      "url": "https://x.com/rohanpaul_ai/status/2061601689841648120",
+      "title": "Karpathy 分享学习方法论",
+      "published_at": "2026-06-02T00:12:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Andrej Karpathy addresses the challenge of mastering complex technical topics by advocating for an active, project-driven learning methodology that emphasizes building from scratch and teaching concepts to solidify understanding. This approach helps learners move beyond passive consumption to deep, transferable skill acquisition, which is critical for growing expertise in fast-evolving fields like AI.",
+      "summary_zh": "Karpathy 分享的学习方法论主要解决知识内化效率低的问题，其核心是通过“费曼技巧”将复杂概念用简单语言解释并反复迭代练习，这一方法强调以教代学与主动输出，能帮助学习者更扎实地掌握抽象概念。",
+      "source": "aihot_selected",
+      "title_zh": "Karpathy 分享学习方法论",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3558440668,
+      "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+      "title": "OpenAI的AI政策与政治倡导观点",
+      "published_at": "2026-06-01T17:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI addresses the need for clear, direct communication of its policy positions by publicly endorsing transparency, thoughtful regulation, and AI safety while explicitly disavowing any external political organization’s authority to speak on its behalf. This approach ensures accountability and prevents misrepresentation in AI governance debates, reinforcing that the company’s advocacy comes solely from its own leadership.",
+      "summary_zh": "OpenAI明确了其在AI政策上的立场，强调支持透明度、审慎监管与AI安全，并澄清任何外部政治组织均不能代表该公司发言。此举有助于防止公众对公司立场的误解，并界定其在AI治理中的独立角色。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI的AI政策与政治倡导观点",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4039564416,
+      "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem",
+      "title": "NVIDIA AI Cloud生态系统全球扩张，满足AI算力需求",
+      "published_at": "2026-06-01T05:00:56+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA is addressing the global shortage of AI compute capacity by expanding its AI Cloud ecosystem through partnerships with providers like CoreWeave and IREN, building AI factory infrastructure across six continents that integrates accelerated computing, networking, and software. This approach allows partners to offer scalable services for model training, fine-tuning, inference, and agentic AI, directly supporting frontier model development, enterprise AI, telecommunications, and national sovereign AI programs. The expansion is critical because it decentralizes and regionalizes AI compute, meeting the demands of diverse geographic markets while enabling sovereign data control and reducing latency for advanced AI workloads.",
+      "summary_zh": "NVIDIA携手全球合作伙伴在六大洲扩展AI云生态系统，以应对日益增长的AI算力需求。通过整合加速计算、网络和AI软件，它为模型训练、推理及智能体AI提供全栈服务。这有力支撑了前沿模型、企业AI和国家AI计划，并推动区域性主权AI能力的发展。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA AI Cloud生态系统全球扩张，满足AI算力需求",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3530105783,
+      "url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure",
+      "title": "台湾产业巨头借力NVIDIA加速全球AI基础设施建设",
+      "published_at": "2026-06-01T05:00:41+00:00",
+      "original_language": "zh",
+      "summary_en": "台湾超过500家NVIDIA生态系统合作伙伴正通过深度应用NVIDIA技术加速全球AI基础设施的制造与部署，例如TSMC凭借cuLitho和cuEST将光刻效率提升20%-50%、材料模拟速度提升50倍，Foxconn利用AI将根因分析时间缩短80%并提高生产率15%，Pegatron的AI视觉检测使部署时间减少67%。这些实践展示了AI基础设施制造流程的智能化重构，显著提升了产能、良率与运营效率，为全球AI算力供应提供了关键支撑。",
+      "summary_zh": "台湾主要制造商深度整合NVIDIA的cuLitho、cuEST、Omniverse等AI平台，针对半导体制造、设备维护和视觉检测等环节，实现了计算光刻加速50%、材料模拟提速50倍、根因分析时间缩短80%等突破性效率提升。这些成果不仅显著降低了AI基础设施的制造成本与周期，而且展示了将AI技术贯穿制造全流程的范式，为全球AI算力基础设施的大规模快速部署提供了关键支撑。",
+      "source": "aihot_selected",
+      "title_zh": "台湾产业巨头借力NVIDIA加速全球AI基础设施建设",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2582106412,
+      "url": "https://arxiv.org/abs/2606.02031",
+      "title": "OpenWebRL：面向视觉网页智能体的在线多轮强化学习开源框架",
+      "published_at": "2026-06-01T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenWebRL addresses the challenge of training visual web agents with online multi-turn reinforcement learning on real websites, providing a complete open-source framework that efficiently uses only 0.4K supervised initial trajectories and 2.2K open-ended RL tasks. The resulting OpenWebRL-4B model achieves 67.0% success on Online-Mind2Web and 64.0% on DeepShop, surpassing larger prior open-source agents and rivaling proprietary systems like OpenAI CUA and Gemini CUA. This work offers a practical path toward building stronger, reproducible, and cost-effective open-source web agents.",
+      "summary_zh": "OpenWebRL 提出了一个在真实网站上通过在线多轮强化学习训练视觉网页智能体的开源框架，解决了以往开源模型在交互式网页任务中性能受限的问题。其训练得到的 4B 模型仅用极少量监督数据和 RL 任务，就超越了更大规模的开源智能体，并接近闭源商业系统水平。该工作为构建高性能、低成本且可复现的开源网页智能体提供了明确的实践路径。",
+      "source": "aihot_selected",
+      "title_zh": "OpenWebRL：面向视觉网页智能体的在线多轮强化学习开源框架",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3858958449,
+      "url": "https://openrouter.ai/announcements/may-release-spotlight",
+      "title": "OpenRouter 5月发布亮点",
+      "published_at": "2026-06-01T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter’s May update tackles the fragmentation of multi‑modal AI access and enterprise governance by introducing voice/transcription APIs, Model Fusion to combine model capabilities, and private model hosting with team‑level controls. With 20 new models—including Gemini 3.5 Flash and Claude Opus 4.8—the platform streamlines model selection and orchestration, giving developers a single, secure gateway to both leading and bespoke LLMs while maintaining compliance.",
+      "summary_zh": "OpenRouter 5月更新聚焦于简化多模态与多模型协作的工程难题，新增语音/转录API和模型融合功能，让开发者能灵活组合能力并快速构建复杂AI应用；同时引入私有模型与企业管控，解决安全部署需求。这标志着AI平台向更易用、更可控的方向演进，降低了集成顶级模型如Gemini 3.5 Flash的门槛。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 5月发布亮点",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2594020124,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.17.0-nightly.20260602.cea15a118",
+      "title": "QwenLM/qwen-code: Release v0.17.0-nightly.20260602.cea15a118",
+      "published_at": "2026-06-02T00:46:47+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release of Qwen Code addresses two runtime defects: it corrects a false \"compressed turn\" error that occurred during a rewind when mid-turn messages were present, and it fixes the DashScope integration to reliably emit `enable_thinking` even when reasoning is disabled. These patches improve the stability of conversation-state management and ensure consistent API semantics, preventing subtle misconfigurations in reasoning workflows.",
+      "summary_zh": "此版本修复了在多轮对话中存在中间消息时误报“压缩轮次”错误的问题，并纠正了DashScope后端在推理禁用时仍错误发射enable_thinking指令的行为。这些修复提升了多轮交互的稳定性与推理控制的一致性，对基于Qwen Code构建可靠AI开发工具至关重要。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.17.0-nightly.20260602.cea15a118",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1228440304,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.7.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.7.0",
+      "published_at": "2026-06-02T02:23:53+00:00",
+      "original_language": "en",
+      "summary_en": "This update adds a model-alias field and environment variable to explicitly force the `adaptive_thinking` feature on or off, overriding the automatic inference based on Anthropic model names. It solves the problem where custom-named staff endpoints could not enable adaptive reasoning, giving administrators direct control to activate the feature for any compatible backend. This matters because it extends adaptive thinking capabilities to bespoke deployments, increasing flexibility without relying on naming conventions.",
+      "summary_zh": "该版本通过引入 `KIMI_MODEL_ADAPTIVE_THINKING` 环境变量及对应的模型别名字段，解决了自定义端点名称无法被自动推断为支持自适应思考的问题。其核心方式是允许显式强制开启或关闭 `thinking: { type: 'adaptive' }` 模式，使任意兼容模型端点无需依赖名称规则即可获得自适应推理能力。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.7.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
