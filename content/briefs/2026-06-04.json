@@ -1,0 +1,45 @@
+{
+  "date": "2026-06-04",
+  "headline_en": "39 items collected today",
+  "lede_en": "39 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    2395675997,
+    202758202,
+    3045074637,
+    1146939669,
+    1786874170
+  ],
+  "item_count": 39,
+  "source_breakdown": {
+    "google_research": 1,
+    "anthropic_news": 1,
+    "claude_blog": 3,
+    "unsupervised_learning": 1,
+    "ai_and_i": 1,
+    "aihot_selected": 30,
+    "qwen_github": 1,
+    "moonshot_github": 1
+  },
+  "generated_at": "2026-06-04T11:16:21.091841Z",
+  "headline_zh": "微软OpenAI决裂，Agent框架与视频生成突破",
+  "lede_zh": "今日AI世界迎来分水岭：微软与OpenAI合作终结，转为直接竞争，行业格局重塑。Agent工程领域，OpenJarvis本地智能体框架和StreamMA流式通信提升多智能体效率；xAI发布Grok Imagine 1.5图像转视频模型，开源语音模型Miso One亮相。应用层面，谷歌开源洪水预测、Ideogram 4.0高分辨率生成等，彰显AI在各行业加速渗透。",
+  "sections_zh": [
+    {
+      "title": "产业格局：微软与OpenAI正式决裂，竞争白热化",
+      "body": "微软AI主管明确表示不再依赖OpenAI，双方从协同转向正面交锋。这一转变标志着AI巨头之间竞争的新阶段，或将加速技术路线分化与企业级AI生态重构。同时，Uber为AI工具设定每月1500美元使用上限，行业开始探索理性的成本边界。"
+    },
+    {
+      "title": "Agent工程：本地优先、多智能体协作与流式通信",
+      "body": "OpenJarvis提出设备端本地AI智能体框架，五大可组合原语在几乎不损失性能的前提下，将边际API成本降低约800倍。StreamMA在多智能体推理中引入流式通信，显著降低端到端延迟并提升准确率，最高提升22.4个百分点。此外，Replit上线SEO Agent帮助应用被发现，MapAgent支撑百度地图360城市车道级地图生产，自动化率超95%。Agent能力正从单点对话向复杂系统自主决策演进。"
+    },
+    {
+      "title": "新模型：视频、语音与代码模型竞相发布",
+      "body": "xAI推出Grok Imagine 1.5预览版，可从单张图像生成流畅视频，提升动态内容创作效率。Miso One开源8B参数语音模型，110毫秒延迟，支持一次语音克隆并本地部署。Qwen-Code与kimi-code分别通过夜间构建与ACP协议适配，增强代码助手跨IDE集成能力。新模型的多样性显示AI正迅速覆盖多模态生成与开发工具链。"
+    },
+    {
+      "title": "应用落地：AI深入洪水预测、设计、语音与企业管理",
+      "body": "谷歌开源水文框架，让全球研究机构可定制洪水预报模型。Ideogram v4.0原生2K分辨率解决图像文字清晰度难题。Meta的AI智能体在WhatsApp Business全球上线，按token使用量计费，降低中小企业门槛。微软装瓶厂试点表明AI从聊天走向可信决策，Perplexity Personal Computer登陆Windows推动系统级AI集成。应用的广度和深度折射出AI正在重塑各行各业。"
+    }
+  ]
+}

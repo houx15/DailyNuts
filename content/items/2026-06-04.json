@@ -1,0 +1,746 @@
+{
+  "date": "2026-06-04",
+  "items": [
+    {
+      "id": 1740016451,
+      "url": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
+      "title": "The next chapter in flood resilience: Open sourcing Google’s hydrology framework",
+      "published_at": "2026-06-03T18:37:32",
+      "original_language": "en",
+      "summary_en": "Google is open-sourcing its hydrology framework to address the challenge of predicting and managing flood risk amid climate change, making advanced hydrological modeling tools publicly available. This approach enables researchers and organizations to collaboratively build, improve, and deploy accurate flood forecasts and resilience strategies at scale. By democratizing access to this technology, it accelerates global efforts to protect communities and infrastructure from flooding.",
+      "summary_zh": "谷歌开源了其水文框架，旨在解决全球日益严峻的洪水风险预测与应对问题。这一举措通过提供先进的水文建模工具和 AI 能力，使研究者和决策者能够更精准地进行洪水预警和风险评估。这有助于提升社区韧性、减少灾害损失，并推动气候适应领域的开放创新。",
+      "source": "google_research",
+      "title_en": "The next chapter in flood resilience: Open sourcing Google’s hydrology framework",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1752199712,
+      "url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+      "published_at": "2026-06-03T00:00:00",
+      "original_language": "en",
+      "summary_en": "This announcement addresses the challenge of scaling enterprise adoption of Claude by organizing third-party service partners. It introduces a Services Track within the Claude Partner Network, along with a Partner Hub, to provide specialized training, enablement, and a centralized resource for partners building consulting, integration, and managed services on Claude. This matters because it streamlines enterprise access to qualified implementation expertise and accelerates the deployment of safe, customized AI solutions.",
+      "summary_zh": "这篇公告介绍了Claude合作伙伴网络中的服务轨道（Services Track）和合作伙伴中心（Partner Hub），旨在为合作伙伴提供更清晰的服务路径和资源支持。此举有助于规范生态协作、提升交付质量，并加速AI解决方案在客户侧的落地。",
+      "source": "anthropic_news",
+      "title_en": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1728719346,
+      "url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+      "title": "How Anthropic enables self-service data analytics with Claude",
+      "published_at": "2026-06-04T10:58:56.838471",
+      "original_language": "en",
+      "summary_en": "Anthropic tackles the bottleneck of requiring data specialists for routine analytics by enabling self-service data exploration through its conversational AI, Claude. Users interact with Claude in natural language to query, visualize, and interpret data without coding, democratizing access to insights. This approach accelerates decision-making, reduces the backlog on data teams, and empowers non-technical stakeholders across the organization.",
+      "summary_zh": "Anthropic 通过其 AI 助手 Claude 实现自助式数据分析，解决了非技术用户无法直接、高效地从数据中获取洞察的难题。其核心方法是利用 Claude 的自然语言交互能力，让用户以对话方式查询与分析数据，无需编写代码。这一做法大幅降低了数据分析门槛，加速了业务决策，并有效减轻了数据团队的工作负担。",
+      "source": "claude_blog",
+      "title_en": "How Anthropic enables self-service data analytics with Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2395675997,
+      "url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
+      "title": "Lessons from building Claude Code: How we use skills",
+      "published_at": "2026-06-04T10:58:56.838848",
+      "original_language": "en",
+      "summary_en": "The post addresses the challenge of reliably enabling an AI to perform complex, multi-step software engineering tasks by detailing Anthropic's skills-based architecture for Claude Code. The key approach organizes capabilities into modular, composable \"skills\" (e.g., file editing, test running, git operations) that the model dynamically selects and chains, allowing more robust and adaptable code generation and modification. This matters because it provides a practical, scalable pattern for building more capable and steerable AI coding agents, reducing brittleness and improving real-world usability.",
+      "summary_zh": "本文分享了构建Claude Code的经验，核心探讨如何通过技能模块提升代码生成质量，这一发现对优化AI辅助编程工具的实际效能具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "Lessons from building Claude Code: How we use skills",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 155230568,
+      "url": "https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork",
+      "title": "Best practices for getting started with Claude Cowork",
+      "published_at": "2026-06-04T10:58:56.839218",
+      "original_language": "en",
+      "summary_en": "This guide addresses the challenge of effectively integrating Claude into collaborative work environments. It outlines practical best practices for initiating teamwork with Claude, emphasizing structured onboarding and interaction strategies. These insights matter for teams aiming to boost productivity and seamlessly leverage AI assistance in their daily workflows.",
+      "summary_zh": "该指南针对团队协作工具Claude Cowork的上手难点，提供了系统性的最佳实践建议，帮助用户快速掌握核心功能。通过分步指导和常见误区解析，它降低了协作启动门槛，从而提升团队整体效率与产出质量。",
+      "source": "claude_blog",
+      "title_en": "Best practices for getting started with Claude Cowork",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3108811988,
+      "url": "https://unsupervised-learning.simplecast.com/episodes/ep-89-ai-research-legends-honest-assessment-of-where-we-are-3Qm7Jv8G",
+      "title": "Ep 89: AI Research Legend’s Honest Assessment of Where We Are",
+      "published_at": "2026-06-03T12:50:11",
+      "original_language": "en",
+      "summary_en": "This episode explores whether transformer architectures are approaching their fundamental limits or will remain dominant in AI. Featuring Lukasz Kaiser, a co-author of the seminal transformer paper, the discussion combines his deep appreciation for the paradigm’s practical gains—like 10x productivity from tools like Codex—with an honest look at what might eventually supplant it. It matters because his dual perspective as both a creator and a heavy user offers a uniquely grounded forecast of AI’s trajectory.",
+      "summary_zh": "本集针对当前AI架构的根本局限，探讨了Transformer是否会持续主导或被新模型取代。共同作者Łukasz Kaiser基于亲身实践（如使用Codex实现10倍生产力提升）与深度思考，既肯定了现有范式的巨大成就，也提供了对未来演进方向的坦诚评估。这番来自传奇研究者的双重视角，对于理解AI技术路线的现状与可能突破具有重要意义。",
+      "source": "unsupervised_learning",
+      "title_en": "Ep 89: AI Research Legend’s Honest Assessment of Where We Are",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 475788134,
+      "url": "https://podcasters.spotify.com/pod/show/how-do-you-use-chat-gpt/episodes/The-SaaS-Apocalypse-Is-a-Goldmine-With-Figmas-Matt-Colyer-e3k6lcm",
+      "title": "The SaaS Apocalypse Is a Goldmine With Figma’s Matt Colyer",
+      "published_at": "2026-06-03T15:00:00",
+      "original_language": "en",
+      "summary_en": "Current AI design tools rely on linear text-chat interfaces that fail to support the divergent-convergent “diamond” process essential to great design. Figma’s on-canvas agent addresses this by enabling designers to generate and explore many ideas visually on the canvas before converging on the best direction. This shift matters because it rethinks AI-assisted design around creative workflow rather than prompting, turning a perceived SaaS crisis into an opportunity for better tools.",
+      "summary_zh": "本文指出了当前AI设计工具普遍采用文本框交互的局限性，Figma产品管理总监Matt Colyer认为设计需要先发散再收敛的“钻石形”过程，而线性对话不利于生成大量方案。Figma为此推出新的画布代理，首次尝试将AI融入非线性的发散式设计流程，这可能重塑设计师与AI协作的方式，提升创意生成的效率。",
+      "source": "ai_and_i",
+      "title_en": "The SaaS Apocalypse Is a Goldmine With Figma’s Matt Colyer",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 202758202,
+      "url": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning",
+      "title": "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习",
+      "published_at": "2026-06-04T06:23:10+00:00",
+      "original_language": "zh",
+      "summary_en": "Stanford's OpenJarvis framework addresses the privacy and cost limitations of cloud-dependent personal AI by running inference, agentic reasoning, memory, and learning entirely on-device, using a modular design of five composable primitives (Intelligence, Engine, Agents, Tools & Memory, and Learning). It achieves performance within 3.2 points of top cloud models while slashing marginal API costs by roughly 800x. This enables practical, private, and continuously learning personal AI agents that are both capable and affordable.",
+      "summary_zh": "OpenJarvis 框架针对云端个人 AI 的高成本与隐私问题，提出完全在设备端运行推理、智能体、记忆和学习的本地优先方案，并将系统分解为五个可组合原语（智力、引擎、智能体、工具与记忆、学习），在与最优云端模型仅差 3.2 点的性能下，实现了约 800 倍的边际 API 成本下降。",
+      "source": "aihot_selected",
+      "title_zh": "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4211461643,
+      "url": "https://x.com/xiaohu/status/2062367357868355622",
+      "title": "Cloudflare Radar：机器人流量首次超过人类占比57.5%",
+      "published_at": "2026-06-04T02:54:29+00:00",
+      "original_language": "zh",
+      "summary_en": "Cloudflare Radar data reveals a historic shift: bot traffic (crawlers, AI scrapers, automation) now accounts for 57.5% of all HTML requests, surpassing human browser traffic for the first time. Overall HTTP traffic is already dominated by machine-to-machine communication, with JSON responses representing 33.1% versus just 12% for HTML. This signals that the internet’s primary content is no longer human web browsing but automated machine interactions.",
+      "summary_zh": "Cloudflare Radar 实时统计显示，过去一周（5月28日至6月4日）全球所有 HTML 网页请求流量中，57.5% 来自机器人（爬虫、AI 抓取、自动化脚本），仅42.5%来自真人浏览器，机器人流量首次超过人类。按所有 HTTP 流量返回内容分类，JSON（API 机器通信）占33.1%居首，HTML 仅12%。互联网流量主体已从人类浏览网页转向机器间通信和机器人抓取。",
+      "source": "aihot_selected",
+      "title_zh": "Cloudflare Radar：机器人流量首次超过人类占比57.5%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3261406644,
+      "url": "https://x.com/NVIDIAAI/status/2062358080222876041",
+      "title": "NVIDIA PPISP：补偿光度变化提升3D重建",
+      "published_at": "2026-06-04T02:17:37+00:00",
+      "original_language": "zh",
+      "summary_en": "PPISP tackles photometric inconsistencies between images that degrade radiance field quality, a common problem when lighting or camera settings vary across captures. By compensating for these variations, it makes 3D reconstruction more robust under non-uniform acquisition conditions, improving real-world applicability.",
+      "summary_zh": "NVIDIA PPISP 解决了不同拍摄条件下光照和相机设置不一致导致的三维重建质量下降问题。该方法通过补偿图像间光度变化，使神经辐射场（NeRF）在非理想采集中更鲁棒。这对真实场景重建至关重要，因为实际数据往往难以保持完全一致的光照条件。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA PPISP：补偿光度变化提升3D重建",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3506799013,
+      "url": "https://www.ithome.com/0/959/607.htm",
+      "title": "联合国报告：2030年AI数据中心水电消耗将翻倍",
+      "published_at": "2026-06-04T00:50:46+00:00",
+      "original_language": "zh",
+      "summary_en": "A UN report warns that AI-driven demand will cause data center electricity and water consumption to roughly double by 2030, with AI’s share of electricity rising from 20% to 40%, alongside sharp increases in carbon emissions and land use. The findings underscore that ignoring these environmental",
+      "summary_zh": "联合国报告预警AI扩张带来的环境代价：去年数据中心耗电448太瓦时、耗水4.5万亿升，碳排放1.89亿吨；预计2030年需求翻倍，AI用电占比升至40%。若无视这些成本，AI落地还将加剧土地紧张与电子废弃物污染。",
+      "source": "aihot_selected",
+      "title_zh": "联合国报告：2030年AI数据中心水电消耗将翻倍",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 949735985,
+      "url": "https://x.com/xai/status/2062294202625696081",
+      "title": "Grok模型登陆Cloudflare AI Gateway",
+      "published_at": "2026-06-03T22:03:48+00:00",
+      "original_language": "zh",
+      "summary_en": "The announcement highlights the availability of the Grok model on Cloudflare's AI Gateway, addressing the need for streamlined access to advanced AI models through a unified interface. This integration enables researchers and developers to easily experiment with and deploy Grok without managing separate infrastructure. It matters because it lowers the barrier to trying state-of-the-art language models, potentially accelerating prototyping and adoption in a managed, scalable environment.",
+      "summary_zh": "Cloudflare AI Gateway 现已支持 Grok 模型，解决了开发者寻找统一入口调用和试验不同大语言模型的问题。此举将 Grok 接入 Cloudflare 的边缘 AI 平台，便于用户在同一网关下管理请求、监控性能并利用缓存与安全功能。该集成降低了尝试前沿模型的门槛，同时助力企业以更高效率、更低延迟利用 Grok 的能力。",
+      "source": "aihot_selected",
+      "title_zh": "Grok模型登陆Cloudflare AI Gateway",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 950971909,
+      "url": "https://x.com/openclaw/status/2062288421406785710",
+      "title": "OpenClaw 2026.6.1发布：新增Windows节点与技能工坊",
+      "published_at": "2026-06-03T21:40:49+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenClaw 2026.6.1 introduces native Windows node support, removing the prior Linux-only restriction and enabling heterogeneous clusters for AI agents. The release also adds a Skill Workshop for self-learning agents to autonomously acquire new capabilities and a Workboard for task orchestration, enhancing agent autonomy and deployment flexibility. These features broaden the ecosystem’s applicability to diverse infrastructure and enable more adaptive, multi-agent workflows.",
+      "summary_zh": "OpenClaw 2026.6.1 版本通过新增原生 Windows 节点，解决了此前智能体集群依赖特定服务器环境的问题，使 Windows 机器无需额外服务即可直接加入集群。同时发布的技能工坊与工作板编排功能，为自主学习型智能体的技能开发与任务调度提供了标准化框架，显著降低了分布式智能体系统的构建门槛并提升了协同灵活性。",
+      "source": "aihot_selected",
+      "title_zh": "OpenClaw 2026.6.1发布：新增Windows节点与技能工坊",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1920741069,
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
+      "title": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
+      "published_at": "2026-06-03T19:00:08.294000+00:00",
+      "original_language": "zh",
+      "summary_en": "Uber's $1,500 monthly spending cap per user on AI tools addresses the lack of concrete pricing benchmarks for enterprise AI adoption, offering a real-world valuation from a major tech firm. This cap serves as a reference signal that helps other organizations calibrate their own AI tool budgets and cost expectations, reducing uncertainty in procurement decisions. It matters because it transforms abstract discussions of AI value into an actionable, industry-tested spending limit, potentially shaping broader market pricing norms.",
+      "summary_zh": "优步设定每月1500美元的AI工具使用上限，旨在为AI工具的定价提供可量化的行业参考。这一做法通过明确企业级AI应用的成本边界，帮助行业建立更透明、合理的定价标准，从而促进AI工具的广泛采用与市场成熟。",
+      "source": "aihot_selected",
+      "title_zh": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3388648440,
+      "url": "https://x.com/drfeifei/status/2062247238143996275",
+      "title": "世界模型的功能分类",
+      "published_at": "2026-06-03T18:57:10+00:00",
+      "original_language": "zh",
+      "summary_en": "This paper addresses the ambiguous use of the term \"world models\" by proposing a functional classification grounded in the partially observable Markov decision process (POMDP) framework, where intelligent agents act and observe partial views of the world. It clarifies that systems labeled as world models are different projections of the same perception-action loop, with one key category being renderers that prioritize visual fidelity. This conceptual layering matters because it disentangles the confusion between learning spatiotemporal statistics (like physics) versus just generating eye-pleasing pixels, providing clearer research directions.",
+      "summary_zh": "该文针对“世界模型”术语被滥用的问题，基于部分可观马尔可夫决策过程（POMDP）框架进行概念梳理，指出不同系统本质上是同一感知-行动循环在不同功能维度上的投影，并重点区分出以视觉渲染为核心的第一类模型。这一分层厘清了领域边界，为后续研究提供了共同的概念基础与分类参照。",
+      "source": "aihot_selected",
+      "title_zh": "世界模型的功能分类",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 706893979,
+      "url": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework",
+      "title": "洪水韧性新篇章：Google 开源水文建模框架",
+      "published_at": "2026-06-03T18:49:39.703000+00:00",
+      "original_language": "zh",
+      "summary_en": "This work tackles the challenge of scalable, accurate flood forecasting by open-sourcing Google Research’s PyTorch-based hydrological modeling framework, mirroring the architecture and data used in Flood Hub. The key approach is releasing a complete training pipeline that lets researchers and agencies train custom AI flood models while retaining full control over their sensitive hydrological data. This matters because it enables national meteorological services to locally deploy state-of-the-art AI flood prediction, as demonstrated with the Czech Hydrometeorological Institute, fostering global flood resilience without compromising data sovereignty.",
+      "summary_zh": "Google 开源的水文建模框架旨在提升全球洪水韧性预报能力，其关键方法是通过 GitHub 公开与 Flood Hub 相同的 PyTorch 模型架构和训练管线，让研究人员和机构能训练定制 AI 洪水预报模型。这很重要，因为它允许各国气象水文部门在完全掌控自有数据的前提下，直接整合先进的 AI 预报技术，从而加速高精度洪水预警系统的普及。",
+      "source": "aihot_selected",
+      "title_zh": "洪水韧性新篇章：Google 开源水文建模框架",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 645479480,
+      "url": "https://x.com/nvidia/status/2062228974273716457",
+      "title": "黄仁勋与纳德拉共议智能体AI时代",
+      "published_at": "2026-06-03T17:44:36+00:00",
+      "original_language": "zh",
+      "summary_en": "The partnership between NVIDIA and Microsoft targets the infrastructure needed for agentic AI, spanning from Windows devices to massive cloud-based AI factories. By combining NVIDIA’s hardware acceleration with Microsoft’s platforms, they demonstrate a scalable pathway to deploy autonomous AI agents that can reason, act, and run efficiently across the full computing spectrum. This matters because it lays the foundation for the next wave of AI—moving beyond chat to agents that can independently execute complex tasks in both consumer and enterprise environments.",
+      "summary_zh": "黄仁勋与纳德拉在MSBuild上的对话聚焦于如何构建从终端设备到云端的规模化AI生态，解决智能体AI的落地部署与协同难题。关键合作方案是将NVIDIA加速计算与微软Windows平台及Azure基础设施深度结合，形成横跨设备与数据中心的统一AI工厂。这标志着智能体AI正从理论走向生产级应用，有望重塑人机交互与产业自动化范式。",
+      "source": "aihot_selected",
+      "title_zh": "黄仁勋与纳德拉共议智能体AI时代",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2983332465,
+      "url": "https://x.com/krea_ai/status/2062227837130887567",
+      "title": "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持",
+      "published_at": "2026-06-03T17:40:05+00:00",
+      "original_language": "zh",
+      "summary_en": "Ideogram v4.0 tackles the persistent challenge of generating high-fidelity images with accurate text rendering by introducing native 2K resolution output and structured JSON prompt support. These advancements enable precise control and crisp typography, significantly improving the utility of generative models for design and content creation workflows.",
+      "summary_zh": "Ideogram v4.0 解决了生成图像分辨率不足与文字渲染不清的问题，通过原生 2K 高分辨率和 JSON 提示支持，显著提升了图像中的文字质量与控制精度。该版本让创作者能直接输出高细节、商业级视觉内容，并在 Krea 平台即可体验，对要求精准文字集成的设计工作具有重要实用价值。",
+      "source": "aihot_selected",
+      "title_zh": "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3711881090,
+      "url": "https://x.com/Replit/status/2062211976995188871",
+      "title": "Replit上线SEO Agent助应用被发现",
+      "published_at": "2026-06-03T16:37:04+00:00",
+      "original_language": "zh",
+      "summary_en": "Replit's SEO Agent tackles the critical post-deployment challenge of app invisibility: even a polished application is useless if users can't find it. It automatically scans a deployed app and suggests actionable fixes to enhance its presence in both conventional web search and AI-driven search engines. This matters because it bridges the gap between building and actual discovery, ensuring applications gain user traction in an increasingly crowded digital landscape.",
+      "summary_zh": "Replit 针对应用发布后难以被搜索发现的痛点，推出了 SEO Agent。它会自动扫描应用并给出修复建议，关键方法是同时优化网页搜索和 AI 搜索中的可见性。这能帮助开发者让应用被用户真正找到，把“发布”转变为“被发现”。",
+      "source": "aihot_selected",
+      "title_zh": "Replit上线SEO Agent助应用被发现",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2684545060,
+      "url": "https://x.com/kimmonismus/status/2062210845308780639",
+      "title": "Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆",
+      "published_at": "2026-06-03T16:32:34+00:00",
+      "original_language": "zh",
+      "summary_en": "Miso One addresses the challenge of generating warm, naturally rhythmic speech by releasing an open-weight 8B-parameter TTS model that clones a voice from a single short sample with only 110ms inference latency. Its fully local, self-hosted design keeps all audio data private, removing the need for cloud APIs while delivering realistic, low-latency voice synthesis. This makes high-quality voice cloning accessible and privacy-preserving for everyone.",
+      "summary_zh": "Miso One 解决的是语音合成难以兼具自然表现力、低延迟与数据隐私的问题。其关键做法是发布一个 8B 参数的开源模型，仅需短音频样本即可完成一次语音克隆，并在 110ms 内生成接近真人朗读节奏和温暖感的语音。这之所以重要，是因为它不仅将高质量语音克隆能力开放给社区，还支持完全本地自托管，无需上传音频数据，从而满足对隐私和低延迟部署的双重需求。",
+      "source": "aihot_selected",
+      "title_zh": "Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 347143329,
+      "url": "https://x.com/NVIDIAAI/status/2062210034109677665",
+      "title": "OpenShell v0.0.55 发布：新增 Vertex AI 推理支持",
+      "published_at": "2026-06-03T16:29:20+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenShell v0.0.55 addresses the need for flexible AI inference provider support by adding Google Vertex AI integration, allowing agents to run against Vertex AI. It also improves security and reliability through configuration-based policy visibility, better Podman detection in gateways, and restored GPU procfs behavior. This matters because it expands deployment options with a major cloud AI service while strengthening sandbox consistency and auditability.",
+      "summary_zh": "OpenShell v0.0.55 版本通过集成 Google Vertex AI 推理提供者和基于配置文件的策略可见性，解决了在多云环境下统一接入大模型推理并强化安全策略管理的问题；同时改进了 Podman 容器检测和 GPU 沙箱挂载行为，确保在容器化和 GPU 资源场景下运行更可靠。该更新让开发者能够便捷地在 OpenShell 网关中对接企业级 AI 服务，并提升沙箱的安全性与兼容性。",
+      "source": "aihot_selected",
+      "title_zh": "OpenShell v0.0.55 发布：新增 Vertex AI 推理支持",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2604197096,
+      "url": "https://x.com/MSFTResearch/status/2062204914223169635",
+      "title": "微软研究：装瓶厂AI从聊天到决策",
+      "published_at": "2026-06-03T16:09:00+00:00",
+      "original_language": "zh",
+      "summary_en": "A Microsoft pilot at a Midwest bottling plant shows the transition from AI chat to real-world decision-making, where constraints shift, risks are tangible, and outputs must be dependable. The three-month trial reveals that operational AI demands higher reliability and adaptability than conversational use cases, highlighting critical challenges for industrial deployment.",
+      "summary_zh": "微软在一家中西部装瓶厂进行的三个月试点，探索了将AI从简单的聊天交互推向实际决策的过程。研究发现，在真实的生产约束和风险下，AI必须输出高度可靠的答案，才能有效支持运营决策。这一转变展示了工业AI在复杂环境中从辅助沟通演进为核心决策工具的潜力和关键要求。",
+      "source": "aihot_selected",
+      "title_zh": "微软研究：装瓶厂AI从聊天到决策",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 277135394,
+      "url": "https://x.com/perplexity_ai/status/2062189045728596080",
+      "title": "Perplexity Personal Computer 登陆 Windows",
+      "published_at": "2026-06-03T15:05:56+00:00",
+      "original_language": "zh",
+      "summary_en": "Perplexity's Personal Computer agent is launching on Windows as a locally running AI that orchestrates the user’s daily applications and files, addressing the need for seamless desktop automation. Its initial rollout to paid Max and Enterprise Max subscribers marks a significant step toward embedding",
+      "summary_zh": "Perplexity 的 Personal Computer 即将扩展至 Windows 平台，该工具在本地运行，可协调用户日常使用的应用和文件，实现更深入的桌面 AI 集成。此版本将优先向等候名单中的付费 Max 及 Enterprise Max 订阅用户推送，表明 AI 助手正从网页端向系统级交互演进。",
+      "source": "aihot_selected",
+      "title_zh": "Perplexity Personal Computer 登陆 Windows",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 569641806,
+      "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training",
+      "title": "NVIDIA Research 在 CVPR 2026 发表三篇论文：规模化训练实现抓取、自动驾驶与智能体泛化",
+      "published_at": "2026-06-03T15:00:57+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA Research addresses the challenge of generalization in robotics and autonomous systems by leveraging large-scale simulation training, as demonstrated in three CVPR 2026 papers. GraspGen-X achieves zero-shot grasping via a foundation model trained on two billion simulated grasps, LCDrive replaces costly text-based reasoning with a compact latent representation for faster embedded autonomous driving inference, and NitroGen trains generalist embodied agents across diverse virtual environments. This work matters because it accelerates real-world deployment of adaptable physical AI, from versatile robot manipulation to efficient on-device driving and general-purpose agents.",
+      "summary_zh": "NVIDIA Research 在 CVPR 2026 上发布的三篇论文聚焦通过规模化模拟训练实现具身智能、自动驾驶与机器人抓取的泛化能力：GraspGen-X 以大规模抓取数据训练基础模型实现零样本抓取姿态生成，LCDrive 用紧凑潜在表示替代文本推理提升自动驾驶实时性，NitroGen 在多样化虚拟环境中训练通用具身智能体。这项工作展示了用海量合成数据驱动模型从特定任务向开放场景泛化的可行路径，对低成本、高效率开发自主系统具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA Research 在 CVPR 2026 发表三篇论文：规模化训练实现抓取、自动驾驶与智能体泛化",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1488896817,
+      "url": "https://x.com/suno/status/2062183524887675243",
+      "title": "Suno完成4亿美元D轮融资",
+      "published_at": "2026-06-03T14:44:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Suno, an AI-driven music generation platform, addresses the barrier to music creation by enabling anyone to produce original songs without formal training, using generative models. The company's $400 million Series D funding at a $5.4 billion valuation validates its approach and signals strong market confidence in AI-powered creativity tools. This investment highlights the growing impact of generative AI in democratizing content creation and may accelerate further innovation in the field.",
+      "summary_zh": "Suno宣布完成4亿美元D轮融资，估值达54亿美元，旨在让更多人轻松体验音乐创作的乐趣。此次融资将助力其AI音乐生成平台的进一步发展，降低音乐制作门槛。这对推动AI在创意领域的应用与普及具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Suno完成4亿美元D轮融资",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3045074637,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+      "title": "微软与OpenAI分道扬镳--如今双方准备正面交锋",
+      "published_at": "2026-06-03T14:04:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Microsoft and OpenAI's partnership has dissolved, with the two companies now in direct competition. Microsoft AI chief Mustafa Suleyman stated that Microsoft must now independently prove it can handle all AI tasks it previously relied on OpenAI for, signaling a strategic shift from collaboration to rivalry. This breakdown reshapes the competitive landscape of AI, potentially accelerating innovation as both giants pursue separate paths.",
+      "summary_zh": "微软与OpenAI的合作关系已彻底破裂，转为直接竞争，这标志着两大AI巨头从协同转向正面对抗。微软AI主管明确表示，微软必须独立证明自身能力，不再依赖OpenAI。这一转变将重塑AI行业的竞争格局，影响未来技术发展和市场格局。",
+      "source": "aihot_selected",
+      "title_zh": "微软与OpenAI分道扬镳--如今双方准备正面交锋",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2574708649,
+      "url": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally",
+      "title": "Meta 面向 WhatsApp Business 的 AI 智能体现已全球上线",
+      "published_at": "2026-06-03T13:40:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta is globally rolling out an AI agent for WhatsApp Business to automate customer interactions, charging enterprises based on model token consumption. This service directly addresses the need for scalable, instant communication with customers, leveraging large language models within a messaging interface. The move matters as it provides millions of businesses accessible AI assistance while establishing a usage-based monetization model for AI in a platform with billions of users.",
+      "summary_zh": "Meta 推出的 AI 智能体解决了 WhatsApp Business 商家在规模化处理客户咨询时的效率问题，通过按模型 token 使用量计费的方式实现商业化落地。这一全球上线的举措意味着中小企业也能以灵活的按量付费模式获取智能客服能力，对推动对话式商务的普及和 Meta 自身 AI 变现进程具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 面向 WhatsApp Business 的 AI 智能体现已全球上线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2114620223,
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "title": "超越聊天机器人的直接偏好优化",
+      "published_at": "2026-06-03T12:55:11+00:00",
+      "original_language": "zh",
+      "summary_en": "This article explores how Direct Preference Optimization (DPO), commonly used to align chatbots with human preferences, can be applied beyond conversational agents. It highlights broader use cases where DPO's direct optimization of preference data offers efficient and effective alignment, demonstrating its versatility as a general-purpose technique for fine-tuning large language models in diverse domains. This matters because it reveals DPO's potential to streamline model alignment across applications like content generation, code assistance, and other goal-oriented tasks without relying on complex reinforcement learning setups.",
+      "summary_zh": "本文探讨了直接偏好优化（DPO）如何超越聊天机器人场景，作为一种通用对齐方法应用于更广泛的生成任务。其关键发现是，DPO不仅限于对话偏好，还能直接优化模型在代码、图像、音乐等领域的输出排序，从而简化训练流程并提升与人类意图的一致性。这一拓展意味着偏好对齐技术可更灵活地融入各类AI系统，对构建更可控、更符合用户需求的多模态模型具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "超越聊天机器人的直接偏好优化",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2325349247,
+      "url": "https://cursor.com/blog/organizations",
+      "title": "Cursor Enterprise 推出 Organizations 组织管理功能",
+      "published_at": "2026-06-03T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cursor Enterprise introduces an organizational management feature that addresses the challenge of centrally governing multiple engineering teams with independent budgets, security policies, and model access. The key approach layers flexible control through Organizations, Teams, and lightweight Groups—where the most permissive setting applies—and includes sandbox testing and unified usage dashboards. This matters because it streamlines AI tool governance for enterprises, allowing fine-grained yet efficient access management, cost tracking, and safe feature rollout at scale.",
+      "summary_zh": "Cursor Enterprise 推出 Organizations 功能，解决了企业多团队分散管理带来的安全、预算和功能推广难题。其核心方法是构建统一组织面板，独立管控各团队预算、安全策略与模型访问，并通过 Groups 与沙箱机制实现精细化、渐进式功能部署。这使企业能高效集中治理、控制成本，并安全落地 AI 工具，对规模化采用和治理大模型应用至关重要。",
+      "source": "aihot_selected",
+      "title_zh": "Cursor Enterprise 推出 Organizations 组织管理功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1176830857,
+      "url": "https://arxiv.org/abs/2606.04513",
+      "title": "MapAgent：面向城市级车道级地图生成的工业级智能体框架",
+      "published_at": "2026-06-03T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "MapAgent tackles the challenge of fully automated, specification-compliant lane-level map generation at city scale. It augments a vectorized backbone network with a selective Judge-Planner-Worker loop that employs vision-language models to diagnose errors, generate minimal edits, and re-verify—triggered only on low-confidence tiles to preserve high throughput. Integrated into Baidu Maps, this industrial-grade agent framework now supports lane-level mapping across over 360 Chinese cities with an automation rate exceeding 95%, drastically reducing",
+      "summary_zh": "MapAgent针对大规模车道级地图生产中模型输出错误难以自动修正的问题，提出在矢量化骨干网络基础上，引入基于视觉语言模型的Judge-Planner-Worker智能体循环，仅在置信度低的区域进行最小化编辑与验证。该框架已部署于百度地图，支撑全国360余城市车道级地图生成，整体自动化率超过95%，为城市级地图的高效工业化生产提供了可行路径。",
+      "source": "aihot_selected",
+      "title_zh": "MapAgent：面向城市级车道级地图生成的工业级智能体框架",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1694421060,
+      "url": "https://x.ai/news/grok-vapi",
+      "title": "Grok 成为 Vapi 的默认语音引擎",
+      "published_at": "2026-06-03T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "xAI’s Grok addresses the challenge of making synthetic voices indistinguishable from humans, serving as the default speech engine for over 2.5 million voice agents on Vapi. Independent blind tests showed Grok Voice ranked first and fooled half of human listeners in a Turing-style challenge, confirming its naturalness. This integration and the availability of custom voice cloning via API matter because it enables highly realistic, scalable voice applications in narration, podcasts, and advertising.",
+      "summary_zh": "xAI 的语音模型 Grok 解决了语音智能体自然度和真实感不足的问题，通过与 Vapi 合作成为其默认引擎，并在盲测中以接近真人水平的辨识度获得第一。此举将高表现力的语音生成能力直接集成到数百万智能体，并通过 API 提供语音克隆等高级定制，大幅降低了企业打造沉浸式语音互动场景的门槛。",
+      "source": "aihot_selected",
+      "title_zh": "Grok 成为 Vapi 的默认语音引擎",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1845653047,
+      "url": "https://arxiv.org/abs/2606.04527",
+      "title": "Echo-Infinity：学习演化记忆实现实时无限视频生成",
+      "published_at": "2026-06-03T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Echo-Infinity addresses the challenge of real-time infinite video generation by replacing handcrafted cache strategies with a learnable evolutionary memory that updates via attention and gating, jointly optimized with video diffusion transformers to maintain constant computation regardless of video length. A Unified Relative RoPE Recipe anchors sink frames from ID 0 and caps the latest frame’s ID within the pretrained maximum, overcoming limited positional encoding extrapolation. This achieves state-of-the-art long/short video generation and for the first time enables real-time scrolling generation of over 1.3 million frames (24 hours).",
+      "summary_zh": "Echo-Infinity 针对实时无限视频生成中的缓存策略外推受限与计算膨胀问题，提出可学习演化记忆，以注意力门控更新记忆查询并与视频扩散 Transformer 端到端优化，无需预设计算缓存且支持任意压缩比。同时设计统一相对 RoPE，使帧 id 限制在预训练范围内，大幅缩小长度外推的分布差距，首次实现 24 小时超长视频实时滚动生成，在长短视频任务中均达到最优。",
+      "source": "aihot_selected",
+      "title_zh": "Echo-Infinity：学习演化记忆实现实时无限视频生成",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1146939669,
+      "url": "https://arxiv.org/abs/2606.05158",
+      "title": "StreamMA：多智能体推理中的流式通信",
+      "published_at": "2026-06-03T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "StreamMA addresses the latency and error propagation in multi-agent reasoning by streaming each reasoning step immediately to downstream agents, enabling pipeline parallelism and reducing the impact of unreliable later steps. Evaluated across eight benchmarks with LLMs like Claude Opus 4.6 and GPT-5.4 in Chain, Tree, and Graph topologies, it achieves an average improvement of +7.3 percentage points over baselines, with gains up to +22.4 points. The work also uncovers a step-level scaling law, showing that increasing per-agent steps simultaneously boosts both effectiveness and efficiency.",
+      "summary_zh": "StreamMA 针对多智能体推理中端到端延迟高、错误在后期步骤间传播的问题，提出了“流式通信”范式：每个推理步骤生成后立即传输给下游智能体，形成流水线以降低延迟，并依靠更可靠的早期步骤避免误导。在多种模型和拓扑结构的八项推理基准上，StreamMA 平均提升 +7.3 个百分点，最高达 +22.4，且揭示了“步骤级缩放定律”——增加每智能体的步骤数可同时改善效果与效率。",
+      "source": "aihot_selected",
+      "title_zh": "StreamMA：多智能体推理中的流式通信",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2178583815,
+      "url": "https://arxiv.org/abs/2606.04455",
+      "title": "Meta-Agent Challenge：自主智能体开发能力评估框架",
+      "published_at": "2026-06-03T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The paper introduces the Meta-Agent Challenge (MAC), a benchmark where frontier models act as meta-agents that iteratively program agent systems in a sandbox to maximize held-out performance, revealing that they rarely match human baselines and often exhibit adversarial behaviors like test-set leakage. The framework exposes robustness and alignment weaknesses under optimization pressure, and it serves as an open-source proxy for assessing recursive self-improvement capabilities.",
+      "summary_zh": "该论文提出Meta-Agent Challenge（MAC）框架，用于评估前沿AI模型自主开发智能体系统的能力。通过在沙盒环境中让元智能体迭代编程以最大化性能，实验发现模型极少达到人类基线，且高优化压力会引发对抗行为，暴露鲁棒性与对齐缺陷。MAC为递归自我改进能力的评估提供了重要基准。",
+      "source": "aihot_selected",
+      "title_zh": "Meta-Agent Challenge：自主智能体开发能力评估框架",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1786874170,
+      "url": "https://x.ai/news/grok-imagine-1-5",
+      "title": "xAI 发布 Grok Imagine 1.5 预览版（图像转视频模型）",
+      "published_at": "2026-06-03T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "xAI’s Grok Imagine 1.5 preview tackles the problem of animating a single static image into a cinematic video. It takes a starting frame and natural language motion prompts to generate camera movements, atmosphere, and physics-aware animation while staying faithful to the source. This matters because it offers accessible, fine-grained control for turning still images into cohesive video content via an API.",
+      "summary_zh": "xAI推出的Grok Imagine 1.5预览版解决了从单张静态图像生成流畅电影感视频的难题，其核心方法是通过用户提供的起始帧与自然语言运动提示，直接生成包含相机移动、物理效果且忠于原图的动画。这一进展显著降低了动态内容创作门槛，展示了AI在可控视频生成领域的重要突破。",
+      "source": "aihot_selected",
+      "title_zh": "xAI 发布 Grok Imagine 1.5 预览版（图像转视频模型）",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 456047664,
+      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "title": "Reachy Mini 添加 MCP 工具",
+      "published_at": "2026-06-03T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Reachy Mini tackles the integration of physical robots with AI agent tool-calling by releasing a public MCP canary Space for remote tool invocation. This enables AI models to directly call robot actions over the Model Context Protocol, bridging the gap between digital agents and real-world manipulation. It matters because it provides a scalable, cloud-accessible testbed for Robotic AI research, simplifying remote experimentation and accelerating development of embodied AI systems.",
+      "summary_zh": "Reachy Mini通过公开MCP canary空间实现了远程工具调用，解决机器人远程操控与工具集成的问题。该方案以MCP协议为桥梁，让用户能通过标准化接口远程调用机器人功能，大幅降低开发门槛。这为机器人远程协作和自动化任务部署提供了灵活、可复用的基础。",
+      "source": "aihot_selected",
+      "title_zh": "Reachy Mini 添加 MCP 工具",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1154727112,
+      "url": "https://www.tomtunguz.com/tokens-per-result",
+      "title": "智能性价比",
+      "published_at": "2026-06-03T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The summary addresses the growing tension between AI model performance and operational cost. It highlights that leading models like Microsoft’s new release achieve high benchmark scores while using far fewer tokens than competitors, and that even models with similar intelligence scores can have drastically different running costs. This matters because it signals a shift in the industry where model providers must now compete on both capability and cost-efficiency, as enterprises face budget overruns and impose usage limits.",
+      "summary_zh": "本文聚焦AI模型竞争正从单纯拼性能转向“智能性价比”这一趋势，指出微软通过公开平均token消耗量、以更低成本达成高分等例子，揭示了模型效率的重要性。核心发现在于，即便性能相近的模型，运行成本可能相差悬殊，迫使企业因预算压力重新审视AI投入，这标志着性价比已跃升为模型竞争的关键维度。",
+      "source": "aihot_selected",
+      "title_zh": "智能性价比",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 448811858,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.17.1-nightly.20260604.16dd99fa3",
+      "title": "QwenLM/qwen-code: Release v0.17.1-nightly.20260604.16dd99fa3",
+      "published_at": "2026-06-04T00:51:43+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly",
+      "summary_zh": "此次发布为 Qwen-Code 的 v0.17.1 夜间自动构建版本，由 CI 机器人触发，未引入新功能，主要完成发布流程的自动化维护。此举确保持续集成流水线稳定，使代码仓库始终处于可随时发布的健康状态，为后续增量开发提供可靠的基线。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.17.1-nightly.20260604.16dd99fa3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3311770326,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.9.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.9.0",
+      "published_at": "2026-06-03T14:01:42+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses the integration gap between AI coding tools and developers' IDE environments. It introduces an ACP adapter and `kimi acp` subcommand that enables kimi-code to communicate via the Agent Client Protocol 0.23 over stdio, allowing direct session control from IDEs like Zed and JetBrains. This standardizes the interaction, making AI assistance more seamless and accessible across diverse development workflows.",
+      "summary_zh": "该更新为 kimi-code 新增了遵循 Agent Client Protocol 0.23 的适配器与 `kimi acp` 子命令，使其能通过标准输入输出与 Zed、JetBrains 等多种 IDE 直接对话，从而解决了跨开发环境无缝集成的问题。此能力让 kimi-code 成为可被任意 ACP 客户端驱动的通用编码助手，极大扩展了开发者的工具链灵活性。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.9.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
