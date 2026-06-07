@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-07",
+  "headline_en": "Agent-First Engineering and Sparse Attention Surge as U.S. Bill Seeks Federal AI Preemption",
+  "lede_en": "Today's AI landscape centers on a fundamental shift toward agent-driven software development—from spec-first contracts to reinforcement-learned retrieval—while cost comparisons expose an 18× pricing gap for identical code–audit performance. Architectural breakthroughs in sparse attention deliver 3.6× latency reductions, and a proposed federal preemption bill threatens to reshape the regulatory environment just as autonomous AI crosses into self–sustaining profitability.",
+  "sections_en": [
+    {
+      "title": "Agent Engineering: From Vibe Coding to Executable Contracts",
+      "body": "A new agentic orthodoxy crystallizes as multiple projects reject prompt–only generation. GitHub’s Spec Kit inverts “vibe coding” by enforcing a spec‑first pipeline that turns requirements into an executable contract for over 30 AI agents, while Harness‑1 trains a 20B sub‑agent via reinforcement learning inside a stateful multi‑hop retrieval loop. Harness’s real‑world engineering guide with OpenAI Codex further normalizes the agent‑as‑partner paradigm. At the lighter end, a financial simulation game demonstrates how four small open‑source LLMs (0.5B–20B) can reliably generate structured orders when combined with information isolation and tolerant parsing, achieving zero self‑trading and 100% valid quotes. Hugging Face’s Job Searcher completes the theme by distilling a teacher model’s search expertise into a compact Qwen3‑8B student that scores positions across five alignment dimensions—all deployed on ZeroGPU—proving that agentic pipelines can be both powerful and resource‑lean."
+    },
+    {
+      "title": "Cost & Performance Benchmarks: Transparency Reshapes Model Selection",
+      "body": "Economic scrutiny intensifies as developers gain tools to measure what matters. OpenRouter now exposes live cache–hit metrics for models like Claude Opus 4.8, letting teams compare effective costs directly. That transparency reveals stark asymmetries: a head‑to‑head code–audit test shows MiniMax M3 matching Claude Opus 4.8’s bug‑detection (13/17 bugs) while costing 1/18th as much ($0.07 vs $1.30). A second design‑generation comparison using the baoyu‑design Skill confirms Opus 4.8’s superiority for interactive UI prototyping, guiding practitioner choice between cost‑efficiency and visual fidelity. Persona Atlas extends this comparative mindset to ethics, embedding public figures’ responses into a vector space for distance‑based similarity analysis, while Tencent Hunyuan’s Stem sparse attention cuts first‑token latency by 3.6×, setting a new efficiency high‑water mark for long‑context inference."
+    },
+    {
+      "title": "Architecture & Infrastructure: Deep Learning Foundations Evolve",
+      "body": "The infrastructure layer is being remade both in silicon and software. NVIDIA’s RTX Spark super‑chip leverages a second‑generation Transformer–based DLSS 4.5 to deliver 1440p AAA gaming at 100+ fps with all‑day battery life, a paradigm shift for portable PCs backed by over 100 developers. On the software side, OpenCV 5 adopts a graph‑based DNN engine that lifts ONNX operator coverage from sub‑23% to over 80%, natively supporting Transformers and vision–language models—a critical upgrade for the world’s most popular computer‑vision library. The enduring impact of architectural innovation is underscored by the CVPR 2026 Test of Time Award for ResNet, whose residual connections solved the degradation problem and remain foundational to modern deep networks."
+    },
+    {
+      "title": "Policy & Product Landscape: Preemption, Profitability, and Creative Tools",
+      "body": "A proposed U.S. House bill would centralize AI regulation federally, banning state‑level laws to create a uniform national framework—a move that could reduce compliance fragmentation for researchers and deployers. The shift to economic autonomy arrives simultaneously: FluxA and Baidu AI Cloud demonstrate AI systems that generate their own revenue, heralding a “Decentralized Autonomous AI” era where models become self‑sustaining. Meanwhile, Seedance 2.0 merges cinematic TVC quality with performance‑ad scale in a single advertising pipeline, and Gary Marcus’s latest critique labels recent AI failures a “Black Friday” that exposes the brittleness of scale‑only approaches, reinforcing calls for hybrid, cognitively inspired architectures."
+    }
+  ],
+  "top_picks": [
+    216586450,
+    3304134554,
+    865339864,
+    481182026,
+    1544045390
+  ],
+  "item_count": 18,
+  "source_breakdown": {
+    "aihot_selected": 17,
+    "qwen_github": 1
+  },
+  "generated_at": "2026-06-07T10:32:07.507446Z",
+  "headline_zh": "联邦AI立法呼之欲出，智能体与模型架构同日迎来双重突破",
+  "lede_zh": "今日AI领域呈现监管与技术的共振：美国众议院拟推联邦AI法案，意在扭转各州法规碎片化局面。技术层面，检索子智能体Harness-1凭借强化学习刷新多基准成绩，腾讯混元Stem稀疏注意力则将长文首字延迟降低3.6倍，为实际部署扫清关键障碍。与此同时，OpenCV 5发布、GitHub Spec Kit等工具涌现，标志AI开发生态与工程范式正经历快速重塑。",
+  "sections_zh": [
+    {
+      "title": "Agent工程：从搜索到金融游戏的自主智能体",
+      "body": "智能体能力持续进化。UIUC与Chroma推出的Harness-1采用强化学习在有状态搜索框架下训练，在8个基准上的平均召回率显著超越最优开源子智能体，并公开模型与代码，为多步证据检索与验证提供了可复现的标杆。在开发流程上，Harness工程范式强调以Codex为中心的「智能体优先」工作流，推动人机协同编程落地。此外，利用多个小模型构建金融剧情游戏的实践表明，通过记忆隔离、容忍性解析等工程手段，即使0.5B模型也能在格式生成任务中实现高可靠性，为低成本智能体应用证明可行性。"
+    },
+    {
+      "title": "模型评估、效率与架构创新",
+      "body": "对比测试催生新的选型认知：Opus 4.8在UI设计任务中的交互修改能力远优于GPT-5.5，而MiniMax M3在代码审计上以不到二十分之一的成本达到同等效果，凸显高性价比模型的实用空间。OpenRouter平台开始实时展示Opus 4.8的缓存命中率与有效价格，有望推动模型服务成本透明化。在模型架构端，腾讯混元提出的Stem稀疏注意力算法使长文首字延迟降低3.6倍，创下推理加速新SOTA，为对话式应用的大规模落地铺路。"
+    },
+    {
+      "title": "应用与产品：工具生态蓬勃，AI开始自主盈利",
+      "body": "开源工具栈大幅降低前沿AI的门槛：OpenCV 5凭借全新DNN引擎将ONNX算子覆盖率提升至80%以上，并原生支持大模型与视觉语言模型；GitHub的Spec Kit通过「先写规范再编程」的契约式开发，减少AI编码返工；Hugging Face的Job Searcher则用教师-学生模型实现低成本、多维度的简历匹配。在内容与商业侧，Seedance 2.0打通品牌与效果广告的生产壁垒，NVIDIA RTX Spark超芯片借助DLSS 4.5推动移动端3A体验，而FluxA与百度智能云的合作则首次验证了AI自主生成收入的经济范式，标志着DAA时代雏形初现。"
+    },
+    {
+      "title": "监管风向与基础研究荣誉",
+      "body": "政策层面，美国众议院法案草案拟将AI监管权统一收归联邦，禁止各州自行立法，意在建立统一的全国性框架，为产业提供更一致的合规预期。学术方面，ResNet凭借残差学习框架获得CVPR 2026时间检验奖，其奠基性贡献再次得到认可。此外，Gary Marcus对近期AI竞速的批评也引发广泛讨论，促使业界重新审视模型发展的稳健性路径。"
+    }
+  ]
+}

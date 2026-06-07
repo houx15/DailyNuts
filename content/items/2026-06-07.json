@@ -1,0 +1,347 @@
+{
+  "date": "2026-06-07",
+  "items": [
+    {
+      "id": 3818929746,
+      "url": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark",
+      "title": "NVIDIA 与 KRAFTON、NC、T1 在韩国 PC 房庆祝 RTX Spark 发布",
+      "published_at": "2026-06-07T07:00:15+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA's RTX Spark addresses the longstanding trade-off between gaming performance and battery life in Windows laptops by integrating three decades of graphics technology into a super chip that delivers 1440p AAA gaming at over 100 fps with all-day battery life. The approach leverages advanced DLSS 4.5 Ray Reconstruction based on a second-generation Transformer model, combined with full RTX feature support, to achieve efficient, high-fidelity rendering on portable devices. This matters because it enables true desktop-class gaming on thin-and-light laptops, already backed by over 100 software and game developers, including major titles from KRAFTON, NC, and Riot Games, signaling a paradigm shift for mobile PC gaming.",
+      "summary_zh": "NVIDIA 推出 RTX Spark 超芯片，旨在解决 Windows 笔记本续航与高性能游戏不可兼得的痛点，通过集成 30 年技术及 DLSS 4.5 等 AI 渲染方案，实现 1440p 下超 100fps 的 AAA 游戏体验。此举已获超过 100 家开发商采纳，并与韩国游戏巨头合作适配内容，有望重塑移动端游戏性能标准与生态。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 与 KRAFTON、NC、T1 在韩国 PC 房庆祝 RTX Spark 发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 216586450,
+      "url": "https://www.marktechpost.com/2026/06/06/meet-harness-1-a-20b-retrieval-subagent-trained-with-reinforcement-learning-inside-a-stateful-search-harness-on-gpt-oss-20b",
+      "title": "Harness-1：基于强化学习训练的有状态搜索20B检索子智能体",
+      "published_at": "2026-06-07T06:25:18+00:00",
+      "original_language": "zh",
+      "summary_en": "Harness-1 tackles complex multi-hop retrieval by training a 20B sub-agent via reinforcement learning within a stateful framework that maintains a candidate pool",
+      "summary_zh": "UIUC 与 Chroma 联合推出的 Harness-1 是一个 20B 参数的检索子智能体，解决的是开放域问答中复杂、多步证据检索与验证的难题。它通过强化学习在有状态搜索框架下训练，让策略自主控制搜索、筛选、验证和停止时机，维持候选池与证据图等状态。该方法在 8 个基准上平均 curated recall 达到 0.730，超越最优开源子智能体 11.4 个百分点，仅略逊于 Opus-4.6，且模型与代码已公开，为高效可扩展的检索推理提供了新路径。",
+      "source": "aihot_selected",
+      "title_zh": "Harness-1：基于强化学习训练的有状态搜索20B检索子智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2188573454,
+      "url": "https://x.com/OpenRouter/status/2063504950429147376",
+      "title": "Opus 4.8 缓存命中率与有效价格可实时查看",
+      "published_at": "2026-06-07T06:14:52+00:00",
+      "original_language": "zh",
+      "summary_en": "This addresses the lack of transparent, real‑time data on how cache hit rates affect actual model costs across providers. OpenRouter now displays live cache hit metrics and historical traffic directly on the Pricing page for models like Anthropic’s Claude Opus 4.8, enabling side‑by‑side comparison of effective pricing. This insight helps developers make data‑driven decisions to minimize API expenses by choosing providers with higher caching efficiency.",
+      "summary_zh": "该功能解决了用户难以直观对比不同AI模型提供商在缓存利用率和实际成本上的差异的问题。通过OpenRouter平台为Opus 4.8等模型提供实时缓存命中率和历史流量数据，用户可直接在Pricing标签查看有效价格。这一透明化举措帮助开发者更精准地评估和优化成本，选择性价比最高的模型服务。",
+      "source": "aihot_selected",
+      "title_zh": "Opus 4.8 缓存命中率与有效价格可实时查看",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1819516694,
+      "url": "https://openai.com/index/harness-engineering",
+      "title": "Harness 工程：在智能体优先的世界中运用 Codex",
+      "published_at": "2026-06-07T03:39:37.239000+00:00",
+      "original_language": "zh",
+      "summary_en": "This article addresses the challenge of integrating AI agents into real-world engineering workflows by demonstrating how Harness uses OpenAI Codex. The key approach is a hands-on practice guide that shifts development toward an agent-first paradigm, where Codex acts as a reasoning and coding partner. This matters because it offers a concrete, production-tested blueprint for accelerating development cycles and unlocking new levels of automation in software engineering.",
+      "summary_zh": "本文探讨了在AI智能体日益主导的开发环境中，如何将OpenAI Codex作为核心工具融入工程实践，通过具体方法展示了以Codex为中心的开发流程构建。其关键发现在于提出了一种“智能体优先”的工程范式，强调人机协同的新型工作流，这对推动AI辅助编程落地及提升开发效率具有重要指导意义。",
+      "source": "aihot_selected",
+      "title_zh": "Harness 工程：在智能体优先的世界中运用 Codex",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4121036065,
+      "url": "https://x.com/dotey/status/2063464057647075379",
+      "title": "对比一下 GPT-5.5 的设计效果和 Opus 4.8 的设计效果",
+      "published_at": "2026-06-07T03:32:23+00:00",
+      "original_language": "zh",
+      "summary_en": "This comparison evaluates the design generation capabilities of GPT-5.5 and Opus 4.8 using the baoyu-design Skill, a tool that converts natural-language screen descriptions into interactive HTML and supports element-level editing. The key finding is that Opus 4.8 significantly outperforms GPT-5.5 in this task, highlighting its superior ability to produce high-quality, modifiable UI prototypes directly from text. This matters because it identifies a clear practitioner preference for Opus 4.8 in rapid visual prototyping, guiding model selection for design-focused generative AI workflows.",
+      "summary_zh": "该对比测试针对的是大模型在UI设计任务中的效果差异，发现Opus 4.8在生成良HTML及支持交互修改方面远优于GPT-5.5。其核心方法是通过基于Cursor浏览器的baoyu-design Skill实现元素标注与指令式修改，让非代码人员也能快速产出可预览的界面。这一结论为设计工具选型提供了明确参考：在需要高质量前端原型快速迭代的场景下，Opus 4.8是当前更优的模型选择。",
+      "source": "aihot_selected",
+      "title_zh": "对比一下 GPT-5.5 的设计效果和 Opus 4.8 的设计效果",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1582629440,
+      "url": "https://x.com/MiniMax_AI/status/2063397618034844135",
+      "title": "M3与Opus代码审计13个bug：$0.07 vs $1.30",
+      "published_at": "2026-06-06T23:08:22+00:00",
+      "original_language": "zh",
+      "summary_en": "A cost-comparison experiment evaluated MiniMax M3 and Claude Opus 4.8 on code auditing by using the same codebase, prompt, and 17 seeded bugs. Both models detected 13 bugs, but MiniMax achieved this at $0.07 versus $1.30 for the cheapest Claude run, a roughly 18× cost reduction for identical performance. This finding highlights the viability of low-cost models for practical, accurate code review and suggests significant savings are possible without sacrificing bug-detection quality.",
+      "summary_zh": "该比较测试通过在相同代码库中预埋17个已知漏洞，考察了 MiniMax M3 与 Claude Opus 4.8 的审计能力，结果显示两者均检出13个bug，但 MiniMax M3 成本仅 $0.07，而 Claude 需 $1.30。这一发现表明，低成本模型在代码审计任务上可达到与高价模型同等的有效性，为追求高性价比的 AI 辅助开发提供了有力实证。",
+      "source": "aihot_selected",
+      "title_zh": "M3与Opus代码审计13个bug：$0.07 vs $1.30",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 865339864,
+      "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
+      "title": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
+      "published_at": "2026-06-06T21:47:39.887000+00:00",
+      "original_language": "zh",
+      "summary_en": "This proposed U.S. House bill addresses the problem of potential regulatory fragmentation across states by centralizing AI oversight at the federal level and preempting state-level laws. The key approach is a federal preemption that would ban individual states from enacting their own AI regulations, creating a uniform national framework. This matters for AI/ML research and deployment because a single regulatory standard could reduce compliance complexity and foster a more predictable environment for innovation, avoiding a patchwork of conflicting state rules.",
+      "summary_zh": "美国众议院议员提出法案草案，针对各州自行制定人工智能法规导致的监管碎片化问题，将AI监管权统一收归联邦。此举意在通过顶层设计构建全国性框架，避免地方立法冲突，为技术发展提供更具预测性和一致性的规则环境。",
+      "source": "aihot_selected",
+      "title_zh": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4189373300,
+      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+      "title": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
+      "published_at": "2026-06-06T19:02:33+00:00",
+      "original_language": "zh",
+      "summary_en": "This project demonstrates how a financial simulation game powered by four small open-source LLMs (ranging from 0.5B to 20B parameters) addresses key challenges in multi-model orchestration: the main friction comes from vLLM’s CUDA dependency rather than the models themselves, and a tolerant JSON parsing layer enables model addition with a single configuration entry. The work showcases that small models can serve as reliable structured-output generators when combined with information isolation, memory truncation, and targeted fine-tuning (achieving 0% self-trading and 100% valid quotes), making them a practical, cost-effective alternative for domain-specific agent scenarios.",
+      "summary_zh": "该研究探索如何用多个小模型构建金融模拟游戏智能体，核心发现是异构服务层的部署摩擦源于vLLM依赖CUDA工具包而非模型本身，通过容忍性JSON解析、信息隔离、情绪摘要记忆和小模型微调等工程化手段，成功让0.5B模型在格式生成上变得可靠（零自成交、百分百有效报价），但推理能力仍需结构化提示弥补。这为低成本、高可控地构建复杂金融剧情游戏提供了可行方案，展示了小模型在特定格式任务中的实用价值。",
+      "source": "aihot_selected",
+      "title_zh": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 422207928,
+      "url": "https://garymarcus.substack.com/p/ais-black-friday",
+      "title": "AI 的黑色星期五",
+      "published_at": "2026-06-06T16:24:04+00:00",
+      "original_language": "zh",
+      "summary_en": "Gary Marcus examines recent notable setbacks in AI, framing them as a \"Black Friday\" that exposes deep flaws in the prevailing scaling-centric paradigm. He argues that these failures highlight the brittleness of large language models and the field's lack of true understanding, underscoring the urgent need to pivot toward more cognitively inspired, hybrid architectures rather than simply adding more data and compute.",
+      "summary_zh": "Gary Marcus 借近期",
+      "source": "aihot_selected",
+      "title_zh": "AI 的黑色星期五",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1668395353,
+      "url": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
+      "title": "Job Searcher",
+      "published_at": "2026-06-06T15:36:51+00:00",
+      "original_language": "zh",
+      "summary_en": "Hugging Face’s Job Searcher automates personalized job discovery by using a teacher model (DeepSeek V4 Pro) to generate LinkedIn search queries, scraping listings with JobSpy, and then having a LoRA‑fine‑tuned Qwen3‑8B student model score each position on five alignment dimensions: skills, experience, education, industry, and seniority. Trained on a single A100 and deployed on Hugging Face’s ZeroGPU with llama.cpp streaming, the compact 8B model provides multi‑faceted reasoning efficiently. The open‑source pipeline offers a low‑cost, transparent alternative to manual job hunting and demonstrates how large‑to‑small model distillation can deliver nuanced evaluation in a resource‑constrained environment.",
+      "summary_zh": "Hugging Face 推出的 Job Searcher 旨在解决求职中简历与职位精准匹配的难题，通过教师模型 DeepSeek V4 Pro 自动生成 LinkedIn 搜索查询并抓取职位，再使用经 LoRA 微调的 Qwen3-8B 学生模型，从技能、经验、教育、行业和资历五个维度对职位进行详细评分与推理。该方案在单张 A100 上完成训练、在 ZeroGPU 上低成本部署且完全开源，显著降低了 AI 求职工具的使用门槛，对推动个性化求职辅助技术的民主化具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Job Searcher",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 481182026,
+      "url": "https://x.com/rohanpaul_ai/status/2063246343842501091",
+      "title": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
+      "published_at": "2026-06-06T13:07:16+00:00",
+      "original_language": "zh",
+      "summary_en": "GitHub's Spec Kit addresses the flaw of \"vibe coding,\" where AI agents generate code prematurely without explicit requirements, by inverting the workflow to enforce a spec-first development cycle: define product specifications, clarify gaps, create a technical plan, and decompose tasks before any code is written. This approach turns the spec into an executable contract that guides over 30 AI coding agents, reducing rework and ensuring completeness. It matters because it transforms loose, prompt-driven coding into a structured, contract-based process, directly tackling the root cause of fragmented, unreliable AI-generated software.",
+      "summary_zh": "GitHub 发布的 Spec Kit 工具包主要解决 AI 编码中因需求不明确而直接跳入实现的问题，核心思路是将开发流程重构为“先写产品规范、再让 AI 据此执行”，从而形成可执行的开发合约。这一方法可减少返工、提升代码质量，并已支持多种主流 AI 编程助手，获得十万级关注，对规范驱动的 AI 软件开发有重要实践意义。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1544045390,
+      "url": "https://www.ithome.com/0/960/969.htm",
+      "title": "OpenCV 5 发布：升级全新 DNN 引擎、原生支持大模型",
+      "published_at": "2026-06-06T12:48:12+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenCV 5 tackles the limited deep learning capability of its predecessor by introducing a graph-based DNN engine that boosts ONNX operator coverage from under 23% to over 80%, thereby natively supporting Transformer, vision-language, and large language models. This upgrade makes the widely adopted computer vision library capable of efficiently running modern AI models, significantly expanding its utility for contemporary AI applications.",
+      "summary_zh": "OpenCV 5 解决了旧版 DNN 引擎对现代模型支持不足的问题，其核心办法是采用基于图的全新引擎，将 ONNX 算子覆盖率从不到 23% 大幅提升至超 80%，并原生支持 Transformer、视觉语言模型和大语言模型。这一升级使这个拥有庞大用户基数的计算机视觉库能够便捷地部署前沿 AI 模型，显著降低了开发者的集成门槛。",
+      "source": "aihot_selected",
+      "title_zh": "OpenCV 5 发布：升级全新 DNN 引擎、原生支持大模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3979706781,
+      "url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
+      "title": "Persona Atlas：Hugging Face 上的开源人物思维映射工具",
+      "published_at": "2026-06-06T11:42:01+00:00",
+      "original_language": "zh",
+      "summary_en": "Persona Atlas addresses the challenge of systematically mapping and comparing the identity and ethical stances of public figures. It does so by using tool-calling agents to generate profiles and then embedding their responses to open-ended questions into a vector space, enabling distance comparisons and trait-based heatmaps. This open-source, no-token tool matters because it offers researchers an interpretable, agentic method for analyzing persona similarity and divergence on platforms like Hugging Face.",
+      "summary_zh": "Persona Atlas 通过代理驱动的网络搜索与开放式问答，将公众人物的回答转化为嵌入向量，在向量空间中量化比较其思维特质，并以热力图呈现基于十个锚点的差异。这一开源工具无需令牌即可体验，为研究者提供了直观探索人物身份、伦理立场等思维模式差异的便捷方法。",
+      "source": "aihot_selected",
+      "title_zh": "Persona Atlas：Hugging Face 上的开源人物思维映射工具",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1270626726,
+      "url": "https://mp.weixin.qq.com/s/ZVgqdH_fE42jO4kcI-lF3g",
+      "title": "阶跃首席科学家张祥雨合著论文 ResNet 获 CVPR 2026 「时间检验奖」",
+      "published_at": "2026-06-06T06:46:02+00:00",
+      "original_language": "zh",
+      "summary_en": "The ResNet paper, co-authored by Zhang Xiangyu (Chief Scientist at Jieyue), received the CVPR 2026 Test of Time Award for its foundational contribution to deep learning. It solved the degradation problem in very deep networks by introducing residual connections,",
+      "summary_zh": "ResNet 通过引入残差学习框架，有效解决了深度神经网络随层数增加而性能退化的问题。该工作使得训练高达数百层的网络成为可能，并奠定了现代计算机视觉与深度学习的基础架构，因此荣获 CVPR 2026 时间检验奖。",
+      "source": "aihot_selected",
+      "title_zh": "阶跃首席科学家张祥雨合著论文 ResNet 获 CVPR 2026 「时间检验奖」",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3304134554,
+      "url": "https://mp.weixin.qq.com/s/XneOSvjt-7A-DU546cGoZA",
+      "title": "首字延迟降低3.6倍，腾讯混元提出Stem稀疏注意力算法，长文推理加速新SOTA",
+      "published_at": "2026-06-05T11:22:41+00:00",
+      "original_language": "zh",
+      "summary_en": "Tencent Hunyuan's Stem sparse attention algorithm tackles the high time-to-first-token latency in large language model inference for long contexts. By introducing a novel attention sparsity pattern, it achieves a 3.6× reduction in first-token latency, setting a new state-of-the-art for long-text inference acceleration. This breakthrough enables significantly more responsive real-time applications when processing lengthy documents.",
+      "summary_zh": "腾讯混元提出的Stem稀疏注意力算法，旨在解决长文本推理时首字延迟过高的问题。该方法通过创新的稀疏注意力机制，将首字延迟降低了3.6倍，实现了长文推理加速的新SOTA，显著提升了实际应用中的响应速度。",
+      "source": "aihot_selected",
+      "title_zh": "首字延迟降低3.6倍，腾讯混元提出Stem稀疏注意力算法，长文推理加速新SOTA",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 330553844,
+      "url": "https://mp.weixin.qq.com/s/uvasI0EYNtv1Q8bMd96CzQ",
+      "title": "从品牌TVC到效果素材量产，Seedance 2.0进入广告核心生产流程",
+      "published_at": "2026-06-05T11:17:53+00:00",
+      "original_language": "zh",
+      "summary_en": "Seedance 2.0 tackles the traditional bifurcation in advertising where brand TVCs demand high-quality, unified narratives while performance ads require rapid iteration and mass production. It merges these distinct production pipelines into a single workflow, enabling accelerated content refresh cycles and faster project delivery. This matters because it eliminates the need for separate systems, allowing advertisers to achieve both cinematic consistency and production-at-scale efficiency.",
+      "summary_zh": "Seedance 2.0 解决了品牌广告高质感叙事与效果广告高频量产之间的矛盾，通过融合两套传统分离的生产体系，在同一流程中兼顾视觉统一性与快速迭代。其核心意义在于打通品牌与效果内容的制作壁垒，显著提升广告内容的上新速度与项目交付效率。",
+      "source": "aihot_selected",
+      "title_zh": "从品牌TVC到效果素材量产，Seedance 2.0进入广告核心生产流程",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1610466676,
+      "url": "https://mp.weixin.qq.com/s/_Gxb4JWjVidXVfeCRjghzg",
+      "title": "FluxA与百度智能云合作：DAA时代，AI开始自己赚钱",
+      "published_at": "2026-06-05T10:52:01+00:00",
+      "original_language": "zh",
+      "summary_en": "The collaboration between FluxA and Baidu AI Cloud addresses the problem of AI’s reliance on external funding by enabling AI systems to generate their own revenue. This milestone heralds the DAA (Decentralized Autonomous AI) era, where AI achieves self-sustaining profitability. It matters because it shifts AI from a cost center to an autonomous economic agent, unlocking scalable, independent deployment.",
+      "summary_zh": "FluxA与百度智能云的合作标志着分布式AI应用（DAA）时代的到来，核心解决了AI长期依赖外部投入的困境。其关键突破在于让AI系统自主生成收入，实现自身盈利。这一进展意义重大，它验证了AI经济独立的新范式，有望推动更可持续的AI产业发展。",
+      "source": "aihot_selected",
+      "title_zh": "FluxA与百度智能云合作：DAA时代，AI开始自己赚钱",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 596223459,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.17.1-nightly.20260607.cef26a86a",
+      "title": "QwenLM/qwen-code: Release v0.17.1-nightly.20260607.cef26a86a",
+      "published_at": "2026-06-07T00:41:55+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release for QwenLM/qwen-code v0.17.1 addresses user-facing friction and release integrity. It patches the CLI to skip internal \"thought\" content when copying output, adds verification of release assets to prevent corrupted downloads, and switches public documentation to a standalone entrypoint, which together improve both usability and trust for developers relying on the tool.",
+      "summary_zh": "该版本主要修复了命令行界面复制输出时错误包含模型内部推理内容的问题，通过跳过“思考部分”确保复制结果纯净可用。同时，它增强了安装器的发布资产校验机制，并将公开文档切换为独立入口，提升了工具的安全性与可用性，对于使用Qwen Code进行开发的研究人员至关重要。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.17.1-nightly.20260607.cef26a86a",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
