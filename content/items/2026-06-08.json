@@ -1,0 +1,594 @@
+{
+  "date": "2026-06-08",
+  "items": [
+    {
+      "id": 2941455739,
+      "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "title": "Introducing dynamic workflows in Claude Code",
+      "published_at": "2026-06-08T12:23:44.667551",
+      "original_language": "en",
+      "summary_en": "Claude Code now features dynamic workflows that let the AI adapt its task execution in real time based on context and feedback, moving beyond rigid, pre-scripted sequences. This approach handles ambiguity and edge cases more gracefully, boosting the reliability and intelligence of automated coding and research pipelines. The change matters because it enables developers to build more resilient, context-aware automations that can self-correct and evolve as conditions change.",
+      "summary_zh": "针对传统编码助手工作中流程静态导致的适应性问题，Claude Code 引入了动态工作流机制。该方法使工作流能根据交互上下文和任务变化实时调整执行路径，从而显著提升复杂编码场景下的灵活性与效率。",
+      "source": "claude_blog",
+      "title_en": "Introducing dynamic workflows in Claude Code",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 802284282,
+      "url": "https://claude.com/blog/using-llms-to-secure-source-code",
+      "title": "Using LLMs to secure source code",
+      "published_at": "2026-06-08T12:23:44.667905",
+      "original_language": "en",
+      "summary_en": "This work tackles the problem of automating security vulnerability detection and remediation in source code. It leverages large language models to analyze code for flaws and generate fixes directly. This matters because it enables scalable, efficient software hardening without solely relying on manual expert review.",
+      "summary_zh": "本研究探讨如何利用大语言模型（LLMs）保障源代码安全，解决传统人工审查效率低、漏洞检测不及时的问题。其关键方法是通过LLM自动分析代码、识别潜在漏洞并生成修复建议，从而显著提升安全审计的准确性与速度。该发现对降低软件安全风险、加速安全开发流程具有重要实践意义。",
+      "source": "claude_blog",
+      "title_en": "Using LLMs to secure source code",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3993052809,
+      "url": "https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system",
+      "title": "How CodeRabbit used Claude to build an agent orchestration system",
+      "published_at": "2026-06-08T12:23:44.668263",
+      "original_language": "en",
+      "summary_en": "CodeRabbit addresses the challenge of coordinating multiple AI agents to perform complex, multi-step code review tasks by building an orchestration system centered on Claude. The key approach uses Claude as a flexible reasoning backbone to handle routing, tool use, and inter-agent communication, reducing the need for brittle, hand-coded logic. This matters because it illustrates how a single, capable LLM can simplify the design of robust multi-agent pipelines, making advanced automated code analysis more practical and scalable.",
+      "summary_zh": "CodeRabbit 利用 Claude 构建了智能体编排系统，旨在解决多智能体协同工作中的任务调度与分工问题。该系统的核心思路是将 Claude 作为“大脑”来规划、分配和协调各专业智能体的活动，从而高效完成代码审查等复杂流程。这一实践证明了先进大语言模型在构建多智能体协作框架中的关键作用和落地价值。",
+      "source": "claude_blog",
+      "title_en": "How CodeRabbit used Claude to build an agent orchestration system",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1579284078,
+      "url": "https://claude.com/blog/zero-trust-for-ai-agents",
+      "title": "Zero Trust for AI agents",
+      "published_at": "2026-06-08T12:23:44.668644",
+      "original_language": "en",
+      "summary_en": "The title suggests a framework that addresses the security risks of autonomous AI agents by applying zero-trust principles—such as continuous verification, least privilege, and micro-segmentation—to their operations and interactions. The key idea is to never inherently trust an AI agent’s decisions or data access, enforcing strict, ongoing validation to prevent compromise or misuse. This matters because as AI agents become more embedded in critical infrastructure and decision-making, a zero-trust approach is essential to mitigate cascading failures, unauthorized actions, and adversarial exploitation.",
+      "summary_zh": "这篇文章探讨了如何将零信任安全模型应用于AI智能体，以应对它们在访问资源和执行任务时可能带来的安全风险。核心思路是通过持续验证、最小权限和显式策略，确保每个智能体的每一次访问请求都经过严格检查，而不是隐式信任。这对在日益复杂的AI系统中防止横向移动和数据泄露至关重要，有助于构建更安全、可靠的人工智能应用。",
+      "source": "claude_blog",
+      "title_en": "Zero Trust for AI agents",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3528653607,
+      "url": "https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build",
+      "title": "Code w/ Claude London 2026: Rethinking how we build",
+      "published_at": "2026-06-08T12:23:44.669008",
+      "original_language": "en",
+      "summary_en": "This event explores the challenge of legacy software development workflows that limit developer productivity and creativity by positioning Anthropic's Claude as a collaborative AI partner. The key approach involves reimagining the entire build process—from design to deployment—through deep integration with Claude, aiming to automate mundane tasks and augment complex reasoning. This shift matters because it could fundamentally elevate how developers solve problems, accelerating innovation while potentially reshaping software engineering as a discipline.",
+      "summary_zh": "该活动聚焦于如何运用Claude等人工智能工具从根本上重新思考软件构建流程，其核心思路是通过AI辅助编码实现人机协同的新型开发范式。这一探索对于打破传统开发瓶颈、大幅提升效率以及重塑未来软件工程实践具有重要价值。",
+      "source": "claude_blog",
+      "title_en": "Code w/ Claude London 2026: Rethinking how we build",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1403576529,
+      "url": "https://claude.com/blog/compliance-api-security-partners",
+      "title": "Claude now works with more security and compliance tools",
+      "published_at": "2026-06-08T12:23:44.669895",
+      "original_language": "en",
+      "summary_en": "Claude's integration with a wider range of security and compliance tools addresses enterprise demands for safe AI deployment in regulated environments. By expanding compatibility with existing security infrastructures, this update enables organizations to enforce policies, monitor usage, and meet industry-specific compliance requirements without sacrificing the benefits of AI assistance. This matters because it reduces deployment friction and risk for businesses that must adhere to strict data governance and security mandates.",
+      "summary_zh": "Claude现已兼容更多安全与合规工具，旨在解决企业应用中对数据保护、隐私及法规遵循的核心关切。通过扩展与现有安全合规生态的集成，它使组织能更轻松地管理安全风险并满足行业标准，从而降低企业采用AI时的顾虑，加速安全部署。",
+      "source": "claude_blog",
+      "title_en": "Claude now works with more security and compliance tools",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3587773033,
+      "url": "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity",
+      "title": "How our partners are putting Opus to work for cybersecurity",
+      "published_at": "2026-06-08T12:23:44.670357",
+      "original_language": "en",
+      "summary_en": "This summary highlights how organizations are leveraging the Opus AI model to tackle complex cybersecurity challenges, such as threat detection and incident response. By integrating Opus into security workflows, partners are enhancing automated analysis and defense capabilities. This practical deployment demonstrates the tangible impact of advanced language models in strengthening real-world cyber defenses.",
+      "summary_zh": "此摘要针对网络安全威胁复杂性日益增长的问题，介绍了合作伙伴如何将高性能AI模型Opus应用于安全防御，其核心是通过Opus的先进自然语言理解与推理能力，实现对网络威胁的快速检测、智能分析和自动化响应，这极大地提升了威胁应对的时效性与精准度，对强化整体网络安全态势具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "How our partners are putting Opus to work for cybersecurity",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3669527491,
+      "url": "https://huggingface.co/blog/build-small-hackathon/building-pakistan-notice-helper",
+      "title": "Pakistan Notice Helper：一款面向本地安全问题的轻量 AI 工具",
+      "published_at": "2026-06-08T11:46:56+00:00",
+      "original_language": "zh",
+      "summary_en": "Pakistan Notice Helper 是一款安全工具，帮助巴基斯坦用户在点击链接、拨打电话、分享 OTP 或支付前识别可疑消息。它接受文本或截图输入，返回风险等级、简短解释、可见警示标志和安全下一步建议。工具支持英文和乌尔都语，乌尔都模式采用从右向左布局并全界面翻译。最终部署选用 Qwen3.5 4B Q8 模型（通过 llama.cpp + CUDA），在 10 个测试用例中通过了所有高风险诈骗和截图场景。此前曾测试 Qwen3.6 27B（质量高但成本高）和 MiniCPM-V 4.6 Q8（速度慢且不稳定），最终选择了精度、速度和成本平衡的 4B 模型。项目受限于 hackath",
+      "summary_zh": "为解决巴基斯坦用户在点击链接、拨打电话或分享OTP等场景中防范诈骗的需求，该工具通过文本或截图输入分析可疑消息，返回风险等级与安全建议，支持英文和乌尔都语。在权衡精度、速度与成本后，选用Qwen3.5 4B Q8模型并以llama.cpp加CUDA部署，于10个高风险诈骗与截图测试中全部通过，验证了轻量模型在本地安全辅助任务中的可行性。",
+      "source": "aihot_selected",
+      "title_zh": "Pakistan Notice Helper：一款面向本地安全问题的轻量 AI 工具",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3100430428,
+      "url": "https://x.com/alibaba_cloud/status/2063923881857945815",
+      "title": "AgentScope Java 2.0 发布",
+      "published_at": "2026-06-08T09:59:33+00:00",
+      "original_language": "zh",
+      "summary_en": "Alibaba Cloud released AgentScope Java 2.0, an enterprise-grade AI agent development framework that addresses production challenges like elastic scaling, session recovery, multi‑tenant isolation, and long‑running stability. Its key innovations are a distributed stateless architecture with Kubernetes integration, a Workspace abstraction for secure data separation, a HarnessAgent for context management and fault tolerance, and fine‑grained access control with human‑in‑the‑loop support. This matters because it enables reliable, secure, and scalable deployment of AI agents in JVM production environments.",
+      "summary_zh": "阿里云发布的AgentScope Java 2.0主要解决企业级AI智能体在生产环境中的可扩展、安全和稳定运行问题。它采用分布式无状态架构与K8s弹性扩缩容，并结合多租户隔离、细粒度权限控制及Human-in-the-Loop机制，实现安全可靠的智能体执行。这一发布将多智能体框架正式带入JVM生产环境，大幅降低了企业构建和部署大规模AI智能体系统的门槛。",
+      "source": "aihot_selected",
+      "title_zh": "AgentScope Java 2.0 发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4110834830,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMTYyMTAzNA%3D%3D&mid=2247501437&idx=1&sn=d6c6dcb853adbed4ea946711d478779a",
+      "title": "Agent 辅助开发，一站式打通 Qwen3-VL Android 端侧推理",
+      "published_at": "2026-06-08T09:54:08+00:00",
+      "original_language": "zh",
+      "summary_en": "This work addresses the challenge of deploying the Qwen3-VL vision-language model for on-device inference on Android. It introduces an agent-assisted development pipeline that streamlines the entire process, making it possible to run the model locally. This matters because it simplifies edge AI deployment, enabling powerful multimodal capabilities on mobile devices without relying on cloud services.",
+      "summary_zh": "该方案通过Agent辅助开发，一站式解决了Qwen3-VL视觉语言模型在Android端侧的部署与推理难题，关键在于利用智能代理简化模型适配和移动端集成流程。这使得大模型能够直接在手机上运行，既保证了实时响应，又增强了对用户隐私的保护。",
+      "source": "aihot_selected",
+      "title_zh": "Agent 辅助开发，一站式打通 Qwen3-VL Android 端侧推理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1058411843,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkzMDQ5NTQwMQ%3D%3D&mid=2247488842&idx=1&sn=3dab63189fa60b3b78c5ad72e3358791",
+      "title": "生数科技与华策集团达成战略合作，共建AIGC影视创制中心",
+      "published_at": "2026-06-08T09:30:33+00:00",
+      "original_language": "zh",
+      "summary_en": "Shengshu Technology and Huace Group are partnering to establish an AIGC film center, tackling the slow integration of AI into traditional movie production by combining Shengshu's Vidu video generation AI with Huace's industry resources. The collaboration applies AI across the full workflow—from script generation to special effects—to validate and scale its use. This matters because it could significantly cut costs and production time while making advanced AI tools a practical, widespread reality in the film industry.",
+      "summary_zh": "本文介绍了生数科技与华策集团共建AIGC影视创制中心，旨在解决AI视频生成技术难以深度融入影视产业全流程的落地难题。双方通过整合生数科技的Vidu视频生成能力与华策的影视资源，在剧本生成、预可视化、特效制作等环节进行技术验证，加速AI从实验性应用向规模化产业应用转化。这一合作标志着AI影视创作从技术探索迈向产研协同，为行业智能化升级提供了可复用的实践路径。",
+      "source": "aihot_selected",
+      "title_zh": "生数科技与华策集团达成战略合作，共建AIGC影视创制中心",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2670100422,
+      "url": "https://x.com/shao__meng/status/2063902211978223678",
+      "title": "邵猛开源 Brand to DESIGN.md 技能，提醒复刻易生新\"AI Slop\"",
+      "published_at": "2026-06-08T08:33:27+00:00",
+      "original_language": "zh",
+      "summary_en": "Shao Meng addresses the problem of generic, tasteless AI-generated designs by open-sourcing a skill that extracts brand design tokens into a DESIGN.md file, enabling AI agents to replicate websites with better brand consistency and taste. However, he finds that over-reliance on this replication can spawn a new \"AI Slop\"—superficial imitation that lacks genuine design essence—highlighting the difficulty of automating authentic aesthetic judgment and the ongoing tension between efficiency and design depth.",
+      "summary_zh": "邵猛开源了 Brand to DESIGN.md 技能，让 AI 代理学习设计品味后复刻网站，以此对抗千篇一律的“AI Slop”现象。但他发现，这种复刻容易流于表面模仿，反而催生出缺乏精髓的新“AI Slop”，警示单纯复制无法真正提升设计原创性。",
+      "source": "aihot_selected",
+      "title_zh": "邵猛开源 Brand to DESIGN.md 技能，提醒复刻易生新\"AI Slop\"",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3578171977,
+      "url": "https://www.ithome.com/0/961/480.htm",
+      "title": "微信AI官宣内测：两种接入模式供开发者选择",
+      "published_at": "2026-06-08T08:02:38+00:00",
+      "original_language": "zh",
+      "summary_en": "The problem addressed is enabling natural language interaction with WeChat mini-programs through an AI assistant. The key approach is offering two developer integration modes: an automatic mode that lets the AI operate a mini-program by reading its source code, and a development mode for building custom callable skills. This matters because it streamlines AI-powered interaction without requiring extra development effort while preserving existing services, potentially broadening accessibility and functionality.",
+      "summary_zh": "微信AI通过自然语言对话让用户直接操作小程序，解决了传统交互效率不足的问题。它提供自动授权和自主开发两种接入模式，开发者可灵活选择，无需大量额外工作。这降低了小程序智能化门槛，有望显著提升用户体验，且不影响现有服务。",
+      "source": "aihot_selected",
+      "title_zh": "微信AI官宣内测：两种接入模式供开发者选择",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2079884338,
+      "url": "https://www.bloomberg.com/news/articles/2026-06-08/how-coreweave-sees-the-market-for-compute-right-now",
+      "title": "CoreWeave 如何看待当前计算市场",
+      "published_at": "2026-06-08T08:00:32+00:00",
+      "original_language": "zh",
+      "summary_en": "CoreWeave analyzes the current compute market by identifying key drivers and inhibitors of growth, structuring its perspective around these two dimensions. This approach reveals how surging AI demand and supply-side constraints shape infrastructure strategy, providing a clear framework for evaluating market opportunities and risks. Understanding these opposing forces is critical for making informed decisions about scaling compute capacity in the AI/ML sector.",
+      "summary_zh": "CoreWeave 通过分析当前计算市场的推动与限制两方面的增长因素，系统性地阐述了其市场看法。这一分析帮助厘清行业发展的关键驱动力与瓶颈，为市场参与者提供了决策参考。",
+      "source": "aihot_selected",
+      "title_zh": "CoreWeave 如何看待当前计算市场",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1736664271,
+      "url": "https://x.com/PixVerse_/status/2063890444413706442",
+      "title": "PixVerse Creative Partner Program 2.0 上线",
+      "published_at": "2026-06-08T07:46:41+00:00",
+      "original_language": "zh",
+      "summary_en": "PixVerse addresses the need for a supportive ecosystem for AI video creators by launching the Creative Partner Program 2.0, which offers weekly credits, cash rewards, and dedicated support for tutorials, testing, and film projects. This matters because it directly incentivizes authentic creation, amplifies creator visibility, and fosters collaborative innovation in AI-generated video content.",
+      "summary_zh": "PixVerse 推出的创作者合作计划 2.0 面向 AI 视频创作者，通过每周现金奖励、积分和项目特别支持，激励创作者开展真实创作、测试与公开推广新想法。该计划直接为创作者提供制作资源、高额奖励及与平台共创的曝光机会，旨在解决 AI 视频创作中激励不足与推广困难的问题，从而加速优质内容产出与社区生态发展。",
+      "source": "aihot_selected",
+      "title_zh": "PixVerse Creative Partner Program 2.0 上线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4248515992,
+      "url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements",
+      "title": "英国借助 NVIDIA 技术将主权 AI 雄心转化为行动",
+      "published_at": "2026-06-08T06:00:57+00:00",
+      "original_language": "zh",
+      "summary_en": "The UK is turning its sovereign AI ambitions into action by leveraging NVIDIA technology, with a doubling of AI cloud providers, deployment of large-scale infrastructure and a zero-carbon supercomputer. Key findings include startup innovations like 70x faster cold starts and 90-95% cost reduction, along with significant training accelerations for biomedical foundation models. This matters because it demonstrates how state-backed vision combined with industry partnerships can rapidly build a competitive and sustainable AI ecosystem.",
+      "summary_zh": "英国通过大规模部署 NVIDIA AI 基础设施和零碳超级计算机 Isambard-AI，将“AI 制造者”主权战略落地，快速扩大云算力并支撑初创生态。其关键推动是在主权基金支持下，多家初创公司利用 NVIDIA 全栈技术（如 GH200、Blackwell GPU、Dynamo 等）实现多模态模型训练、超低推理成本和生物基础模型加速，显著提升 AI 主权竞争力。这标志着国家层面以绿色算力和深度产业协同，将 AI 雄心转化为可复制的技术主权实践。",
+      "source": "aihot_selected",
+      "title_zh": "英国借助 NVIDIA 技术将主权 AI 雄心转化为行动",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4079605194,
+      "url": "https://x.com/TencentHunyuan/status/2063862263434613237",
+      "title": "腾讯混元联合多家机构发布首个音频编辑基准MMAE",
+      "published_at": "2026-06-08T05:54:42+00:00",
+      "original_language": "zh",
+      "summary_en": "MMAE is the first comprehensive benchmark designed to evaluate AI models’ ability to perform precise, instruction-based audio editing—rather than simple generation—by requiring models to modify existing audio according to natural language directives. Current models achieve an exact match rate below 5% on MMAE’s 20,000 high-fidelity samples and 17,741 fine-grained evaluations spanning 7 modalities and 6 levels of task complexity, revealing a major reliability gap in real-world audio editing. By providing a standardized multi-task testbed with publicly available data, code, and model demonstrations, MMAE aims to catalyze rigorous progress in controllable audio manipulation research.",
+      "summary_zh": "腾讯混元与多所高校联合发布首个全面评估AI音频编辑能力的基准MMAE，填补了该领域系统性评估的空白。该基准通过2000个高保真样本和逾1.7万细粒度评估项，覆盖多种音频模态、任务复杂度和操作类型，当前模型精确匹配率普遍低于5%。这一工作揭示了精准音频编辑的重大挑战，为提升模型可靠编辑能力提供了关键测试平台。",
+      "source": "aihot_selected",
+      "title_zh": "腾讯混元联合多家机构发布首个音频编辑基准MMAE",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3328160492,
+      "url": "https://www.ithome.com/0/961/378.htm",
+      "title": "全球首个：高德发布3D原生城市世界模型ABot-Earth0.5",
+      "published_at": "2026-06-08T05:53:46+00:00",
+      "original_language": "zh",
+      "summary_en": "Alibaba’s Amap unveiled ABot-Earth0.5, a 3D‑native urban world model that generates editable kilometer‑scale 3D city scenes (3D Gaussian Splatting format) from satellite images or text in under 10 minutes on a consumer GPU. This slashes mapping cost to 1% and speed by roughly 1000× compared to traditional pipelines, delivering scalable, game‑engine‑ready 3D environments for embodied intelligence, low‑altitude economy, and emergency response.",
+      "summary_zh": "高德ABot-Earth0.5解决了传统3D城市建模成本高、效率低的问题，用户只需输入卫星图或文字即可在消费级GPU上快速生成可编辑的公里级3D城市场景，成本降至传统的百分之一、效率提升千倍。该模型为具身智能、低空经济等场景提供了高精度的3D空间基底，是全球首个覆盖190多个国家和地区的3D原生城市世界模型，已开放内测并可直接对接Unity等开发引擎。",
+      "source": "aihot_selected",
+      "title_zh": "全球首个：高德发布3D原生城市世界模型ABot-Earth0.5",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1802641763,
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory",
+      "title": "NVIDIA与LG集团合作建设AI工厂，加速物理AI与自动驾驶",
+      "published_at": "2026-06-08T03:00:50+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA与LG集团合作建设AI工厂，为LG的机器人、自动驾驶、数据中心和GPU云服务提供加速计算基础设施。双方整合NVIDIA AI工厂平台与LG的消费电子、机器人技术，连接AI模型开发、物理AI数据生成、机器人仿真训练、边缘部署和工厂数字孪生。LG电子将利用NVIDIA Isaac Sim和Isaac Lab仿真训练CLOiD家用机器人，探索采用Isaac GR00T模型，并开发物理AI数据工厂。LG Innotek提供针对NVIDIA GPU优化的机器人传感组件，LG CNS集成NVIDIA机器人技术。双方还将基于NVIDIA DSX平台建设下一代AI工厂，涵盖冷却、模块化设计和800",
+      "summary_zh": "NVIDIA与LG集团合作建设AI工厂，旨在为机器人、自动驾驶等领域提供加速计算基础设施，解决物理AI开发和规模化部署的计算瓶颈。核心做法是整合NVIDIA的AI工厂平台（如Isaac Sim、DRIVE）与LG的消费电子和机器人产品，覆盖从模型训练、仿真到边缘部署的全流程，并探索GR00T等基础模型。这一合作将加速家用机器人、自动驾驶等物理AI系统的商业化落地，并推动高效能数据中心和数字孪生技术的创新。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA与LG集团合作建设AI工厂，加速物理AI与自动驾驶",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4279675063,
+      "url": "https://www.bloomberg.com/news/articles/2026-06-07/nvidia-sk-hynix-sign-multi-year-pact-to-develop-next-gen-chips",
+      "title": "Nvidia 与 SK Hynix 签署多年协议，共同开发下一代 AI 存储芯片",
+      "published_at": "2026-06-07T23:26:02+00:00",
+      "original_language": "zh",
+      "summary_en": "Nvidia and SK Hynix are jointly designing future memory chips optimized for AI workloads, tackling the critical performance bottleneck of data movement in large-scale AI systems. This partnership secures SK Hynix’s position as a leader in high-bandwidth memory and ensures a steady innovation pipeline for AI-accelerator hardware, which is essential for training and deploying increasingly complex models.",
+      "summary_zh": "英伟达与SK海力士签署多年协议，共同设计面向AI应用的下一代存储芯片，以解决未来AI工作负载对更高带宽和效率的存储需求。此举不仅强化了SK海力士在高端半导体市场的领先地位，也彰显了定制化存储对加速AI硬件创新的关键意义。",
+      "source": "aihot_selected",
+      "title_zh": "Nvidia 与 SK Hynix 签署多年协议，共同开发下一代 AI 存储芯片",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1834878352,
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai",
+      "title": "英伟达与斗山集团合作推进物理AI及AI工厂基础设施",
+      "published_at": "2026-06-07T23:00:36+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA and Doosan Group are partnering to tackle the challenge of deploying physical AI at scale by integrating NVIDIA’s simulation, robot, and world-model platforms (Isaac Sim, Cosmos, Newton, Jetson Thor) into Doosan’s robotics and heavy equipment lines, and by supplying power and electronic materials for AI data centers. This collaboration yields an end-to-end infrastructure stack—from agentic robot operating systems and construction-automation world models to AI factory energy solutions and high-performance server PCB substrates—accelerating the industrial rollout of autonomous machines and sustainable AI compute.",
+      "summary_zh": "英伟达与斗山集团合作聚焦物理AI与AI工厂基础设施，通过将NVIDIA Isaac Sim、Cosmos世界模型等集成到斗山机器人，加速智能机器人操作系统开发，并利用物理AI技术优化建筑、能源设备及AI服务器关键材料供应。此举旨在打通从机器人智能到能源、算力基础设施的全链条，推动工业AI规模化落地。",
+      "source": "aihot_selected",
+      "title_zh": "英伟达与斗山集团合作推进物理AI及AI工厂基础设施",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3930384572,
+      "url": "https://x.com/dotey/status/2063686036895478162",
+      "title": "ChatGPT 要变 AgentGPT 了",
+      "published_at": "2026-06-07T18:14:27+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI is transforming ChatGPT from a chat-based interface into an agent platform that integrates programming tools, image generation, and third-party services, aiming to reduce user prompts and act as a proactive personal assistant. This move addresses the limitation of passive conversational AI by enabling autonomous tool use across applications, and it reflects mounting competitive pressure and the need to sustain revenue growth despite heavy operational costs.",
+      "summary_zh": "OpenAI正将ChatGPT从被动聊天工具升级为能主动整合编程、图像生成及第三方应用的智能代理平台，以转型为无需用户输入提示词的跨平台个人AI助手。此举旨在应对月收入20亿却未盈利的压力，并抗衡Anthropic等对手，通过超级应用生态寻求更高估值和商业化突破。",
+      "source": "aihot_selected",
+      "title_zh": "ChatGPT 要变 AgentGPT 了",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3217121855,
+      "url": "https://x.com/rohanpaul_ai/status/2063662672835703126",
+      "title": "特朗普政府与OpenAI讨论通过公共财富基金入股AI初创公司",
+      "published_at": "2026-06-07T16:41:36+00:00",
+      "original_language": "zh",
+      "summary_en": "The proposal tackles public fears of AI-driven job displacement and corporate control by giving citizens a direct financial stake in AI growth. The key mechanism is a public wealth fund that receives equity donations from AI startups and distributes dividends to individuals, rather than having the government run the companies. This matters because it aligns the interests of AI firms,",
+      "summary_zh": "特朗普政府与OpenAI探讨通过公共财富基金，让AI公司捐赠部分股权，以账户或分红形式将AI增长红利直接返还美国公民，而非政府直接运营。此举旨在应对选民对失业、企业控制等担忧，同时为AI企业换取基建、采购和监管上的政策支持，实现利益共享与政治协作。",
+      "source": "aihot_selected",
+      "title_zh": "特朗普政府与OpenAI讨论通过公共财富基金入股AI初创公司",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2878691184,
+      "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app",
+      "title": "OpenAI 仍推进超级应用计划",
+      "published_at": "2026-06-07T16:23:22+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI is signaling a strategic pivot beyond conversational interfaces, with an insider declaring that \"chat is dead,\" while the company pushes forward with a super app vision. This shift addresses the limitations of single-purpose chat UIs by aiming for a more integrated, task-oriented AI experience. For researchers, it underscores a critical evolution in user interaction paradigms, where future AI systems must transcend dialogue to deliver cohesive, multimodal functionality within a unified platform.",
+      "summary_zh": "OpenAI正将重心从单纯聊天转向开发超级应用，一名高级员工直言“聊天已死”。此举旨在构建超越对话的多功能平台，以应对未来竞争并重塑AI助手市场格局。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 仍推进超级应用计划",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3705303009,
+      "url": "https://garymarcus.substack.com/p/slop-productivity-and-why-the-ai",
+      "title": "Slop、生产力，以及为何AI驱动的世界进展甚微",
+      "published_at": "2026-06-07T15:31:43+00:00",
+      "original_language": "zh",
+      "summary_en": "Gary Marcus highlighted a Financial Times chart that captures his longstanding argument: AI's promised productivity boom remains elusive because current systems produce vast quantities of low-quality \"slop\" rather than reliable, actionable insight. This matters because it challenges tech industry assumptions that scaling alone will drive progress, emphasizing instead the need for better quality control and alignment with human needs.",
+      "summary_zh": "该文章针对一个核心矛盾：尽管人工智能备受追捧，但其实际推动的生产力增长却微乎其微。关键发现是一张由John Burn-Murdoch制作的图表，它用数据直观展示了AI投入激增与经济效益滞后之间的脱节，从而印证了Gary Marcus长期对AI泡沫的批评。这一观点之所以重要，是因为它提请人们警惕盲目投资AI而忽视真实世界产出改善的风险。",
+      "source": "aihot_selected",
+      "title_zh": "Slop、生产力，以及为何AI驱动的世界进展甚微",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 800819406,
+      "url": "https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27",
+      "title": "苹果秘密会议内幕：它终于认真对待AI",
+      "published_at": "2026-06-07T14:00:01+00:00",
+      "original_language": "zh",
+      "summary_en": "After a secret internal meeting, Apple has decided to make AI a core strategic focus, addressing its previous lag in the AI race. The company is pivoting entirely toward AI, with key developments to be announced at WWDC 2026. This matters because it signals a serious, ecosystem-wide commitment that could reshape Apple’s product lineup and competitive stance.",
+      "summary_zh": "苹果公司此前对人工智能战略重视不足，但在一次高层秘密会议后，正式将AI列为核心发展方向。这场内部决策推动了公司全面向AI领域转型，具体进展预计在2026年全球开发者大会（WWDC）上公布，标志着苹果终于全力投入AI竞争，可能改变行业格局。",
+      "source": "aihot_selected",
+      "title_zh": "苹果秘密会议内幕：它终于认真对待AI",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2779304850,
+      "url": "https://symbolica.io/posts/symbolica_2_0_release",
+      "title": "Symbolica 2.0：适用于 Python 和 Rust 的可编程符号系统",
+      "published_at": "2026-06-07T12:59:12.136000+00:00",
+      "original_language": "zh",
+      "summary_en": "Symbolica 2.0 is a programmable symbolic system now available for Python and Rust, offering a flexible framework for symbol manipulation and algebraic computation. The release, which gained notable community attention on Hacker News, addresses the need for efficient, embeddable symbolic engines in popular languages, empowering AI/ML researchers to integrate symbolic reasoning directly into their workflows without relying on external algebra tools.",
+      "summary_zh": "Symbolica 2.0 是一个可编程符号系统，通过同时支持 Python 和 Rust，解决了符号计算中灵活开发与高性能执行难以兼顾的问题。其设计允许用户用 Python 快速构建原型，并用 Rust 实现高效底层运算，这对需要符号推理的 AI/ML 研究具有重要价值，因此在 Hacker News 上获得广泛关注。",
+      "source": "aihot_selected",
+      "title_zh": "Symbolica 2.0：适用于 Python 和 Rust 的可编程符号系统",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3216522568,
+      "url": "https://x.com/AYi_AInotes/status/2063573709672104286",
+      "title": "\"我在田里雇了一名工程师，它叫 Codex\" -- 北海道一个西兰花农的 8 个真实 AI 用法",
+      "published_at": "2026-06-07T10:48:06+00:00",
+      "original_language": "zh",
+      "summary_en": "Japanese farmer Hirotaka Tomiyasu used ChatGPT and Codex to tackle practical farm challenges in eight areas, from diagnosing broccoli diseases via photos to building low-cost greenhouse controls and farm management databases. His approach demonstrates that generative AI acts like an on-demand expert, making advanced automation and data-driven agriculture accessible and affordable for small-scale farmers without specialized engineering skills.",
+      "summary_zh": "北海道农民富安弘毅通过ChatGPT和Codex实现低成本农业自动化，解决了病害识别、环境监控和农场管理等问题，核心方法是将AI工具与ESP32、LINE等低成本硬件和软件结合。这证明了AI能大幅降低传统农业智能化的技术门槛和成本，使个体农户也能像拥有“超级工程师”一样自主开发解决方案。",
+      "source": "aihot_selected",
+      "title_zh": "\"我在田里雇了一名工程师，它叫 Codex\" -- 北海道一个西兰花农的 8 个真实 AI 用法",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2682075950,
+      "url": "https://huggingface.co/blog/build-small-hackathon/her-blog",
+      "title": "Her · हेर - Claude Code 会话分析工具",
+      "published_at": "2026-06-07T10:13:41+00:00",
+      "original_language": "zh",
+      "summary_en": "Her addresses the need for safe, efficient auditing of Claude Code sessions by automatically reconstructing interactions, flagging high-risk operations (deployments, secrets, config changes), and providing actionable best-practice recommendations. It uses a deterministic analysis engine combined with a local Nemotron-Mini-4B model only for text generation, ensuring that privacy-sensitive session data never leaves the user’s environment. This matters because it gives developers transparent visibility into token usage, tool dependencies, and potential security issues without relying on third-party AI services.",
+      "summary_zh": "Her 针对 Claude Code 会话日志缺乏结构化安全审计与优化指导的问题，通过本地运行的 Nemotron-Mini-4B 模型自动解析 `.jsonl` 交互记录，精准定位部署、配置修改等高风险操作并标记所用 CLI 工具。该方法在不泄漏数据的前提下，将隐性的开发行为转化为可量化的 token 消耗、工具链依赖分析，并基于最佳实践输出可操作的改进建议，显著提升了 AI 辅助编程的安全性与效率。",
+      "source": "aihot_selected",
+      "title_zh": "Her · हेर - Claude Code 会话分析工具",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4080350893,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.17.1-nightly.20260608.aea34fa2c",
+      "title": "QwenLM/qwen-code: Release v0.17.1-nightly.20260608.aea34fa2c",
+      "published_at": "2026-06-08T00:43:36+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release of Qwen Code refines developer tooling by fixing CLI copy output to exclude internal thought traces and by adding installer asset verification, which bolsters security. It improves real-world usability for AI-assisted coding and ensures safer, more reliable distribution.",
+      "summary_zh": "这是 Qwen Code 工具的 v0.17.1 夜间构建版本，主要修复了命令行界面中复制输出时会包含模型内部推理片段（thought parts）的问题，通过跳过这些片段使复制行为更符合用户预期。同时，安装器新增了发布资产校验功能，提升了安装的可靠性与安全性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.17.1-nightly.20260608.aea34fa2c",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 742072321,
+      "url": "https://github.com/MoonshotAI/checkpoint-engine/releases/tag/v0.4.1-rc0",
+      "title": "MoonshotAI/checkpoint-engine: v0.4.1-rc0",
+      "published_at": "2026-06-08T07:58:46+00:00",
+      "original_language": "en",
+      "summary_en": "This release improves the checkpoint engine's reliability and hardware compatibility for distributed AI/ML training. It fixes a dynamic import issue, refactors RDMA device detection for better maintainability, and adds support for multiple network interfaces and AWS Elastic Fabric Adapter (EFA). These changes ensure robust checkpointing across heterogeneous high-speed interconnects, reducing training interruptions and enabling scalable fault tolerance.",
+      "summary_zh": "本版本通过重构RDMA设备检测、支持单设备多网络接口及适配AWS EFA，解决了分布式训练中检查点存储的网络兼容性与性能问题，从而提升大规模训练场景下的数据写入可靠性和效率。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/checkpoint-engine: v0.4.1-rc0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
