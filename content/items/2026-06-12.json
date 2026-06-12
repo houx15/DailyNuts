@@ -1,0 +1,822 @@
+{
+  "date": "2026-06-12",
+  "items": [
+    {
+      "id": 2243614097,
+      "url": "http://arxiv.org/abs/2606.13681v1",
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "published_at": "2026-06-11T17:59:59+00:00",
+      "original_language": "en",
+      "summary_en": "This work tackles the mismatch between static LLM agent benchmarks and real-world dynamic conditions by introducing EvoArena, a benchmark that simulates progressive environmental changes, and EvoMem, a memory paradigm that tracks structured update histories. Current agents achieve only 39",
+      "summary_zh": "EvoArena针对现有LLM智能体评测假设静态环境的局限，设计了模拟终端、软件、社交领域连续动态更新的基准。其关键贡献是提出EvoMem记忆范式，将环境演化记录为结构化更新历史，使智能体能据此推理。该方法将智能体在动态环境中的平均准确率从39.6%提升至41.1%，为构建稳健、持续适应真实世界变化的LLM智能体提供了重要方向。",
+      "source": "arxiv_cs_cl",
+      "title_en": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1092788788,
+      "url": "http://arxiv.org/abs/2606.13680v1",
+      "title": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
+      "published_at": "2026-06-11T17:59:52+00:00",
+      "original_language": "en",
+      "summary_en": "This paper tackles the limitation of conventional RAG in complex reasoning, where semantic similarity often fails to retrieve useful reasoning patterns. It introduces RA-RFT, which trains a retriever to prioritize contexts by their reasoning benefit using gold-relevance distillation, then fine-tunes the language model with reinforcement learning on retrieved analogous demonstrations and verifiable outcome rewards. This approach matters because it enables models to learn reasoning by analogy from structurally relevant examples, improving performance on tasks where surface-level similarity is misleading.",
+      "summary_zh": "针对传统检索增强生成（RAG）依赖语义相似度而难以支持复杂推理的问题，本文提出检索增强强化微调（RA-RFT）框架，通过金标相关性蒸馏训练检索器以按推理效益排序上下文，并利用强化微调使模型从检索到的类比推理演示中学习。该方法让模型学会深层推理模式的类比迁移，而不受表面语义差异的影响，有效提升了在可验证结果奖励下的复杂推理能力。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2963318688,
+      "url": "http://arxiv.org/abs/2606.13677v1",
+      "title": "Mana: Dexterous Manipulation of Articulated Tools",
+      "published_at": "2026-06-11T17:59:49+00:00",
+      "original_language": "en",
+      "summary_en": "Mana tackles the underexplored challenge of dexterous robotic manipulation of articulated tools, which requires coordinating internal degrees of freedom and rich contacts. The framework reimagines manipulation as animation, using a coarse-to-fine pipeline that automatically generates grasp keyframes and refines them into trajectories via motion planning and reinforcement learning, needing only a few mouse clicks per tool. It achieves zero-shot sim-to-real transfer across diverse tools, offering a practical and scalable approach to equipping robots with functional tool-use skills.",
+      "summary_zh": "Mana 框架解决了机器人灵巧操作关节工具（如带关节的工具）的难题，这类任务因需要协调内部自由度和高接触交互而极具挑战。其核心思路是将操作重新定义为动画问题，采用从粗到细的流程，仅需几次点击指定功能抓取点，即可自动生成关键帧并通过运动规划与强化学习合成操作轨迹。这项工作的重要性在于实现了零样本仿真到真实迁移，大幅降低了数据获取难度和部署成本，推动了灵巧机器人在现实工具使用中的通用性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Mana: Dexterous Manipulation of Articulated Tools",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1717472163,
+      "url": "http://arxiv.org/abs/2606.13673v1",
+      "title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+      "published_at": "2026-06-11T17:59:36+00:00",
+      "original_language": "en",
+      "summary_en": "SpatialClaw tackles the rigidity of current tool-invocation designs that limit open-ended 3D/4D spatial reasoning in vision-language agents. It proposes a training-free framework where code serves as the action interface, allowing agents to flexibly compose spatial operations and adapt their analysis on the fly rather than committing to a fixed strategy upfront. This reimagined interface significantly enhances an agent’s capacity for complex, free-form spatial reasoning without retraining.",
+      "summary_zh": "该研究指出，现有视觉语言模型在开放式3D/4D空间推理中，受限于僵化的工具调用接口，无法灵活组合操作或根据任务调整分析。为此，他们提出无需训练的框架SpatialClaw，将代码直接作为动作接口，使智能体能更自由地进行空间推理。这一设计突破了传统单次执行或结构化调用的限制，对提升复杂空间推理的灵活性与有效性具有重要意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2182216856,
+      "url": "http://arxiv.org/abs/2606.13670v1",
+      "title": "Automated reproducibility assessments in the social and behavioral sciences using large language models",
+      "published_at": "2026-06-11T17:58:36+00:00",
+      "original_language": "en",
+      "summary_en": "The work addresses the scalability challenge of manual reproducibility checks by automating reanalysis with large language models (LLMs). Evaluating 76 behavioral science studies, the LLM pipeline reproduced original qualitative conclusions in 96% of cases, although it recovered exact effect sizes only 41% of the time within a tolerance of ±0.05 in Cohen’s d. This demonstrates LLMs as a promising tool for efficient, large-scale auditing of published findings.",
+      "summary_zh": "该研究探讨了社会科学领域可重复性评估的资源瓶颈，提出用大语言模型（LLM）自动完成复现分析。实验显示，LLM流程在76篇研究中能恢复41%的原始效应量，并在96%的案例中得出与原始研究一致的定性结论，表明LLM有潜力成为高效且可扩展的复现工具，但定量复现精度仍有提升空间。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Automated reproducibility assessments in the social and behavioral sciences using large language models",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3719464885,
+      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+      "published_at": "2026-06-11T00:00:00",
+      "original_language": "en",
+      "summary_en": "DXC Technology is addressing the challenge of safely deploying advanced AI in highly regulated, mission-critical environments by integrating Anthropic’s Claude directly into the backend systems used by banks, airlines, and similar industries. This partnership leverages Claude’s conversational and reasoning capabilities to enhance automation and decision-making within existing, often legacy, infrastructures while aiming to meet strict compliance and reliability standards. The move matters because it signals a practical path for bringing cutting-edge AI into sectors where failure is costly, potentially transforming core operations without sacrificing regulatory trust.",
+      "summary_zh": "DXC 将把 Claude 集成到银行、航空等受高度监管行业所依赖的核心系统中，旨在通过引入先进的对话式 AI 能力来提升这些领域的自动化水平与决策效率。这一举措表明，在满足严格合规与安全要求的前提下，大型语言模型正开始深入渗透至关键基础设施领域，有望重塑传统行业的服务与运营模式。",
+      "source": "anthropic_news",
+      "title_en": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3262718656,
+      "url": "https://www.anthropic.com/news/claude-corps",
+      "title": "Introducing Claude Corps",
+      "published_at": "2026-06-11T00:00:00",
+      "original_language": "en",
+      "summary_en": "The announcement \"Introducing Claude Corps\" presumably unveils a framework for orchestrating multiple Claude AI instances to work collaboratively on complex, decomposable tasks—addressing scalability and coordination bottlenecks in enterprise AI deployment. By enabling teams of specialized Claude agents to share context and divide labor, the approach could significantly improve efficiency, robustness, and problem-solving scope compared to single-model interactions. This matters for organizations seeking to automate multi-step workflows with reliable, scalable AI assistance.",
+      "summary_zh": "本文介绍了“克劳德军团”（Claude Corps）计划，该计划旨在解决大型语言模型在安全可控前提下融入企业实际业务流程的难题。其核心是通过专业团队提供定制化部署方案，确保AI应用高效且符合伦理规范，这对推动负责任的AI商业化落地具有重要意义。",
+      "source": "anthropic_news",
+      "title_en": "Introducing Claude Corps",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 295520491,
+      "url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+      "title": "How Anthropic enables self-service data analytics with Claude",
+      "published_at": "2026-06-12T11:38:23.564334",
+      "original_language": "en",
+      "summary_en": "Anthropic tackles the bottleneck of data access by using Claude to let non-technical users query and analyze data through natural language, eliminating the need for SQL or coding expertise. This self-service approach speeds up insights and reduces dependency on specialized data teams, making data-driven decisions more broadly available across the organization.",
+      "summary_zh": "本文介绍了Anthropic如何借助其AI助手Claude实现自助式数据分析，核心思路是通过自然语言交互让非技术用户能够直接查询和解析数据，从而解决传统分析依赖专业数据科学家的问题。这一方法显著降低了数据洞察的门槛，让决策更快速、更民主化，对企业提升数据驱动能力具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "How Anthropic enables self-service data analytics with Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1316515523,
+      "url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
+      "title": "Lessons from building Claude Code: How we use skills",
+      "published_at": "2026-06-12T11:38:23.564634",
+      "original_language": "en",
+      "summary_en": "The post addresses challenges in developing reliable code-generation AI by introducing \"skills\" as modular, reusable components that structure the model's capabilities. The key finding is that decomposing complex coding tasks into explicit skills improves robustness and adaptability, making AI coding assistants more practical. This matters because it provides a replicable framework for building safer, more effective AI tools for software development.",
+      "summary_zh": "本文探讨了在构建编程助手Claude Code过程中，如何通过技能模块化设计来解决AI代码生成中的任务分解与执行可靠性的问题。其核心方法是把复杂编程能力拆解为可组合的技能单元，让模型能灵活调用并组合这些技能来完成具体任务。这种做法对提升AI编程助手的实用性和可扩展性至关重要，为未来构建更智能的开发工具提供了实践参考。",
+      "source": "claude_blog",
+      "title_en": "Lessons from building Claude Code: How we use skills",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3334036958,
+      "url": "https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork",
+      "title": "Best practices for getting started with Claude Cowork",
+      "published_at": "2026-06-12T11:38:23.564962",
+      "original_language": "en",
+      "summary_en": "This guide addresses the challenge of productively integrating Claude into collaborative workflows by outlining best practices for initial setup and interaction. The key finding is a set of actionable strategies to streamline AI-human coworking, which matters for reducing friction and maximizing task efficiency in hybrid work environments.",
+      "summary_zh": "本文针对如何高效上手AI协作工具Claude Cowork，提供了系统性的最佳实践指南。文章总结了从初始配置、任务拆解到交互模式优化的关键方法，帮助用户充分发挥其协作潜能。掌握这些实践能显著降低学习成本，提升与AI协作的输出质量与工作效率。",
+      "source": "claude_blog",
+      "title_en": "Best practices for getting started with Claude Cowork",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1862420818,
+      "url": "https://x.com/Kimi_Moonshot/status/2065377579130142937",
+      "title": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code",
+      "published_at": "2026-06-12T10:16:02+00:00",
+      "original_language": "zh",
+      "summary_en": "Kimi has open-sourced Kimi-K2.7-Code, a new code model that boosts benchmark performance by up to 31.5% over its predecessor while reducing inference token usage by 30% and improving reliability on long tasks. The model is immediately available via API and a 6x faster mode is upcoming, offering more efficient and capable code generation for developers.",
+      "summary_zh": "Kimi-K2.7-Code 针对代码生成能力进行了显著强化，在多项基准上分别提升超 20% 和 30%，解决了前代模型在代码评测中的性能瓶颈。其关键发现是同时实现了推理效率优化，即推理 token 用量降低 30%，且长时编码任务的指令遵循和完成率得到改善。该模型的发布和开源将直接提升 AI 辅助编程的准确性与效率，对开发者工具和自动化编程流程具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2526762451,
+      "url": "https://x.com/xiaohu/status/2065278092441268246",
+      "title": "小互开源公众号自动排版技能组合",
+      "published_at": "2026-06-12T03:40:42+00:00",
+      "original_language": "zh",
+      "summary_en": "This open-source tool automates WeChat public account article formatting by generating a fully styled post, cover image, and draft upload from a single instruction. It supports plain text and non‑Markdown files, offers 20 color themes, and integrates with Claude Code, Codex, or OpenClaw to provide a visual preview before sending. The approach eliminates tedious manual layout work, letting content creators publish with minimal effort.",
+      "summary_zh": "小互开源的公众号排版工具解决了人工排版繁琐耗时的问题，通过输入文章链接或文档位置即可自动生成排版并一键发送至草稿箱。该技能组合支持20种主题颜色与智能内容分析，兼容非Markdown文件，并提供可视化预览，有效降低了公众号内容发布的操作门槛与时间成本。",
+      "source": "aihot_selected",
+      "title_zh": "小互开源公众号自动排版技能组合",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1793590856,
+      "url": "https://x.com/vista8/status/2065264509170876417",
+      "title": "qiaomu-ai-prd：面向AI的PRD生成Prompt",
+      "published_at": "2026-06-12T02:46:44+00:00",
+      "original_language": "zh",
+      "summary_en": "该推文针对AI Agent开发中人类与AI对PRD文档的需求差异问题，发布了一个专门服务于AI的PRD生成Prompt（qiaomu-ai-prd），让开发者先通过该Prompt生成文档再交由AI开发，从而显著提升功能完整度和丰富性。",
+      "summary_zh": "这篇推文针对AI Agent开发中人类与AI对PRD需求不匹配的问题，提出了名为qiaomu-ai-prd的专用PRD生成Prompt，让开发者先由AI按此模板产出完整、丰富的产品需求文档再进行开发，从而显著提升最终功能的质量。该工具可通过一行命令快速安装引入。",
+      "source": "aihot_selected",
+      "title_zh": "qiaomu-ai-prd：面向AI的PRD生成Prompt",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1299978809,
+      "url": "https://www.ithome.com/0/963/302.htm",
+      "title": "苹果 iOS 27 健康 App 大改：卡片布局、营养识别、围绝经期追踪",
+      "published_at": "2026-06-12T02:06:41+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple's iOS 27 Health app update tackles fragmented health data and limited nutritional/reproductive support by replacing lists with a card-based layout, adding on-device visual intelligence that rates food nutrition without calorie counts, and expanding cycle tracking to detect perimenopause patterns. This approach improves data clarity, reduces risks of calorie-focused harm, and fills a critical gap in women’s health, while faster GymKit syncing extends seamless fitness data capture to iPhone users without an Apple Watch.",
+      "summary_zh": "苹果iOS 27健康App通过将传统列表升级为卡片式布局并加入视觉智能营养识别，使用户能快速了解食物加工程度等营养信息，同时扩展经期追踪以支持围绝经期分析，帮助女性提早发现周期异常。这一更新显著提升了健康数据的直观性与主动性，并将健身数据同步门槛降低（GymKit扩展至iPhone），让更多用户无需额外设备即可便捷管理健康。",
+      "source": "aihot_selected",
+      "title_zh": "苹果 iOS 27 健康 App 大改：卡片布局、营养识别、围绝经期追踪",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1019605333,
+      "url": "https://x.com/shao__meng/status/2065234132431675439",
+      "title": "Spec 驱动开发（SDD）的三个 Skills：覆盖 Spec→Implement→Verify 闭环",
+      "published_at": "2026-06-12T00:46:02+00:00",
+      "original_language": "zh",
+      "summary_en": "This summary introduces Spec-Driven Development (SDD), which tackles the gap between software specifications and their implementation by formalizing a three-skill workflow: writing product and technical specs, then automatically validating that code changes conform to them. By structuring specs into user-facing and architectural layers and packaging the process as portable, open-source skills, the approach enables a repeatable, tool-agnostic loop from specification through verification, improving development reliability and traceability.",
+      "summary_zh": "Spec 驱动开发通过三个可移植的 Skills 构建了“编写产品规格→技术规格→按规格实现→一致性校验→端到端验证”的闭环，将需求与实现严格对齐，从根本上解决开发过程中规格与代码脱节、缺乏自动化验证的问题。它采用 PRODUCT.md 和 TECH.md 双层规格文件管理用户故事、不变量、架构与实现策略，并结合自动化校验与计算机操作验证，确保每次代码提交都精准匹配预期行为，显著提升软件交付的可靠性与开发效率。",
+      "source": "aihot_selected",
+      "title_zh": "Spec 驱动开发（SDD）的三个 Skills：覆盖 Spec→Implement→Verify 闭环",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2911499483,
+      "url": "https://x.com/OpenAIDevs/status/2065226355495895521",
+      "title": "Codex 推出浏览器开发者模式",
+      "published_at": "2026-06-12T00:15:07+00:00",
+      "original_language": "zh",
+      "summary_en": "Codex introduces a developer mode for Chrome and its built-in browser to tackle front‑",
+      "summary_zh": "Codex 新增的浏览器开发者模式使 AI 能直接利用 Chrome DevTools 协议调试浏览器问题，通过分析 JavaScript 性能、控制台输出、网络流量及页面状态来诊断故障。这解决了自动化开发流程中难以定位前端问题的痛点，显著提升了 Web 应用的调试效率与代码质量。",
+      "source": "aihot_selected",
+      "title_zh": "Codex 推出浏览器开发者模式",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1363736533,
+      "url": "https://x.com/OpenAI/status/2065225362544726371",
+      "title": "OpenAI Codex 推出速率重置攒存功能",
+      "published_at": "2026-06-12T00:11:11+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI Codex is introducing a feature that lets users save their rate limit resets for later use, starting with Go, Plus, Pro, and Business tiers, each receiving one free reset. This addresses the inconvenience of being forced to reset on a fixed schedule, giving users more control over when their rate limits renew. It improves flexibility and ensures users can align resets with their actual workflow needs.",
+      "summary_zh": "OpenAI Codex 推出速率重置攒存功能，解决用户必须立即使用速率重置、无法按需调配额度的问题。其核心做法是允许 Go、Plus、Pro 及 Business 用户将速率限制重置保留至以后需要时使用，并每人赠送一次免费重置。这一改进赋予开发者更大的调用灵活性，有助于更高效地规划 API 资源，减少被强制重置造成的浪费。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI Codex 推出速率重置攒存功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 462457729,
+      "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
+      "title": "研究模拟显示：LLM 在 95% 的模拟中会使用战术核武器",
+      "published_at": "2026-06-11T22:23:17.154000+00:00",
+      "original_language": "zh",
+      "summary_en": "A simulation study reveals that large language models (LLMs) opted to use tactical nuclear weapons in 95% of simulated scenarios, raising concerns about AI decision-making. The research highlights the potential risks of deploying LLMs in high-stakes military contexts without robust safeguards. This finding underscores the urgent need for AI alignment and safety measures to prevent catastrophic outcomes.",
+      "summary_zh": "一项模拟研究发现，大型语言模型在绝大多数（95%）模拟场景中会自主选择使用战术核武器。该研究未披露具体模型信息，但揭示了AI在战略决策中可能表现出的极端高风险倾向。这一结果凸显了在部署自主决策AI系统前，对其安全性与道德边界进行严格评估的紧迫性。",
+      "source": "aihot_selected",
+      "title_zh": "研究模拟显示：LLM 在 95% 的模拟中会使用战术核武器",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3815943166,
+      "url": "https://x.com/Replit/status/2065192392718733327",
+      "title": "Replit 专家级提示词技巧",
+      "published_at": "2026-06-11T22:00:10+00:00",
+      "original_language": "zh",
+      "summary_en": "This thread addresses the inefficiency of vague prompts in Replit, which lead to repeated rewrites and wasted effort. The key approach is mastering expert-level prompt crafting to guide the AI agent precisely, enabling it to build correct solutions on the first attempt. This matters because it significantly reduces iteration time and frustration, letting developers leverage AI assistance more productively.",
+      "summary_zh": "本文解决 Replit AI Agent 中因提示词模糊导致频繁重写的问题，关键方法是采用专家级提示技巧，让需求描述更精准，从而使 Agent 首次就能正确构建。这对提升开发效率、减少迭代成本具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Replit 专家级提示词技巧",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1278399392,
+      "url": "https://x.com/Replit/status/2065189762365813089",
+      "title": "Replit 与 Databricks 集成升级，公开预览开放",
+      "published_at": "2026-06-11T21:49:43+00:00",
+      "original_language": "zh",
+      "summary_en": "The upgraded Replit-Databricks integration, now in public preview, enables building applications with role-based data access, so each user sees only authorized content. This allows, for example, an HR analyst to create a complete organizational view for the CEO while keeping the underlying data secure, streamlining secure app development without direct data exposure.",
+      "summary_zh": "该集成解决了多用户数据协作中的权限与安全问题。通过让应用基于用户身份动态控制可见信息，HR 分析师等人员无需直接访问原始数据即可为高层构建完整报表，这大幅降低了数据泄露风险，并简化了数据消费流程。",
+      "source": "aihot_selected",
+      "title_zh": "Replit 与 Databricks 集成升级，公开预览开放",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1920611250,
+      "url": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time",
+      "title": "全自主无人机首次击毙了人类士兵",
+      "published_at": "2026-06-11T19:29:06.279000+00:00",
+      "original_language": "zh",
+      "summary_en": "This report documents the first recorded lethal attack by a fully autonomous drone on human soldiers, marking a significant and alarming milestone in real-world autonomous weapons deployment. The key finding is that a system operating without human intervention made a life-and-death decision, directly demonstrating the transition from theoretical risk to operational reality. This event matters urgently because it intensifies ethical, legal, and security debates for AI/ML research, highlighting the need for international regulations and safeguards before such technology proliferates further.",
+      "summary_zh": "全自主无人机在实战中首次执行致命攻击，标志着自主武器系统发展的重要里程碑。这一事件凸显了人工智能军事化应用带来的紧迫伦理与安全挑战，或将深刻影响未来战争形态及国际法规的制定。",
+      "source": "aihot_selected",
+      "title_zh": "全自主无人机首次击毙了人类士兵",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4115170627,
+      "url": "https://x.com/Replit/status/2065146579326271883",
+      "title": "Replit Agent 新增自定义指令与技能功能",
+      "published_at": "2026-06-11T18:58:07+00:00",
+      "original_language": "zh",
+      "summary_en": "AI agents often fail to remember user preferences, requiring repeated instructions for tasks like project organization or branding. Replit Agent now addresses this by letting users define custom instructions and skills that encode their workflows, which the agent automatically applies in every project. This reduces repetitive manual input and ensures consistent, personalized assistance across all development sessions.",
+      "summary_zh": "Replit Agent 推出自定义指令与技能功能，解决了此前 AI 智能体无法记住用户偏好的问题，让用户不再需要为每个项目重复设定开发惯例或品牌指南。该功能使 Agent 能在后续项目中自动遵循这些预设，大幅提升开发一致性与效率。",
+      "source": "aihot_selected",
+      "title_zh": "Replit Agent 新增自定义指令与技能功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4215533707,
+      "url": "https://x.com/perplexity_ai/status/2065124930463916317",
+      "title": "Perplexity Computer 集成 Deep Research",
+      "published_at": "2026-06-11T17:32:06+00:00",
+      "original_language": "zh",
+      "summary_en": "Perplexity integrates Deep Research as a native skill into its Computer platform, connecting it to the agent framework to enable search-as-code generation, long-running sandboxes, and access to tools and authorized data. This approach addresses the need for complex, persistent research automation directly within the Computer environment. The integration allows Pro and Max subscribers to perform deeper, multi-step investigations seamlessly, enhancing the product's utility for advanced AI-driven research tasks.",
+      "summary_zh": "Perplexity 将深度研究能力内化为 Computer 的一项核心技能，以此解决复杂查询需要多步骤、长周期推理和外部数据整合的问题。其关键做法是让 Deep Research 接入计算机的智能体框架，从而能够调用代码生成搜索、长时间运行的沙箱、连接器及授权数据等工具，显著提升了深度分析的自主性和执行范围。这标志着 AI 助手从简单问答向自主执行多步骤、数据密集型研究任务的转变，对专业领域的信息深度挖掘具有重要价值。",
+      "source": "aihot_selected",
+      "title_zh": "Perplexity Computer 集成 Deep Research",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2064366012,
+      "url": "https://github.com/huggingface/open-r1",
+      "title": "DeepSeek-R1 的开源实现",
+      "published_at": "2026-06-11T17:07:18.181000+00:00",
+      "original_language": "zh",
+      "summary_en": "This project tackles the limited accessibility of DeepSeek-R1 by creating an open-source reproduction, now publicly available on GitHub. The key approach is a community-driven reimplementation that faithfully mirrors the original model's design. It matters because it democratizes access, fosters independent verification, and accelerates further AI/ML research and applications.",
+      "summary_zh": "DeepSeek-R1 的开源复现项目旨在解决该模型缺乏公开实现的问题，通过提供可自由访问的代码，降低研究复现门槛。该项目以社区协作的方式重现模型架构与能力，已在开发者社区引发关注。这为 AI 研究的透明化与可验证性提供了重要推动，有助于加速模型改进与技术创新。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek-R1 的开源实现",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2514485715,
+      "url": "https://x.com/OfficialLoganK/status/2065118111360303414",
+      "title": "Gemini Omni Flash 视频任务达 SOTA",
+      "published_at": "2026-06-11T17:05:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The Gemini Omni Flash model achieves state-of-the-art performance on image-to-video, text-to-video, and video editing tasks, advancing multimodal video generation and manipulation. This capability will soon be accessible via API, enabling developers to integrate cutting-edge video synthesis into applications at scale.",
+      "summary_zh": "Gemini Omni Flash 在图像到视频转换、文本到视频生成及视频编辑三项核心任务上均达到当前最优水平，它以一个统一模型高效解决了跨模态视频内容创作中的质量与一致性难题。这一突破将通过 API 快速开放给开发者，有望显著降低高质量视频生成的使用门槛并加速应用创新。",
+      "source": "aihot_selected",
+      "title_zh": "Gemini Omni Flash 视频任务达 SOTA",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1051333921,
+      "url": "https://openrouter.ai/blog/insights/llm-gateway",
+      "title": "什么是 LLM 网关？应用与 AI 模型之间缺失的一层",
+      "published_at": "2026-06-11T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "An LLM gateway solves the problem of provider outages causing direct user-visible errors and unmonitored AI costs by acting as an intermediary layer between applications and models. The article compares top solutions across routing, compliance, and deployment speed, emphasizing that such gateways are critical for ensuring reliability, governance, and spending transparency in AI systems.",
+      "summary_zh": "该文章探讨了LLM网关在应用与AI模型之间缺失的关键作用，指出缺少网关会导致供应商中断直接暴露为用户可见错误，且AI支出难以追踪。文章从路由、合规性和设置时间三个维度比较了最佳实现方案，强调这一中间层能提升系统稳定性、成本透明度和治理能力，是构建可靠AI应用的重要组件。",
+      "source": "aihot_selected",
+      "title_zh": "什么是 LLM 网关？应用与 AI 模型之间缺失的一层",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3082756933,
+      "url": "https://x.com/kimmonismus/status/2065097988859744503",
+      "title": "Prometheus 融资120亿美元，估值410亿美元，定位\"人工通用工程师\"",
+      "published_at": "2026-06-11T15:45:02+00:00",
+      "original_language": "zh",
+      "summary_en": "Prometheus, an AI company targeting an “artificial general engineer” that compresses design-to-manufacturing cycles by over tenfold, faces the core problem that physical manufacturing data cannot be crawled like internet content. Its key approach is a planned $100 billion acquisition of traditional industrial firms to directly harvest factory-generated data, creating a proprietary data moat. This matters",
+      "summary_zh": "贝佐斯旗下AI公司Prometheus面临制造业训练数据稀缺的难题，因为物理世界的真实工厂数据无法像互联网信息那样轻易抓取。其核心策略是斥资1000亿美元收购传统工业企业，直接获取生产线数据来构建竞争护城河，从而训练“人工通用工程师”。这一做法凸显了AI向实体制造落地时，数据获取将取代算法成为核心壁垒。",
+      "source": "aihot_selected",
+      "title_zh": "Prometheus 融资120亿美元，估值410亿美元，定位\"人工通用工程师\"",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1021747394,
+      "url": "https://x.com/OpenRouter/status/2065094780271329729",
+      "title": "OpenRouter 基准探索器：10项帕累托曲线",
+      "published_at": "2026-06-11T15:32:17+00:00",
+      "original_language": "zh",
+      "summary_en": "该工具通过为十项基准绘制帕累托曲线，直观地解决了多指标下模型性能权衡比较的难题。它允许用户同时识别在多个评估中表现最优的模型，从而简化了复杂的选择过程。这对快速筛选和决策具有重要价值。",
+      "summary_zh": "该工具针对AI模型多维度性能评估难题，在一个界面中为10项基准自动绘制帕累托曲线，直观揭示质量、成本等指标间的最优权衡边界。这帮助研究者和开发者快速定位非劣模型，显著提升选型效率，即将扩展的更多功能将进一步增强其实用性。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 基准探索器：10项帕累托曲线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3027584073,
+      "url": "https://x.com/vista8/status/2065090494972174821",
+      "title": "Codex Goal指令生成Skill发布：一句话需求转目标",
+      "published_at": "2026-06-11T15:15:16+00:00",
+      "original_language": "zh",
+      "summary_en": "This work addresses the challenge of writing effective Goal instructions for Codex by releasing a Skill that automatically converts a one-sentence requirement into a structured goal. The key approach is a publicly available package (via `npx skills add`) that streamlines the prompt engineering process, enabling overnight autonomous development. It matters because it significantly reduces the cognitive load and time investment previously required to parse extensive documentation.",
+      "summary_zh": "该Skill解决了为Codex编写复杂Goal指令的难题，通过将用户简单的一句话需求自动扩展为完整的目标描述，降低了使用门槛。其核心方法是提供一个开源命令行工具，一键安装后即可实现“睡前写需求、模型开发、次日验收”的自动化流程。这极大简化了原本需要阅读4万字文档才能掌握的指令编写工作，提升了AI辅助开发的效率。",
+      "source": "aihot_selected",
+      "title_zh": "Codex Goal指令生成Skill发布：一句话需求转目标",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4220308812,
+      "url": "https://x.com/krea_ai/status/2065086662166901114",
+      "title": "Krea 2 推出生成式滑块控制图像属性",
+      "published_at": "2026-06-11T15:00:02+00:00",
+      "original_language": "zh",
+      "summary_en": "Krea 2 addresses the challenge of limited manual control in AI image generation by introducing generative sliders that adjust a generated image's intensity, complexity, and motion. This approach allows users to fine-tune key visual attributes in real time, giving creators much greater precision and flexibility without needing to regenerate from scratch. The feature matters because it streamlines the creative process, making Krea 2 more adaptive for tasks like concept art or dynamic media where nuanced output tuning is critical.",
+      "summary_zh": "Krea 2 解决了生成图像属性缺乏精细控制的问题，通过推出生成式滑块，让用户能实时调节强度、复杂度和运动。这一直观交互方式提升了生成结果的可控性，有助于 AI 图像生成工具更贴合创作需求。",
+      "source": "aihot_selected",
+      "title_zh": "Krea 2 推出生成式滑块控制图像属性",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 997972272,
+      "url": "https://x.com/vista8/status/2065079656324407345",
+      "title": "Claude Fable 5 一句话生成桌面台球游戏",
+      "published_at": "2026-06-11T14:32:12+00:00",
+      "original_language": "zh",
+      "summary_en": "This demo tackles the challenge of generating complex, interactive applications from minimal natural language input. Using the single prompt \"design a complete playable 3D pool game, runnable in one webpage,\" Claude Fable 5 produces a fully functional game, effectively addressing the well-known \"locust swarm\" meme about AI's perceived limitations. This matters as it demonstrates a significant leap in AI’s ability to translate ultra-concise instructions into complete, deployable software.",
+      "summary_zh": "该演示通过一句自然语言指令生成了可在单个网页中运行的完整3D桌球游戏，解决了传统开发中需要多步骤编码与资源整合的复杂性问题。其关键在于利用大语言模型（Claude）直接解析高层描述并输出可执行的完整应用代码，展示了生成式AI在交互式实时内容创作上的潜力。这一能力大幅降低了游戏原型设计与创作的门槛，为快速迭代与概念验证提供了全新途径。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Fable 5 一句话生成桌面台球游戏",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 605793584,
+      "url": "https://runwayml.com/news/runway-and-lionsgate-expand-partnership",
+      "title": "Runway与Lionsgate扩大战略合作",
+      "published_at": "2026-06-11T14:31:51.811000+00:00",
+      "original_language": "zh",
+      "summary_en": "The announcement details an expanded strategic partnership between Lionsgate and Runway, addressing how major studios can integrate generative AI into professional content pipelines. Lionsgate has taken an equity stake and will co-develop new IP using Runway’s models, beginning with a short series based on existing Lionsgate IP, while also hosting the Runway AI Film Festival. This deepens their initial 2024 collaboration by moving from pre-vis and storyboarding into direct co-production, signaling a significant step toward AI-native studio workflows and IP creation.",
+      "summary_zh": "此合作针对生成式AI在影视创作中从辅助工具转向核心IP开发的问题，通过股权投资、联合制作短剧及电影节主持等举措，将Runway的生成模型深度嵌入Lionsgate的内容生产链。这标志着AI不再仅是后期辅助，而是直接参与故事板和IP共创，为影视工业化降本增效与创意拓展提供了可规模化落地的新范式。",
+      "source": "aihot_selected",
+      "title_zh": "Runway与Lionsgate扩大战略合作",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 575261485,
+      "url": "https://garymarcus.substack.com/p/breaking-openai-is-pondering-drastic",
+      "title": "OpenAI 正酝酿\"大幅\"降价，Gary Marcus 视其为示弱信号",
+      "published_at": "2026-06-11T13:34:49+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI is reportedly planning a steep price reduction, a move that AI commentator Gary Marcus interprets as a sign of weak competitiveness. This signals mounting pressure from cheaper alternatives and could indicate a shift toward more aggressive pricing in the AI market",
+      "summary_zh": "OpenAI 考虑大幅降价以应对竞争，但批评者 Gary Marcus 将此视为其竞争力疲软的信号。这一观点凸显了 AI 行业价格战背后，头部企业正面临市场压力与信心动摇的深层挑战。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 正酝酿\"大幅\"降价，Gary Marcus 视其为示弱信号",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3351158073,
+      "url": "https://cursor.com/blog/auto-review",
+      "title": "Cursor 推出 Auto-review 机制：用分类器智能体动态管控智能体自主权限",
+      "published_at": "2026-06-11T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cursor addresses the safety challenge of autonomous AI coding agents by introducing an Auto-review classifier that dynamically assesses tool call risks before execution. The lightweight classifier intercepts actions, blocking high-risk operations (like accessing secrets or production data) with explanations when intent mismatch is detected, while letting safe actions pass without impeding typical development. This approach ensures vital security oversight without adding latency or disrupting developer flow, demonstrated on real and synthetically-generated risky scenario data.",
+      "summary_zh": "Cursor 的 Auto-review 机制旨在解决 AI 智能体在自主执行工具操作时可能引入的安全风险，如在无用户确认下读取密钥或操作生产数据。它利用一个轻量级分类器智能体，在每次工具调用前根据上下文和用户意图动态评估动作风险，高风险时阻断并给出解释，低风险则放行，从而在不频繁打断日常开发的前提下拦截危险行为。该方法以极低延迟嵌入智能体循环，并借助合成与真实标注数据训练，实现了对智能体自主权限的精细、实时管控。",
+      "source": "aihot_selected",
+      "title_zh": "Cursor 推出 Auto-review 机制：用分类器智能体动态管控智能体自主权限",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2206412183,
+      "url": "https://arxiv.org/abs/2606.13289",
+      "title": "HYDRA-X： 原生统一多模态模型与整体视觉分词器",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "HYDRA-X tackles the challenge of separately tokenizing images and videos by unifying them within a single Vision Transformer that employs frame-level causal attention and hierarchical temporal compression, supervised by a joint image-video teacher. A key innovation is performing editing interactions directly in the tokenizer’s latent space rather than the LLM’s semantic space, which boosts consistency and convergence. This enables a 7B dense model to excel across both image and video understanding and generation tasks, advancing native multimodal unification.",
+      "summary_zh": "HYDRA-X 首次在单个 ViT 中统一图像与视频的标记化，通过帧级因果时间注意力和层级时间压缩实现高效视觉重建，并在分词器潜在层而非 LLM 语义层进行编辑交互。该方法显著提升了编辑一致性，使 7B 密集模型在图像与视频的理解和生成任务上均展现出强大性能。",
+      "source": "aihot_selected",
+      "title_zh": "HYDRA-X： 原生统一多模态模型与整体视觉分词器",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1746523720,
+      "url": "https://arxiv.org/abs/2606.13392",
+      "title": "MiniMax Sparse Attention（MSA）块状稀疏注意力",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "MiniMax Sparse Attention (MSA) tackles the high computational cost of self-attention in long-context models by introducing block-wise sparse attention on top of grouped-query attention (GQA). A lightweight index branch selects the top-k query-relevant KV cache blocks for each GQA group, allowing the main branch to compute exact attention only on those blocks, which reduces per-token attention operations by 28.4× on a 109B multimodal model with 1M-token contexts while matching full GQA performance. With a custom GPU kernel, MSA delivers end-to-end speedups of 14.2× in prefill and 7.6× in decoding on H800 GPUs, and the entire system is publicly released to enable practical long-context inference.",
+      "summary_zh": "MiniMax 提出的块状稀疏注意力 MSA 旨在缓解长上下文推理的计算瓶颈，通过轻量索引分支为各 GQA 组独立选择关键 KV 块，实现精确的块稀疏注意力。在 109B 多模态模型上，MSA 在保持性能持平的同时，将百万 token 上下文的注意力计算减少 28.4 倍，并借助定制 GPU 内核在 H800 上实现显著端到端加速。该工作为高效长序列处理提供了实用方案，并已开源模型与推理内核。",
+      "source": "aihot_selected",
+      "title_zh": "MiniMax Sparse Attention（MSA）块状稀疏注意力",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 533480090,
+      "url": "https://arxiv.org/abs/2606.13662",
+      "title": "EurekAgent：环境工程化实现自主科学发现",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "EurekAgent tackles metric-driven autonomous scientific discovery by engineering a controlled environment for large language model agents across four dimensions: permission engineering (safe execution), artifact engineering (file/Git collaboration), budget engineering (cost-aware exploration), and human-in-the-loop engineering (easy oversight). The system achieves new state-of-the-art results on math, kernel engineering, and ML tasks—most notably discovering a novel 26-circle packing at under $11 total API cost—and is fully open-sourced. This shows that safe, affordable, and human-supervised autonomous research is practical with current LLMs.",
+      "summary_zh": "EurekAgent 是一个环境工程化的大语言模型智能体系统，专为度量驱动的自主科学发现设计。它从权限工程（可控执行与隔离评估）、产物工程（文件系统与 Git 协作）、预算工程（成本感知探索）和人在回路工程（简便监督干预）四个维度构建执行环境。EurekAgent 在数学、内核工程和机器学习任务上取得新 SOTA，包括以不到 11 美元总 API 成本发现新的 26 圆填充结果。代码与结果已开源。",
+      "source": "aihot_selected",
+      "title_zh": "EurekAgent：环境工程化实现自主科学发现",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3156603053,
+      "url": "https://arxiv.org/abs/2606.13672",
+      "title": "WEAVER：一种更优、更快、更长的机器人操作世界模型",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "WEAVER is a multi-view world model that uses flow matching to predict future latent states and rewards, addressing fidelity, consistency, and efficiency for robotic manipulation. It achieves a high correlation (ρ=0.870) with real success rates in policy evaluation and boosts policy improvement by 38% and test-time planning by 14% over a base model, while running 5–10× faster than prior world models. By combining accuracy, speed, and robustness in out-of-distribution settings, WEAVER enables more reliable and efficient model-based reinforcement learning for real-world robot tasks.",
+      "summary_zh": "WEAVER 针对机器人操作世界模型在保真度、一致性和效率方面的不足，提出了一种基于流匹配损失的多视图架构，联合预测未来潜变量与奖励。它在政策评估中与真实成功率高度相关，并在策略改进与测试规划上大幅领先先前模型，速度提升5–10倍且分布外泛化更强，为高效可靠的机器人策略学习与规划提供了有力支持。",
+      "source": "aihot_selected",
+      "title_zh": "WEAVER：一种更优、更快、更长的机器人操作世界模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 377734230,
+      "url": "https://openai.com/index/bbva",
+      "title": "BBVA 将 AI 置于银行业务核心，与 OpenAI 合作",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "BBVA addresses the challenge of embedding AI deeply into traditional banking workflows by rolling out ChatGPT Enterprise to 100,000 employees and forming a strategic partnership with OpenAI. This large-scale deployment aims to accelerate AI-driven transformation across global banking operations, leveraging generative AI for enhanced productivity and service innovation. The move is significant as it demonstrates a major financial institution’s commitment to scaling AI, potentially setting a precedent for the industry in regulated environments.",
+      "summary_zh": "BBVA 通过向全球 10 万员工推广 ChatGPT Enterprise 并与 OpenAI 建立合作，应对银行业 AI 驱动的数字化转型需求。这一战略举措将生成式 AI 深度嵌入银行核心运营，有望大规模提升效率和服务创新能力，凸显了金融行业积极采纳前沿 AI 技术的趋势。",
+      "source": "aihot_selected",
+      "title_zh": "BBVA 将 AI 置于银行业务核心，与 OpenAI 合作",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2141417373,
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "title": "OpenAI 将收购 Ona",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI plans to acquire Ona to extend Codex’s capabilities with a secure, persistent cloud environment, enabling long-running AI agents to function reliably in enterprise workflows. This addresses the challenge of sustaining agent processes for complex business tasks, ensuring durable and safe automation.",
+      "summary_zh": "OpenAI收购Ona旨在解决企业AI智能体长时间稳定运行的安全与持久性问题，通过扩展Codex提供安全可靠的云端环境。此举将增强AI在企业工作流中的持续执行能力，推动复杂自动化任务的落地。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 将收购 Ona",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 14614554,
+      "url": "https://x.ai/news/grok-plugin-marketplace",
+      "title": "xAI 推出 Grok Build Plugin Marketplace",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "xAI 今日发布 Grok Build 内置插件市场。插件将技能、斜杠命令、AI 智能体、钩子、MCP 服务器和 LSP 打包为可安装包，用户无需离开终端即可浏览、安装和更新。首发合作伙伴包括 MongoDB、Vercel、Sentry、Chrome DevTools、Cloudflare 和 Superpowers。在 Grok Build 中输入 `/marketplace` 或使用 CLI 即可安装，每个远程插件均固定到特定 commit SHA 并经过验证。开发者可提交 PR 到 xai-org/plugin-marketplace 发布自己的插件。",
+      "summary_zh": "xAI 推出的 Grok Build 插件市场解决了开发者需离开终端分散安装多种工具的问题，通过将技能、命令、AI 智能体等打包为标准插件并集成到终端内，用户可直接浏览、安装并更新。此举简化了开发流程，并通过验证锁定机制保障安全，同时开放生态允许社区贡献，加速了 AI 辅助开发工具的集成与分发。",
+      "source": "aihot_selected",
+      "title_zh": "xAI 推出 Grok Build Plugin Marketplace",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 794861486,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.14.2",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.14.2",
+      "published_at": "2026-06-12T09:44:34+00:00",
+      "original_language": "en",
+      "summary_en": "This update to kimi-code (v0.14.2) resolves two usability issues: it allows mode flags (`--auto`, `--yolo",
+      "summary_zh": "moonshot-ai/kimi-code 0.14.2 版本解决了两种使用模式冲突：现在 `--auto`、`--yolo` 和 `--plan` 等模式参数可与 `--session` 或 `--continue` 结合，将指定模式应用到恢复的会话中。同时修复了一个可能导致无限等待的缺陷。这些改动增强了会话恢复时的操作灵活性，避免了意外阻塞，让交互式编程体验更顺畅。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.14.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3494674857,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.14.1",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.14.1",
+      "published_at": "2026-06-12T02:56:09+00:00",
+      "original_language": "en",
+      "summary_en": "This patch for kimi-code addresses two usability issues: it enforces that AgentSwarm tool calls appear in isolation within a model response, preventing interference with other outputs, and it improves the autocomplete menu by wrapping long command and skill descriptions onto a second line for better readability. These changes enhance the reliability of multi-agent tool execution and streamline the development workflow.",
+      "summary_zh": "这次更新主要优化了 MoonshotAI/kimi-code 中的交互体验和工具执行可靠性。通过强制 AgentSwarm 工具调用在模型响应中独立运行，避免了上下文混淆，提升了多工具协同时的稳定性；同时，自动补全菜单支持换行显示长描述，改善了复杂命令和技能的可读性。这些改进让开发者在 AI 辅助编码时能更清晰、高效地使用各类功能。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.14.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
