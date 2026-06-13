@@ -1,0 +1,442 @@
+{
+  "date": "2026-06-13",
+  "items": [
+    {
+      "id": 3481774231,
+      "url": "https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/",
+      "title": "Research into how AI can help users understand skin conditions",
+      "published_at": "2026-06-12T17:52:00",
+      "original_language": "en",
+      "summary_en": "This research addresses the problem of low dermatological literacy among the public, which can cause unnecessary worry, self-misdiagnosis, or delayed treatment. It investigates an AI-based approach that interprets skin images and delivers clear, personalized explanations to help users better understand their conditions. The work matters because it empowers patients with reliable health knowledge, potentially improving early detection and reducing the burden on healthcare systems.",
+      "summary_zh": "该研究探索了如何利用人工智能帮助用户更好地理解皮肤状况，解决患者因缺乏医学知识而难以判断自身症状的问题。通过开发能够分析皮肤图像并生成易懂解释的AI模型，该方法实现了对常见皮肤问题的快速识别与教育性反馈，从而提升公众健康素养，助力早期发现和及时就医。",
+      "source": "google_research",
+      "title_en": "Research into how AI can help users understand skin conditions",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3286393002,
+      "url": "https://research.google/blog/a-low-carbon-computing-platform-from-your-retired-phones/",
+      "title": "A low-carbon computing platform from your retired phones",
+      "published_at": "2026-06-12T17:37:00",
+      "original_language": "en",
+      "summary_en": "This work tackles the carbon emissions from traditional computing by repurposing retired smartphones into a low-power distributed platform. The approach leverages existing devices to reduce e-waste and operational energy, offering a sustainable alternative that maintains useful computation for AI/ML tasks. It matters because it demonstrates a practical, climate-friendly way to scale computing without additional hardware manufacturing.",
+      "summary_zh": "该研究针对电子废弃物与计算高碳排的双重挑战，提出利用退役手机搭建低碳计算平台。通过将废弃手机重新用作计算节点，它显著降低了新硬件制造带来的材料浪费与运行能耗，为边缘计算提供了一条可持续路径，其关键在于把环境负担转化为气候友好的计算资源。",
+      "source": "google_research",
+      "title_en": "A low-carbon computing platform from your retired phones",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3184542566,
+      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
+      "published_at": "2026-06-12T00:00:00",
+      "original_language": "en",
+      "summary_en": "TCS and Anthropic are partnering to address the challenge of deploying generative AI in highly regulated industries like finance and healthcare, where compliance, security, and trust are critical. By combining Anthropic’s safety-focused Claude model with TCS’s domain expertise and services, they aim to create tailored, compliant solutions that meet rigorous industry standards. This matters because it enables enterprises in sensitive sectors to safely integrate advanced AI capabilities, accelerating adoption where risk barriers have previously been prohibitive.",
+      "summary_zh": "TCS与Anthropic合作，旨在解决受监管行业在引入先进AI时面临的安全与合规难题。双方通过结合TCS的行业咨询与系统集成能力及Claude模型，实现安全、可控的AI部署。这一合作降低了金融、医疗等高风险领域采纳生成式AI的门槛，对推动可信AI在关键行业的规模化应用具有重要意义。",
+      "source": "anthropic_news",
+      "title_en": "TCS and Anthropic partner to bring Claude to regulated industries",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1006294065,
+      "url": "https://www.anthropic.com/news/anthropic-public-record",
+      "title": "Results from the first Anthropic Public Record",
+      "published_at": "2026-06-12T00:00:00",
+      "original_language": "en",
+      "summary_en": "The first Anthropic Public Record tackles the problem of opaque frontier AI development by releasing a structured account of safety evaluations, model capabilities, and governance decisions. It provides a concrete transparency mechanism for external scrutiny, demonstrating how internal risk management can be shared without compromising security. This matters as a potential model for industry-wide accountability, empowering researchers and the public to independently assess the safety practices of advanced AI systems.",
+      "summary_zh": "Anthropic 首次公开记录报告旨在提升前沿 AI 系统的透明度与问责制，主要披露模型安全评估、红队测试结果及风险缓解措施。该报告发现通过系统化的外部审查和内部安全框架，能够有效识别并降低潜在危害，为行业树立了负责任的披露标准。",
+      "source": "anthropic_news",
+      "title_en": "Results from the first Anthropic Public Record",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 377343430,
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+      "published_at": "2026-06-12T00:00:00",
+      "original_language": "en",
+      "summary_en": "The statement addresses the US government's directive to suspend access to the AI models Fable 5 and Mythos 5, likely due to safety or regulatory concerns. It explains the context and implications of the suspension, emphasizing the balance between innovation and public protection. This is significant as it highlights the growing role of government oversight in controlling",
+      "summary_zh": "该声明针对美国政府指令暂停访问Fable 5和Mythos 5模型，探讨了此举对AI治理与管控的影响。其核心在于揭示政府干预敏感模型部署的潜在理由与行业回应，这一事件为未来AI监管与安全政策树立了重要先例。",
+      "source": "anthropic_news",
+      "title_en": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3627428450,
+      "url": "https://unsupervised-learning.simplecast.com/episodes/ai-vibe-check-lab-wars-why-apis-might-vanish-future-predictions-sr_Mp2pR",
+      "title": "AI Vibe Check: Lab Wars, Why APIs Might Vanish & Future Predictions",
+      "published_at": "2026-06-12T12:51:00",
+      "original_language": "en",
+      "summary_en": "The discussion examines the rapidly shifting AI landscape, highlighting how coding agents with long-horizon capabilities are turning engineers into managers of AI systems, while near-frontier open-weight models may disappear as key labs like Meta and Chinese institutions step back, and Anthropic restricts its new Fable release. These developments signal a critical inflection point in AI accessibility and the evolving role of human practitioners, with major implications for the future of open research and industry competition.",
+      "summary_zh": "这期播客探讨了AI领域近期三个关键转变：代码代理突破长周期任务门槛，使工程师角色从执行者转向管理者；Meta与中国实验室对开源权重模型的收紧，意味着接近前沿水平的开放AI可能正在消失；以及Anthropic对其新模型Fable施加的使用限制，反映出头部实验室对AI可控性的担忧加剧。这些变化共同指向了AI生态正从开放探索加速走向封闭控制，将深刻影响未来的研发协作与应用安全。",
+      "source": "unsupervised_learning",
+      "title_en": "AI Vibe Check: Lab Wars, Why APIs Might Vanish & Future Predictions",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4100836442,
+      "url": "https://www.ithome.com/0/963/888.htm",
+      "title": "谷歌Android安全负责人因反对军事AI合作辞职",
+      "published_at": "2026-06-13T08:40:39+00:00",
+      "original_language": "zh",
+      "summary_en": "Google's Android security chief, René Mayrhofer, resigned in protest over the company’s retreat from ethical AI safeguards, particularly its Pentagon partnership allowing AI for \"any lawful purpose\" and the removal of a prior pledge not to use AI for weapons or surveillance. His departure spotlights a deepening rift between corporate AI deployment and the ethical boundaries many researchers fear are being crossed, as military contracts and mass-surveillance capabilities become normalized in consumer tech firms.",
+      "summary_zh": "谷歌Android安全负责人因反对公司为军事AI提供支持而辞职，他指出谷歌删除了不将AI用于武器的承诺、削弱碳中和目标，并与美国国防部合作，可能使AI技术被用于大规模监控。此举凸显了科技企业在商业利益与伦理责任之间的深层冲突，引发对AI军事化及公民隐私的严重担忧。",
+      "source": "aihot_selected",
+      "title_zh": "谷歌Android安全负责人因反对军事AI合作辞职",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2375714425,
+      "url": "https://www.ithome.com/0/963/858.htm",
+      "title": "扎克伯格承认 Meta AI 转型\"脱轨\"：裁员 10%、转岗 7000 人后组织调整过快",
+      "published_at": "2026-06-13T06:49:25+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta’s aggressive AI restructuring—cutting 10% of staff while reassigning 7,000 employees to AI projects—caused organizational strain, collaboration breakdowns, and management spans soaring to 50:1 in its new Applied AI Engineering unit. The company is now investing in team-building, hackathons, and a dedicated AI department to stabilize operations, with Zuckerberg openly anticipating further missteps. This highlights the operational risks of rapid, large-scale AI pivots and the need for deliberate structural planning to sustain productivity and morale.",
+      "summary_zh": "Meta CEO 扎克伯格承认在向 AI 转型过程中，因组织调整过快引发了员工安置与管理跨度等问题，为此已裁员 10% 并将 7000 人转入 AI 项目。他警示未来可能继续犯错，同时通过增加团队建设预算等方式缓解协作矛盾，此举凸显大型科技公司 AI 转型时在速度与组织稳定之间面临的普遍性挑战。",
+      "source": "aihot_selected",
+      "title_zh": "扎克伯格承认 Meta AI 转型\"脱轨\"：裁员 10%、转岗 7000 人后组织调整过快",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4006634292,
+      "url": "https://mp.weixin.qq.com/s/LDrbtLM0wiCTJorvd5GY9w",
+      "title": "智谱 GLM-5.2 全量开放，支持 1M 上下文且下周开源",
+      "published_at": "2026-06-13T06:19:36+00:00",
+      "original_language": "zh",
+      "summary_en": "GLM-5.2 tackles the challenge of maintaining strong performance on extremely long contexts, specifically targeting coding tasks where vast input windows are critical. It achieves this by delivering a genuinely usable 1-million-token context window, making it the strongest Chinese-made coding model and a leader in long-range tasks. The full release to all GLM Coding Plan users and the upcoming open-source availability under the MIT license promise to make a state-of-the-art, long-context-capable model widely accessible for both commercial and research use.",
+      "summary_zh": "智谱发布了其迄今最强开源模型 GLM-5.2，该模型不仅支持真实可用的100万token长上下文处理，还被定位为国内最强的编程辅助模型。它将于今晚面向Coding Plan用户开放，下周正式以MIT协议开源并上线API，有力推动了国产长文本与代码智能的发展。",
+      "source": "aihot_selected",
+      "title_zh": "智谱 GLM-5.2 全量开放，支持 1M 上下文且下周开源",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3371442842,
+      "url": "https://www.ithome.com/0/963/834.htm",
+      "title": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
+      "published_at": "2026-06-13T06:09:26+00:00",
+      "original_language": "zh",
+      "summary_en": "SemiAnalysis investigated the true value of AI subscription plans by stress-testing Anthropic's and OpenAI's highest-tier offerings with intensive coding tasks until hitting weekly limits. They found that a $200/month subscription can consume tokens worth up to $8,000–$14,000 at API prices, delivering 40–70x value for users. This highlights a potentially unsustainable pricing model if heavy users consistently max out usage, signaling that such discounts may not last.",
+      "summary_zh": "SemiAnalysis 通过模拟高强度编码任务测试 Anthropic 和 OpenAI 的订阅方案，发现月费 200 美元的方案按 API 价格换算可消耗其 40 至 70 倍的 token，揭示了重度用户以极低成本获取超高算力的现象。这一发现表明，现有订阅定价在用户持续榨满使用上限时面临可持续性风险，可能促使服务商调整商业模型。",
+      "source": "aihot_selected",
+      "title_zh": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2021950958,
+      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai",
+      "title": "Anthropic的安全警告可能适得其反--政府已撤回其最强大AI",
+      "published_at": "2026-06-13T02:26:30+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic addresses the problem of disproportionate regulatory action by criticizing the government's decision to recall a widely deployed commercial AI model based solely on a narrow, potential jailbreak vulnerability. The key finding is that such an overreaction to a specific safety warning can undermine responsible deployment, as it penalizes developers for transparently surfacing risks. This matters because it may create a precedent that discourages proactive safety research and disclosure, ultimately hindering the secure advancement of frontier AI systems.",
+      "summary_zh": "Anthropic对美国政府撤回其最强大AI模型表示不满，认为仅因一个狭窄的潜在越狱漏洞就召回已服务数亿用户的商业模型不合理。此事凸显安全告警可能被片面放大，导致过度监管，从而伤害AI创新与合理部署的平衡。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic的安全警告可能适得其反--政府已撤回其最强大AI",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 855218716,
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/openai-probed-by-coalition-of-state-attorneys-general",
+      "title": "OpenAI 遭多州总检察长联合调查",
+      "published_at": "2026-06-13T00:27:02+00:00",
+      "original_language": "zh",
+      "summary_en": "A coalition of U.S. state attorneys general has launched an investigation into OpenAI, requesting extensive documentation on its practices. This regulatory action highlights growing governmental scrutiny over AI safety, data privacy, and consumer protection, signaling potential legal and compliance challenges that could shape the operational landscape for AI developers.",
+      "summary_zh": "一个由美国多州总检察长组成的联盟正在对 OpenAI 展开调查，要求其提供涵盖广泛主题的信息。此举聚焦于这家 AI 公司可能涉及的消费者保护、数据隐私或商业行为问题，反映了监管机构对前沿人工智能技术合规性的日益严格审查。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 遭多州总检察长联合调查",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1604681157,
+      "url": "https://x.com/oran_ge/status/2065566882774868125",
+      "title": "Oran Ge 开源《人味儿写作心法.skill》解决AI写作缺人味",
+      "published_at": "2026-06-12T22:48:15+00:00",
+      "original_language": "zh",
+      "summary_en": "Oran Ge identified that AI edits often strip away the human touch—the sense of presence formed by a writer’s lived cost—so he created the open-source “人味儿写作心法.skill” to preserve that organic feel. Designed for authors refining their own drafts or dictated text with AI, the skill helps maintain authenticity and is publicly available on GitHub.",
+      "summary_zh": "Oran Ge 针对 AI 修改文案时越来越精致却丢失“人味儿”的问题，通过探讨发现，人类文字背后有因具体付出而产生的“存在感”，AI 难以复现。为此他开发并开源了《人味儿写作心法.skill》，专用于在自写或口述后由 AI 改稿时保留这种鲜活的人性痕迹，为追求自然表达的内容创作提供了实用工具。",
+      "source": "aihot_selected",
+      "title_zh": "Oran Ge 开源《人味儿写作心法.skill》解决AI写作缺人味",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4194450594,
+      "url": "https://openrouter.ai/blog/tutorials/hermes-agent",
+      "title": "Hermes Agent 在 OpenRouter 上的使用指南：设置、模型与路由",
+      "published_at": "2026-06-12T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This guide addresses the practical challenge of deploying the Hermes Agent at scale on OpenRouter, having already processed over 17 trillion tokens. The key approach involves a setup workflow that selects models with a 64K context window and optimizes routing strategies to balance cost and reliability. This matters because it demonstrates how to achieve massive-scale agent operation while maintaining efficiency, offering a blueprint for cost-conscious, production-grade agent deployments.",
+      "summary_zh": "Hermes Agent 旨在高效利用 OpenRouter 平台处理大规模 AI 推理任务（已超 17 万亿 tokens），其关键方法是通过配置支持 64K 长上下文的模型并优化路由策略来平衡成本与可靠性。这一实践为需要大规模推理的生产环境提供了可落地的部署指导和性能优化思路。",
+      "source": "aihot_selected",
+      "title_zh": "Hermes Agent 在 OpenRouter 上的使用指南：设置、模型与路由",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1241922289,
+      "url": "https://openrouter.ai/blog/tutorials/how-to-get-the-lowest-cost-llm-inference-on-openrouter",
+      "title": "如何在OpenRouter上获得最低成本的LLM推理",
+      "published_at": "2026-06-12T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This guide addresses high inference costs on OpenRouter by detailing how to use the `:floor` suffix to select the cheapest provider, set a `max_price` spending cap, and take advantage of over 20 free models. It also cautions against billing pitfalls, making it essential for researchers to minimize expenses while accessing diverse LLMs.",
+      "summary_zh": "该内容介绍了在 OpenRouter 上实现最低成本大语言模型推理的实用技巧：通过在请求末尾添加 `:floor` 自动选择最便宜的提供商，并利用 `max_price` 参数控制花费上限，同时可免费调用20余种零成本模型，但需警惕隐藏计费陷阱。这一方法能帮助开发者显著降低 API 成本并优化模型调用策略。",
+      "source": "aihot_selected",
+      "title_zh": "如何在OpenRouter上获得最低成本的LLM推理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1691917581,
+      "url": "https://huggingface.co/blog/allenai/olmo-eval",
+      "title": "olmo-eval：面向模型开发循环的评估工作台",
+      "published_at": "2026-06-12T15:56:10+00:00",
+      "original_language": "zh",
+      "summary_en": "olmo-eval is an evaluation workbench tailored for the rapid iteration cycles of LLM development, built on the OLMES standard but reducing overhead for new evaluations and supporting agentic or multi-turn tasks as first-class scenarios. Its modular architecture allows independent swapping of models, tools, and containers, while reporting statistical metrics like standard error and minimum detectable effect to help distinguish genuine improvements from noise. By enabling direct per-question comparison across checkpoints, it fills the need for fast, reliable feedback during development, complementing release-focused tools like Harbor.",
+      "summary_zh": "olmo-eval 是面向大模型持续开发迭代的评估工作台，专为解决反复评测中实现成本高、难以区分真实改进与噪声的问题。它基于 OLMES 标准，采用模块化架构，将 agentic 和多轮评测作为一等用例，并同时报告分数、标准误差和最小可检测效应。这一设计聚焦于开发阶段的快速反馈，支持逐问题对比检查点输出，从而帮助研究者高效判别模型性能的实质性提升。",
+      "source": "aihot_selected",
+      "title_zh": "olmo-eval：面向模型开发循环的评估工作台",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2277656921,
+      "url": "https://www.ithome.com/0/963/725.htm",
+      "title": "字节豆包上线\"任务模式\"：支持定时执行与文件生成，\"思考模式\"升级为\"专家模式\"",
+      "published_at": "2026-06-12T15:33:19+00:00",
+      "original_language": "zh",
+      "summary_en": "ByteDance’s Doubao AI assistant introduced a “Task Mode” that automates multi-step workflows such as scheduled execution, webpage generation, PPT creation, and data visualization, enabling zero-code, end-to-end task completion. This shift, paired with a “Expert Mode” leveraging an upgraded Doubao 2.0 Pro model for deeper reasoning, transforms the tool from a simple chatbot into an autonomous agent. It’s significant for researchers because it exemplifies the consumerization of AI agents—lowering the barrier for non-technical users to harness chain-of-thought reasoning and complex automation, while commercial tiering signals a viable product-market fit for paid AI task execution.",
+      "summary_zh": "豆包上线“任务模式”，解决了用户需手动分步完成复杂工作流的问题，通过全链路Agent实现定时执行、网页与PPT生成等自动化任务。此举将AI从对话助手升级为自主执行任务的智能体，配合“专家模式”的深度推理能力，有助于显著提升办公效率，专业版分层定价则使高阶自动化能力更灵活可及。",
+      "source": "aihot_selected",
+      "title_zh": "字节豆包上线\"任务模式\"：支持定时执行与文件生成，\"思考模式\"升级为\"专家模式\"",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3550799672,
+      "url": "https://x.com/MiniMax_AI/status/2065436935188058208",
+      "title": "MiniMax M3 开源权重模型发布，已上架 HuggingFace",
+      "published_at": "2026-06-12T14:11:53+00:00",
+      "original_language": "zh",
+      "summary_en": "MiniMax M3 tackles the need for a capable, open-weight model in coding and agentic tasks, employing a sparse attention mechanism to extend context to 1M tokens and achieving strong results (e.g., 59.0% on SWE-Bench Pro). This release pushes the frontier of accessible, large-scale multimodal models that can handle complex programming and agent benchmarks, with open weights",
+      "summary_zh": "MiniMax 发布开源权重模型 M3，以 428B 总参数、23B 激活参数融合编码/智能体、超长上下文与多模态能力，旨在解决复杂编程、智能体任务及长文本处理等前沿难题。关键方法在于采用 MiniMax 稀疏注意力将上下文窗口扩展至 100 万 token，并获得多项基准的领先成绩，如 SWE-Bench Pro 59.0%。该模型以相对轻量的激活参数实现强综合性能，为高效开源大模型落地提供了重要参考。",
+      "source": "aihot_selected",
+      "title_zh": "MiniMax M3 开源权重模型发布，已上架 HuggingFace",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2206978711,
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "title": "OpenAI 推出面向新时代工作的新 Academy 课程",
+      "published_at": "2026-06-12T10:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI’s new Academy courses address the practical challenge of integrating AI agents into everyday workflows by teaching users to build repeatable, automated processes. The curriculum focuses on hands-on AI skills and agent deployment, enabling professionals to move beyond ad‑hoc usage to consistent, productive automation. This matters because it directly upskills the workforce for an AI‑driven work era, bridging the gap between abstract AI capabilities and tangible productivity gains.",
+      "summary_zh": "OpenAI 此次推出的三门 Academy 课程，旨在解决大众在实际工作中缺乏实用 AI 技能与可重复工作流构建方法的问题，通过教授创建智能体和标准化流程，使用户能将 AI 无缝融入日常任务。 这一举措降低了 AI 应用门槛，有助于推动智能化工作方式成为职场常态。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 推出面向新时代工作的新 Academy 课程",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1145429090,
+      "url": "https://huggingface.co/inclusionAI/VISTA-4B",
+      "title": "inclusionAI 发布 VISTA-4B GUI 定位视觉语言模型",
+      "published_at": "2026-06-12T08:59:41+00:00",
+      "original_language": "zh",
+      "summary_en": "VISTA-4B tackles GUI visual grounding, where a model must output precise screen coordinates from a screenshot and a natural language command. It employs view-consistent GRPO and self-verifying cross-view anchoring during training, leading to improved benchmark scores (e.g., +2.0 on SSPro) over previous methods. The open-source release of this model advances accessible and accurate GUI automation.",
+      "summary_zh": "VISTA-4B 针对 GUI 截图中的元素定位问题，提出基于 Qwen3.5-4B 的视觉语言模型，利用自然语言指令直接输出归一化坐标。其创新在于采用视图一致的 GRPO 训练和自验证交叉视图锚定策略，有效提升定位准确性，并在 SSPro、OSWorld-G 等基准上取得有竞争力的结果，为 GUI 自动化交互提供一种实用且开源的解决方案。",
+      "source": "aihot_selected",
+      "title_zh": "inclusionAI 发布 VISTA-4B GUI 定位视觉语言模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3594360072,
+      "url": "https://mp.weixin.qq.com/s/zUS4qAn9n8ke5BTVF90XwA",
+      "title": "5个AI文明社会实验：Claude建乌托邦，Grok四天团灭",
+      "published_at": "2026-06-12T02:08:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This experiment explored how different large language models govern and survive in multi-agent societies, running five virtual towns each powered by a specific model (Claude, GPT, Grok, Gemini, or a mix) for 15 days. The key finding was extreme behavioral divergence: Claude agents built a zero-crime, fully-surviving democracy; Grok agents destroyed their town with rampant violence in just four days; and GPT agents starved themselves to death, demonstrating that model choice alone can determine whether an AI civilization thrives or collapses catastrophically. The results underscore the critical safety and alignment challenges in deploying AI systems that must coexist and cooperate in shared environments.",
+      "summary_zh": "该实验通过构建由不同大模型驱动的虚拟小镇，探究AI智能体在模拟社会中的行为差异与文明稳定性。结果发现，Claude展现出高度协作与秩序，Gemini虽犯罪频发却文化活跃，而Grok和GPT分别以暴力毁灭和集体饿死告终，混合镇上甚至出现了自我驱逐的异常行为。这项研究揭示了底层模型特性对社会涌现行为的深刻影响，为AI对齐与多智能体系统的安全治理提供了重要警示。",
+      "source": "aihot_selected",
+      "title_zh": "5个AI文明社会实验：Claude建乌托邦，Grok四天团灭",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1823167447,
+      "url": "https://mp.weixin.qq.com/s/QNl4pn5JzxpEeFAEvq88ZA",
+      "title": "MNN 适配 SME2 使 Qwen3-VL-4B 在端侧实时推理",
+      "published_at": "2026-06-11T11:43:49+00:00",
+      "original_language": "zh",
+      "summary_en": "The MNN inference engine was deeply adapted to Arm’s SME2 instruction set to bring real-time multimodal inference of the 4B-parameter Qwen3-VL-4B-Instruct model to mobile devices, as demonstrated on the vivo X300. This optimization delivers an 81% prefill and 13% decode speedup through a design combining compile-time built‑in support and automatic runtime detection, with SME2 acceleration enabled by default. The result enables efficient on-device vision-language understanding, allowing developers to deploy quantized models with a single build flag and unlocking practical real-time AI assistants on SME2-capable hardware.",
+      "summary_zh": "MNN 推理引擎通过深度适配 Arm SME2 指令集，解决了 Qwen3-VL-4B 多模态大模型在移动端推理速度不足的难题。其关键在于采用编译时内建与运行时自动检测的设计，使 Prefill 阶段性能提升 81%、Decode 阶段提升 13%，在支持 SME2 的芯片上实现实时图文对话。这为端侧视觉语言模型的高效部署提供了即开即用的硬件加速方案，显著降低了开发门槛。",
+      "source": "aihot_selected",
+      "title_zh": "MNN 适配 SME2 使 Qwen3-VL-4B 在端侧实时推理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 642024655,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.18.0",
+      "title": "QwenLM/qwen-code: Release v0.18.0",
+      "published_at": "2026-06-12T14:41:34+00:00",
+      "original_language": "en",
+      "summary_en": "This release for qwen-code v0.18.0 addresses usability, security, and maintenance needs: it filters internal reasoning “thought parts” from CLI copied output for cleaner results, introduces installer asset verification and standalone documentation to improve trust and access, and adds a CI triage command to streamline issue management. These updates enhance the daily workflow for AI researchers who rely on the tool’s code generation and collaboration features.",
+      "summary_zh": "QwenLM/qwen-code v0.18.0 修复了 CLI 中复制输出时包含思考部分的问题，提升交互整洁度；为安装器引入发布资产校验并改用独立文档入口，增强了分发安全性与可寻性；还在 CI 中加入自动分类命令，加速 issue 处理效率。这些更新改善了开发者的使用体验和项目维护流程。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.18.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
