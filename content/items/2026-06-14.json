@@ -1,0 +1,195 @@
+{
+  "date": "2026-06-14",
+  "items": [
+    {
+      "id": 3948616727,
+      "url": "https://claude.com/blog/the-claude-cowork-product-guide",
+      "title": "The Claude Cowork product guide",
+      "published_at": "2026-06-14T10:46:05.885874",
+      "original_language": "en",
+      "summary_en": "This guide addresses the challenge of effectively integrating AI assistants into collaborative workflows by providing structured guidance on using Claude as a coworker tool. The key approach involves a product guide that outlines best practices, interaction patterns, and integration strategies for leveraging Claude in team settings. This matters because it enables researchers and practitioners to maximize productivity and harness AI for complex, multi-step tasks through human-AI teamwork.",
+      "summary_zh": "本指南旨在解决用户如何有效利用Claude Cowork进行人机协作的问题，系统性地介绍了该产品的核心功能与最佳实践。通过详细的交互策略说明与场景示例，指南展示了如何最大化工效并优化协作体验。这对提升团队生产力、释放AI辅助潜能具有重要参考价值。",
+      "source": "claude_blog",
+      "title_en": "The Claude Cowork product guide",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1217820674,
+      "url": "https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering",
+      "title": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
+      "published_at": "2026-06-14T10:46:05.886286",
+      "original_language": "en",
+      "summary_en": "An Anthropic sales team member leveraged Claude Code to automate and overhaul their manual, inefficient sales workflows. The approach involved using the AI-powered coding assistant to build custom tools and automate repetitive tasks, demonstrating that non-engineers can harness coding agents for substantial productivity gains. This matters because it illustrates a practical, bottom-up adoption of AI to reshape business processes beyond traditional engineering domains.",
+      "summary_zh": "一位Anthropic销售利用Claude Code重构了团队工作流程，通过AI自动化和代码生成提升了协作效率。这一案例展示了非技术岗位如何借助编程助手优化日常运营，为AI赋能团队提供了可复用的实践参考。",
+      "source": "claude_blog",
+      "title_en": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3436567867,
+      "url": "https://x.com/xiaohu/status/2065991805238497732",
+      "title": "Anthropic 上市前夕",
+      "published_at": "2026-06-14T02:56:45+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic CEO Dario Amodei透露内部模型Mythos有上千漏洞，能黑银行、窃取国家机密；预言AI一到五年内砍掉一半入门级白领工作；称Claude已被美军用于对伊朗战争，涉及女校150人死亡拷问；解释离开OpenAI因信任崩塌；回怼黄仁勋末日营销指控；给出文明崩溃概率10%-25%。",
+      "summary_zh": "Anthropic CEO Dario Amodei 在上市前夕揭露内部模型存在严重漏洞可被用于金融犯罪与情报窃取，预测AI将在短期内大幅取代白领工作，并首次公开Claude被美军用于军事冲突的伦理争议，这凸显了AI安全、就业冲击及武器化应用等前沿机构面临的紧迫治理难题。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 上市前夕",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 836886505,
+      "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand",
+      "title": "Meta 开始撤销 20 亿美元收购 Manus 的交易",
+      "published_at": "2026-06-14T00:03:49+00:00",
+      "original_language": "zh",
+      "summary_en": "The news reports that Meta is backing out of its $2 billion acquisition of AI startup Manus after Beijing demanded the deal be reversed, highlighting a critical problem of geopolitical and regulatory interference in cross-border technology mergers. The key finding is that government mandates can directly unwind large-scale AI industry consolidations, not just block them preemptively. This matters because it signals rising tech nationalism, where strategic AI assets are increasingly protected by state intervention, reshaping global AI investment and collaboration dynamics.",
+      "summary_zh": "Meta因北京政府要求，已启动撤销对AI初创公司Manus的20亿美元收购交易。这一事件凸显地缘政治干预对跨国科技并购的直接影响，可能导致AI领域投资与整合面临更多监管障碍。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 开始撤销 20 亿美元收购 Manus 的交易",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2848759564,
+      "url": "https://x.com/suno/status/2065862499765821916",
+      "title": "Suno 音轨分离：从零生成更纯净",
+      "published_at": "2026-06-13T18:22:56+00:00",
+      "original_language": "zh",
+      "summary_en": "Suno addresses the long-standing issue of artifact-ridden stem separation by regenerating each instrument track from scratch instead of filtering existing audio frequencies. This generative approach yields pristine, artifact-free stems that can be imported directly into a digital audio workstation, significantly streamlining music production workflows.",
+      "summary_zh": "Suno升级了音轨分离技术，不再单纯隔离频率，而是从零重新生成各音轨，解决了传统分离方法产生的伪影问题。这带来了可直接用于数字音频工作站的高质量纯净音轨，极大提升了音乐制作流程的效率和灵活性。",
+      "source": "aihot_selected",
+      "title_zh": "Suno 音轨分离：从零生成更纯净",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1436744039,
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
+      "title": "亚马逊首席执行官与美国官员会谈引发对 Anthropic 模型的整治",
+      "published_at": "2026-06-13T18:22:19.626000+00:00",
+      "original_language": "zh",
+      "summary_en": "Amazon CEO's meeting with U.S. officials directly led to a regulatory crackdown on Anthropic's large language models, signaling escalating government oversight of advanced AI systems. The specifics of the enforcement measures and affected model versions remain undisclosed, but the incident underscores the tightening link between corporate influence and AI governance. This matters because it may set a precedent for how political and commercial pressures shape future large-scale model development and compliance.",
+      "summary_zh": "亚马逊CEO与美国官员的会谈直接引发了对Anthropic大语言模型的监管整治，暴露了企业与政府互动对AI治理的直接影响。此事凸显了科技巨头在推动AI安全政策中的关键角色，但其具体监管措施和模型细节尚未公开，加剧了行业不确定性。",
+      "source": "aihot_selected",
+      "title_zh": "亚马逊首席执行官与美国官员会谈引发对 Anthropic 模型的整治",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2134670085,
+      "url": "https://x.com/OpenRouter/status/2065856853989270011",
+      "title": "Fusion API：半价达Fable级智能",
+      "published_at": "2026-06-13T18:00:30+00:00",
+      "original_language": "zh",
+      "summary_en": "Fusion API is a composite model that addresses the high cost of top-tier AI by delivering Fable-level intelligence at half the price. This makes advanced AI more affordable and accessible without sacrificing performance.",
+      "summary_zh": "Fusion API 以创新的复合模型架构，解决了顶级AI智能（Fable级）成本高昂的问题，用一半的价格即可实现同等智能水平。这一突破使得高级人工智能服务更经济可及，有望加速行业应用普及。",
+      "source": "aihot_selected",
+      "title_zh": "Fusion API：半价达Fable级智能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3943055807,
+      "url": "https://github.com/DanMcInerney/architect-loop",
+      "title": "/architect：减少80%的Fable token，Fable负责协调/审核，Codex负责构建",
+      "published_at": "2026-06-13T16:46:05.572000+00:00",
+      "original_language": "zh",
+      "summary_en": "The /architect project addresses high token consumption in AI-driven development pipelines by cutting Fable token usage by 80%, shifting building tasks to Codex while Fable handles only coordination and review. This role separation reduces operational costs without sacrificing quality, making automated code generation more scalable and economical.",
+      "summary_zh": "/architect 项目通过将协调与审核交由 Fable 负责、构建任务转给 Codex 执行，并将 Fable token 用量削减 80%，以此优化资源分配与系统分工。该设计旨在提升效率，明确智能体职责，降低对特定 token 的依赖。",
+      "source": "aihot_selected",
+      "title_zh": "/architect：减少80%的Fable token，Fable负责协调/审核，Codex负责构建",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1605739430,
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/global-capitalism-bets-it-all-on-ai-future-that-alarms-voters",
+      "title": "Anthropic 秘密申请上市，估值 9650 亿美元",
+      "published_at": "2026-06-13T11:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic, an AI safety company, has confidentially filed for an IPO at a reported valuation of $965 billion, reflecting its meteoric rise as one of the fastest-growing startups. The filing signals that investor confidence in safety-focused AI is reshaping the industry’s capital landscape, potentially accelerating the deployment of aligned systems and intens",
+      "summary_zh": "Anthropic 秘密提交上市申请，估值高达 9650 亿美元，标志着顶级 AI 创业公司加速进入资本市场，以应对研发竞赛对庞大资金的需求，并进一步巩固其在生成式 AI 领域的竞争地位。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 秘密申请上市，估值 9650 亿美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 34399471,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.14.3",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.14.3",
+      "published_at": "2026-06-14T01:14:10+00:00",
+      "original_language": "en",
+      "summary_en": "The patch addresses stale provider model lists by refreshing model metadata just before the model picker UI opens, as described in issue #713. This change ensures users always see the most current available models, improving accuracy and user experience when selecting AI models.",
+      "summary_zh": "该补丁解决了模型选择器中可能显示过时模型信息的问题，核心方法是在打开模型选择器之前主动刷新提供者的模型元数据。这能确保用户始终获取到最新的可用模型列表，避免因缓存导致的选择错误，对持续集成和实时服务至关重要。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.14.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}

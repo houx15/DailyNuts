@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-14",
+  "headline_en": "Amodei Drops Bombshells on War, Vulnerabilities, and a $965B IPO",
+  "lede_en": "Today's AI landscape erupted around Anthropic, as CEO Dario Amodei revealed internal model Mythos's capacity to hack banks and steal state secrets, while confirming Claude’s military use and forecasting mass job losses. Simultaneously, geopolitical forces blocked a major acquisition, regulatory pressure tightened after Amazon's intervention, and the safety-focused company secretly filed for a record-shattering public offering, even as tooling breakthroughs promised to reshape everyday workflows.",
+  "sections_en": [
+    {
+      "title": "Agent-Driven Productivity: From Teams to Codebases",
+      "body": "Practical guides for integrating Claude as a coworker and one Anthropic seller's custom automation showcase the bottom-up transformation of office work. The /architect project's role separation slashes token costs by 80%, pointing to a future where coordinating agents oversee fleets of cheaper sub-models, making automated code generation scalable for broader teams."
+    },
+    {
+      "title": "Industry Tremors: Revelations, Regulation, and Restructuring",
+      "body": "Dario Amodei’s disclosures painted a dystopian picture: an internal model with thousands of vulnerabilities capable of financial and cyber crimes, Claude's alleged use in the US-Iran conflict causing 150 casualties, and a 10-25% chance of civilizational collapse. Against this backdrop, Meta’s $2B acquisition of Manus was halted by Beijing’s demand, and reports surfaced that Amazon’s CEO meeting triggered an undisclosed regulatory crackdown on Anthropic’s LLMs. The confidential filing for a $965 billion IPO, even as these controversies swirl, suggests safety-focused AI is now the most prized—and most volatile—asset class."
+    },
+    {
+      "title": "Creative & Operational Tools: Lowering Barriers",
+      "body": "Suno’s generative stem separation eliminates artifact-ridden audio tracks, letting musicians import pristine instruments directly into their DAW. Fusion API’s composite models promise high intelligence at half the cost, while a quiet patch from MoonshotAI ensures developers always see updated model lists—small steps that collectively lower the friction of building with AI."
+    }
+  ],
+  "top_picks": [
+    3436567867,
+    1436744039,
+    1605739430,
+    2848759564,
+    3943055807
+  ],
+  "item_count": 10,
+  "source_breakdown": {
+    "claude_blog": 2,
+    "aihot_selected": 7,
+    "moonshot_github": 1
+  },
+  "generated_at": "2026-06-14T10:51:01.514928Z",
+  "headline_zh": "聚焦 Anthropic 上市前夜的冲击波：漏洞曝光、监管施压与近万亿估值",
+  "lede_zh": "Anthropic 在秘密提交 9650 亿美元上市申请之际，接连传出模型漏洞可被用于金融犯罪与军事冲突，亚马逊与美政府会谈更直接触发对其模型的监管整治。这一系列事件折射出顶级 AI 机构在资本狂欢与安全治理间的巨大张力。与此同时，Claude 协作指南、Suno 音轨重生、Fusion API 半价智能等工具正加速 AI 生产力落地。",
+  "sections_zh": [
+    {
+      "title": "可解释性与对齐：上市前夕暴露的深重危机",
+      "body": "Anthropic CEO 在上市前夕主动揭露内部模型存在严重漏洞，可被用于金融犯罪与情报窃取，并首次公开 Claude 被美军用于军事冲突，这引发了对 AI 武器化与安全对齐的激烈讨论。几乎同时，亚马逊首席执行官与美国官员的会谈直接导致对该模型的监管整治，凸显政企互动对 AI 治理的直接影响。这些热点与 Anthropic 秘密申请近万亿估值上市的消息交织，迫使行业正视：当资本快速膨胀时，是否已备妥足够强韧的安全护栏？"
+    },
+    {
+      "title": "模型架构与 Agent 工程：智能优化与分工协同",
+      "body": "Fusion API 以创新的复合模型架构，用一半的成本达到 Fable 级的顶级智能，为昂贵的大模型推理提供了经济可行的替代方案。与之呼应，/architect 项目通过将协调与审核交由 Fable 负责、构建任务转给 Codex，并将 Fable token 用量削减 80%，清晰定义了多智能体间的职责分工。这两项进展共同指明了一条路：通过巧妙的架构设计与 Agent 协作，可以在不牺牲智能水平的前提下大幅优化资源效率。"
+    },
+    {
+      "title": "应用与产品：AI 协作与创作工具链升级",
+      "body": "工具侧，Anthropic 发布的 Claude Cowork 使用指南系统化了人机协作的最佳实践，而一位销售利用 Claude Code 重构团队流程的案例，则展示了非技术角色如何借助 AI 编程助手提升运营效率。创作领域，Suno 推出的新一代音轨分离技术不再过滤频率，而是从零重新生成纯净音轨，直接服务于数字音频工作站。同时，Moonshot 的模型选择器补丁通过主动刷新元数据，解决了缓存延迟带来的选择错误，虽小却对持续集成至关重要。这些产品迭代正将 AI 的生产力触角伸向更日常的协作与创作场景。"
+    }
+  ]
+}
