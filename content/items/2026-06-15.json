@@ -1,0 +1,233 @@
+{
+  "date": "2026-06-15",
+  "items": [
+    {
+      "id": 3436031591,
+      "url": "https://x.com/rohanpaul_ai/status/2066513228218150988",
+      "title": "美国白宫因中国访问担忧对Anthropic Mythos模型实施出口限制",
+      "published_at": "2026-06-15T13:28:42+00:00",
+      "original_language": "zh",
+      "summary_en": "The US White House imposed export restrictions on Anthropic’s Mythos model, fearing Chinese‑affiliated groups could access it and steal capabilities through knowledge distillation or jailbreaks that reveal cybersecurity help. Anthropic countered that the jailbreak is not unique to its",
+      "summary_zh": "美国白宫因担忧中国相关团体可能通过越狱攻击或知识蒸馏窃取Anthropic的Mythos模型能力，对其施加了出口限制。此举源于此前Fable 5和Mythos 5被发现可被越狱后泄露网络安全协助信息，但Anthropic反驳称该问题并非其模型独有。这一事件凸显了中美技术博弈下，先进AI模型面临的国家安全风险与防泄漏困境。",
+      "source": "aihot_selected",
+      "title_zh": "美国白宫因中国访问担忧对Anthropic Mythos模型实施出口限制",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 264296571,
+      "url": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
+      "title": "6倍速！Kimi K2.7 Code 高速版已上线",
+      "published_at": "2026-06-15T10:26:06+00:00",
+      "original_language": "zh",
+      "summary_en": "The Kimi K2.7 Code high-speed variant tackles the problem of slow inference in coding assistants by delivering 5–6× faster output (up to 260 tokens/s) from the same model, at double the API price. This approach not only reduces latency but also cuts average token consumption by 30% and improves long-context instruction following, making it a practical speed–cost trade-off for developers. It matters because it enables more responsive coding workflows while lowering total token usage, enhancing productivity in AI-assisted software development.",
+      "summary_zh": "Kimi K2.7 Code 高速版针对编程场景输出延迟问题，通过同一模型架构实现约 5–6 倍速推理，常规可达 180 Token/s，短上下文最高 260 Token/s，同时相比前代 K2.6 在长上下文指令遵循和长程任务上性能提升且平均 token 消耗降低 30%。这一高速版本大幅缩短了开发者等待响应的时间，并通过 API 开放平台的充赠活动降低尝试成本，对实时编程辅助和长链任务至关重要。",
+      "source": "aihot_selected",
+      "title_zh": "6倍速！Kimi K2.7 Code 高速版已上线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 157851071,
+      "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+      "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
+      "published_at": "2026-06-15T09:16:09+00:00",
+      "original_language": "zh",
+      "summary_en": "Flash-KMeans accelerates exact Lloyd's k-means clustering on GPUs by overhauling the GPU data flow rather than altering the algorithm or using approximations, achieving a 200× speedup over FAISS on an H200. Its FlashAssign kernel avoids materializing the full N×K distance matrix (reducing I/O from O(NK) to O(Nd+Kd)), and the Sort-Inverse Update kernel reduces atomic contention, enabling single-iteration times of 41.4 s for 1B points with K=32,768. This IO-aware design directly benefits online, latency-sensitive workloads like vector search index building, sparse attention routing, and KV cache compression.",
+      "summary_zh": "Flash-KMeans 针对 GPU 上精确 K-Means 的大规模 IO 瓶颈，提出 FlashAssign 和 Sort-Inverse Update 两个核，通过避免实例化完整距离矩阵并减少原子争用，将端到端速度提升至 FAISS 的 200 倍以上，使得亿万级数据的在线聚类和向量索引构建成为可能。",
+      "source": "aihot_selected",
+      "title_zh": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1361954183,
+      "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
+      "title": "AI裁员浪潮成为火药桶",
+      "published_at": "2026-06-15T07:25:41+00:00",
+      "original_language": "zh",
+      "summary_en": "This article examines the accelerating wave of tech layoffs—up 44% year-over-year—where AI is consistently cited as the leading cause, even as executives publicly dispute that link. It reveals a stark disconnect between corporate denials of AI-driven job cuts and the simultaneous soaring valuations and IPOs of AI companies, while a majority of Americans feel economically squeezed. The piece matters because it highlights the volatile tension between the narrative of AI as a necessary silver bullet and its real-world consequences on",
+      "summary_zh": "今年科技公司以AI为名加速裁员，但多位CEO否认AI是主因，同时AI芯片企业上市估值却高达670亿美元，凸显AI产业繁荣与失业焦虑之间的尖锐矛盾。民调中多数美国人视生活成本为首要经济问题，表明技术红利未普及时，裁员浪潮正成为社会压力的火药桶。",
+      "source": "aihot_selected",
+      "title_zh": "AI裁员浪潮成为火药桶",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3507849040,
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network",
+      "published_at": "2026-06-14T17:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI is addressing the challenge of complex enterprise AI deployment by launching a Partner Network with $150 million in funding to build a global ecosystem of certified partners. The program uses tiered certifications, specialized training, and expert deployment support, aiming to train 300,000 consultants by 2026 to effectively integrate and sell AI solutions. This matters because it scales enterprise adoption with proven results like Paychex cutting wait times by 80% and manual review by 30%, bridging the gap between AI technology and real-world business value.",
+      "summary_zh": "OpenAI推出合作伙伴网络，旨在解决AI解决方案在企业中规模化部署的难题，通过三级合作伙伴层级、专业认证和前线部署工程师项目，投资1.5亿美元支持全球伙伴构建与交付AI服务；此举不仅计划培训30万名顾问，还已在Paychex案例中将客服等待时间降低80%，凸显了通过生态体系加速企业AI落地的关键价值。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 推出合作伙伴网络 OpenAI Partner Network",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3628567509,
+      "url": "https://garymarcus.substack.com/p/what-washington-must-do",
+      "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
+      "published_at": "2026-06-14T16:15:35+00:00",
+      "original_language": "zh",
+      "summary_en": "The White House's AI regulation decision is criticized for favoring OpenAI and Amazon while imposing insufficient pressure on Anthropic, lacking transparency and factual grounding. Experts warn this closed-door approach risks corruption and could accelerate other nations' development of sovereign AI, including China's, while driving U.S. talent overseas. There are calls for an independent agency to ensure fair, evidence-based AI oversight.",
+      "summary_zh": "白宫AI监管决定因偏袒OpenAI与亚马逊、对Anthropic施压仓促且缺乏透明度，被专家批评为带有腐败嫌疑的闭门决策。此举可能刺激他国加速发展“主权AI”并导致美国人才流失。为此，专家呼吁建立独立的监管机构，以确保基于事实和证据的公平执行。",
+      "source": "aihot_selected",
+      "title_zh": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3649244209,
+      "url": "https://x.com/satyanadella/status/2066182223213293753",
+      "title": "Satya Nadella：没有生态的前沿不稳定",
+      "published_at": "2026-06-14T15:33:24+00:00",
+      "original_language": "zh",
+      "summary_en": "Satya Nadella warns that if AI platform value concentrates in a few models, it could replicate the hollowing-out effects of globalization, and proposes that enterprises build a compound growth loop where human capital (knowledge, judgment, relationships) appreciates alongside token capital (in-house AI capabilities). The key finding is that organizations must own their learning cycles by fine-tuning models with private data and reinforcement learning, so they can swap generic models without losing expert knowledge. This matters because it enables a distributed frontier ecosystem where every business, industry, and country retains sovereign AI learning loops rather than being consumed by centralized models.",
+      "summary_zh": "微软CEO萨提亚·纳德拉指出，AI平台转变首次实现了人与数字系统间的认知循环，企业必须同时积累人力资本（知识、判断、关系）与token资本（自有AI能力），并构建二者复合增长的学习循环，确保替换通用模型时不丢失内部专家知识。他警告，若所有价值被少数模型吞噬，将重演全球化空心化悲剧，因此呼吁建立让每家企业、行业和国家都能拥有自己学习循环的前沿生态系统。",
+      "source": "aihot_selected",
+      "title_zh": "Satya Nadella：没有生态的前沿不稳定",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1023719581,
+      "url": "https://x.com/vista8/status/2066165703443726749",
+      "title": "乔木小说创作 Skill 开源发布",
+      "published_at": "2026-06-14T14:27:45+00:00",
+      "original_language": "zh",
+      "summary_en": "This open-source skill, \"Qiaomu Novel Generator,\" enables users to easily create detailed novel frameworks—including plot summaries, character profiles, hooks, classic scenes, desires, rising conflicts, and endings—simply by stating \"I want to write a novel\" or specifying a style. After interactive discussion and confirmation, it produces a complete novel with minimal AI-like feel. This approach streamlines the creative workflow by combining structured ideation with human feedback, making high-quality, natural-sounding fiction more accessible.",
+      "summary_zh": "这篇发布介绍了一个名为“乔木小说创作”的开源技能，它让用户只需输入简单指令或风格偏好，AI即可自动生成从剧情梗概到结局的完整创作框架，并最终输出情节饱满、AI痕迹低的小说。该工具通过引导人机协同和细化创作元素，降低了小说创作的门槛，使爱好者能更高效地将灵感转化为具象作品。",
+      "source": "aihot_selected",
+      "title_zh": "乔木小说创作 Skill 开源发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 981198545,
+      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+      "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
+      "published_at": "2026-06-14T03:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic's suspension of access to its latest model has sparked a debate among Indian tech leaders over whether this signals a vulnerability for India's AI ambitions, addressing the problem of reliance on proprietary foreign AI systems. The key finding is that this event is viewed as a potential wake-up call, urging increased investment in domestic AI capabilities to mitigate strategic dependencies. This matters because it underscores how access restrictions by major AI developers can directly influence national technology strategies and sovereignty in the Global South.",
+      "summary_zh": "Anthropic 暂停新模型访问的事件引发了印度科技界对自身 AI 雄心的反思，核心问题是此举是否暴露出过度依赖外部模型的风险。这场辩论强调，印度需要加速自主 AI 模型和基础设施的建设，以降低外部中断对本土生态的冲击。其重要性在于，它为各国在追求 AI 领先地位时，关于技术主权与生态系统弹性的战略权衡提供了警示。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3564558157,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.18.1",
+      "title": "QwenLM/qwen-code: Release v0.18.1",
+      "published_at": "2026-06-15T11:26:09+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses security by gating the daemon’s direct session shell behind an explicit opt‑in, preventing unintended shell access. It also fixes telemetry by propagating the daemon’s ACP trace context and adds persistence for oversized tool results to avoid memory or crash issues. These changes improve the safety, observability",
+      "summary_zh": "此次更新通过要求显式选择加入来限制后台直接Shell会话访问，从而提升了安全性；修复了遥测中的ACP追踪上下文传播问题，确保监控信息的完整传递；同时优化了核心模块对超大工具结果的持久化处理，防止内存或存储溢出，增强了系统在处理大规模数据时的稳定性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.18.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1600487569,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.0.4",
+      "title": "QwenLM/qwen-code: desktop-v0.0.4",
+      "published_at": "2026-06-15T07:47:44+00:00",
+      "original_language": "en",
+      "summary_en": "This patch release for QwenLM/qwen-code fixes several bugs in the desktop application, including the failure to remember removed MCP servers and outdated default model settings. The key changes ensure that user configurations persist correctly, unnecessary workspace packages are excluded from legal notice files, and telemetry works as intended, improving overall reliability and user experience for developers using the tool.",
+      "summary_zh": "本次更新修复了多项关键问题，包括命令行工具中 MCP 服务器移除后无法持久化的错误，以及模型原始默认值未正确刷新的缺陷，同时优化了 VSCode 插件集成与遥测功能。这些修复提升了开发工具的稳定性和一致性，确保开发者在使用过程中获得更可靠的环境配置和代码生成体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: desktop-v0.0.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3462824767,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-latest",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop latest",
+      "published_at": "2026-06-15T07:48:02+00:00",
+      "original_language": "en",
+      "summary_en": "Auto-update feed for desktop-v0.0.4. See https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.0.4.",
+      "summary_zh": "此自动更新源为Qwen Code桌面应用推送v0.0.4版本，解决了用户需手动检查并更新软件的繁琐问题。通过集成自动拉取机制，确保开发者始终获得最新的功能增强与缺陷修复，从而提升编码辅助工具的稳定性和体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop latest",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
