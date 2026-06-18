@@ -1,0 +1,40 @@
+{
+  "date": "2026-06-18",
+  "headline_en": "50 items collected today",
+  "lede_en": "50 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    813209408,
+    425259217,
+    3479474154,
+    406640494,
+    354063717
+  ],
+  "item_count": 50,
+  "source_breakdown": {
+    "arxiv_cs_cl": 5,
+    "anthropic_news": 1,
+    "claude_blog": 4,
+    "mad_podcast": 1,
+    "aihot_selected": 34,
+    "qwen_github": 3,
+    "moonshot_github": 2
+  },
+  "generated_at": "2026-06-18T11:59:14.103381Z",
+  "headline_zh": "Shazeer跳槽OpenAI，AI产业财务与硬件危机浮现",
+  "lede_zh": "今日AI领域动荡加剧：Noam Shazeer离开谷歌投奔OpenAI，令Gemini团队遭受重创；OpenAI财务文件泄露显示年亏损近400亿美元；苹果CEO库克警告存储芯片涨价将推高iPhone售价，凸显AI成本正向终端传导。与此同时，国内八部门出台政策支持AI消费，Vercel开源智能体框架Eve等创新产品密集涌现，折射出产业在阵痛中加速演进。",
+  "sections_zh": [
+    {
+      "title": "成本、人才与政策：AI产业底层逻辑重构",
+      "body": "今天一系列事件暴露了AI竞赛的底层压力。Noam Shazeer从谷歌重返OpenAI，使得谷歌Gemini痛失核心架构人才，顶级研究员流动决定大模型竞争格局。OpenAI虽然年营收130亿美元，但运营亏损高达209亿、净亏约390亿，凸显商业化投入与盈利的巨大鸿沟，已关闭Sora等非核心业务。苹果库克指出，AI引发的存储芯片暴涨导致iPhone等终端产品涨价不可避免。国内八部门则逆势推出财政贴息支持购买AI产品，试图以消费拉动技术普惠。这一切表明，AI产业正经历从资本、人才到硬件成本的全面重构。"
+    },
+    {
+      "title": "智能体与开发工具：自治化生产力革命",
+      "body": "智能体成为今天产品发布的主旋律。Vercel开源了Eve框架，每个智能体即一个文件目录，内置检查点和审批机制，已实现92%工单自动解决。Omnigent元框架由Databricks核心开发者开源，支持在同一会话中集成Claude Code、Codex等多智能体协作。NVIDIA ENPIRE系统首次让8个Codex智能体控制机器人自主完成物理实验，探索速度随并行度提升。此外，Kimi Work推出可连续运行24小时的目标模式，Claude Design与Replit联动将设计直接转化为应用，苹果Xcode 27深度集成AI智能体实现自然语言修Bug与构建App，AI编程正走向完全自主。"
+    },
+    {
+      "title": "新模型与评测：突破技术极限的努力",
+      "body": "在模型与架构方面，OmniAgent提出基于POMDP的长视频理解方法，将推理复杂度与视频时长解耦，实现原生全模态主动感知。Turing-RL借鉴图灵测试思想，通过判别式奖励生成与真人无异的对话，为高仿真用户模拟器提供新范式。Sumi作为7B参数的均匀扩散语言模型完整开源，达到同等自回归模型的水平。Google的AMIE系统从诊断迈向长期疾病管理，在计划精确性和指南一致性上超越初级保健医生。新基准LifeSciBench评估AI在真实生命科学多步推理中的表现，推动从答题到科学发现的转变。这些进展正缩小实验室与生产环境之间的鸿沟。"
+    }
+  ]
+}
