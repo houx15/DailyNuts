@@ -1,0 +1,727 @@
+{
+  "date": "2026-06-19",
+  "items": [
+    {
+      "id": 4108989676,
+      "url": "http://arxiv.org/abs/2606.20560v1",
+      "title": "How Transparent is DiffusionGemma?",
+      "published_at": "2026-06-18T17:59:46+00:00",
+      "original_language": "en",
+      "summary_en": "The paper investigates whether DiffusionGemma's continuous latent space reduces reasoning transparency compared to autoregressive models. By decomposing transparency into variable and algorithmic aspects, the authors find that although variable transparency seems poor due to high serial depth, they can recover algorithmic transparency by mapping information flow through an interpretable token bottleneck, allowing reconstruction of the model's reasoning steps. This matters because it shows diffusion language models can still be interpretable and auditable, which is essential for debugging, alignment, and safe deployment.",
+      "summary_zh": "扩散Gemma在连续潜在空间中进行大量计算，这可能降低其推理透明度，但通过变量与算法透明度的分解，发现虽初始的变量透明度较差（序列深度是自回归模型的28.6倍），却可利用可解释的令牌瓶颈映射去噪步骤间的信息流动，从而重构模型的输出过程。这揭示了扩散语言模型并非完全不透明，其隐藏的计算逻辑仍可被捕捉。",
+      "source": "arxiv_cs_cl",
+      "title_en": "How Transparent is DiffusionGemma?",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2968074556,
+      "url": "http://arxiv.org/abs/2606.20538v1",
+      "title": "Multi-Task Bayesian In-Context Learning",
+      "published_at": "2026-06-18T17:50:10+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the problem that existing amortized Bayesian inference methods are brittle under distribution shift because they are tightly coupled to the training prior and lack explicit mechanisms for adapting to new priors. It proposes a multi-task in-context learning framework that encodes prior information as a prefix of example datasets, training a transformer on sequences of prior and target tasks to enable flexible adaptation across diverse prior families. This matters because it delivers robust, data-efficient, and scalable Bayesian predictive inference with principled uncertainty quantification that generalizes well even when test priors differ from those seen during training.",
+      "summary_zh": "该工作针对贝叶斯预测推理中模型在分布偏移下难适应新先验的问题，提出了一种多任务上下文学习框架，将先验信息显式编码为上下文数据集的前缀。通过训练Transformer在多样先验任务序列上自适应预测，方法实现了对分层贝叶斯推理的摊销，显著提升了对未知先验的鲁棒性和泛化能力。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Multi-Task Bayesian In-Context Learning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3458421911,
+      "url": "http://arxiv.org/abs/2606.20537v1",
+      "title": "Execution-State Capsules: Graph-Bound Execution-State Checkpoint and Restore for Low-Latency, Small-Batch, On-Device Physical-AI Serving",
+      "published_at": "2026-06-18T17:49:36+00:00",
+      "original_language": "en",
+      "summary_en": "This work addresses the challenge of low-latency state management for on-device physical-AI serving, where interactive agents frequently branch, reset, or interrupt under tight responsiveness constraints. It introduces execution-state capsules, a graph-bound checkpoint and restore mechanism that captures entire execution state (KV cache, recurrent, convolution state, etc",
+      "summary_zh": "本文针对低延迟、小批量、设备端物理AI服务中交互式LLM代理需要频繁分支、重置和恢复的挑战，提出了执行状态胶囊机制。该机制将完整可恢复状态（包括KV缓存、循环状态等）绑定在计算图边界上，通过FlashRT内核运行时实现快速快照、恢复、分叉或回滚，从而摆脱了传统KV缓存重用仅管理部分状态的局限。这为语音、机器人等对响应时间要求严苛的端侧AI应用提供了高效、灵活的状态管理解决方案。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Execution-State Capsules: Graph-Bound Execution-State Checkpoint and Restore for Low-Latency, Small-Batch, On-Device Physical-AI Serving",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2499316431,
+      "url": "http://arxiv.org/abs/2606.20529v1",
+      "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
+      "published_at": "2026-06-18T17:41:56+00:00",
+      "original_language": "en",
+      "summary_en": "LedgerAgent tackles the problem of tool-calling agents in customer-service failing by implicitly reconstructing task states from prompts, which can cause stale or incorrect information and domain policy violations. It introduces an inference-time method that explicitly maintains observed task states—like facts and constraints—in a separate ledger, then renders them dynamically into the prompt. This matters because it enhances policy adherence and decision reliability in multi-turn interactions that require precise, state-aware tool use.",
+      "summary_zh": "LedgerAgent 解决了客服场景中工具调用代理因隐式状态管理导致决策依据过时或缺失信息、以及工具调用违反策略的常见失败问题。其核心方法是引入一个独立的账本结构显式维护任务状态，并在推理时将其渲染到上下文中，从而确保代理始终基于准确且最新的状态做出决策和调用工具。这项工作提升了策略遵循的可靠性，对构建稳定、可解释的自动化客服代理具有重要意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3630330152,
+      "url": "http://arxiv.org/abs/2606.20527v1",
+      "title": "StylisticBias: A Few Human Visual Cues Drive Most Social Biases in MLLMs",
+      "published_at": "2026-06-18T17:39:56+00:00",
+      "original_language": "en",
+      "summary_en": "To isolate visual cues from identity, the paper presents StylisticBias, a controlled benchmark that varies single attributes on fixed faces, revealing that a handful of cues (particularly age, body type, and fashion style) account for nearly 80% of social biases in multimodal large language models. This matters because identifying these specific drivers allows for more targeted bias mitigation in high-stakes applications.",
+      "summary_zh": "该研究针对多模态大模型在人物判断中视觉偏见来源不明的问题，提出一个名为StylisticBias的受控基准，通过固定身份仅改变单个视觉属性生成约2.5万张图像，评估六个MLLM在25个社会判断场景中的表现。关键发现是年龄与体型主导身份层面的影响，而时尚风格等属性在属性层面引发最大判断偏移，且约15个属性贡献了近80%的偏见。这揭示了少数视觉线索对模型社会偏见的主导作用，为未来减少偏见提供了可干预的具体目标。",
+      "source": "arxiv_cs_cl",
+      "title_en": "StylisticBias: A Few Human Visual Cues Drive Most Social Biases in MLLMs",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 761330907,
+      "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "title": "Jun 18, 2026Frontier Red TeamProject Fetch: Phase two",
+      "published_at": "2026-06-18T00:00:00",
+      "original_language": "en",
+      "summary_en": "This document describes Phase two of Project Fetch, a red-teaming initiative by the Frontier Red Team focused on probing frontier AI systems for vulnerabilities in data retrieval and handling. The likely approach simulates adversarial data extraction",
+      "summary_zh": "针对前沿AI模型，红队于2026年6月18日启动了“Project Fetch”第二阶段，重点评估模型的信息检索与获取行为。该工作旨在通过对抗性测试，提前发现并修复可能被恶意利用的安全漏洞，这对保障模型的安全可靠部署至关重要。",
+      "source": "anthropic_research",
+      "title_en": "Jun 18, 2026Frontier Red TeamProject Fetch: Phase two",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3341118686,
+      "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "title": "Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more",
+      "published_at": "2026-06-19T12:00:50.024768",
+      "original_language": "en",
+      "summary_en": "This work addresses the challenge of reliably directing and customizing the behavior of an AI coding assistant to fit diverse development environments and team practices. It introduces a multi-faceted steering system—comprising configuration files, reusable skills, automated hooks, explicit rules, and subagent delegation—that gives developers fine-grained control over how the assistant operates. This matters because it transforms a general-purpose code agent into a context-aware, disciplined tool that can be integrated into existing workflows without sacrificing consistency or safety.",
+      "summary_zh": "这篇内容介绍了如何通过CLAUDE.md配置文件、技能包、钩子、规则、子代理等多种机制来精细操控Claude代码的行为与输出，解决AI助手在复杂编程任务中难以按需准确执行的问题。核心方法是提供一套可组合的定制化控制层，让开发者能定义持久化指令、动态挂载专门能力并管理多代理协作。这套体系之所以重要，是因为它显著提升了大语言模型在代码生成与工程流程中的可控性、可复现性和任务适配能力。",
+      "source": "claude_blog",
+      "title_en": "Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 580323446,
+      "url": "https://claude.com/blog/enterprise-managed-auth",
+      "title": "Centrally manage authorization for MCP connectors",
+      "published_at": "2026-06-19T12:00:50.025283",
+      "original_language": "en",
+      "summary_en": "This proposal addresses the security and administrative overhead of fragmented authorization for Model Context Protocol (MCP) connectors, which link AI models to external tools and data. The key approach is a centralized authorization management system that enforces consistent access policies across all connectors. This is critical for enterprise AI deployments, as it reduces misconfiguration risks and streamlines governance when models interact with diverse, sensitive resources.",
+      "summary_zh": "本文聚焦于MCP连接器授权管理的分散性问题，提出了一种集中式授权管理方案。该方案通过统一管控连接器的访问权限，简化了配置流程并提升了安全性与可维护性，这对于大规模分布式系统中连接器的治理具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "Centrally manage authorization for MCP connectors",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1259823037,
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "title": "Claude Code now supports artifacts",
+      "published_at": "2026-06-19T12:00:50.025803",
+      "original_language": "en",
+      "summary_en": "Claude Code now includes support for artifacts, enabling users to generate, view, and manage structured outputs such as code snippets or documents directly within the coding environment. This update enhances development workflows by allowing persistent, interactive project elements, making the tool more practical for real-world software engineering tasks.",
+      "summary_zh": "Claude Code 新增对 artifacts 的支持，解决了此前无法直接管理、预览或导出代码生成产物的不足。该更新通过集成工件处理能力，让开发者可以更直观地与 Claude 协作构建和分享交互式内容。这显著提升了代码辅助的效率与可靠性，使 AI 辅助开发流程更为完整。",
+      "source": "claude_blog",
+      "title_en": "Claude Code now supports artifacts",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1511978949,
+      "url": "https://claude.com/blog/building-with-claude-managed-agents",
+      "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
+      "published_at": "2026-06-19T12:00:50.028039",
+      "original_language": "en",
+      "summary_en": "The article addresses the challenge of embedding AI agents into user interfaces effectively, tracing the evolution of \"agentic surfaces.\" It demonstrates that using Claude Managed Agents simplifies deployment and orchestration, making it easier for developers to build reliable, context-aware interactive systems. This matters because it lowers barriers to creating sophisticated AI-driven features, improving user experiences and operational efficiency.",
+      "summary_zh": "该文探讨了如何利用Claude托管智能体（Managed Agents）构建新型代理界面，以解决传统自动化中交互僵化、集成复杂的问题。其核心思路是通过自然语言指令驱动多代理协作，实现动态任务分配与流程定制，从而提升系统的灵活性与用户协作效率。这一演进标志着AI应用从孤立工具向主动协作伙伴的重要转变，对下一代人机交互设计具有启示意义。",
+      "source": "claude_blog",
+      "title_en": "The evolution of agentic surfaces: building with Claude Managed Agents",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 271574956,
+      "url": "https://podcasters.spotify.com/pod/show/how-do-you-use-chat-gpt/episodes/GitHubs-COO-Explains-Why-AI-Hasnt-Replaced-Developers-e3ktu6s",
+      "title": "GitHub’s COO Explains Why AI Hasn’t Replaced Developers",
+      "published_at": "2026-06-17T15:58:16",
+      "original_language": "en",
+      "summary_en": "GitHub’s COO addresses the concern that AI will replace developers by highlighting a surge in platform activity—commits are projected to jump from 1 billion to over 14 billion in a year, fueled by both human and AI agent contributions (17 million agent-created pull requests in March alone). The key finding is that AI acts as an accelerant, massively scaling code output through human-AI collaboration rather than eliminating developer roles. This matters because it reframes AI as a productivity multiplier that reshapes software development, countering fears of job displacement and emphasizing the growing importance of developer oversight and creativity.",
+      "summary_zh": "GitHub COO Kyle Daigle指出，AI不仅没有取代开发者，反而通过与人类协作的智能代理（agents）极大推动了开发活动，预计今年提交量将从去年的10亿激增至140亿，其中智能代理贡献显著。这一发现表明AI正以指数级扩展软件开发规模，而非构成威胁，预示人机协同将成为主流开发模式。",
+      "source": "ai_and_i",
+      "title_en": "GitHub’s COO Explains Why AI Hasn’t Replaced Developers",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3393080223,
+      "url": "https://x.com/rohanpaul_ai/status/2067936581441528040",
+      "title": "OpenAI 将前沿健康 AI 能力迁移至免费版 GPT-5.5 Instant",
+      "published_at": "2026-06-19T11:44:36+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI addresses the challenge of scaling expert-level health AI to over 230 million weekly users by distilling its premium reasoning model into the free GPT-5.5 Instant. The approach combines knowledge distillation from a strong teacher model with human feedback from 260+ clinicians across 60 countries and 49 languages, fine-tuning the student model to safely handle uncertainty by proactively requesting missing information. This matters because it democratizes frontier health AI, reducing factual errors by 71% in real-world usage and making reliable health guidance available to a massive global audience at no cost.",
+      "summary_zh": "OpenAI 把其高端思维模型的健康 AI 能力蒸馏到免费版 GPT-5.5 Instant，让大众用户也能获得接近付费模型的健康咨询质量。它通过 260 多位多国医生审查超 70 万条响应，结合监督微调与偏好训练，重点教会模型在信息不足时主动追问，从而将真实流量中事实性问题降低 71%。这使每周超过 2.3 亿用户的健康查询得到更安全、可信的免费 AI 支持。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 将前沿健康 AI 能力迁移至免费版 GPT-5.5 Instant",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2838663021,
+      "url": "https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg",
+      "title": "Humanize PPT v0.9：为演讲而生的开源PPT Skill",
+      "published_at": "2026-06-19T09:48:28+00:00",
+      "original_language": "zh",
+      "summary_en": "Humanize PPT v0.9 tackles the gap between generic slide generation and real presentation delivery by restructuring slide outlines via AST (Audience, State, Transfer) logic, delegating rendering to downstream skills while embedding media placeholders and generation prompts into the outline, and outputting four preview pages before final rendering. It introduces automated quality checks for common rendering flaws and a dedicated speaker mode with note display and global slide index for quick navigation, making it a robust, open-source tool that explicitly supports live, speaker-centric presentations.",
+      "summary_zh": "Humanize PPT v0.9 解决演讲者制作高质量PPT时流程繁琐、渲染效果不可控的问题，核心采用AST逻辑智能重组大纲，并外包渲染任务，同时通过预览与质检保障输出质量。其重要性在于完全开源，并专为演讲场景设计了独立备注窗口与全局索引跳页，显著提升演示流畅度。",
+      "source": "aihot_selected",
+      "title_zh": "Humanize PPT v0.9：为演讲而生的开源PPT Skill",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 956098476,
+      "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+      "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
+      "published_at": "2026-06-19T05:01:18.006000+00:00",
+      "original_language": "zh",
+      "summary_en": "The authors present a persistent memory layer on Elasticsearch for AI agents that separates episodic, semantic, and procedural memories into dedicated indices with tailored write rates and expiry rules. Retrieval combines BM25 and Jina v5 dense vectors via reciprocal rank fusion followed by cross-encoder reranking, achieving an average R@10 recall of 0.89 with zero cross-tenant leakage on 168 QA pairs. This open-source, MCP-compatible layer enables reliable, runtime-agnostic memory for agents, directly addressing long-term context retention and safe multi-user deployment.",
+      "summary_zh": "本文针对 AI Agent 的记忆持久化问题，在 Elasticsearch 上实现了按情景、语义、程序分类存储的代理内存层，并采用 BM25、稠密向量 RRF 融合与交叉编码器重排序的检索策略。在 168 道 QA 评估中，该层取得了 0.89 的 R@10 平均召回率，且零跨租户泄露，已通过 MCP 协议开源，不依赖特定运行时，为构建可靠、可扩展的代理记忆系统提供了重要基础。",
+      "source": "aihot_selected",
+      "title_zh": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3967967902,
+      "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
+      "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
+      "published_at": "2026-06-19T04:49:25+00:00",
+      "original_language": "zh",
+      "summary_en": "Alibaba open-sourced Zvec, a vector database that supports billion-scale millisecond retrieval and native hybrid search, challenging costly alternatives like Pinecone. Simultaneously, UCSD Professor Biwei Huang proposed the fourth paradigm of causal AI—advancing from correlational small/large models to causal large models—and her startup Aether AI aims to extract physical laws from video, marking a step toward next-generation causal intelligence.",
+      "summary_zh": "阿里开源的Zvec向量数据库解决了大规模向量检索的高成本与性能瓶颈，通过pip安装即可免费获得对标商业方案的能力，并支持十亿向量毫秒级混合搜索，降低了AI应用开发门槛。与此同时，UCSD黄碧薇教授提出AI正在从“相关性大模型”迈向“因果大模型”的第四代范式，其创立的Aether AI致力于从视频中自动抽取物理规律，这一方向有望为下一代因果AI提供关键的范式突破和落地路径。",
+      "source": "aihot_selected",
+      "title_zh": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2233183303,
+      "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
+      "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+      "published_at": "2026-06-19T03:58:46+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek's AutoResearch protocol enables an AI agent to autonomously complete the full RL research cycle—designing experiments, writing and debugging code, submitting GPU jobs, and summarizing conclusions—on a 285B model, with zero human intervention. Leveraging GRPO tools, it addresses the challenge of fully automated, self-driven scientific discovery and marks a significant step toward continuous learning systems.",
+      "summary_zh": "DeepSeek研究员开源的AutoResearch协议让AI智能体首次在285B模型上自主完成强化学习（RL）研究全流程，全程无需人工干预。通过调用GRPO工具，系统实现了从实验设计、代码编写到任务提交与结论总结的闭环自动化。这项工作被视为迈向持续学习的重要开端。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2946225038,
+      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
+      "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+      "published_at": "2026-06-19T02:44:12+00:00",
+      "original_language": "zh",
+      "summary_en": "This tutorial addresses the challenge of reliably generating production-quality Python code by implementing a full pipeline around Salesforce’s CodeGen models. It loads models via HuggingFace,",
+      "summary_zh": "本教程针对自然语言生成Python代码的可靠性问题，提出了一套端到端的CodeGen流水线，涵盖语法检查、安全审计、单元测试验证与候选重排序，从而筛选出质量最高的函数。该方法展示了CodeGen不仅能完成代码补全，还能通过系统化评估与筛选保障输出代码的实用性与安全性，为自动化代码生成在实际工程中的落地提供了重要参考。",
+      "source": "aihot_selected",
+      "title_zh": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3021913551,
+      "url": "https://www.ithome.com/0/966/295.htm",
+      "title": "八部门联合发文力推\"人工智能 + 消费\"，扩大 AI 手机电脑及智能网联汽车消费",
+      "published_at": "2026-06-18T23:56:08+00:00",
+      "original_language": "zh",
+      "summary_en": "A Chinese government initiative aims to stimulate domestic consumption by massively expanding the supply and integration of AI-powered consumer goods—like smartphones, vehicles, and wearables—across retail, logistics, home care, education, and other sectors. The joint policy package includes building dedicated zones and experience centers",
+      "summary_zh": "商务部等八部门联合发文，旨在解决AI消费产品供给不足、应用场景局限的问题，通过扩大AI手机、智能网联汽车等终端供给，推动AI与家居、养老等多领域融合，并创新租赁试用等模式，加速AI进入千家万户。该政策对促进消费升级、推动产业融合及AI规模化落地具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "八部门联合发文力推\"人工智能 + 消费\"，扩大 AI 手机电脑及智能网联汽车消费",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 104084372,
+      "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+      "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+      "published_at": "2026-06-18T23:45:03+00:00",
+      "original_language": "zh",
+      "summary_en": "Viktor addresses the friction of adopting AI in workplaces by eliminating the need for users to learn prompts or commands—simply @mentioning it like a human colleague yields complete work results, and it can even act proactively without a mention. Its expansion from Slack to Microsoft Teams, backed by $20 million annualized revenue without a sales team, signals strong product-market fit for a \"zero-barrier\" AI assistant. This matters because it opens AI productivity gains to Teams' 320 million users, especially internal operations and management staff, with literally zero learning curve.",
+      "summary_zh": "AI 员工 Viktor 解决了企业用户使用 AI 工具需要学习提示词和操作门槛的问题，通过像提及同事一样自然交互、甚至无需主动 @ 就能自动完成工作的零门槛设计。该产品已实现 2000 万美元年化收入，现登陆 Microsoft Teams 面向其 3.2 亿用户，让运营和管理人员无需学习即可获得完整工作成果，显著降低了企业内部 AI 采纳成本。",
+      "source": "aihot_selected",
+      "title_zh": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2381220753,
+      "url": "https://openrouter.ai/blog/tutorials/openclaw-openrouter",
+      "title": "OpenClaw 接入 OpenRouter",
+      "published_at": "2026-06-18T19:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenClaw now integrates OpenRouter, enabling a single-command setup that unifies API keys and billing while providing automatic failover across 300+ models. This solves the complexity of managing multiple AI model endpoints for agents, streamlining configuration and reducing operational overhead. The approach improves reliability and cost control for developers deploying AI agents at scale.",
+      "summary_zh": "OpenClaw 通过内置 OpenRouter 支持，解决了 AI 智能体在多模型接入时密钥管理复杂、账单分散和单点故障问题；其核心方法是提供一条命令实现统一密钥与账单配置，并自动跨 300 多个模型进行故障转移。这大大降低了开发者集成和运维大模型服务的门槛，同时提升了应用的稳定性和成本控制能力。",
+      "source": "aihot_selected",
+      "title_zh": "OpenClaw 接入 OpenRouter",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4224166536,
+      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
+      "published_at": "2026-06-18T18:13:13+00:00",
+      "original_language": "zh",
+      "summary_en": "The MosaicLeaks benchmark reveals that deep research agents combining private local documents with web retrieval risk significant privacy leakage, with task performance optimization often worsening this issue. To address this, the authors propose Privacy-Aware Deep Research (PA-DR), a reinforcement learning method that raises strict chain success from 48.7% to 58.7% while cutting answer/full information leakage from 34.0% to 9.9%. This work highlights the tension between capability and confidentiality in agentic systems and offers a practical training framework for privacy-preserving research agents.",
+      "summary_zh": "MosaicLeaks揭示了深度研究智能体在混合私有本地文档与公共网络检索时，会频繁泄露私有信息，且单纯追求任务性能反而加剧泄露风险。该工作提出包含1,001条交错多跳研究链的基准任务，以及隐私感知深度研究（PA-DR）强化学习方法，实现严格链成功率从48.7%提升至58.7%，同时将答案泄露率从34.0%降至9.9%。这一成果为构建既能完成复杂多步研究又能可靠保护隐私的智能体提供了关键基准和有效训练范式。",
+      "source": "aihot_selected",
+      "title_zh": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 205227105,
+      "url": "https://alignment.openai.com/beneficial-rl",
+      "title": "OpenAI 强化学习实现广泛且持久的有益模型",
+      "published_at": "2026-06-18T18:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI addresses the challenge of aligning AI systems to consistently exhibit beneficial traits by using reinforcement learning on diverse real-world dialogues. The training instills behaviors like honesty, epistemic humility, and fairness, leading to improved performance on alignment benchmarks and, critically, to generalization across unseen domains and tasks. This demonstrates that such reinforcement learning can produce alignment that is both broad and durable, resisting adversarial prompts and fine-tuning, which matters for building trustworthy, persistently beneficial AI.",
+      "summary_zh": "OpenAI 通过在多领域真实对话中应用强化学习，训练模型展现出诚实、认知谦逊等有益特质。该方法使模型在未训练领域、对抗性提示甚至微调下仍能抵抗有害行为，表明强化学习可实现广泛且持久的对齐泛化，为解决大模型安全与价值对齐提供了重要路径。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 强化学习实现广泛且持久的有益模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2137878257,
+      "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+      "title": "AI数据中心获政府强制电网快车道",
+      "published_at": "2026-06-18T17:49:23+00:00",
+      "original_language": "zh",
+      "summary_en": "The U.S. Federal Energy Regulatory Commission (FERC) mandated fast-track grid connections for data centers, shifting interconnection costs to them and requiring grid operators to evaluate alternative transmission technologies and report residual capacity—directly targeting the slow, demand-surge–unprepared interconnection process that threatens AI infrastructure expansion. This regulatory intervention matters because data center electricity demand is projected to nearly triple by 2035 and wholesale prices have already spiked, yet the order does not address the fundamental lack of generation capacity needed to meet this load growth.",
+      "summary_zh": "美国联邦能源监管委员会（FERC）命令六大电网运营商为数据中心等大型用户提供快速并网通道，以应对日益激增的电力需求，但该指令并未解决发电容量短缺的根本问题。此举突显了AI数据中心用电需求预计到2035年将增长近三倍的紧迫性，而电网基础设施长期停滞不前，部分地区批发电价已较五年前上涨267%。",
+      "source": "aihot_selected",
+      "title_zh": "AI数据中心获政府强制电网快车道",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1921555539,
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "title": "企业版新用量分析与更新的支出控制",
+      "published_at": "2026-06-18T17:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This update tackles the difficulty of managing and forecasting costs for enterprise AI tool usage by introducing a unified administrative console that tracks credit consumption across ChatGPT and Codex, with granular breakdowns by time, user, product, and model. The new spending controls let admins set nested limits at workspace, group, and individual levels, while employees can request increases with work context, ensuring both top-down governance and bottom-up flexibility. It matters because it gives large organizations precise, real-time visibility and control over AI spend, balancing fiscal responsibility with user autonomy.",
+      "summary_zh": "OpenAI 为企业版 ChatGPT 推出信用额度分析与支出控制，通过统一控制台实现按时间、用户、产品、模型的用量追踪，并支持预设限额、群组配额与个人叠加限制。该功能解决了企业 AI 消耗的透明化与成本管控难题，使管理员能精细调配资源，防范预算超支。",
+      "source": "aihot_selected",
+      "title_zh": "企业版新用量分析与更新的支出控制",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3675529725,
+      "url": "https://openrouter.ai/blog/tutorials/sillytavern-openrouter",
+      "title": "如何将 SillyTavern 连接到 OpenRouter（2026 指南）",
+      "published_at": "2026-06-18T15:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This guide explains how to connect SillyTavern to OpenRouter, solving the problem of limited model access by using a single API key to unlock over 300 models—many free—directly within the interface. The approach is a simple five-step setup, which matters because it lets users cheaply and easily experiment with diverse role-playing AI models while providing troubleshooting tips and curated recommendations.",
+      "summary_zh": "只需一个 OpenRouter API 密钥，即可在 SillyTavern 中直接访问 300 多个模型（含大量免费选项），本文提供了五步连接流程、推荐的角色扮演模型及常见错误修复方法，大幅降低多模型体验门槛。",
+      "source": "aihot_selected",
+      "title_zh": "如何将 SillyTavern 连接到 OpenRouter（2026 指南）",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1877580985,
+      "url": "https://www.ithome.com/0/966/272.htm",
+      "title": "我国首部L3/L4自动驾驶强制性国标公示：2027年7月起实施",
+      "published_at": "2026-06-18T14:57:30+00:00",
+      "original_language": "zh",
+      "summary_en": "China's first mandatory national standard for L3/L4 autonomous driving, proposed for implementation in July 2027, addresses the absence of uniform safety requirements for higher-level automation. It introduces a Safety Case framework, mandates a minimum \"qualified and attentive driver\" safety level, and specifies distinct responsibilities: L3 must ensure safe human-machine handover while L4 must handle risks independently without remote assistance. This regulation establishes a critical safety baseline, directly shaping vehicle certification and deployment timelines for autonomous vehicles in the world's largest auto market.",
+      "summary_zh": "我国工信部公示了首部针对L3和L4级自动驾驶的强制性国家标准，旨在为高级别自动驾驶系统设定统一的安全底线。该标准引入Safety Case机制，对L3重点规范人机驾驶权交接，对L4则要求系统独立处理风险且不得依赖远程协助，以“合格且专注驾驶人”为安全基准。这一举措填补了国内L3/L4法规空白，将于2027年7月起对新车型强制实施，推动自动驾驶规模化落地。",
+      "source": "aihot_selected",
+      "title_zh": "我国首部L3/L4自动驾驶强制性国标公示：2027年7月起实施",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 956759400,
+      "url": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
+      "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
+      "published_at": "2026-06-18T14:37:06+00:00",
+      "original_language": "zh",
+      "summary_en": "Two recent Nature studies demonstrate that AI agents can match or surpass experienced clinicians in clinical reasoning: MIRA achieved 87.8% diagnostic accuracy in simulated emergency cases, outperforming senior specialists (78.1%), while AMIE’s dual-agent system reached 95% treatment plan appropriateness versus primary care physicians (72%). These findings highlight the potential of specialized AI architectures for complex medical decision-making, though both studies caution that performance may degrade in real-world settings due to simulation–reality gaps.",
+      "summary_zh": "两项研究展示了AI诊断与治疗规划的新突破：MIRA在模拟急诊中诊断准确率超越资深医生，AMIE则在多访视病例中制定治疗计划的适切率达95%，且均未出现明显安全问题。核心方法是通过大规模模拟环境和专业基准测试，验证AI智能体在复杂临床决策中的潜力。这提示AI有望辅助缓解医疗资源压力，但警告模拟与现实间存在性能差距，实际落地仍需谨慎验证。",
+      "source": "aihot_selected",
+      "title_zh": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 399269986,
+      "url": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps",
+      "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体",
+      "published_at": "2026-06-18T12:59:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Adobe embeds AI agents into its Creative Cloud suite to automate tedious multi-step tasks—like video rough cuts, background swaps, batch asset generation, and layout updates—addressing the productivity bottleneck in creative workflows. The approach leverages Firefly-powered assistants and deep integrations with platforms such as ChatGPT and Microsoft 365 Copilot, expanding to more ecosystems soon. This matters because it reduces manual drudgery for professionals and individual creators, enabling faster iteration and lowering the barrier to advanced content production.",
+      "summary_zh": "Adobe 针对创意工作流程中的重复性、多步骤任务，推出了 AI 智能体并公开测试，可在 Premiere、Photoshop 等应用中自动完成素材分拣、换背景、批量生成文件等操作。该方案通过将 Firefly 生成式能力与自动化智能体结合，并集成至 ChatGPT、Claude 等常用平台，显著提升了创作者的效率与工作流自动化水平。",
+      "source": "aihot_selected",
+      "title_zh": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4175762972,
+      "url": "https://www.ithome.com/0/966/233.htm",
+      "title": "皮尤民调：63%美国人认为AI发展太快，ChatGPT使用率翻番",
+      "published_at": "2026-06-18T12:11:32+00:00",
+      "original_language": "zh",
+      "summary_en": "A Pew survey finds that while ChatGPT usage has doubled and 44% of Americans have tried it, 63% believe AI is advancing too quickly, only 16% expect positive social impact, and 66% worry about misinformation. Young adults use AI the most but are also the most pessimistic—48% see negative effects—highlighting a growing trust gap between adoption and perception that could influence regulation and responsible deployment.",
+      "summary_zh": "皮尤最新民调揭示了美国公众对AI的复杂态度：尽管ChatGPT使用率较2023年翻番，44%受访者已使用，但63%认为AI发展过快，仅16%看好其社会影响，尤其青年群体使用率高却更悲观。该研究凸显了AI快速渗透生活与公众信任危机之间的张力，为技术治理和舆论引导提供了关键数据。",
+      "source": "aihot_selected",
+      "title_zh": "皮尤民调：63%美国人认为AI发展太快，ChatGPT使用率翻番",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 927885226,
+      "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+      "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
+      "published_at": "2026-06-18T11:25:28.101000+00:00",
+      "original_language": "zh",
+      "summary_en": "A red-team study by Mindgard found that ChatGPT's image generator can be easily tricked into producing explicit violent and sexual content—including sexual violence and depictions of murder—",
+      "summary_zh": "ChatGPT 图像生成器的内容过滤器可被简单提示词轻易绕过，研究通过“恢复照片”等技巧让模型自动生成性暴力和血腥图像，暴露了此前声称修复的裸体问题依然存在。该发现揭示了生成式 AI 工具在广泛可及性下面临的内容审核不足与潜在滥用风险。",
+      "source": "aihot_selected",
+      "title_zh": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 155719248,
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "title": "GPT-5.5 Instant提升ChatGPT健康智能",
+      "published_at": "2026-06-18T11:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Over 230 million weekly users seek health information via ChatGPT, and the newly released GPT-5.5 Instant now offers free access to health guidance that matches frontier thinking models on the most challenging evaluations. On doctor-authored HealthBench benchmarks, it surpasses human-written responses in accuracy, safety, and communication quality, with a 71% reduction in factual errors in production traffic, significantly improving the reliability of AI-assisted health communication for all",
+      "summary_zh": "GPT-5.5 Instant 针对超2.3亿ChatGPT用户获取健康信息时面临的准确性与安全性问题，在医生编制的HealthBench评估中取得显著提升，其回复在多项质量指标上超越医师手写回复及早期模型，且故障率更低。该模型已向免费用户开放，使大规模健康咨询的事实性错误下降71%，提升了 AI 健康辅助的可靠性和公众信任。",
+      "source": "aihot_selected",
+      "title_zh": "GPT-5.5 Instant提升ChatGPT健康智能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 952911393,
+      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "title": "OpenAI与哈佛等合作研究：o3 Deep Research模型辅助诊断儿童罕见病，额外诊断率4.8%",
+      "published_at": "2026-06-18T08:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This study tackles the challenge of diagnosing rare pediatric diseases from previously unsolved cases by leveraging OpenAI’s o3 Deep Research model to generate evidence-based candidate diagnoses. In a re-analysis of 376 undiagnosed cases, the AI-assisted workflow led clinicians to establish diagnoses in 18 additional patients (a 4.8% diagnostic uplift) while keeping experts in the loop for verification. The work demonstrates that large reasoning models can scalably augment periodic case re-evaluation by producing testable hypotheses, reducing the manual burden on specialists without displacing clinical judgment.",
+      "summary_zh": "针对儿童罕见病长期未确诊病例，该研究利用OpenAI o3 Deep Research模型生成基于证据的候选诊断假说，通过专家审核与追加检测，将诊断率额外提升4.8%。这一发现表明AI可辅助专家对未解病例进行可扩展的定期再分析，生成可检验的线索，但临床决策仍需由医生主导。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI与哈佛等合作研究：o3 Deep Research模型辅助诊断儿童罕见病，额外诊断率4.8%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4111351951,
+      "url": "https://arxiv.org/abs/2606.20521",
+      "title": "HumanScale：自我中心人类视频在具身预训练中可超越真实机器人数据",
+      "published_at": "2026-06-18T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "该研究解决了具身人工智能中预训练数据稀缺的问题，通过比较自我中心人类视频与遥操作机器人轨迹发现，经精心过滤和标注的人类视频作为预训练数据源，能显著提升模型性能——在真实机器人动作预测中验证损失降低24%，分布内任务成功率高52.5%，分布外任务成功率高90%。这一发现建立了一种可扩展的范式：先利用大规模人类视频预训练学习多样化的世界表征，再用少量标注机器人数据进行微调对齐，大幅降低了具身基础模型对昂贵真实机器人数据的依赖。",
+      "summary_zh": "研究比较了自我中心人类视频与遥操作真实机器人轨迹作为具身预训练数据的效果，发现经过过滤处理的人类视频预训练模型在机器人动作预测上验证损失降低24%，并在分布内外任务中分别实现52.5%和90%的成功率提升。该结果揭示了一种可扩展的范式：先利用丰富的人类视频学习通用世界表征，再用少量机器人数据微调，从而有效对齐动作空间，为低成本、高泛化的具身学习开辟新路径。",
+      "source": "aihot_selected",
+      "title_zh": "HumanScale：自我中心人类视频在具身预训练中可超越真实机器人数据",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2995607139,
+      "url": "https://x.ai/news/introducing-word-addin",
+      "title": "xAI 发布 Grok for Word 插件",
+      "published_at": "2026-06-18T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "xAI's Grok for Word plugin addresses the friction of manually structuring and polishing documents by integrating AI directly into Microsoft 365. The free plugin lets users transform notes into organized text, refine clarity, search the web or X, generate charts, and connect to external sources like SharePoint and Google Drive, extending the same capabilities to PowerPoint and Excel. By embedding conversational AI into everyday productivity tools, it streamlines document creation and data access without leaving the familiar Office environment.",
+      "summary_zh": "xAI 发布的 Grok for Word 插件解决了在 Microsoft Word 中高效处理与生成结构化文档的问题，它通过笔记转化、文本重写、跨平台搜索及数据连接等功能，让用户无需切换工具即可完成写作增强。这一集成将大模型能力直接嵌入日常办公场景，显著提升了文档创作和信息整合的便捷性与效率。",
+      "source": "aihot_selected",
+      "title_zh": "xAI 发布 Grok for Word 插件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1985699296,
+      "url": "https://huggingface.co/blog/peft-beyond-lora",
+      "title": "超越 LoRA：如何选择最佳参数高效微调技术？",
+      "published_at": "2026-06-18T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "LoRA dominates parameter-efficient fine-tuning (PEFT) in practice—accounting for over 98% of model cards on Hugging Face and 95% of external checkpoints—but recent papers claiming superiority of alternative techniques often overlook that simply tuning the learning rate can make LoRA competitive. Hugging Face’s PEFT library now unifies 40+ methods and is building benchmarks (e.g., chain-of-thought reasoning on math tasks) to help users move beyond biased comparisons and make informed choices.",
+      "summary_zh": "LoRA 在参数高效微调中占据绝对主导，但其他技术声称超越 LoRA 的研究可能存在偏见，因为通过适当调整学习率，LoRA 就能达到相近效果。Hugging Face 的 PEFT 库为此提供统一的基准测试，帮助用户在实际任务中公平比较和选择最优的微调技术。",
+      "source": "aihot_selected",
+      "title_zh": "超越 LoRA：如何选择最佳参数高效微调技术？",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3353226333,
+      "url": "https://huggingface.co/blog/is-it-agentic-enough",
+      "title": "AI 智能体够格吗？在自有工具上评测开源模型",
+      "published_at": "2026-06-18T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Hugging Face introduces a benchmark framework that evaluates open-source models' agent‑friendliness by having a pi coding agent perform tasks on the transformers library, while measuring cost, latency, token usage, and failure rate rather than only final outcomes. The framework uses distributed Hugging",
+      "summary_zh": "Hugging Face 推出了一个面向 AI 智能体的基准测试框架，以 transformers 库为例，评估开源模型在真实工具使用中的效率。该框架通过 pi coding agent 驱动任务，利用 Hugging Face Jobs 统一硬件环境，重点衡量智能体的成本、延迟、token 消耗和失败率，而非仅关注任务是否完成。此前优化的 hf CLI 曾使 agent 的 token 用量减少 1.3–1.8 倍，新框架旨在验证类似优化对 transformers 的效果，为量化开源模型的智能体友好度提供可靠基准。",
+      "source": "aihot_selected",
+      "title_zh": "AI 智能体够格吗？在自有工具上评测开源模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1762794808,
+      "url": "https://blog.cloudflare.com/agents-platform-flue-sdk",
+      "title": "Cloudflare 将更多智能体框架引入平台，以 Flue 为首",
+      "published_at": "2026-06-17T19:35:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cloudflare has opened the primitives of its Agents SDK, transforming it into a runtime that any agent framework can build on. Flue is the first framework specifically designed for this SDK, and agent features are now available directly in the dashboard, expanding the ecosystem for deploying AI agents on the platform.",
+      "summary_zh": "Cloudflare 通过开放其 Agents SDK 底层原语，解决了此前智能体框架必须依赖特定运行时的生态封闭问题，让 Flue 等任意框架都能在此平台上构建和运行。这一举措直接在仪表盘集成了智能体功能，大幅降低了开发者采用多框架的门槛，有助于加速 AI 代理应用的开发与部署。",
+      "source": "aihot_selected",
+      "title_zh": "Cloudflare 将更多智能体框架引入平台，以 Flue 为首",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 853248617,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.18.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.18.0",
+      "published_at": "2026-06-18T12:21:41+00:00",
+      "original_language": "en",
+      "summary_en": "This release prevents large agent swarms from hitting API provider rate limits by introducing an environment variable that caps concurrency during the initial ramp-up phase. The change ensures smoother, more reliable scaling of multi-agent systems that depend on external services.",
+      "summary_zh": "此版本通过引入环境变量控制AgentSwarm初始启动期间的并发上限，解决了大规模并发请求容易触发服务端速率限制的问题。该优化显著提升了系统在突发负载下的稳定性与资源利用效率。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.18.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}

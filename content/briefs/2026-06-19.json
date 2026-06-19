@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-19",
+  "headline_en": "38 items collected today",
+  "lede_en": "38 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    4108989676,
+    2968074556,
+    3458421911
+  ],
+  "item_count": 38,
+  "source_breakdown": {
+    "arxiv_cs_cl": 5,
+    "anthropic_research": 1,
+    "claude_blog": 4,
+    "ai_and_i": 1,
+    "aihot_selected": 26,
+    "moonshot_github": 1
+  },
+  "generated_at": "2026-06-19T12:11:46.042934Z",
+  "headline_zh": "今日共采集 38 项内容",
+  "lede_zh": "今日共采集 38 项内容。",
+  "sections_zh": []
+}
