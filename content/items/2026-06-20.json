@@ -1,0 +1,328 @@
+{
+  "date": "2026-06-20",
+  "items": [
+    {
+      "id": 2987967967,
+      "url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+      "title": "How Anthropic enables self-service data analytics with Claude",
+      "published_at": "2026-06-20T10:28:12.546525",
+      "original_language": "en",
+      "summary_en": "Anthropic addresses the challenge of making data insights accessible to non-experts by using its AI assistant Claude to power self-service analytics, allowing users to query data using natural language. The key approach involves Claude interpreting user questions, generating accurate queries or visualizations, and explaining results, which reduces reliance on specialized data teams. This matters because it democratizes data-driven decision-making, accelerates analysis across an organization, and lowers the barrier to extracting actionable intelligence from complex datasets.",
+      "summary_zh": "Anthropic 利用自研的 Claude 助手，解决了企业内部非技术人员难以自主探索数据的问题。其核心方法是让用户通过自然语言直接查询和分析数据，无需编写代码或依赖数据专家。这显著降低了数据洞察的门槛，加快了决策速度，并让数据团队从重复的取数需求中解放出来。",
+      "source": "claude_blog",
+      "title_en": "How Anthropic enables self-service data analytics with Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1274560115,
+      "url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
+      "title": "Lessons from building Claude Code: How we use skills",
+      "published_at": "2026-06-20T10:28:12.546843",
+      "original_language": "en",
+      "summary_en": "The article discusses the design challenges in developing Claude Code, an AI coding assistant, focusing on how a modular \"skills\" architecture enables the system to handle diverse and complex software engineering tasks. The key approach involves decomposing capabilities into reusable, composable skill units that the agent can dynamically invoke, rather than relying on a monolithic prompt or fixed tool set. This skill-based design improves extensibility, maintainability, and task performance, offering a practical blueprint for building more capable and adaptable AI agents.",
+      "summary_zh": "本文分享了构建Claude Code过程中关于“技能”使用的经验教训，主要解决如何让AI更有效地处理复杂编程任务的问题。其关键做法是将专业工作流封装为可组合的“技能”模块，并让模型动态选择和组合这些技能，而非依赖单一固定流程；这一发现为提升代码助手的可扩展性、准确性与面向实际工作流的适应能力提供了重要思路。",
+      "source": "claude_blog",
+      "title_en": "Lessons from building Claude Code: How we use skills",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4285678835,
+      "url": "https://podcasters.spotify.com/pod/show/firstmark/episodes/The-GPU-Myth-State-of-AI-Compute-2026--Stephen-Balaban-e3kut0h",
+      "title": "The GPU Myth: State of AI Compute 2026 | Stephen Balaban",
+      "published_at": "2026-06-18T11:30:00",
+      "original_language": "en",
+      "summary_en": "Stephen Balaban challenges the assumption that GPU compute would commoditize, explaining that the opposite occurred, leading to the rise of \"neoclouds\" racing to build gigawatt-scale AI factories. The key finding is that standing up this compute requires solving massive physical and financial challenges—land, power, cooling, networking, and a specialized financing stack—far beyond what most anticipate. This matters because it reveals that compute scarcity will persist, fundamentally shaping the economics and infrastructure of AI development.",
+      "summary_zh": "传统观点认为GPU算力会变成普通商品，但现实恰恰相反——算力不仅没有过剩，反而严重不足。一种名为“新云”的新型算力服务商正在竞相建设支撑AI浪潮的物理设施，这需要土地、电力、散热、网络以及鲜为人知的融资架构。这意味着算力已成为AI时代最稀缺的战略资源，而未来的竞争将取决于谁能率先突破万兆瓦级工厂的工程与资本壁垒。",
+      "source": "mad_podcast",
+      "title_en": "The GPU Myth: State of AI Compute 2026 | Stephen Balaban",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1280604846,
+      "url": "https://x.com/AYi_AInotes/status/2068218661710512231",
+      "title": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
+      "published_at": "2026-06-20T06:25:29+00:00",
+      "original_language": "zh",
+      "summary_en": "Microsoft is positioning itself as the world's largest AI intermediary by reselling OpenAI’s ChatGPT to Chinese enterprises and simultaneously testing China’s DeepSeek models (R1 and V4) for Western clients, creating a cross-Pacific AI trade network. This bidirectional resale model bridges the US-China AI divide, allowing Microsoft to navigate geopolitical tech restrictions while expanding market access for both Western and Chinese AI models.",
+      "summary_zh": "微软通过双向转售模式，将ChatGPT卖给中国企业，同时将DeepSeek等中国模型提供给西方客户，解决中美AI模型跨境流通的壁垒。这一做法使微软成为全球最大的AI模型中转商，构建起跨中美双向贸易网络，凸显其在全球AI地缘商业中的枢纽地位。",
+      "source": "aihot_selected",
+      "title_zh": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1427011979,
+      "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning",
+      "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
+      "published_at": "2026-06-19T22:51:59+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA Research's SpatialClaw addresses the poor 3D spatial reasoning of vision-language models by introducing a training‑free framework that uses code as an action interface, allowing agents to call and combine perception tools like Depth Anything 3 and SAM 3 without retraining. It achieves 59.9% average accuracy across 20 benchmarks, outperforming recent agent and baseline methods, and its key significance is that the same prompt and toolset work across diverse models and tasks, making spatial reasoning more accessible and flexible for large models from 26B to 397B parameters.",
+      "summary_zh": "NVIDIA Research 提出的 SpatialClaw 是一个无需重新训练的空间推理框架，通过将代码作为动作接口，让视觉语言模型动态调用深度与分割等感知工具，解决了模型在 3D 空间判断上的不足。该框架在多项基准上取得 59.9% 的平均准确率，显著优于现有智能体方法，并可在不同模型和任务间通用，为提升具身智能的空间理解提供了高效、可扩展的技术路径。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1238640343,
+      "url": "https://x.com/rohanpaul_ai/status/2068089038213693800",
+      "title": "Figure机器人数首超人类员工",
+      "published_at": "2026-06-19T21:50:24+00:00",
+      "original_language": "zh",
+      "summary_en": "Figure’s humanoid robot count has surpassed its human employees for the first time, signaling a move beyond conceptual development into operational reality. This milestone addresses the challenge of scaling general-purpose autonomous labor and demonstrates practical workforce integration, underscoring the near-term viability of robots in addressing labor shortages and industrial automation.",
+      "summary_zh": "Figure 实现了机器人数量首次超过人类员工的里程碑，标志着该公司已从理论探索阶段迈入实际应用部署。这一进展表明机器人劳动力正在成为现实，对推动自动化和人机协作的未来具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Figure机器人数首超人类员工",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2068339135,
+      "url": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
+      "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
+      "published_at": "2026-06-19T19:41:30.069000+00:00",
+      "original_language": "zh",
+      "summary_en": "美国参议员提出JAWBONE法案，应对政府施压私营公司审查受宪法保护的网络言论问题；法案赋予被胁迫的平台方起诉政府官员的权利，并建立政府与中间方的沟通透明度机制。该法案旨在遏制政府“后台审查”，保护第一修正案言论自由，具有重要法治意义。",
+      "summary_zh": "JAWBONE法案旨在遏制政府施压私营公司审查受宪法保护的网络言论，通过为中间服务商创建联邦诉讼权并建立沟通透明机制，确保政府对言行的干预暴露于法律监督之下。此举可有效遏制政府滥用权力胁迫平台下架合法内容，并为受害者提供司法救济途径。",
+      "source": "aihot_selected",
+      "title_zh": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1970365904,
+      "url": "https://openrouter.ai/blog/insights/openrouter-vs-portkey",
+      "title": "OpenRouter vs Portkey：你的团队该选哪个LLM网关？",
+      "published_at": "2026-06-19T19:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Teams face the challenge of integrating and managing many LLM providers with failover and governance. OpenRouter solves this as a managed routing network that lets you use a single paid credit system to access 300+ models across 70+ providers, while Portkey acts as an AI control plane that layers governance, prompt management, guardrails, and observability on top of your own API keys. The article clarifies that these gateways address different needs—cost‑efficient multi‑provider routing versus enterprise‑grade control—and they can be combined for a complete strategy.",
+      "summary_zh": "该文比较了两种LLM网关：OpenRouter通过统一API和多模型路由解决灵活接入与成本优化问题，Portkey则聚焦治理、安全与可观测性提供企业级控制平面。其关键发现是两者并非替代关系，可根据团队在易用性与管控需求间的侧重进行组合，这对构建兼顾效率与合规的AI应用架构具有重要参考意义。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter vs Portkey：你的团队该选哪个LLM网关？",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3654121724,
+      "url": "https://x.com/dotey/status/2068042001895809420",
+      "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+      "published_at": "2026-06-19T18:43:30+00:00",
+      "original_language": "zh",
+      "summary_en": "This update addresses style rendering issues where exported slides had incomplete page coverage and missing gradients. The developer reproduced the bug locally, then used an AI agent to analyze root causes, propose fixes, and add test coverage. This matters because it strengthens a workflow that enables AI-generated illustrations and imagery to be packaged into editable PowerPoint/Keynote files, streamlining presentation creation.",
+      "summary_zh": "baoyu-design Skill 修复了导出 PPTX 时样式表未铺满页面和渐变色丢失的呈现问题，通过让 Agent 本地复现、分析原因并提出解决方案，测试后完成更新。该 Skill 核心在于支持调用 AI 生图并连同图片一起导出可编辑的 PPTX，提升了 AI 辅助内容创作与设计的生产力。",
+      "source": "aihot_selected",
+      "title_zh": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4037985477,
+      "url": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2",
+      "title": "AI中心的数据黑洞",
+      "published_at": "2026-06-19T16:45:03+00:00",
+      "original_language": "zh",
+      "summary_en": "The piece examines the \"data black hole\" where AI's sample inefficiency—relying on orders of magnitude more tokens than humans—forces reliance on synthetic data generation via verification and distillation from public APIs, enabling open-source models to narrow the gap with closed-source counterparts to only a few months. This underscores the unsustainable data scaling and the economic and strategic importance of accessible data, while also highlighting the replication gap in non-data factors like hyperparameters.",
+      "summary_zh": "当前AI的进步主要依赖海量数据和算力，而非真正的样本效率，形成了“数据黑洞”；强化学习实为合成数据筛选，而人类学习所需数据量仅为前沿模型的百万分之一。这种依赖导致开源模型能通过蒸馏闭源API数据快速追赶，揭示了各领域需革新学习范式以突破数据效率瓶颈。",
+      "source": "aihot_selected",
+      "title_zh": "AI中心的数据黑洞",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1171217292,
+      "url": "https://x.com/demishassabis/status/2068002732250640603",
+      "title": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
+      "published_at": "2026-06-19T16:07:27+00:00",
+      "original_language": "zh",
+      "summary_en": "John Jumper, the leader of the AlphaFold team, is departing Google DeepMind after nearly nine years to join Anthropic. His pivotal work, including taking charge of AlphaFold shortly after his PhD, demonstrated AI's transformative potential in science and medicine. This move underscores the significance of his contributions and the ongoing talent flow among top AI labs.",
+      "summary_zh": "AlphaFold 团队负责人 John Jumper 离开谷歌 DeepMind 并加入 Anthropic，他曾主导的 AlphaFold 通过深度学习解决了蛋白质结构预测这一长期难题，展示了 AI 加速生命科学研究的巨大潜力；这一人事变动标志着顶尖 AI for Science 人才向安全与对齐研究的流动，可能影响下一代科学发现工具的走向。",
+      "source": "aihot_selected",
+      "title_zh": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4194197498,
+      "url": "https://openrouter.ai/blog/insights/openrouter-vs-litellm",
+      "title": "OpenRouter vs LiteLLM：如何选择 LLM 网关",
+      "published_at": "2026-06-19T15:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This article helps readers choose between OpenRouter, a managed LLM gateway with no infrastructure overhead but a 5.5% fee, and LiteLLM, a self-hosted open-source gateway that keeps data in-house and avoids per-token fees at the cost of server management. It finds that self-hosting LiteLLM becomes cheaper when monthly model spending exceeds roughly $3,600–$9,100 depending on infrastructure costs, and highlights different routing, compliance, and privacy trade-offs. The comparison matters for teams balancing budget, data control, and operational effort when scaling LLM access across multiple providers.",
+      "summary_zh": "该文解决大模型网关选型问题，对比了托管服务 OpenRouter 与自部署代理 LiteLLM 在成本、隐私和运维上的差异。核心发现是：低用量时 OpenRouter 免运维更便捷，而月模型支出超过约 3600 美元时自托管 LiteLLM 更经济；LiteLLM 还能通过六种路由策略保障数据内网安全。这对企业根据自身规模与合规需求做出性价比最优的网关决策至关重要。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter vs LiteLLM：如何选择 LLM 网关",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1624322377,
+      "url": "https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
+      "title": "禁止开源AI将是一个错误",
+      "published_at": "2026-06-19T13:02:47+00:00",
+      "original_language": "zh",
+      "summary_en": "The article warns that proposed restrictions on open-source AI would be a critical mistake, as it argues open models are the only counterbalance to closed systems from OpenAI and Anthropic, fostering competition, education, and innovation. The key finding is that open-source transparency actually makes AI safer by enabling more engineers to fix vulnerabilities, and that regulating it in the name of competing with China would backfire, since US startups rely on such models to boost efficiency.",
+      "summary_zh": "近期围绕AI的监管动向可能限制开源模型，威胁其在教育、创新和市场竞争中的关键角色。文章指出，开源（尤其是开放权重）是制衡科技巨头封闭模型的唯一有效力量，且因其透明性反而更安全。禁止开源将扼杀初创机会并削弱美国在全球竞争中的地位，实为错误。",
+      "source": "aihot_selected",
+      "title_zh": "禁止开源AI将是一个错误",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3496467929,
+      "url": "https://blog.cloudflare.com/temporary-accounts",
+      "title": "Cloudflare 为 AI 智能体推出临时账户",
+      "published_at": "2026-06-19T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cloudflare’s new temporary accounts on Workers let AI agents instantly deploy live Workers with a single command (`wrangler deploy --temporary`), bypassing human-oriented onboarding steps. This directly tackles the friction AI agents face when attempting autonomous deployment, lowering the barrier for agent-driven use of edge compute and enabling faster, programmatic scaling of AI-driven services.",
+      "summary_zh": "Cloudflare 推出临时账户功能，专门解决 AI 智能体在部署 Worker 时需绕过面向人类设计的复杂流程的难题。通过 `wrangler deploy --temporary` 命令，智能体可在数秒内自动获取一个可用的实时 Worker，无需手动交互。这大幅降低了 AI 智能体的部署门槛，使它们能更自主、更高效地完成任务。",
+      "source": "aihot_selected",
+      "title_zh": "Cloudflare 为 AI 智能体推出临时账户",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2750489678,
+      "url": "https://x.com/omarsar0/status/2067952726282031411",
+      "title": "/youtube-notetaker：YT 视频转 Artifacts",
+      "published_at": "2026-06-19T12:48:45+00:00",
+      "original_language": "zh",
+      "summary_en": "This post demonstrates a new `/youtube-notetaker` skill that converts YouTube videos into structured \"Artifacts\" by capturing slides, notes, and transcriptions. The approach automates extracting key content from videos, making it easier to review and repurpose lecture or presentation material. This matters because it streamlines learning and note-taking, turning passive video watching into actionable, organized outputs.",
+      "summary_zh": "该工具名为 /youtube-notetaker，能将 YouTube 视频自动转换为结构化的 Artifacts（如笔记、讲义等），解决了从视频中手动提取关键信息费时费力的问题。它通过捕获幻灯片、文字笔记和转写内容，一键生成可查阅的学习资料，极大提升了知识整理与复用效率。",
+      "source": "aihot_selected",
+      "title_zh": "/youtube-notetaker：YT 视频转 Artifacts",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2971951266,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.18.4",
+      "title": "QwenLM/qwen-code: Release v0.18.4",
+      "published_at": "2026-06-20T09:37:40+00:00",
+      "original_language": "en",
+      "summary_en": "This patch release addresses three stability bugs in the Qwen-Code AI coding assistant: it tracks supported sed edits in file history to preserve accurate versioning, creates isolated MCP server instances per IDE session to prevent cross-session interference, and corrects BMP height parsing to a signed integer to fix certain image-handling errors. These fixes collectively improve the assistant's reliability when editing code, integrating with developer environments, and processing assets.",
+      "summary_zh": "此版本 v0.18.4 主要修复了文件历史中 sed 编辑追踪、IDE 会话独立 McpServer 创建以及 BMP 高度读取为有符号值等关键问题，提升了代码编辑可靠性和多会话隔离性，确保复杂开发场景下的稳定性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.18.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3834476917,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.18.4-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.18.4-preview.0",
+      "published_at": "2026-06-20T08:44:17+00:00",
+      "original_language": "en",
+      "summary_en": "This preview release fixes several bugs in the Qwen code assistant: it ensures sed edit operations are properly tracked in file history, isolates the McpServer per IDE session to avoid conflicts, and corrects BMP height reading. These improvements increase reliability and data integrity for developers relying on the tool.",
+      "summary_zh": "此预览版本修复了核心组件中 sed 编辑在文件历史记录中未被追踪的问题，并确保每个 VS Code IDE 会话拥有独立的 McpServer 实例，避免会话间相互干扰；同时修正了 BMP 图片高度读取错误。这些变更提升了代码编辑历史完整性、多 IDE 协作的隔离性以及图像处理准确性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.18.4-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
