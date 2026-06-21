@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-21",
+  "items": [
+    {
+      "id": 2291515818,
+      "url": "https://mp.weixin.qq.com/s/xrTg2Bdy3FF3gn3C_gVBJQ",
+      "title": "腾讯元宝父亲节活动：上传照片生成与年轻爸爸的合影",
+      "published_at": "2026-06-21T04:51:10+00:00",
+      "original_language": "zh",
+      "summary_en": "Tencent's Yuanbao Father's Day activity lets users generate a composite photo with a younger version of their dad by uploading old and current pictures, using AI to merge them realistically while preserving the father's background, pose, and features. The key approach is prompt-driven image generation that creates a natural-looking \"time-travel\" portrait. This matters by offering a heartfelt, nostalgic experience that emotionally connects generations through AI-powered creativity.",
+      "summary_zh": "腾讯元宝父亲节活动借助AI图像融合技术，让用户上传自己与父亲年轻时的照片并输入描述，生成穿越时空的合影，解决了用户想“回到过去”与年轻父亲同框的情感需求。该方法通过智能保留父亲照片的背景、动作与五官，并协调光影色调，使合成自然逼真。这不仅是一次趣味互动，更用技术手段弥合代际记忆断层，强化亲情共鸣，展示出AI在人文关怀场景的应用价值。",
+      "source": "aihot_selected",
+      "title_zh": "腾讯元宝父亲节活动：上传照片生成与年轻爸爸的合影",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2069776034,
+      "url": "https://x.com/shao__meng/status/2068306942184034471",
+      "title": "开源教程《Deep Agents 实战》发布",
+      "published_at": "2026-06-20T12:16:16+00:00",
+      "original_language": "zh",
+      "summary_en": "This tutorial addresses the challenge of building robust, context-aware agent applications by presenting a three-layer architecture—Runtime (LangGraph), Framework (LangChain), and Harness (Deep Agents)—centered on context engineering via a virtual file system for on-demand retrieval, intermediate result persistence, and scalable large-file handling. It provides a practical, chapter-based guide covering virtual file tools, task planning, asynchronous sub-agent delegation, and portable Skills, enabling developers to create reusable, production-ready agents that operate across over 30 tools including Claude Code and Cursor.",
+      "summary_zh": "该教程解决了如何基于 LangChain 生态构建具备高效上下文管理能力的智能体应用的问题，其核心是通过三层架构与“上下文工程”，利用虚拟文件系统实现按需读取、中间结果落盘与大文件局部访问，从而突破长上下文限制。该实现关键在于设计可复用的Skills和异步并行子Agent委派机制，使构建的应用能跨30余种工具通用，显著提升了复杂智能体开发的效率与扩展性。",
+      "source": "aihot_selected",
+      "title_zh": "开源教程《Deep Agents 实战》发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1978297403,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.18.3-nightly.20260621.6b2f800ab",
+      "title": "QwenLM/qwen-code: Release v0.18.3-nightly.20260621.6b2f800ab",
+      "published_at": "2026-06-21T00:50:46+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release of Qwen Code fixes core bugs that previously allowed plan mode to be triggered without explicit consent, mishandled dot-prefixed file names in ignore rules, and included a redundant test case for git diff untracked counts. The key changes are enforcing opt-in for plan mode prompts and correcting file filtering logic. These improvements ensure more predictable and reliable AI-assisted coding workflows, reducing unintended behavior and enhancing developer trust.",
+      "summary_zh": "该版本针对qwen-code的核心功能进行了多项修复，重点解决了计划模式提示的主动选择（opt-in）问题，以及处理以点号开头的文件忽略逻辑，并清理了重复的测试用例。这些改进提升了工具的稳定性和用户交互的明确性，确保在特定场景下行为更符合预期。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.18.3-nightly.20260621.6b2f800ab",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-06-21",
+  "headline_en": "Tencent’s AI Time-Travel Portraits, A Deep Agent Blueprint, and Qwen Code Patches",
+  "lede_en": "Today’s AI developments span emotional creativity and production-grade engineering: Tencent’s Yuanbao campaign merges generations through nostalgic photo composites, a detailed tutorial lays out a three-layer agent architecture for robust, context-aware applications, and Qwen Code’s latest nightly release tightens safety and file-handling. These stories underscore how AI is simultaneously becoming a tool for heartfelt human connection and a foundational infrastructure for autonomous workflows.",
+  "sections_en": [
+    {
+      "title": "Applications & Product: Where Emotion Meets Engineering",
+      "body": "Two distinct but complementary stories define today’s application landscape. Tencent’s Father’s Day activity uses prompt-driven image generation to seamlessly blend old and new photos, creating emotionally resonant “time-travel” portraits that connect fathers and children. In parallel, a newly published tutorial introduces a three-layer architecture—Runtime (LangGraph), Framework (LangChain), and Harness (Deep Agents)—designed for building production-ready agent applications. The guide emphasizes context engineering through a virtual file system for on-demand retrieval, intermediate result persistence, and scalable large-file handling, alongside task planning and asynchronous sub-agent delegation. Together, these items illustrate AI’s widening reach: from deeply personal consumer experiences to the reproducible, enterprise-grade scaffolds needed for autonomous agents."
+    },
+    {
+      "title": "Model Releases: Qwen Code Sharpens Reliability",
+      "body": "The QwenLM team pushed a nightly release (v0.18.3) that closes several behavioral gaps. The update ensures plan mode is triggered only after explicit user opt-in, corrects dot-prefixed file name handling in ignore rules, and removes a redundant test case. Though modest in scope, these fixes directly address developer trust: enforcing consent prevents unintended tool invocations, while accurate file filtering avoids skipping intended files. This iteration highlights the continuous polishing required to make AI-assisted coding environments both predictable and safe for daily use."
+    }
+  ],
+  "top_picks": [
+    2069776034,
+    2291515818,
+    1978297403
+  ],
+  "item_count": 3,
+  "source_breakdown": {
+    "aihot_selected": 2,
+    "qwen_github": 1
+  },
+  "generated_at": "2026-06-21T11:03:27.027223Z",
+  "headline_zh": "AI情感应用与Agent工程双线突破：腾讯父亲节活动、Deep Agents教程发布",
+  "lede_zh": "今日AI应用与工程领域呈现双热点：腾讯元宝推出父亲节AI合影活动，用图像融合技术弥合代际记忆，展现AI的人文温度；同时，开源教程《Deep Agents 实战》发布，为开发者提供基于LangChain的智能体构建方法论，通过上下文工程与并行子Agent机制突破复杂任务瓶颈。此外，qwen-code工具迎来优化更新，修复计划模式交互与文件处理逻辑，提升编码助手稳定性。",
+  "sections_zh": [
+    {
+      "title": "应用与产品：AI技术连接情感与效率",
+      "body": "腾讯元宝的父亲节活动利用AI图像融合，让用户生成与年轻父亲的合影，智能保留背景与光影，解决了“穿越时空”的情感需求，凸显AI在人文关怀场景的价值。与此同时，qwen-code工具的新版本聚焦计划模式提示的显式选择与点号文件忽略逻辑，清理测试冗余，提升了编码辅助工具的稳定性和交互明确性。两者分别从情感消费与开发者工具层面，展示了AI应用的纵深拓展。"
+    },
+    {
+      "title": "Agent 工程：开源教程推动复杂智能体构建范式",
+      "body": "《Deep Agents 实战》教程发布，基于LangChain生态提出三层架构与“上下文工程”，利用虚拟文件系统实现长上下文的按需读取与中间结果落盘，并借助可复用Skills与异步并行子Agent委派，使智能体跨30余种工具高效运行。该教程为应对长上下文推理、工具集成复杂度等痛点提供了可落地的方案，有望加速Agent开发从实验走向生产。"
+    }
+  ]
+}
