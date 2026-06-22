@@ -1,0 +1,138 @@
+{
+  "date": "2026-06-22",
+  "items": [
+    {
+      "id": 1688868481,
+      "url": "https://claude.com/blog/the-claude-cowork-product-guide",
+      "title": "The Claude Cowork product guide",
+      "published_at": "2026-06-22T13:29:15.869142",
+      "original_language": "en",
+      "summary_en": "The guide addresses the challenge of integrating AI as a collaborative partner in professional workflows by detailing how to use Claude as a digital coworker. It presents practical instructions and best practices for leveraging AI to augment team productivity, which matters for streamlining complex tasks and fostering effective human-AI collaboration.",
+      "summary_zh": "Claude Cowork产品指南阐述了如何利用AI助手Claude实现团队协作。它通过集成对话式AI，帮助团队简化工作流程、提升信息共享效率，并自动化处理常规任务。这对现代分散化办公环境下的生产力提升具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "The Claude Cowork product guide",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 760533735,
+      "url": "https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering",
+      "title": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
+      "published_at": "2026-06-22T13:29:15.869510",
+      "original_language": "en",
+      "summary_en": "An Anthropic salesperson used Claude Code to overhaul his team’s internal workflows, addressing inefficiencies in non-engineering processes. The key approach involved leveraging the AI coding assistant to automate repetitive tasks and streamline operations, showcasing that generative AI tools can empower non-developers to boost productivity. This matters as a concrete example of how AI-native companies are dogfooding their own technology to transform everyday business functions.",
+      "summary_zh": "一位Anthropic销售人员通过使用Claude Code重新构建了团队的工作流程，主要解决了销售业务中重复性任务耗时、流程效率低下的问题。此举借助AI编程工具自动化和优化关键步骤，展示了AI代码助手不仅能赋能开发团队，也可有效提升非技术团队的运营效率，具有跨职能应用的实用意义。",
+      "source": "claude_blog",
+      "title_en": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2934917863,
+      "url": "https://x.com/AISafetyMemes/status/2068718552174252477",
+      "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
+      "published_at": "2026-06-21T15:31:52+00:00",
+      "original_language": "zh",
+      "summary_en": "A newly disclosed AI system, Mythos, has demonstrated the ability to compromise nearly all of the NSA’s classified systems within hours and previously broke macOS in five days—tasks that take elite human teams months and individual exploits valued at millions of dollars. This finding shatters the assumption that advanced persistent threat capabilities are limited to a handful of nation-state actors, instead making such attacks scalable to thousands of adversaries. For AI/ML researchers, it underscores the urgent need to rethink security models when automated vulnerability discovery and exploitation can instantly threaten high-value targets across critical infrastructure.",
+      "summary_zh": "Mythos 展示了惊人的攻击速度，数小时内突破 NSA 几乎所有机密系统，远超 Google Project Zero 等顶级团队所需数月的工作量。这一能力使原本全球仅少数精英掌握的高级攻击技术扩散至数千人，直接威胁到大量依赖苹果设备的高价值用户群体，颠覆了 MacOS 的安全假设。",
+      "source": "aihot_selected",
+      "title_zh": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1842035628,
+      "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
+      "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
+      "published_at": "2026-06-21T10:11:21+00:00",
+      "original_language": "zh",
+      "summary_en": "Meituan’s Tabbit international app tackles the cost and fragmentation of accessing top-tier AI models by offering free, unified access to flagship systems like GPT-5.5, Claude Opus 4.8, and others without separate subscriptions. This promotional strategy aims to capture the AI interaction gateway, potentially disrupting the market by removing paywalls and conditioning users to a single free platform, which could pressure model providers’ direct monetization.",
+      "summary_zh": "美团tabbit国际版通过免费集成GPT-5.5、Claude Opus 4.8等多家顶尖大模型，解决了用户需分别订阅多个AI服务、",
+      "source": "aihot_selected",
+      "title_zh": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4140343395,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.18.5-nightly.20260622.6bc3f853e",
+      "title": "QwenLM/qwen-code: Release v0.18.5-nightly.20260622.6bc3f853e",
+      "published_at": "2026-06-22T00:52:42+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release addresses several issues in the Qwen Code CLI: it fixes a bug that truncated the resume preview history, ensures proper content filling in certain commands, and automates VSCode companion publishing after stable releases. These improvements enhance the command-line experience for developers by restoring full context visibility and streamlining the release process, making the tool more reliable.",
+      "summary_zh": "该版本修复了 CLI 中完整恢复历史记录的渲染问题，并通过 CI 自动化了稳定版后 VSCode 伴侣插件的发布流程。这些改进提升了开发工具的体验一致性与发布效率，对维护者及使用者都具有实用价值。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.18.5-nightly.20260622.6bc3f853e",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3506835503,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.18.5",
+      "title": "QwenLM/qwen-code: Release v0.18.5",
+      "published_at": "2026-06-21T13:06:13+00:00",
+      "original_language": "en",
+      "summary_en": "The v0.18.5 release of Qwen Code fixes usability and correctness issues by mandating user opt-in for plan mode prompts, correctly evaluating ignore patterns for dot‑prefixed files, and enforcing shell directory constraints. These patches prevent unintended behavior and improve the reliability of the AI‑assisted coding environment, especially when handling file exclusions and command execution.",
+      "summary_zh": "Qwen Code v0.18.5 版本修复了多项核心问题，包括强制计划模式提示需用户主动选择加入、支持识别以点号开头的忽略文件，并强化了 shell 工作目录的约束，从而避免意外行为。这些修复提升了代码生成流程的可靠性与可控性，使开发者能更精确地管理提示与操作环境，对保证 AI 辅助编程的安全性及效率具有重要意义。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.18.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2431976672,
+      "url": "https://github.com/MoonshotAI/kimi-cli/releases/tag/1.48.0",
+      "title": "MoonshotAI/kimi-cli: 1.48.0",
+      "published_at": "2026-06-22T12:50:45+00:00",
+      "original_language": "en",
+      "summary_en": "This release fixes a bug in the kosong module where empty reasoning content wasn't correctly preserved during round-trips, and introduces a more aggressive safety mechanism in the soul module that escalates reminders on repeated tool calls and force‑stops execution when a dead‑end streak is detected. By preventing infinite loops and broken state when an AI agent repeatedly calls the same tool without progress, the update enhances the reliability and robustness of CLI‑based agentic workflows.",
+      "summary_zh": "该版本修复了空推理内容的往返一致性问题（kosong），并增强了工具调用死循环的检测与强制停止能力（soul），从而提升智能体在连续交互中的鲁棒性和响应质量。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-cli: 1.48.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
