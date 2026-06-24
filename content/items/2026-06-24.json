@@ -1,0 +1,594 @@
+{
+  "date": "2026-06-24",
+  "items": [
+    {
+      "id": 1165801208,
+      "url": "http://arxiv.org/abs/2606.24874v1",
+      "title": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation",
+      "published_at": "2026-06-23T17:52:21+00:00",
+      "original_language": "en",
+      "summary_en": "FLUX3D tackles the loss of high-frequency visual detail in sparse-voxel-based image-to-3D Gaussian Splatting generation, caused by a representation bottleneck (discriminative 2D features that discard reconstructive cues) and a cross-modal alignment bottleneck (poor matching between dense 2D tokens and sparse 3D latents in diffusion transformers). It introduces Diffusion-Aligned Structured Latents (",
+      "summary_zh": "FLUX3D针对图像到3D高斯溅射生成中稀疏体素表示的结构瓶颈，提出对齐扩散的结构化潜变量（DA-SLAT）并搭配仅解码器架构，同时解决了2D特征抑制重构细节和扩散模型难以对齐密集图像与稀疏3D潜变量的难题。该方法显著提升了高保真视觉细节的保留能力，为图像驱动的3D内容生成提供了更精准的跨模态对齐与可扩展方案。",
+      "source": "arxiv_cs_cl",
+      "title_en": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2374603777,
+      "url": "http://arxiv.org/abs/2606.24855v1",
+      "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "published_at": "2026-06-23T17:34:29+00:00",
+      "original_language": "en",
+      "summary_en": "The OpenThoughts-Agent project tackles the lack of open, generalized training recipes for agentic models by systematically investigating a data curation pipeline through over 100 ablation experiments, revealing the critical role of task diversity. Fine-tuning Qwen3-32B on the resulting 100K-example dataset achieves 44.8% average accuracy across seven benchmarks, outperforming the strongest open-data competitor by 3.9 percentage points. This work provides a foundational, fully open recipe that enables the community to build more broadly capable agents rather than models tuned to a single task.",
+      "summary_zh": "OpenThoughts-Agent 项目针对如何为通用智能体模型构建训练数据的公开知识缺口，提出了一套全开放的数据管护流程，并通过百余项消融实验系统揭示了任务来源与多样性的重要影响。以此管护的 10 万例训练集微",
+      "source": "arxiv_cs_cl",
+      "title_en": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3579043453,
+      "url": "http://arxiv.org/abs/2606.24851v1",
+      "title": "Real vs. Complex Spectral Bases for Neural Operators: The Role of Green's Function Alignment",
+      "published_at": "2026-06-23T17:29:15+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the inefficiency of complex Fourier representations for real-valued PDE solutions by proposing the Hartley Neural Operator (HNO), which replaces the FFT with the real Discrete Hartley Transform, remaining iso-",
+      "summary_zh": "傅里叶神经算子（FNO）在处理实值偏微分方程时因复数傅里叶变换的共轭对称性存在表示冗余，本文提出哈特利神经算子（HNO），它以实数哈特利变换替代FFT，以实数乘法取代复数运算，两者参数量等效但谱基不同。核心发现是，最优谱基取决于算子性质——对于具有实对称格林函数的自伴随椭圆算子，哈特利基能实现精确对角化，这揭示了基底与格林函数对齐对提升神经算子性能的关键作用。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Real vs. Complex Spectral Bases for Neural Operators: The Role of Green's Function Alignment",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 430104260,
+      "url": "http://arxiv.org/abs/2606.24849v1",
+      "title": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+      "published_at": "2026-06-23T17:28:00+00:00",
+      "original_language": "en",
+      "summary_en": "IV-CoT tackles the problem of poor structure-aware prompt following (e.g., correct object counts, spatial relations, and layouts) in unified multimodal LLMs for text-to-image generation, which arises from entangled structural planning and appearance rendering. It proposes a latent visual reasoning framework that cascades structural queries (forming a latent plan) before semantic queries (rendering appearance), guided by training-only sketch supervision to capture structure without needing sketches at inference. This approach enhances controllable image synthesis by enforcing structural compliance, bridging a key gap in multi-modal generation.",
+      "summary_zh": "多模态大模型在结构感知文本到图像生成中常因结构规划与外观渲染纠缠而效果不佳，IV-CoT 通过将视觉条件分解为结构到语义的级联，先构建潜在视觉规划再渲染外观，并用训练期草图监督引导结构推理，从而在推理时无需草图提取即可提升生成图像的结构一致性。该方法在对象计数、空间关系和属性绑定等任务上取得显著改进，为精细可控的图像生成提供了新的思路。",
+      "source": "arxiv_cs_cl",
+      "title_en": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 868216615,
+      "url": "http://arxiv.org/abs/2606.24842v1",
+      "title": "World Models in Pieces: Structural Certification for General Agents",
+      "published_at": "2026-06-23T17:21:09+00:00",
+      "original_language": "en",
+      "summary_en": "This paper addresses the failure of standard worst-case guarantees for general agents in large, complex environments, where uniform analysis conflates critical failures with irrelevant ones. It introduces structural certification, a transition-local framework that derives entry-wise error bounds on an agent's world model from bounded goal-conditioned performance, yielding $\\mathcal{O}(1/n)+\\mathcal{O}(\\delta)$ guarantees via compositional goal filtering. This provides meaningful, specialization-aware safety assurances that distinguish essential bottlenecks from inconsequential errors.",
+      "summary_zh": "本研究针对大世界环境中智能体能力必然局部化、传统统一保证无法区分关键失败与无关瓶颈的问题，形式化证明了通用智能体并非万能，使最坏情况分析失效。为解决此局限，提出结构认证这一转移局部框架，能将目标条件性能映射为内部世界模型的逐条错误保证，并给出构造性算法，利用深度组合目标过滤特定转移，使智能体在这些目标上获得O(1/n)+O(δ)的紧致世界模型误差界。该工作为复杂智能体的能力评估提供了更精细、可认证的局部理解范式，对安全关键应用意义重大。",
+      "source": "arxiv_cs_cl",
+      "title_en": "World Models in Pieces: Structural Certification for General Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2629676055,
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "title": "Introducing Claude Tag",
+      "published_at": "2026-06-23T00:00:00",
+      "original_language": "en",
+      "summary_en": "Claude Tag introduces a feature for labeling and organizing AI conversations, addressing the difficulty of managing and retrieving past interactions. By allowing users to assign custom tags, it enables efficient categorization and personalized context persistence across sessions. This matters because it transforms Claude into a more usable, long-term assistant that adapts to individual workflows.",
+      "summary_zh": "“Claude Tag” 解决了用户在大量对话记录中快速检索和分类管理的问题，通过引入标签功能，让用户可以为对话打上自定义标签。这一机制有助于提升工作流效率和信息组织能力，对于需要频繁回溯知识片段的研究者而言尤为重要。",
+      "source": "anthropic_news",
+      "title_en": "Introducing Claude Tag",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 87500081,
+      "url": "https://claude.com/blog/agent-identity-access-model",
+      "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+      "published_at": "2026-06-24T10:43:12.862026",
+      "original_language": "en",
+      "summary_en": "This work addresses the challenge of enabling autonomous AI agents to securely act across team-wide resources without relying on individual user credentials. It introduces an \"agent identity\" model tied to a Claude Tag, providing scoped, auditable access for AI agents to operate collaboratively. This matters because it establishes a safe, scalable foundation for deploying AI agents that can automate workflows on behalf of entire teams while maintaining strict security and control.",
+      "summary_zh": "本文介绍了Claude Tag中的新型访问模型——智能体身份，旨在解决自主AI代理在团队协作中的身份管理问题。其核心方案是为每个AI代理分配独立身份以控制权限与访问，从而支持安全、可审计的团队级自主执行。这一发现对于让自主AI在组织内可靠、可控地执行任务具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1032256553,
+      "url": "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon",
+      "title": "Meet the winners of the Built with Opus 4.7 Claude Code hackathon",
+      "published_at": "2026-06-24T10:43:12.865776",
+      "original_language": "en",
+      "summary_en": "This announcement spotlights the top projects from a hackathon utilizing Claude Opus 4.7’s code generation capabilities, demonstrating its effectiveness for rapid software development and automating complex programming tasks. The winning solutions illustrate how advanced AI coding assistants can empower developers to prototype and build innovative applications with significantly reduced manual effort. Such events validate the practical, real-world impact of AI collaboration in software engineering, accelerating the shift toward AI-augmented development workflows.",
+      "summary_zh": "该文章介绍了“用 Opus 4.7 Claude Code 构建”黑客马拉松的获胜者，展示了开发者如何利用最新 AI 编码助手快速构建创意应用，凸显了 Claude Code 在提升开发效率和激发创新方面的实际价值。",
+      "source": "claude_blog",
+      "title_en": "Meet the winners of the Built with Opus 4.7 Claude Code hackathon",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2058836777,
+      "url": "https://mp.weixin.qq.com/s/83mrPAPgQRKhxLkoSvRgBQ",
+      "title": "火山引擎推出Agent Ready基础设施，AgentKit与ArkClaw企业版升级",
+      "published_at": "2026-06-24T10:17:58+00:00",
+      "original_language": "zh",
+      "summary_en": "Volcano Engine introduced an Agent Ready infrastructure to make enterprise AI agents reliable, controllable, and measurable. The upgrade includes AgentKit with modules for identity, runtime, sandbox, and evaluation, and ArkClaw enterprise edition for unified agent management and integration. Real-world deployments, such as Haidilao reducing task time from hours to minutes and CooV boosting efficiency with a 50% token save, demonstrate that the infrastructure can significantly compress task durations and improve operational metrics at scale.",
+      "summary_zh": "火山引擎推出Agent Ready基础设施，致力于解决企业AI智能体在可靠性、可控性与可衡量性上的落地难题。其通过升级AgentKit实现身份、运行时、沙箱和评估等模块化能力，以及ArkClaw企业版集成统一管控与知识库，使智能体支持长程任务与大规模并发。实际应用如海底捞门店经营Agent将小时级工作压缩至分钟级、人工跟进时长缩减70%，创维酷开节省50%Token消耗并支撑百万终端，证明该设施能显著提升企业运营效率，推动AI智能体从实验走向可靠规模化部署。",
+      "source": "aihot_selected",
+      "title_zh": "火山引擎推出Agent Ready基础设施，AgentKit与ArkClaw企业版升级",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1191876202,
+      "url": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+      "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
+      "published_at": "2026-06-24T07:21:10+00:00",
+      "original_language": "zh",
+      "summary_en": "DFlash tackles the inference latency of large language models by introducing a block diffusion draft model for speculative decoding, which generates a full block of tokens in a single forward pass and leverages target model hidden features injected into the draft model's key-value projections to increase accepted tokens as draft depth grows. This approach achieves up to 15× throughput improvement on an NVIDIA Blackwell GPU with TensorRT-LLM and an average lossless speedup over 6× on models like Qwen3-8B, substantially outperforming prior methods like EAGLE-3. The work matters because it dramatically accelerates LLM serving while preserving output quality, directly enabling more cost-effective deployment of large models.",
+      "summary_zh": "DFlash 解决大模型解码中草稿生成效率低的问题，提出一种轻量块扩散草稿模型，一次前向生成整块令牌，并利用目标模型多层隐藏特征注入 Key-Value 投影来保证接受长度随深度提升。该方法在多种模型上实现平均无损加速超 6 倍，在 NVIDIA Blackwell 硬件上吞吐量提升最高达 15 倍，显著推进了投机解码的实用效率。",
+      "source": "aihot_selected",
+      "title_zh": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3323414357,
+      "url": "https://x.com/OpenBMB/status/2069676334381728106",
+      "title": "MiniCPM-V 4.6 在 Apple Core AI 上高速运行",
+      "published_at": "2026-06-24T06:57:45+00:00",
+      "original_language": "zh",
+      "summary_en": "MiniCPM-V 4.6 demonstrates efficient on-device multimodal AI by running at high speed on Apple Core AI with under 2 billion parameters, tackling the challenge of deploying vision-language models on resource-limited devices. This shows that compact models can achieve practical inference performance, pushing forward the feasibility of private, low-latency AI assistants directly on consumer hardware.",
+      "summary_zh": "MiniCPM-V 4.6 展示了在设备端高效运行多模态 AI 的可能性，它在 Apple Core AI 上以不到 20 亿参数的低成本，实现了令人瞩目的推理速度。这一进展凸显了将高性能多模态模型轻量化并直接部署在端侧芯片上的实际价值，为移动端 AI 应用提供了新的标杆。",
+      "source": "aihot_selected",
+      "title_zh": "MiniCPM-V 4.6 在 Apple Core AI 上高速运行",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2586015660,
+      "url": "https://www.ithome.com/0/967/852.htm",
+      "title": "OpenAI ChatGPT 语音最大规模升级：双向AI语音模型 Bidi 1 已上线测试",
+      "published_at": "2026-06-24T04:34:24+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI's Bidi 1 addresses the rigid turn-taking in voice AI by enabling full-duplex conversation where users can interrupt and redirect the model mid-speech (e.g., switch tasks instantly). The model supports simultaneous speaking and listening, directly responding to new instructions without waiting for the current turn to finish. This matters for making AI voice interfaces dramatically more natural, responsive, and tolerable in real-time human-AI interaction.",
+      "summary_zh": "ChatGPT 正测试双向AI语音模型 Bidi 1，重点解决传统语音交互无法实时打断和切换指令的问题。该模型支持边说话边监听，允许用户中途打断并下达新命令（如从正数立即切换为倒数），实现更自然的多轮实时对话。这一升级标志着ChatGPT语音能力向实时双向交互的重大跨越，对提升人机语音交互的流畅性和实用性具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI ChatGPT 语音最大规模升级：双向AI语音模型 Bidi 1 已上线测试",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2840692416,
+      "url": "https://mp.weixin.qq.com/s/NV9WGpGsfFz35jww5agM9g",
+      "title": "Qwen-AgentWorld 开源：让 Agent 学会\"先预测，再行动\"",
+      "published_at": "2026-06-24T03:32:04+00:00",
+      "original_language": "zh",
+      "summary_en": "Qwen-AgentWorld introduces the first native language world model that enables agents to predict environment outcomes before acting, addressing the challenge of efficient agent learning by serving as a controllable simulator. Trained on over 10 million real-world interaction trajectories across seven domains and evaluated on AgentWorldBench, it surpasses strong baselines like GPT-5.4 and Claude Opus 4.8, while also demonstrating that its decoupled environment simulator can improve reinforcement learning results beyond those achieved with real environments, and its pretrained warmup generalizes to entirely unseen benchmarks. This work matters because it provides an open, scalable foundation for training more capable and sample-efficient agents, reducing reliance on costly real-world interactions and enabling transfer across diverse tasks.",
+      "summary_zh": "Qwen-AgentWorld 开源了首个原生语言世界模型，旨在让智能体学会“先预测，再行动”，通过覆盖七大领域的千万级真实交互轨迹和三阶段训练，在评测中超越了 GPT‑5.4 与 Claude Opus 4.8。关键发现是，该模型既能作为解耦环境模拟器实现可控的 Sim RL（在 WideSearch 中 F1 显著优于真实环境 RL），也能作为智能体基础模型将预训练知识迁移到未见过的基准任务上。这为构建更可靠、可扩展的智能体训练与模拟环境提供了开源基础设施，推动了语言模型向世界模型范式的演进。",
+      "source": "aihot_selected",
+      "title_zh": "Qwen-AgentWorld 开源：让 Agent 学会\"先预测，再行动\"",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 988072689,
+      "url": "https://mp.weixin.qq.com/s/Sb-NMXTrWFQES1EDO_Gr2g",
+      "title": "今天，豆包正式推出专业版",
+      "published_at": "2026-06-24T01:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Doubao’s new professional edition tackles complex office and productivity bottlenecks by integrating the agentic Doubao 2.1 Pro model to directly control local computers, browsers, and skills, automate tasks, and generate online apps with backend databases. This matters because it moves AI assistance from conversational interfaces to proactive, end-to-end task execution, lowering the barrier for non-developers to build functional applications and streamline workflows through a unified subscription service.",
+      "summary_zh": "豆包专业版针对复杂办公与生产力需求，推出基于豆包2.1系列大模型的智能助手，能通过Agent执行本地操作、定时任务、Office集成及在线应用生成，显著提升办公自动化水平。此举将大模型能力从对话拓展到实际工作流执行，为专业用户提供更高阶的生产力工具，定价分层且对学生优惠，降低了专业场景的AI应用门槛。",
+      "source": "aihot_selected",
+      "title_zh": "今天，豆包正式推出专业版",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 32705682,
+      "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+      "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
+      "published_at": "2026-06-23T21:48:25.964000+00:00",
+      "original_language": "zh",
+      "summary_en": "A large-scale field study of 3.4M applicants across 150 employers found that AI hiring tools systematically excluded 26% of Black and 15% of Asian applicants, driven by a \"monoculture\" of dominant vendor algorithms that auto-rejected 10% of users applying to multiple jobs—a pattern absent in non-AI screening. The findings expose how algorithmic monoculture amplifies racial bias at scale and underscore the critical need for independent regulation of AI-driven hiring to prevent systemic discrimination.",
+      "summary_zh": "这项针对340万人的大规模实地研究揭示了AI招聘工具存在系统性种族偏见，黑人申请者被排斥比例高达26%，亚裔达15%，且雇主普遍使用同一供应商算法形成“算法单一文化”，导致大量合格申请者被全面拒绝。该发现表明，依赖AI筛选可能固化歧视并排除多元人才，凸显对算法招聘进行独立监管的紧迫性。",
+      "source": "aihot_selected",
+      "title_zh": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2919168717,
+      "url": "https://x.com/runwayml/status/2069535148450705517",
+      "title": "Runway推出Seedance 4K等三款新模型",
+      "published_at": "2026-06-23T21:36:44+00:00",
+      "original_language": "zh",
+      "summary_en": "Runway has launched Seedance 4K, Seedance Mini, and Kling 3.0 Turbo, a trio of generative video models designed to cover high-resolution, lightweight, and real-time synthesis needs within a single platform. The release consolidates state-of-the-art video generation capabilities, simplifying access for creators and researchers while accelerating adoption through a promotional offer. This move highlights the growing industry shift toward modular AI tools that balance quality, speed, and resource efficiency across diverse use cases.",
+      "summary_zh": "Seedance 4K。Seedance Mini。Kling 3.0 Turbo。现已推出。\n全球最佳模型，汇聚一处。\n\n使用优惠码 30RUNWAY，前三个月可享七折优惠。\n\n通过下方链接开始使用。",
+      "source": "aihot_selected",
+      "title_zh": "Runway推出Seedance 4K等三款新模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 545368109,
+      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
+      "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
+      "published_at": "2026-06-23T20:17:38+00:00",
+      "original_language": "zh",
+      "summary_en": "Oracle’s 12.9% workforce reduction and $1.8 billion in restructuring costs were directly attributed to AI technology adoption, while the company simultaneously plans to raise up to $50 billion in debt to expand its cloud infrastructure for top AI clients. This dual strategy highlights how enterprise AI integration can drive both labor displacement and aggressive, debt-fueled capital investment, raising concerns about",
+      "summary_zh": "Oracle因大规模采用AI技术裁员21000人并承担18亿美元重组成本，同时计划巨额举债扩建云基础设施以服务AI大客户，这揭示了企业在AI驱动下削减人力成本与激进资本投入之间的深层矛盾，以及可能引发的生产力与人才风险。",
+      "source": "aihot_selected",
+      "title_zh": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3476575269,
+      "url": "https://x.com/haoailab/status/2069493820732170695",
+      "title": "FastWan-QAD：单卡5090上1.8秒生成5秒视频",
+      "published_at": "2026-06-23T18:52:30+00:00",
+      "original_language": "zh",
+      "summary_en": "FastWan-QAD tackles the high computational cost and latency of video generation by introducing a quantized video model family trained with Quantization-Aware Distillation (QAD). The key finding is that these models achieve extremely fast inference, generating a 5-second, 480p video in just 1.8 seconds on a single NVIDIA RTX 5090 GPU. This matters because it makes high-quality video generation dramatically more accessible, with the full model, code, and blog released open-source.",
+      "summary_zh": "Sky Computing Lab发布的FastWan-QAD模型解决了视频生成速度慢和资源消耗大的问题，通过量化感知蒸馏（QAD）技术，在单张RTX 5090上就能以1.8秒端到端生成5秒480P视频。这一突破大幅降低了高性能视频生成的硬件门槛与耗时，为实时应用和高效部署开辟了新可能。",
+      "source": "aihot_selected",
+      "title_zh": "FastWan-QAD：单卡5090上1.8秒生成5秒视频",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1192641172,
+      "url": "https://x.com/krea_ai/status/2069473417804591191",
+      "title": "Krea 2 技术报告正式发布",
+      "published_at": "2026-06-23T17:31:26+00:00",
+      "original_language": "zh",
+      "summary_en": "The Krea 2 technical report outlines the data, model architecture, and training techniques behind the latest version of Krea's creative AI system, addressing the challenge of advancing high-quality, efficient creative content generation. It provides in-depth implementation details that can inform and accelerate research in multimodal generative models. This transparency helps the community understand and build upon the methods used to achieve improved creative outputs.",
+      "summary_zh": "Krea 2 技术报告正式发布，详细介绍了其背后的数据构建、模型架构和训练技巧，旨在解决高质量创意内容生成中的可控性与效率问题。该报告为社区提供了可复现的技术路线，有助于推动 AI 驱动的设计工具走向更高精度的实际应用。",
+      "source": "aihot_selected",
+      "title_zh": "Krea 2 技术报告正式发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2866699379,
+      "url": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source",
+      "title": "GitHub联合开源联盟呼吁修改加州AI透明度法案以保护开源",
+      "published_at": "2026-06-23T15:48:00+00:00",
+      "original_language": "zh",
+      "summary_en": "An open-source alliance led by GitHub warns that California's proposed AI transparency bill would force developers to revoke open-source licenses from noncompliant downstream users, violating the irrevocable nature of those licenses. They urge replacing the revocation clause with a requirement to notify downstream users of best-practice documentation, following the EU AI Act's example, to preserve transparency goals while safeguarding open-source development models.",
+      "summary_zh": "由 GitHub 牵头，Black Forest Labs、Hugging Face 和 Mozilla 组成联盟，呼吁修改加州 AI 透明度法案中要求在下游用户未履行义务时撤销开源许可证的条款，因其与开源许可证永久不可撤销的本质冲突。他们建议以向下游用户提供最佳实践文档等通知替代撤销，认为已有直接监管机制无需该条款，从而在保证透明度目标的同时，避免破坏开源开发模式与法律一致性。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub联合开源联盟呼吁修改加州AI透明度法案以保护开源",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 441609162,
+      "url": "https://mistral.ai/news/ocr-4",
+      "title": "Mistral OCR 4",
+      "published_at": "2026-06-23T14:24:55.949000+00:00",
+      "original_language": "zh",
+      "summary_en": "Mistral AI’s OCR 4 enhances document digitization reliability by introducing bounding boxes, block classification (headings, tables, equations, signatures), and per-word confidence scores across 170 languages, all deployable in a single self-hosted container. It achieves an 85.20 score on OlmOCRBench and a 72% independent annotator preference rate, with accessible pricing at $4 per 1,000 pages and batch discounts. This matters for scalable, transparent document AI, offering high accuracy and multilingual support with clear confidence measures.",
+      "summary_zh": "Mistral OCR 4 通过新增边界框、块分类（标题、表格、方程式、签名等）及逐词置信度评分，大幅提升对复杂结构化文档的解析能力。该模型支持 170 种语言且可在单容器中全自托管部署，在 OlmOCRBench 上取得领先的 85.20 分。这一进展为需要高精度、多语言且数据隐私可控的大规模文档数字化场景提供了高效解决方案。",
+      "source": "aihot_selected",
+      "title_zh": "Mistral OCR 4",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3312936895,
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "title": "无限制OCR：单次长时域解析",
+      "published_at": "2026-06-23T13:32:22.612000+00:00",
+      "original_language": "zh",
+      "summary_en": "Unlimited OCR addresses the challenge of applying optical character recognition to extended documents or streams by introducing a one-shot long-horizon parsing method. The key approach is a single-pass model that processes lengthy textual spans end-to-end, eliminating the need for chunking or multi-stage pipelines. This matters because it can significantly streamline large-scale OCR workflows, reducing latency and potential error propagation across sequential processing steps.",
+      "summary_zh": "该项目针对传统OCR难以高效处理长时间跨度文本解析的问题，提出了一种单次长时域解析方法，能一次性完成整个长文档或视频流的OCR任务。其关键思路在于突破分段处理的限制，实现端到端的长序列理解，这对于自动化处理书籍、监控视频等持续场景中的文字信息具有重要意义，能大幅提升效率并保持上下文连贯性。",
+      "source": "aihot_selected",
+      "title_zh": "无限制OCR：单次长时域解析",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 241223103,
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用",
+      "published_at": "2026-06-23T12:51:55+00:00",
+      "original_language": "zh",
+      "summary_en": "IBM 开源了 CUGA（Configurable Generalist Agent），一个处理规划、执行循环、工具调用和状态管理的轻量级智能体框架。开发者只需提供工具列表和提示词即可构建 CugaAgent。内置计划-执行-反思循环，在 AppWorld（2025年7月-2026年2月）和 WebArena（2025年2月-9月）基准上排名第一。支持 Fast / Balanced / Accurate 三种推理模式，代码执行可在本地、Docker 或 E2B 沙箱中运行。可互换工具支持 OpenAPI、MCP 和 LangChain 函数，通过环境变量一键切换 OpenAI、watsonx",
+      "summary_zh": "IBM 的 CUGA 是一个轻量级智能体框架，通过内置的计划-执行-反思循环和可互换的工具调用，简化了智能体开发流程，只需提供工具列表与提示词即可构建应用。它在多项基准测试中取得领先，支持多种推理模式与部署环境，并提供二十余个单文件示例，降低了构建复杂任务智能体的门槛。该框架通过环境变量一键切换模型提供商，展现了高度的灵活性与实用性，对加速 AI 代理应用落地具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4142197612,
+      "url": "https://www.ithome.com/0/967/636.htm",
+      "title": "网易有道发布 Confucius4-TTS：14 语种跨语种无口音语音克隆开源模型",
+      "published_at": "2026-06-23T11:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Netease Youdao's Confucius4-TTS tackles the challenge of accurate, accent-free voice cloning across 14 languages using only a 3-second speech sample, without requiring reference text. It achieves over 85% timbre similarity and 97% task accuracy by combining a GPT-style semantic model, SSL pretrained features, an ECAPA-TDNN speaker encoder, and a Flow Matching framework, with the novel capability of cloning emotional expressions from an audio prompt. This fully open-source, Apache-licensed model (with a 54GB resource pack) significantly advances accessible multilingual speech synthesis and enables broad local deployment.",
+      "summary_zh": "网易有道发布的Confucius4-TTS模型解决了跨14种语言无口音且无需参考文本的语音克隆难题，仅需3秒音频即可实现零样本高相似度音色复刻，并首创音频Prompt驱动的情感克隆迁移。其底层结合GPT式语义大模型与Flow Matching框架，以Apache协议全量开源，为多语种自然语音合成提供了高效、易部署的解决方案。",
+      "source": "aihot_selected",
+      "title_zh": "网易有道发布 Confucius4-TTS：14 语种跨语种无口音语音克隆开源模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3076304644,
+      "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
+      "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
+      "published_at": "2026-06-23T10:54:49+00:00",
+      "original_language": "zh",
+      "summary_en": "An AI agent based on the Qwen model and eight years of historical gaokao data reliably outperforms seasoned human consultants in college application advising, achieving perfect factual accuracy and higher admission prediction rates while reducing human decision time by 27%. This demonstrates how domain-specialized language models can augment high-stakes educational decisions, offering consistent, data-driven guidance that broadly enhances both accuracy and efficiency for students and advisors.",
+      "summary_zh": "国内首个高考志愿AI测评显示，千问Agent在事实准确度、志愿填报模拟录取率和回答倾向度上均优于平均从业4.6年的人类咨询师，有效解决了人工咨询一致性差、效率低的问题。该Agent基于千问大模型和八年高考数据，能稳定提供全量院校专业信息，并将咨询师辅助后的正确率提升、耗时缩短约27%。这一成果验证了大模型在复杂教育决策场景中的应用价值，有望缓解优质志愿指导资源不均的痛点。",
+      "source": "aihot_selected",
+      "title_zh": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 225059628,
+      "url": "https://arxiv.org/abs/2606.24530",
+      "title": "NatureBench：AI编码智能体能否匹配Nature系列论文已发表SOTA？",
+      "published_at": "2026-06-23T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "NatureBench addresses whether AI coding agents can go beyond reproducing results to achieving genuine scientific discovery, by introducing a cross-disciplinary benchmark of 90 tasks extracted from peer-reviewed Nature papers. The key finding is that even the strongest agents surpass the published state-of-the-art on only 17.8% of tasks under a strict no-internet-search protocol, with successes hinging on accurate methodology translation and failures often due to poor method selection or compute limits. This matters because the benchmark and its NatureGym pipeline provide a rigorous, standardized way to measure progress toward AI-driven discovery, revealing current models' limitations in autonomous scientific reasoning.",
+      "summary_zh": "NatureBench 旨在回答一个核心问题：AI 编码智能体能否在真实的科学发现场景中，超越 Nature 系列论文已发表的 SOTA 结果，而不是仅作复现。通过标准化容器化环境 NatureGym 封装 90 个跨学科任务，该基准对 10 种前沿智能体在禁用网络搜索的条件下进行严格评测，发现最强模型仅在 17.8% 的任务上超越已发表 SOTA，且成功主要依赖对原论文方法论的准确翻译，失败则多因方法选择错误和算力预算不足。这一工作揭示出当前 AI 编码系统在发现导向任务中的关键瓶颈，并为科学智能体的发展提供了高标准的评估工具与公开排行榜。",
+      "source": "aihot_selected",
+      "title_zh": "NatureBench：AI编码智能体能否匹配Nature系列论文已发表SOTA？",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1064934410,
+      "url": "https://machinelearning.apple.com/research/correlated-llm-evaluation-panels",
+      "title": "九位评委，两个有效投票：相关错误削弱LLM评审面板",
+      "published_at": "2026-06-23T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple's research reveals that LLM-as-a-judge panels are severely limited because models in the panel are highly correlated, effectively providing only about two independent votes regardless of how many judges are used. Adding judges or refining aggregation methods hardly helps, as the best single model often equals or beats the panel's accuracy, indicating that the real bottleneck is model correlation rather than panel design. This matters because it shows that scaling panels without addressing correlation fails to improve evaluation reliability, challenging a common assumption behind multi-model LLM judging.",
+      "summary_zh": "苹果机器学习团队发现，LLM评审面板因模型间高度相关而严重受限，9个前沿模型实际仅提供约2个独立投票的信息量，准确率比理想独立投票低8-22个百分点。增加评委数或改进聚合算法收效甚微，瓶颈在于模型间的相关性，而非聚合方法。这意味着单一强模型可能就足以替代整个评审面板。",
+      "source": "aihot_selected",
+      "title_zh": "九位评委，两个有效投票：相关错误削弱LLM评审面板",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3101972733,
+      "url": "https://huggingface.co/blog/cross-origin-storage",
+      "title": "在 Transformers.js 中实验提议的跨源存储 API",
+      "published_at": "2026-06-23T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Transformers.js-based web applications from different origins wastefully re-download the same AI model files and WebAssembly runtimes—up to 177 MB per demo—because browser caches are isolated by origin. The experimental Cross-Origin Storage API proposal would enable shared, cross-origin caching of these resources, reducing redundancy, and",
+      "summary_zh": "在浏览器中运行 Transformers.js 时，不同来源的应用因缓存隔离而重复下载相同的模型和运行时文件，导致大量冗余下载。为此提出的 Cross-Origin Storage API 旨在让跨源应用共享缓存资源，目前虽未原生实现，但可通过 Chrome 扩展注入 polyfill 进行实验，为消除重复存储和提升效率提供了可能。",
+      "source": "aihot_selected",
+      "title_zh": "在 Transformers.js 中实验提议的跨源存储 API",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2368205922,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.1-nightly.20260624.a234860a4",
+      "title": "QwenLM/qwen-code: Release v0.19.1-nightly.20260624.a234860a4",
+      "published_at": "2026-06-24T00:51:55+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release enhances Qwen Code's remote serving capabilities with a new LSP status route and introduces a vision-bridge transcription feature for multimodal support, while improving agent reliability by capping fork turns and surfacing permission prompts earlier. These changes strengthen both the code assistant's back-end infrastructure and its interactive, permission-aware behavior, making it more robust for real-world coding workflows.",
+      "summary_zh": "此版本通过新增远程 LSP 状态路由强化了服务端监控与调试能力，同时引入 fork 轮次上限与许可提示冒泡机制，有效防止 AI 代理陷入无休止的分支循环，并借助视觉桥转录功能拓展多模态支持。这些改进直接提升了 AI 编程辅助工具的稳定性、可控性和开发体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.1-nightly.20260624.a234860a4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3354671967,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.18.5-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.18.5-preview.0",
+      "published_at": "2026-06-24T00:58:05+00:00",
+      "original_language": "en",
+      "summary_en": "The v0.18.5-preview.0 release of Qwen-Code addresses stability and multimodal gaps by capping fork turns and refining permission prompts in the agent, adding a remote LSP status endpoint for better monitoring, and introducing a vision-bridge to transcribe images as text. These changes improve the agent’s reliability in long sessions and lay the",
+      "summary_zh": "该预览版本专注于提升Qwen Code的可靠性和多模态能力：通过引入远程LSP状态路由以增强服务可观测性、修复代理分支的轮次上限并提升权限提示的交互性，同时新增视觉桥接功能将图像转录为文本，从而扩展了对视觉上下文的理解。这些改进有助于构建更稳定、更丰富的AI编程辅助体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.18.5-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3040798498,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.19.2",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.19.2",
+      "published_at": "2026-06-24T04:15:35+00:00",
+      "original_language": "en",
+      "summary_en": "This update addresses friction in developer workflows when using the kimi-code AI coding assistant. It introduces a shorthand `-c` flag for the `--continue` command, reducing keystrokes and streamlining repetitive interactions. It also adds a context-aware clipboard hint that notifies users when an image is available for pasting, improving discoverability of multimodal input capabilities and making the tool more intuitive during AI-assisted coding.",
+      "summary_zh": "该更新为 MoonshotAI 的 kimi-code 工具增强了交互体验：新增 `-c` 作为 `--continue` 的快捷选项，简化了对话续写的命令行操作；同时，当检测到剪贴板中的图像时，会显示与平台匹配的临时操作提示，帮助用户快速插入图像内容。这些改进优化了开发者的使用流畅度，降低了在代码对话中处理多模态内容的摩擦。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.19.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
