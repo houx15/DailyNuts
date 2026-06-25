@@ -1,0 +1,613 @@
+{
+  "date": "2026-06-25",
+  "items": [
+    {
+      "id": 2968060164,
+      "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/",
+      "title": "Thinking to recall: How reasoning unlocks parametric knowledge in LLMs",
+      "published_at": "2026-06-24T16:51:52",
+      "original_language": "en",
+      "summary_en": "This paper investigates why large language models sometimes fail to recall factual knowledge stored in their parameters, and proposes that explicit reasoning steps can act as a key to unlock that latent knowledge. The key finding is that prompting models to \"think\" through a chain of intermediate reasoning allows them to surface accurate information that would otherwise remain inaccessible. This matters because it offers a method to improve factual recall and reduce hallucination without retraining or external retrieval, leveraging the model's internal reasoning capabilities.",
+      "summary_zh": "该研究针对大型语言模型（LLMs）如何有效提取其参数中存储的隐性知识的问题，发现通过引导模型进行显式链式推理（即“思考”）能显著激活并回忆这些知识。这一发现为提升LLMs在事实查询和复杂推理任务中的可靠性与透明度提供了关键机制，对构建更可信的生成式AI系统具有重要意义。",
+      "source": "google_research",
+      "title_en": "Thinking to recall: How reasoning unlocks parametric knowledge in LLMs",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1298993613,
+      "url": "http://arxiv.org/abs/2606.26095v1",
+      "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
+      "published_at": "2026-06-24T17:59:56+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the lack of motion priors in Vision-Language-Action models, where action modules must learn temporal dynamics from scratch alongside visual–language alignment, especially challenging across different robot embodiments. The key approach is a two-stage framework that first pretrains the action module using a flow-matching encoder–decoder on unlabeled action trajectories to capture universal motion structure, then integrates it into the full VLA training. This explicit motion prior accelerates policy learning and improves cross-embodiment generalization by injecting structured temporal knowledge before the model confronts multi-modal fusion.",
+      "summary_zh": "该工作针对现有视觉-语言-行动（VLA）模型在跨具身操控中缺乏显式动作先验的问题，提出在跨模态对齐之前先为动作模块预训练运动先验。其关键方法是两阶段框架：第一阶段用流匹配编码器-解码器仅从无条件动作轨迹中学习时序运动结构，再将此先验注入VLA训练。这能有效缓解跨具身场景下早期优化需同时发现时序动作动态和跨模态对齐的困难，提升模型学习效率与泛化能力。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Learning Action Priors for Cross-embodiment Robot Manipulation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3613411464,
+      "url": "http://arxiv.org/abs/2606.26094v1",
+      "title": "RevengeBench: Reverse Engineering Code-Space Policies from Behavioral Experiments",
+      "published_at": "2026-06-24T17:59:46+00:00",
+      "original_language": "en",
+      "summary_en": "This paper tackles the challenge of inferring an agent's underlying decision-making code from only its gameplay traces, exploring how the ability to design controlled experiments improves reconstruction. It introduces RevengeBench, a benchmark where a learner probes hidden policies by crafting custom opponent strategies and then submits executable code hypotheses. This matters because it frames program synthesis from behavioral data as an active experimentation problem, advancing both AI interpretability and",
+      "summary_zh": "本研究针对从智能体行为轨迹重建其底层决策程序这一计算逆问题，提出RevengeBench基准，包含75个基于LLM生成并经过Elo校准的策略，分布于五种游戏环境。通过观察隐藏策略与采样对手的对战，学习者设计自定义对手策略作为行为探针以获取信息性反馈，进而提交可执行假设代码，并采用连续动作距离指标评估重建质量。这项工作为通过受控行为实验逆向推断代码空间策略提供了系统化验证框架，有助于推动对智能体内部机制的可解释性研究。",
+      "source": "arxiv_cs_cl",
+      "title_en": "RevengeBench: Reverse Engineering Code-Space Policies from Behavioral Experiments",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1061478956,
+      "url": "http://arxiv.org/abs/2606.26080v1",
+      "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
+      "published_at": "2026-06-24T17:54:08+00:00",
+      "original_language": "en",
+      "summary_en": "This work tackles the challenge of building process reward models for long-horizon agent interactions, where annotation and Monte Carlo estimation become infeasible. It proposes a novel “progress advantage”—the log-probability ratio between an RL-fine-tuned policy and its reference—which recovers the optimal advantage function without any extra training, yielding an annotation-free, domain-agnostic step-level scoring signal as a free byproduct of standard RL post-training. This finding matters because it eliminates the need for costly dedicated reward models, enabling scalable, fine-grained evaluation and credit assignment in complex agentic environments.",
+      "summary_zh": "该工作指出，在构建大型语言模型智能体的过程奖励模型时，传统方法因环境反馈随机且不可逆而难以扩展；研究发现强化学习后训练阶段已内含一种隐式优势信号——“进度优势”，即训练策略与参考策略的对数概率比，无需额外训练即可恢复最优优势函数。这一发现提供了一种无标注、领域无关的步骤级评分方案，直接利用了标准RL管线副产品，显著降低了智能体评估成本。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 71609033,
+      "url": "http://arxiv.org/abs/2606.26079v1",
+      "title": "Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models",
+      "published_at": "2026-06-24T17:53:26+00:00",
+      "original_language": "en",
+      "summary_en": "This paper addresses the overlooked reliability problem that multimodal large language models (MLLMs) can change their answers when the order of evidence is shuffled, even though the information is unchanged. Auditing 18 frontier MLLMs across five ordering facets with a Bayesian model and same-ordering control, it finds none are order-invariant—flip rates range from 24–50%, and even the best model still flips on 13.4% of trials. This matters because it exposes a fundamental brittleness missed by standard single-ordering benchmarks, challenging the assumption of consistent reasoning and directly informing emerging AI evaluation guidelines.",
+      "summary_zh": "本研究针对多模态大语言模型（MLLMs）在顺序无关的输入重排下答案不一致的可靠性问题，提出Facet-Probe审计框架，从选项、证据块、文档排序等五个维度进行系统测试。通过对18个前沿及开源MLLMs的评估，发现所有模型均非顺序不变，平均翻转率达24–50%，且能力更强的模型仅能部分降低但无法消除该现象（最佳模型仍有13.4%翻转率）。该工作揭示了当前基准测试忽视的顺序敏感性缺陷，对构建鲁棒、可信的多模态AI具有重要指导意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 579544401,
+      "url": "http://arxiv.org/abs/2606.26078v1",
+      "title": "A cross-process welding penetration status prediction algorithm based on unsupervised domain adaptation in laser and TIG welding",
+      "published_at": "2026-06-24T17:52:57+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the performance decline of supervised deep learning models for weld penetration classification when applied across different welding processes (e.g., TIG to laser) due to domain shift. It introduces an unsupervised domain adaptation framework with a gradual source domain expansion strategy, which achieves over 80% accuracy in cross-process transfer—improving upon the supervised baseline by more than 43%—and surpasses 90% in same-process settings. This approach enables reliable weld penetration monitoring without requiring costly labeled data for each new welding process, greatly enhancing practicality in industrial manufacturing.",
+      "summary_zh": "该研究针对焊接熔深状态分类中因焊接工艺不同导致的领域偏移问题，提出了一种结合渐进源域扩展的无监督域适应框架。该方法在激光与TIG焊接的跨工艺迁移任务中分别达到80.48%和81.13%的准确率，相对监督基线提升超过43%，有效解决了无需目标域标签的跨物理机制模型泛化难题，为多工艺焊接过程智能监测提供了高效解决方案。",
+      "source": "arxiv_cs_cl",
+      "title_en": "A cross-process welding penetration status prediction algorithm based on unsupervised domain adaptation in laser and TIG welding",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2637198295,
+      "url": "https://claude.com/blog/building-effective-human-agent-teams",
+      "title": "Building effective human-agent teams",
+      "published_at": "2026-06-25T10:37:01.691452",
+      "original_language": "en",
+      "summary_en": "This work addresses the challenge of designing AI agents that can collaborate seamlessly with humans in teams, overcoming barriers like misaligned expectations and poor coordination. It likely proposes frameworks or strategies—such as adaptive communication, shared mental models, or trust calibration—to enhance joint task performance. Establishing effective human-agent teams is critical as autonomous systems are increasingly deployed in high-stakes environments where seamless collaboration directly impacts safety and efficiency.",
+      "summary_zh": "该研究聚焦于如何构建高效的人类与智能体（AI代理）协作团队，针对团队沟通、信任和任务分配等核心挑战，提出结合人类认知与AI能力的协同框架。其关键发现表明，通过动态角色调整和共享心智模型可显著提升团队整体绩效，这对未来人机混合智能系统的实际部署具有重要指导意义。",
+      "source": "claude_blog",
+      "title_en": "Building effective human-agent teams",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3413750800,
+      "url": "https://claude.com/blog/claude-for-foundation-models",
+      "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+      "published_at": "2026-06-25T10:37:01.696737",
+      "original_language": "en",
+      "summary_en": "The work addresses the challenge of integrating advanced AI capabilities into applications on Apple platforms. It proposes leveraging Anthropic's Claude model through Apple's Foundation Models framework to enable on-device or cloud-assisted intelligent features. This matters because it provides a streamlined path for developers to embed powerful, privacy-aware conversational and reasoning functionalities into iOS and macOS apps.",
+      "summary_zh": "该研究解决了如何在Apple平台上高效集成大语言模型Claude以构建智能应用的问题，提出了在Foundation Models框架中无缝调用Claude的关键方法，这为苹果生态内的开发者提供了安全、可控且性能优异的AI功能实现路径，有助于推动隐私保护与本地智能体验的融合。",
+      "source": "claude_blog",
+      "title_en": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 653941238,
+      "url": "https://claude.com/blog/observability-for-developers-building-connectors",
+      "title": "Observability for developers building connectors",
+      "published_at": "2026-06-25T10:37:01.697109",
+      "original_language": "en",
+      "summary_en": "This work addresses the challenge of limited visibility into the behavior and performance of software connectors, which often act as opaque integration points between systems. It proposes applying observability principles—such as structured logging, metrics, and distributed tracing—directly into the connector development process. This matters because it enables developers to proactively detect issues, simplify debugging, and build more reliable and maintainable integrations.",
+      "summary_zh": "针对连接器开发人员在构建与维护过程中面临的监控和调试难题，本文强调将可观测性实践（如日志、指标与链路追踪）融入开发流程。其核心方法是通过默认集成可观测性工具，使开发者能及时洞察连接器行为，从而提升可靠性与开发效率，这对保障数据集成系统的稳定迭代至关重要。",
+      "source": "claude_blog",
+      "title_en": "Observability for developers building connectors",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 10696052,
+      "url": "https://podcasters.spotify.com/pod/show/how-do-you-use-chat-gpt/episodes/Building-a-School-Where-AI-Models-Learn-About-Humanity-e3l6god",
+      "title": "Building a School Where AI Models Learn About Humanity",
+      "published_at": "2026-06-24T14:55:00",
+      "original_language": "en",
+      "summary_en": "The article grapples with the imminent reality of AI surpassing human capabilities, illustrated by an AI model disproving a difficult mathematical conjecture, which signals a future where",
+      "summary_zh": "这篇文章探讨了在AI能力可能很快全面超越人类的预期下，如何通过构建一所“学校”让AI模型学习人性与人类价值观。文中以OpenAI模型用新颖代数几何方法推翻埃尔德什猜想，令菲尔兹奖得主高尔斯感到震惊为例，说明缩放定律若持续成立，人类在智识领域将不再拥有优势。其关键意义在于，我们必须及早设计出能向AI传授人类情感、伦理和复杂社会规范的训练环境，以确保未来超级智能的决策与人类利益对齐。",
+      "source": "ai_and_i",
+      "title_en": "Building a School Where AI Models Learn About Humanity",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1066449044,
+      "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+      "title": "Meta员工警告AI内容审核部署过快",
+      "published_at": "2026-06-25T10:07:19+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta is rapidly replacing human content moderators with large language models, aiming for over 90% AI review in some categories by 2025 to save billions annually, but employees warn that the models still wrongly remove or restrict harmless content and lack sufficient oversight. This highlights the tension between cost-driven AI deployment and the reliability needed for nuanced moderation, as automation may amplify mistakes and displace human judgment prematurely.",
+      "summary_zh": "Meta正加速用大语言模型替代人工内容审核，以降低成本并提升效率，但其员工警告模型仍会误删无害内容且缺乏监督，快速部署已引发裁员问题。此举凸显了AI审核在节省数十亿美元与可能损害内容生态之间的争议，以及从外部模型转向基于人工历史决策训练的自研模型Muse Spark的趋势。",
+      "source": "aihot_selected",
+      "title_zh": "Meta员工警告AI内容审核部署过快",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1233163210,
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+      "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
+      "published_at": "2026-06-25T03:07:48.942000+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic alleges that Alibaba illegally extracted capabilities from its Claude AI model, claiming that Alibaba replicated core technologies through reverse engineering or other means. This accusation, based on Anthropic's investigation, highlights escalating concerns over intellectual property theft and security in the AI industry. Alibaba has not yet publicly responded.",
+      "summary_zh": "Anthropic指控阿里巴巴通过逆向工程等手段非法获取其Claude AI模型的核心技术能力，问题在于未经授权提取模型功能。这一发现突显了AI模型知识产权保护的紧迫性，并可能引发跨境技术窃取的法律与行业争议。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1602059562,
+      "url": "https://x.ai/news/grok-interactive-brokers",
+      "title": "盈透证券（Interactive Brokers）与 Grok 集成：组合分析、情景建模与实时交易指令生成",
+      "published_at": "2026-06-25T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Interactive Brokers now integrates with Grok, allowing users to link accounts and use natural language for portfolio analysis, risk scenario modeling, and real-time trade order generation—unifying data insight and execution. This approach tackles the fragmentation between investment research and trading by enabling direct, conversation-driven decision-making. The integration matters because it democratizes sophisticated financial workflows, making complex analysis and instant action accessible to everyday investors.",
+      "summary_zh": "盈透证券通过集成Grok，让用户能以自然语言对话实现组合收益分析、风险情景建模与实时交易指令生成，解决了数据分析到执行脱节的问题。此举将洞察与决策无缝衔接，显著提升了交易效率与便捷性。",
+      "source": "aihot_selected",
+      "title_zh": "盈透证券（Interactive Brokers）与 Grok 集成：组合分析、情景建模与实时交易指令生成",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2871922295,
+      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
+      "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
+      "published_at": "2026-06-24T21:56:41+00:00",
+      "original_language": "zh",
+      "summary_en": "Despite fears that AI will displace engineering jobs, new data from SignalFire tracking millions of employees at 80 million companies shows engineering is the most resilient role in 2025: big tech engineering hiring dropped only 11% (vs. a 25% total decline from 2019), engineering now makes up 55% of new hires at 12 tech majors, and early-stage startup engineering hiring grew 7%. The findings challenge dire warnings about AI job destruction—even as Anthropic’s CEO warns of eliminating entry-level white-collar roles, its economics head sees no significant impact yet, and NVIDIA’s CEO points to AI making engineers busier (a classic Jevons paradox). This matters because it provides empirical evidence that engineering demand remains robust, suggesting AI may augment rather than replace engineers in the near term.",
+      "summary_zh": "该研究通过追踪8000万家公司数据，揭示了尽管AI被担忧会取代工程岗位，但工程岗在2025年表现出最强韧性：大型科技公司工程招聘降幅远小于整体，且工程师占新招比例反升至55%，早期初创公司工程师招聘甚至增长7%。这一发现打破了AI消灭工程师的普遍预期，并印证了“杰文斯悖论”——AI效率提升反而让工程师更忙碌，凸显工程人才在技术变革中的核心价值。",
+      "source": "aihot_selected",
+      "title_zh": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1823612180,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
+      "title": "Gemini 3.5 Flash 中的计算机使用",
+      "published_at": "2026-06-24T21:16:01.786000+00:00",
+      "original_language": "zh",
+      "summary_en": "Google has integrated a computer-use tool directly into Gemini 3.5 Flash, allowing developers to build agents that operate across browsers, mobile, and desktop environments. The approach improves security against prompt injection via adversarial training and optional enterprise safeguards, such as requiring user confirmation for sensitive actions and automatically halting on detected indirect injections. This native integration enhances reliability for long-cycle enterprise automation like continuous testing and cross-application knowledge work.",
+      "summary_zh": "谷歌将计算机使用能力原生整合进 Gemini 3.5 Flash，让开发者可直接通过 API 与企\n业平台构建跨环境智能体，解决了此前依赖独立模型所带来的集成复杂性与效率瓶颈。通过针对性对抗训练、用户确认与注入检测等安全机制，模型在长周期企业自动化任务中表现更优，显著降低了提示注入风险。这项集成将推动更安全、可落地的 AI 自动化代理在持续测试、跨应用知识工作等场景中的应用。",
+      "source": "aihot_selected",
+      "title_zh": "Gemini 3.5 Flash 中的计算机使用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2740503881,
+      "url": "https://cursor.com/blog/notion",
+      "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
+      "published_at": "2026-06-24T20:55:19.799000+00:00",
+      "original_language": "zh",
+      "summary_en": "Notion integrated Cursor’s coding agent via its SDK in weeks, enabling users to trigger agents through mentions, threads, or database assignments for end-to-end planning, building, testing, and PR creation. The integration uses a provider-agnostic framework with SSE streaming and automatic reconnection, and the Cursor SDK provides the same models and runtime as the production environment, eliminating the need for Notion to build its own agent infrastructure. Users can customize templates, MCP servers, skills, and auto-trigger rules, making this a quick way to embed full-stack coding capabilities directly into Notion.",
+      "summary_zh": "Notion 通过集成 Cursor SDK，将编码智能体嵌入到文档、讨论串和数据库中，使用户能直接在协作界面里指派端到端的开发任务，解决了产品与工程流程分离的问题。关键方法是用一套 Provider 无关的智能体框架，每条讨论串的消息驱动智能体运行，并通过 SSE 流式传输与断连恢复保证稳定性，让 Notion 无需自建基础设施即可复用 Cursor 的完整栈编码能力。这一集成大幅降低了在协作工具中嵌入生产级 AI 编码功能的门槛，为自动化开发工作流提供了可定制、可扩展的实践范例。",
+      "source": "aihot_selected",
+      "title_zh": "Notion 使用 Cursor SDK 嵌入编码智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 352580241,
+      "url": "https://x.com/perplexity_ai/status/2069866668671766804",
+      "title": "Perplexity推出Computer for Counsel",
+      "published_at": "2026-06-24T19:34:04+00:00",
+      "original_language": "zh",
+      "summary_en": "Perplexity has introduced Computer for Counsel, a feature that directly connects to lawyers’ everyday research databases, document tools, and case management systems, extracting citable sources from platforms like midpageAI, LegalZoom, Docusign, and NetDocuments. This addresses the fragmented legal workflow by central",
+      "summary_zh": "Perplexity 推出了面向律师的“Computer for Counsel”功能，它连接了法律研究库、文档工具和案件管理系统等日常工具，并能从合作平台中提取可引用的来源。这一整合为律师提供了更高效的专业工作流，所有 Pro 和 Max 订阅用户均可使用。",
+      "source": "aihot_selected",
+      "title_zh": "Perplexity推出Computer for Counsel",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3201436889,
+      "url": "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
+      "title": "在与Anthropic的纠纷中，NSA失去了对Mythos的访问权限",
+      "published_at": "2026-06-24T19:08:32.032000+00:00",
+      "original_language": "zh",
+      "summary_en": "The NSA has lost access to the Mythos system following a dispute with Anthropic, illustrating the fragility of partnerships between intelligence agencies and private AI firms. This incident raises immediate concerns about operational continuity and long-term implications for the governance and reliability of AI systems in sensitive national security contexts.",
+      "summary_zh": "美国国家安全局因与人工智能公司Anthropic的纠纷，失去了对其关键AI系统Mythos的访问权限。这一事件直接暴露出情报机构对私营AI技术过度依赖的风险，可能导致其核心分析能力中断。问题凸显了国家安全领域在关键AI资源上的自主可控需求，以及技术供应商与政府间合作关系的脆弱性。",
+      "source": "aihot_selected",
+      "title_zh": "在与Anthropic的纠纷中，NSA失去了对Mythos的访问权限",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2713766421,
+      "url": "https://x.com/OpenAI/status/2069843083701915755",
+      "title": "GPT-5.5 Instant 新版本，对话更有趣",
+      "published_at": "2026-06-24T18:00:21+00:00",
+      "original_language": "zh",
+      "summary_en": "The update to GPT-5.5 Instant addresses the need for more engaging and context-aware conversations by enhancing its ability to infer user intent and handle complex constraints. This improves practical applications like shopping and local recommendations, making interactions more reliable and coherent, with immediate availability for paid users and a free tier rollout the next day.",
+      "summary_zh": "新版 GPT-5.5 Instant 解决了对话不够生动且难以可靠应对复杂约束的问题，通过提升意图理解与回应调整能力，使购物和本地推荐等任务更实用连贯。这一升级直接优化了用户交互的趣味性和实际效用，即将面向所有用户推送，有助于提升大模型在消费场景中的落地价值。",
+      "source": "aihot_selected",
+      "title_zh": "GPT-5.5 Instant 新版本，对话更有趣",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1342962896,
+      "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms",
+      "title": "思考即回忆：推理如何解锁LLM中的参数化知识",
+      "published_at": "2026-06-24T17:05:40.380000+00:00",
+      "original_language": "zh",
+      "summary_en": "This research investigates why large language models (LLMs) sometimes fail to answer simple factual questions despite possessing the knowledge. It finds that chain-of-thought reasoning enables recall by acting as a computational buffer for hidden calculation and through factual priming from generated tokens. This matters because it demonstrates how reasoning can unlock parameterized knowledge, improving LLM reliability on straightforward queries without complex deduction.",
+      "summary_zh": "这项研究发现，大语言模型在回答简单事实时会出现“知道但说不出来”的现象，而启用思维链推理能帮助模型解锁其参数化存储的知识。其关键在于推理token既作为计算缓冲让模型进行隐藏的知识提取，又通过生成相关事实产生启动效应，从而激活正确答案。这揭示了推理不仅是复杂问题求解的工具，也是唤起模型内隐知识的重要机制，有助于提升LLM事实问答的可靠性。",
+      "source": "aihot_selected",
+      "title_zh": "思考即回忆：推理如何解锁LLM中的参数化知识",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 253031782,
+      "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+      "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+      "published_at": "2026-06-24T16:49:01+00:00",
+      "original_language": "zh",
+      "summary_en": "Figma’s Config 2026 announcements address the fragmentation of design-to-development workflows by expanding the canvas to natively handle code, animation, 3D, and shader effects while integrating the Weave workflow system. The key finding is that Figma’s AI capabilities—such as reusable prompts and generative plugins—rely on external models from Anthropic, OpenAI, and Google, which squeezes margins and leaves the platform vulnerable to competitors that can directly generate interfaces. This highlights the strategic tension between enriching collaborative design tools and maintaining control over the AI stack in a rapidly converging market.",
+      "summary_zh": "Figma在Config 2026大会上扩展设计画布至代码、动画和3D效果，并集成AI协作功能，试图解决设计到开发的工作流断裂问题；然而其AI能力主要依赖Anthropic、OpenAI等外部模型，推理成本高并可能挤压利润，同时这些模型厂商也在推出直接生成界面的竞争工具，威胁Figma的护城河，凸显出依赖第三方AI的SaaS产品面临的成本与竞争风险。",
+      "source": "aihot_selected",
+      "title_zh": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 393731250,
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调",
+      "published_at": "2026-06-24T16:00:13+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA NeMo AutoModel addresses the memory and throughput bottlenecks of fine-tuning Mixture-of-Experts (MoE) Transformer models by integrating Expert Parallelism, DeepEP fused all-to-all scheduling, and TransformerEngine kernels into a drop-in replacement for Transformers v5, requiring only a single import line change. This approach delivers 3.4–3.7× higher training throughput and up to 32% GPU memory reduction, and crucially makes previously infeasible large-scale fine-tuning—like the 550B Nemotron 3 Ultra—possible on 128 H100 GPUs, while also accelerating smaller models. The library democratizes efficient MoE training by combining low-code adoption with significant, scalable performance gains.",
+      "summary_zh": "NVIDIA NeMo AutoModel 解决了Transformer MoE模型微调时原生v5库在专家并行训练上的内存与吞吐瓶颈，通过集成Expert Parallelism、DeepEP融合all-to-all调度和TransformerEngine内核，仅需替换一行import即可显著提升性能。其关键发现是在128张H100上微调550B参数Nemotron模型时，将原本因内存不足无法运行的训练变为可行，同时吞吐量提升3.4-3.7倍、内存减少29-32%。这一技术显著降低了大规模MoE模型微调的门槛，并为30B级模型也带来量化性能优势，对推进超大稀疏模型的实用化训练至关重要。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1045360262,
+      "url": "https://openrouter.ai/blog/insights/when-zero-means-zero",
+      "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
+      "published_at": "2026-06-24T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter’s Zero Data Retention (ZDR) policy promises never to store user prompts or model responses, addressing critical privacy and data sovereignty concerns. Since January, 97 new models have adopted ZDR, with monthly token volume growing 4.3× to now account for nearly half of all routed traffic. This matters because enterprises can enforce fine-grained, multi-level controls—account-wide, by API key, or per request—avoiding vendor lock-in while maintaining strong data protection.",
+      "summary_zh": "该文聚焦于 AI 路由服务中的数据隐私问题，介绍 OpenRouter 的零数据留存（ZDR）实践，通过账户、护栏和单次请求三级控制机制，确保用户提示与模型响应不被存储。新增 97 款支持 ZDR 的模型使得月度流量增长 4.3 倍并占据近半路由流量，关键在于为企业提供灵活细粒度的隐私保护，避免被单一供应商锁定。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 39291337,
+      "url": "https://mistral.ai/news/more-control-over-connectors",
+      "title": "Mistral AI 为 Connectors 推出多项安全与可控新能力",
+      "published_at": "2026-06-24T15:59:47.708000+00:00",
+      "original_language": "zh",
+      "summary_en": "Mistral AI introduced new governance and security features for its Connectors platform, addressing risks like unauthorized tool access and identity impersonation in automated workflows. Key capabilities include per-workspace admin controls, connector-scoped API keys, and multi-account bindings, along with debugging and integration enhancements for development and long-running tasks. These updates strengthen enterprise control and safety while enabling more complex, reliable AI-driven processes.",
+      "summary_zh": "Mistral AI 为 Connectors 新增了多项安全与管理能力，核心针对自动化工作流中的身份冒充风险与权限管控复杂性，通过工作空间级访问控制、连接器作用域 API 密钥以及多账户绑定加以应对。同时引入调试器与开发环境/工作流集成，提升了排查效率与使用便捷性，为企业级 AI 应用的可控性、安全性和长期运行稳定性提供了关键保障。",
+      "source": "aihot_selected",
+      "title_zh": "Mistral AI 为 Connectors 推出多项安全与可控新能力",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2953711894,
+      "url": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
+      "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
+      "published_at": "2026-06-24T14:20:14.340000+00:00",
+      "original_language": "zh",
+      "summary_en": "Reid Hoffman criticizes Elon Musk's ventures, dismissing SpaceX's AI relevance and its acquisition of Cursor as a forced pivot, while labeling xAI a \"train wreck\" due to total co-founder departures and Grok's underperformance. He also condemns the US government's abrupt forced takedown of Anthropic's models over a reported jailbreak, calling it arbitrary. Despite this, Hoffman sees continued growth potential for Anthropic and OpenAI, though he believes Cursor may have already peaked, and urges young people not to resist AI adoption.",
+      "summary_zh": "里德·霍夫曼在播客中批评SpaceX并非真正的AI公司，其收购Cursor只是用资金弥补技术不足，而xAI则因创始团队分裂且模型性能落后沦为失败案例；同时他指责美国政府随意以安全为由强制下架AI模型。这些观点揭示了当前AI领域存在泡沫与监管随意性，霍夫曼仍看好Anthropic和OpenAI的前景，并呼吁年轻人积极拥抱AI。",
+      "source": "aihot_selected",
+      "title_zh": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1738472090,
+      "url": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+      "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+      "published_at": "2026-06-24T14:02:42+00:00",
+      "original_language": "zh",
+      "summary_en": "ByteDance’s VP of Technology shared that while AI now generates over 90% of code for some teams and token consumption surged 50‑fold, per‑developer throughput improved only 60%, exposing the limits of single‑metric optimization. Across 900 experiments, mainstream coding model combinations hit >80% correctness but merely 40–60/100 on deliverability; pairing them with the “Harness” infrastructure lifted deliverability to 80/",
+      "summary_zh": "字节跳动实践表明，仅关注AI代码贡献率会掩盖真实效能——尽管AI生成代码可超90%，人均需求吞吐率仅提升60%，主流Coding模型组合正确率达80%以上但可交付性仅40-60分，通过结合Harness基建可提升至80分，凸显从生成到可交付需系统性工程化支撑。他们推出原型驱动开发及TRAE平台，日Token消耗增长50倍至5.6万亿，提示业界AI编码必须优化指标体系、治理机制与协作模式，才能有效降低门槛并释放实际研发效率。",
+      "source": "aihot_selected",
+      "title_zh": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2214828899,
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "title": "OpenAI 与 Broadcom 发布面向 LLM 推理的定制芯片 Jalapeño",
+      "published_at": "2026-06-24T06:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI and Broadcom have co-developed Jalapeño, a custom AI chip purpose-built to accelerate large language model (LLM) inference, tackling the performance and efficiency limitations of general-purpose hardware when serving massive models at scale. By tailoring the chip architecture directly to LLM workloads, it aims to deliver faster responses, lower energy consumption, and improved scalability, which is critical for cost-effective and sustainable deployment of advanced AI services.",
+      "summary_zh": "OpenAI 与 Broadcom 合作推出的定制芯片 Jalapeño 专门针对大语言模型（LLM）推理场景进行优化，旨在解决通用硬件在推理性能、能效和扩展性上的瓶颈。该芯片通过定制设计提升 AI 系统的整体效率与规模，对降低推理成本、支撑大规模 LLM 部署具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 与 Broadcom 发布面向 LLM 推理的定制芯片 Jalapeño",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 916625617,
+      "url": "https://arxiv.org/abs/2606.25473",
+      "title": "Causal-rCM：自回归视频扩散蒸馏的统一教师强制与自强制开源方案",
+      "published_at": "2026-06-24T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Causal-rCM extends the rCM diffusion distillation framework to autoregressive video generation by introducing a unified teacher-forcing and self-forcing training paradigm and releasing an open-source implementation. A custom masked FlashAttention-2 JVP kernel enables the first continuous-time consistency model for autoregressive video diffusion, converging 10× faster than discrete-time alternatives and yielding a distilled 2-step Wan2.1-1.3B model that achieves state-of-the-art 84.63 VBench-T2V with only synthetic data. The method also scales to the Cosmos 3 full-modality world foundation model, enabling interactive action-conditioned generation, thereby bridging efficient distillation and practical high-quality streaming video synthesis.",
+      "summary_zh": "Causal-rCM 针对自回归视频扩散模型的高效少步采样问题，提出将教师强制（TF）与自强制（SF）互补训练统一到连续时间一致性蒸馏框架中，并借助自定义 FlashAttention-2 JVP 核首次实现基于 TF 的 sCM/MeanFlow 蒸馏，使收敛速度较离散版本提升 10 倍。该方法蒸馏的 2 步模型在 VBench-T2V 上达 84.63 分，仅用合成数据即取得流式视频生成的 SOTA，并成功应用于 Cosmos 3 世界模型，展示了实用的自回归视频生成新范式。",
+      "source": "aihot_selected",
+      "title_zh": "Causal-rCM：自回归视频扩散蒸馏的统一教师强制与自强制开源方案",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1083524199,
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "title": "FFASR 排行榜发布：真实远场条件下 ASR 评测",
+      "published_at": "2026-06-24T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The FFASR benchmark addresses the inability of traditional near-field ASR evaluations to reflect performance degradation from real far-field issues like reverberation, background noise, and microphone distance. The key approach is a community-driven ranking using a hybrid wave simulation engine to generate data across 14 rooms and three SNR levels, evaluating both word error rate and real-time factor on an NVIDIA L4 GPU. This matters because it provides the first open, realistic far-field ASR benchmark, enabling developers to systematically test and improve models under challenging acoustic conditions.",
+      "summary_zh": "FFASR 排行榜针对传统近场语音识别评测无法反映真实远场混响、噪声和距离影响的缺陷，构建了首个开源社区驱动的远场 ASR 评测基准。它利用混合波模拟引擎生成覆盖多种房间和信噪比级别的声学数据，并以词错误率和实时因子作为核心指标，从而更全面地衡量系统性能。该基准的发布为远场语音识别研究提供了贴近实际的标准化评测工具，有助于推动鲁棒性提升和技术落地。",
+      "source": "aihot_selected",
+      "title_zh": "FFASR 排行榜发布：真实远场条件下 ASR 评测",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3074507862,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.2-nightly.20260625.b2f11b735",
+      "title": "QwenLM/qwen-code: Release v0.19.2-nightly.20260625.b2f11b735",
+      "published_at": "2026-06-25T00:59:49+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly patch release for Qwen Code addresses a web content retrieval failure by adding a JSON fallback in the `web_fetch` tool, ensuring the AI assistant can still extract information when the primary format is unparseable. The fix improves the robustness of the agent’s ability to gather external knowledge during coding tasks, accompanied by CI pipeline refinements for smoother merge workflows.",
+      "summary_zh": "这次 nightly 版本重点修复了核心模块 `web_fetch` 无法处理非 JSON 响应的问题，通过增加 JSON 回退（fall",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.2-nightly.20260625.b2f11b735",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1392675419,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.2",
+      "title": "QwenLM/qwen-code: Release v0.19.2",
+      "published_at": "2026-06-24T13:54:59+00:00",
+      "original_language": "en",
+      "summary_en": "This release introduces a vision bridge that transcribes images to text, enabling text-only models to handle multimodal inputs. It also adds a remote LSP status route for observability and fixes agent behavior by limiting fork turns and properly escalating permission prompts. These changes improve the agent's multimodal capability, stability, and control in complex coding tasks.",
+      "summary_zh": "QwenLM/qwen-code v0.19.2 版本主要解决了远程语言服务器状态监控、代理 fork 操作的并发限制与权限交互问题，并通过 vision-bridge 将图像转录为文本，使纯文本模型也能处理视觉信息。这些改进提升了代码助手在远程协作和多模态场景下的稳定性与适用范围。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3106006369,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.2-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.19.2-preview.0",
+      "published_at": "2026-06-24T12:55:16+00:00",
+      "original_language": "en",
+      "summary_en": "This preview release introduces tools for better monitoring and control of AI coding agents, adding a remote LSP status route for server health checks and fixing agent behavior by capping forked turns and surfacing permission prompts. It also begins integration of a vision bridge to transcribe images into text, expanding the model's multimodal input capabilities. These improvements enhance reliability and usability for developers building with Qwen Code.",
+      "summary_zh": "Qwen-Code v0.19.2-preview 主要针对远程 LSP 服务状态监控、Agent 分叉行为控制以及多模态输入支持进行了增强。通过新增远程 LSP 状态路由、限制分叉轮次与优化权限提示，提升了远程开发时的稳定性与安全性；同时引入视觉桥接功能，可将图像自动转译为文本，使模型能处理图片内容。这些改进进一步拓宽了 Qwen-Code 在复杂开发场景下的实用价值。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.2-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
