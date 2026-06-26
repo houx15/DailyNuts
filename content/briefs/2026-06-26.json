@@ -1,0 +1,37 @@
+{
+  "date": "2026-06-26",
+  "headline_en": "Autonomous Agents Reshape Work as Regulation and New Models Shake AI Landscape",
+  "lede_en": "Today the AI landscape pivoted toward autonomous agent systems that are rapidly displacing traditional chat interfaces, as evidenced by OpenAI’s internal revelation that Codex now generates 99.8% of the company’s output tokens. This agentic surge is matched by regulatory flashpoints, with the U.S. delaying GPT-5.6 over dual-use fears and a newspaper coalition suing for copyright, while new model releases such as the MIT-licensed Ornith-1.0 agentic coding family push the frontier of self-improving AI.",
+  "sections_en": [
+    {
+      "title": "Agents Take Control: From Codex to Cloudflare’s Bot Future",
+      "body": "The shift to autonomous agents is reshaping both enterprise and consumer AI. OpenAI’s internal data shows Codex has replaced ChatGPT as the primary work tool, with non-developer departments like legal and finance surpassing 85% token share, while Runway Agent 2.0 automates cross-platform marketing orchestration. The infrastructure is also adapting: Claude Managed Agents now support scheduled runs and secure vaults, Gemini 3.5 Flash integrates computer-use as a built-in tool, and Cloudflare’s CEO warns that bots already overtake human traffic, forcing every business to rethink its architecture. Meanwhile, General Intuition used hundreds of millions of hours of gameplay to train a single model that can control both a videogame and a real-world robot, and Kimi Code’s new shell mode keeps AI in the loop during terminal tasks."
+    },
+    {
+      "title": "New Models and Architectures Raise the Bar",
+      "body": "Ornith-1.0’s family of agentic coding models (9B to 397B parameters) achieves state-of-the-art open-source results on SWE-Bench Verified (82.4) by jointly optimizing task scaffolding and solution generation, marking a leap in self-directed programming. On the architectural front, a hybrid Transformer-OLMo 3 model shows that composite designs outperform pure Transformers on content words and coreference but lose on memorization, while Autoregressive Boltzmann Generators apply LLM-scale architectures to molecular sampling. Midjourney’s V8.2 preview with new `--sref random` draft mode slashes style-exploration cost and time, and IBM’s 0.7nm 3D nanostack chips promise doubled transistor density and 70% greater energy efficiency for future workloads."
+    },
+    {
+      "title": "Alignment, Bias, and the Regulatory Grip Tightens",
+      "body": "A Washington Post survey revealed systematic left-leaning political bias in major chatbots, with even “anti-woke” models showing skews, raising fresh alignment concerns. These findings land alongside unprecedented government intervention: the U.S. requested a delay of GPT-5.6’s wide release over cyber dual-use risks, requiring partner-by-partner approval. The legal landscape also escalated as nearly 400 newspapers sued Microsoft and OpenAI for scraping copyrighted content. On a more positive note, UN regulations for urban driver assistance and autonomous driving will enable global deployment of VLA 2.0 by 2026, setting a legal framework for AI-powered mobility."
+    }
+  ],
+  "top_picks": [
+    364530085,
+    2643325751,
+    2955415683
+  ],
+  "item_count": 34,
+  "source_breakdown": {
+    "google_research": 1,
+    "arxiv_cs_cl": 5,
+    "claude_blog": 4,
+    "mad_podcast": 1,
+    "aihot_selected": 22,
+    "moonshot_github": 1
+  },
+  "generated_at": "2026-06-26T10:55:25.043706Z",
+  "headline_zh": "今日共采集 34 项内容",
+  "lede_zh": "今日共采集 34 项内容。",
+  "sections_zh": []
+}
