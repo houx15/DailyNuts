@@ -1,0 +1,233 @@
+{
+  "date": "2026-06-28",
+  "items": [
+    {
+      "id": 3596388523,
+      "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+      "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+      "published_at": "2026-06-28T07:44:41+00:00",
+      "original_language": "zh",
+      "summary_en": "Sina’s open-source VibeThinker-3B shows that a 3B-parameter model can match or exceed 200× larger models on math",
+      "summary_zh": "新浪开源了仅3B参数的VibeThinker-3B模型，它在AIME数学编程等推理基准上及LiveCodeBench中显著超越众多几十倍大的模型，甚至LeetCode竞赛解决能力超过GPT-5.2等巨型系统，但在知识密集型GPQA-Diamond上大幅落后。这项工作通过多阶段后训练揭示了“参数压缩-覆盖假说”：逻辑推理依赖少量可压缩模式，因此小模型即可胜任，而广泛世界知识仍需大参数量，为高效模型的差异化设计提供了重要指导。",
+      "source": "aihot_selected",
+      "title_zh": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2443339486,
+      "url": "https://github.com/kageroumado/adrafinil",
+      "title": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
+      "published_at": "2026-06-28T03:55:17.096000+00:00",
+      "original_language": "zh",
+      "summary_en": "Adrafinil solves the problem of Mac sleep interrupting ongoing AI coding agent tasks by selectively preventing system sleep only when one of nine supported agents has an active session. It uses fast CLI hooks (under 50ms latency) and a reference-counted assertion system with thermal, idle, and process-sniffing release mechanisms to dynamically manage sleep prevention. This matters because it keeps AI workflows uninterrupted when needed while allowing normal sleep behavior to conserve power once an agent’s work is done, avoiding unnecessary battery drain.",
+      "summary_zh": "阿德拉菲尼尔这款工具专门解决AI编程代理工作时Mac误睡眠导致会话中断的问题，其关键思路是仅在9种特定AI agent持有活跃会话时，通过低延迟钩子调用和进程嗅探机制动态申请系统睡眠断言，无任务时则自动恢复合盖睡眠。这既避免了长期强制唤醒带来的耗电，又确保开发者使用AI辅助编码时不会因意外休眠而丢失上下文，实用性很强。",
+      "source": "aihot_selected",
+      "title_zh": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2801435137,
+      "url": "https://www.ithome.com/0/969/570.htm",
+      "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
+      "published_at": "2026-06-28T02:45:16+00:00",
+      "original_language": "zh",
+      "summary_en": "This experiment investigates AI's ability to handle complex, long-term strategic games by pitting top models against each other in *Civilization VI*. The key finding is that even clever models exhibit critical perception blind spots (checking global state only 1–2% of the time) and fail to execute their own plans 34–52% of the time, as illustrated by Claude's futile nuclear strike. The work matters because it shows that for real-world autonomy, improving situational awareness and plan follow-through is more urgent than boosting raw reasoning power.",
+      "summary_zh": "一项用《文明VI》策略游戏测试四大顶级AI模型的实验揭示：即便拥有核平对手的智力，Claude等模型仍因“感知盲区”（仅主动检查1%-2%的全局状态）和“知行差距”（10回合内计划执行率仅48%-66%）而落败。该研究证明，当前AI的瓶颈并非智商，而是主动、持续地感知复杂环境并可靠执行长期计划的能力，这对需长期规划的现实应用具有警示意义。",
+      "source": "aihot_selected",
+      "title_zh": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3127367483,
+      "url": "https://x.com/cb_doge/status/2070973276562530507",
+      "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+      "published_at": "2026-06-27T20:51:20+00:00",
+      "original_language": "zh",
+      "summary_en": "SpaceX has registered the \"SpaceXAI\" trademark and will dissolve xAI as an independent company, merging it into SpaceX's AI product line. This consolidation directly integrates advanced AI capabilities into SpaceX's operations, which could streamline innovation in autonomous spaceflight and satellite systems while unifying Musk's AI ventures under a single aerospace brand.",
+      "summary_zh": "SpaceX 注册 “SpaceXAI” 商标并宣布解散独立公司 xAI，将其整合为内部的 AI 产品部门，这解决了原先 AI 研发与航天工程脱节的问题。关键做法是将大模型、数据处理等能力直接嵌入 SpaceX 的星链、星舰等硬件体系，形成从太空数据采集到 AI 训练的闭环。此举标志着通用人工智能研发正在与巨型航天基础设施深度融合，有望通过海量太空数据和天地一体算力加速下一代",
+      "source": "aihot_selected",
+      "title_zh": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 335599233,
+      "url": "https://x.com/berryxia/status/2070916520822321292",
+      "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
+      "published_at": "2026-06-27T17:05:48+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple's VP of Vision Products departing for OpenAI highlights the intensifying competition for AI hardware talent, even as Apple readies touchscreen OLED MacBooks with M5 chips to strengthen its ecosystem. This talent drain to an AI-native rival signals a strategic shift",
+      "summary_zh": "苹果Vision高管跳槽OpenAI硬件部门，凸显AI硬件领域人才争夺加剧；同时首款触控OLED MacBook将搭载M5 Pro/Max芯片，标志着苹果在显示与交互技术上进一步整合。这些变动反映出科技巨头正加速布局沉浸式AI设备与高端生产力工具，竞争格局快速演化。",
+      "source": "aihot_selected",
+      "title_zh": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3754397109,
+      "url": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
+      "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
+      "published_at": "2026-06-27T16:59:58+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek tackles the slow generation of large language models by open-sourcing DSpark, a speculative decoding framework that plugs a draft module (parallel backbone plus lightweight sequential head) onto DeepSeek-V4 weights for lossless half-autoregressive acceleration. In production, it boosts per-user generation speed by 60–85% over the MTP‑1 baseline, and offline it achieves 26‑31% longer acceptance lengths than Eagle3, making it practical for cost‑effective, quality‑preserving deployment. The accompanying training code is released under MIT license.",
+      "summary_zh": "DeepSeek 开源的 DSpark 框架通过在 DeepSeek-V4 权重上附加草稿模块，采用半自回归生成（并行骨干加轻量顺序头）实现无损加速，解决了大模型推理效率低的问题。生产环境下生成速度提升 60-85%，离线接受长度显著超越 Eagle3 和 DFlash，为高吞吐低延迟部署提供了可复现的开放式方案。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3724768542,
+      "url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
+      "title": "一次失败的（民族国家？）攻击的剖析",
+      "published_at": "2026-06-27T15:39:53.429000+00:00",
+      "original_language": "zh",
+      "summary_en": "A supply chain attack disguised as a venture capital interview attempted to compromise a developer by embedding an obfuscated backdoor (PinpinRAT) in a malicious npm patch file. The payload, installed via `patch-package`, targeted the victim’s Rust crates on crates.io, demonstrating how social engineering can be combined with poisoned development tools to infiltrate open-source ecosystems.",
+      "summary_zh": "作者披露了一次针对其Rust包（crates.io）的定向攻击，攻击者通过冒充新加坡VC的虚假面试，诱导部署伪装成TypeScript补丁的恶意载荷，该载荷会安装名为PinpinRAT的后门。关键发现是恶意代码隐藏于`patch-package`的补丁流程中，通过base64混淆侵入开发环境，凸显了供应链攻击中利用虚假身份和开发工具信任的新型手法。此案例警示开发者需警惕看似正常的代码测试请求，以防开发机被植入持久化后门。",
+      "source": "aihot_selected",
+      "title_zh": "一次失败的（民族国家？）攻击的剖析",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3603449259,
+      "url": "https://x.com/runwayml/status/2070855164584726791",
+      "title": "Runway API 推出广告本地化 Recipe",
+      "published_at": "2026-06-27T13:02:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The Runway API now offers an ad localization Recipe, addressing the challenge of efficiently adapting static advertisements and graphic assets for multiple markets. By enabling translation through a single API call, it simplifies what was likely a multi-step, manual process. This matters because it accelerates ad campaign deployment across languages, reducing friction for global marketing operations.",
+      "summary_zh": "Runway API 推出的广告本地化 Recipe 解决了静态广告和图形资产需多步骤手动翻译的繁琐问题。其关键方法是封装成可通过单次 API 调用完成翻译的自动化流程。这尤为重要，因为它大幅简化了广告素材的跨语言适配，提升了全球化内容生产的效率。",
+      "source": "aihot_selected",
+      "title_zh": "Runway API 推出广告本地化 Recipe",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4293406372,
+      "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
+      "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
+      "published_at": "2026-06-27T12:25:21+00:00",
+      "original_language": "zh",
+      "summary_en": "This initiative addresses the escalating risk of AI-driven job displacement by launching a nonprofit, Raise Us, to fund large-scale worker retraining. Its approach combines $1 billion in funding (half already secured from tech giants like Amazon and OpenAI) with four-state pilot programs offering AI career navigation and wage insurance. The effort matters because it tackles an urgent workforce transition gap, yet its reliance on tech industry backing and the poor track record of prior retraining programs raise critical questions about its independence and likely impact.",
+      "summary_zh": "非营利组织“Raise Us”由前商务部长等发起，欲筹集10亿美元应对AI引发的就业冲击，已锁定5亿。其核心思路是在四州试点AI职业导航、工资保险等工人再培训措施，并联合科技巨头提供支持。此举凸显AI经济下大规模劳动力转型的迫切需求，但鉴于过往再培训效果不彰，该计划的独立性和有效性仍待考验。",
+      "source": "aihot_selected",
+      "title_zh": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1709269461,
+      "url": "https://github.com/workweave/router",
+      "title": "Weave 推出智能模型路由工具，可直接接入 Claude Code、Codex 和 Cursor",
+      "published_at": "2026-06-26T16:40:11+00:00",
+      "original_language": "zh",
+      "summary_en": "Weave’s intelligent model router addresses the challenge of selecting the best LLM for each request by running a local proxy with an Avengers-Pro 1 cluster scorer that automatically routes to the optimal model across providers (Anthropic, OpenAI, Gemini, and open‑source models via OpenRouter). Crucially, it keeps user‑managed API keys and encrypted data on‑device, while natively integrating with developer tools like Claude Code, Codex, and Cursor, offering OTLP tracing and self‑hosted deployment. This matters because it gives developers a privacy‑preserving, hardware‑accelerated way to orchestrate heterogeneous models seamlessly, reducing vendor lock‑in and improving cost‑performance ratio without leaving their existing coding workflow.",
+      "summary_zh": "Weave智能路由工具解决了在多模型环境中自动选择最佳模型的难题，它通过本地代理和基于集群评分器的动态路由，让Claude Code、Codex、Cursor等客户端每次请求都能智能匹配最优模型。这种方法既免去了开发者手动调度的麻烦，又因数据本地加密和自托管设计保证了安全，更重要的是它统一了Anthropic、OpenAI、Gemini等原生API与众多开源模型的接入，大大提升了模型利用效率与开发体验。",
+      "source": "aihot_selected",
+      "title_zh": "Weave 推出智能模型路由工具，可直接接入 Claude Code、Codex 和 Cursor",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3861616833,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.3",
+      "title": "QwenLM/qwen-code: Release v0.19.3",
+      "published_at": "2026-06-28T06:12:31+00:00",
+      "original_language": "en",
+      "summary_en": "This release fixes a web_fetch bug by allowing a JSON fallback when standard HTML parsing fails, making the assistant's web retrieval more robust against varied response formats. It also splits the platform test matrix into named CI jobs to enable PR merge queue usage, and adds validation for the IDE server environment variable. Together, these changes improve reliability for information-gathering tasks and streamline contribution workflows.",
+      "summary_zh": "该版本主要修复了 `web_fetch` 工具在 JSON 解析失败时的回退逻辑，避免因格式问题导致功能中断，同时增加了 IDE 服务端参数校验。此外，CI 流程通过拆分平台测试矩阵为独立任务，使 PR 能更快进入合并队列，提升了开发协作效率。这些改进增强了工具的稳定性和持续集成体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3010953799,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.2-nightly.20260628.714513df2",
+      "title": "QwenLM/qwen-code: Release v0.19.2-nightly.20260628.714513df2",
+      "published_at": "2026-06-28T00:51:22+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release addresses a potential failure in the `web_fetch` feature by adding a JSON fallback mechanism, improving the robustness of data retrieval. It also includes CI improvements that split platform tests into named jobs, enabling smoother pull request merging. These changes enhance the stability and development workflow of the Qwen-Code tool.",
+      "summary_zh": "此版本修复了网络抓取功能中 JSON 解析的容错问题，在无法预期响应时支持回退处理，从而增强了核心模块的稳定性。同时，CI 流水线通过将平台测试矩阵拆分为命名作业，使 PR 能更快进入合并队列，提升了开发效率。这些改进共同保障了 Qwen 代码助手在真实场景下的交互可靠性与迭代速度。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.2-nightly.20260628.714513df2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}

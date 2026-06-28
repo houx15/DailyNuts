@@ -1,0 +1,37 @@
+{
+  "date": "2026-06-28",
+  "headline_en": "Agents Show Critical Blind Spots as Musk Rolls xAI Into SpaceX",
+  "lede_en": "Today’s AI landscape reveals stark contrasts: autonomous agents in long-term games fail to perceive their environment and execute plans reliably, while corporate strategy accelerates with Musk’s SpaceX absorbing xAI and Apple talent draining to OpenAI. A new $1B retraining fund targets job displacement, and small-model math breakthroughs alongside supply-chain attacks underscore both efficiency gains and growing security threats.",
+  "sections_en": [
+    {
+      "title": "Agent Engineering & Workflow Reliability",
+      "body": "Tests of AI models in Civilization VI expose fundamental weaknesses—models check global state only 1–2% of the time and fail to execute their own plans up to half the time, undermining real-world autonomy. In response, developer tools are advancing: Adrafinil selectively prevents Mac sleep only when supported AI coding agents are active, while Weave’s local router dynamically selects the best model per request, preserving privacy and optimizing cost. Together, these stories show that making agents reliable demands both behavioral insights and tight engineering."
+    },
+    {
+      "title": "Corporate Consolidation & Workforce Realignment",
+      "body": "SpaceX registered 'SpaceXAI' and will dissolve xAI, integrating AI directly into aerospace operations—a move that consolidates Musk’s AI bets and could streamline satellite and spaceflight innovation. Meanwhile, Apple’s VP of vision departing for OpenAI highlights fierce competition for hardware talent as Apple preps touchscreen MacBooks. Runway’s new ad localization API enables one-call translation of ad assets, accelerating global marketing. On the labor front, the Raise Us nonprofit launched with $500M from tech giants to pilot retraining and wage insurance, aiming to cushion AI-driven job losses, though its independence remains questionable."
+    },
+    {
+      "title": "Small Models, Speed Boosts, and Supply-Chain Risks",
+      "body": "On the efficiency front, VibeThinker-3B—a 3B-parameter open model—matches or exceeds models 200× its size on math, proving compact architectures can punch above their weight. DeepSeek’s open-source DSpark speculative decoding framework speeds up generation by up to 85% without quality loss, making it practical for production. However, a sophisticated supply-chain attack disguised as a VC interview attempted to plant a backdoor in Rust crates via a poisoned npm patch, demonstrating how social engineering increasingly targets developers in the AI ecosystem."
+    },
+    {
+      "title": "Tools & Releases",
+      "body": "Qwen-Code issued two releases (v0.19.3 and a nightly) that improve web_fetch robustness by adding a JSON fallback for nonstandard HTML responses, along with CI refinements to smooth pull-request merges. While incremental, these updates reinforce the trend toward making AI coding assistants more resilient and contributor-friendly."
+    }
+  ],
+  "top_picks": [
+    3596388523,
+    2443339486,
+    2801435137
+  ],
+  "item_count": 12,
+  "source_breakdown": {
+    "aihot_selected": 10,
+    "qwen_github": 2
+  },
+  "generated_at": "2026-06-28T10:28:47.232178Z",
+  "headline_zh": "今日共采集 12 项内容",
+  "lede_zh": "今日共采集 12 项内容。",
+  "sections_zh": []
+}
