@@ -1,0 +1,290 @@
+{
+  "date": "2026-06-29",
+  "items": [
+    {
+      "id": 2646624151,
+      "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
+      "title": "From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery",
+      "published_at": "2026-06-29T00:00:00",
+      "original_language": "en",
+      "summary_en": "Brain2Qwerty addresses the challenge of restoring communication for individuals with severe motor impairments without requiring surgical implants. The approach uses non-invasive brain recordings, likely EEG or MEG, to decode neural signals associated with imagined typing or handwriting into text. This matters because it provides a safe, accessible brain-computer interface that could dramatically improve quality of life for patients with conditions like locked-in syndrome.",
+      "summary_zh": "该研究针对重度运动障碍患者面临的沟通挑战，提出了一种非侵入式的脑机接口方法Brain2Qwerty，通过解码脑电波直接生成文字，从而避免了外科手术的风险。其核心在于将大脑活动映射为自然语言输出，为无创神经交流技术提供了一条安全、易用的新路径，具有重要的临床无障碍应用价值。",
+      "source": "meta_ai",
+      "title_en": "From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 235168752,
+      "url": "https://podcasters.spotify.com/pod/show/firstmark/episodes/Cloudflare-CEO-The-Internets-Business-Model-Is-Dead-e3l8mt1",
+      "title": "Cloudflare CEO: The Internet's Business Model Is Dead",
+      "published_at": "2026-06-25T11:30:00",
+      "original_language": "en",
+      "summary_en": "The interview highlights the problem that the internet's traditional ad-driven business model is collapsing as automated traffic from bots and AI agents now surpasses human activity. The key finding is that this shift could trigger an explosion in traffic volume while rendering click- and pageview-based monetization obsolete. This matters because it forces a fundamental rethinking of how online services and content are funded in a machine-dominated web.",
+      "summary_zh": "Cloudflare CEO Matthew Prince 指出，互联网流量正被爬虫、AI代理和机器主导而非人类用户，这导致基于点击、广告和页面浏览量的传统网络商业模式难以为继。他解释，AI代理等自动化流量的激增可能引发网络流量爆发式增长，并探讨了这种转变对基础设施和商业逻辑的根本冲击。这一洞察揭示了互联网生态系统的结构性变革，促使行业重新思考未来网络服务的价值与盈利模式。",
+      "source": "mad_podcast",
+      "title_en": "Cloudflare CEO: The Internet's Business Model Is Dead",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3505520848,
+      "url": "https://mp.weixin.qq.com/s/qRrZvL0aZzYI82djFSrLug",
+      "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
+      "published_at": "2026-06-29T11:00:07+00:00",
+      "original_language": "zh",
+      "summary_en": "RedKnot accelerates long-context inference by decomposing the KV cache along attention heads and applying head-level sparsity (83.4–96.8% local heads), sparse FFN, and SegPagedAttention to unify algorithm and storage granularity. On 8×H800 GPUs, it achieves up to 1.6–3.54× TTFT speedup, 4.7–7.8× higher concurrency per card, and 67–79.5% prefill FLOPs reduction, with a 5.16× TTFT speedup on DeepSeek-V4-Flash at 128K context and up to 6.3× less KV transfer. The method preserves accuracy (typically ≥95% of dense F1) while drastically cutting compute and memory, making long-context serving much more efficient.",
+      "summary_zh": "小红书 RedKnot 推理引擎针对长文本场景下 KV Cache 内存爆炸和计算冗余问题，提出沿注意力头维度拆解 KV Cache 并引入头分类稀疏、稀疏 FFN 和 SegPagedAttention 统一算法与存储粒度。在 8 卡 H800 上，TTFT 加速高达 5.16 倍，并发提升 4.7-7.8 倍且精度保持在稠密模型的 95% 以上，显著降低了端侧和边缘设备处理长上下文的计算与传输开销。",
+      "source": "aihot_selected",
+      "title_zh": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1064383676,
+      "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
+      "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
+      "published_at": "2026-06-29T10:42:47+00:00",
+      "original_language": "zh",
+      "summary_en": "EverOS addresses the challenge of building a self-evolving, persistent memory for AI agents by using editable Markdown files managed via SQLite and LanceDB, with hybrid search (BM25 + vector + scalar filtering). Tasks are stored as cases and distilled into reusable skills offline, enabling memory to improve with use; its benchmark scores (e.g., 93% on LoCoMo) and sub‑500ms retrieval latency demonstrate practical, high‑performance agent memory. The open‑source, local‑first design makes robust, evolving memory accessible for diverse agent applications.",
+      "summary_zh": "EverOS 通过可编辑的 Markdown 文件与混合检索（关键词+向量+标量过滤）架构，解决了智能体记忆碎片化、难进化的问题；它将任务记录为 Case 并离线提炼为可复用 Skill，实现记忆随使用自我增强。在 LoCoMo、LongMemEval 等评测中均取得 83% 以上高分且 p95 检索延迟低于 500ms，为构建长效、可进化的智能体提供了高效、开源、可本地部署的记忆运行时。",
+      "source": "aihot_selected",
+      "title_zh": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1748491645,
+      "url": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control",
+      "title": "Claude Code 打开 GitHub 仓库即执行隐藏恶意代码，攻击者可获完全控制",
+      "published_at": "2026-06-29T10:04:32+00:00",
+      "original_language": "zh",
+      "summary_en": "This research reveals a new attack vector where malicious code is concealed in GitHub repositories: a setup script fetches commands from DNS entries, making it invisible to scanners and code reviews. AI coding tools like Claude Code automatically execute the script upon opening the repo, establishing a reverse shell that gives attackers full control and access to credentials. The findings underscore the critical risk of AI agents blindly running untrusted setup steps, emphasizing the need for explicit script preview and treating third-party repo instructions as hostile.",
+      "summary_zh": "研究人员发现一种新型攻击，恶意 GitHub 仓库的 setup 脚本会在 AI 编码工具（如 Claude Code）自动运行时，从 DNS 记录中拉取并执行隐藏命令，从而打开反向 shell，窃取 API 密钥与凭证。由于恶意代码并不直接存在于仓库文件中，可完全避开扫描器和代码审查。该研究警示，AI 智能体应在运行前向开发者展示脚本内容，且第三方仓库的 setup 说明应视为不受信代码。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Code 打开 GitHub 仓库即执行隐藏恶意代码，攻击者可获完全控制",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1209450649,
+      "url": "https://www.ithome.com/0/970/097.htm",
+      "title": "国务院印发《教育发展\"十五五\"规划》，推进人工智能全学段教育",
+      "published_at": "2026-06-29T09:27:36+00:00",
+      "original_language": "zh",
+      "summary_en": "国务院日前印发《教育发展\"十五五\"规划》，要求推进人工智能全学段教育，提升学生人工智能素养及提出问题、解决问题的能力。规划明确完善科学教育体系，强化科技教育与人文教育协同，加强青少年科学素养、批判性思维和创新能力培养。同时实施学生体质强健计划、心理健康促进行动，加大拔尖创新人才自主培养力度，推动学科交叉融合，扩大优质本科招生规模。目标到2030年高质量教育体系基本建成。",
+      "summary_zh": "国务院在《教育发展\"十五五\"规划》中提出推进人工智能全学段教育，旨在系统提升学生的人工智能素养、批判性思维和创新能力，以应对未来科技人才需求。该规划通过科技与人文协同、强化学科交叉及拔尖人才培养等举措，力求到2030年基本建成高质量教育体系，对培育适应智能时代的高素质人才具有战略意义。",
+      "source": "aihot_selected",
+      "title_zh": "国务院印发《教育发展\"十五五\"规划》，推进人工智能全学段教育",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3323404829,
+      "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
+      "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
+      "published_at": "2026-06-29T08:17:41+00:00",
+      "original_language": "zh",
+      "summary_en": "To address surging AI-driven demand straining memory supply, Samsung and SK Hynix are investing $590 billion to expand production, targeting high-bandwidth memory where they hold 80% global share. This capacity build-out aims to ease severe shortages, but prices are projected to rise sharply through 2027 until new fabs ramp up, highlighting critical hardware cost pressures for AI infrastructure scaling.",
+      "summary_zh": "三星和SK海力士计划投入5900亿美元大规模扩产芯片，以应对AI数据中心对高带宽内存的激增需求；此举旨在缓解因供给不足导致的持续涨价压力，但新产能到2028年才逐步上线。作为占据全球近80%高带宽内存市场的双雄，其投资决策不仅揭示AI算力对内存的刚性依赖，也意味着消费电子产品成本将被进一步推高。",
+      "source": "aihot_selected",
+      "title_zh": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2841175196,
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "title": "OpenAI 报告：绘制欧洲 AI 劳动力机遇版图",
+      "published_at": "2026-06-29T07:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The report addresses the challenge of understanding AI's influence on the EU labor market by categorizing occupations that are prone to automation, poised for growth, or subject to workflow transformations. Its key finding is a detailed mapping of these impacts, offering a data-driven lens for stakeholders to anticipate shifts and reskill strategically. This matters because it equips policymakers and industry leaders with actionable insights to navigate workforce transitions and harness AI's productivity potential while minimizing displacement.",
+      "summary_zh": "OpenAI 的最新报告聚焦人工智能对欧盟就业市场的结构化影响，系统划分出面临自动化替代、岗位增长或工作模式转型的典型职业。该研究的关键在于提供了可操作的劳动力版图解析，为区域政策制定与企业人才战略应对技术冲击提供了重要前瞻参考。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 报告：绘制欧洲 AI 劳动力机遇版图",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 475166826,
+      "url": "https://www.ithome.com/0/969/953.htm",
+      "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
+      "published_at": "2026-06-29T06:44:15+00:00",
+      "original_language": "zh",
+      "summary_en": "SK Group is investing $4.4 trillion to build 15GW of AI data center capacity by 2035, aiming to transform South Korea’s economy from traditional goods exports to smart services and establish a national AI infrastructure. This massive initiative, paired with semiconductor supply projects, positions Korea as a hub for the physical AI era and creates a domestic smart market, making it a critical long-term economic and technological play.",
+      "summary_zh": "SK集团计划到2035年建成15GW的AI数据中心，将其作为国家级基础设施，以支撑韩国从传统商品出口向智能服务转型。该举措总投资高达1000万亿韩元，旨在构建核心算力底座，并在实体AI时代抢占全球竞争先机。",
+      "source": "aihot_selected",
+      "title_zh": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1703827908,
+      "url": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
+      "title": "分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查",
+      "published_at": "2026-06-29T02:08:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The author addresses the problem of AI-generated code in \"Vibe Coding\" being prone to superficial analogies and hidden bugs. The key approach is using two prompts: \"first principles\" to force the AI to rebuild solutions from fundamental truths, and \"adversarial review\" to simulate malicious attacks, which together uncovered critical flaws like traffic routing vulnerabilities and OOM loops. This generation-verification loop matters because it enabled a pure AI-driven project to handle over ten million requests in a week, demonstrating how structured prompting can yield robust, production-scale systems.",
+      "summary_zh": "本文针对Vibe Coding中AI易陷入类比推理而忽视底层缺陷的问题，分享了两个关键Prompt：“第一性原理”迫使AI从基本事实重新推导，找出抓取信源的流量路由隐患；“对抗式审查”则让AI模拟恶意攻击，检出死循环、时间污染等隐蔽Bug。二者形成生成与验证的闭环，使纯Vibe Coding项目在单周内处理超千万次请求，证明了这种结构化提示对提升代码可靠性的实用价值。",
+      "source": "aihot_selected",
+      "title_zh": "分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3433257461,
+      "url": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
+      "title": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
+      "published_at": "2026-06-28T17:03:07+00:00",
+      "original_language": "zh",
+      "summary_en": "The open-source AI model ecosystem is rapidly diversifying beyond a few Chinese companies, as new global players like Zyphra, Cohere, and Poolside join tech giants and product-focused firms to release specialized and large-scale models. Key examples include NVIDIA’s Lat",
+      "summary_zh": "开源模型生态正在突破少数中国公司主导的格局，全球各类组织纷纷入局，包括纯模型制造商、科技巨头和产品公司，并各自推出高度差异化的模型。关键进展是 NVIDIA 发布采用 LatentMoE 架构的 Nemotron-3-Ultra，以及 Cohere 以 Apache 2.0 开源具备多模态、多语言与智能体能力的旗舰模型 Command A+，标志着生态广度与开放性的实质性扩展。这一趋势加速了技术创新，为不同应用场景提供了更多选择，从而强化了开源模型的全球影响力。",
+      "source": "aihot_selected",
+      "title_zh": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3452938183,
+      "url": "https://github.com/itsthelore/wayfinder-router",
+      "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由",
+      "published_at": "2026-06-28T16:58:56.073000+00:00",
+      "original_language": "zh",
+      "summary_en": "Wayfinder Router 解决了避免依赖模型调用进行大语言模型路由时带来的延迟、成本和随机性问题，通过分析提示词的结构特征（如长度、标题等）在微秒级离线做出确定性决策。该方法完全无需调用其他模型且支持自托管，相较于现有的路由器（如 RouteLLM），它实现了低成本、零延迟和完全可重现的路由，并可适配任何 OpenAI 兼容 API，便于实际部署和校准。",
+      "summary_zh": "Wayfinder Router 通过离线分析提示词的结构特征（长度、标题、列表等）实现微秒级确定性路由，彻底避免传统基于模型调用的路由器带来的延迟、成本和随机性，从而让用户能以极低开销在本地与托管大语言模型之间高效分配查询。",
+      "source": "aihot_selected",
+      "title_zh": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1229331284,
+      "url": "https://x.com/elonmusk/status/2071184354756477041",
+      "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+      "published_at": "2026-06-28T10:50:05+00:00",
+      "original_language": "zh",
+      "summary_en": "Grok 4.5, built on a 1.5-trillion-parameter V9 base model and fine-tuned with Cursor data, is in private testing at SpaceX and Tesla, achieving performance near or above Opus. The model benefits from ongoing reinforcement learning improvements and a maturing Grok Build toolchain, with",
+      "summary_zh": "Grok 4.5 在 SpaceX 与 Tesla 进行私测，其基于 1.5T V9 基础模型并引入 Cursor 数据补充训练，初步评估性能接近或超越 Opus。该方法展示了强化学习与工具链优化对模型能力的持续提升，且 SpaceX 计划今年每月发布全新训练的模型，反映出高频迭代与内部落地验证的重要性。",
+      "source": "aihot_selected",
+      "title_zh": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4197640913,
+      "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+      "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+      "published_at": "2026-06-28T10:16:13+00:00",
+      "original_language": "zh",
+      "summary_en": "Princeton's CEO-Bench evaluates AI agents' long-term strategic decision-making by having them run a simulated software company for 500 days with",
+      "summary_zh": "普林斯顿大学推出的CEO-Bench基准测试揭示了当前AI模型在长期战略决策上的显著局限：在模拟运营软件公司500天的测试中，仅有三款模型（Claude Fable 5、Claude Opus 4.8和GPT-5.5）能在最佳运行中盈利超过起始资本，多数模型则因无法维持连贯策略而破产。值得关注的是，一个不依赖语言模型的简单规则方法也远超大部分AI，这表明现有大模型在需要跨多步规划和持续决策的复杂商业场景中仍缺乏稳健性。该测试为评估AI的长期策略智能提供了直接且严苛的度量。",
+      "source": "aihot_selected",
+      "title_zh": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2254126135,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.20.2",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.20.2",
+      "published_at": "2026-06-29T06:51:34+00:00",
+      "original_language": "en",
+      "summary_en": "The kimi-code v0.20.2 release introduces an optional `exclude_empty` flag in the session list API",
+      "summary_zh": "该更新通过为会话列表API添加`exclude_empty`参数，让开发者可直接过滤无消息的空会话，提升列表检索效率。同时，将压缩输出默认截断至128k token，以控制长上下文处理的资源开销，这对优化大规模交互场景下的性能与成本至关重要。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.20.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
