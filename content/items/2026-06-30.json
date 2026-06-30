@@ -1,0 +1,556 @@
+{
+  "date": "2026-06-30",
+  "items": [
+    {
+      "id": 1099001849,
+      "url": "http://arxiv.org/abs/2606.30645v1",
+      "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
+      "published_at": "2026-06-29T17:59:55+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the scarcity of large-scale, synchronized vision-language-kinematics data for humanoid loco-manipulation by synthetically generating 48,000 paired trajectories from 3D Gaussian Splatting reconstructions of real indoor scenes. A trained VLK policy predicts whole-body kinematic trajectories from egocentric images and language commands, which a whole-body tracker executes on a physical Unitree G1 robot. This",
+      "summary_zh": "该研究解决了人形机器人移动操作中缺乏同步的自我中心视觉、语言指令与全身运动轨迹数据的关键瓶颈。它通过3D高斯溅射重建室内场景，合成导航与物体交互轨迹，并后渲染生成配对数据，训练出能从视觉和语言预测全身运动学轨迹的策略。该方法无需人工标注即可产出48000条轨迹，已成功部署于物理Unitree G1机器人，显著促进了基于感知的全身操控能力。",
+      "source": "arxiv_cs_cl",
+      "title_en": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3612137141,
+      "url": "http://arxiv.org/abs/2606.30642v1",
+      "title": "LeVo 2: Stable and Melodious Song Generation via Hierarchical Representation Modeling and Progressive Post-Training",
+      "published_at": "2026-06-29T17:59:20+00:00",
+      "original_language": "en",
+      "summary_en": "LeVo 2 addresses the trade-off in full-length song generation between preserving vocal-instrument coordination and capturing track-specific acoustic details by introducing a hierarchical LLM-Diffusion framework that first plans with mixed tokens and then refines vocal and accompaniment tracks in parallel. A key innovation is an aesthetics-guided progressive post-training schedule that aligns the generation with musicality scores from an automated evaluation framework. This hybrid approach enables stable, melodious, and controllable full-song synthesis that balances global coherence with high-fidelity acoustics.",
+      "summary_zh": "LeVo 2 针对全曲生成中整体协调与声轨细节难以兼得的权衡问题，提出混合LLM-扩散框架，通过分层建模先用混合令牌进行语义规划，再并行预测声乐与伴奏令牌来精细声学，同时配合美学驱动的渐进式后训练，实现可控、悦耳且歌词契合的全长歌曲生成。",
+      "source": "arxiv_cs_cl",
+      "title_en": "LeVo 2: Stable and Melodious Song Generation via Hierarchical Representation Modeling and Progressive Post-Training",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 192582223,
+      "url": "http://arxiv.org/abs/2606.30639v1",
+      "title": "Self-Evolving World Models for LLM Agent Planning",
+      "published_at": "2026-06-29T17:58:43+00:00",
+      "original_language": "en",
+      "summary_en": "To prevent unreliable world-model foresight from degrading LLM agent decision-making, WorldEvolver freezes the downstream agent and model parameters while evolving the world model at deployment through episodic memory retrieval, semantic rule extraction from prediction errors, and confidence-based filtering of low-quality predictions. Evaluated on ALFWorld and ScienceWorld, the framework significantly improves world-model accuracy and downstream task success, demonstrating that adaptive, memory-guided foresight can make long-horizon planning more robust without retraining.",
+      "summary_zh": "世界模型为长周期LLM代理提供前瞻能力，但不可靠的预测可能损害决策。本文提出WorldEvolver，一种自演化框架，通过情景记忆、语义记忆和选择性前瞻三个冻结参数的模块，在部署时持续修正世界模型，无需改动下游代理。实验表明，该方法在预测准确性和代理成功率上均显著提升，为构建可信赖的LLM规划系统提供了新思路。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Self-Evolving World Models for LLM Agent Planning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3241408044,
+      "url": "http://arxiv.org/abs/2606.30634v1",
+      "title": "One-Step Gradient Delay is Not a Barrier for Large-Scale Asynchronous Pipeline Parallel LLM Pretraining",
+      "published_at": "2026-06-29T17:57:50+00:00",
+      "original_language": "en",
+      "summary_en": "This work challenges the belief that the one-step gradient delay inherent to the PipeDream-2BW asynchronous pipeline schedule makes large-scale LLM pretraining unstable. Through comprehensive empirical analysis, the authors show that degradation under this delay is not an intrinsic limitation but depends strongly on optimizer choice—while AdamW fails severely, newer optimizers can train stably, enabling asynchronous pipelines to eliminate idle GPU bubbles and maximize throughput for large-scale pretraining.",
+      "summary_zh": "该工作针对异步流水线并行中普遍存在的单步梯度延迟会导致训练不稳定的认知，证明性能退化并非固有缺陷，而是强烈依赖于优化器选择。通过首次全面实证分析，发现虽然传统的AdamW优化器在延迟下严重退化，但采用更先进的优化方法能",
+      "source": "arxiv_cs_cl",
+      "title_en": "One-Step Gradient Delay is Not a Barrier for Large-Scale Asynchronous Pipeline Parallel LLM Pretraining",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1223162702,
+      "url": "http://arxiv.org/abs/2606.30632v1",
+      "title": "GROW$^2$: Grounding Which and Where for Robot Tool Use",
+      "published_at": "2026-06-29T17:56:53+00:00",
+      "original_language": "en",
+      "summary_en": "To address the challenge of open-world affordance grounding—enabling robots to creatively use arbitrary objects as tools (e.g., a plate to cut a cake)—the paper introduces GROW$^2$, which hierarchically decomposes the task into semantic (which object and part) and geometric (where to act) levels. Semantically, Vision-Language Models select a suitable tool and identify task-relevant parts on both the tool and target from natural language, while vision foundation models then geometrically ground those parts into precise 3D regions from a single RGB‑D image. This approach matters because it allows robots to generalize tool use to open‑category objects without data‑hungry end‑to-end training, combining commonsense reasoning and 3D perception for practical real‑world deployment.",
+      "summary_zh": "GROW² 解决了机器人创造性使用日常物品作为工具的开放世界可供性定位问题。该方法利用物体部件作为抽象层次，先由视觉语言模型进行语义推理来选择工具并识别任务相关部件，再由视觉基础模型将部件精确地定位到三维空间，从而避免了数据密集的端到端训练。这为机器人在非结构化环境中灵活、低成本地利用工具提供了有效途径。",
+      "source": "arxiv_cs_cl",
+      "title_en": "GROW$^2$: Grounding Which and Where for Robot Tool Use",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3508841682,
+      "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+      "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
+      "published_at": "2026-06-30T10:50:32.622807",
+      "original_language": "en",
+      "summary_en": "This addresses the previous limitation of Claude apps being tied only to Anthropic’s direct APIs. The Claude apps gateway now enables seamless integration with Amazon Bedrock and Google Cloud, allowing enterprises to run Claude within their existing AWS or GCP environments. This matters because it gives organizations more flexibility, better data governance, and reduces reliance on a single cloud provider.",
+      "summary_zh": "该网关解决了 Claude 模型跨云平台集成与访问的复杂性，通过提供统一接入层，使企业能无缝地在 Amazon Bedrock 和 Google Cloud 上部署和调用 Claude。这一方案简化了多云 AI 部署流程，提升了模型的可用性和管理效率。",
+      "source": "claude_blog",
+      "title_en": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 779052180,
+      "url": "https://claude.com/blog/claude-in-microsoft-foundry",
+      "title": "Claude in Microsoft Foundry is now generally available",
+      "published_at": "2026-06-30T10:50:32.623321",
+      "original_language": "en",
+      "summary_en": "The general availability of Claude within Microsoft Foundry streamlines enterprise adoption of advanced AI by integrating Anthropic's model directly into Azure's AI platform. This approach provides organizations with unified access to Claude alongside other models, leveraging existing Microsoft infrastructure for simplified deployment, governance, and scaling. It matters because it lowers the barrier for enterprises to build with cutting-edge AI while maintaining security and compliance within a trusted cloud environment.",
+      "summary_zh": "Claude 模型现已在 Microsoft Foundry 平台正式上线，解决了企业用户在自有环境中直接集成和部署先进大语言模型的需求。通过这一集成，开发者可以在 Foundry 的统一工具链中便捷地使用 Claude，从而加速 AI 应用的开发与落地，并降低了跨平台调用的复杂性。",
+      "source": "claude_blog",
+      "title_en": "Claude in Microsoft Foundry is now generally available",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 410983518,
+      "url": "https://www.ithome.com/0/970/583.htm",
+      "title": "黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
+      "published_at": "2026-06-30T07:56:46+00:00",
+      "original_language": "zh",
+      "summary_en": "黑石计划未来3~5年在日本AI数据中心领域投资300亿美元，此前的500MW基础上新增超1GW容量。黑石总裁认为AI投资仍处早期，真正风险是算力短缺而非基建泡沫；谷歌、亚马逊是英伟达潜在挑战者。此外，黑石、阿波罗、博通本月9日成立AI XPV平台，目标2028年向OpenAI、Anthropic等提供超20GW算力，首期350亿美元支持Anthropic在Fluidstack数据中心部署1GW基础设施。",
+      "summary_zh": "黑石通过大规模投资日本AI数据中心及联合成立AI XPV平台，旨在应对AI发展面临的算力短缺问题，并加速基础设施供给。其核心举措是在3~5年内追加超1GW容量，并计划到2028年向头部AI企业提供超20GW算力，这表明业界正将算力基建视为AI产业持续增长的关键保障，而非短期泡沫。",
+      "source": "aihot_selected",
+      "title_zh": "黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3270160729,
+      "url": "https://www.ithome.com/0/970/539.htm",
+      "title": "特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试",
+      "published_at": "2026-06-30T06:45:03+00:00",
+      "original_language": "zh",
+      "summary_en": "Tesla began public-road engineering tests of 34 production Cybercab units in Austin—a purpose-built autonomous taxi with no steering wheel or pedals—to validate hardware reliability under real-world conditions, transitioning from concept to on-road testing in 20 months. This step advances scalable robotaxi deployment by shifting from retrofitted vehicles to a dedicated driverless platform, following earlier driverless Model Y operations in the same city.",
+      "summary_zh": "特斯拉在奥斯汀公共道路启动量产版Cybercab工程测试，该车彻底取消方向盘和脚踏板，专为无人驾驶设计，旨在验证硬件可靠性。这标志着其无人驾驶出租车从2024年概念车首秀仅20个月即进入实车路测阶段，结合当地已运营的无安全员出租车服务，加速了全无人驾驶商业化的落地进程。",
+      "source": "aihot_selected",
+      "title_zh": "特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2015085264,
+      "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+      "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+      "published_at": "2026-06-30T05:42:42+00:00",
+      "original_language": "zh",
+      "summary_en": "Meituan LongCat-2.0 tackles efficient, long-context agentic coding with a 1.6T-parameter Mixture-of-Experts architecture (≈48B active parameters) and native 1M-token context window. It integrates sparse attention and a novel zero-compute gating mechanism that routes tasks to specialized expert groups, dynamically activating only 33B–56B parameters per token to avoid wasted computation. This yields competitive performance on coding benchmarks like SWE-bench Pro (59.5) at a lower cost, making advanced agentic capabilities more accessible.",
+      "summary_zh": "LongCat-2.0 是美团推出的 1.6T 参数 MoE 架构旗舰模型，专为解决智能编码（Agentic Coding）场景设计，通过 LSA 稀疏注意力、零算力专家动态激活和 MOPD 任务分组路由三项技术，在保持高效推理的同时将上下文窗口原生扩展至 1M，并在 SWE-bench Pro 上取得 59.5 分的性能，接近主流闭源模型。该模型以具有竞争力的定价上线，有望降低大规模智能编码应用的成本与技术门槛。",
+      "source": "aihot_selected",
+      "title_zh": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3008598798,
+      "url": "https://x.com/op7418/status/2071816099986022650",
+      "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+      "published_at": "2026-06-30T04:40:25+00:00",
+      "original_language": "zh",
+      "summary_en": "X（Twitter）推出了 hosted X MCP，解决 AI 智能体难以直接获取实时社交媒体数据的问题，通过 MCP 协议无缝集成 X API。实测显示，个人用户可按量付费（每次调用仅 $0.01）低成本访问推文、书签等内容，并可通过 Grok、Cursor 等工具快捷配置。这一集成极大降低了 AI 应用接入实时 X 数据的门槛，推动了社交信息与 AI 智能体的高效协同。",
+      "summary_zh": "X（Twitter）推出 hosted X MCP 服务，让 AI 智能体通过标准化 MCP 协议直接调用 X API 获取实时数据，解决了以往 AI 工具难以高效接入社交媒体动态信息的问题。该服务按量付费（个人优惠价每次 0.01 美元），实测获取近三日书签仅耗资 0.1 美元，同时支持 Grok、Cursor 等主流工具，大幅降低了开发者将实时社交数据融入 AI 应用的门槛。这一举措将加速 AI 智能体与社交平台的深度集成，为实时信息检索与自动化交互提供关键基础设施。",
+      "source": "aihot_selected",
+      "title_zh": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1113873582,
+      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
+      "title": "AI就业争论变得更加混乱",
+      "published_at": "2026-06-30T04:01:00+00:00",
+      "original_language": "zh",
+      "summary_en": "A study of 22,000 companies finds that high AI investment—beyond mere subscription purchases—correlates with 10.2% overall employee growth and a 12% rise in entry-level jobs, challenging the simplistic view that AI inevitably causes",
+      "summary_zh": "尽管AI裁员现象引发广泛担忧，但一项针对近2.2万家公司的报告指出，高AI投入的企业反而实现总员工数增长10.2%，入门级岗位增长12%，表明AI并非普遍消灭岗位，而是通过降低运营成本推动企业扩张。然而，仅购买AI订阅而未持续深度应用的公司未见人头增长，这可能会加剧企业间的资源鸿沟，凸显出对AI的实质投入才是影响就业结构的关键。",
+      "source": "aihot_selected",
+      "title_zh": "AI就业争论变得更加混乱",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2877182135,
+      "url": "https://x.com/xiaohu/status/2071796715162857477",
+      "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
+      "published_at": "2026-06-30T03:23:23+00:00",
+      "original_language": "zh",
+      "summary_en": "Every’s \"Compound Engineering\" methodology tackles the challenge of a single engineer maintaining five products by shifting focus from coding to planning and reviewing, with only 20% of time spent writing code. The key innovation is a Plan→Work→Review→Compound loop where the Compound step stores solutions in CLAUDE.md and docs/solutions/, enabling AI agents to automatically avoid past mistakes and reuse fixes. This approach matters because it demonstrates how an individual can scale productivity dramatically through AI-driven process compounding, supported by a free plugin with 26 agents and 23 workflow commands that can spawn up to 40 concurrent research agents.",
+      "summary_zh": "单人工程团队通过“复利工程”方法论高效管理多款产品，核心在于将每次解决问题的经验沉淀为文档与提示指令，使AI能自动规避重复错误。该方法强调80%时间用于规划与复盘、仅20%编码，配套开源插件支持大规模并发智能体审查与研究，显著降低维护成本并提升单人产出。这为AI协作开发提供了可复制的工程实践，证明了知识复利在软件工程中的巨大价值。",
+      "source": "aihot_selected",
+      "title_zh": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 248186954,
+      "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+      "published_at": "2026-06-30T01:58:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Embodied AI faces an extreme shortage of physical interaction data, with only around 500,000",
+      "summary_zh": "具身智能领域面临高质量物理交互数据严重不足的瓶颈，文章介绍了一种低成本数据采集方案：以日薪200-250元招聘兼职采集员，通过遥操作控制机器人或徒手重复动作（如叠衣服）来采集机械臂操作轨迹。这种人力密集型采集方式旨在弥补当前全球仅约50万小时的高质量数据缺口，为机器人训练提供必需的规模化真实交互样本。",
+      "source": "aihot_selected",
+      "title_zh": "具身智能数据采集员：日薪200元起，给机器人当老师",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2589844566,
+      "url": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
+      "title": "AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号",
+      "published_at": "2026-06-30T01:47:00+00:00",
+      "original_language": "zh",
+      "summary_en": "AI News Radar addresses the fragmentation of AI-related information by introducing a self-media section that aggregates updates from multiple platforms, filtering and ranking content by popularity or chronology. This update matters because it provides a streamlined, open-source solution for creating a personalized AI daily digest without relying on external APIs, enhancing efficient access to high-priority, verified AI news.",
+      "summary_zh": "AI News Radar通过新增自媒体板块，实现对多平台账号订阅与热度推荐，解决了AI信息分散、过滤困难的问题。其核心在于整合官方一手消息与社区动态，并以热度/时间双视图和信号等级分类，提升信息获取效率。该开源项目零API即可部署独立日报，对研究者和从业者快速追踪高质量AI动态具有实用价值。",
+      "source": "aihot_selected",
+      "title_zh": "AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1885059400,
+      "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
+      "title": "Rubin Ultra取消，新版尺寸性能减半",
+      "published_at": "2026-06-29T21:00:47+00:00",
+      "original_language": "zh",
+      "summary_en": "The original Rubin Ultra, a 4-die GPU design announced at GTC 2026, was canceled due to manufacturing execution issues, and its replacement features a halved die count with roughly half the performance. This abrupt redesign underscores serious packaging or yield challenges at the reticle limit, forcing a drastic performance setback and signaling that NVIDIA’s ambitious multi-die scaling roadmap for next-gen accelerators has hit a significant production wall.",
+      "summary_zh": "原计划的4芯片拼装Rubin Ultra因生产执行问题被取消，新版本芯片面积减半，实际性能降至原版的一半左右。这反映出尖端芯片在制造与集成上的巨大挑战，将直接影响NVIDIA的数据中心GPU产品节奏和性能预期。",
+      "source": "aihot_selected",
+      "title_zh": "Rubin Ultra取消，新版尺寸性能减半",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1562395923,
+      "url": "https://x.com/openclaw/status/2071688039114342592",
+      "title": "OpenClaw 发布原生 iOS 与 Android 应用",
+      "published_at": "2026-06-29T20:11:33+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenClaw's native mobile apps address the lack of portable, on-the-go control for AI agents by enabling users to manage channels, tasks, and replies directly from their smartphones. By putting autonomous agents into users' pockets, this approach ensures real-time task execution and communication anywhere, significantly expanding practical accessibility. This matters as it bridges the gap between desktop-bound agent workflows and everyday mobile use, enhancing responsiveness and personal convenience.",
+      "summary_zh": "OpenClaw 推出原生 iOS 与 Android 应用，将智能体直接装进口袋，方便用户随时随地处理频道、任务和回复。这一发布填补了移动端运行 AI 智能体的空白，让实时响应和任务管理不再受桌面限制。",
+      "source": "aihot_selected",
+      "title_zh": "OpenClaw 发布原生 iOS 与 Android 应用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3797069281,
+      "url": "https://quesma.com/blog/qwen-36-is-awesome",
+      "title": "Qwen 3.6 27B 是本地开发的理想选择",
+      "published_at": "2026-06-29T18:03:02.582000+00:00",
+      "original_language": "zh",
+      "summary_en": "Qwen 3.6 27B 是一款密集参数本地大语言模型，原生支持 256k 上下文。在 Macbook Max M5 上运行 llama.cpp Q8_0 量化版（含多 token 预测）可达 30 tokens/s；用户反馈在 RTX 5090 上 Q6_K 量化可达 50 tokens/s。它可通过单个提示完成创意诗歌、用 pnpm 生成六边形扫雷游戏等任务，作者称其为首个真正具备通用智能的本地模型。另有一个 MoE 变体 35B A3B，但作者推荐 27B 版本。",
+      "summary_zh": "Qwen 3.6 27B 解决了本地大语言模型在消费级硬件上高效运行与通用能力不足的问题，通过在 Mac 和 RTX 显卡上获得高推理速度并原生支持 256k 长上下文，实现了零代码任务（如生成诗歌和游戏）的通用智能。这标志着首个在个人设备上可流畅使用的通用智能模型，对离线 AI 应用和隐私保护具有重要推动意义。",
+      "source": "aihot_selected",
+      "title_zh": "Qwen 3.6 27B 是本地开发的理想选择",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3632277160,
+      "url": "https://x.com/berryxia/status/2071610700213191075",
+      "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
+      "published_at": "2026-06-29T15:04:14+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic engineer Margot Van Laar addresses the practical challenge of maintaining and debugging production prompts, where most effort goes to refining existing systems rather than writing new ones. She advocates structured cleaning with XML tags, decomposing complex tasks (like retail scheduling) into stable generate–evaluate–repair sub‑prompts, and always clarifying the cost‑benefit of human handoff. Crucially, she insists that rigorous evaluation is the only disciplined approach—without it, prompt engineering is just guesswork.",
+      "summary_zh": "Anthropic工程师指出，提示词工程的重心应是调试和维护生产环境中的已有提示词，而非从零编写，因为新模型对旧指令（如“禁止列表”）可能过度拟合。她主张通过XML结构化清理、精确计算工具调用与转人工代价，以及将复杂任务拆解为生成-评估-修复三阶段来提升稳定性，并强调评估是唯一严谨的优化方式，缺乏评估无异于随机尝试。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1342545705,
+      "url": "https://github.com/ogulcancelik/herdr",
+      "title": "Herdr：驻留在终端中的AI智能体多路复用器",
+      "published_at": "2026-06-29T14:03:06.351000+00:00",
+      "original_language": "zh",
+      "summary_en": "Herdr addresses the problem of managing multiple AI agent sessions within a single terminal, which is typically cumbersome and requires separate contexts. Its key approach is a terminal-resident multiplexer that lets users seamlessly switch and control multiple AI agent conversations in one interface. This matters because it streamlines development workflows, enabling efficient parallel interaction with various AI models without leaving the terminal.",
+      "summary_zh": "Herdr 解决了在终端环境中同时与多个 AI 智能体交互时需要频繁切换窗口或会话的问题。它通过在单一终端界面中实现智能体的多路复用，让用户能无缝管理和切换不同会话，提升了开发者和研究人员的工作流效率。这一工具对依赖终端进行复杂 AI 协作的场景尤为重要，简化了多智能体编排的交互体验。",
+      "source": "aihot_selected",
+      "title_zh": "Herdr：驻留在终端中的AI智能体多路复用器",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 41782248,
+      "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
+      "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
+      "published_at": "2026-06-29T12:30:21+00:00",
+      "original_language": "zh",
+      "summary_en": "The case highlights the dangers of deploying AI for military targeting without robust data integration: despite analysts marking a school years earlier via a disconnected digital tool, the legacy official database remained unaware, leading to a fatal strike on an Iranian school that killed about 120 children. The key finding is that a critical failure in system interoperability—not the AI’s target suggestion per se—allowed known information to be ignored, underscoring that even advanced AI can magnify catastrophic outcomes when human processes and legacy infrastructure are not updated to ensure rigorous verification.",
+      "summary_zh": "美军首次大规模使用AI系统（Claude嵌入Palantir平台）生成打击目标，但因情报工具未与官方数据库同步，导致对一所学校的袭击造成约120名儿童死亡。这暴露了老旧手动数据库与现代AI辅助决策流程之间的致命脱节，凸显了在军事行动中整合 AI 时强化数据验证与系统联通的紧迫性。",
+      "source": "aihot_selected",
+      "title_zh": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3110788549,
+      "url": "https://x.com/AIatMeta/status/2071566924803395741",
+      "title": "Meta发布Brain2Qwerty v2：非侵入式实时句子解码",
+      "published_at": "2026-06-29T12:10:17+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta's Brain2Qwerty v2 addresses communication loss from brain injury by decoding raw, non-invasive EEG signals into full sentences in real time. Building on its character-level predecessor, this end-to-end pipeline now recovers words and semantic meaning, significantly improving accuracy. The advance could restore fluent communication for millions with severe motor disabilities.",
+      "summary_zh": "Meta 的 Brain2Qwerty v2 致力于解决因脑损伤或疾病导致的沟通障碍，通过非侵入式脑电信号解码实现实时句子输出。该版本将性能从字符级提升至单词和语义层面，显著提高了沟通准确性。这一进展为非侵入式脑机接口带来重要突破，有望为众多失语患者提供自然、高效的沟通方式。",
+      "source": "aihot_selected",
+      "title_zh": "Meta发布Brain2Qwerty v2：非侵入式实时句子解码",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1687679517,
+      "url": "https://cursor.com/blog/ios-mobile-app",
+      "title": "从任何地点构建--Cursor for iOS 公测版发布",
+      "published_at": "2026-06-29T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cursor's iOS public beta solves the problem of being tied to a desktop for development by offering always-on cloud agents and remote desktop control, enabling developers to initiate, monitor, and iterate on code from a mobile device using voice input, slash commands, and leading models. The cloud agents run in isolated VMs",
+      "summary_zh": "Cursor 推出 iOS 原生应用，解决开发者在移动场景下无法高效编程的问题，通过可在云端隔离虚拟机中运行或远程操控电脑端的智能体，支持语音输入、实时状态推送和自动生成可合并的拉取请求，使 AI 辅助开发不再受限于桌面环境。这一移动优先的实践显著降低了构建门槛，让开发者能随时随地进行高代码迭代与协作。",
+      "source": "aihot_selected",
+      "title_zh": "从任何地点构建--Cursor for iOS 公测版发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3833903598,
+      "url": "https://arxiv.org/abs/2606.30616",
+      "title": "Agents-A1：35B MoE 智能体模型通过扩展 horizon 达到万亿参数级性能",
+      "published_at": "2026-06-29T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Researchers tackle the scaling of AI agent models by extending the agent horizon—both in trajectory length and capability diversity—enabling a 35B Mixture-of-Experts model (Agents-A1) to match trillion-parameter performance. The approach uses long-horizon knowledge-action data (avg. 45K tokens) and a three-stage training pipeline with multi-teacher domain routing and online distillation, resulting in top scores on SEAL-0, IFBench, HiPhO, and other benchmarks. This work shows that strategic training design can dramatically reduce the model size needed for complex agent tasks, lowering computational cost while maintaining competitiveness.",
+      "summary_zh": "研究人员针对智能体性能瓶颈，提出Agents-A1这一35B参数MoE模型，通过扩展智能体horizon（长轨迹与异构能力）并配合三阶段训练策略，成功以较小规模达到万亿参数模型的性能水平。该模型在多项基准测试中超越Kimi-K2.6等万亿参数模型，证明了长horizon基础设施与多教师在线蒸馏方法的有效性，为降低智能体系统算力与成本提供了重要方向。",
+      "source": "aihot_selected",
+      "title_zh": "Agents-A1：35B MoE 智能体模型通过扩展 horizon 达到万亿参数级性能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3544422105,
+      "url": "https://www.tomtunguz.com/ai-spend-breakeven-2029",
+      "title": "Anthropic：当AI成本超过工程师薪酬",
+      "published_at": "2026-06-29T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic's annual compute cost per engineer ($515K) now far exceeds their fully loaded salary ($224K), contrasting sharply with typical software companies where compute spending is much lower. By projecting three scenarios to 2029, the analysis highlights how the growing expense of training advanced AI models may rapidly reduce this compute-to-salary ratio, signaling a future where AI development becomes constrained more by infrastructure cost than by human talent.",
+      "summary_zh": "这篇分析揭示了AI开发中算力成本急剧攀升的问题，指出Anthropic的每位工程师年均算力支出已达51.5万美元，是工程师薪资的2.3倍，远超其他软件公司。它通过三个2029年情景预测，探讨了这种成本差距可能缩小的路径，为理解AI行业未来人力与算力投入的平衡提供了关键见解。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic：当AI成本超过工程师薪酬",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3172108832,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.3-nightly.20260630.e00fe6a27",
+      "title": "QwenLM/qwen-code: Release v0.19.3-nightly.20260630.e00fe6a27",
+      "published_at": "2026-06-30T00:54:13+00:00",
+      "original_language": "en",
+      "summary_en": "This release adds a configurable auto-compact threshold to the core, enabling users to control when automatic context compaction triggers, and integrates Stop hook context usage tracking. This improves control over token budgets and context retention in long-running AI coding sessions, enhancing performance and reliability.",
+      "summary_zh": "该版本为Qwen模型的代码助手添加了可配置的自动压缩阈值和Stop钩子上下文使用功能，使用户能按需调整长文本处理的压缩触发条件。这一改进解决了自动上下文压缩缺乏灵活控制的问题，有助于更精细地管理内存与推理性能，提升模型在实际应用中的适配能力。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.3-nightly.20260630.e00fe6a27",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1893900044,
+      "url": "https://github.com/QwenLM/FlashQLA/releases/tag/v0.1.1",
+      "title": "QwenLM/FlashQLA: FlashQLA v0.1.1",
+      "published_at": "2026-06-30T06:42:05+00:00",
+      "original_language": "en",
+      "summary_en": "FlashQLA v0.1.1 addresses efficient linear attention computation by introducing intra",
+      "summary_zh": "FlashQLA v0.1.1 针对线性注意力反向传播效率问题，引入了 Intra‑card CP 通信优化，并针对 SM100 新架构设计了 warp‑specialized 内核，同时通过接口对齐增强了与 flash‑linear‑attention 的兼容性。这些改进提升了训练吞吐和跨代 GPU 的适配能力，对于大规模语言模型的高效注意力机制实现具有重要意义。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/FlashQLA: FlashQLA v0.1.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3217710254,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.20.3",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.20.3",
+      "published_at": "2026-06-30T04:40:10+00:00",
+      "original_language": "en",
+      "summary_en": "This patch for kimi-code solves the problem of stale model lists by automatically refreshing provider models in the background, eliminating the need to restart the IDE when new models become available. The change ensures developers always have immediate access to the latest AI model offerings, streamlining the coding workflow. A related provider bug fix is also included.",
+      "summary_zh": "该更新解决了模型列表仅在启动时加载、无法实时获取新增模型的问题，通过在后台自动刷新提供商模型列表，让用户无需重启即可使用新模型。同时修复了一个与提供商相关的缺陷，提升了工具链的连续性和用户体验。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.20.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1555791924,
+      "url": "https://github.com/MoonshotAI/checkpoint-engine/releases/tag/v0.4.2-rc0",
+      "title": "MoonshotAI/checkpoint-engine: v0.4.2-rc0",
+      "published_at": "2026-06-30T02:55:39+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses the challenge of coordinating multiple processes in a distributed training setup by enabling ParameterServer instances to expose metadata over HTTP. The key change is a new feature that allows cross-process join via this HTTP metadata, simplifying the discovery and connection between workers and servers. This matters because it reduces manual configuration, improves resilience, and makes the checkpoint engine more adaptable for dynamic distributed environments.",
+      "summary_zh": "此版本通过HTTP接口暴露参数服务器的元数据，支撑跨进程的接入与协调。该功能简化了分布式训练中节点间的状态共享，提升了多进程协作的灵活性与可观测性。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/checkpoint-engine: v0.4.2-rc0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
