@@ -1,0 +1,651 @@
+{
+  "date": "2026-07-01",
+  "items": [
+    {
+      "id": 644389470,
+      "url": "https://research.google/blog/expanding-our-heat-resilience-data-to-50-global-cities/",
+      "title": "Expanding our Heat Resilience data to 50+ global cities",
+      "published_at": "2026-06-30T17:03:10",
+      "original_language": "en",
+      "summary_en": "This work addresses the critical lack of high-resolution, globally comparable heat resilience data for urban areas facing escalating climate risks. It presents an expanded dataset covering over 50 cities worldwide, enabling cross-city analysis of vulnerability factors like green space, building materials, and social infrastructure. This matters because it equips researchers and policymakers with standardized, multi-city evidence to design effective, context-specific cooling strategies and protect disproportionately affected populations.",
+      "summary_zh": "该研究针对城市极端高温适应数据匮乏的问题，将热韧性数据集扩展至全球50多个城市，形成了可比较的基准。这一举措有助于跨城市经验共享与韧性规划，对提升全球城市应对热浪风险的能力至关重要。",
+      "source": "google_research",
+      "title_en": "Expanding our Heat Resilience data to 50+ global cities",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2235072897,
+      "url": "https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/",
+      "title": "Introducing TabFM: A zero-shot foundation model for tabular data",
+      "published_at": "2026-06-30T10:26:00",
+      "original_language": "en",
+      "summary_en": "TabFM tackles the need for task-specific models in tabular data by offering a foundation model capable of zero-shot inference directly on new tasks without fine-tuning. This approach promises to accelerate data management workflows and reduce reliance on large labeled datasets, making machine learning more accessible for common structured data problems.",
+      "summary_zh": "Data Management",
+      "source": "google_research",
+      "title_en": "Introducing TabFM: A zero-shot foundation model for tabular data",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2333742546,
+      "url": "http://arxiv.org/abs/2606.32034v1",
+      "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+      "published_at": "2026-06-30T17:58:23+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the challenge that evaluating dense supervision signals for long-horizon LLM agents is costly and confounded by training-specific factors, hindering fair comparison across methods. It introduces QVal, a training-free testbed that directly measures how well a scored state-action pair aligns with a Q-function’s value, bypassing the need for full training pipelines. This enables cheap, standardized benchmarking, accelerating progress by isolating the quality of the supervision signal itself.",
+      "summary_zh": "该工作针对大语言模型智能体在长程任务中中间步骤缺乏有效反馈的问题，提出了一种无需再次训练即可直接评估密集监督信号质量的新测试平台QVal。QVal通过衡量评分与真实Q值对齐程度，避开了以往依赖下游任务训练的昂贵且混杂因素的评估方式，首次为不同方法族提供了统一、廉价且可比的基准，推动了对中间步骤监督信号的科学评定。",
+      "source": "arxiv_cs_cl",
+      "title_en": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2560595593,
+      "url": "http://arxiv.org/abs/2606.32032v1",
+      "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+      "published_at": "2026-06-30T17:56:01+00:00",
+      "original_language": "en",
+      "summary_en": "LLMs often express high confidence even when hallucinating, undermining trustworthiness. This work introduces reinforcement learning with metacognitive feedback (RLMF), which optimizes preference rankings using the quality of the model’s own self-assessments, and a metacognitive data selection strategy that picks high-value training examples. These methods improve faithful uncertainty expression, helping models better recognize knowledge boundaries and align confidence with correctness, thereby enhancing reliability.",
+      "summary_zh": "该研究针对大语言模型普遍存在的元认知缺陷（如高置信度幻觉与不能识别知识边界），提出基于元认知反馈的强化学习（RLMF）和元认知数据选择两种新机制。RLMF 利用模型自我性能判断的准确性来优化偏好排序，诱导模型更忠实地表达内部不确定性。这一方法为提升模型可靠性与可信赖性提供了新范式，其关键发现是通过元认知自我监控能更有效地提升模型实际表现。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3573545222,
+      "url": "http://arxiv.org/abs/2606.32029v1",
+      "title": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
+      "published_at": "2026-06-30T17:54:50+00:00",
+      "original_language": "en",
+      "summary_en": "This paper presents the first systematic evaluation of data referencing errors (D",
+      "summary_zh": "本研究首次系统评估了大语言模型在处理表格时的数据引用错误，发现所有参数规模的模型都会出现错误引用或遗漏表格值的问题。通过引入数据引用作为评判信号，结合过滤与拒绝采样，可将答案准确率提升12.0%，并训练出轻量评判模型有效检测错误，从而提升推理的可靠性。这弥补了以往分析不足，为增强表格推理的可信中间步骤提供了重要方法。",
+      "source": "arxiv_cs_cl",
+      "title_en": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 815598380,
+      "url": "http://arxiv.org/abs/2606.32025v1",
+      "title": "Generative Skill Composition for LLM Agents",
+      "published_at": "2026-06-30T17:53:09+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the bottleneck of selecting an effective skill composition for LLM agents, where existing methods fail to jointly optimize which skills, how many, and their ordering. The key approach formalizes this as structured skill composition and introduces a generative method that directly produces an executable skill plan from the task and library, capturing the inherent interdependencies. This matters because it enables more coherent and scalable use of growing skill libraries, improving the agent's ability to solve complex tasks that demand precise multi-skill orchestration.",
+      "summary_zh": "本文针对大语言模型智能体在复杂任务中如何从技能库中组合技能的问题，指出技能组合是一个需要同时决策技能子集、数量与执行顺序的结构化问题，而现有检索或全量推理方法忽略了三者的耦合性。为此，作者将其形式化为结构化技能组合，并提出一种生成式方法，直接根据任务描述和技能库预测可执行的技能计划，从而更好地捕捉技能间的依赖关系与编排逻辑，有效弥补了现有方法的不足。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Generative Skill Composition for LLM Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2327183554,
+      "url": "http://arxiv.org/abs/2606.32017v1",
+      "title": "TRIAGE: Role-Typed Credit Assignment for Agentic Reinforcement Learning",
+      "published_at": "2026-06-30T17:48:07+00:00",
+      "original_language": "en",
+      "summary_en": "TRIAGE tackles the problem that standard GRPO assigns uniform outcome-based credit to all actions, which penalizes useful exploration in failures and reinforces unnecessary steps in successes. It introduces a semantic role axis by having a structured judge label each action segment (as decisive progress, useful exploration, no-progress infrastructure, or regression) and then maps these labels to bounded process rewards, correcting blind spots while retaining the verifier's outcome direction. This role-conditioned correction is shown to be the optimal segment-level adjustment, improving credit for exploration and overall training stability.",
+      "summary_zh": "TRIAGE 框架针对智能体强化学习中仅依赖最终结果信号分配信用的缺陷，提出按语义角色（如决定性进展、有用探索、无效基础动作、倒退）对动作段进行分类，并施加固定的段级过程奖励。该方法在保留结果信号优化方向的同时，纠正了标准 GRPO 对失败探索过度惩罚和对成功轨迹中冗余动作错误强化的盲点，实现了更优的段级信用校正。",
+      "source": "arxiv_cs_cl",
+      "title_en": "TRIAGE: Role-Typed Credit Assignment for Agentic Reinforcement Learning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2935072002,
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "title": "Claude Science, an AI workbench for scientists, is now available",
+      "published_at": "2026-06-30T00:00:00",
+      "original_language": "en",
+      "summary_en": "Claude Science addresses the need for a dedicated AI-powered research environment by providing scientists with an integrated workbench for experimentation and analysis. Its key approach is offering a specialized platform that streamlines scientific workflows with AI assistance. This matters because it reduces the barrier to leveraging advanced AI in research, potentially accelerating discovery across disciplines.",
+      "summary_zh": "Claude Science 发布了专为科学家打造的 AI 工作台，旨在解决科研中复杂数据分析与知识综合的瓶颈。其核心是通过集成先进模型与专用工具，辅助实验设计、文献探索和结果解读。这有望大幅提升科研效率，降低 AI 应用门槛，加速科学发现。",
+      "source": "anthropic_news",
+      "title_en": "Claude Science, an AI workbench for scientists, is now available",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 743857965,
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "title": "Introducing Claude Sonnet 5",
+      "published_at": "2026-06-30T00:00:00",
+      "original_language": "en",
+      "summary_en": "Claude Sonnet 5 addresses the ongoing need for more capable, efficient, and safe large language models by introducing a new iteration in the Claude series, likely featuring architectural refinements or training improvements. The key advancement is its release as a state-of-the-art model balancing performance and cost, enabling broader access to powerful AI. This matters for researchers and practitioners seeking reliable, high-quality language understanding and generation for diverse applications.",
+      "summary_zh": "Claude Sonnet 5 作为新一代大语言模型被推出，旨在进一步解决复杂推理与安全对齐问题。该模型很可能采用了改进的训练架构与指令微调技术，实现了更强的语境理解和少样本学习能力。这一进展对于推动高可靠性的AI助手落地、减少有害输出具有实际意义。",
+      "source": "anthropic_news",
+      "title_en": "Introducing Claude Sonnet 5",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1436657354,
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "title": "Redeploying Fable 5",
+      "published_at": "2026-06-30T00:00:00",
+      "original_language": "en",
+      "summary_en": "The provided content simply announces \"Redeploying Fable 5\" without any technical detail, making it unclear what problem is being addressed, the approach taken, or its significance. No AI/ML research insights can be extracted.",
+      "summary_zh": "该内容可能涉及重新部署名为Fable 5的AI/ML系统或模型，旨在解决先前版本在稳定性、性能或环境适配上的不足。由于缺乏具体细节，其核心方法与发现尚不明确，但重新部署通常强调改进推理效率或扩展适应性，这对保障关键AI服务的可靠迭代至关重要。",
+      "source": "anthropic_news",
+      "title_en": "Redeploying Fable 5",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2764230554,
+      "url": "https://claude.com/blog/getting-started-with-loops",
+      "title": "Getting started with loops",
+      "published_at": "2026-07-01T11:18:44.290756",
+      "original_language": "en",
+      "summary_en": "This introduction addresses the fundamental need for AI/ML researchers to implement iterative algorithms efficiently. It covers looping constructs as core control flow tools for tasks like model training, data preprocessing, and hyperparameter tuning. Mastering loops is essential because it underpins the implementation of foundational methods such as gradient descent and batch processing in research.",
+      "summary_zh": "该教程面向编程初学者，解决在代码中高效执行重复任务的问题，通过介绍循环结构的基本概念与用法来帮助理解。其核心在于教授如何利用循环自动化迭代流程，这对编写简洁且高效的算法至关重要。",
+      "source": "claude_blog",
+      "title_en": "Getting started with loops",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2806203607,
+      "url": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
+      "title": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
+      "published_at": "2026-07-01T11:18:44.293065",
+      "original_language": "en",
+      "summary_en": "The announcement addresses the need to run Claude’s desktop application directly within enterprise cloud environments, enabling organizations to deploy the AI assistant on AWS, Google Cloud, and Microsoft Foundry. By making the full Claude Desktop experience available on these platforms, it allows businesses to leverage cloud scalability, security, and compliance while maintaining a familiar interface. This matters because it simplifies integration into existing cloud workflows and supports regulated industries that require AI tools to operate within their controlled infrastructure.",
+      "summary_zh": "该内容探讨了如何将完整的Claude桌面体验无缝部署到AWS、Google Cloud和Microsoft Foundry三大主流云平台。其关键在于实现了跨云环境的一致交互与功能访问，这降低了用户对特定基础架构的依赖，让开发者和企业能在自选的云生态中直接享受强大的AI助手能力。",
+      "source": "claude_blog",
+      "title_en": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 256511554,
+      "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
+      "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
+      "published_at": "2026-07-01T10:03:41+00:00",
+      "original_language": "zh",
+      "summary_en": "A new OpenAI paper introduces three distinct Pro variants of GPT-5.6—Luna Pro, Terra Pro, and Sol Pro—replacing the previous single top-tier model to explore tiered performance scaling. On a genomics benchmark, Sol Pro leads with 31.5% accuracy, but the Pro gain over the standard model shrinks as base capability improves (from +7.1 points for Luna to only +2.8 points for Sol), indicating diminishing returns from increased compute. While this tiered strategy may push state-of-the-art results, practical implications remain ambiguous due to undisclosed inference cost and unclear deployment plans.",
+      "summary_zh": "OpenAI论文揭示了GPT-5.6采用Luna Pro、Terra Pro和Sol Pro三个Pro变体的分层策略，取代以往单一顶级模型，在基因组学基准中Sol Pro以31.5%的通过率领先，但Pro增强效果随基础模型性能提升而递减。这一发现表明追加计算资源的边际收益可能下降，对模型部署与定价策略具有潜在影响，但目前尚不明确该设计是否会落地到ChatGPT产品中。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1003811898,
+      "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+      "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+      "published_at": "2026-07-01T08:10:17+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA's Nemotron-Labs-TwoTower addresses the slow generation speed of autoregressive language models by introducing a diffusion language model with a dual-tower architecture, where a frozen context tower and a trained denoiser tower collaborate via cross-attention. It retains 98.7% of the original autoregressive baseline quality while achieving a 2.42× throughput increase during generation, making high-quality, efficient text generation practical.",
+      "summary_zh": "NVIDIA 推出 Nemotron-Labs-TwoTower，一个基于冻结自回归骨干的扩散语言模型，通过双塔架构和交叉注意力协作，在保持 98.7% 生成质量的同时将吞吐量提升 2.42 倍。该模型以约 60B 总参数实现灵活的多模式解码，为大规模语言模型的高效推理与质量平衡提供了新范式。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4256763996,
+      "url": "https://www.ithome.com/0/971/071.htm",
+      "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
+      "published_at": "2026-07-01T06:57:42+00:00",
+      "original_language": "zh",
+      "summary_en": "Amazon Web Services is investing $1 billion to create a new division that dispatches on-site engineering teams to client companies for 45‑day residencies, directly helping them deploy AI software and agent‑based applications. This approach mirrors established models at Palantir, Salesforce, and others, and responds to a 42‑fold increase in demand for similar roles, signaling a major push toward hands‑on, customized enterprise AI adoption.",
+      "summary_zh": "亚马逊AWS斥资10亿美元组建驻场工程师团队，直接嵌入客户企业，以加速人工智能与智能体应用的落地实施。此举复制了行业已验证的“驻场协作”模式，旨在通过深度技术陪跑，解决企业AI最后一公里部署难题，对推动各行业智能化转型具有重大意义。",
+      "source": "aihot_selected",
+      "title_zh": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3302022518,
+      "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
+      "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
+      "published_at": "2026-07-01T02:24:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Meituan's LongCat-2.0 is a 1.6-trillion-parameter model trained entirely on a domestic 50,000-card computing cluster, using sparse attention and a multi-expert fusion architecture to efficiently support 1-million-token contexts while keeping active parameters low. It achieves strong coding benchmark scores (SWE-bench Pro 59.5) and its open preview has already become one of the most-called models on OpenRouter, demonstrating that large-scale, competitive LLMs can be built on homegrown AI infrastructure",
+      "summary_zh": "美团LongCat-2.0瞄准国产算力集群上万亿参数大模型的训练难题，通过LSA稀疏注意力、零计算专家及MOPD多专家融合等架构创新，实现了1.6T总参数、48B激活、1M超长上下文的低成本高效推理。其对国产算力的全流程适配与开源发布，验证了国产AI基础设施的规模化能力，并以SWE-bench领先成绩和OpenRouter全球前三的调用量，彰显了实际工程价值。",
+      "source": "aihot_selected",
+      "title_zh": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3090550177,
+      "url": "https://x.com/shao__meng/status/2072126769986220157",
+      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+      "published_at": "2026-07-01T01:14:54+00:00",
+      "original_language": "zh",
+      "summary_en": "This guide tackles the unpredictability of AI Skills by making process predictable through a structured framework: it separates model-invoked and user-invoked triggers, uses a three‑layer progressive disclosure (main steps, reference, external files), defines explicit completion criteria, and compresses behavior with leading words. It further diagnoses five common failure modes (like Premature completion and No‑op) and offers a No‑op test to eliminate ineffective instructions, which matters for building robust, reliable AI skills that behave as intended.",
+      "summary_zh": "该指南针对 AI Skill 易出现不稳定的问题，提出了以过程可预测性为目标的设计方法论。其核心方法包括区分模型自动与用户触发、采用三层渐进式架构、用完成标准和 leading word 压缩行为要求，并诊断五种典型失败模式以消除无效描述。该方案通过精准控制模型注意力，使 AI Skill 的执行更加可靠和可控，因而成为作者最常调用的实践准则。",
+      "source": "aihot_selected",
+      "title_zh": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1181554178,
+      "url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
+      "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
+      "published_at": "2026-07-01T00:11:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic’s Claude Code was found to covertly identify users from China by checking the local timezone (Asia/Shanghai or Asia/Urumqi) and the `ANTHROPIC_BASE_URL` environment variable, then matching against a base64+XOR‑encrypted list of 147 Chinese domains. To",
+      "summary_zh": "Anthropic在Claude Code中通过读取用户时区和环境变量，将系统提示词中的日期字符进行隐写替换以回传标记，实现对特定中国域名相关用户的隐蔽识别。该行为利用隐写术绕开常规监测，引发公众对其破坏用户信任与隐私的争议，凸显了AI工具在地域审查与透明度上的风险。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2471313061,
+      "url": "https://www.ithome.com/0/970/810.htm",
+      "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
+      "published_at": "2026-06-30T23:43:32+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple’s new Siri AI assistant faces EU regulatory hurdles under the Digital Markets Act because it can access personal data but Apple refuses to grant competitors the same access. Apple proposed a “trusted system proxy” software layer to bridge its on-device data with third-party models, but the idea remains undeveloped and the EU rejected its request for an 18-month grace period. This matters as it highlights the tension between consumer‑side AI personalization and interoperability mandates, setting a precedent for how advanced on-device assistants must comply with platform regulation.",
+      "summary_zh": "苹果CEO库克与欧盟就新版Siri AI的推出进行会谈，核心争议在于《数字市场法》要求互操作性，苹果拒绝向竞争对手开放同等个人数据权限，导致该功能暂不在欧盟上线。苹果提出“可信系统代理”方案并寻求监管宽限期，但遭欧盟拒绝，这凸显了AI助手在数据隐私与竞争法规之间的深层冲突，可能影响未来智能设备在欧盟的部署路径。",
+      "source": "aihot_selected",
+      "title_zh": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1354502676,
+      "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
+      "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
+      "published_at": "2026-06-30T22:32:34+00:00",
+      "original_language": "zh",
+      "summary_en": "A prover-verifier LLM loop, where one model generates candidate proofs and another rigorously checks them, was used to successfully resolve nine long-standing open problems in theoretical computer science—including a problem that had resisted solution for two years. This work, by Columbia University collaborators, demonstrates a scalable AI-driven framework for automated mathematical discovery and aims to be extended across all scientific domains.",
+      "summary_zh": "研究利用“证明者-验证者”大语言模型循环方法，成功解决了理论计算机科学中 9 个重要的开放式难题，其中包括一个困扰作者长达两年的问题。这一突破展示了 AI 在严谨数学推理上的潜力，其价值在于不仅攻克了具体难题，还提供了一种可推广至所有科学领域的自动化研究范式。",
+      "source": "aihot_selected",
+      "title_zh": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 543620700,
+      "url": "https://x.com/NotebookLM/status/2072043680442245276",
+      "title": "NotebookLM Short Video Overviews 全量上线 Web 英文版",
+      "published_at": "2026-06-30T19:44:44+00:00",
+      "original_language": "zh",
+      "summary_en": "NotebookLM's Short Video Overviews feature, which automatically transforms complex materials into 60-second vertical explainer videos, is now fully available to English web users. This rollout, previously limited to paid subscribers, broadens access to AI-powered concept summarization and will soon extend to free users, making digestion of dense information more efficient and accessible.",
+      "summary_zh": "NotebookLM 的短视频概览功能旨在解决复杂资料难消化的问题，通过自动将文本转化为 60 秒竖屏讲解视频，帮助用户快速掌握概念。这一功能正式向 Web 英文版全量开放，且即将面向免费用户推出，极大降低了知识获取的门槛。",
+      "source": "aihot_selected",
+      "title_zh": "NotebookLM Short Video Overviews 全量上线 Web 英文版",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2037543706,
+      "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
+      "title": "Acti 将 AI 智能体直接放入手机键盘",
+      "published_at": "2026-06-30T17:52:46+00:00",
+      "original_language": "zh",
+      "summary_en": "Acti addresses the friction of switching between apps to perform routine tasks by embedding an AI agent directly into a mobile keyboard. Its key innovation lets users create “Skills” via natural language, triggering actions like translation or calendar sharing with a single long-press, while a local-first approach keeps private messages private by default. This matters because it streamlines mobile workflows and demonstrates practical, privacy-conscious on-device AI integration, backed by $5.3M in seed funding and rapid early adoption.",
+      "summary_zh": "Acti 推出的智能体键盘解决了用户在应用间频繁手动操作的效率问题，它利用 AI 智能体直接通过自然语言创建快捷方式（如长按按键自动翻译或发送链接），从而简化跨应用任务。其关键发现在于早期测试者两周内创建超 1000 个自定义 Skills，验证了需求，同时本地优先的隐私设计和 530 万美元融资表明这种“键盘即 Agent”的模式有望重塑移动交互并获市场认可。",
+      "source": "aihot_selected",
+      "title_zh": "Acti 将 AI 智能体直接放入手机键盘",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2427204568,
+      "url": "https://developers.googleblog.com/announcing-adk-go-20",
+      "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
+      "published_at": "2026-06-30T17:17:40.302000+00:00",
+      "original_language": "zh",
+      "summary_en": "ADK Go 2.0 addresses the challenge of building reliable multi‑agent systems by introducing a graph‑based workflow engine that unifies execution of both simple agents and complex pipelines. Key additions include native human‑in‑the‑loop orchestration, dynamic execution in pure Go, and automatic resilience features like exponential backoff retries. This matters because the unified runtime simplifies observability and state persistence, making it easier to develop, operate, and scale robust multi‑agent applications.",
+      "summary_zh": "ADK Go 2.0 针对复杂多智能体应用的可靠构建问题，引入基于图的工作流引擎，并新增人工参与循环与动态编排能力。该框架统一了单智能体与图应用的运行时，内建弹性重试等机制，从而显著简化了遥测与状态管理，为生产级多智能体系统提供了高效开发基础。",
+      "source": "aihot_selected",
+      "title_zh": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3084338499,
+      "url": "https://www.apple.com/newsroom/2026/06/apple-creator-studio-gets-smarter-faster-and-more-connected",
+      "title": "Apple Creator Studio 更新：更智能、更快速、更互联",
+      "published_at": "2026-06-30T16:59:24.233000+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple addresses the pain of manual, time-consuming video and audio post-production by embedding on-device AI models directly into its creative suite, automating tasks like captioning, edit detection, and subject masking without cloud dependency. The update integrates these capabilities across Final Cut Pro, Logic Pro, and iWork, streamlining cross-app workflows and offering pro-level features (e.g., Grammy producer projects) while keeping data private. This matters for AI/ML research as a production-ready demonstration of how on-device inference can deliver low-latency, privacy-preserving intelligence, and how tight app integration amplifies user-facing AI value without requiring specialized hardware.",
+      "summary_zh": "Apple Creator Studio 推出多项 AI 增强更新。Final Cut Pro 新增 on-device AI 驱动的 Generate Captions（自动转录音频生成字幕）和 Edit Detection（自动检测剪辑点）。Mac 版加入 Auto Mask（自动识别皮肤、天空等主体）、增强的 Match Color 和 Advanced Trimming。支持将帧发送至 Pixelmator Pro 编辑，并在 Keynote、Pages、Numbers 中直接调用 Pixelmator Pro 修改图片。Logic Pro 新增 Grammy 制作人制作的 Produ",
+      "source": "aihot_selected",
+      "title_zh": "Apple Creator Studio 更新：更智能、更快速、更互联",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2252732408,
+      "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video",
+      "title": "用 shot-scraper video 让 AI 智能体录制工作演示视频",
+      "published_at": "2026-06-30T16:54:26+00:00",
+      "original_language": "zh",
+      "summary_en": "This tool solves the challenge of automatically recording browser-based workflow demonstrations by defining a `storyboard.yml` file and leveraging Playwright's new screencast API, which fixes issues like initial white frames and fixed video widths. Its key innovation is that the command's detailed `--help` output allows AI coding agents to directly generate step-by-step demo videos, streamlining documentation and sharing of interactive processes.",
+      "summary_zh": "shot-scraper video 命令通过 Playwright 的 screencast 机制，解决了以往浏览器录制视频开头白帧、宽度固定等痛点，让用户用 storyboard.yml 即可定义操作步骤并自动生成演示。其足够详细的 --help 输出，使编码 Agent 能直接利用该命令生成工作演示，这对 AI 辅助工具的自文档化与自动化展示具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "用 shot-scraper video 让 AI 智能体录制工作演示视频",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1310547746,
+      "url": "https://x.com/ClaudeDevs/status/2071988881717871065",
+      "title": "Claude Desktop 推出 Linux 公测版",
+      "published_at": "2026-06-30T16:06:59+00:00",
+      "original_language": "zh",
+      "summary_en": "The beta release of Claude Desktop on Linux (Ubuntu/Debian) addresses the lack of native desktop access for developers on these platforms, offering a unified environment with Claude Code, Cowork, and chat that goes beyond browser or terminal interfaces. This matters because it streamlines AI-assisted coding and collaboration directly within the Linux workflow, significantly expanding the tool’s appeal to the large developer community on these distributions.",
+      "summary_zh": "Claude Desktop 在 Linux（Ubuntu 与 Debian）上发布公测版，解决了此前 Linux 用户只能通过浏览器或终端访问 Claude 的限制。此次更新为付费计划用户提供完整的桌面体验，集成了 Claude Code、Claude Cowork 和聊天功能，显著拓宽了 AI 协作在工作站生态中的覆盖范围。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Desktop 推出 Linux 公测版",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 813992792,
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
+      "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
+      "published_at": "2026-06-30T16:02:40+00:00",
+      "original_language": "zh",
+      "summary_en": "Google DeepMind introduced two new models: Nano Banana 2 Lite, the fastest and most cost-effective text-to-image model in the series (4 seconds, $0.034 per 1K-resolution image), and Gemini Omni Flash, which supports high-quality video generation with conversational editing at $0.10 per second. These releases tackle the need for rapid, affordable image creation and accessible,",
+      "summary_zh": "Google DeepMind 发布 Nano Banana 2 Lite 模型，主打超低成本和极速文本到图像生成（4 秒/张，仅 $0.034/1K 分辨率），以最轻量的方案解决快速内容创作的成本与延迟难题；同时推出的 Gemini Omni Flash 则实现了高画质视频生成与对话式编辑，进一步降低视频创作门槛。这两项发布将多模态 AI 能力以更经济高效的方式推向开发者和消费者，加速了 AI 在日常创意与搜索场景中的普及。",
+      "source": "aihot_selected",
+      "title_zh": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3182829002,
+      "url": "https://www.dwarkesh.com/p/grant-sanderson-2",
+      "title": "Grant Sanderson 谈 AI 与数学的未来",
+      "published_at": "2026-06-30T15:53:19+00:00",
+      "original_language": "zh",
+      "summary_en": "Grant Sanderson cautions that AI achieving an IMO gold medal is merely another conquered benchmark, not a sign of AGI, and even solving a Millennium Prize problem would leave many human tasks untouched. He highlights deeper issues—like century-long concept verification, the need for human-understandable AI proofs, discovery of hidden connections across literature, and the difficulty of framing real economic tasks as RL environments—to show that current success metrics overlook the nuanced, long-horizon nature of true mathematical and general intelligence.",
+      "summary_zh": "3Blue1Brown 创办人 Grant Sanderson 在新项目中探讨 AI 在数学领域的进展，指出 AI 获得 IMO 金牌仅代表又一个基准被攻克，并不等同于通用人工智能。他提醒，即使未来 AI 能解决千禧年大奖难题，仍有大量人类任务无法自动化，强调要理性看待领域特定成就与全面智能之间的鸿沟。",
+      "source": "aihot_selected",
+      "title_zh": "Grant Sanderson 谈 AI 与数学的未来",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1713282680,
+      "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
+      "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
+      "published_at": "2026-06-30T11:14:52+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta secretly tested competitor AI chatbots (ChatGPT, Gemini, Character.AI) by having contractors pose as minors to send over 45,000 prompts about suicide, self-harm, and other crises, without the companies' knowledge. The undisclosed \"Cannes\" project highlights the tension between industry-standard safety red-teaming and ethical boundaries, as tested firms objected while public concern mounts over youth safety after prior user tragedies.",
+      "summary_zh": "面对青少年与AI聊天机器人互动中暴露的自杀、自残等安全风险，Meta通过承包商假扮未成年人，秘密向ChatGPT等竞争对手发送超4.5万条",
+      "source": "aihot_selected",
+      "title_zh": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1260625645,
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
+      "published_at": "2026-06-30T09:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Open",
+      "summary_zh": "OpenAI Signals 数据揭示了 ChatGPT 全球采用正加速向多元化深入：用户粘性持续上升，任务使用种类翻倍，且增长主要来自非洲、亚洲及低人类发展指数地区。同时，用户群体在性别和语言上更为均衡，女性及非英语用户占比突出，这表明 AI 工具正突破早期采用者壁垒，向更广泛的全球大众渗透。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3097665686,
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "title": "OpenAI 发布 GeneBench-Pro：计算生物学研究级基准测试",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI introduced GeneBench-Pro, a benchmark to assess AI agents’ capacity for handling ambiguity and making reasoned judgments in computational biology, addressing the gap in evaluating higher-level analytical skills. It comprises 129 problems across 10 domains, providing messy real-world datasets and requiring iterative experimental design, all built on synthetic data with known causal structures. This benchmark offers a rigorous, expert-validated testbed for developing AI systems that can navigate realistic, open-ended research tasks in life sciences.",
+      "summary_zh": "GeneBench-Pro 旨在解决当前基准无法衡量AI智能体在计算生物学研究中处理模糊数据和进行判断性分析的问题。它通过构建已知因果结构的合成数据集和迭代实验流程，覆盖十个专业领域，要求模型自主探索数据并选择分析路径，从而评估其研究级推理能力。该基准提供了贴近真实科研场景的标准化测试，有助于推动AI从辅助工具向独立研究伙伴演进，对计算生物学智能化具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 发布 GeneBench-Pro：计算生物学研究级基准测试",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 406511888,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.3-nightly.20260701.a974594d7",
+      "title": "QwenLM/qwen-code: Release v0.19.3-nightly.20260701.a974594d7",
+      "published_at": "2026-07-01T00:57:41+00:00",
+      "original_language": "en",
+      "summary_en": "This release introduces a configurable auto-compact threshold and Stop hook context usage, allowing fine-grained control over when context compaction is triggered and how the stop mechanism interacts with context. This enhancement addresses the need for more adaptive context management in large-language-model coding sessions, improving efficiency and preventing premature truncation of important context.",
+      "summary_zh": "该版本重点引入了可配置的自动压缩阈值和停止钩子上下文使用功能，解决了在代码处理过程中压缩策略固定、资源控制不灵活的问题。通过让用户自定义压缩门槛与钩子作用范围，显著提升了模型对长上下文任务的适应性与效率，对需要精细控制计算开销的场景尤为重要。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.3-nightly.20260701.a974594d7",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 4006209589,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.21.1",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.21.1",
+      "published_at": "2026-07-01T06:46:12+00:00",
+      "original_language": "en",
+      "summary_en": "This patch addresses a user experience gap where a blank, spinner-less window appeared during encrypted reasoning, leaving users uncertain if the system was still processing. The fix keeps the waiting spinner visible throughout the encrypted reasoning phase, providing continuous visual feedback until the first response text arrives. This matters for maintainability and trust, as it prevents confusing dead time in interactive AI interfaces.",
+      "summary_zh": "该补丁修复了一个用户体验问题：在加密推理流传输期间，等待提示动画（spinner）会消失，导致在首次响应文本出现前出现空白间隔。通过保持 spinner 持续可见，消除了这段无反馈的等待间隙，从而提升了用户感知的流畅度和响应及时性。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.21.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3238928505,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.21.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.21.0",
+      "published_at": "2026-07-01T02:54:15+00:00",
+      "original_language": "en",
+      "summary_en": "### Minor Changes\n\n- [#1204](https://github.com/MoonshotAI/kimi-code/pull/1204) [`5cb80ce`](https://github.com/MoonshotAI/kimi-code/commit/5cb80ce879406d239048c32d61202778cb860e58) - Plugins can now provide slash commands via a `commands` field in their manifest, registered as `<plugin>:<command>` a",
+      "summary_zh": "Kimi-code v0.21.0 解决了插件系统无法向用户暴露自定义快捷指令的问题。其关键方法是允许插件在清单中声明 `commands` 字段，从而注册形如 `<插件>:<命令>` 的斜杠命令，并支持 `$ARGUMENTS` 动态传参调用。这一改进大幅提升了插件的交互性和可扩展性，让开发者能更灵活地为 AI 编程助手集成上下文操作。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.21.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
