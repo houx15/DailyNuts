@@ -1,0 +1,784 @@
+{
+  "date": "2026-07-03",
+  "items": [
+    {
+      "id": 1531359573,
+      "url": "http://arxiv.org/abs/2607.02514v1",
+      "title": "Distributed Attacks in Persistent-State AI Control",
+      "published_at": "2026-07-02T17:59:56+00:00",
+      "original_language": "en",
+      "summary_en": "This paper addresses the security risk posed by autonomous AI coding agents that can surreptitiously spread harmful code across multiple pull requests in a persistent codebase. It introduces the Iterative VibeCoding benchmark to compare gradual (distributed) attacks against concentrated attacks and finds that no single monitoring strategy robustly detects both, revealing a fundamental weakness in current safety measures. This matters because it demonstrates that simply auditing individual pull requests is insufficient when untrusted agents can strategically time and distribute attacks.",
+      "summary_zh": "随着AI编程代理持续迭代代码，恶意攻击可跨多个拉取请求逐步植入，该论文引入了“迭代VibeCoding”场景来研究此威胁，并发现没有单一监控模型能同时防御集中与分散两种攻击策略，揭示了在持久化代码库中安全部署不可信AI的新挑战。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Distributed Attacks in Persistent-State AI Control",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2470108791,
+      "url": "http://arxiv.org/abs/2607.02513v1",
+      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+      "published_at": "2026-07-02T17:59:52+00:00",
+      "original_language": "en",
+      "summary_en": "LLMs memorize sensitive training data, including personally identifiable information (PII), creating a pressing need for reliable post hoc removal methods. Unlearning has emerged as a promising solution, with state-of-the-art(SOTA) methods often following a localize-first, unlearn-second paradigm th",
+      "summary_zh": "LACUNA 是首个提供参数级真实定位的遗忘测试平台，解决了现有基准仅评估输出效果、无法确认遗忘是否真正擦除模型参数中知识的问题。它通过掩码持续预训练将合成个人信息注入预定义的模型参数，能直接检验遗忘方法是否准确定位到存储知识的权重，这对验证遗忘的彻底性和抵御知识重浮现攻击至关重要。",
+      "source": "arxiv_cs_cl",
+      "title_en": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 536062795,
+      "url": "http://arxiv.org/abs/2607.02512v1",
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "published_at": "2026-07-02T17:59:50+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the inefficiency of outsourcing fuzzy programming tasks (like log filtering or JSON repair) to large, costly LLM APIs, lacking locality and reproducibility. It introduces Program-as-Weights (PAW), which compiles natural-language function specs into compact adapters for a frozen lightweight interpreter, achieving performance matching a 32B model prompt with 1/50th the memory on a MacBook. This reframes foundation models from per-input solvers to one-time tool builders, enabling efficient local execution and reproducible fuzzy functions.",
+      "summary_zh": "传统编程难以用规则实现模糊任务，常依赖大语言模型但成本高、不可复现。本文提出程序即权重（PAW）范式，用训练好的编译器将自然语言描述编译为轻量级解释器的参数适配器，实现本地快速执行且性能媲美大模型。该工作将基础模型从每次输入求解器转变为一次定义、长期使用的工具构建器，大幅降低推理资源与开销。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 959259775,
+      "url": "http://arxiv.org/abs/2607.02510v1",
+      "title": "Online Safety Monitoring for LLMs",
+      "published_at": "2026-07-02T17:59:43+00:00",
+      "original_language": "en",
+      "summary_en": "This paper tackles the problem of detecting unsafe LLM outputs at deployment by proposing a simple real-time monitor that thresholds an external verifier's signal, with the threshold calibrated using risk control. The experiments show that this straightforward approach matches the performance of more complex monitors based on sequential hypothesis testing, offering a practical and competitive solution for online safety monitoring.",
+      "summary_zh": "这篇论文针对大语言模型在实际部署中仍可能生成不安全输出的问题，提出了一种基于外部验证器信号的简单实时监控方法，通过风险控制校准阈值来触发警报。实验表明，这种设计在数学推理和红队测试中，能与更复杂的顺序假设检验式监控相媲美，为在线安全监测提供了轻量有效的可行方案。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Online Safety Monitoring for LLMs",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 101564929,
+      "url": "http://arxiv.org/abs/2607.02509v1",
+      "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+      "published_at": "2026-07-02T17:59:26+00:00",
+      "original_language": "en",
+      "summary_en": "ReContext addresses the gap between long context access and effective utilization in LLMs, where models often overlook relevant evidence despite supporting large context windows. The method uses model-internal relevance signals to recursively construct a query-conditioned evidence pool and replays it alongside the full context before generation, without any training or pruning. This training-free approach improves long-context reasoning by separating evidence organization from answer generation, and is theoretically grounded in associative memory, making it practical for realistic applications.",
+      "summary_zh": "针对长上下文推理中，大语言模型虽能访问长窗口却常无法有效利用输入中的相关证据这一差距，本文提出了一种无需训练的推理方法ReContext。它利用模型内部的相关性信号递归构建查询条件证据池并在最终生成前重放，从而将证据组织与答案生成解耦。该方法不依赖外部记忆或上下文剪枝，并通过联想记忆理论分析，有效提升了长上下文的推理利用效率。",
+      "source": "arxiv_cs_cl",
+      "title_en": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3447414475,
+      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+      "published_at": "2026-07-02T00:00:00",
+      "original_language": "en",
+      "summary_en": "This brief outlines the cybersecurity protections built into the Fable 5 model and introduces a structured jailbreak framework used to evaluate them. The key contribution is a systematic method for probing AI safeguards, likely exposing gaps that adversarial prompts can exploit. Such audits are crucial for hardening deployed models against misuse and ensuring safe real-world performance.",
+      "summary_zh": "该文聚焦于Fable 5系统的网络安全防护机制及其越狱框架，旨在应对AI系统面临的对抗性攻击与安全漏洞。其核心在于披露Fable 5的具体安全措施，并提供一套用于测试系统鲁棒性的越狱方法，这对提升人工智能可靠性及推进AI安全研究具有重要意义。",
+      "source": "anthropic_news",
+      "title_en": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1090826004,
+      "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+      "title": "Giving admins more visibility and control over Claude spend",
+      "published_at": "2026-07-03T10:28:25.781492",
+      "original_language": "en",
+      "summary_en": "This update tackles the issue of administrators lacking adequate tools to oversee and regulate Claude-related expenses. It introduces features that enhance spending visibility and admin control, allowing tracking and restriction of usage. This helps organizations prevent budget overruns and align AI spending with operational needs.",
+      "summary_zh": "该更新针对企业使用Claude时面临的成本不透明与超支风险，通过为管理员提供更细致的支出监控与控制功能（如预算设置和实时警报）。这有助于组织精细化管理AI开支，避免意外费用，从而支撑大规模、财务可持续的AI部署。",
+      "source": "claude_blog",
+      "title_en": "Giving admins more visibility and control over Claude spend",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2402315842,
+      "url": "https://claude.com/blog/building-effective-human-agent-teams",
+      "title": "Building effective human-agent teams",
+      "published_at": "2026-07-03T10:28:25.783363",
+      "original_language": "en",
+      "summary_en": "The work addresses the challenge of designing and managing collaborative systems where humans and autonomous agents work together effectively. It likely investigates frameworks or strategies that optimize team performance, trust, and coordination between human decision-makers and AI partners. This is critical for advancing human-centered AI, ensuring that future human-agent teams can tackle complex tasks reliably in real-world settings.",
+      "summary_zh": "该研究探讨如何构建高效的人机协作团队，核心在于解决代理智能体与人类在任务中的协同、信任与沟通问题。通过优化共享心智模型和动态任务分配机制，提升团队整体决策与执行效能。这对未来复杂场景中可信赖的人机协同工作模式具有重要指导意义。",
+      "source": "claude_blog",
+      "title_en": "Building effective human-agent teams",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1515187656,
+      "url": "https://podcasters.spotify.com/pod/show/firstmark/episodes/Why-NVIDIA-Is-Giving-Away-AI-Models--Bryan-Catanzaro-e3li7o6",
+      "title": "Why NVIDIA Is Giving Away AI Models | Bryan Catanzaro",
+      "published_at": "2026-07-02T11:30:00",
+      "original_language": "en",
+      "summary_en": "NVIDIA invests heavily in open-source AI models like Nemotron to address the chicken-and-egg problem of driving AI adoption that ultimately fuels demand for its chips. By giving away advanced models, NVIDIA accelerates ecosystem growth and ensures its GPUs remain the standard hardware for training and inference. This strategic openness strengthens its market dominance while pushing the entire field forward.",
+      "summary_zh": "英伟达作为芯片公司，投入大量研究员开发并免费开放AI模型，旨在通过生态绑定推动其硬件需求，巩固市场主导地位。Bryan Catanzaro 领导的 Nemotron 等开源模型系列，正是这一战略的核心体现，其关键在于以软件促进硬件销售，形成技术壁垒。",
+      "source": "mad_podcast",
+      "title_en": "Why NVIDIA Is Giving Away AI Models | Bryan Catanzaro",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3397460261,
+      "url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers",
+      "title": "面向 Web 开发者的 Safari MCP 服务器",
+      "published_at": "2026-07-03T09:59:42.679000+00:00",
+      "original_language": "zh",
+      "summary_en": "The Safari MCP server tackles the tedious, context-switching-heavy process of web debugging by letting AI agents connect directly to browser windows via the Model Context Protocol, automating tasks like performance analysis, accessibility checks, and network inspection. It exposes key tools such as JavaScript evaluation, DOM access, and console monitoring, so developers can offload routine diagnostics to intelligent agents and focus on higher-level work.",
+      "summary_zh": "Safari MCP 服务器专为解决开发者在网页调试与自动化分析中频繁切换工具的问题，通过 Model Context Protocol 让 AI 智能体直接连接浏览器，获取 DOM、网络请求、截图与控制台信息。关键方法在于内置浏览器自动化工具集，并允许与外部智能体远程交互，从而自主执行性能分析和可访问性检查等任务。这大幅降低了开发者手动介入的门槛，将 Web 测试与诊断流程智能化，提升了开发效率。",
+      "source": "aihot_selected",
+      "title_zh": "面向 Web 开发者的 Safari MCP 服务器",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1847006201,
+      "url": "https://www.ithome.com/0/972/341.htm",
+      "title": "国家网信办就《互联网信息服务管理办法》再次征求意见，首设\"智能信息服务\"专章规范AI服务",
+      "published_at": "2026-07-03T09:15:08+00:00",
+      "original_language": "zh",
+      "summary_en": "China’s draft Internet regulation introduces a dedicated “Intelligent Information Services” chapter to tackle opacity and potential misuse of AI, notably by requiring providers to publicly explain basic technical principles and training data sources, label synthetic content, and prohibiting coercive use or algorithmic manipulation of online opinion. This establishes an explicit transparency and accountability framework for AI services in a major digital ecosystem, influencing how AI systems are deployed and governed.",
+      "summary_zh": "该修订草案针对AI服务透明度与责任缺失的问题，提出AI服务提供者须公示技术原理、训练数据来源，并对生成合成内容标识，同时禁止利用算法操纵舆论。此举旨在通过强化智能信息服务规范与用户保护机制，应对深度伪造、舆论操纵等风险，为AI治理提供法律框架。",
+      "source": "aihot_selected",
+      "title_zh": "国家网信办就《互联网信息服务管理办法》再次征求意见，首设\"智能信息服务\"专章规范AI服务",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3033146791,
+      "url": "https://mp.weixin.qq.com/s/JVBbqU1O967ktzfEPuDERQ",
+      "title": "面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
+      "published_at": "2026-07-03T09:12:17+00:00",
+      "original_language": "zh",
+      "summary_en": "ForgeTrain tackles the costly, manual effort of hand-tuning training frameworks for specific model-hardware pairs by automatically generating specialized pre-training code via a four-stage optimization process. It matches Megatron-LM in just 8 hours and then outperforms it by 8–10% in FLOPS utilization, while seamlessly transferring across different model scales and hardware platforms like H100 and Ascend NPU. This fully AI-driven approach drastically reduces both development time and compute waste, accelerating and cheapening large-scale model training.",
+      "summary_zh": "面壁智能推出首个全自动预训练框架 ForgeTrain，实现了由 AI 从零编写专用训练代码，无需人工干预。该框架在 8 小时内追平 Megatron-LM，1.5 至 2 天实现反超且 FLOPS 利用率提升 8%~10%，并成功迁移至不同模型与硬件。这标志着大模型训练过程向完全自动化迈出重要一步，其工程思想“Forge Engineering”有望大幅降低训练成本与开发门槛。",
+      "source": "aihot_selected",
+      "title_zh": "面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2373303577,
+      "url": "https://x.com/alibaba_cloud/status/2072967570441834771",
+      "title": "Wan Video 推出\"音乐伴舞\"新功能",
+      "published_at": "2026-07-03T08:55:57+00:00",
+      "original_language": "zh",
+      "summary_en": "Wan Video’s “Music Dance” feature addresses the problem of automatically generating rhythm-synchronized dance videos from a single character image and an audio track. The key approach likely involves AI-driven motion synthesis conditioned on music beats and a selected dance style (e.g., K-Pop, tap), mapping auditory rhythm to stylized character movements. This matters because it democratizes high-quality, music-responsive animation for creators, eliminating the need for manual motion design or performance capture.",
+      "summary_zh": "Wan Video 推出“音乐伴舞”功能，解决传统舞蹈视频制作中角色与音乐节拍同步难度高的问题。用户只需上传角色图像并选择歌曲，即可自动生成街舞、K-Pop 等多舞种的节奏同步视频，大幅降低创作门槛，为内容创作者提供高效的 AI 视频生成工具。",
+      "source": "aihot_selected",
+      "title_zh": "Wan Video 推出\"音乐伴舞\"新功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 637036061,
+      "url": "https://blog.okturtles.org/2026/07/short-leash-ai-method",
+      "title": "《Fable》通关指南：短绳AI编程法",
+      "published_at": "2026-07-03T06:16:11.377000+00:00",
+      "original_language": "zh",
+      "summary_en": "This “Short Leash Method” tackles the risk of destructive or low-quality output from AI coding agents by requiring the developer to stay closely involved: decompose tasks upfront, review every diff and reject unwanted changes, commit after each subtask, and enforce dual human-AI PR reviews with mandatory self-review. The approach matters because it reliably delivers high-quality code—even without frontier models—exceeding the quality of a complex reference project like Fable 5, while preventing agent misbehavior such as Opus’s known destructive tendencies.",
+      "summary_zh": "该指南提出“短绳AI编程法”，要求开发者全程密切控制AI编码代理，通过细粒度任务分解、差量审查、及时提交和双重PR审查，防范模型误操作。这种方法让非前沿模型也能稳定产出高质量代码，超越特定基准。",
+      "source": "aihot_selected",
+      "title_zh": "《Fable》通关指南：短绳AI编程法",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2220036837,
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "title": "claude-real-video ─ 让任何大语言模型（LLM）都能观看视频",
+      "published_at": "2026-07-03T04:56:06.814000+00:00",
+      "original_language": "zh",
+      "summary_en": "The tool addresses the problem that large language models typically cannot directly understand video from visual frames, relying instead on subtitles. Its key approach is to extract keyframes via scene-change detection, deduplicate with a sliding window, and transcribe audio, producing a clean local file tree for the model to consume. This matters because it enables any LLM to visually comprehend video content while keeping all processing local and private.",
+      "summary_zh": "claude-real-video 解决了大语言模型无法直接观看视频画面的问题，它通过场景变化检测提取关键帧，并用滑动窗口去重、Whisper 转录音频，将视频转化为包含视觉和听觉信息的本地文件夹，让任意 LLM 都能基于画面内容进行理解。其完全在本地运行、不涉及云上传的特点，既保护了数据隐私，也极大降低了多模态视频理解的使用门槛。",
+      "source": "aihot_selected",
+      "title_zh": "claude-real-video ─ 让任何大语言模型（LLM）都能观看视频",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2587806859,
+      "url": "https://www.ithome.com/0/972/089.htm",
+      "title": "阿里达摩院发布超导材料发现AI智能体Elements Claw",
+      "published_at": "2026-07-03T03:27:15+00:00",
+      "original_language": "zh",
+      "summary_en": "The AI agent Elements Claw",
+      "summary_zh": "阿里达摩院等机构发布的AI智能体Elements Claw，旨在高效筛分超导材料，解决传统发现过程耗时耗力的问题。它通过“专通融合”架构和1B参数基础模型，快速从240万晶体结构中预测出6.8万个候选材料，并已实验验证4种新型超导体，其中最高临界温度达6.5K。这一突破展示了AI在加速超导材料发现中的巨大潜力，且开放的全量数据库将进一步推动领域研究。",
+      "source": "aihot_selected",
+      "title_zh": "阿里达摩院发布超导材料发现AI智能体Elements Claw",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2322791543,
+      "url": "https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg",
+      "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
+      "published_at": "2026-07-03T00:16:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Claude Fable 5 autonomously diagnosed AIHOT’s SEO/GEO gaps by spawning 22 agents that uncovered uncounted traffic from Doubao App, then identified and executed a migration to Volcengine CDN after rejecting Cloudflare’s plan due to domestic access and AI-crawler blocking issues. The system independently filed a technical ticket, corrected engineer omissions, patched a security flaw with a hidden verification token, and completed a production cutover within minutes, demonstrating fully automated, end-to-end infrastructure optimization. This showcases how multi-agent AI can handle real‑world DevOps tasks—from discovery to deployment and documentation—without human hand‑holding, significantly accelerating complex site reliability workflows.",
+      "summary_zh": "Claude Fable 5 自主调度智能体对 AIHOT 网站进行 SEO/GEO 优化，发现未被统计的豆包 App 流量异常，并主动否定存在国内直连与 AI 爬虫拦截风险的 Cloudflare 方案，转向火山引擎 CDN。模型自行提交专业工单、追问遗漏的回源 IP 网段、修补官方方案安全漏洞，最终在深夜成功切换流量并生成运维文档。这展示了 AI 自主完成复杂运维任务的能力，能高效弥补人工监控疏漏并提升海外访问性能，对站点可靠性与数据洞察有重要价值。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4204451344,
+      "url": "https://www.ithome.com/0/971/971.htm",
+      "title": "得州特斯拉致命车祸：司机嫌FSD太保守，加速踏板踩死致76岁居民死亡",
+      "published_at": "2026-07-02T23:43:15+00:00",
+      "original_language": "zh",
+      "summary_en": "This incident highlights a critical safety challenge in human-automation interaction: when an autonomous system's behavior is perceived as overly conservative, a driver may manually override it with extreme inputs, undermining safety. Vehicle telemetry confirmed the driver fully depressed the accelerator for six seconds, overriding Tesla's Full Self-Driving to more than double the speed limit, with no brake application recorded. The case underscores the need for AI-assisted driving systems to better anticipate and mitigate dangerous manual overrides, informing risk-aware design and driver-monitoring strategies.",
+      "summary_zh": "此事故凸显了驾驶员对自动驾驶系统“过于保守”的不满可能引发危险操作，关键发现是司机完全踩下加速踏板手动覆盖FSD，导致车辆超速撞入住宅致死。这揭示了人机交互中当驾驶员过度干预自动驾驶且缺乏有效监控时，会酿成致命风险，对自动驾驶安全设计及监管调查具有重要警示意义。",
+      "source": "aihot_selected",
+      "title_zh": "得州特斯拉致命车祸：司机嫌FSD太保守，加速踏板踩死致76岁居民死亡",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2876231484,
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped",
+      "title": "扎克伯格称AI智能体开发速度未如预期",
+      "published_at": "2026-07-02T23:38:10+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta CEO Mark Zuckerberg acknowledged that the development pace of AI agents has not accelerated as expected, despite significant restructuring, including layoffs and reallocating thousands of employees to AI teams. He noted that the anticipated benefits of the new AI-centric structure have yet to materialize but expects improvements in AI investment outcomes within three to six months. This highlights the challenges major tech firms face in rapidly scaling AI capabilities and the gap between aggressive investment and tangible returns.",
+      "summary_zh": "Meta CEO 扎克伯格承认，尽管公司大幅裁员并重组团队聚焦AI智能体开发，但进展并未如预期加速。这一问题突显了大型科技公司在激进转向AI时，组织转型的实际效果存在滞后，但他预计未来数月投资回报将开始显现。",
+      "source": "aihot_selected",
+      "title_zh": "扎克伯格称AI智能体开发速度未如预期",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 220246585,
+      "url": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom",
+      "title": "阿里巴巴发布 Page Agent：开源 JavaScript 库实现网页 DOM 自然语言操控",
+      "published_at": "2026-07-02T20:51:39+00:00",
+      "original_language": "zh",
+      "summary_en": "阿里巴巴发布 Page Agent，一个开源的 JavaScript 客户端库，嵌入网页后可通过自然语言指令直接操作 DOM 元素。与 Playwright、Puppeteer 等外部浏览器自动化工具不同，Page Agent 不依赖截图或多模态模型，而是将实时 DOM 脱水压缩为 FlatDomTree 文本映射，让纯文本模型精准执行点击、表单填写等操作。它继承用户 cookies 和会话，无需独立后端，并支持任意 OpenAI 兼容端点的模型（示例使用 `qwen3.5-plus`）。项目采用 MIT 许可证，适合在自有应用内构建 AI 副驾、智能表单填充或无障碍控制等场景，但限于单页面范",
+      "summary_zh": "阿里巴巴发布的开源库 Page Agent 解决了传统浏览器自动化工具依赖截图或多模态模型的高成本问题，它通过将实时 DOM 压缩为文本映射（FlatDomTree），使纯文本模型可直接用自然语言操控网页元素。这一方法无需独立后端、继承用户会话，降低了在自有应用中集成 AI 副驾、智能表单填充等场景的门槛，但限于单页操作，敏感动作仍需服务端校验。",
+      "source": "aihot_selected",
+      "title_zh": "阿里巴巴发布 Page Agent：开源 JavaScript 库实现网页 DOM 自然语言操控",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1599659141,
+      "url": "https://x.com/emollick/status/2072778376494895139",
+      "title": "关于Mythos和网络安全的讨论并非炒作",
+      "published_at": "2026-07-02T20:24:09+00:00",
+      "original_language": "zh",
+      "summary_en": "The article argues that discussions linking Mythos and cybersecurity are substantive rather than hype, a point already evident to those using Fable for autonomous tasks. It underscores the practical relevance of these conversations, moving beyond sensationalism to highlight their real-world importance.",
+      "summary_zh": "该讨论强调围绕 Mythos 和网络安全的关注并非空洞的炒作，而是基于实际需求与挑战。核心发现是，使用 Fable 进行自主工作的实践者早已直观感受到这些问题的真实性，这证实了网络安全议题的务实价值，有助于引导业界从喧嚣转向切实风险应对。",
+      "source": "aihot_selected",
+      "title_zh": "关于Mythos和网络安全的讨论并非炒作",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3338086109,
+      "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients",
+      "title": "Microsoft 成立\"Frontier Company\"，斥资 25 亿美元派驻 6000 名 AI 工程师到企业客户现场",
+      "published_at": "2026-07-02T19:18:29+00:00",
+      "original_language": "zh",
+      "summary_en": "Microsoft addresses the challenge of enterprise AI adoption at scale by launching “Frontier Company,” a new unit with $2.5 billion in funding and 6,000 on-site engineers who co-design, deploy, and continuously improve AI systems directly with clients. The approach moves beyond traditional pre-deployment consulting to a result‑oriented engineering model, positioning Microsoft as a platform‑neutral alternative to OpenAI and Anthropic while leveraging global system integrators for broader reach. This matters because it signals a shift toward hands‑on, outcome‑based AI industrialization, potentially accelerating real‑world AI integration and reshaping the competitive landscape of AI deployment.",
+      "summary_zh": "Microsoft 通过新设“Frontier Company”并投入 25 亿美元、派驻 6000 名专家到客户现场，解决企业 AI 项目落地难、集成慢的问题。其核心方法是超越传统预部署工程，以“共同设计、共同创新、部署并持续改进”的深度现场协作模式，打造最大的结果导向型工程组织。这一举措让 Microsoft 以平台中立的身份直接对标 OpenAI 和 Anthropic 的部署服务，并通过与埃森哲等集成商合作，意图重新定义企业级 AI 部署与规模化服务标准。",
+      "source": "aihot_selected",
+      "title_zh": "Microsoft 成立\"Frontier Company\"，斥资 25 亿美元派驻 6000 名 AI 工程师到企业客户现场",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1344641315,
+      "url": "https://www.lmsys.org/blog/2026-07-02-agent-assisted-sglang-development",
+      "title": "Agent辅助的SGLang开发：初步探索",
+      "published_at": "2026-07-02T18:37:56.676000+00:00",
+      "original_language": "zh",
+      "summary_en": "The content proposes an agent-assisted engineering framework for SGLang that encodes complex performance optimization workflows (LLM serving, diffusion pipelines, GPU kernels) into executable skill files and structured review loops. Its key approach is a \"SOTA Performance Loop\" that systematically decomposes the pursuit of state-of-the-art performance into fair benchmarking, gap analysis, profiling, patching, and re-verification, all with external review and reduced coordination overhead. This matters because it transforms ad‑hoc infrastructure tuning into a reproducible, automated, and production‑oriented engineering discipline, enabling consistent, low‑friction advances in AI serving systems.",
+      "summary_zh": "SGLang团队将LLM服务、GPU内核优化等工作流编码为可执行的SKILL文件与审查循环，以自动化性能调优和开发集成，解决了复杂AI基础设施开发中的效率与标准化问题。关键发现是通过证据驱动的Profile分析和面向SOTA的Loop Engineering（含基准测试、差距决策、性能分析及补丁验证），实现了跨框架的持续性能提升，并强调了外部审查与流程定义对生产可靠性的重要性。该方法将AI研发流程从手动调参转向可复现、可协作的工程化实践，对提升大模型推理系统的迭代速度和产出质量具有重要参考价值。",
+      "source": "aihot_selected",
+      "title_zh": "Agent辅助的SGLang开发：初步探索",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2227042459,
+      "url": "https://x.com/OpenRouter/status/2072738704922439689",
+      "title": "Fable 5 仅 4.44 美元搭建 Rube Goldberg 机器",
+      "published_at": "2026-07-02T17:46:31+00:00",
+      "original_language": "zh",
+      "summary_en": "This demonstration tackles the difficulty of automated, cost-constrained design of multi-step mechanical sequences. Using a prompt to Fable 5 (Claude), the creator generated a fully functional Rube Goldberg machine built from household items for just $4.44, proving that a language model can reason through physical causality and produce a workable ultra-low-budget contraption. It matters because it showcases AI’s emerging ability to plan frugal, creative physical systems, lowering the barrier for hands-on prototyping and whimsical engineering.",
+      "summary_zh": "该工作展示了如何利用 Fable 5 以仅 4.44 美元的成本搭建复杂的 Rube Goldberg 机器，解决了传统此类装置搭建成本高、设计复杂的问题。其关键发现是，通过向模型提供详细提示词，可以生成高效且低成本的连锁反应方案，这大幅降低了创意机械装置的准入门槛，让更多人能够轻松参与此类工程。",
+      "source": "aihot_selected",
+      "title_zh": "Fable 5 仅 4.44 美元搭建 Rube Goldberg 机器",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 276431060,
+      "url": "https://x.com/kimmonismus/status/2072718147279335507",
+      "title": "Anthropic与五角大楼控权之争：Claude军事用途护栏分歧",
+      "published_at": "2026-07-02T16:24:50+00:00",
+      "original_language": "zh",
+      "summary_en": "The dispute centers on Anthropic’s refusal to allow Claude to be used for fully autonomous weapons and certain surveillance, clashing with the Pentagon’s demand for unrestricted lawful national security use. When the deadlock couldn’t be resolved, the Pentagon designated Anthropic a supply chain risk and ordered partners to stop using its models, with two-thirds of the operations already migrated to other AI tools. This standoff underscores a critical tension between AI safety ethics and defense imperatives, forcing a hard choice that could reshape military AI procurement and the enforcement of usage guardrails.",
+      "summary_zh": "Anthropic与五角大楼就Claude模型的军事用途限制产生核心分歧，前者要求禁止全自主武器和特定监控应用，后者坚持所有合法国家安全场景均可使用。僵局导致五角大楼将Anthropic列为供应链风险并限制其参与国防项目，而早期采用者已大规模转向其他AI工具。这一事件凸显了AI伦理护栏与国家防务需求之间的尖锐冲突，对AI国防供应链布局及行业伦理标准制定具有深远影响。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic与五角大楼控权之争：Claude军事用途护栏分歧",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3106146651,
+      "url": "https://www.ithome.com/0/971/954.htm",
+      "title": "快手可灵AI获初始投资者20.28亿美元注资，投后估值180亿美元",
+      "published_at": "2026-07-02T15:36:38+00:00",
+      "original_language": "zh",
+      "summary_en": "To scale large AI models, Keling AI secured over $2 billion in funding to massively expand compute infrastructure and data centers. This investment highlights the industry’s pressing demand for vast computational resources and positions the company to accelerate AI commercialization and an IPO.",
+      "summary_zh": "快手通过初始投资者向旗下可灵AI注资20.28亿美元，估值达180亿美元，并计划一年内赴港上市。此举旨在为其AI大模型业务提供算力、数据中心与人才储备，标志着快手在AI生成内容领域的战略加速，也反映出资本对通用人工智能落地应用的持续押注。",
+      "source": "aihot_selected",
+      "title_zh": "快手可灵AI获初始投资者20.28亿美元注资，投后估值180亿美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 190933812,
+      "url": "https://www.ithome.com/0/971/937.htm",
+      "title": "花旗、Adobe等企业限制员工使用AI旗舰模型以控制成本",
+      "published_at": "2026-07-02T14:22:49+00:00",
+      "original_language": "zh",
+      "summary_en": "面对AI旗舰模型导致月成本激增（如Atlassian从500万飙升至1500万美元），花旗、Adobe、亚马逊等企业已限制或禁用高级模型，要求改用能力更低的版本。此举反映出企业在规模化应用AI时，正通过降级模型或转向开源方案来强行控制成本，表明成本管理已成为AI落地的重要瓶颈。",
+      "summary_zh": "为应对AI工具支出激增导致的成本失控，花旗、Adobe等企业开始限制员工访问旗舰模型，转而要求使用能力较低的大模型。内部数据显示，部分企业月度AI开销已从500万美元飙升至1500万美元，促使GitHub等平台转向开源方案并测试按量计费。这一趋势凸显了高昂的AI采用成本正迫使企业重新评估模型部署策略，平衡能力与预算。",
+      "source": "aihot_selected",
+      "title_zh": "花旗、Adobe等企业限制员工使用AI旗舰模型以控制成本",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2472244328,
+      "url": "https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago",
+      "title": "Fable 5 在 RLI 基准中达成 16.1% 自动化率，较八个月前提升六倍",
+      "published_at": "2026-07-02T12:37:49+00:00",
+      "original_language": "zh",
+      "summary_en": "Fable 5 achieves a 16.1% automation rate on the Remote Labor Index, a benchmark evaluating AI agents on real paid freelance projects, marking a sixfold improvement over eight months ago. The key finding is that while AI progress is accelerating, most tasks still fall short of professional quality, and human evaluation remains essential because AI judges significantly overrate performance. This matters as it quantifies the gap between rapid capability gains and the reliability needed for autonomous professional work.",
+      "summary_zh": "该研究通过远程劳动指数（RLI）基准，评估AI智能体完成付费自由职业项目的专业质量，发现最新模型Fable 5的自动化率达到16.1%，较八个月前提升六倍，但AI裁判会高估模型表现，仍需人类评估员核查细节。这一结果展示了AI在真实专业任务中能力的快速跃升，同时提示自动化率攀升背后，多数项目尚未达到专业水准，凸显当前智能体在复杂、长程任务中仍面临挑战。",
+      "source": "aihot_selected",
+      "title_zh": "Fable 5 在 RLI 基准中达成 16.1% 自动化率，较八个月前提升六倍",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4243342005,
+      "url": "https://x.com/shao__meng/status/2072644710523691110",
+      "title": "browser-use 发布开源 AI 视频剪辑 Skill「video-use」",
+      "published_at": "2026-07-02T11:33:01+00:00",
+      "original_language": "zh",
+      "summary_en": "The browser-use team’s open-source Skill `video-use` enables LLM‑based coding agents to perform video editing by first transcribing audio into a compact, timestamped text summary (≈12 KB with speaker diarization and event markers) via ElevenLabs Scribe, and only fetching a PNG frame via `timeline_view.py` when a decision is needed. A full production‑focused pipeline then assembles a JSON edit decision list, renders with ffmpeg using techniques like segment‑copy concatenation, two‑pass loudnorm, and HDR mapping, and applies up to three rounds of self‑critique – all guarded by 12 hard rules. This matters because it dramatically reduces token costs while giving AI agents the precise visual‑editorial reasoning needed to produce broadcast‑ready cuts autonomously.",
+      "summary_zh": "browser-use 发布的 video-use 技能解决了大模型在视频编辑任务中上下文过载的问题，通过先将音频精准转写为带时间戳的轻量文本、仅在决策节点抽取帧图来大幅降低 token 消耗，并自动生成 EDL 与 ffmpeg 渲染管线，最终实现端到端可生产的视频剪辑。该方案结合最多三轮自评估与 12 条硬规则，显著提升了 AI 编码智能体处理复杂视频任务的可靠性与效率，为自动化视频制作开辟了实用路径。",
+      "source": "aihot_selected",
+      "title_zh": "browser-use 发布开源 AI 视频剪辑 Skill「video-use」",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1517901471,
+      "url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025",
+      "title": "谷歌AI建设导致2025年用电量增长37%",
+      "published_at": "2026-07-02T11:15:49+00:00",
+      "original_language": "zh",
+      "summary_en": "Google's 2025 electricity consumption rose 37% to over 42,000 GWh, driven by AI and cloud infrastructure, and now exceeds the total power use of nations like New Zealand. This surge, with total usage up 250% since 2019, underscores the escalating energy demands of large-scale AI deployment, which is currently outpacing grid decarbonization efforts and posing a critical sustainability challenge for the tech sector.",
+      "summary_zh": "谷歌AI基础设施建设导致2025年用电量同比激增37%，数据中心耗电超4200万兆瓦时，超过新西兰等国总和，凸显AI扩张对能源的巨大需求。尽管公司承诺扩大清洁电力，但AI基建速度远超电网脱碳进程，暴露出技术发展与环境可持续性之间的尖锐矛盾，迫切需要在算力增长与减排目标间寻找平衡。",
+      "source": "aihot_selected",
+      "title_zh": "谷歌AI建设导致2025年用电量增长37%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 654275039,
+      "url": "https://senior-swe-bench.snorkel.ai/",
+      "title": "Senior SWE-Bench：评估AI智能体作为高级工程师的基准测试",
+      "published_at": "2026-07-02T11:04:07.048000+00:00",
+      "original_language": "zh",
+      "summary_en": "Senior SWE-Bench evaluates AI agents on senior-engineer-level tasks, revealing that even the most capable models (e.g., Claude Opus 4.8 at 24% pass rate) fail over 75% of scenarios requiring correctness and taste. It contrasts functional tasks with natural-language specs and bug tasks demanding deep runtime investigation, using expert-validated behavioral tests and real-world PRs from experienced engineers. This benchmark highlights a significant gap in AI’s ability to handle complex, multi-file software engineering work, setting a higher bar for agent evaluation.",
+      "summary_zh": "Senior SWE-Bench 旨在评估 AI 智能体完成高级软件工程师级别任务的能力，涵盖功能开发与复杂 Bug 修复，要求模型理解自然语言指令、深入调查运行时信息并生成高质量代码。测评显示，当前最强前沿模型的通过率均低于 25%，在多数任务中未能达到资深工程师的严谨性和品味，且任务涉及多文件修改和数百步操作，揭示了现有 AI 在真实工程场景中的显著差距，对推动具备深度代码理解与执行能力的 AI 系统发展具有重要参考价值。",
+      "source": "aihot_selected",
+      "title_zh": "Senior SWE-Bench：评估AI智能体作为高级工程师的基准测试",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 296443696,
+      "url": "https://mp.weixin.qq.com/s/l70iUM0bIpG9EdV9Px7QPQ",
+      "title": "千问团队朱达：C端Agent Harness的\"多快好省\"工程哲学与主动服务探索",
+      "published_at": "2026-07-02T10:22:07+00:00",
+      "original_language": "zh",
+      "summary_en": "The Qwen team addressed the efficiency and cost challenges of general-purpose AI agents by deploying a \"multi-task, fast, high-quality, cost-saving\" Agent Harness in their app. Their key engineering approach reduced execution time to one-third of initial levels and token consumption to one-tenth of overseas products through optimized search paradigms and context management, while shifting from passive response to proactive service with four core components: User Memory, Environment, Task System, and Assistant. This work matters because it advances Agent Engineering from Prompt Engineering to Harness Engineering and points toward AIWare Engineering, emphasizing low-power, sufficient-capability design, with \"emotional intelligence\" identified as the hardest hurdle for proactive assistants.",
+      "summary_zh": "千问团队提出面向C端的Agent工程方法论“多快好省”，通过搜索范式与上下文优化将复杂任务的执行时间降至初始1/3、Token消耗仅为海外产品的1/10，并构建兼具User Memory、环境感知与任务系统的主动服务框架，指出“情商”是打通被动响应到主动陪伴的关键难点。这一实践从Harness Engineering向AI Ware Engineering演进，强调以“低功耗、够用就行”的策略实现高性价比的通用Agent，对平衡模型能力与工程成本具有重要参考价值。",
+      "source": "aihot_selected",
+      "title_zh": "千问团队朱达：C端Agent Harness的\"多快好省\"工程哲学与主动服务探索",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2897361279,
+      "url": "https://arxiv.org/abs/2607.02375",
+      "title": "表示分布匹配（RDM）用于一步视觉生成",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This work addresses the challenge of training efficient one-step image generators by introducing Representation Distribution Matching (RDM), which aligns feature distributions from a frozen encoder using classical Maximum Mean Discrepancy as a scalable loss. Key insights include the need for large generator batch sizes and balancing multiple encoder representations to avoid trivial solutions, leading to the improved iRDM variant. iRDM achieves state-of-the-art one-step generation on ImageNet and can distill a four-step FLUX.2 model into a superior one-step generator with only 90 GPU hours, demonstrating its practicality for high-quality visual synthesis.",
+      "summary_zh": "RDM 针对一步视觉生成中分布匹配的局限性，通过在冻结的预训练编码器上匹配生成与参考特征分布来训练一步生成器，发现经典MMD在批量大于2048时可扩展为有效目标，但需匹配多个平衡编码器以避免表征被“欺骗”。基于此改进的 iRDM 在 ImageNet 上取得一步生成最优 SW_r14 得分，并将四步 FLUX.2 蒸馏为一步模型，以极少的 90 H200 GPU 小时在 GenEval 和 PickScore 上超越原版，表明高效的分布匹配后训练能显著提升一步扩散生成器的质量与效率。",
+      "source": "aihot_selected",
+      "title_zh": "表示分布匹配（RDM）用于一步视觉生成",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 334034080,
+      "url": "https://arxiv.org/abs/2607.02512",
+      "title": "Program-as-Weights：一种面向模糊函数的编程范式",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The paper addresses the prohibitive inference cost of large language models for fuzzy functional tasks by introducing Program-as-Weights (PAW), a paradigm that compiles natural language function descriptions into compact, parameter-efficient adapters. A 4B compiler generates these neural artifacts for a frozen 0.6B interpreter, achieving performance matching a 32B prompted model while using 50× less memory and running at 30 tokens/s on a laptop. This matters because it reframes foundation models from expensive per-input solvers into one-time tool builders, enabling the created artifacts to be reused cheaply and offline.",
+      "summary_zh": "PAW 将自然语言描述的模糊函数编译为紧凑的神经制品，通过 4B 编译器为冻结的轻量解释器生成参数高效适配器，从而将基础模型从每次推理的求解器转变为一个一次性的工具构建器。关键发现是 0.6B 解释器执行该程序即可媲美直接提示 32B 模型的性能，而推理内存仅需约五十分",
+      "source": "aihot_selected",
+      "title_zh": "Program-as-Weights：一种面向模糊函数的编程范式",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 297229137,
+      "url": "https://machinelearning.apple.com/research/robustness-chain-thought-consistency",
+      "title": "RL微调VLM的鲁棒性与思维链一致性研究",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This study examines the pitfalls of reinforcement learning (RL) fine-tuning for vision-language models, uncovering a critical accuracy–faithfulness trade-off: while it boosts benchmark scores, it simultaneously erodes chain-of-thought reliability and robustness to simple text perturbations. A faithfulness-aware reward can realign answers and reasoning, but its combination with adversarial augmentation often leads to training collapse. These findings highlight the urgent need to jointly optimize correctness, robustness, and faithful visual reasoning in fine-tuned VLMs.",
+      "summary_zh": "该研究揭示了强化学习微调视觉语言模型时，简单的文本扰动会严重损害其鲁棒性和思维链的可信度，且开源模型衰退更为明显。关键发现是存在准确性与忠实性的权衡：微调提升了任务正确率，却破坏了推理过程的可靠性，即便使用对抗增强也无法阻止思维链的忠实性漂移。这强调了在追求性能时，必须联合优化正确性、抗干扰鲁棒性以及视觉推理的忠实性，避免模型学到不可靠的捷径。",
+      "source": "aihot_selected",
+      "title_zh": "RL微调VLM的鲁棒性与思维链一致性研究",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 877885042,
+      "url": "https://machinelearning.apple.com/research/videoflextok",
+      "title": "VideoFlexTok：可变长度粗到细视频分词",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "VideoFlexTok tackles the inefficiency of fixed-length 3D video tokenization by introducing a variable-length, coarse-to-fine token sequence, where initial tokens encode abstract semantics and motion while later tokens add fine details, enabling reconstruction from any token count via a generative flow decoder. This design allows encoding significantly longer videos under a fixed token budget and achieves comparable video generation quality to a 5.2B-parameter model while using only 1.1B parameters, needing 8× fewer tokens for 10-second clips. The approach offers flexible, efficient video representation that adapts to downstream task requirements without sacrificing quality.",
+      "summary_zh": "VideoFlexTok 针对传统 3D 网格分词方法 token 数量固定、长视频编码效率低的问题，提出了一种可变长度的粗到细视频表示方法，首 token 捕捉语义运动，后续 token 补充细节，并配以流式解码器。该方法可在相同预算下编码更长视频，仅用 1.1B 参数即取得与 5.2B 模型相当的生成质量，并在 10 秒视频重建中将 token 用量降低 8 倍，显著提升了视频生成和编码的灵活性与效率。",
+      "source": "aihot_selected",
+      "title_zh": "VideoFlexTok：可变长度粗到细视频分词",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1187739512,
+      "url": "https://machinelearning.apple.com/research/multi-agent-teams-experts",
+      "title": "多智能体团队阻碍专家发挥",
+      "published_at": "2026-07-02T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "这项研究揭示了自组织多智能体LLM系统中，团队协作反而阻碍了专家成员发挥其专业能力，即使在明确识别专家后，团队表现仍比单专家独立工作时最多下降41.1%。关键失败原因并非无法识别专家，而是团队倾向于做出“整合性妥协”——平均化专家与非专家观点，这种现象随团队规模增大而加剧，并与表现负相关；但这种寻求共识的行为同时增强了对恶意智能体的鲁棒性，凸显了协同对齐与充分利用专家知识之间的根本性权衡。",
+      "summary_zh": "该研究揭示了自组织多智能体LLM系统中，团队无法有效发挥专家成员的作用，即便明确其身份，性能损失仍可达41.1%。失败的关键在于团队倾向于“整合性妥协”——平均化专家与非专家意见，而非有效采纳专家判断，且该行为随团队规模扩大而加剧。这一发现揭示了多智能体协同中“共识寻求”与“专家利用”之间的根本性权衡：虽然平均化增强了对抗恶意的鲁棒性，却严重损害了集体表现。",
+      "source": "aihot_selected",
+      "title_zh": "多智能体团队阻碍专家发挥",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1341871524,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.5-nightly.20260703.b16baf1ff",
+      "title": "QwenLM/qwen-code: Release v0.19.5-nightly.20260703.b16baf1ff",
+      "published_at": "2026-07-03T00:47:12+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release fixes mobile session-switch jank via memoized timeline signatures and replay-first dispatch, resolves a macOS seatbelt profile path error by locating it from the bundle directory, and adds CLI bootstrap fast paths. These patches improve UI responsiveness, platform compatibility, and startup speed, making the Qwen Code assistant more stable and performant for developers.",
+      "summary_zh": "Qwen Code 夜间版 v0.19.5 主要修复了三类问题：通过缓存时间线签名和优先重放事件，解决了移动端切换会话时的卡顿；将 macOS 沙箱配置文件路径从 chunk 目录修正为 bundle 目录；还增加了命令行工具的启动快路径，提升引导效率。这些改进提升了移动端、桌面端和命令行环境下的流畅性和稳定性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.5-nightly.20260703.b16baf1ff",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 911092583,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.7.0",
+      "title": "QwenLM/qwen-code: cua-driver-rs v0.7.0",
+      "published_at": "2026-07-03T07:24:03+00:00",
+      "original_language": "en",
+      "summary_en": "This release delivers prebuilt binaries for a **cua-driver** fork that adds relative-coordinate support, addressing inconsistent UI automation across different screen resolutions and DPIs. By setting a simple environment variable, users can switch from absolute to relative coordinate space (with an optional scale factor), making interactions more robust across macOS (signed/notarized), Linux, and Windows. This simplifies cross-platform automated desktop testing and enables reliable mouse/keyboard actions regardless of display configuration.",
+      "summary_zh": "该版本提供跨平台的预编译 cua-driver 二进制文件（macOS 已签名公证、Linux/Windows 未签名），并通过环境变量新增相对坐标模式支持，旨在解决不同系统下的部署一致性问题，并为需要更精细定位控制的自动化场景提供更灵活的坐标输入方式。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: cua-driver-rs v0.7.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1387033616,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.5",
+      "title": "QwenLM/qwen-code: Release v0.19.5",
+      "published_at": "2026-07-02T13:36:05+00:00",
+      "original_language": "en",
+      "summary_en": "This update improves the Qwen Code CLI’s reliability and resource use. It hardens the daemon-managed channel worker to prevent failures, and defers web-shell session creation until the first prompt to avoid unnecessary overhead. The release also adds documentation for model, authentication, and safety settings, making the tool easier to configure and use securely.",
+      "summary_zh": "此版本主要强化了 CLI 守护进程的通道工作者稳定性，通过延迟 web-shell 会话创建至首次交互来优化资源占用，并补充了模型认证与安全模式文档。这些改进提升了编码助手在长期运行中的可靠性、冷启动效率及用户配置的便捷性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3341713888,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.22.1",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.22.1",
+      "published_at": "2026-07-02T13:58:56+00:00",
+      "original_language": "en",
+      "summary_en": "This update tackles the problem of losing critical image details when large screenshots or diagrams are compressed for an AI coding assistant. The approach compresses images for efficiency but explicitly informs the model of original and delivered dimensions, and retains the ability to read cropped or full-resolution regions on demand. This matters because it allows the assistant to maintain access to fine-grained visual context—such as UI elements or code structure—without sacrificing performance.",
+      "summary_zh": "此版本更新主要解决了在大图像压缩后模型无法获取完整细节的问题。它通过保留原始图像并支持裁剪或全分辨率读取，确保在压缩传达时同步告知模型原始与压缩后的图像信息。这使模型能更精准地理解图像中的细微元素，对需要视觉代码理解的场景至关重要。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.22.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
