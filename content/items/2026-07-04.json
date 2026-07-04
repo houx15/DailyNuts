@@ -1,0 +1,138 @@
+{
+  "date": "2026-07-04",
+  "items": [
+    {
+      "id": 3632217780,
+      "url": "https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon",
+      "title": "Meet the winners of our Claude Opus 4.8 Build Day hackathon",
+      "published_at": "2026-07-04T10:02:18.114242",
+      "original_language": "en",
+      "summary_en": "The hackathon challenged participants to build innovative solutions—ranging from research assistants to coding tools—using the advanced reasoning and multimodal capabilities of Claude Opus 4.8, with winning projects highlighting the model’s potential for tackling complex, real-world problems. The event matters because it demonstrates how frontier AI can be quickly translated into practical, high-impact applications through community-driven experimentation.",
+      "summary_zh": "本次Claude Opus 4.8 Build Day黑客松展示了开发者如何利用前沿大模型解决实际问题；获奖项目通过创新的智能体编排与工具链设计，探索了复杂任务自动化与多模态交互的新范式，对加速AI应用落地具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "Meet the winners of our Claude Opus 4.8 Build Day hackathon",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1908254501,
+      "url": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
+      "title": "Claude Design now stays on brand for daily work",
+      "published_at": "2026-07-04T10:02:18.114716",
+      "original_language": "en",
+      "summary_en": "The update resolves the problem of design inconsistency in everyday AI interactions by ensuring that Claude’s interface and generated outputs automatically adhere to brand guidelines without manual intervention. This matters because it preserves a cohesive brand identity and user trust, eliminating the overhead of constant style corrections during routine work.",
+      "summary_zh": "Claude Design 现在能够确保日常工作中产出的设计始终符合品牌规范，解决了AI生成内容偏离品牌风格的一致性问题。其核心是通过升级后的能力将设计输出与品牌身份对齐，从而让每次创作都维持品牌调性。这有助于加速工作流程，同时保障品牌资产在日常任务中得到稳固传承。",
+      "source": "claude_blog",
+      "title_en": "Claude Design now stays on brand for daily work",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3954053583,
+      "url": "https://claude.com/blog/workload-identity-federation",
+      "title": "Secure access to the Claude Platform with Workload Identity Federation",
+      "published_at": "2026-07-04T10:02:18.115355",
+      "original_language": "en",
+      "summary_en": "This document explains how to secure non-human access to the Claude platform by using workload identity federation, which replaces static API keys with short-lived tokens. It addresses the risk of credential leaks by allowing external workloads (e.g., CI/CD pipelines, cloud services) to authenticate using trusted identity providers and obtain temporary, scoped access. The approach matters because it strengthens security posture, simplifies operational management, and aligns with zero-trust principles for machine-to-machine communication.",
+      "summary_zh": "该方案解决云工作负载安全访问 Claude 平台时依赖长期凭据的痛点，通过工作负载身份联合（Workload Identity Federation）将可信的云服务身份（如 AWS、GCP）转换为短期令牌来授权 API 调用。这消除了密钥管理风险，实现了零信任下的动态权限控制，对于企业安全集成 AI 服务至关重要。",
+      "source": "claude_blog",
+      "title_en": "Secure access to the Claude Platform with Workload Identity Federation",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4104762054,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.6-nightly.20260704.5dc2e1501",
+      "title": "QwenLM/qwen-code: Release v0.19.6-nightly.20260704.5dc2e1501",
+      "published_at": "2026-07-04T00:48:07+00:00",
+      "original_language": "en",
+      "summary_en": "This release improves automated code review reliability by strengthening the PR triage gate with batch detection, problem existence checks, and red flag patterns, and routes suggestion-level findings to an updatable PR comment for clearer feedback. It also fixes an autofix behavior to unconditionally restore tracked files, preventing unintended state changes. These enhancements reduce false positives and enable more precise, actionable review comments in continuous integration workflows.",
+      "summary_zh": "此版本针对代码审查流程，通过批量检测、问题存在性验证及红旗模式强化了PR门禁，有效降低了漏审风险；同时将建议级发现转化为可更新的PR评论，提升了反馈的可见性与协作效率。此外，修复了自动修复中文件恢复的可靠性问题，确保工作区状态一致，整体增强了自动化流水线的鲁棒性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.6-nightly.20260704.5dc2e1501",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1762417050,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.6",
+      "title": "QwenLM/qwen-code: Release v0.19.6",
+      "published_at": "2026-07-03T16:36:59+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses mobile session-switching jank, a macOS sandbox file path error, and slow CLI startup in Qwen Code. It fixes the mobile UI by memoizing timeline signatures and using replay-first dispatch, corrects the macOS seatbelt profile resolution to use the bundle directory, and adds fast bootstrap paths to the CLI. These improvements directly enhance user experience and cross-platform reliability for developers.",
+      "summary_zh": "此版本主要修复了移动端会话切换时的界面卡顿问题（通过备忘录化时间线签名和优先重放调度），解决了 macOS 上沙箱配置文件路径定位错误的问题，并为 CLI 引导过程添加了快速路径优化。这些改进提升了用户体验的流畅性、保证了在受限环境下的兼容性，并缩短了工具启动响应时间。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.6",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1136246600,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.22.2",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.22.2",
+      "published_at": "2026-07-03T15:54:06+00:00",
+      "original_language": "en",
+      "summary_en": "This patch addresses two bugs in kimi-code: duplicated transcript content appearing during streaming, and sessions silently discarding user messages after an interrupted turn. The fixes correct the UI glitch in scrollback display and ensure reliable message handling in multi-turn interactions, improving overall stability for streaming and conversational sessions.",
+      "summary_zh": "此版本修复了流式输出时聊天记录重复显示的缺陷，并解决了会话中断后后续用户消息被静默丢弃的问题。这些问题直接影响了对话的连贯性和可靠性，修复后能确保用户在流式交互中看到正确的上下文，避免信息丢失，从而提升编程助手的整体使用体验。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.22.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3334906565,
+      "url": "https://github.com/MoonshotAI/checkpoint-engine/releases/tag/v0.4.2",
+      "title": "MoonshotAI/checkpoint-engine: v0.4.2",
+      "published_at": "2026-07-04T09:26:11+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses the problem of enabling cross-process coordination in distributed checkpointing by exposing ParameterServer metadata via an HTTP interface. The key approach adds an endpoint to share server state, allowing processes to join across network boundaries without direct memory access. This matters because it simplifies synchronization and fault-tolerance in multi-process training setups, making distributed workflows more robust and easier to manage.",
+      "summary_zh": "该版本通过HTTP接口暴露了ParameterServer的元数据，使得不同进程能够跨进程发现并加入参数服务器集群，解决了分布式训练中进程间协调和弹性扩展的难题。这一改进提升了大规模模型训练时的容错能力和动态扩缩容的便利性，对需要弹性资源管理的ML工作流有重要价值。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/checkpoint-engine: v0.4.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
