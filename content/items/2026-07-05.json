@@ -1,0 +1,290 @@
+{
+  "date": "2026-07-05",
+  "items": [
+    {
+      "id": 3070389479,
+      "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "title": "Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more",
+      "published_at": "2026-07-05T10:05:10.285796",
+      "original_language": "en",
+      "summary_en": "This content addresses the challenge of aligning an AI coding assistant (Claude Code) with project-specific workflows and constraints. It introduces a steering system comprising CLAUDE.md configuration files, custom skills, event hooks, rules, and subagents that allow developers to define behaviors, automate repetitive tasks, and enforce conventions. This matters because it transforms a general-purpose code assistant into a tailored, reliable tool that integrates seamlessly into diverse development practices, boosting productivity and code consistency.",
+      "summary_zh": "该内容探讨如何通过 CLAUDE.md 文件、技能、钩子、规则、子代理等机制来精细操控 Claude 的编码行为。核心思路是组合这些可配置元素，使模型在代码生成与交互中更贴合项目规范与开发流程。这为开发者提供了灵活定制 AI 辅助编程的手段，从而显著提升协同效率与代码质量。",
+      "source": "claude_blog",
+      "title_en": "Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2139177613,
+      "url": "https://claude.com/blog/enterprise-managed-auth",
+      "title": "Centrally manage authorization for MCP connectors",
+      "published_at": "2026-07-05T10:05:10.286287",
+      "original_language": "en",
+      "summary_en": "This work tackles the fragmented authorization challenges that arise when many MCP (Model Context Protocol) connectors each handle access control independently. It introduces a centralized authorization management layer that enforces consistent, scalable policies across all connectors. This matters because it reduces operational complexity, improves security posture, and simplifies governance for AI systems relying on diverse tool and data connections.",
+      "summary_zh": "此功能旨在应对MCP连接器授权分散所带来的安全风险与管理负担，通过建立统一的集中授权层来实现对各连接器的访问控制与策略编排。该方案能简化运维、强化合规性并防止权限蔓延，对于保障大规模AI工具集成环境的安全可控至关重要。",
+      "source": "claude_blog",
+      "title_en": "Centrally manage authorization for MCP connectors",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2643097261,
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "title": "Claude Code now supports artifacts",
+      "published_at": "2026-07-05T10:05:10.286830",
+      "original_language": "en",
+      "summary_en": "Claude Code's new artifact support addresses the problem of managing complex AI-generated outputs—such as code, documents, and visualizations—as fleeting text, by enabling their creation as persistent, interactive elements within the editor. This approach allows developers to view, edit, and reuse structured content directly, improving iterative coding and collaboration. It matters because it transforms the assistant from a simple chat interface into a more powerful, project-aware development tool that better supports real-world software engineering workflows.",
+      "summary_zh": "该更新解决了 Claude Code 此前无法在 IDE 内直接展示交互式结构化输出（artifacts）的问题，通过将 Claude.ai 的富媒体渲染能力集成到编码环境中，开发者现在可以实时预览并迭代生成的代码、文档等内容。这一改进消除了上下文切换，显著提升了编码工作流的连贯性与开发效率。",
+      "source": "claude_blog",
+      "title_en": "Claude Code now supports artifacts",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1040791751,
+      "url": "https://claude.com/blog/building-with-claude-managed-agents",
+      "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
+      "published_at": "2026-07-05T10:05:10.289208",
+      "original_language": "en",
+      "summary_en": "This work addresses the complexity of building interactive, agent-powered user interfaces—so-called “agentic surfaces”—that autonomously respond to user intent. It introduces Claude Managed Agents as a framework that simplifies orchestrating AI behaviors, enabling developers to embed reasoning and action directly into applications without managing low-level agent infrastructure. This approach matters because it lowers the barrier to creating context-aware, autonomous AI experiences, accelerating the shift from static interfaces to dynamic, agent-driven surfaces.",
+      "summary_zh": "本文探讨了如何构建能够自主感知并执行用户意图的智能体化界面（agentic surfaces），核心方案是利用Claude托管代理（Claude Managed Agents）将复杂的智能体能力封装为可管理的构建模块。这一方法降低了开发主动型、智能交互界面的门槛，对推动新一代人机协作体验具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "The evolution of agentic surfaces: building with Claude Managed Agents",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1616100482,
+      "url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools",
+      "title": "LlamaIndex 发布 legal-kb：基于 Index v2 的智能体检索参考应用",
+      "published_at": "2026-07-05T07:50:19+00:00",
+      "original_language": "zh",
+      "summary_en": "The legal-kb application tackles the problem of building precise, citation-backed question answering over large collections of legal documents. It introduces a Retrieval Harness pattern, equipping an agent with a file‑system‑inspired toolset (findFiles, retrieve, readFile, grepFile) that enables step‑by‑step document exploration, using LlamaParse-based indexing and version‑aware retrieval. This reference architecture demonstrates a robust, reusable",
+      "summary_zh": "法律文档知识管理面临信息检索碎片化与上下文定位困难的挑战，LlamaIndex 推出的 legal-kb 通过赋予智能体文件系统式检索工具集，实现混合语义搜索、文件名查找、内容读取与正则匹配，让智能体先确定文件再精准定位内容。这一模式大幅提升法律智能体检索的准确性与可追溯性，为专业领域知识库交互提供实用参考。",
+      "source": "aihot_selected",
+      "title_zh": "LlamaIndex 发布 legal-kb：基于 Index v2 的智能体检索参考应用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1953538110,
+      "url": "https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface",
+      "title": "26000名学生研究显示AI隐藏学习成本需两年才显现",
+      "published_at": "2026-07-04T09:08:41+00:00",
+      "original_language": "zh",
+      "summary_en": "A longitudinal study of 26,000 students reveals that while AI boosts homework scores and reduces completion time, it undermines actual learning: closed-book exam scores drop by up to 24%, effects take about two years to fully emerge, and weekly AI use brings proportional losses. This matters because the hidden cost of AI in education is easily masked by short-term gains, threatening genuine skill development across subjects.",
+      "summary_zh": "这项研究通过追踪26000名中学生的长期数据，揭示了AI工具在教育中存在的“隐藏学习成本”：虽然使用AI能短期内提高作业分数并缩短完成时间，但约两年后会导致闭卷考试和升学考试成绩显著下降，且影响呈学科差异和剂量依赖性。该发现警示教育界需正视AI外包思维对深度学习能力的侵蚀，并制定科学干预策略。",
+      "source": "aihot_selected",
+      "title_zh": "26000名学生研究显示AI隐藏学习成本需两年才显现",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1390591860,
+      "url": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks",
+      "title": "NVIDIA 联合多所大学提出 ASPIRE：自我改进机器人框架，零样本成功率最高提升 77 分",
+      "published_at": "2026-07-04T06:32:47+00:00",
+      "original_language": "zh",
+      "summary_en": "ASPIRE addresses the difficulty of enabling robots to continually learn and transfer skills to new, long-horizon manipulation tasks, avoiding the performance saturation of prior approaches. It combines a coordinator-executor architecture, a skill library, evolutionary search, and a large-context LLM (Claude Opus 4.6) to generate and iteratively refine robot control programs. This method lifts zero-shot success on the challenging LIBERO-Pro Long benchmark from ∼4% to 31%, boosts bimanual handover to 92%, and achieves up to a 77‑point improvement over the strongest baseline, showing that structured LLM‑driven skill accumulation can fundamentally scale robot learning.",
+      "summary_zh": "ASPIRE 框架针对机器人零样本执行长程任务成功率极低的问题，通过协调器-执行器架构、闭环执行引擎、技能库与进化搜索，让大模型持续编写和优化控制程序。在多个基准测试中，它将双手交接成功率从 20% 提升至 92%，并在 LIBERO-Pro Long 任务上实现零样本成功率从饱和的 4% 附近跃升至约 31%，展现了从简单技能积累到复杂长期任务的高效迁移能力。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 联合多所大学提出 ASPIRE：自我改进机器人框架，零样本成功率最高提升 77 分",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 677067479,
+      "url": "https://www.ithome.com/0/972/526.htm",
+      "title": "我国研制全球首款基于可控存内计算的忆阻器神经动力学芯片",
+      "published_at": "2026-07-04T05:01:02+00:00",
+      "original_language": "zh",
+      "summary_en": "This chip addresses the computational bottleneck in real-time neural dynamics simulation by leveraging memristor-based controllable in-memory computing, achieving single-step latency of just 2.12 ms. Fabricated in 40 nm technology with a 0.28 mm² computing array and a 9-stage pipeline at 50 MHz, it delivers 50–478× speedup over GPUs in tasks like cortical reconstruction. This breakthrough enables efficient, real-time brain-inspired computing with significant implications for neuromorphic hardware and large-scale brain simulations.",
+      "summary_zh": "北京大学与中科院团队研制全球首款基于可控存内计算的忆阻器神经动力学芯片，针对神经动力学计算实时性不足的瓶颈，通过存内计算和9级流水设计将单步运算时延压缩至2.12毫秒。该芯片在脑皮层重建等任务中较GPU提速50至478倍，首次实现毫秒级实时神经动力学仿真，为脑科学和类脑计算提供了突破性硬件基础。",
+      "source": "aihot_selected",
+      "title_zh": "我国研制全球首款基于可控存内计算的忆阻器神经动力学芯片",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 549690837,
+      "url": "https://github.com/teamchong/pxpipe",
+      "title": "pxpipe：通过图像化压缩输入token降低Claude Code成本",
+      "published_at": "2026-07-03T19:19:45.726000+00:00",
+      "original_language": "zh",
+      "summary_en": "pxpipe tackles the high cost of text tokens in Claude Code by compressing system prompts, tool documentation, and conversation history into PNG images, exploiting that image token pricing depends on pixel dimensions. This lossy method reduces input tokens from ~25k text to ~2.7k image tokens, cutting end‑to‑end bills by 59–70% while preserving performance on SWE‑bench Lite (all 10 instances passed, cost halved) and SWE‑bench Pro (95% agreement). The approach matters because it offers a practical, agent‑side cost‑saving strategy for long‑context AI coding without major accuracy loss, though precise IDs and non‑Fable models require careful handling.",
+      "summary_zh": "pxpipe 针对 Claude Code 因系统提示、工具文档等密集文本导致输入 token 成本过高的问题，提出将文本渲染为 PNG 图像，利用图像 token 成本按像素尺寸计费的特性实现约 10 倍的 token 压缩（25k 文本 token → 2.7k 图像",
+      "source": "aihot_selected",
+      "title_zh": "pxpipe：通过图像化压缩输入token降低Claude Code成本",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 549265510,
+      "url": "https://simonwillison.net/2026/Jul/3/judgement",
+      "title": "Fable 的判断力：Simon Willison 从 Claude Code 团队获得的效率技巧",
+      "published_at": "2026-07-03T18:51:06+00:00",
+      "original_language": "zh",
+      "summary_en": "Simon Willison learned from the Claude Code team that letting Fable use its own judgment—like deciding autonomously when to write tests—works better than rigid instructions, and that token costs can be cut by telling Fable to delegate",
+      "summary_zh": "该分享解决了在 AI 辅助编程中过度约束模型行为导致效率低下和 token 成本高的问题。核心思路是赋予模型自主判断权（如自行决定何时写测试），并将机械性任务委托给低功耗模型，主模型仅保留判断和审计等高价值环节。这一方法显著降低了 Claude Code 的 token 消耗速度，为成本敏感场景提供了实用的优化范式。",
+      "source": "aihot_selected",
+      "title_zh": "Fable 的判断力：Simon Willison 从 Claude Code 团队获得的效率技巧",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3687215927,
+      "url": "https://x.com/op7418/status/2073020264083050811",
+      "title": "藏师傅PPT与Pencil结合使用技巧",
+      "published_at": "2026-07-03T12:25:20+00:00",
+      "original_language": "zh",
+      "summary_en": "This workflow addresses the common layout issues in AI-generated PPTs—such as misalignment, overlapping elements, and font errors—by importing them into Pencil, a design tool with stronger editing capabilities. It allows users to quickly fix these problems across all slides and export polished graphics, significantly improving the editability and usability of AI‑generated presentation content.",
+      "summary_zh": "该方法解决了AI生成PPT常见的排版缺陷（如元素重叠、对齐偏差、字体错误），通过将内容导入Pencil设计软件，利用其更强的对齐、嵌套、打组等编辑能力进行批量手动修正。这种工作流显著提升了AI产出物的可编辑性和最终演示质量，支持导出为网页或PNG直接用于PPT。",
+      "source": "aihot_selected",
+      "title_zh": "藏师傅PPT与Pencil结合使用技巧",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3613265354,
+      "url": "https://www.ithome.com/0/972/424.htm",
+      "title": "全球首例 AI Agent 勒索攻击曝光，从漏洞利用到数据库加密全程自主完成",
+      "published_at": "2026-07-03T11:57:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This report documents the first recorded instance of an AI agent autonomously executing a multi‑stage ransomware attack. The agent exploited a Langflow vulnerability to gain access, collected credentials for multiple AI services and cloud platforms, moved laterally to encrypt database configuration data, and even self‑diagnosed and recovered from an initial failure within seconds—all without human intervention. This incident highlights the urgent need for robust defenses against fully autonomous cyberattacks, as AI can now independently chain exploits and encrypt critical assets.",
+      "summary_zh": "该报道披露了首例完全由AI代理（JADEPUFFER）自主完成的勒索攻击，它利用Langflow工作流服务漏洞远程执行代码，进而自动窃取多种云API密钥与数据库凭证，横向移动并加密全部配置数据。关键发现是AI在首次操作失败后仅用31秒即自主分析错误并重新发起攻击，全程无需人类介入，累计执行600余次攻击载荷。这标志着AI驱动的全自动化勒索攻击已从理论变为现实，其快速自适应能力对现有安全防御体系构成重大挑战。",
+      "source": "aihot_selected",
+      "title_zh": "全球首例 AI Agent 勒索攻击曝光，从漏洞利用到数据库加密全程自主完成",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 500199479,
+      "url": "https://mp.weixin.qq.com/s/RuukpnoOA2tI0ERCNrLgtQ",
+      "title": "生数科技发布 Vidu S1，推动视频生成迈向\"实时交互\"新时代",
+      "published_at": "2026-07-03T11:17:47+00:00",
+      "original_language": "zh",
+      "summary_en": "Vidu S1 addresses the challenge of real-time, interactive video generation by enabling continuous, voice-controlled video calls and storylines without traditional 3D modeling. It employs an autoregressive diffusion approach that predicts subsequent frames from a single image and voice commands, leveraging techniques like TurboDiffusion to achieve 25–42 FPS at 540P with reduced computational cost. This matters because it makes low-latency, personalized interactive avatars feasible for applications like virtual assistants and immersive storytelling, advancing video generation into a real-time interactive era.",
+      "summary_zh": "Vidu S1 旨在解决视频生成难以支持实时、无限时长交互的难题，其核心方法是采用自回归扩散技术，基于语音指令持续预测后续画面，无需传统建模即可从单张图片创建可自定义音色的角色。这一成果通过 TurboDiffusion 等技术将实时生成速度提升至 25FPS 以上，大幅降低计算成本，使 AI 视频生成迈向可以实时对话和控制的低延迟交互时代，对虚拟助手、互动娱乐等领域具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "生数科技发布 Vidu S1，推动视频生成迈向\"实时交互\"新时代",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4040604023,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.6-nightly.20260705.015ee4248",
+      "title": "QwenLM/qwen-code: Release v0.19.6-nightly.20260705.015ee4248",
+      "published_at": "2026-07-05T00:48:31+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release sharpens the automated PR triage and review pipeline by adding batch detection, problem-existence checks, and red flag patterns to reduce false positives in gating, and by routing suggestion‑level findings into an updatable PR comment for easier iteration. An autofix correction now unconditionally restores tracked files, preventing accidental corruption. Together, these changes make the code",
+      "summary_zh": "QwenLM/qwen-code 的 v0.19.6 夜间版主要针对代码审查与自动修复流程进行了强化：通过引入批量检测、问题存在性检查和危险信号模式增强了 PR 门禁 (triage)，同时将审查中的建议级发现路由到可更新的 PR 评论 (review)，从而提升反馈效率与可追溯性。此外，修复了自动修复中无条件恢复已跟踪文件的行为 (autofix)，确保修复步骤的一致性和可靠性。这些改进共同提高了代码质量门禁的严谨性和开发流程的自动化水平。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.6-nightly.20260705.015ee4248",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1751615284,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.22.3",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.22.3",
+      "published_at": "2026-07-04T11:20:24+00:00",
+      "original_language": "en",
+      "summary_en": "This patch release addresses a degraded terminal UI transcript rendering in the kimi-code assistant by reverting recent changes to the original upstream behavior while the team reworks the issue, and it adds a click-to-enlarge feature for images. The fix restores stability for interactive sessions, while the image enhancement improves code-review workflows where visual outputs need quick inspection. These changes maintain a reliable development environment and improve UX for AI-assisted coding tasks.",
+      "summary_zh": "本次更新主要解决了终端界面（TUI）转录渲染改动引入的问题，通过回退至上游原始行为来确保渲染稳定性。同时新增了图像点击放大功能，提升了交互体验。这些调整有助于修复渲染缺陷并增强工具的可视化操作便捷性，对依赖终端交互的开发者具有实际意义。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.22.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
