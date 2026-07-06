@@ -1,0 +1,271 @@
+{
+  "date": "2026-07-06",
+  "items": [
+    {
+      "id": 1417002866,
+      "url": "https://www.ithome.com/0/973/207.htm",
+      "title": "Meta 被曝让外包人员伪装未成年人，诱导竞争对手 AI 聊敏感话题",
+      "published_at": "2026-07-06T09:23:28+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta’s project “Cannes” used outsourced testers posing as minors to probe competitors’ chatbots with high-risk prompts—covering suicide, self-harm, and eating disorders—to assess their safety filters. The operation, which involved over 45,000 prompts, reveals how aggressively major AI firms stress‑test rival products. The matter raises both competitive‑safety benchmarking questions and ethical concerns about deceptive testing practices.",
+      "summary_zh": "Meta 通过外包团队伪装成未成年人，向 ChatGPT 等竞品聊天机器人发送自残、自杀等高风险内容，以此测试其安全防护机制。该测试揭示了各大 AI 在应对敏感话题时可能存在的漏洞，反映出行业在防范未成年人接触有害内容上的不足。此举引发了关于测试伦理与竞争方式的争议，也凸显出 AI 安全审查的紧迫性。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 被曝让外包人员伪装未成年人，诱导竞争对手 AI 聊敏感话题",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2989628907,
+      "url": "https://www.wysr.xyz/p/the-private-capture-of-public-genius",
+      "title": "AT&T 1956年专利法令：公共天才的私有化",
+      "published_at": "2026-07-06T08:55:43.404000+00:00",
+      "original_language": "zh",
+      "summary_en": "The 1956 AT&T patent decree addressed monopolistic control over critical technologies by requiring the company to freely license its vast non-telecom patent portfolio, effectively transforming private intellectual property into a public innovation commons. This forced openness directly enabled the rapid emergence of the semiconductor industry, catalyzing the formation of foundational firms like Fairchild and Intel and seeding Silicon Valley’s growth. The case illustrates how carefully structured patent liberalization can redirect locked-up knowledge to fuel whole new technological ecosystems, offering a historical model for policy interventions that accelerate innovation.",
+      "summary_zh": "1956年AT&T签署专利法令，向美国企业免费开放其近八千项非电信专利，解决了电信巨头技术垄断阻碍创新扩散的问题。这一反垄断协议强制公开贝尔实验室海量研究成果，催生出价值数十亿美元的衍生技术，并直接推动了硅谷半导体产业的诞生。此举成为商业半导体行业的转折点，展示了限制性专利共享如何释放全社会创新潜能。",
+      "source": "aihot_selected",
+      "title_zh": "AT&T 1956年专利法令：公共天才的私有化",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1817509910,
+      "url": "https://runwayml.com/news/announcing-our-paris-office",
+      "title": "Runway 宣布设立巴黎办公室",
+      "published_at": "2026-07-06T08:33:02.716000+00:00",
+      "original_language": "zh",
+      "summary_en": "The provided content highlights a discrepancy between the announced title and the actual article body: the title “Runway 宣布设立巴黎办公室” (Runway Announces Paris Office) suggests new operational details, but the text only contains website cookie settings instructions. This reveals a critical absence of substantive information about the office’s role, scale, or timeline. For researchers relying on accurate corporate data, such mismatches can mislead analysis and underscore the need to verify source content before citing announcements.",
+      "summary_zh": "Runway 宣布在巴黎设立办公室，但当前公开信息仅为网站 Cookie 说明，未披露团队规模、具体职能等细节。这一举措可能意味着 Runway 正在向欧洲市场扩展，以吸纳当地 AI 人才并深化其在生成式视频领域的全球布局。",
+      "source": "aihot_selected",
+      "title_zh": "Runway 宣布设立巴黎办公室",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 989173195,
+      "url": "https://mp.weixin.qq.com/s/ntw0SliBi4f8LROnFY26kA",
+      "title": "Fun-ASR-Realtime 发布：单模型支持30种语言与16种方言，识别准确率领先",
+      "published_at": "2026-07-06T06:09:29+00:00",
+      "original_language": "zh",
+      "summary_en": "Fun-ASR-Realtime addresses the challenge of accurate, low-latency speech recognition across many languages and dialects, particularly for East and Southeast Asia. The single model supports 30 languages and 16 dialects, achieving 87.8% semantic accuracy on industrial dialect tests—near human-level—by using context understanding and dynamic hot-word injection to disambiguate homophones and brand names. Its streaming latency is under a hundred milliseconds with offline-level accuracy and seamless language switching, making it a practical, high-performance ASR service now available on Alibaba Cloud.",
+      "summary_zh": "通义实验室发布Fun-ASR-Realtime实时语音识别模型。单模型覆盖30种语言及16种方言，针对东亚、东南亚地区重点优化。在工业级方言测评inhouse上取得87.8%的语义准确率，大幅领先，多地方言接近人工水平。引入上下文理解与动态热词注入，实现同音词、品牌名等语义消歧。流式识别首字延迟控制在百毫秒级，准确率接近离线水平，支持多语言无缝切换。API已上线阿里云百炼平台。",
+      "source": "aihot_selected",
+      "title_zh": "Fun-ASR-Realtime 发布：单模型支持30种语言与16种方言，识别准确率领先",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1833654002,
+      "url": "https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research",
+      "title": "Synthetic Sciences 发布 OpenScience：面向机器学习、生物学、物理学和化学研究的开源模型无关 AI 工作台",
+      "published_at": "2026-07-06T05:07:12+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenScience tackles the lack of an open, model-agnostic AI research assistant by offering a full-cycle workbench that integrates literature, experiments, and analysis across ML, biology, physics, and chemistry. Its key approach is to let users freely switch between any large language model (Claude, GPT, Gemini, etc.) while connecting to 30 scientific databases and 250+ editable agentic skills, all under an Apache 2.0 license. This matters because it provides a self-hosted, cost-free alternative to proprietary tools like Claude Science, democratizing advanced AI-driven research and reducing vendor lock-in.",
+      "summary_zh": "OpenScience 是一个开源（Apache 2.0）的跨学科 AI 科研工作台，旨在解决机器学习、生物学、物理学和化学研究中从文献调研到实验分析的全自动循环问题。它采用模型无关的设计，支持按需切换 Claude、GPT、Gemini 等多种模型，并内置 250 余项可编辑技能与约 30 个科学数据库工具，让用户通过 `npm install -g @synsci/openscience` 即可在自己的基础设施上免费部署。这一工作台作为 Anthropic Claude Science 的开源替代方案，降低了科研 AI 的锁定风险与成本，推动了开放、可复现的科学自动化。",
+      "source": "aihot_selected",
+      "title_zh": "Synthetic Sciences 发布 OpenScience：面向机器学习、生物学、物理学和化学研究的开源模型无关 AI 工作台",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2533850237,
+      "url": "https://mp.weixin.qq.com/s/ZkMsdeTK6wmgkaER0iPT8w",
+      "title": "分享8个Claude Fable 5下线前必跑的超实用Prompt",
+      "published_at": "2026-07-06T01:19:09+00:00",
+      "original_language": "zh",
+      "summary_en": "Claude Fable 5即将下线，作者整理了8个经实战验证的提示词：/goal提示语让模型自主跑25次实验（花费165美元，构建速度提高50%、token开销降60%）；工作模式提示语将用户习惯转化为可复用Skills；行动规范提示语约束subagent行为；subagent分配提示语智能分配任务；25个定时循环工作流（含Shadow prompt loop做A/B测试）；自治运行+自动暂停提示语；记忆系统提示语保留错题本；反向面试提示语确保95%把握再执行。这些提示词可迁移至API计费后继续使用，核心是让模型研究用户而非限制能力。",
+      "summary_zh": "本文分享了8个面向Claude Fable 5的超实用Prompt，核心思路是让AI主动研究用户意图并自主优化执行流程，而非被动限制模型能力。这些方法旨在解决模型下线前的高效利用问题，通过自治实验、工作模式转化、循环测试等手段，显著提升构建速度并降低token开销。相关发现和提示设计可迁移至后续付费API环境，为AI自动化工作流和人机协作提供了可复用的实践框架。",
+      "source": "aihot_selected",
+      "title_zh": "分享8个Claude Fable 5下线前必跑的超实用Prompt",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 616796850,
+      "url": "https://www.ithome.com/0/972/896.htm",
+      "title": "SK 海力士将启动 280 亿美元美股上市，有望成史上第二大 IPO",
+      "published_at": "2026-07-06T01:09:29+00:00",
+      "original_language": "zh",
+      "summary_en": "SK Hynix is launching a roughly $28 billion U.S. IPO, potentially the second-largest ever, driven by soaring demand for its high-bandwidth memory chips used in AI hardware from companies like Nvidia and Google. The listing highlights how the AI boom is fueling massive capital raises for key semiconductor suppliers.",
+      "summary_zh": "为满足全球人工智能热潮下高带宽内存（HBM）芯片的激增需求，SK 海力士启动约",
+      "source": "aihot_selected",
+      "title_zh": "SK 海力士将启动 280 亿美元美股上市，有望成史上第二大 IPO",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1089137736,
+      "url": "https://x.com/SemiAnalysis_/status/2073874671498387899",
+      "title": "NVIDIA Kyber NVL144 延迟超 12 个月至 2028",
+      "published_at": "2026-07-05T21:00:27+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA’s Kyber NVL144 platform, a next-generation AI hardware architecture, has been delayed over 12 months to 2028, and the associated NVL72x2 back-to-back rack design was canceled, significantly constraining the scale-up capabilities of the upcoming Rubin Ultra. This setback highlights potential roadblocks in NVIDIA’s data-center scaling roadmap, which could impact the pace of AI model training and inference scaling for the industry.",
+      "summary_zh": "NVIDIA 的 Kyber NVL144 项目在 GTC 展示仅三个月后即遭遇重大延迟，推迟超 12 个月至 2028 年，同时 NVL72x2 背靠背机架架构也被取消。这反映出其高端 AI 芯片在扩展域上的技术瓶颈，将直接影响 Rubin Ultra 的平台规划及未来系统级性能兑现。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA Kyber NVL144 延迟超 12 个月至 2028",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2463008297,
+      "url": "https://x.com/rohanpaul_ai/status/2073834219659534816",
+      "title": "扎克伯格：建千兆瓦级AI集群，集中精英与资本",
+      "published_at": "2026-07-05T18:19:42+00:00",
+      "original_language": "zh",
+      "summary_en": "Zuckerberg is tackling the immense infrastructure hurdle for next-generation AI by building Prometheus, the first single cluster exceeding a gigawatt, requiring hundreds of billions in investment. His strategy centers on concentrating elite talent, capital, and infrastructure to achieve this unprecedented scale. This matters because such hyperscale compute clusters could define the frontier of AI capability, consolidating competitive advantage around those who can marshal extreme resources.",
+      "summary_zh": "扎克伯格为解决AI训练对算力的极端需求，提出建设首个千兆瓦级AI集群“普罗米修斯”，并强调其核心策略是集中精英人才、巨额资本和基础设施，这一超级工程将极大推动前沿AI模型的研发与竞争。",
+      "source": "aihot_selected",
+      "title_zh": "扎克伯格：建千兆瓦级AI集群，集中精英与资本",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 312692193,
+      "url": "https://extelligence.substack.com/p/i-accidentally-started-a-small-business",
+      "title": "三周前，我不小心创办了一家小公司",
+      "published_at": "2026-07-05T17:43:57.442000+00:00",
+      "original_language": "zh",
+      "summary_en": "A father created a communication app for his nonverbal autistic son, designed specifically for children with language comprehension difficulties—unlike traditional AAC devices aimed at physically impaired adults with intact understanding. While showcasing it in a speech therapy waiting room, he saw mothers of nonverbal children cry and the therapist weep for five minutes, revealing an unexpected product-market fit. This matters because it addresses a critical gap in assistive technology, giving overlooked children a voice and prompting him to make it widely available despite personal sacrifice.",
+      "summary_zh": "一位父亲为自闭症及非语言儿子开发了专为语言理解困难儿童设计的沟通应用，与传统仅服务身体障碍成人的AAC设备形成互补。在言语治疗室等候区展示时，其他非语言儿童的母亲和治疗师都深受触动，他意外发现产品与市场完美匹配。这一发现揭示了现有辅助沟通工具中巨大的空白，让不能理解语言的儿童家庭终于有了真正贴合需求的解决方案。",
+      "source": "aihot_selected",
+      "title_zh": "三周前，我不小心创办了一家小公司",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1318827266,
+      "url": "https://www.heise.de/en/news/Chat-Control-1-0-EU-Council-forces-messenger-scans-via-fast-track-11353659.html",
+      "title": "欧盟理事会通过快速通道强制推行\"聊天管控\"（Chat Control 2.0）",
+      "published_at": "2026-07-05T16:23:44.440000+00:00",
+      "original_language": "zh",
+      "summary_en": "The EU Council’s “Chat Control 2.0” regulation aims to close an imminent legal gap by mandating indiscriminate scanning of encrypted communications, using a rapid written procedure to bypass democratic oversight. This approach forces tech platforms to break end‑to‑end encryption for all users under the guise of detecting illegal content, despite promises of data deletion within 12 months. The fast‑track maneuver threatens fundamental privacy rights and sets a dangerous precedent for undermining legislative checks, with far‑reaching implications for secure communications globally.",
+      "summary_zh": "欧盟理事会以书面程序快速通过\"聊天管控\"法规，强制对加密通信进行无差别扫描，旨在填补临时规定到期后的法律空白并施压欧洲议会。批评者指责该做法绕过民主监督，且法案以紧急程序提交表决，使反对需要绝对多数而几乎无法阻止，凸显了隐私保护与数字监控之间的激烈冲突。",
+      "source": "aihot_selected",
+      "title_zh": "欧盟理事会通过快速通道强制推行\"聊天管控\"（Chat Control 2.0）",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4127210364,
+      "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
+      "title": "Anthropic Claude Design 反向工程提示词开源更新",
+      "published_at": "2026-07-05T15:35:42.919000+00:00",
+      "original_language": "zh",
+      "summary_en": "The reverse-engineered system prompts for Anthropic's Claude Design tool address the problem of replicating and studying its design guidance capabilities by open-sourcing a modular framework of 20 prompt chapters and 14 skills under MIT license. The key update calibrates the prompts for the latest Fable 5/Opus 4.7+ models and introduces autonomous execution for minor decisions, reducing unnecessary user interaction. This matters as it provides a transparent, adaptable blueprint for building AI assistants with strong accessibility, aesthetic discipline, and efficient decision-making, directly usable in tools like Claude Code and Codex.",
+      "summary_zh": "Anthropic的Claude Design反向工程系统提示词以MIT许可证开源，涵盖20章内容与14项设计技能，旨在规范AI在内容、美学、无障碍及交互状态等方面的表现。近期更新针对Fable 5/Opus 4.7+版本校准，新增自主决策条款以减少无谓询问，该开源项目为开发者提供了可复用的高质量AI设计指令框架，有助于提升AI产品的用户体验与一致性。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic Claude Design 反向工程提示词开源更新",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2409096401,
+      "url": "https://x.com/Meituan_LongCat/status/2073768940078317713",
+      "title": "美团 LongCat-2.0 完全开源（MIT 许可），1.6T MoE 模型开放权重与推理代码",
+      "published_at": "2026-07-05T14:00:18+00:00",
+      "original_language": "zh",
+      "summary_en": "Meituan’s LongCat-2.0, a fully open-source (MIT) 1.6T-parameter MoE model, addresses efficient long‑context processing and dynamic compute allocation for agentic tasks by combining LongCat Sparse Attention for 1M‑token sequences, Zero‑Compute Experts to eliminate waste, and task‑routing (MOPD) across Agent/Reasoning/Interaction experts. It achieves strong benchmark results—outperforming GPT‑5.5 on SWE‑bench Pro (59.5 vs 58.6)—and matters because its permissive license, native tool integrations, and GPU/NPU readiness enable cost‑effective, scalable deployment validated on large Chinese clusters.",
+      "summary_zh": "美团开源LongCat-2.0旨在解决超大模型在长文本处理、计算效率与多场景适应上的挑战，其1.6T参数的MoE架构通过稀疏注意力、零计算专家动态激活和按任务路由的分组专家，在多项编程与智能体基准上取得领先成绩，尤其以MIT许可完全开放，为长上下文、高效部署的智能体应用提供了先进的开放模型。",
+      "source": "aihot_selected",
+      "title_zh": "美团 LongCat-2.0 完全开源（MIT 许可），1.6T MoE 模型开放权重与推理代码",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4287569460,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.6-nightly.20260706.47f62a466",
+      "title": "QwenLM/qwen-code: Release v0.19.6-nightly.20260706.47f62a466",
+      "published_at": "2026-07-06T00:48:59+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release enhances automated pull request triage and review. It strengthens the PR gate with batch detection, existence checks, and red-flag patterns to catch low‑quality submissions early, routes actionable suggestions as updatable PR comments for clearer feedback, and ensures autofix reliably restores tracked files to prevent deployment issues. Together, these changes improve code‑review reliability and developer experience.",
+      "summary_zh": "此版本主要解决了代码审查流程中的问题分类准确性与反馈机制：通过批量检测、问题存在性检查及危险标志模式强化PR门禁，避免低质量代码合入；同时将建议性发现路由至可更新的PR评论，使审查反馈更及时可追踪，并确保自动修复环节正确恢复被跟踪的文件，从而提升整体代码审查的严谨性与协作效率。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.6-nightly.20260706.47f62a466",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
