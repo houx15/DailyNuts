@@ -1,0 +1,214 @@
+{
+  "date": "2026-07-07",
+  "items": [
+    {
+      "id": 838925005,
+      "url": "http://arxiv.org/abs/2607.05396v1",
+      "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
+      "published_at": "2026-07-06T17:59:59+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the challenge of real-world robot deployment where cameras are repositioned without known extrinsic calibration, making existing view-robust policies fragile. The key approach is CamVLA, which decouples camera geometry from manipulation by predicting a camera-centric end-effector action alongside a 6-DoF hand-eye matrix, then deterministically composing them into a base-frame action. This calibration-free design enables the policy to autonomously infer its viewpoint, greatly simplifying deployment in dynamic camera setups.",
+      "summary_zh": "本文针对真实机器人部署中相机位姿经常变动、现有视图鲁棒视觉-语言-动作（VLA）模型需要明确外参才能鲁棒的问题，提出CamVLA模型。其关键方法是解耦操控与相机几何，同时预测相机坐标系下的末端动作和六自由度手眼变换矩阵，然后通过确定性几何变换合成为机器人基座系动作，使策略能够自行适应未知相机位姿，而无需标定。该方法让机器人从“被告知相机在哪”转变为“自己搞清关系”，大幅提升了VLA在面对相机重新安装、移动等场景时的实用性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 753963477,
+      "url": "http://arxiv.org/abs/2607.05394v1",
+      "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
+      "published_at": "2026-07-06T17:59:58+00:00",
+      "original_language": "en",
+      "summary_en": "This paper tackles the prohibitive cost of applying reinforcement learning with verifiable",
+      "summary_zh": "该工作针对强化学习微调强大语言模型成本过高的问题，提出了一种名为“直接在线策略蒸馏”（Direct-OPD）的弱到强迁移方法。其核心思路是将弱教师模型在RL训练前后的策略变化（即动作对数概率比）作为隐式稠密奖励，直接指导强学生模型，而非简单复制教师最终策略。这一方法使得强大模型的推理能力提升可以复用廉价弱模型的RL经验，极大降低了大规模模型后训练的计算开销和重复成本。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4254525721,
+      "url": "http://arxiv.org/abs/2607.05391v1",
+      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+      "published_at": "2026-07-06T17:59:35+00:00",
+      "original_language": "en",
+      "summary_en": "The paper introduces LLM-as-a-Verifier, a training-free verification framework that generates continuous, fine-grained feedback by computing expectations over scoring token logits, moving beyond discrete judgments. It shows that scaling verification along dimensions like score granularity improves separation between correct and incorrect solutions, establishing verification as a new, trainable capability axis for LLMs. This matters because it offers a general-purpose method to enhance reliability in agentic tasks without additional training, complementing existing compute scaling paradigms.",
+      "summary_zh": "这项工作提出将“验证”作为提升大语言模型能力的新扩展维度，并引入了“LLM-as-a-Verifier”通用验证框架，无需额外训练即可为智能体任务提供细粒度反馈。其关键方法是利用评分标记的概率分布期望生成连续分数，从而在分数粒度、重复评估和标准分解等维度上实现可扩展的验证，实验表明增大评分粒度能更有效区分解的质量，获得更校准的结果。",
+      "source": "arxiv_cs_cl",
+      "title_en": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2980666414,
+      "url": "http://arxiv.org/abs/2607.05382v1",
+      "title": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
+      "published_at": "2026-07-06T17:56:12+00:00",
+      "original_language": "en",
+      "summary_en": "This paper addresses the gap where visual generators confidently hallucinate on open-ended, long-tail prompts beyond their fixed training data. It introduces SearchGen-Bench, revealing frontier models score only 21–28/100, and shows naive search retrieval fails by adding noise to known concepts, traced to each generator’s evolving knowledge boundary. The key insight is that effective agentic visual generation requires",
+      "summary_zh": "该研究揭示了视觉生成模型在处理超出训练知识的开放世界请求时普遍存在的编造问题，并通过构建SearchGen-Bench基准发现前沿模型得分骤降40分，暴露了现有评测的盲区。为解决这一瓶颈，作者尝试引入搜索工具赋予模型检索能力，却发现不加区分的检索会引入噪声，根源在于模型拥有动态变化的知识边界，这强调了未来需发展能感知模型自身局限的自适应检索机制。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1716823501,
+      "url": "http://arxiv.org/abs/2607.05378v1",
+      "title": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
+      "published_at": "2026-07-06T17:55:12+00:00",
+      "original_language": "en",
+      "summary_en": "CompactionRL tackles the problem of finite context windows in long-horizon LLM agents by introducing a reinforcement learning method that jointly trains task execution and context summarization, using token-level loss normalization and cross-trajectory advantage estimation to effectively learn from compacted trajectories. Training on open models yields consistent gains on agentic coding tasks, notably boosting GLM-4.5-Air to 66.8% Pass@1 on SWE-bench Verified. This work matters because it provides a principled way to extend LLM agent capabilities beyond raw context limits, significantly improving performance on real-world, long-horizon coding challenges.",
+      "summary_zh": "CompactionRL 解决了长程智能体因上下文窗口有限而无法完成长期任务的问题。它提出一种强化学习策略，通过联合优化任务执行和上下文摘要生成，并引入令牌级损失归一化与跨轨迹优势估计，使代理能从压缩的长轨迹中学习。该方法在开放模型上训练后，显著提升了代码任务的表现，如 GLM-4.5-Air 在 SWE-bench Verified 上达 66.8% 的 Pass@1，这意味着它为扩展大模型代理处理复杂长程任务的能力提供了有效路径。",
+      "source": "arxiv_cs_cl",
+      "title_en": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2468737514,
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "title": "A global workspace in language models",
+      "published_at": "2026-07-06T00:00:00",
+      "original_language": "en",
+      "summary_en": "This work tackles the problem of coordinating distributed information and specialized processes in language models by introducing a global workspace mechanism inspired by cognitive science. The key proposal is a centralized component that selectively shares and integrates representations from multiple modules, enabling more coherent, flexible reasoning. This matters because it moves language models toward more human-like cognitive architectures, potentially enhancing their ability to maintain context and perform complex, multi-step tasks.",
+      "summary_zh": "本文针对语言模型如何有效整合不同模块或信息流的问题，借鉴认知科学中的全局工作空间理论，提出了一种共享的全局工作空间架构，使多个专用模块能够协调交互。该机制显著提升了模型在复杂推理任务上的表现，为构建更类人、具备类意识信息处理能力的通用人工智能提供了重要思路。",
+      "source": "anthropic_research",
+      "title_en": "A global workspace in language models",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2836943808,
+      "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+      "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+      "published_at": "2026-07-06T00:00:00",
+      "original_language": "en",
+      "summary_en": "The Government of Alberta addressed the challenge of securing complex, large-scale digital infrastructure by using the AI model Claude to automatically scan for and remediate cybersecurity vulnerabilities. This approach streamlines detection and patching, strengthening the province’s security posture and demonstrating how AI can play a practical, scalable role in protecting public-sector systems.",
+      "summary_zh": "加拿大阿尔伯塔省政府利用AI助手Claude跨系统检测并修复网络安全漏洞，实现了漏洞发现的自动化和高效响应。这一做法显著提升了政府系统的安全防护效率，为公共部门应对日益复杂的网络威胁提供了新范式。",
+      "source": "anthropic_news",
+      "title_en": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 645864929,
+      "url": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
+      "title": "A field guide to Claude Fable 5: Finding your unknowns",
+      "published_at": "2026-07-07T10:48:20.623301",
+      "original_language": "en",
+      "summary_en": "This field guide addresses the challenge of systematically uncovering an AI model's blind spots—unknowns that can lead to unexpected failures. Through the narrative of \"Claude Fable 5,\" it illustrates a methodology that likely combines adversarial probing and introspection to expose unrecognized limitations, reframing uncertainty discovery as a learnable skill. This matters because mastering the identification of unknowns is essential for building safer, more robust systems that can signal when they are out of their depth.",
+      "summary_zh": "该指南旨在解决在复杂分析中难以识别未知知识盲区的问题，通过介绍Claude Fable 5这一工具的系统方法，帮助用户主动发现隐藏的未知因素。其关键意义在于将“未知的未知”转化为可探索的目标，从而提升决策的全面性与模型的稳健性。",
+      "source": "claude_blog",
+      "title_en": "A field guide to Claude Fable 5: Finding your unknowns",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3693590268,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.6-nightly.20260707.bcdb44c5d",
+      "title": "QwenLM/qwen-code: Release v0.19.6-nightly.20260707.bcdb44c5d",
+      "published_at": "2026-07-07T00:51:04+00:00",
+      "original_language": "en",
+      "summary_en": "This release improves the automated PR triage and review experience in Qwen Code. The triage gate now uses batch detection, a problem-existence check, and red-flag patterns to more reliably identify issues, while suggestion-level findings are routed to an updatable comment for clearer, editable feedback. A related autofix fix ensures tracked files are unconditionally restored after automated corrections, maintaining a clean",
+      "summary_zh": "该版本主要针对代码审查与自动修复流程的可靠性，通过增强PR门控的批量检测、问题存在性检查和危险模式识别，确保更准确地拦截潜在风险；同时将建议级发现路由为可更新的PR评论，优化了反馈闭环，并修复了自动修复时无条件恢复跟踪文件的问题，避免意外丢失修改。这些改进共同提升了代码审查的严谨性和开发体验的流畅度。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.6-nightly.20260707.bcdb44c5d",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3466229412,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.23.1",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.23.1",
+      "published_at": "2026-07-07T07:38:36+00:00",
+      "original_language": "en",
+      "summary_en": "This patch for kimi-code v0.23.1 fixes an inconsistency where the Anthropic provider (including Kimi’s Anthropic‑compatible mode) did not preserve thinking from previous conversation turns. It now defaults to keeping that context, matching the Kimi provider, with an opt‑out flag, ensuring coherent reasoning across multi‑turn interactions for code‑generation agents.",
+      "summary_zh": "此次更新解决了在多轮对话中，先前思考过程（链式推理）可能丢失的问题。核心方案是默认在Anthropic提供商（以及Kimi的Anthropic兼容模式）上保留历史轮次的思考内容，并保留了关闭选项。这有助于保持思维连贯性，提升AI/ML研究场景下复杂推理的质量。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.23.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3999719777,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.23.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.23.0",
+      "published_at": "2026-07-06T15:22:56+00:00",
+      "original_language": "en",
+      "summary_en": "### Minor Changes\n\n- [#1417](https://github.com/MoonshotAI/kimi-code/pull/1417) [`79b360c`](https://github.com/MoonshotAI/kimi-code/commit/79b360c96ad5d0af6a8c1d3a8df73adc65254d7c) Thanks [@RealKai42](https://github.com/RealKai42)! - Enable Preserved Thinking by default for Kimi models when Thinking",
+      "summary_zh": "该版本（@moonshot-ai/kimi-code@0.23.0）将 Kimi 模型的“保留思考（Preserved Thinking）”设定为默认开启，使思维链开启时前一回合的推理结果能够延续到后续对话中，以提升多轮会话的连贯性。用户可通过配置文件或环境变量关闭该功能。此外还包括其他次要改动。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.23.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-07",
+  "headline_en": "Context Compaction, Verification, and Global Workspaces Reshape LLM Agent Architecture",
+  "lede_en": "Today's AI research cluster centers on re-architecting language models for more capable, reliable agents. Key innovations include CompactionRL's RL-driven context summarization that pushes coding agent performance to new heights, a training-free verifier that adds a reliability axis through fine-grained scoring, and Anthropic's global workspace inspired by cognitive science. These advances, alongside practical deployment stories and release updates, signal a maturation of agentic AI across theory and practice.",
+  "sections_en": [
+    {
+      "title": "Architecture & Memory",
+      "body": "A batch of papers pushes beyond scaling laws to fundamentally redesign how LLMs handle context, verification, and dynamic inputs. CompactionRL trains agents to jointly summarize and execute tasks, achieving 66.8% Pass@1 on SWE-bench Verified by overcoming context limits. LLM-as-a-Verifier introduces a general verification framework that computes continuous scores from logits, improving separation of correct solutions and establishing verification as a new axis for scaling compute. CamVLA eliminates the need for camera calibration in robot manipulation by predicting both end-effector actions and a hand-eye matrix, enabling robust deployment in changing viewpoints. The collection also includes weak-to-strong distillation for efficient RL generalization and SearchGen-Bench, which diagnoses hallucination in visual generation at knowledge boundaries, advocating for agentic search strategies. Together, they show that the next leap in agent performance will come from integrated architectures that manage memory, uncertainty, and perception."
+    },
+    {
+      "title": "Applications & Product",
+      "body": "Moving from theory to real-world use, a pair of Anthropic items and a government case study illustrate the expanding footprint of AI agents. The Global Workspace proposal, inspired by cognitive architectures, adds a centralized selective-sharing module to LMs, promising more coherent multi-step reasoning. Complementing this, the 'Finding your unknowns' field guide reframes uncertainty discovery as a learnable skill, critical for safety. Meanwhile, the Government of Alberta demonstrates a concrete impact: using Claude to automatically scan and remediate cybersecurity vulnerabilities across its infrastructure, proving that today's agents are already delivering security at scale."
+    },
+    {
+      "title": "Model Releases",
+      "body": "Coding agent tools continue to evolve with a series of incremental but meaningful updates. Qwen Code's nightly release improves PR triage with batch detection and red-flag patterns, making automated code review more reliable. Kimi Code's two releases, v0.23.0 and v0.23.1, toggle preserved thinking by default for Anthropic-compatible modes, ensuring coherent reasoning across multi-turn coding sessions. These updates underscore the industry's focus on removing friction from developer workflows through better context handling and issue triage."
+    }
+  ],
+  "top_picks": [
+    838925005,
+    753963477,
+    1716823501,
+    4254525721,
+    2980666414
+  ],
+  "item_count": 11,
+  "source_breakdown": {
+    "arxiv_cs_cl": 5,
+    "anthropic_research": 1,
+    "anthropic_news": 1,
+    "claude_blog": 1,
+    "qwen_github": 1,
+    "moonshot_github": 2
+  },
+  "generated_at": "2026-07-07T10:57:30.501713Z",
+  "headline_zh": "从自校准到自适应：大模型迈向现实世界的多维突破",
+  "lede_zh": "今日AI前沿聚焦于提升大模型的现实适应能力：机器人无需标定即可感知相机位姿，策略蒸馏以极低成本实现强模型微调，长程智能体习得高压缩上下文，验证首次被确立为扩容新维度。与此同时，生成模型的“编造”通病被量化暴露，安全应用与产品更新则从另一侧推动AI走向可信与高效。",
+  "sections_zh": [
+    {
+      "title": "模型架构与训练革新",
+      "body": "CamVLA通过解耦操控与相机几何，让机器人自主适应未知相机位姿，无需外部标定即可完成精细动作，大幅提升真实部署的实用性。Direct-OPD提出“弱教师强化、强学生蒸馏”的策略，以隐式稠密奖励替代昂贵的大模型RL训练，为大规模后训练降本增效。Anthropic的全局工作空间架构借鉴认知科学，使多个专用模块协调交互，显著提升复杂推理表现，为类人通用智能提供新设计范式。"
+    },
+    {
+      "title": "Agent 工程与验证新范式",
+      "body": "CompactionRL用强化学习联合优化任务执行与上下文压缩，使基于开放GLM-4.5-Air的长程代理在SWE-bench Verified上获得66.8% Pass@1，为突破上下文窗口限制开辟路径。LLM-as-a-Verifier则把验证视为扩展大模型能力的新轴，无需额外训练即可利用评分标记概率分布生成细粒度连续反馈，实验证明放大评分粒度能更有效区分答案质量，为智能体任务的可信评估奠定了基础。"
+    },
+    {
+      "title": "评估、可解释性与可信瓶颈",
+      "body": "视觉生成模型在开放世界请求中的“编造”问题被SearchGen-Bench基准揭示，前沿模型得分骤降40分，而简单的检索引入又会带进噪声，根因在于模型知识边界动态变化。Claude Fable 5指南则从另一侧攻克认知盲区，通过系统化方法将“未知的未知”转化为可探索的目标，强化决策与模型稳健性。两者共同凸显了自适应检索、自我知识边界感知在提升AI可解释性与可信度中的迫切性。"
+    },
+    {
+      "title": "应用落地与产品发布",
+      "body": "加拿大阿尔伯塔省借助Claude跨系统检测网络安全漏洞，实现漏洞发现的自动化和高效响应，为公共部门应对网络威胁提供了新范式。Qwen的新版代码审查机器人增强了PR门控批量检测与危险模式识别，并优化自动修复反馈闭环，提升代码审查严谨性。Moonshot Kimi模型则默认开启“保留思考”功能，使多轮对话中的链式推理贯穿始终，显著改善复杂推理的连贯性和研究场景的体验。"
+    }
+  ]
+}
