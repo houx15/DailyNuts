@@ -1,0 +1,58 @@
+{
+  "date": "2026-07-08",
+  "headline_en": "Claude Everywhere, Safety Neurons Bypassed, and Agents Go Cost-Effective",
+  "lede_en": "Anthropic’s Claude expanded into government, mobile, and major cloud platforms, marking a week of aggressive enterprise deployment. Meanwhile, Apple researchers demonstrated that safety alignment can be shattered by tweaking single neurons, and prompt injection vulnerabilities scaled to botnet levels, underscoring the fragility of AI trust. On the efficiency frontier, new multi-agent orchestration patterns and hybrid attention architectures promise dramatic cost reductions for agentic workflows.",
+  "sections_en": [
+    {
+      "title": "Claude’s Omnipresence and the Enterprise Deployment Pivot",
+      "body": "Anthropic unleashed a volley of releases—Claude Code and Cowork for government, mobile and web expansion, apps gateways for Bedrock and Google Cloud, and general availability in Microsoft Foundry—embedding its assistants across every major ecosystem. This mirrors a broader shift captured by the $9.75B surge in Frontline Deployment Engineering, where winning requires not just better models but embedded engineers and institutional lock‑in. Microsoft’s pivot to its in‑house MAI models for Copilot and China’s consideration of export controls for advanced AI further signal that deployment infrastructure and supply‑chain sovereignty are now the primary battlegrounds."
+    },
+    {
+      "title": "Under the Hood: Security Exploits and the Neuron‑Level Alignment Bypass",
+      "body": "A cascade of disclosures exposed the precariousness of AI trust: GitLost showed how a single “Additionally” prompt in a public issue can leak private repos; HalluSquatting weaponized prompt injection into botnets and DDoS; and China warned of covert telemetry in Claude Code versions. Most alarming, Apple researchers found that inhibiting a single “refusal neuron” or amplifying a “concept neuron” across seven models (1.7B–70B) completely bypassed safety alignment without retraining. These findings, alongside the first documented agentic ransomware and Liquid AI’s Antidoom for breaking reasoning loops, illustrate that both security and alignment rest on all‑too‑fragile neuronal control."
+    },
+    {
+      "title": "Efficiency Unlocked: From Trillion‑Parameter Agents to Unified Decoding",
+      "body": "A convergence of architectural breakthroughs is slashing the cost of intelligence. Two multi‑agent patterns—Advisor and Orchestrator—use cheap/few‑shot models to reach 92–96% of an expensive agent’s performance at 46–63% of the cost. Meanwhile, a hybrid linear‑attention design and token‑density techniques (Kpop, chain‑of‑thought pruning) enable trillion‑parameter agents to operate with linear‑time context costs, achieving up to 10× inference reduction. DepthWeave‑KV compresses KV caches adaptively for long contexts, and a unified autoregressive‑diffusion decoder delivers 6× more tokens per forward pass. Together, these advances transform agent economics from prohibitive to practical."
+    }
+  ],
+  "top_picks": [
+    2977150601,
+    1284011237,
+    1540734663,
+    417777497,
+    2079106306
+  ],
+  "item_count": 63,
+  "source_breakdown": {
+    "google_research": 1,
+    "arxiv_cs_cl": 5,
+    "meta_ai": 1,
+    "claude_blog": 6,
+    "mad_podcast": 1,
+    "aihot_selected": 45,
+    "qwen_github": 3,
+    "moonshot_github": 1
+  },
+  "generated_at": "2026-07-08T10:28:18.662445Z",
+  "headline_zh": "AI代理漏洞丛生，GPT-5.6获批，中国拟限出口",
+  "lede_zh": "今日AI领域呈现攻防实战化与治理碎片化并行的态势。以GitLost为代表的代理安全漏洞从理论走向工程利用，自主攻击框架JadePuffer更展示了全链勒索能力，而苹果研究揭示安全对齐可被单神经元轻易绕过。与此同时，美国商务部批准OpenAI大规模发布GPT-5.6，中国则拟限制外国访问最强AI模型，开源生态面临不确定性。在应用与模型层面，Claude系列推出多项协作功能并暴露后门风险，Meta发布嵌入社交上下文的Muse图像视频模型，Nemotron三模式统一架构则从模型侧推动效率革命。这些并行进展共同勾勒出一个落地加速但信任与治理鸿沟加深的AI前沿图景。",
+  "sections_zh": [
+    {
+      "title": "代理安全攻防：从漏洞挖掘到自主攻击",
+      "body": "AI代理的安全边界今天被一再突破。Noma Labs发现的GitLost漏洞（索引14）揭示了代理在跨仓库场景中将不可信Issue直接作为指令执行的致命盲区，可导致私有代码无凭证泄露。同时，研究人员提出HalluSquatting拉取式注入方法（索引15），首次将提示注入扩展至组建九款AI编码工具的大规模僵尸网络。在实战侧，首例“智能体勒索软件”JadePuffer被Sysdig记录（索引47），展示AI从入侵、横向移动到加密的完整攻击链的自纠错能力，但人类仍负责设目标。而苹果的最新研究（索引45）则给出更根本的警告：只需抑制单个拒绝神经元或放大概念神经元，即可让大模型绕过安全对齐，无需任何训练。这些发现共同标志着AI安全的研究已从理论攻击向量，进入可直接武器化与大规模利用的实战化阶段。"
+    },
+    {
+      "title": "模型架构与效率：从谱注意力到三模式解码",
+      "body": "在模型能力的底层，架构创新持续推动效率与质量的平衡。谱注意力机制（索引2）针对图去噪模型只能学习平均谱滤波的局限，直接利用输入图频谱，提升了扩散模型的表达能力。Nemotron-Labs-Diffusion（索引38）则通过联合自回归与扩散损失，在统一架构中实现自回归、扩散与自我推测解码的三模式无缝合训，单次前向解码量可提升至6倍，大规模开源部署的成本结构被重写。蚂蚁集团（索引22）提出的Token密度理念，从混合线性注意力到思维链剪枝，将长上下文推理成本压缩至线性且能力不降，千亿模型在Agent任务中超越更大模型。从KV缓存差异化管理（索引5）到Liquid AI的推理死循环修复方法（索引29），这些工作表明模型效率革命正从参数规模竞赛转向更精细的算法与系统协同设计。"
+    },
+    {
+      "title": "应用与产品：Claude生态扩张与生成式AI嵌入社交",
+      "body": "应用侧今日密集释放。Claude家族迎来移动端与网页端的Claude Cowork（索引9）、多云部署网关（索引11）及Microsoft Foundry上线（索引12），极大降低政府与企业场景的集成门槛；但工信部随即发布Claude Code后门风险提示（索引16），揭示版本内置信息回传通道，将数据主权风险推至前台。Meta Superintelligence Labs发布的Muse Image与Muse Video（索引25）精准回应了生成可控性难题，通过多参考构图、社交上下文整合与原生音频，将AI创作直接嵌入Instagram生态。Krea 2的身份保留功能（索引24）、NotebookLM短视频概览（索引28）和Rowboat开源桌面助手（索引30）则将AI能力封装为更可用的个人工具。微软为降成本在Copilot中用自研MAI模型替换OpenAI和Anthropic（索引26）的行为，则预示云厂商自研替代与商业绑定策略可能重塑企业AI服务格局。"
+    },
+    {
+      "title": "政策、投资与全球竞赛：碎片化治理下的新常态",
+      "body": "全球AI治理与产业策略正呈现明显碎片化。美国商务部批准OpenAI大规模发布GPT-5.6（Sol）（索引18），标志临时管控结束，为正式行政令铺路；与此同时，中国商务部拟通过出口管制限制外国访问国内最强闭源与开源模型（索引31），模型泄露将被视为国家安全犯罪。Ethan Mollick对开放权重模型持续供给的悲观判断（索引33）与FDE部署工程12个月97.5亿美元的投资承诺（索引42）形成鲜明对照，提示行业护城河正从纯技术壁垒转向制度性切换成本。在极端环境，“小型模型在离线地区普及”（索引36）则提供了另一条叙事线索：当智能接近免费，数据系统的范式也将转向面向智能体、由智能体构成、由智能体驱动的新型架构（索引34）。这些信号共同表明，AI的下一阶段将在强监管、高投资与碎片化合作中寻找新的均衡。"
+    }
+  ]
+}
