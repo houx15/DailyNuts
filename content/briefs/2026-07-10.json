@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-10",
+  "headline_en": "39 items collected today",
+  "lede_en": "39 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    4257629221,
+    2102358984,
+    1093002616
+  ],
+  "item_count": 39,
+  "source_breakdown": {
+    "google_research": 1,
+    "arxiv_cs_cl": 5,
+    "anthropic_news": 4,
+    "meta_ai": 1,
+    "claude_blog": 1,
+    "mad_podcast": 1,
+    "aihot_selected": 23,
+    "qwen_github": 2,
+    "moonshot_github": 1
+  },
+  "generated_at": "2026-07-10T11:00:10.443210Z",
+  "headline_zh": "今日共采集 39 项内容",
+  "lede_zh": "今日共采集 39 项内容。",
+  "sections_zh": []
+}

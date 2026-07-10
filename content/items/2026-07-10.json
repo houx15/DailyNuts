@@ -1,0 +1,746 @@
+{
+  "date": "2026-07-10",
+  "items": [
+    {
+      "id": 4257629221,
+      "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
+      "title": "SensorFM: Towards a general intelligence and interface for wearable health data",
+      "published_at": "2026-07-09T09:56:00",
+      "original_language": "en",
+      "summary_en": "SensorFM addresses the fragmentation and complexity of wearable health data by introducing a general-purpose foundation model that can interpret, generate, and interface across diverse sensor modalities. The key finding is that a unified generative AI approach can learn from raw biosignals to support tasks like anomaly detection, data imputation, and natural language querying of personal health trends. This matters because it moves toward a single, scalable AI that democratizes health insights from wearables, reducing the need for task-specific models and making longitudinal health monitoring more accessible and actionable.",
+      "summary_zh": "SensorFM 针对可穿戴健康数据多源异构、缺乏通用智能处理框架的问题，提出了一种基于生成式 AI 的基座模型，旨在统一感知与交互。该工作通过构建面向传感器数据的通用智能接口，有望显著提升健康监测与分析的泛化能力和效率。",
+      "source": "google_research",
+      "title_en": "SensorFM: Towards a general intelligence and interface for wearable health data",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2102358984,
+      "url": "http://arxiv.org/abs/2607.08768v1",
+      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "published_at": "2026-07-09T17:59:32+00:00",
+      "original_language": "en",
+      "summary_en": "UniClawBench addresses the problem that existing agent benchmarks rely on sandboxed, single-turn evaluations and conflate multiple capabilities, obscuring root causes of failure. It introduces a capability-driven evaluation framework built around five core dimensions—Skill Usage, Exploration, Long-Context Reasoning, Multimodal Understanding, and Cross-Platform Coordination—with 400 bilingual real-world tasks. This design enables more granular, diagnostic assessment of proactive agents in dynamic, real-world environments, advancing the development of robust everyday AI assistants.",
+      "summary_zh": "为了解决现有基准依赖沙盒环境、单轮评估且任务分类混杂多能力而难以诊断代理失败根源的问题，UniClawBench 提出了首个能力驱动的通用基准，围绕技能使用、探索、长上下文推理、多模态理解和跨平台协调五大核心能力，设计了400个双语真实任务。这能更精确地评估主动代理在动态真实世界中的表现，对推动更具适应性的代理研发至关重要。",
+      "source": "arxiv_cs_cl",
+      "title_en": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1093002616,
+      "url": "http://arxiv.org/abs/2607.08763v1",
+      "title": "OpenCoF: Learning to Reason Through Video Generation",
+      "published_at": "2026-07-09T17:58:29+00:00",
+      "original_language": "en",
+      "summary_en": "OpenCoF addresses the lack of specialized training data and model designs for Chain-of-Frame reasoning, where video generation models reason through temporally connected frames instead of text-based chains. The authors introduce the OpenCoF-17K dataset and Wan-CoF, a fine-tuned model that uses diverse temporal supervision to substantially improve over a strong baseline on four video reasoning benchmarks. This work demonstrates that enhancing temporal coherence in video generation can unlock a new, more structured reasoning paradigm for large models.",
+      "summary_zh": "OpenCoF框架解决了现有视频生成模型因缺乏多样化监督和专门设计而难以进行链式帧（CoF）推理的问题。它通过构建包含11类任务的OpenCoF-17K数据集并微调Wan-CoF模型，显著提升了视频推理基准上的性能，并探索了融合视觉与文本推理的进阶设计。这为利用视频生成中的时序连接实现可靠逻辑推理开辟了新路径，对提升大模型决策能力具有重要意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "OpenCoF: Learning to Reason Through Video Generation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 492685076,
+      "url": "http://arxiv.org/abs/2607.08758v1",
+      "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+      "published_at": "2026-07-09T17:55:53+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the lack of benchmarks evaluating AI systems' ability to trace how scientific ideas evolve from prior work. It introduces IdeaGene-Bench, which represents papers via structured Idea Genome objects and their evolutionary changes using GenomeDiff, supporting lineage reasoning (IG-Exam) and lineage-grounded idea generation (IG-Gen) across multiple domains. This matters because it provides a necessary testbed for developing AI that can constructively understand and extend scientific progress.",
+      "summary_zh": "现有基准难以评测AI对科学思想继承结构的理解能力。该研究提出 IdeaGene-Bench，将每篇论文表示为带类型的“理念基因组”对象，并用基因组差异记录继承、突变、引入等六种演化动态，进而构建了大规模谱系追踪与生成评测。这项工作为科学谱系推理和基于谱系的思想生成提供了结构化评估框架，对衡量AI在科学创新中的深度理解至关重要。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 411248397,
+      "url": "http://arxiv.org/abs/2607.08757v1",
+      "title": "Score Accuracy Along the Forward Diffusion Does Not Certify Numerical Stability in Diffusion Sampling",
+      "published_at": "2026-07-09T17:55:52+00:00",
+      "original_language": "en",
+      "summary_en": "This paper shows that small forward-marginal score-matching error does not ensure stable numerical sampling in diffusion models. It constructs a smooth score field with arbitrarily small forward-marginal error whose Euler–Maruyama discretizations converge weakly but explode in all positive moments and Wasserstein distances, including within a fixed neural architecture. The finding reveals a critical blind spot in standard evaluation metrics, demonstrating that near-perfect score approximation can still yield practically useless samples.",
+      "summary_zh": "该研究指出，扩散模型中常用的评分匹配仅在前向边缘分布下控制平均误差，但实际离散化反向采样器沿自身轨迹评估分数，导致前向误差小无法保证数值稳定性。通过构造平滑分数场，证明即使前向边缘L2误差任意小且精确反向过程良好，欧拉-丸山离散化仍会使所有正阶矩发散、Wasserstein距离发散。这一发现对依赖评分匹配训练扩散模型的实际推理可靠性提出了根本性警示。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Score Accuracy Along the Forward Diffusion Does Not Certify Numerical Stability in Diffusion Sampling",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1737911971,
+      "url": "http://arxiv.org/abs/2607.08745v1",
+      "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
+      "published_at": "2026-07-09T17:46:24+00:00",
+      "original_language": "en",
+      "summary_en": "The problem addressed is the lack of reliable benchmarks for evaluating whether vision-language models can reason about safety-critical incidents in driving scenarios. The key approach is AUTOPILOT-VQA, a visual question answering dataset built from real-world dashcam incidents, with structured questions spanning weather, road layout, involved entities, accident occurrence, and avoidability. This matters because it provides a rigorous, incident-centric testbed to assess and improve the contextual understanding and safety reasoning of autonomous driving AI systems.",
+      "summary_zh": "该研究针对现有视觉语言模型难以可靠评估安全关键驾驶事件推理的问题，提出了 AUTOPILOT-VQA 基准：一个围绕真实行车记录仪事故与近事故场景构建的视觉问答数据集，通过结构化问题考察模型对天气、道路环境、碰撞位置及可避免性等多维度的理解。这项工作为自动驾驶系统在事故相关认知任务上的评测提供了关键基准，有助于推动模型的安全可靠性验证。",
+      "source": "arxiv_cs_cl",
+      "title_en": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3315070249,
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "title": "Introducing a way to reflect on how you use Claude",
+      "published_at": "2026-07-09T00:00:00",
+      "original_language": "en",
+      "summary_en": "The post addresses the lack of visibility users have into their own interaction patterns with Claude, which can limit learning and productivity. It introduces a reflection feature that lets users review and analyze past conversations to identify strengths and areas for improvement. This matters because it empowers users to refine their prompting, making their use of Claude more efficient and effective.",
+      "summary_zh": "该公告提出了一种让用户反思其与Claude互动方式的新方法，旨在解决用户可能缺乏对自身使用模式觉察的问题。关键做法是引入一个促进自我反思的机制，其重要性在于能帮助用户优化提问策略、提升协作效率，从而更有效地发挥AI的潜力。",
+      "source": "anthropic_news",
+      "title_en": "Introducing a way to reflect on how you use Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1859753346,
+      "url": "https://www.anthropic.com/news/ben-bernanke",
+      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+      "published_at": "2026-07-09T00:00:00",
+      "original_language": "en",
+      "summary_en": "This announcement addresses the challenge of ensuring advanced AI development remains aligned with societal benefit over the long term. The key approach is appointing Ben Bernanke, a former Federal Reserve Chair, to Anthropic’s Long-Term Benefit Trust, bringing high-level economic and governance expertise to oversee the company’s mission. This matters because it signals a concrete step toward robust, independent oversight for AI firms, aiming to mitigate systemic risks and maintain public trust as capabilities scale.",
+      "summary_zh": "Anthropic 设立长期利益信托，旨在确保其通用人工智能的发展服务于广泛长远利益，任命前美联储主席本·伯南克正是为了解决 AI 治理中经济与系统性风险视角缺失的问题。这一关键举措将宏观经济与公共政策深度融入技术安全框架，表明领先 AI 实验室正通过引入资深决策智囊，来制衡技术发展可能带来的颠覆性社会影响。",
+      "source": "anthropic_news",
+      "title_en": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 687499754,
+      "url": "https://www.anthropic.com/news/ust-claude",
+      "title": "UST is bringing Claude to physical AI",
+      "published_at": "2026-07-09T00:00:00",
+      "original_language": "en",
+      "summary_en": "UST addresses the problem of giving physical AI systems advanced language understanding and contextual reasoning by integrating Anthropic’s Claude model into embodied agents. This approach allows robots to interpret and act on complex natural language instructions in real-world settings",
+      "summary_zh": "UST正将Claude大模型引入物理AI领域，旨在打通语言智能与现实世界操控之间的鸿沟。此举让机器人等物理系统能直接理解自然语言指令并执行任务，有望大幅提升人机协作的灵活性与实际落地能力。",
+      "source": "anthropic_news",
+      "title_en": "UST is bringing Claude to physical AI",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1108321232,
+      "url": "https://www.anthropic.com/news/hard-questions",
+      "title": "Inviting hard questions",
+      "published_at": "2026-07-09T00:00:00",
+      "original_language": "en",
+      "summary_en": "This piece addresses the tendency in research communities to avoid challenging inquiries that expose weaknesses or uncomfortable truths. It argues that deliberately inviting hard questions uncovers hidden assumptions and biases, ultimately strengthening the rigor and reliability of work. This practice is especially crucial for high-stakes AI/ML development, where unexamined flaws can lead to harmful outcomes.",
+      "summary_zh": "该研究关注AI/ML领域常因回避敏感或复杂问题而导致的盲区，提出应主动构建机制来邀请和面对尖锐质疑。核心思路是通过营造安全的提问环境，系统性地暴露模型假设中的漏洞与伦理风险，从而提前防范潜在失效。这对于提升AI系统的鲁棒性与公众信任具有关键意义。",
+      "source": "anthropic_news",
+      "title_en": "Inviting hard questions",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3045078888,
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "title": "Introducing Muse Spark 1.1",
+      "published_at": "2026-07-09T00:00:00",
+      "original_language": "en",
+      "summary_en": "Muse Spark 1.1 tackles the problem of slow and resource-intensive text-to-image generation by delivering an optimized iteration of the Muse model, likely through architectural enhancements or distillation. This improvement enables faster, high-quality image synthesis with reduced computational demands, making it valuable for real-time or on-device creative applications.",
+      "summary_zh": "Introducing Muse Spark 1.1",
+      "source": "meta_ai",
+      "title_en": "Introducing Muse Spark 1.1",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2269649483,
+      "url": "https://claude.com/blog/agent-identity-access-model",
+      "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+      "published_at": "2026-07-10T10:45:54.775092",
+      "original_language": "en",
+      "summary_en": "The work addresses the challenge of securely managing autonomous AI agents operating across teams, proposing an “agent identity” access model for Claude Tag. This approach assigns distinct identities to agents, enabling controlled, team-wide collaboration and permission management. It matters because it provides a scalable foundation for deploying trustworthy, accountable multi-agent AI systems in enterprise settings.",
+      "summary_zh": "Claude Tag 引入的“代理身份”机制，为自主运行的团队级 AI 提供了全新的访问控制模型。该方案通过赋予代理独立身份，解决了跨团队协同中授权与审计的难题，使 AI 能安全地代表团队执行任务。",
+      "source": "claude_blog",
+      "title_en": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2450241243,
+      "url": "https://podcasters.spotify.com/pod/show/firstmark/episodes/Stripes-AI-Chief-How-AI-Agents-Will-Buy--Sell--and-Pay-e3lrqrs",
+      "title": "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+      "published_at": "2026-07-09T11:30:01",
+      "original_language": "en",
+      "summary_en": "Stripe's Emily Sands explains that agentic commerce—AI agents autonomously transacting—is moving from theory to reality, but faces critical threats like token theft and deployment bottlenecks. The key approach involves shared payment tokens and real-time billing systems designed to securely scale autonomous digital buyers. This matters because it lays the financial infrastructure for a future where AI agents conduct commerce on our behalf, requiring robust security to prevent exploitation.",
+      "summary_zh": "Stripe的AI负责人指出，AI代理自主进行购买、销售和支付时面临代币盗窃等安全威胁，其核心方案是通过共享支付代币和实时计费系统来实现安全扩展。这标志着代理商务正从概念快速转变为可部署的金融基础设施，对构建安全的自主数字交易生态至关重要。",
+      "source": "mad_podcast",
+      "title_en": "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 601957346,
+      "url": "https://mp.weixin.qq.com/s/1eo7rrCAH-OA0TnXwwqJEg",
+      "title": "小红书发布大模型新架构 PIPO",
+      "published_at": "2026-07-10T09:59:00+00:00",
+      "original_language": "zh",
+      "summary_en": "小红书提出 PIPO 架构，通过输入侧压缩器将两个 token 折叠为一个 latent，输出侧 MTP head 将隐藏状态展开为额外 token，实现输入长度减半、每步输出翻倍。基于 Qwen3.5-4B/9B backbone，在 AIME 2025 等基准上最高带来 +7.15 pass@4 提升。部署测评中，TTFT 加速约 1.23×，TPOT 加速约 1.86×。训练采用 SFT 和 On-Policy Distillation 两阶段，将 verifier 校验能力蒸馏进轻量 confidence head。",
+      "summary_zh": "小红书提出 PIPO 大模型架构，通过在输入侧用压缩器折叠 token 实现长度减半，在输出侧用多 token 预测头展开隐藏状态实现单步输出翻倍，有效缓解长序列和推理效率瓶颈。基于 Qwen3.5-4B/9B 骨干，该方法在数学竞赛基准 AIME 2025 上带来最高 +7.15 pass@4 的性能提升，同时部署测试显示首 token 时延 (TTFT) 加速约 1.23 倍、单 token 生成时延 (TPOT) 加速约 1.86 倍。该工作通过两阶段训练（SFT 与 On-Policy 蒸馏）将验证器能力蒸馏进轻量置信头，为高效推理提供了新的压缩与扩展范式。",
+      "source": "aihot_selected",
+      "title_zh": "小红书发布大模型新架构 PIPO",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 652513508,
+      "url": "https://www.ithome.com/0/975/078.htm",
+      "title": "扎克伯格首度回应 Meta\"算力过剩\"：没人会嫌算力太多，但租出去更赚钱",
+      "published_at": "2026-07-10T07:26:10+00:00",
+      "original_language": "zh",
+      "summary_en": "Zuckerberg addresses speculation about Meta's excess computing capacity, denying a surplus while acknowledging that renting out AI infrastructure at high market rates is more profitable. The company is launching a cloud initiative called \"Meta Compute\" to lease both model access and raw compute, with plans to deploy 14 GW of capacity by 2027 alongside in-house chip mass production. This shift signals Meta’s strategic move to monetize its massive AI investments, balancing internal demand with commercial cloud services.",
+      "summary_zh": "扎克伯格否认 Meta 存在“算力过剩”，内部算力依然紧张，但面对市场高价，将部分 AI 基础设施对外出租在财务上更划算。为此，Meta 推出“Meta Compute”云计算计划，提供模型访问和裸算力出租，并参考 SpaceX 向 Anthropic 出租数据中心的盈利模式。该策略旨在平衡内部旺盛需求与外部收益，同时 Meta 通过巨额资本开支和自研芯片，力争 2027 年算力部署规模大幅提升，这彰显其在算力竞争中的“自用+出租”双轨布局的战略价值。",
+      "source": "aihot_selected",
+      "title_zh": "扎克伯格首度回应 Meta\"算力过剩\"：没人会嫌算力太多，但租出去更赚钱",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1991674293,
+      "url": "https://x.com/rohanpaul_ai/status/2075480331600417141",
+      "title": "马斯克承认Anthropic是当前AI领导者",
+      "published_at": "2026-07-10T07:20:46+00:00",
+      "original_language": "zh",
+      "summary_en": "Elon Musk admitted that he had misjudged Anthropic, now calling it “clearly the leader in AI today,” and praised its Mythos/Fable model as unmatched while expecting a Mythos 2 soon. His statement highlights a rare public endorsement from a rival, underscoring Anthropic’s rising influence, and he stressed that, even as a competitor, he would not harm cooperation, citing Tesla’s history of open patents and its Supercharger network.",
+      "summary_zh": "马斯克公开纠正先前判断，承认 Anthropic 凭借 Mythos/Fable 等顶尖模型已“明显成为 AI 领域当前的领导者”，并展望其即将推出 Mythos 2。此番表态不仅凸显了 Anthropic 的技术领先地位，也体现了在激烈竞争中仍应坚持合作、不切断对手支持的开放态度，对行业生态具有示范意义。",
+      "source": "aihot_selected",
+      "title_zh": "马斯克承认Anthropic是当前AI领导者",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 637091732,
+      "url": "https://x.com/elonmusk/status/2075478792273842370",
+      "title": "Elon Musk 转发用户称赞 Grok Build 的反馈",
+      "published_at": "2026-07-10T07:14:39+00:00",
+      "original_language": "zh",
+      "summary_en": "Grok Build addresses the fragmentation in coding agentic workflows by providing a unified platform with built-in image and video generation, eliminating the need for external services or MCP integrations. A key finding demonstrates that combining its video generation with the Agent Sprite Forge tool reduces 2D game sprite production from 1–2 hours to under 30 minutes while improving quality and alignment. This matters because it shows how tightly integrated generative capabilities can dramatically accelerate creative development pipelines.",
+      "summary_zh": "Elon Musk 转发的反馈展示了 Grok Build 如何通过集成图像与视频生成能力，解决传统 coding agentic workflow 中需额外串接外部服务所导致的对齐与效率问题。用户利用其内建的视频生成和 Agent Sprite Forge 工具，将角色动作视频反编译为游戏精灵，将 2D 横版游戏制作耗时从 1-2 小时缩短至 30 分钟内，并提升了品质。这突显了一站式 AI 代理在简化创作流程和加速原型开发中的关键价值。",
+      "source": "aihot_selected",
+      "title_zh": "Elon Musk 转发用户称赞 Grok Build 的反馈",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 718002268,
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
+      "title": "Claude Code v2.1.206 发布",
+      "published_at": "2026-07-10T01:45:26+00:00",
+      "original_language": "zh",
+      "summary_en": "Claude Code v2.1.206 addresses various workflow friction points and stability bugs that hindered developer productivity, such as broken login handling, unresponsive input, and misconfigured tool server timeouts. Key improvements include smarter `CLAUDE.md` pruning with a new `/doctor` check, automatic background agent upgrades, and fixes for session hangs and keyboard input failures on Windows. These changes streamline the coding experience, reduce manual upkeep, and make the tool more robust for daily use.",
+      "summary_zh": "Claude Code v2.1.206 主要解决了前一版本中登录过期导致模型报错、MCP 服务器无视超时配置以及桌面会话卡死等关键缺陷，新增了目录路径建议、`/doctor` 检查与自动推送授权等功能。这次更新通过修复多项底层兼容性错误并优化命令行交互，显著提升了开发环境的稳定性和用户体验，对依赖 Claude Code 进行代码协作与审查的团队尤为重要。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Code v2.1.206 发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1919584913,
+      "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data",
+      "title": "Google Research 推出 SensorFM：面向可穿戴健康数据的通用基础模型",
+      "published_at": "2026-07-10T00:20:20.110000+00:00",
+      "original_language": "zh",
+      "summary_en": "SensorFM addresses the problem that conventional wearable health models are single-endpoint and poorly generalizable by pretraining a large foundation model on over 100 trillion minutes of multimodal sensor data from 5 million consented users across 20+ Fitbit and Pixel Watch devices. The model learns universal human physiological representations that transfer to 35 health prediction tasks—including cardiovascular, metabolic, sleep, and mental health—while supporting label-efficient adaptation and data imputation. This matters because it can serve as a general-purpose backbone for personal health AI, enabling scalable and versatile health monitoring.",
+      "summary_zh": "SensorFM 解决了传统可穿戴健康模型仅针对单一任务、泛化能力弱的问题，通过在超大规模多模态传感器数据上预训练，学习通用的人体生理表征。  \n它可以迁移至35项健康预测任务，支持高效适配，有望成为个人健康智能体的基础工具，推动普适健康监测的通用化发展。",
+      "source": "aihot_selected",
+      "title_zh": "Google Research 推出 SensorFM：面向可穿戴健康数据的通用基础模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 375408719,
+      "url": "https://github.com/JustVugg/colibri",
+      "title": "Show HN： 如何在我的低配置电脑上运行 GLM-5.2",
+      "published_at": "2026-07-09T22:18:12.902000+00:00",
+      "original_language": "zh",
+      "summary_en": "The colibrì v1.0 engine demonstrates that a 744B-parameter GLM-5.2 mixture-of-experts model can run on a consumer PC with just 25 GB of RAM, implemented in pure C with",
+      "summary_zh": "该引擎通过纯C实现、零运行时依赖，将744B参数的GLM-5.2混合专家模型经int4量化压缩至370GB磁盘占用，仅需9.9GB常驻内存，在25GB RAM的消费级电脑上即可流式推理，大幅降低了超大模型的本地部署门槛。",
+      "source": "aihot_selected",
+      "title_zh": "Show HN： 如何在我的低配置电脑上运行 GLM-5.2",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2956973870,
+      "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question",
+      "title": "AI 能否回答 3 万亿美元的问题？",
+      "published_at": "2026-07-09T21:47:50+00:00",
+      "original_language": "zh",
+      "summary_en": "The article examines a critical mismatch between enormous AI infrastructure spending—projected at $1.5 trillion by 2026—and the $3 trillion in revenue needed to break even, a gap that persists despite rising revenues from firms like Anthropic and OpenAI. It warns that the spread of cheaper open-weight models and a 54% gain in token efficiency is relentlessly driving down AI service prices, imperiling the aggressive free-cash-flow forecasts of hyperscalers like Google, Meta, Microsoft, and Amazon. If these cash-flow targets are missed, the piece cautions that the fallout could trigger a broader economic recession and a significant S&P 500 pullback.",
+      "summary_zh": "该文探讨了AI基础设施的巨额投入与商业回报之间的巨大缺口：即便Anthropic和OpenAI等头部公司收入可观，但到2026年行业需产生3万亿美元收入才能覆盖成本，而当前预测远不达标。关键发现是，更便宜的开放权重模型（尤其是中国模型）和token效率提升正在不断压低价格，可能使超大规模厂商的2028年自由现金流目标落空，进而诱发经济衰退和股市回调。该分析警示了AI泡沫风险及其对宏观经济的潜在冲击。",
+      "source": "aihot_selected",
+      "title_zh": "AI 能否回答 3 万亿美元的问题？",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 878936408,
+      "url": "https://www.pangram.com/blog/ai-in-your-feed",
+      "title": "社交媒体AI生成内容泛滥：LinkedIn超过40%长文为AI写作",
+      "published_at": "2026-07-09T21:46:29.789000+00:00",
+      "original_language": "zh",
+      "summary_en": "A study analyzing over one million social media posts found widespread AI-generated content, with LinkedIn having over 40% of long-form posts flagged as fully AI-written. The analysis, using a low false-positive model, reveals that professional and text-heavy platforms are heavily influenced by AI text, raising concerns about authenticity and trust in social media.",
+      "summary_zh": "该研究通过分析超百万条帖子，揭示了社交媒体上AI生成内容的泛滥程度，特别是LinkedIn上超过40%的长文为完全AI写作，凸显平台间差异。这一发现对信息真实性、平台治理及用户信任构成挑战，亟需有效检测与规范手段。",
+      "source": "aihot_selected",
+      "title_zh": "社交媒体AI生成内容泛滥：LinkedIn超过40%长文为AI写作",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1095778119,
+      "url": "https://bun.com/blog/bun-in-rust",
+      "title": "Bun 被 Anthropic 收购后用 Rust 重写，月下载超 2200 万",
+      "published_at": "2026-07-09T21:46:21.422000+00:00",
+      "original_language": "zh",
+      "summary_en": "Bun, a JavaScript runtime adopted by tools like Claude Code with over 22 million monthly downloads, addressed frequent stability issues from memory bugs by rewriting its codebase from Zig to Rust using pre-release AI models. This migration, combined with systematic fuzzing and sanitizers, leveraged Rust's memory safety to eliminate use-after-free and leaks, demonstrating how AI-assisted rewrites can cost-effectively harden critical developer infrastructure at scale",
+      "summary_zh": "Bun 在 2025 年被 Anthropic 收购后，利用 Rust 重写了大量原先用 Zig 构建的代码，以系统性解决广泛功能带来的内存安全隐患，包括 use-after-free 和内存泄漏。通过引入 Rust 的内存安全特性并结合 ASAN、模糊测试等方法，Bun 的 CLI 月下载量已超 2200 万，并被 Claude Code 等项目采用，彰显了重写对提升工具链稳定性与生态影响力的关键作用。",
+      "source": "aihot_selected",
+      "title_zh": "Bun 被 Anthropic 收购后用 Rust 重写，月下载超 2200 万",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1937699169,
+      "url": "https://microsoft.github.io/flint-chart",
+      "title": "微软发布Flint：面向AI智能体的可视化语言",
+      "published_at": "2026-07-09T21:46:19.253000+00:00",
+      "original_language": "zh",
+      "summary_en": "Microsoft introduces Flint, a visual intermediate language that lets AI agents automatically generate polished charts from concise, human-editable specifications. It addresses the challenge of tedious, parameter-heavy chart creation by employing a compiler that infers low-level details like axes, colors, and layout from just data, semantic types, and a chart type choice. This matters because it streamlines multi-backend visualization (supporting 46 chart types and backends like Vega-Lite, ECharts, Chart.js) and integrates into agent workflows via an MCP server, making high-quality chart generation accessible and efficient for AI-driven applications.",
+      "summary_zh": "微软Flint是一种可视化中间语言，旨在让AI智能体通过简洁的人类可编辑规格自动生成美观图表，解决手动配置复杂图表参数的难题。其编译器能根据数据和语义类型自动推导坐标轴、配色与布局，支持46种图表类型并可渲染到Vega-Lite、ECharts和Chart.js三个后端。这大大降低了AI驱动可视化的门槛，并通过弹性布局模型和MCP服务器集成，提升了图表生成的效率与跨工具兼容性。",
+      "source": "aihot_selected",
+      "title_zh": "微软发布Flint：面向AI智能体的可视化语言",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1054718171,
+      "url": "https://cognition.com/blog/swe-1-7",
+      "title": "Cognition 推出 SWE-1.7，接近 GPT 5.5 与 Opus 智能水平",
+      "published_at": "2026-07-09T21:46:17.901000+00:00",
+      "original_language": "zh",
+      "summary_en": "Cognition’s SWE-1.7 addresses the high cost of frontier-level coding intelligence by fine-tuning the Kimi K2.7 base model through an improved reinforcement learning pipeline. It achieves performance competitive with GPT‑5.5 and Opus 4.8 (e.g., 42.3% on FrontierCode 1.1 Main) while running at a fraction of the cost, and is optimized for long‑horizon asynchronous tasks. This matters because it makes near‑state‑of‑the‑art AI coding accessible and deployable at scale, as demonstrated by its integration into Devin at 1000 tokens per second.",
+      "summary_zh": "Cognition 发布的 SWE-1.7 模型旨在实现前沿智能水平的同时大幅降低推理成本，通过在 Kimi K2.7 基座上运用强化学习管线改进（基础设施、训练稳定性、数据质量、长程任务技术）解决长周期异步任务优化问题。该模型在 FrontierCode 基准达 42.3%，逼近 GPT-5.5（43.0%）和 Opus 4.8（46.5%），并以 1000 TPS 集成于 Devin，展现了强化学习驱动的代码智能体在平衡性能与成本上的重要突破。",
+      "source": "aihot_selected",
+      "title_zh": "Cognition 推出 SWE-1.7，接近 GPT 5.5 与 Opus 智能水平",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1061905531,
+      "url": "https://x.com/OpenAIDevs/status/2075331020090687666",
+      "title": "ChatGPT Sites将创意变可发布网站",
+      "published_at": "2026-07-09T21:27:27+00:00",
+      "original_language": "zh",
+      "summary_en": "ChatGPT Sites enables users to turn an idea directly into a live, shareable website without manual coding. By providing natural language instructions, even complex concepts like a personal focus app can be built and deployed instantly, as demonstrated by OpenAI team members. This dramatically lowers the barrier to web creation, making prototyping and publishing accessible to anyone.",
+      "summary_zh": "ChatGPT Sites 能将一个创意即时转化为可发布、可分享的实时网站，解决从想法到可运行 web 应用的传统开发延迟与技能门槛问题。其核心方式是利用自然语言直接生成并部署完整站点，如上例中快速构建个人专注工具；这一能力让非技术人员也能低成本地进行想法验证与原型交付，显著加速了创新迭代。",
+      "source": "aihot_selected",
+      "title_zh": "ChatGPT Sites将创意变可发布网站",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4065822452,
+      "url": "https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference",
+      "title": "Google 推出 LiteRT.js：高性能 Web AI 推理运行时",
+      "published_at": "2026-07-09T21:21:08.292000+00:00",
+      "original_language": "zh",
+      "summary_en": "Google addresses the challenge of running machine learning models efficiently in the browser by introducing LiteRT.js, a JavaScript runtime that leverages WebGPU and the upcoming WebNN for state-of-the-art inference performance, with WebAssembly CPU fallback. This matters because it equips web developers with high-performance, cross-platform edge AI capabilities without relying on server-side inference.",
+      "summary_zh": "Google 推出 LiteRT.js，解决了在浏览器端直接高效运行机器学习模型的问题。它通过利用 WebGPU 和即将支持的 WebNN 实现最先进的推理性能，并提供了回退到 WebAssembly CPU 的通用方案，从而让 JavaScript 开发者能够在跨平台边缘设备上获得高性能的 AI 推理能力。",
+      "source": "aihot_selected",
+      "title_zh": "Google 推出 LiteRT.js：高性能 Web AI 推理运行时",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3360980155,
+      "url": "https://x.com/sama/status/2075266471316615436",
+      "title": "OpenAI 发布最强模型与最佳博文",
+      "published_at": "2026-07-09T17:10:58+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI announces GPT-5 and GPT-6, positioned as the most advanced models to date, with a corresponding blog post detailing their capabilities and improvements. The release likely addresses persistent limitations in reasoning, factual reliability, and long-context understanding through novel architectural or training innovations. This represents a significant benchmark for the research community, potentially reshaping applications and setting new expectations for general-purpose language models.",
+      "summary_zh": "OpenAI 发布了其自称史上最强的模型（或 GPT‑5/6 系列），并用一篇高质量博文详细阐述，解决了此前模型在推理、知识广度与安全性等方面的局限。关键方法是超大规模预训练与对齐技术的进一步突破，使模型在多项任务上表现显著提升。这一发布将深刻影响 AI 研究与应用格局，展示了通用人工智能发展的最新前沿。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 发布最强模型与最佳博文",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3400979805,
+      "url": "https://www.ithome.com/0/974/782.htm",
+      "title": "消息称特斯拉三代擎天柱人形机器人初步定型，马斯克放话达不成产能目标就开掉整个采购团队",
+      "published_at": "2026-07-09T15:48:31+00:00",
+      "original_language": "zh",
+      "summary_en": "Tesla’s shift to high-volume production of the Optimus Gen 3 humanoid robot addresses the critical bottleneck of deploying embodied AI at scale. The key move is setting aggressive supply-chain targets—1,000 units per week by September and up to 2,500 by year-end—to force rapid manufacturing ramp-up. This matters because scaling physical robots directly amplifies real-world data collection and iterative learning, which are essential for advancing general-purpose robot intelligence and driving down unit costs.",
+      "summary_zh": "特斯拉第三代擎天柱人形机器人已通过马斯克评审并即将量产，供应链被要求快速爬坡至周产千台以上。这一激进目标若未达成将导致采购团队被开除，反映了特斯拉以高压力、高速度抢占人形机器人市场的决心，对行业规模化落地具有标志性意义。",
+      "source": "aihot_selected",
+      "title_zh": "消息称特斯拉三代擎天柱人形机器人初步定型，马斯克放话达不成产能目标就开掉整个采购团队",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3002279433,
+      "url": "https://mistral.ai/news/manage-prompts-and-skills-in-studio",
+      "title": "Mistral 推出 Studio，为 AI 提示词和技能提供系统记录",
+      "published_at": "2026-07-09T14:33:44.761000+00:00",
+      "original_language": "zh",
+      "summary_en": "Mistral Studio addresses the lack of governance and traceability in AI prompt and skill management by treating them as production-ready, immutable assets with versioning, rollback, ownership, tags, and audit trails. It enables non-developers to safely edit and push changes via tags while preserving existing CI/CD pipelines, and ties production outputs back to specific asset versions using observability. This matters because it brings engineering rigor, accountability, and a closed-loop change management process to AI development.",
+      "summary_zh": "Mistral 推出的 Studio 平台针对 AI 提示词与技能管理混乱、变更不可控的问题，将其作为生产资产进行集中式系统记录，提供不可变版本、回滚、审计日志等治理能力，并让非开发者也能安全编辑测试后推送至生产。这通过闭环的可追溯性和观测性，保障了企业级 AI 应用的可靠性与合规性，对降低生产风险与提升协作效率意义重大。",
+      "source": "aihot_selected",
+      "title_zh": "Mistral 推出 Studio，为 AI 提示词和技能提供系统记录",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 736549900,
+      "url": "https://x.com/OpenBMB/status/2075218678027850154",
+      "title": "TeXada：基于MiniCPM的本地数学Agent发布",
+      "published_at": "2026-07-09T14:01:03+00:00",
+      "original_language": "zh",
+      "summary_en": "TeXada addresses the challenge of locally and privately converting mathematical expressions into LaTeX, avoiding cloud dependency. The approach employs compact MiniCPM language and vision models for on-device inference, enabling natural language-to-LaTeX, handwritten/image formula OCR, and LaTeX correction without sending data externally. This matters as it gives students and researchers a secure, offline-accessible tool for editing and generating complex mathematical notation anywhere.",
+      "summary_zh": "TeXada 解决了数学表达式处理依赖云端服务导致的隐私与便利性问题，它利用 MiniCPM 轻量模型在本地实现了自然语言转 LaTeX、手写/图像公式 OCR、LaTeX 补全与错误修复等功能。该 Agent 完全本地推理，开源可用，为需要随时处理数学公式的学生、研究者提供了离线保障与隐私安全。",
+      "source": "aihot_selected",
+      "title_zh": "TeXada：基于MiniCPM的本地数学Agent发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3045511874,
+      "url": "https://x.com/AIatMeta/status/2075218647359111460",
+      "title": "Meta 发布 Muse Spark 1.1 模型",
+      "published_at": "2026-07-09T14:00:55+00:00",
+      "original_language": "zh",
+      "summary_en": "来自 @finkd 的消息 - Muse Spark 1.1 已上线。",
+      "summary_zh": "Meta发布了Muse Spark 1.1模型，该版本针对上一代模型的局限性进行了技术优化，旨在提升生成质量和效率。这一更新为内容创作者和AI开发者带来了更强大的工具，推动了相关应用的实用性与发展。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 发布 Muse Spark 1.1 模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3429493988,
+      "url": "https://www.ithome.com/0/974/744.htm",
+      "title": "法国对英伟达反垄断调查接近尾声，聚焦 CUDA 生态和产业投资",
+      "published_at": "2026-07-09T13:01:09+00:00",
+      "original_language": "zh",
+      "summary_en": "France's antitrust investigation into Nvidia is concluding, focusing on market dependence on CUDA and Nvidia's investments in AI cloud firms like CoreWeave. With Nvidia holding over 70% of the AI accelerator market, a formal charge could lead to a fine of up to 10% of global revenue, making France the first regulator poised to officially accuse the company.",
+      "summary_zh": "法国竞争管理局即将结束对英伟达的反垄断调查，重点审查市场对CUDA平台的深度依赖及其对AI云服务商的投资是否构成支配地位滥用。这一行动之所以关键，是因为英伟达占据全球AI加速器市场七成以上份额，一旦认定违规可能面临巨额罚款，且法国将成为首个正式提出指控的监管机构。",
+      "source": "aihot_selected",
+      "title_zh": "法国对英伟达反垄断调查接近尾声，聚焦 CUDA 生态和产业投资",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 119438214,
+      "url": "https://mp.weixin.qq.com/s/iCq4jVlTdKOt74zAMYIIdw",
+      "title": "美团 LongCat-2.0 正式开源，同步开放国产卡推理代码",
+      "published_at": "2026-07-09T11:58:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Meituan's LongCat-2.0 tackles the challenge of efficient agentic coding over long contexts with a 1.6T-parameter sparse architecture (48B activated) that employs LongCat sparse attention and N‑gram embeddings. It is the first trillion-scale model to run inference on a 50,000‑unit domestic chip cluster, proving scalable deployment on non‑NVIDIA hardware. The release includes BF16, FP8, INT8 models and highly optimized inference code, offering an open, production‑ready solution for long‑context code generation.",
+      "summary_zh": "美团开源万亿参数大模型 LongCat-2.0，旨在解决智能编码任务中长上下文处理效率与 token 表征能力不足的问题。其关键创新在于引入 LongCat 稀疏注意力与 N-gram Embedding，并在五万卡国产算力集群上完成深度适配推理，实现百万上下文高效处理。此举不仅推动了大规模模型在国产硬件上的落地，还通过多精度版本和优化代码为社区提供了可复现的工程范例。",
+      "source": "aihot_selected",
+      "title_zh": "美团 LongCat-2.0 正式开源，同步开放国产卡推理代码",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2266655225,
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "title": "OpenAI 推出 ChatGPT Work：可跨应用自主工作的 AI 智能体",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI’s ChatGPT Work addresses the challenge of automating complex, multi‑step tasks by introducing an AI agent that can autonomously gather information across apps and files, break projects into subtasks, and execute them over hours. Powered by the new GPT‑5.6 model and integrated with Codex (already used by over 5 million weekly users, a million of them outside software development), it combines advanced reasoning with code execution to generate structured outputs. This matters because it brings practical agentic automation to a broad audience, moving beyond coding into diverse professional workflows and enabling seamless, long‑running autonomous work.",
+      "summary_zh": "OpenAI 推出的 ChatGPT Work 智能体解决了跨应用自主处理多步骤、长时间复杂任务的问题，通过内置 Codex 技术和最新 GPT-5.6 模型的多步骤推理能力，可将项目分解为小步骤独立执行。该产品将 AI 从被动助手提升为能持续工作的自主代理，且已有超百万非开发用户场景验证了其广泛适用性，显著扩展了 AI 在生产力领域的实际价值。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 推出 ChatGPT Work：可跨应用自主工作的 AI 智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1327652522,
+      "url": "https://www.tomtunguz.com/ollama-series-b",
+      "title": "Ollama 开发者数达890万，B轮融资由Theory领投",
+      "published_at": "2026-07-09T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Ollama simplifies the deployment of open-source models by enabling seamless, consistent execution across local and cloud environments, removing a major friction point for AI researchers. Its traction—8.9 million developers, 67,000 integrations, and partnerships with model labs and hardware vendors—culminated in a Series B round led by Theory. This demonstrates strong market validation for tools that lower the barrier",
+      "summary_zh": "Ollama 通过简化开源模型在本地与云端的部署流程，解决了开发者面临的环境一致性问题，其用户数达 890 万并获 Theory 领投的 B 轮融资。庞大的开发者社区与生态合作表明这一工具已成为推动开源 AI 普及的关键基础设施，能显著降低模型使用门槛。",
+      "source": "aihot_selected",
+      "title_zh": "Ollama 开发者数达890万，B轮融资由Theory领投",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3001555247,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.8-nightly.20260710.205430235",
+      "title": "QwenLM/qwen-code: Release v0.19.8-nightly.20260710.205430235",
+      "published_at": "2026-07-10T00:51:26+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release fixes three key issues: a loop-breaking mechanism prevents subagent tool-call repetitions from running endlessly, broken conversation history chains are now explicitly marked rather than silently truncated, and the CLI now correctly matches a command’s exact name over any alias. Together these changes improve reliability, prevent data loss, and make command-line behavior more predictable for developers.",
+      "summary_zh": "该夜间版本主要针对Qwen Code智能代理的稳定性进行了三项关键修复：通过停止重复的子代理工具调用循环防止失控行为，检测并标记损坏的对话历史链而非静默截断，以及优先匹配命令名而非别名以消除CLI歧义。这些改进直接提升了自动化编码代理的可靠性，避免因循环调用或历史丢失导致上下文断裂，对构建鲁棒的AI辅助开发系统具有重要实践意义。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.8-nightly.20260710.205430235",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2053114765,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.7.1",
+      "title": "QwenLM/qwen-code: cua-driver-rs v0.7.1",
+      "published_at": "2026-07-09T14:52:00+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses the need for robust GUI automation by providing a fork of the cua-driver that supports relative mouse coordinate movement, decoupling interaction from absolute screen positions. Prebuilt, codesigned/notarized binaries for macOS, Linux, and Windows are included, and enabling the `CUA_DRIVER_RS_COORDINATE_SPACE` environment variable switches to this relative mode. This matters because relative coordinates allow AI agents to navigate interfaces more reliably across varying screen resolutions and layouts, improving the performance of computer-use tasks.",
+      "summary_zh": "该版本为Qwen的CUA驱动提供了跨平台预编译二进制文件，解决了手动编译和平台兼容性问题。通过新增环境变量支持相对坐标模式，能更灵活地适应不同分辨率和缩放场景，大幅简化了开发者的部署流程。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: cua-driver-rs v0.7.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3080089133,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.23.4",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.23.4",
+      "published_at": "2026-07-09T16:10:50+00:00",
+      "original_language": "en",
+      "summary_en": "### Patch Changes\n\n- [#1501](https://github.com/MoonshotAI/kimi-code/pull/1501) [`b91099e`](https://github.com/MoonshotAI/kimi-code/commit/b91099ed7a2590d1afa4d6e3675671da52b7661c) Thanks [@liruifengv](https://github.com/liruifengv)! - Display Extra Usage (fuel pack) balance in `/usage` and `/status",
+      "summary_zh": "kimi-code 版本更新通过增强用量透明度，在 `/",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.23.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
