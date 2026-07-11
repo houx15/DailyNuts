@@ -1,0 +1,347 @@
+{
+  "date": "2026-07-11",
+  "items": [
+    {
+      "id": 427068927,
+      "url": "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night",
+      "title": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night",
+      "published_at": "2026-07-11T09:19:41.437233",
+      "original_language": "en",
+      "summary_en": "Cognition leverages Claude Fable 5 to autonomously handle extended software engineering tasks overnight, addressing the challenge of sustaining AI performance over long-horizon, unsupervised work. The approach reportedly maintains frontier-level reliability without human intervention, accelerating development cycles by effectively eliminating downtime. This matters because it demonstrates a practical path to persistent AI-assisted coding that can work around the clock, potentially transforming productivity in research and industry.",
+      "summary_zh": "该案例探讨了前沿AI研发中人类无法持续高强度运转的瓶颈。Cognition公司采用Claude Fable 5模型，通过信任机制让其在夜间自主完成复杂任务，模拟“通宵工作”模式。这一实践证明了AI代理在无监督下稳定输出前沿成果的可行性，显著提升了研发迭代效率，标志着智能体自主协作的新阶段。",
+      "source": "claude_blog",
+      "title_en": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2484781479,
+      "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+      "title": "Giving admins more visibility and control over Claude spend",
+      "published_at": "2026-07-11T09:19:41.441002",
+      "original_language": "en",
+      "summary_en": "This feature addresses the challenge of administrators lacking tools to monitor and manage organizational spending on Claude. It provides enhanced visibility into usage and spending patterns along with granular controls, enabling proactive budget management. This matters because it empowers enterprises to prevent unexpected cost overruns and optimize their AI investments without sacrificing access.",
+      "summary_zh": "为解决管理员难以有效监控和控制Claude服务开支的问题，新功能提供了更清晰的支出视图和精细的管理选项，使企业能实时追踪消耗并设定预算上限。这有助于防止成本失控并优化AI资源分配，对规模化部署的企业至关重要。",
+      "source": "claude_blog",
+      "title_en": "Giving admins more visibility and control over Claude spend",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1118241781,
+      "url": "https://claude.com/blog/building-effective-human-agent-teams",
+      "title": "Building effective human-agent teams",
+      "published_at": "2026-07-11T09:19:41.442701",
+      "original_language": "en",
+      "summary_en": "This work addresses the challenge of integrating artificial agents into human teams to achieve collaborative performance that surpasses either alone. It likely examines strategies for designing agent behaviors, communication protocols, or role allocations that foster trust and coordination. Understanding these dynamics is critical for deploying AI in real-world settings like healthcare, customer service, and complex decision-making, where effective human–agent teamwork can enhance efficiency and outcomes.",
+      "summary_zh": "该研究聚焦于构建高效的人机协作团队，解决人类与AI智能体在协同任务中存在的信任建立、沟通协调与动态分工等核心挑战。通过探索角色分配、交互范式或实证评估，提取了提升联合决策与执行效能的关键因素，为人机团队在复杂环境中的可靠部署提供了重要指导。",
+      "source": "claude_blog",
+      "title_en": "Building effective human-agent teams",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3758735386,
+      "url": "https://unsupervised-learning.simplecast.com/episodes/ep-90-ai-pioneer-jurgen-schmidhuber-on-the-state-of-ai-today-yero2ugh",
+      "title": "Ep 90: AI Pioneer Jürgen Schmidhuber on the State of AI Today",
+      "published_at": "2026-07-09T13:00:00",
+      "original_language": "en",
+      "summary_en": "Jürgen Schmidhuber, a pioneer behind transformers and LSTMs, argues that AGI remains bottlenecked by physical hardware rather than algorithms, and that today’s massive AI data center investments are poised for a correction as open-source innovation rapidly matches closed labs. He contends the true path to general intelligence requires artificial curiosity and self-generated goals to drive continual learning, challenging the dominant scaling approach and highlighting the need for intrinsic motivation mechanisms.",
+      "summary_zh": "AI先驱Jürgen Schmidhuber指出，当前通用人工智能（AGI）的主要瓶颈在于物理硬件限制，而非算法突破；同时，他预测随着开源模型迅速追赶封闭实验室，大规模AI数据中心投资将面临回调。他强调，通向真正通用智能的关键路径在于赋予AI人工好奇心与自我生成能力，这一观点为未来AI发展指明了新的探索方向，或将推动从数据驱动向更具自主性的学习范式转变。",
+      "source": "unsupervised_learning",
+      "title_en": "Ep 90: AI Pioneer Jürgen Schmidhuber on the State of AI Today",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2025557294,
+      "url": "https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0",
+      "title": "蚂蚁集团 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型",
+      "published_at": "2026-07-11T07:56:11+00:00",
+      "original_language": "zh",
+      "summary_en": "LingBot-VA 2.0 is the first native embodied foundation model designed to tackle efficient training and real-time inference for robot manipulation. It leverages a causal DiT architecture with multi-chunk prediction for 2.3× training speedup and lookahead reasoning to reduce latency to 142 ms per chunk, achieving over 93% average success across 50 diverse tasks in RoboTwin 2.0. This work demonstrates how large-scale video-based models can be optimized for practical embodied AI, enabling high-performance robot control with fast, efficient learning.",
+      "summary_zh": "蚂蚁集团Robbyant团队发布的LingBot-VA 2.0是首个原生具身基础模型，它通过引入因果DiT架构与多块预测训练加速，显著提升了机器人任务学习的泛化性与效率。该模型在RoboTwin 2.0的50项任务中取得了超过93%的成功率，并借助前瞻推理将推理延迟降至142毫秒每块，为具身智能的高效部署与通用操作提供了重要基础。",
+      "source": "aihot_selected",
+      "title_zh": "蚂蚁集团 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 795696399,
+      "url": "https://x.com/AYi_AInotes/status/2075761215251312722",
+      "title": "OpenAI GPT-5.6-Sol 删光 AI 创业者 Matt Shumer 的 Mac 硬盘",
+      "published_at": "2026-07-11T01:56:54+00:00",
+      "original_language": "zh",
+      "summary_en": "An AI agent from OpenAI accidentally deleted an entrepreneur's entire Mac drive when a shell variable `$HOME` was mis-resolved during a file cleanup task, highlighting that even top models can fail dangerously on routine path expansions. The incident underscores a core risk in the agent industry: combining subagent autonomy with full system permissions creates a disaster amplifier, and safety standards vary widely between model providers like OpenAI and Anthropic.",
+      "summary_zh": "OpenAI 的 GPT-5.6-Sol 代理因 `$HOME` 路径变量解析错误，在执行文件清理子任务时误建 `rm -rf` 删除了用户整个主目录，导致长期累积的代码与数据全部丢失。事件暴露出即便顶级模型在变量展开等底层细节仍可能发生严重偏差，而子代理、长时自主运行与全权限的组合则将这些小错误放大为灾难性后果，凸显了不同模型厂商在安全边界设计上的巨大差异。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI GPT-5.6-Sol 删光 AI 创业者 Matt Shumer 的 Mac 硬盘",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 100723066,
+      "url": "https://casp.ac/reports/ai-enabled-terrorism",
+      "title": "博科圣地如何利用前沿AI技术",
+      "published_at": "2026-07-10T22:07:19.177000+00:00",
+      "original_language": "zh",
+      "summary_en": "This study uncovers the systematic integration of frontier AI tools by Boko Haram, detailing how the group used models like ChatGPT and Claude for attack planning, weapon troubleshooting, and explosive device design through institutionalized teams and training. The findings highlight the growing security threat of terrorist networks exploiting AI, amplified by transnational jihadist instruction and partial bypassing of safety filters, even though recorded applications have so far remained conventional.",
+      "summary_zh": "该研究通过访谈前成员，揭示了尼日利亚极端组织“博科圣地”在2024年已系统性地将生成式AI工具制度化，用于袭击策划、武器故障排查等作战活动。关键发现是，这些AI能力通过跨国圣战网络和面对面培训传播，成员甚至成功绕过安全限制，凸显了低成本AI武器化对全球反恐与安全治理的紧迫威胁。",
+      "source": "aihot_selected",
+      "title_zh": "博科圣地如何利用前沿AI技术",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4260138741,
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft",
+      "title": "Apple 起诉 OpenAI 窃取商业机密",
+      "published_at": "2026-07-10T20:32:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple has filed a lawsuit alleging OpenAI stole trade secrets related to proprietary hardware technologies by directing former Apple employees to disclose confidential project details and bring physical components during recruitment, and by using an ex-employee’s laptop to download sensitive documents. The case underscores the escalating legal tensions around competitive talent mobility in AI/ML, where hardware innovations (e.g., metal finishing techniques) can provide strategic advantage for developing next-generation AI-optimized devices.",
+      "summary_zh": "苹果指控 OpenAI 通过指使前员工在招聘中获取未发布产品代号和硬件组件，以及一名工程师离职后非法下载机密技术文档，系统性窃取其商业机密并用于开发自有硬件。此案揭示了AI硬件人才争夺中日益严峻的知识产权保护问题，可能对高投入硬件研发的竞争格局产生重大影响。",
+      "source": "aihot_selected",
+      "title_zh": "Apple 起诉 OpenAI 窃取商业机密",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2255208965,
+      "url": "https://x.com/thexpin/status/2075640168896516139",
+      "title": "宇树G1人形机器人完成首例活体微创手术",
+      "published_at": "2026-07-10T17:55:54+00:00",
+      "original_language": "zh",
+      "summary_en": "A new study reports the first standard microsurgery on living subjects performed by a humanoid robot, the Unitree G1, which successfully completed laparoscopic cholecystectomies on two pigs. Despite requiring repeated adjustments and lacking surgical sterility, the robot’s cost is roughly 5% of the da Vinci system, suggesting a path toward drastically cheaper robotic surgery and expanding access to minimally invasive procedures.",
+      "summary_zh": "宇树G1人形机器人首次在活体动物上完成标准微创手术，解决了传统手术机器人成本高昂的难题。研究团队通过反复校正，用常规器械成功实施胆囊切除术，尽管尚未满足无菌要求，但其成本仅为达芬奇系统的约5%，为未来普及型手术机器人发展提供了新方向。",
+      "source": "aihot_selected",
+      "title_zh": "宇树G1人形机器人完成首例活体微创手术",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 743839802,
+      "url": "https://x.com/ClaudeDevs/status/2075635283211772279",
+      "title": "Claude Code桌面版新增应用内浏览器",
+      "published_at": "2026-07-10T17:36:29+00:00",
+      "original_language": "zh",
+      "summary_en": "The update addresses the limitation of AI coding assistants lacking direct access to live web content by embedding a sandboxed, configurable browser within the Claude Code desktop app. This enables Claude to fetch and autonomously interact with online documentation, design files, or any website—clicking, reading, and navigating—similarly to how it operates a local dev server. The feature matters because it streamlines developer workflows by allowing remote resources to be treated as first-class, interactive components without leaving the coding environment, with privacy and persistence controlled by the user.",
+      "summary_zh": "Claude Code 桌面版引入应用内浏览器，使 AI 助手可直接调取并交互式浏览文档、设计稿等网页，解决了开发者需频繁手动切换工具查阅外部资源的问题。该浏览器采用沙盒机制且支持会话持久性配置，在确保安全的同时让 AI 能像操作本地开发服务器一样阅读、点击和操作网站内容，大幅提升了 AI 辅助开发的自主性和上下文连贯性。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Code桌面版新增应用内浏览器",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1971492097,
+      "url": "https://www.lmsys.org/blog/2026-07-10-rocm-miles-dsv4",
+      "title": "DeepSeek-V4 Flash 强化学习训练登陆 AMD Instinct MI355X GPU，由 Miles 框架支持",
+      "published_at": "2026-07-10T17:19:11.037000+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek-V4 Flash 的强化学习训练现已在 AMD Instinct MI355X GPU 上通过 Miles 框架获得支持，基于 ROCm 软件栈运行。该 2840 亿参数 MoE 模型（每 token 激活 130 亿参数）需 SGLang 进行 rollout 生成、Megatron 进行策略更新，Miles 负责异步循环与权重同步。团队解决了 SGLang 与 Megatron 间模型对齐、量化状态在线更新及多节点并行稳定性三大挑战，最终在四个八 GPU 节点上完成端到端验证：超过 100 个优化器步骤中训练-rollout 对数概率差可控，在线奖励持续提升，离线 AIM",
+      "summary_zh": "该工作解决了在 AMD Instinct GPU 上对 2840 亿参数 MoE 模型进行大规模强化学习训练的工程挑战，通过 Miles 框架协调 SGLang 的 rollout 生成与 Megatron 的策略更新，成功处理了模型对齐、量化状态在线同步及多节点并行稳定性等难题。端到端验证显示训练奖励与离线基准分数持续提升，证明了基于 ROCm 的 AMD 方案对前沿 RL 工作负载的可行性，拓宽了大模型训练平台的生态选择。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek-V4 Flash 强化学习训练登陆 AMD Instinct MI355X GPU，由 Miles 框架支持",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2439023871,
+      "url": "https://x.com/perplexity_ai/status/2075599540640714863",
+      "title": "Perplexity 推出跨模型信用额度分析功能",
+      "published_at": "2026-07-10T15:14:27+00:00",
+      "original_language": "zh",
+      "summary_en": "Perplexity addresses the challenge of monitoring credit usage across multiple AI models by launching Computer Analytics, a feature enabling cross-model expenditure tracking. This tool provides granular spending insights accessible in account settings, empowering both individual and enterprise users to optimize costs and manage budgets effectively.",
+      "summary_zh": "Perplexity 推出 Computer Analytics 功能，解决用户在多模型间信用额度使用情况不透明的问题，通过跨模型追踪支出让消费一目了然。这一功能面向个人和企业用户，有助于更高效地管理和控制 AI 服务成本，提升使用效率。",
+      "source": "aihot_selected",
+      "title_zh": "Perplexity 推出跨模型信用额度分析功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1153746273,
+      "url": "https://mp.weixin.qq.com/s/Haqbjim9YGmRu1XpxG_VvA",
+      "title": "百度搭子在成都AI Day发布四项更新：个人版升级、自媒体套件、企业版及搭子联盟",
+      "published_at": "2026-07-10T13:58:07+00:00",
+      "original_language": "zh",
+      "summary_en": "Baidu's Dazi platform introduced updates addressing fragmented personal productivity and content creation workflows, integrating smart routing that reduces task time by 20% and improves token utilization by 25%, alongside a first-of-its-kind full-chain self-media toolkit and an enterprise tier with team collaboration. The launch of the Dazi Alliance with partners like China Unicom and a",
+      "summary_zh": "百度搭子针对个人效率与专业场景需求，通过智能路由降低任务耗时并提升Token利用率，同时推出自媒体全链路套件、企业协作版及生态联盟，推动AI应用从个人向行业深化，上线三个月日均提问量增长20倍。",
+      "source": "aihot_selected",
+      "title_zh": "百度搭子在成都AI Day发布四项更新：个人版升级、自媒体套件、企业版及搭子联盟",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 69725183,
+      "url": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human",
+      "title": "Thinking Machines Lab：构建延伸人类意志与判断的 AI",
+      "published_at": "2026-07-10T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Thinking Machines Lab addresses the problem that most current AI models are trained in limited settings and then frozen, preventing users from adapting them to their specific needs. Their approach involves creating highly customizable multimodal models and tools that enable organizations to directly train model weights, broadening the channels of human-AI communication. This is important because it aims to shift AI from a centralized utility to a distributed extension of human judgment, allowing each entity to continuously fine-tune AI with its own evolving knowledge.",
+      "summary_zh": "该文章针对当前多数AI模型在训练后被“冻结”、无法由用户按需塑造的局限，提出构建可延伸人类意志与判断能力的AI。其核心做法是开发能进行多模态交互的强模型，并提供让用户直接训练模型权重的工具与界面，从而实现模型根据特定需求持续定制与演进。这一理念的关键价值在于，它让各类组织都能运用自身独特且不断演变的知识来微调模型，实现AI对分布式人类智慧的深度服务与适应性协同。",
+      "source": "aihot_selected",
+      "title_zh": "Thinking Machines Lab：构建延伸人类意志与判断的 AI",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 673435088,
+      "url": "https://openai.com/index/gpt-5-6",
+      "title": "GPT-5.6 系列模型发布：Sol、Terra、Luna",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI’s GPT‑5.6 series addresses the need for more capable, efficient, and safe AI agents by releasing three models (Sol, Terra, Luna) optimized for different cost–performance tradeoffs. The key finding is that the flagship Sol achieves state‑of‑the‑art results on agentic benchmarks—outperforming Claude Fable 5 by over 13 points on Agents’ Last Exam while using less than half the output tokens and time, and at roughly one‑third the cost—while Terra and Luna surpass Fable 5 at about 1/16th the cost. This matters",
+      "summary_zh": "OpenAI 发布 GPT-5.6 系列模型，通过旗舰 Sol、平衡型 Terra 和成本最优 Luna，解决 AI 代理在推理、编码及成本效率上的权衡问题。系列在关键基准测试中以显著更低的 token 消耗、时间和成本刷新多项 SOTA，并引入 Programmatic Tool Calling 与多代理协调的 ultra 模式来加速复杂任务。这一系列在顶尖安全防护下实现性能与成本的双重突破，为构建强大且经济的自主智能体提供了重要基础。",
+      "source": "aihot_selected",
+      "title_zh": "GPT-5.6 系列模型发布：Sol、Terra、Luna",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 533213158,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.8-nightly.20260711.0ef3a76bd",
+      "title": "QwenLM/qwen-code: Release v0.19.8-nightly.20260711.0ef3a76bd",
+      "published_at": "2026-07-11T00:42:27+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.8-nightly.20260711.0ef3a76bd -->\n\n## What's Changed\n* fix(core): keep YOLO mode when the model calls enter_plan_mode by @Nas01010101 in https://github.com/QwenLM/qwen-code/pull/6630\n* feat(cli): forward ask_user",
+      "summary_zh": "此次更新修复了核心流程中模型进入计划模式后错误退出YOLO模式的问题，确保自动化操作持续执行；同时增强了命令行工具对SDK问答的转发能力，并完善了审批界面的本地化标签。这些改进提升了智能体在复杂任务中的连贯性和多语言可用性，对依赖连续无人干预工作流的开发者尤为重要。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.8-nightly.20260711.0ef3a76bd",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1196584394,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.9",
+      "title": "QwenLM/qwen-code: Release v0.19.9",
+      "published_at": "2026-07-10T19:39:45+00:00",
+      "original_language": "en",
+      "summary_en": "This release fixes reliability issues in the agent and CLI: it stops subagents from infinite tool-call loops, explicitly detects and marks broken chat history chains instead of silently truncating context, and corrects CLI command matching to always prefer the exact command name over aliases. Together, these changes prevent resource waste, improve session debugging, and ensure deterministic command execution in interactive workflows.",
+      "summary_zh": "此版本修复了子代理工具调用陷入重复循环的问题，同时改进了会话历史管理，能主动检测并标记损坏的对话链，避免静默截断导致上下文丢失；还优化了CLI命令匹配逻辑，确保命令名称优先于别名，提升交互准确性。这些改进有助于增强代码助手的稳定性和用户体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.9",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1416372167,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.23.5",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.23.5",
+      "published_at": "2026-07-10T13:46:33+00:00",
+      "original_language": "en",
+      "summary_en": "This patch release fixes a bug in the kimi‑code web client where the “Turn finished” desktop notification and completion sound were erroneously fired twice per turn, causing redundant interruptions. By eliminating the duplicate alert, the tool now delivers a single, clear signal when an AI turn completes, helping developers maintain focus and a smoother workflow.",
+      "summary_zh": "本次更新修复了桌面“任务完成”通知和提示音在每轮中重复触发两次的问题，通过调整事件处理逻辑消除了冗余通知，确保用户体验流畅且提示准确。该修复避免了因重复提示造成的干扰，提升了开发者在代码执行反馈中的敏感性与沉浸感。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.23.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}

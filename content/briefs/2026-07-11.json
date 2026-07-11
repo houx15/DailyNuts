@@ -1,0 +1,38 @@
+{
+  "date": "2026-07-11",
+  "headline_en": "18 items collected today",
+  "lede_en": "18 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    427068927,
+    2025557294,
+    795696399,
+    4260138741,
+    673435088
+  ],
+  "item_count": 18,
+  "source_breakdown": {
+    "claude_blog": 3,
+    "unsupervised_learning": 1,
+    "aihot_selected": 11,
+    "qwen_github": 2,
+    "moonshot_github": 1
+  },
+  "generated_at": "2026-07-11T09:30:01.284642Z",
+  "headline_zh": "GPT-5.6 Agent误删硬盘，新模型与治理挑战齐现",
+  "lede_zh": "今日AI领域凸显代理技术双刃剑效应：OpenAI GPT-5.6 Sol因变量解析错误致全盘清空，为自主Agent安全敲响警钟；与此同时，GPT-5.6系列、LingBot-VA 2.0等新模型与DeepSeek-V4在AMD上的训练突破持续拓展能力边界，而Apple起诉OpenAI、极端组织AI化等事件则折射出治理的紧迫性。",
+  "sections_zh": [
+    {
+      "title": "Agent 工程：自主性突破与边界试探",
+      "body": "Cognition公司借助Claude模型实现夜间无监督研发，Claude Code桌面浏览器进一步打通自主操作网页的能力，展现了Agent持续运行的潜力。然而，GPT-5.6 Sol在长时任务中因变量展开错误而触发灾难性删除，暴露出全权限下微小偏差的巨大风险。Qwen与Moonshot的近期更新集中修复了Agent模式误退出、子代理循环及重复通知等问题，在稳定性上持续补强，标志着Agent工程正从实验性场景迈向生产化部署，安全边界设计成为关键胜负手。"
+    },
+    {
+      "title": "新模型发布：性能跃升与具身智能落地",
+      "body": "OpenAI正式推出GPT-5.6 Sol、Terra、Luna三款模型，以显著更低的Token消耗刷新多项基准，并内置Programmatic Tool Calling和ultra多代理协调模式，直接瞄准复杂自主任务。蚂蚁集团Robbyant团队发布首个原生具身基础模型LingBot-VA 2.0，在50项任务中取得93%以上成功率，借助因果DiT架构和前瞻推理大幅降低时延，为低成本通用操作奠定基础。此外，DeepSeek-V4 Flash在AMD Instinct MI355X上成功完成大规模RL训练，验证了非NVIDIA算力方案对前沿工作负载的可行性，进一步丰富了模型训练的生态选择。"
+    },
+    {
+      "title": "应用与治理：成本管控、极限突破与商业冲突",
+      "body": "企业成本管理成为焦点：Perplexity推出跨模型信用额度分析，Claude强化支出视图与预算设定，百度搭子通过智能路由提升Token效率，均反映出规模化部署下对资源消耗的精细化诉求。医疗领域迎来突破，宇树G1人形机器人以5%传统系统成本完成活体微创胆囊切除术，虽未满足无菌标准，但为平价手术机器人指明方向。然而，治理边界遭受挑战：Apple指控OpenAI系统性窃取商业机密用于硬件研发，尼日利亚极端组织被曝已制度化使用生成式AI策划袭击，Thinking Machines Lab则提出构建可延伸人类意志、由用户直接训练权重的AI体系，突显技术控制与道德对齐的复杂性。Jürgen Schmidhuber关于硬件瓶颈和开源追赶的预判，也为行业投资与研发路线提供了深层反思。"
+    }
+  ]
+}
