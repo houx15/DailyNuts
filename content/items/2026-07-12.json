@@ -1,0 +1,290 @@
+{
+  "date": "2026-07-12",
+  "items": [
+    {
+      "id": 149710679,
+      "url": "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs",
+      "title": "OpenAI CEO Altman 改口称 AI 净创造就业，Anthropic CEO 也修正早期言论",
+      "published_at": "2026-07-12T09:15:49+00:00",
+      "original_language": "zh",
+      "summary_en": "AI leaders now claim AI net creates jobs, reversing earlier automation fears, but empirical studies find no significant productivity or labor market shifts. A multi-university study shows programmer and copywriter declines started before ChatGPT, underscoring that current evidence doesn’t yet support either utopian or dystopian employment narratives. This gap between optimism and data matters for realistic workforce planning.",
+      "summary_zh": "OpenAI 和 Anthropic 的 CEO 均修正了此前 AI 会严重冲击就业的警示，转为认为 AI 是净创造就业的生产力工具；但多项实证研究仍未发现 AI 对整体就业或生产力有显著影响，甚至有证据表明程序员等岗位的衰退始于 ChatGPT 发布之前。这一分歧凸显了当前对 AI 劳动力效应的判断高度不确定，政策制定和企业决策须保持谨慎。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI CEO Altman 改口称 AI 净创造就业，Anthropic CEO 也修正早期言论",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 18763941,
+      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "title": "xAI Grok Build CLI 网络流量分析：上传仓库全部文件及 git 历史",
+      "published_at": "2026-07-12T03:59:09.632000+00:00",
+      "original_language": "zh",
+      "summary_en": "The analysis exposes that the xAI Grok Build CLI automatically exfiltrates a user's entire repository (including .env secrets and git history) to xAI's cloud storage, even when explicitly instructed not to read files, with the upload volume exceeding the actual model conversation by a factor of 27,800x. This default and undetectable data harvesting persists despite toggling privacy settings, highlighting a critical supply-chain risk for developers who integrate the tool into sensitive codebases.",
+      "summary_zh": "xAI 的 Grok Build CLI 工具在用户登录后，即使关闭“改进模型”设置且提示无需读取文件，仍会将整个仓库（包括 .env 等敏感文件和 Git 历史）默认为明文上传至云端，导致海量非必要数据外泄。通过网络流量分析发现，仅一次 12 GB 仓库测试就上传了 5.10 GiB 存储数据，与模型对话通道的传输量比高达 27,800 倍，证实了数据被接收并存储。这揭示了编码助手在开发者环境中潜在的严重隐私与数据失控风险，即使声称不收集训练数据，其底层机制仍可能大规模复制仓库。",
+      "source": "aihot_selected",
+      "title_zh": "xAI Grok Build CLI 网络流量分析：上传仓库全部文件及 git 历史",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3920112532,
+      "url": "https://www.ithome.com/0/975/666.htm",
+      "title": "苹果起诉OpenAI挖角窃密，分析师称即使指控未证实也可能重创其硬件计划",
+      "published_at": "2026-07-12T02:37:22+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple's lawsuit against OpenAI for alleged employee poaching and theft of confidential documents could derail OpenAI’s hardware initiatives and strain their partnership, even if the claims remain unproven. This matters because the case involves trade secrets for consumer hardware, and any misuse of stolen files by ex-Apple staff at OpenAI would signal serious legal and competitive risks.",
+      "summary_zh": "苹果起诉OpenAI涉嫌大规模挖角并窃取硬件机密，分析师指出即便指控未能证实，此事也已拖累OpenAI的硬件计划，并冲击双方的合作关系。",
+      "source": "aihot_selected",
+      "title_zh": "苹果起诉OpenAI挖角窃密，分析师称即使指控未证实也可能重创其硬件计划",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1011356525,
+      "url": "https://www.iroh.computer/blog/mesh-llm",
+      "title": "Mesh LLM：在 iroh 上进行分布式人工智能计算",
+      "published_at": "2026-07-12T02:23:05.249000+00:00",
+      "original_language": "zh",
+      "summary_en": "Mesh LLM addresses the challenge of scalable AI inference by pooling GPU and memory resources across multiple machines into a unified, OpenAI-compatible API without a central server. Its key approach uses the iroh library for peer-to-peer networking and a technique called \"Skippy\" that partitions large models across devices for pipelined execution, supporting everything from small 0.5B to massive 235B MoE models in a tiny 18 MB package. This matters because it democratizes access to distributed computing for large language models, enabling efficient, decentralized operation over ad‑hoc hardware without infrastructure complexity.",
+      "summary_zh": "Mesh LLM 解决了单机 GPU 资源不足难以运行大模型的问题，通过 iroh 的点对点连接将多台机器的 GPU 与内存池化，并对外提供兼容 OpenAI 的 API。关键思路是借助无需中心服务器的 P2P 架构，支持本地推理、节点路由与流水线层拆分（Skippy）等混合调度，从而灵活部署从数亿到上千亿参数模型。这一轻量级方案（约 18 MB）让分布式 AI 计算更易于搭建和使用，显著降低了大规模模型的服务门槛。",
+      "source": "aihot_selected",
+      "title_zh": "Mesh LLM：在 iroh 上进行分布式人工智能计算",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1493992235,
+      "url": "https://x.com/thsottiaux/status/2076119366647894371",
+      "title": "Tibo 分享通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法",
+      "published_at": "2026-07-12T01:40:04+00:00",
+      "original_language": "zh",
+      "summary_en": "Tibo shared a quick method to replace Claude Code’s default backend model with GPT-5.6 Sol using CLIProxyAPI, addressing the limitation of being locked to a single model provider. The setup involves installing the API proxy, authenticating, and creating a `claudex` alias with parameters for sub-agent model, always-on Effort, and max concurrent tool calls, reportedly taking about five minutes. This enables flexible model switching and fine-grained agent control, making development with preferred models more accessible.",
+      "summary_zh": "Tibo 分享的方法解决了用户想将 Claude Code 的默认后端模型替换为 GPT-5.6 Sol 的需求，通过轻量级代理 CLIProxyAPI 实现了快速切换。其关键操作是三步安装与配置，并利用别名环境变量预设子智能体、Effort 状态等参数，大幅简化部署过程。该方案将设置时间缩短至约五分钟，对需要灵活调用不同大模型或面对封锁场景的开发者尤为实用。",
+      "source": "aihot_selected",
+      "title_zh": "Tibo 分享通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 599042924,
+      "url": "https://www.ithome.com/0/975/646.htm",
+      "title": "OpenAI GPT-5.6 Sol Ultra 一小时证明 50 年图论猜想",
+      "published_at": "2026-07-12T00:44:43+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI's GPT-5.6 Sol Ultra autonomously generated a proof for the 50-year-old Cycle Double Cover Conjecture in graph theory in under an hour, using a multi-agent system of 64 parallel sub-agents and an adversarial agent. If the unverified proof holds, this",
+      "summary_zh": "OpenAI 的 GPT-5.6 Sol Ultra 模型针对图论中悬而未决 50 年的“循环双覆盖猜想”，通过协调 64 个并行子智能体与对抗智能体，在不到一小时内生成了完整证明。这一突破首次展示了大型语言模型可能独立攻克维基百科级未解数学难题，标志着 AI 在自动定理证明领域的重要跨越，不过该证明仍需同行评审和形式化验证。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI GPT-5.6 Sol Ultra 一小时证明 50 年图论猜想",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3248714226,
+      "url": "https://www.ithome.com/0/975/634.htm",
+      "title": "彭博社揭秘苹果起诉 OpenAI 内幕：前员工一句\"哈哈\"成窃密关键",
+      "published_at": "2026-07-11T23:21:57+00:00",
+      "original_language": "zh",
+      "summary_en": "苹果起诉 OpenAI，指控前工程师 Chang Liu 离职时带走未归还的 MacBook、一名可分享内情的员工，并利用软件漏洞持续访问苹果内网。他发现漏洞后向同事分享\"哈哈，我发现我还能访问网络存储\"，后者协助其获取更多机密。苹果称 OpenAI 试图复制 iPhone 产品研发体系，核心从非法窃取的商业机密腐烂。目前已有超 400 名苹果员工跳槽至 OpenAI，包括前苹果高管、现任 OpenAI 首席硬件官 Tang Tan。苹果曾于今年 2 月尝试私了，但 OpenAI 未回应。",
+      "summary_zh": "苹果指控OpenAI通过前员工利用未归还设备与软件漏洞持续窃取iPhone产品研发机密，关键证据是工程师发现漏洞后向同事发送的“哈哈，我发现我还能访问网络存储”消息，这暴露了持续的内网入侵行为。该事件揭示了人工智能巨头间因大规模人才流动可能引发的商业秘密泄露风险，并可能重塑科技行业对离职员工安全管控与竞业约束的规则。",
+      "source": "aihot_selected",
+      "title_zh": "彭博社揭秘苹果起诉 OpenAI 内幕：前员工一句\"哈哈\"成窃密关键",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 522644438,
+      "url": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development",
+      "title": "研究：博科圣地已使用ChatGPT、Claude等主流AI聊天机器人用于袭击策划与武器开发",
+      "published_at": "2026-07-11T17:04:28+00:00",
+      "original_language": "zh",
+      "summary_en": "This study reveals that the terrorist group Boko Haram has adopted mainstream AI chatbots like ChatGPT and Claude for attack planning and weapon development, with evidence from interviews of former members showing they have established dedicated AI departments. The research highlights how safety filters are being systematically bypassed through prompt engineering and jailbreak training, underscoring the urgent challenge that current safeguards may never fully prevent malicious use.",
+      "summary_zh": "研究揭示，恐怖组织博科圣地已系统性地利用ChatGPT、Claude等主流AI聊天机器人来策划袭击、开发爆炸装置及规避安全，表明现有AI安全过滤器未能可靠防止恶意滥用。这项基于前成员访谈的发现，凸显了极端组织设立专门AI部门并传播越狱技术的新威胁，警示AI安全防护面临根本性挑战而难以根除。",
+      "source": "aihot_selected",
+      "title_zh": "研究：博科圣地已使用ChatGPT、Claude等主流AI聊天机器人用于袭击策划与武器开发",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1030593609,
+      "url": "https://x.com/sama/status/2075985056846451123",
+      "title": "OpenAI 发布 GPT-5.6 系列医疗评估结果",
+      "published_at": "2026-07-11T16:46:22+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI's evaluation assessed whether AI can surpass expert human performance in medical question-answering. By having doctors write answers under ideal conditions and then blindly comparing them to GPT-5.6 outputs across 20,000 ratings, the study found that even the smallest model (Luna) at minimal reasoning outperformed GPT-5.5 and all human responses, while costing 25× less—and that physicians rated AI flaws as rarer than those in their own answers. This demonstrates that low-cost, small-scale AI can reach and exceed human-expert quality, promising transformative efficiency and accuracy for healthcare delivery.",
+      "summary_zh": "OpenAI 的评估表明，GPT-5.6 系列在医疗任务中全面超越专科医生，且最小模型 Luna 以更低成本实现了比前代更强的性能。该结果揭示了新一代 AI 在准确性、沟通等临床维度上的显著优势，并可能彻底改变低成本、高质量的医疗辅助服务。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 发布 GPT-5.6 系列医疗评估结果",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1482006188,
+      "url": "https://www.mixfont.com/ghost-font",
+      "title": "Ghost Font：一种人类能读懂但AI无法识别的反AI字体",
+      "published_at": "2026-07-11T16:31:09.615000+00:00",
+      "original_language": "zh",
+      "summary_en": "Ghost Font addresses the vulnerability of text-based obfuscation against modern AI by encoding human-readable messages within video motion, using dots indistinguishable from the background in any single frame. The key finding is that advanced multimodal models fail to decode the moving text without explicit prompting, while humans perceive it naturally—a gap highlighted by the included decoy message that further misleads AI. This approach matters as a potential next-generation CAPTCHA or benchmark for AI visual perception, exposing a limitation in processing dynamic, noise-based information that humans effortlessly integrate.",
+      "summary_zh": "Ghost Font 是一种利用运动、视频、噪点和诱饵来隐藏文字的反AI字体。用户输入文字后可生成并下载视频片段，视频中的字母由与背景完全相同的点组成，单帧截图无法显示任何信息。该字体生成的视频被传递给Claude Fable和GPT Sol 5.6 Ultra等前沿模型时，这些模型即使具备编程能力也无法解码移动信息，直到被提示具体技术。视频中还包含一条诱饵信息，使模型误以为找到真实内容。项目灵感来自2013年Sang Mun设计的ZXX字体，但现代AI已能轻松读取ZXX。Ghost Font目前为本地原型，数据不发送至任何服务器。作者计划未来将视频生成代码开源，并探索将其用于CAPTCHA系",
+      "source": "aihot_selected",
+      "title_zh": "Ghost Font：一种人类能读懂但AI无法识别的反AI字体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3833826921,
+      "url": "https://www.ithome.com/0/975/469.htm",
+      "title": "11天Claude Fable 5写超100万行代码：Rust重构JavaScript运行时Bun",
+      "published_at": "2026-07-11T07:33:08+00:00",
+      "original_language": "zh",
+      "summary_en": "The Bun JavaScript runtime’s original Zig implementation suffered frequent memory errors, prompting a full rewrite into Rust to leverage compile-time safety guarantees. Using the Claude Fable 5 model, developer Jarred Sumner orchestrated 64 parallel instances to generate over one million lines of Rust code in just 11 days, fixing 128 bugs and achieving a 2–5% performance gain. This demonstrates that AI-driven, large-scale language migrations can rapidly improve software reliability and security for performance-critical systems.",
+      "summary_zh": "该案例通过Claude Fable 5模型在11天内将JavaScript运行时Bun从Zig大规模重写为Rust，解决了原Zig实现中频繁出现的内存错误问题。其关键发现是借助AI并行生成代码能高效完成超百万行级别的语言迁移，并利用Rust的编译时内存安全检查显著提升稳定性，最终发布版本修复了128个错误且性能微增。这证明了AI辅助重构可快速弥补底层语言缺陷，对推动开发者工具链采用更安全的技术栈具有示范意义。",
+      "source": "aihot_selected",
+      "title_zh": "11天Claude Fable 5写超100万行代码：Rust重构JavaScript运行时Bun",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2337673313,
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
+      "title": "Claude Code v2.1.207 发布",
+      "published_at": "2026-07-11T00:52:10+00:00",
+      "original_language": "zh",
+      "summary_en": "Claude Code v2.1.207 resolves critical terminal freezes from long streaming outputs and missing security consent dialogs, while simplifying Auto Mode enablement on Bedrock/Vertex/Foundry and fixing auto-updater overwrites of custom scripts and Windows AWS credential hangs. It defaults to Opus 4.8 and migrates settings, directly improving reliability and security for researchers using AI-assisted coding.",
+      "summary_zh": "Claude Code v2.1.207 发布。Auto 模式在 Bedrock、Vertex AI 和 Foundry 上无需 `CLAUDE_CODE_ENABLE_AUTO_MODE` 即可使用，可通过 `disableAutoMode` 设置关闭。修复了流式响应中包含超长列表、表格、段落或代码块时终端冻结和按键延迟的问题；修复了非交互式运行中远程托管设置被永久记录为已同意而未显示安全同意对话框的问题；修复了自动更新程序每次发布时覆盖 `~/.local/bin/claude` 自定义启动脚本或符号链接的问题。Bedrock、Vertex 和 Claude Platform on AWS",
+      "source": "aihot_selected",
+      "title_zh": "Claude Code v2.1.207 发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3060314503,
+      "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+      "title": "Meta 关闭 Instagram 用户可基于公开账户生成 AI 深度伪造图片的功能",
+      "published_at": "2026-07-10T23:49:50+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta disabled an Instagram feature that used its Muse Image AI model to generate deepfake-like images from public accounts without owner consent, responding to user backlash over potential misuse. The incident highlights the challenge of balancing creative AI tools with privacy and consent, demonstrating how rapid user feedback can force corrections in deployed systems to prevent harm.",
+      "summary_zh": "Meta关闭了一项Instagram AI功能，原因是该功能允许用户未经许可基于公开账户生成深度伪造图片，引发滥用担忧。此举表明平台在推出AI创意工具时，必须重视用户反馈与隐私保护之间的平衡。该事件凸显了深度伪造技术可能被滥用的风险，以及平台需在创新与责任间审慎权衡。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 关闭 Instagram 用户可基于公开账户生成 AI 深度伪造图片的功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1444312585,
+      "url": "https://x.com/dotey/status/2075712647723397452",
+      "title": "苹果起诉OpenAI窃取商业机密开发AI硬件",
+      "published_at": "2026-07-10T22:43:54+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple has sued OpenAI, accusing it of systematically stealing trade secrets to develop AI hardware, with key defendants including former Apple design executive Tang Tan and firm io Products. The case highlights escalating legal clashes over proprietary technology as tech giants compete in the AI hardware race, with Apple seeking to protect its intellectual property from ex-employees now at rival ventures.",
+      "summary_zh": "苹果起诉OpenAI及多名前员工，指控其系统性盗用苹果商业机密，用于开发AI硬件设备。此举揭示了科技巨头间围绕AI硬件人才与核心技术日趋激烈的竞争，可能对AI硬件行业的商业机密保护与竞业规范产生深远影响。",
+      "source": "aihot_selected",
+      "title_zh": "苹果起诉OpenAI窃取商业机密开发AI硬件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1494756259,
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "title": "OpenAI 论文：GPT-5.6 Sol Ultra 证明图论\"循环双覆盖猜想\"",
+      "published_at": "2026-07-10T19:59:11.362000+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI's paper reports that GPT-5.6 Sol Ultra, assisted by Codex, proved the long-standing Cycle Double Cover Conjecture in graph theory, which asserts every bridgeless undirected graph admits a set of cycles covering each edge exactly twice. The proof reduces the problem to cubic graphs, leverages 8-flow and Tutte's results to assign nonzero F32 labels to edges, and transforms vertex conditions into a linear algebra argument about binary set labelings. This breakthrough showcases how advanced AI systems can autonomously resolve deep open problems, signaling a paradigm shift in mathematical discovery.",
+      "summary_zh": "OpenAI 的 GPT-5.6 Sol Ultra 成功证明了图论中长期未解的循环双覆盖猜想，即每个无桥无向图都存在一组环使得每条边恰好被覆盖两次。其关键方法是将问题归约为三次图的边标记问题，借助8-流定理和Tutte理论转化为有限域上每个顶点的二元集约束，最终用线性代数论证完成证明。这一成果展示了大型语言模型在攻克高难度数学猜想上的潜力，标志着AI辅助数学推理的重大突破。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 论文：GPT-5.6 Sol Ultra 证明图论\"循环双覆盖猜想\"",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    }
+  ]
+}
