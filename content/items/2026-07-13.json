@@ -1,0 +1,195 @@
+{
+  "date": "2026-07-13",
+  "items": [
+    {
+      "id": 1991987501,
+      "url": "https://www.ithome.com/0/976/149.htm",
+      "title": "Meta 宣布扩建路易斯安那州数据中心至 5GW，总投资超 500 亿美元",
+      "published_at": "2026-07-13T09:58:56+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta is addressing the enormous energy and infrastructure demands of AI by expanding its Louisiana data center to a planned 5GW capacity, committing over $50 billion and assuming full costs for energy, water, and local road/water upgrades. This strategic partnership with utility Entergy includes financing new gas plants, battery storage, and nuclear uprates, making it one of the largest single-site AI infrastructure investments globally and highlighting how major tech firms are directly funding the power grid to secure reliable, scalable compute.",
+      "summary_zh": "为解决AI模型训练对算力的巨大需求，Meta将路易斯安那州数据中心算力规模扩至5GW，并承诺承担全部能源成本，这是全球迄今最大规模的AI基础设施单项投资。此举不仅通过自建天然气电厂、储能及核电项目保障稳定电力供给，还出资改善当地水电路网，为超大规模AI集群的长期可持续运行提供了关键范本。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 宣布扩建路易斯安那州数据中心至 5GW，总投资超 500 亿美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 598436530,
+      "url": "https://x.com/op7418/status/2076604797202161800",
+      "title": "Seedream 5.0 Pro 测评：图像编辑门槛爆降",
+      "published_at": "2026-07-13T09:48:59+00:00",
+      "original_language": "zh",
+      "summary_en": "Seedream 5.0 Pro addresses the steep learning curve of precise image editing by introducing interactive “editable” annotations—users can mark, box, or scribble on areas and invoke them with @ tags in prompts, enabling strict local edits while leaving other regions untouched. Its image quality and prompt comprehension now match GPT-Image 2.0, with overall capability only slightly behind, making it matter because it drastically lowers the barrier for professional-grade scene editing, real-time product shot manipulation, and layout generation.",
+      "summary_zh": "字节跳动发布的 Seedream 5.0 Pro 解决了传统图像编辑中局部修改难以精准控制的问题，其核心亮点是通过在图上打点、画框、涂鸦并配合提示词 @ 标记的“可编辑”交互，能轻松实现换家具、改颜色等局部编辑而不影响其他区域。这一突破大幅降低了复杂图像编辑的门槛，在家装设计、商品图制作等场景具有很高实用价值，模型性能已接近 GPT-Image 2.0 水平。",
+      "source": "aihot_selected",
+      "title_zh": "Seedream 5.0 Pro 测评：图像编辑门槛爆降",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1120196520,
+      "url": "https://www.ithome.com/0/975/865.htm",
+      "title": "黄仁勋：英伟达季度收入逼近千亿美元，Rubin Ultra 架构未延期",
+      "published_at": "2026-07-13T00:55:29+00:00",
+      "original_language": "zh",
+      "summary_en": "Nvidia's CEO clarified that the company's quarterly revenue is nearing $100 billion with accelerating growth, and the next-generation Rubin Ultra architecture is on schedule for next year. The key finding is that a major frontier AI model project, likely Anthropic, has shifted from ASICs to nearly 50% Nvidia GPU compute, highlighting the growing preference for GPU-based infrastructure. This underscores Nvidia's dominant market position and expanding role in both AI training and general-purpose servers, justifying strong analyst confidence.",
+      "summary_zh": "英伟达回应了市场对其架构延期和算力市场份额的担忧，确认季度收入将逼近千亿美元且下一代Rubin Ultra架构如期明年出货，同时指出其GPU在某个前沿AI模型项目中的算力占比已升至近50%。这一表态消除了关键不确定性，强化了英伟达在AI计算领域的统治地位和持续增长前景。",
+      "source": "aihot_selected",
+      "title_zh": "黄仁勋：英伟达季度收入逼近千亿美元，Rubin Ultra 架构未延期",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2879891161,
+      "url": "https://mp.weixin.qq.com/s/6c6vGMJAVMbh6UhNVw4dcg",
+      "title": "xAI 官方 Grok CLI 被曝静默上传整个代码库及用户密钥",
+      "published_at": "2026-07-13T00:05:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The finding exposes a critical privacy and security flaw: xAI's Grok CLI silently exfiltrated entire codebases, external configuration files, and plaintext API keys to their cloud infrastructure on every interaction, regardless of task scope. The problem was only addressed after public disclosure via a server-side kill switch, highlighting the risks of trusting AI tools that can leak sensitive data without user consent or transparency. This matters",
+      "summary_zh": "xAI 官方 Grok CLI 工具被发现会默认静默打包并上传用户的完整工作目录及包含 API 密钥的敏感配置文件至其云端，造成严重的数据泄露风险。该行为在模型每次交互前后均会发生，即使任务极其简单，随后 xAI 通过服务端远程开关关闭了此功能，但此前该上传机制已默认开启。此事凸显了 AI 工具链中因过度数据收集与隐蔽上传而可能引发的安全与隐私危机。",
+      "source": "aihot_selected",
+      "title_zh": "xAI 官方 Grok CLI 被曝静默上传整个代码库及用户密钥",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 213068352,
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "title": "Ploy 将 AI 智能体默认模型从 Claude Opus 4.8 切换至 GPT-5.6 Sol",
+      "published_at": "2026-07-12T23:41:11.951000+00:00",
+      "original_language": "zh",
+      "summary_en": "Ploy 将其 AI 智能体默认模型从 Claude Opus 4.8 切换至 OpenAI 今晨发布的 GPT-5.6 Sol。在真实营销网站构建测试中，GPT-5.6 Sol 完成页面平均耗时 3 分 42 秒，较 Opus 4.8 的 8 分钟快 2.2 倍；每次构建成本从 3.06 美元降至 2.22 美元，降低 27%；输出 token 从 33.0K 降至 17.1K，视觉评分从 0.936 提升至 0.970。迁移过程发现，GPT-5.6 会为所有 25 个工具参数填充默认值，导致 52%-64% 的文件读取返回空结果；提示词指令和 OpenAI strict 模式均无法修复此行",
+      "summary_zh": "Ploy 将其 AI 智能体默认模型更换为 GPT-5.6 Sol，解决了构建速度慢、成本高的问题，并在真实营销网站测试中实现了构建时间缩短 2.2 倍、成本降低 27%、视觉评分提升至 0.970 的显著改进。迁移过程中发现 GPT-5.6 存在自动为工具参数填充默认值导致文件读取异常的新问题，同时评估框架中约三分之一的原始失败源于对旧模型的过时假设，这提示模型切换需关注行为偏差与评估体系的重新校准。",
+      "source": "aihot_selected",
+      "title_zh": "Ploy 将 AI 智能体默认模型从 Claude Opus 4.8 切换至 GPT-5.6 Sol",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3024642732,
+      "url": "https://x.com/thsottiaux/status/2076365965915467978",
+      "title": "Codex与ChatGPT Work多项更新：取消5小时限制",
+      "published_at": "2026-07-12T17:59:57+00:00",
+      "original_language": "zh",
+      "summary_en": "This update addresses usage restrictions that hindered sustained work on the Codex and ChatGPT Work platforms. By temporarily lifting the 5‑hour limit for paid plans, optimizing GPT‑5.6 Sol for lower per‑task resource consumption, and resetting usage quotas upon reaching 6 million active users, the changes directly improve continuous access. This matters because it lets researchers and developers iterate longer without interruption, boosting productivity while the efficiency gains promise more work per usage allowance.",
+      "summary_zh": "此次更新主要解决付费用户的使用时长限制问题，通过暂时取消5小时上限并提升GPT 5.6 Sol的运行效率，显著降低了单次交互的资源消耗。这直接惠及超过600万活跃用户，为他们扫清创作障碍，能更自由地进行长时间的探索与生成。",
+      "source": "aihot_selected",
+      "title_zh": "Codex与ChatGPT Work多项更新：取消5小时限制",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2878663016,
+      "url": "https://x.com/AYi_AInotes/status/2076341952023310580",
+      "title": "腾讯混元发布Hy3模型：295B参数MoE架构，Agent向LLM定位，已集成微信服务10亿+用户",
+      "published_at": "2026-07-12T16:24:32+00:00",
+      "original_language": "zh",
+      "summary_en": "Tencent's Hy3 model uses a 295B-parameter Mixture-of-Experts architecture with just 21B active parameters to achieve inference efficiency comparable to models 2–5 times larger, while iterating on over 50 real business scenarios to boost agent task success from 72% to 90% and cut latency 34%. Positioned as an Agent-oriented LLM, it excels at coding, office tasks, and complex planning—despite weaker visual abilities—and is already integrated into WeChat, serving over a billion users with self-checking and limitation-awareness capabilities, demonstrating how targeted MoE design and real-world feedback loops can deliver practical, deployable agent intelligence at massive scale.",
+      "summary_zh": "腾讯混元发布Hy3模型，采用295B总参数、21B激活参数的MoE架构，旨在解决大模型推理效率与成本问题，可实现与参数规模2-5倍旗舰模型相当的性能。作为Agent向LLM，模型通过50多个真实业务反馈迭代，将内部任务成功率从72%提升至90%并降低耗时，已集成至微信服务10亿+用户，这标志着大模型从技术指标向真实业务场景深度落地的关键进展。",
+      "source": "aihot_selected",
+      "title_zh": "腾讯混元发布Hy3模型：295B参数MoE架构，Agent向LLM定位，已集成微信服务10亿+用户",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1213110633,
+      "url": "https://x.com/satyanadella/status/2076323181154230284",
+      "title": "纳德拉提出\"反向信息悖论\"：企业使用AI时需保护自身知识",
+      "published_at": "2026-07-12T15:09:57+00:00",
+      "original_language": "zh",
+      "summary_en": "Microsoft CEO Satya Nadella warns of a “reverse information paradox” where enterprises paying for AI inadvertently leak proprietary knowledge—such as prompts, feedback, and tool usage—that models absorb, tilting information asymmetry toward sellers. He argues for hard trust boundaries that keep corporate data, model adaptations, and organizational memory internal, and advocates that companies gain the right to fine-tune or train their own models using outputs, preserving control over their own learning cycles.",
+      "summary_zh": "微软CEO萨提亚·纳德拉指出“反向信息悖论”：企业不仅为使用AI付费，还会在互动中泄露专有知识，这些“智力废气”被模型吸收，导致信息不对称向AI卖方倾斜。他主张企业需建立明确的信任边界，保留组织记忆所有权和私有评估能力，并有权利用模型输出微调自有模型，以掌控自身的学习循环，避免核心知识流失。",
+      "source": "aihot_selected",
+      "title_zh": "纳德拉提出\"反向信息悖论\"：企业使用AI时需保护自身知识",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 282398710,
+      "url": "https://github.com/cosmtrek/mindwalk",
+      "title": "Mindwalk：在代码库 3D 地图上回放编码代理会话",
+      "published_at": "2026-07-12T13:51:05.035000+00:00",
+      "original_language": "zh",
+      "summary_en": "Mindwalk addresses the challenge of understanding how AI coding agents like Claude Code and Codex explore and modify a large codebase by visualizing their session logs on an interactive 3D map of the repository. By illuminating only the files the agent has seen, read, or edited against a dark background, and overlaying friction signals like error rates and context compression events, it reveals the agent’s actual scope of attention and where it struggled. This helps AI/ML researchers quickly audit agent behavior, debug reasoning gaps, and improve human-agent collaboration—all while keeping session data fully local for privacy.",
+      "summary_zh": "Mindwalk 解决编码代理会话难以直观理解的痛点：它将代码库映射为夜间三维地图，根据代理搜索/读取/编辑等操作让相关文件发光着色，未触达区域保持黑暗，用户可一眼看清代理的任务理解边界。该工具以单个本地二进制运行，通过回放、摩擦信号面板和时间轴标记，使开发者能快速评估代理的工作范围与效率，有助于调试和建立对 AI 编码助手的信任。",
+      "source": "aihot_selected",
+      "title_zh": "Mindwalk：在代码库 3D 地图上回放编码代理会话",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4101687947,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.23.6",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.23.6",
+      "published_at": "2026-07-12T12:31:10+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses ambiguous",
+      "summary_zh": "此次更新修复了交互逻辑缺陷：当用户忽略询问提示时，系统不再隐式默认选择推荐选项，而是视为用户主动选择不回答。这一改动更准确地捕获用户意图，避免因误判导致的非预期操作，从而提升了工具的可靠性与用户体验。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.23.6",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
