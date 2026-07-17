@@ -1,0 +1,651 @@
+{
+  "date": "2026-07-17",
+  "items": [
+    {
+      "id": 369701949,
+      "url": "http://arxiv.org/abs/2607.15277v1",
+      "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
+      "published_at": "2026-07-16T17:59:31+00:00",
+      "original_language": "en",
+      "summary_en": "This paper investigates whether large language models' in-context conditional probability estimates satisfy basic probabilistic identities like the law of total probability. Using binary tree partitions, the authors prompt models with subpopulation descriptions, aggregate their outputs, and compare population-level estimates across granularities to test for self-consistency. The work matters because systematic violations would challenge the reliability of using LLMs as principled conditional inference engines for downstream tasks.",
+      "summary_zh": "该研究旨在检验大型语言模型在上下文学习中的概率自洽性，即其输出是否满足全概率公式等基本概率恒等式。作者通过“分区-提示-聚合”框架，利用二叉树递归划分人群并比较不同粒度下的聚合估计，发现在多种任务和主流模型上，模型估计普遍偏离统计自洽，表明上下文学习并非严格的条件推理。这一发现揭示了语言模型概率推理的内在偏差，对信任其输出作为可靠决策依据的应用至关重要。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 405266012,
+      "url": "http://arxiv.org/abs/2607.15273v1",
+      "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+      "published_at": "2026-07-16T17:59:02+00:00",
+      "original_language": "en",
+      "summary_en": "MeanFlow generators sample efficiently using average velocities, but existing forward-process reinforcement learning methods like DiffusionNFT only optimize instantaneous velocities, preventing direct application. MeanFlowNFT bridges this gap by using a mathematical identity to derive an instantaneous-velocity predictor from the average velocity, enabling reward optimization via the DiffusionNFT objective while preserving the fast few-step sampling of MeanFlow. This unlocks efficient RL-based alignment for a class of fast generative models that were previously incompatible with such training.",
+      "summary_zh": "MeanFlowNFT解决了强化学习对齐方法（如DiffusionNFT）无法直接应用于平均速度生成器（MeanFlow）的问题。关键方法是利用MeanFlow恒等式，从平均速度预测器中诱导出瞬时速度预测器，然后对该预测器应用DiffusionNFT的前向过程强化学习目标进行奖励优化，同时保持基于平均速度的少步快速采样。这使得高效的平均速度生成模型也能通过与人类偏好或任务目标对齐来提升质量，扩展了前向过程强化学习的适用范围。",
+      "source": "arxiv_cs_cl",
+      "title_en": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1668954590,
+      "url": "http://arxiv.org/abs/2607.15272v1",
+      "title": "SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions",
+      "published_at": "2026-07-16T17:58:36+00:00",
+      "original_language": "en",
+      "summary_en": "The problem is automating the labor-intensive editing of complex scientific figures during paper revisions. SciDiagramEdit addresses this by introducing a benchmark built from real arXiv figure revision pairs and a skill-evolution framework that edits the underlying vector graphics to follow natural-language instructions. This matters because it enables interactive, inspectable AI assistance for a critical scholarly workflow, potentially saving researchers significant time.",
+      "summary_zh": "SciDiagramEdit 解决了科研论文修订中图表编辑耗时且难以自动化的问题，因为科学图表是密集的信息图，包含多种视觉元素和严格的视觉语法。其关键方法是构建一个从 arXiv 版本历史中挖掘修订前后图表对的基准，并采用基于可编辑矢量源的技能进化框架，使智能体能够从作者的自然修订意图中学习多样化的编辑指令。这之所以重要，是因为它首次实现了遵循自然语言指令的自动化图表编辑，并支持用户直接检查与共同编辑底层图形元素，大大提升了科研工作流的效率。",
+      "source": "arxiv_cs_cl",
+      "title_en": "SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1614304209,
+      "url": "http://arxiv.org/abs/2607.15265v1",
+      "title": "SceneBind: Binding What and Where Across Vision, Audio and Language",
+      "published_at": "2026-07-16T17:55:15+00:00",
+      "original_language": "en",
+      "summary_en": "SceneBind addresses the limitation of existing omni-modal models that capture only semantic content (\"what\") but not spatial layout (\"where\") by introducing a unified representation that binds global scene semantics with object-centric 3D spatial slots and uncertainty. Its key contribution is a semantic-spatial matching scheme enabling cross-modal scene retrieval and object grounding across vision, audio, and language. This integration of spatial structure with multimodal semantics matters for building more complete scene understanding systems, validated on a newly curated real-world binaural audio-visual dataset with detailed annotations.",
+      "summary_zh": "SceneBind 针对现有全模态模型缺乏显式空间结构的问题，提出了一种结合全局语义嵌入与对象中心语义-空间槽的全模态表示方法，同时引入语义-空间匹配机制。该工作实现了视觉、音频和语言在真实场景中“有什么”与“在哪里”的统一绑定，对于需要精细空间理解的跨模态检索与对象定位任务具有重要意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "SceneBind: Binding What and Where Across Vision, Audio and Language",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2003569020,
+      "url": "http://arxiv.org/abs/2607.15263v1",
+      "title": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
+      "published_at": "2026-07-16T17:54:47+00:00",
+      "original_language": "en",
+      "summary_en": "The paper moves beyond success-rate-only benchmarks for security agents by evaluating them under cost budgets, considering inference compute and tool-call expenses on offensive (Cybench) and defensive (Splunk BOTS) tasks. It finds that offensive CTF performance scales well with additional test-time compute, allowing scaled open-weight models to rival proprietary systems cost-efficiently, while defensive SOC investigations show a different scaling behavior where success depends less on raw compute. This cost-aware lens is crucial for operational deployment, revealing distinct cost-effectiveness trade-offs between red- and blue-team agents that pure success metrics miss.",
+      "summary_zh": "Security-agent evaluations commonly measure peak offensive capability under generous inference budgets, emphasizing vulnerability discovery, exploit development, penetration testing, and CTF completion. Such measurements are useful but incomplete: in operational security, every reasoning step, tool ",
+      "source": "arxiv_cs_cl",
+      "title_en": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1584795177,
+      "url": "https://claude.com/blog/ai-code-migration",
+      "title": "How Anthropic runs large-scale code migrations with Claude Code",
+      "published_at": "2026-07-17T09:49:44.584320",
+      "original_language": "en",
+      "summary_en": "The article describes how Anthropic uses its AI coding assistant, Claude Code, to tackle the problem of large-scale code migrations—a traditionally manual, error-prone, and time-consuming process. Their approach leverages Claude Code to automate the bulk of refactoring and dependency updates across massive codebases, with human engineers reviewing and guiding the changes. This matters because it demonstrates a practical, scalable application of LLM-based tooling to drastically reduce maintenance overhead and accelerate software engineering workflows.",
+      "summary_zh": "该工作介绍了Anthropic如何利用Claude Code解决大规模代码库迁移的工程挑战，通过AI自动化进行高效、安全的代码转换。其核心思想在于将大型代码变更任务交给Claude处理，大幅降低人工负担并加速流程，这证明了AI智能体在复杂软件工程任务中的实用价值。",
+      "source": "claude_blog",
+      "title_en": "How Anthropic runs large-scale code migrations with Claude Code",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1261296249,
+      "url": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork",
+      "title": "Working with Claude Fable 5 in Claude Cowork",
+      "published_at": "2026-07-17T09:49:44.584736",
+      "original_language": "en",
+      "summary_en": "The document appears to be a brief guide on integrating the Claude Fable 5 model into the Claude Cowork collaborative framework, addressing how to effectively harness a specialized language model within a shared workspace. It likely outlines practical interaction patterns or workflows, providing a blueprint for users to incorporate advanced AI assistance directly into team-based tasks. This matters because it demonstrates the operationalization of state-of-the-art models in real-world collaborative environments, potentially boosting productivity and broadening AI accessibility for non-technical teams.",
+      "summary_zh": "本文介绍了在Claude Cowork环境中整合Claude Fable 5模型的工作方式，重点解决了AI辅助协作工作的效率问题。关键方法是利用Fable 5的增强能力实现更流畅的任务处理与交互，这对于简化工作流程和提升团队协作质量具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "Working with Claude Fable 5 in Claude Cowork",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1405783392,
+      "url": "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
+      "title": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
+      "published_at": "2026-07-17T09:49:44.586130",
+      "original_language": "en",
+      "summary_en": "Thomson Reuters tackles the challenge of deploying AI in high-stakes professional domains like law and accounting, where errors carry significant risk. The article outlines their frontier strategy of integrating domain-specific data, human oversight, and rigorous validation to build trustworthy, accurate AI tools. This approach matters because it demonstrates how to responsibly operationalize AI for critical knowledge work, setting a benchmark for reliability in professional services.",
+      "summary_zh": "该文探讨了汤森路透如何为法律、税务等高风险的职业领域构建人工智能，重点在于说明他们如何通过将生成式AI与专业可信数据及人类专家判断深度融合，来应对准确性要求极高的挑战。这种方法之所以重要，是因为它展示了在错误成本巨大的专业场景中，AI必须通过人机协作与知识根基才能实现可靠落地并增强决策能力。",
+      "source": "claude_blog",
+      "title_en": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 983166677,
+      "url": "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds",
+      "title": "How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds",
+      "published_at": "2026-07-17T09:49:44.586584",
+      "original_language": "en",
+      "summary_en": "Anthropic's marketing operations team tackles the manual effort and inefficiency of generating reports and building campaigns by employing Claude Cowork to automate these processes. The approach leverages AI-driven collaboration to handle repetitive operational tasks, which significantly reduces turnaround time and allows the team to concentrate on strategic marketing decisions rather than routine execution.",
+      "summary_zh": "Anthropic 营销运营团队利用 Claude Cowork 自动化处理报告生成与营销活动构建，解决了手动操作耗时费力的痛点。该方法不仅大幅提升效率，还让团队能将精力集中于更高价值的工作。",
+      "source": "claude_blog",
+      "title_en": "How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 622551487,
+      "url": "https://claude.com/blog/getting-started-with-loops",
+      "title": "Loop engineering: Getting started with loops",
+      "published_at": "2026-07-17T09:49:44.589208",
+      "original_language": "en",
+      "summary_en": "This introductory guide addresses the challenge of understanding and designing feedback loops in AI/ML systems, such as those in reinforcement learning or iterative optimization. It presents foundational principles and practical “getting started” techniques for engineering stable, efficient loops. Mastering loop design is crucial for building adaptive, self-correcting models that continuously improve from their own outputs.",
+      "summary_zh": "这篇文章面向初学者，介绍循环工程的基础知识，解决如何高效构建和管理程序中的循环结构的问题。其核心方法是讲解循环的基本概念、常见设计模式与优化技巧，帮助开发者避免常见陷阱。掌握这些入门知识对于编写高性能、可维护的代码至关重要，是软件优化的关键一步。",
+      "source": "claude_blog",
+      "title_en": "Loop engineering: Getting started with loops",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3809234083,
+      "url": "https://podcasters.spotify.com/pod/show/firstmark/episodes/OpenAIs-Compute-Chief-We-Cant-Build-Fast-Enough--Sachin-Katti-e3m587t",
+      "title": "OpenAI’s Compute Chief: We Can’t Build Fast Enough | Sachin Katti",
+      "published_at": "2026-07-16T11:30:01",
+      "original_language": "en",
+      "summary_en": "OpenAI's Head of Industrial Compute reveals that the AI industry is not overbuilding, but rather the physical infrastructure—from $50B supercomputers to power grids—cannot scale fast enough to meet exploding demand. This bottleneck underscores that the primary constraint on AI progress is no longer model design but the massive, real-world engineering and energy systems required to turn electrons into tokens.",
+      "summary_zh": "OpenAI计算负责人Sachin Katti指出，当前AI行业面临的核心问题并非“过度建设”，而是物理基础设施建设速度难以跟上爆发式需求，他们正推动耗资500亿美元的超级计算机和液冷数据中心等史上最大规模项目。这一发现凸显了AI发展受限于能源、算力等实体瓶颈，对未来全球技术竞争和基础设施投资方向具有重大警示意义。",
+      "source": "mad_podcast",
+      "title_en": "OpenAI’s Compute Chief: We Can’t Build Fast Enough | Sachin Katti",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3304840285,
+      "url": "https://schema-harness.github.io/",
+      "title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
+      "published_at": "2026-07-17T08:41:53.383000+00:00",
+      "original_language": "zh",
+      "summary_en": "The Schema Harness framework tackles the ARC-AGI-3 abstract reasoning benchmark by converting raw observations into editable programs, jointly solving state attribution and mechanism discovery without any model weight modification. Using Claude Opus 4.8 with Fable 5, it reaches a 99% RHAE score on the public set—a dramatic leap over the previous best GPT-5.6 Sol result of just 7.78% on the semi-private set—demonstrating how structured, programmatic reasoning can unlock near-perfect abstraction where standalone LLMs fail.",
+      "summary_zh": "Schema框架通过将原始观测转化为可编辑程序，在不修改模型权重的前提下，联合解决了状态归因与机制发现问题，从而显著提升在抽象推理基准上的表现。其在ARC-AGI-3公开集上取得了约99%的分数，远超此前最强模型仅7.78%的成绩，证明了该类方法在提升模型泛化与系统化推理能力方面的重要潜力。",
+      "source": "aihot_selected",
+      "title_zh": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1853445426,
+      "url": "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb",
+      "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一",
+      "published_at": "2026-07-17T07:53:02+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA’s Nemotron 3 Embed series tackles text retrieval with open-source embedding models, led by an 8B‑parameter variant that achieves state‑of‑the‑art NDCG@10 (78.46) on the RTEB benchmark. A smaller 1B‑NVFP4 edition highlights deployment efficiency by doubling throughput on Blackwell GPUs while retaining 99.5% precision, and all models support long 32K‑token sequences. This combination advances retrieval accuracy and makes high‑performance embedding practical for large‑scale, latency‑sensitive applications.",
+      "summary_zh": "NVIDIA 推出了 Nemotron 3 Embed 开源嵌入模型系列，其 8B-BF16 版本在 RTEB 基准上以 78.46 的 NDCG@10 夺魁，解决了检索性能的顶尖挑战；同时 1B-NVFP4 量化版在 Blackwell 硬件上吞吐量翻倍且精度损失仅 0.5%，显著提升了高效部署的实用性。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2662282580,
+      "url": "https://mp.weixin.qq.com/s/_eaO0wmsiQFGsrE2_zW_Dg",
+      "title": "通义实验室发布 Wan-Streamer v0.2，端到端响应延迟仅 550ms",
+      "published_at": "2026-07-17T07:14:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Wan-Streamer v0.2 tackles the problem of high latency in real-time multimodal AI interaction by unifying hearing, vision, speech, and action into a single end-to-end Transformer. The key finding is that its novel Thinker-Performer dual-path architecture delivers an end-to-end response latency of just 550ms while boosting output resolution to 640×368 at 25 FPS. This advancement matters because it enables far more fluid and natural human-AI communication, bringing low-latency, high-quality multimodal agents closer to practical deployment.",
+      "summary_zh": "通义实验室的Wan-Streamer v0.2通过将“听、看、说、演”统一在单个Transformer中，解决了全模态实时交互中响应延迟高的问题。其核心在于Thinker-Performer双通路架构，在保证画质提升至640×368@25FPS的同时，将端到端延迟压缩至仅550ms，为实时多模态AI应用树立了新的性能标杆。",
+      "source": "aihot_selected",
+      "title_zh": "通义实验室发布 Wan-Streamer v0.2，端到端响应延迟仅 550ms",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2898838108,
+      "url": "https://x.com/AYi_AInotes/status/2077981025905316253",
+      "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
+      "published_at": "2026-07-17T04:57:38+00:00",
+      "original_language": "zh",
+      "summary_en": "Kimi K3 addresses the challenge of front-end coding by delivering state-of-the-art performance using a 2.8-trillion-parameter mixture-of-experts architecture with a million-token context window, topping the Frontend Code Arena benchmark and beating closed-source leaders like Claude and GPT. The model's open-weight release on July 27 democratizes access to elite coding capabilities, while its premium API pricing ($15/M input tokens) signals a strategic pivot toward long-context agentic coding rather than competing on cost.",
+      "summary_zh": "Kimi K3 在前端编码竞技场以明显优势登顶，解决了多细分任务中闭源模型垄断的问题，关键方法是采用2.8万亿参数混合专家架构和百万上下文窗口，并以开放权重和针对性定价挑战闭源巨头。这标志着开源模型在复杂前端开发场景首次对最领先闭源系统实现全面超越，并通过战略性放弃低价路线转向长上下文智能体编码，可能重塑开发工具生态与商业模式。",
+      "source": "aihot_selected",
+      "title_zh": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 728525743,
+      "url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
+      "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
+      "published_at": "2026-07-17T00:40:20.333000+00:00",
+      "original_language": "zh",
+      "summary_en": "Generative AI companies are consuming up to 70% of high-end memory, driving steep price hikes and shortages in consumer storage and laptops—some hard drives have more than doubled in price, and entry-level PCs face extinction by 2028. This surge, fueled by massive data center expansions (some powered by jet engines), highlights how AI’s infrastructure demands are reshaping the entire computer hardware market and pricing out ordinary users.",
+      "summary_zh": "生成式人工智能的大规模部署正引发严重的供应链危机，AI公司为了维持大语言模型运行，可能已消耗全球70%的高端内存，直接导致硬盘等组件价格飙升、缺货，并推高个人电脑成本。这一发现揭示了AI算力扩张对硬件市场造成的剧烈外溢效应，若不改善，平价消费级电脑可能在数年内消失，内存短缺将成为常态。",
+      "source": "aihot_selected",
+      "title_zh": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 434657549,
+      "url": "https://x.ai/news/grok-automations",
+      "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果",
+      "published_at": "2026-07-16T21:39:40.165000+00:00",
+      "original_language": "zh",
+      "summary_en": "Grok's Automations feature tackles the need for repetitive manual task execution by allowing users to describe a task once and have it run automatically on a schedule or via email triggers, with each run producing a complete conversation log and notifications. This matters because it enables hands-free, recurring AI-powered workflows, with scheduled automations available to all users and advanced email triggers reserved for SuperGrok subscribers, boosting productivity and proactive task management.",
+      "summary_zh": "xAI 为 Grok 引入自动化功能，解决了重复性任务需手动发起查询的痛点，用户只需一次描述，即可让 Grok 按预设时间表或特定邮件触发自动运行并返回结果。这一功能通过灵活的触发机制和完整的运行历史，显著提升了 AI 助手的主动性与工作效率，其中定时自动化面向所有用户，邮件触发则需 SuperGrok 订阅。",
+      "source": "aihot_selected",
+      "title_zh": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1553841742,
+      "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
+      "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
+      "published_at": "2026-07-16T20:26:23+00:00",
+      "original_language": "zh",
+      "summary_en": "xAI filed its first lawsuit against a Grok user for generating child sexual abuse material (CSAM), marking a shift from its prior denial that such misuse was possible. The case targets user abuse rather than technical flaws in the model. This highlights how AI companies may increasingly resort to legal action to address harmful applications of their technology.",
+      "summary_zh": "xAI首次起诉一名利用Grok模型生成儿童性虐待内容（CSAM）的用户，这标志着该公司从此前否认模型被滥用的立场转向正视问题。该案的核心在于将责任界定为用户滥用，而非模型本身的技术漏洞，体现出AI平台对生成有害内容监管策略的转变。",
+      "source": "aihot_selected",
+      "title_zh": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1112847001,
+      "url": "https://www.kimi.com/blog/perception-bench",
+      "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准",
+      "published_at": "2026-07-16T19:11:01.192000+00:00",
+      "original_language": "zh",
+      "summary_en": "Moonshot AI’s PerceptionBench addresses the gap in rigorously evaluating whether multimodal models truly perceive visual inputs by curating 3,000 diagnostic questions from real failure cases in over 40 existing benchmarks, covering 10 atomic perception skills. It reveals that all tested models score below 60% and frequently fail to reproduce correct answers, indicating guessing rather than genuine, consistent perception. This benchmark helps pinpoint precise perceptual weak spots, guiding the development of more faithful and reliable vision-language models.",
+      "summary_zh": "Moonshot AI 推出的 PerceptionBench 针对多模态模型视觉感知不忠实、不一致的问题，从 40 多个现有基准的失败案例中归纳出覆盖 10 项原子能力的 3000 道验证题。测试发现所有模型准确率均不足 60%，且大量正确答案在重复提问时无法复现，表明模型更多是在猜测而非真正感知。这一基准可精确诊断感知断裂点，推动多模态 AI 实现忠实、一致的视觉理解。",
+      "source": "aihot_selected",
+      "title_zh": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2505528596,
+      "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+      "title": "54%企业已遭遇AI智能体安全事件，多数仍共享凭证",
+      "published_at": "2026-07-16T19:02:38+00:00",
+      "original_language": "zh",
+      "summary_en": "The survey highlights a critical gap in securing AI agents: while over half of enterprises have already experienced incidents, most still share credentials and lack dedicated security tools. This widespread vulnerability in identity management and isolation practices underscores the urgent need for robust, agent-specific safeguards as adoption grows.",
+      "summary_zh": "该调查揭示了企业在部署AI智能体时普遍面临严峻的安全威胁，已有超半数企业遭遇过相关事件，主要问题在于多数企业仍共享身份凭证且缺乏有效的隔离措施。当前防护高度依赖模型厂商原生工具，专用安全产品渗透率极低，这表明智能体安全实践存在显著缺口，亟需强化凭据独立管理与沙箱隔离等基础防护机制。",
+      "source": "aihot_selected",
+      "title_zh": "54%企业已遭遇AI智能体安全事件，多数仍共享凭证",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2829267513,
+      "url": "https://x.com/ChatGPTapp/status/2077826846373380535",
+      "title": "ChatGPT 工作区支持文档表格幻灯片编辑",
+      "published_at": "2026-07-16T18:44:58+00:00",
+      "original_language": "zh",
+      "summary_en": "This update introduces the ability to create and edit polished documents, spreadsheets, and slides directly within the ChatGPT workspace, expanding its utility beyond conversational AI into a multifaceted productivity tool. The key finding is the seamless integration of document editing with AI assistance, as demonstrated by Nick Baumann, which streamlines workflows by eliminating the need to switch between separate applications. This matters because it enhances efficiency and positions ChatGPT as a unified platform for content generation and refinement, potentially transforming how users approach collaborative work and data presentation.",
+      "summary_zh": "ChatGPT 工作区新增了直接创建与编辑文档、电子表格和幻灯片的功能，解决了用户需在多工具间切换才能完成专业内容生成和格式化的低效问题。通过集成原生编辑界面，用户可在对话中无缝协作与呈现数据，这一更新显著提升了 AI 辅助工作的连贯性和产出效率。",
+      "source": "aihot_selected",
+      "title_zh": "ChatGPT 工作区支持文档表格幻灯片编辑",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3537798609,
+      "url": "https://www.mixfont.com/experiments/decoy-font",
+      "title": "Decoy 字体：用空间频率混淆让 AI 看不清你输入的文字",
+      "published_at": "2026-07-16T18:32:23.680000+00:00",
+      "original_language": "zh",
+      "summary_en": "Decoy Font tackles the problem of AI visually extracting sensitive text by embedding conflicting spatial frequencies within a single character. It overlays a fine foreground contour readable by machines up close as a decoy letter, with a blurred low-frequency background that only humans can perceive at a distance, exploiting the acuity gap between human and computer vision. This approach offers a creative, passive defense against OCR-based data scraping without altering user behavior.",
+      "summary_zh": "Decoy 字体解决的是 AI 通过图像提取文字导致的隐私泄露问题。其核心方法是在字形内叠加不同空间频率的图形——前景高频细轮廓与背景低频模糊块，让 AI 在近距离识别时读取到误导性的“诱饵”字母，而人眼则需远看或眯眼才能察觉真实的隐藏信息。这为在公开图像中传递敏感文字提供了一种对抗机器视觉的隐蔽通信手段。",
+      "source": "aihot_selected",
+      "title_zh": "Decoy 字体：用空间频率混淆让 AI 看不清你输入的文字",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2839168783,
+      "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+      "title": "企业AI智能体评估存在\"现实对齐\"缺口：半数组织曾将通过内部测试的智能体部署到生产环境后导致客户故障",
+      "published_at": "2026-07-16T16:40:48+00:00",
+      "original_language": "zh",
+      "summary_en": "A survey of 157 enterprises reveals a significant \"reality alignment\" gap in AI agent evaluation: half of organizations deployed agents or LLM features that passed internal tests but caused customer failures, and only 5% fully trust automated assessments. Despite this low trust, 66% are already enabling or planning fully autonomous deployment of low-risk agents within 12 months, underscoring a dangerous disconnect between the unreliability of current evaluations and the pressure to accelerate AI rollouts.",
+      "summary_zh": "这项研究揭示企业AI智能体评估存在严重的“现实对齐”缺口：尽管内部测试通过，但50%的组织曾因部署AI智能体或大语言模型功能而引发客户故障，且仅5%的企业完全信任自动化评估。关键发现表明现有评估手段与现实结果脱节，29%企业认为这是最大局限。然而，低信任度并未阻挡自动化部署趋势，66%的企业已或计划在12个月内对低风险智能体实现无人工干预的全自动上线，这凸显了加速研发更可靠评估体系的紧迫性。",
+      "source": "aihot_selected",
+      "title_zh": "企业AI智能体评估存在\"现实对齐\"缺口：半数组织曾将通过内部测试的智能体部署到生产环境后导致客户故障",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 498220954,
+      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
+      "title": "Google Vids 上线 Gemini Omni 与个人数字分身功能",
+      "published_at": "2026-07-16T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Google Vids now integrates Gemini Omni for prompt-driven video generation and editing from natural language and reference images, alongside a personal digital avatar feature that animates a user’s photo with voice using text input. These tools lower the barrier to high-quality video creation and personalized content, while invisible SynthID watermarks address provenance concerns for business and pro users.",
+      "summary_zh": "Google Vids上线两项AI功能，解决用户高效制作视频和个性化出镜的需求：Gemini Omni支持以自然语言提示和图片生成可编辑的高质量片段，数字分身则通过自拍与语音录制实现文本驱动的虚拟出镜。这两项更新降低了视频创作门槛，并内建SynthID水印以保障内容可信，面向订阅用户与商业客户，推动了AI赋能的创意工作流。",
+      "source": "aihot_selected",
+      "title_zh": "Google Vids 上线 Gemini Omni 与个人数字分身功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 289610703,
+      "url": "https://www.ithome.com/0/977/793.htm",
+      "title": "世界人工智能合作组织协定签署仪式在上海举行，总部设中国上海",
+      "published_at": "2026-07-16T14:38:08+00:00",
+      "original_language": "zh",
+      "summary_en": "The agreement establishes the World AI Cooperation Organization, an independent intergovernmental body headquartered in Shanghai, to address the lack of coordinated global governance for artificial intelligence. By bringing together 29 founding member states, the organization creates a dedicated institutional framework for fostering international AI collaboration and developing shared norms. This matters as it represents a concrete multilateral step toward structured oversight of AI development, potentially influencing standards, risk management, and cooperative research worldwide.",
+      "summary_zh": "此举旨在应对人工智能快速发展带来的全球治理挑战，通过成立独立的政府间国际组织，聚焦人工智能领域的国际合作与规范。协定的签署标志着多国携手构建协同治理框架，其总部定址上海凸显了中国在全球AI议题中的引领作用。",
+      "source": "aihot_selected",
+      "title_zh": "世界人工智能合作组织协定签署仪式在上海举行，总部设中国上海",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 476680234,
+      "url": "https://x.com/OpenBMB/status/2077741814799548451",
+      "title": "面壁智能开源企业AI数字员工平台StaffDeck",
+      "published_at": "2026-07-16T13:07:05+00:00",
+      "original_language": "zh",
+      "summary_en": "面壁智能联合多团队开源StaffDeck，一个用于构建与管理数字员工的企业平台。该平台旨在将专业知识、标准作业程序（SOP）和决策规则转化为持续工作、改进并保留组织知识的数字员工，而非传统聊天机器人。项目代码已发布于GitHub。",
+      "summary_zh": "面壁智能开源的StaffDeck平台针对传统聊天机器人无法将专业知识、作业流程和决策规则沉淀为可迭代执行资产的问题，提供了一套将标准作业程序（SOP）与决策逻辑转化为数字员工的企业方案。该平台让数字员工能持续工作、自主改进并保留组织知识，从而真正实现组织智慧的自动化闭环，对企业知识管理与智能客服升级具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "面壁智能开源企业AI数字员工平台StaffDeck",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1865389051,
+      "url": "https://mp.weixin.qq.com/s/W3QACoSYgwK0TW4zG-KFsg",
+      "title": "秒哒 3.5 全球首发 iOS App，无代码开发与多端共享后端能力升级",
+      "published_at": "2026-07-16T12:17:11+00:00",
+      "original_language": "zh",
+      "summary_en": "The Baidu Intelligent Cloud \"Miaoda 3.5\" platform addresses the barrier of iOS development and distribution by enabling users to package apps directly into IPA files or publish them on the App Store without needing Mac hardware or Xcode. Key upgrades also include automated search optimization via a built-in SEO Agent, shared backend databases across multiple apps, and environment isolation for resource management. This advancement democratizes app creation for over 35 million users, significantly lowering technical hurdles and accelerating the delivery of commercial applications at scale.",
+      "summary_zh": "秒哒 3.5 解决了无代码开发者无法直接构建和分发 iOS 应用的核心痛点，通过新增的 iOS 打包能力让用户无需 Mac 或 Xcode 即可生成 IPA 文件并上架 App Store。其关键创新在于内置 SEO Agent 实现搜索优化自动化，并支持多应用共享后端数据库与环境隔离，大幅降低了应用开发与运维门槛。这一升级使业务人员无需技术背景就能快速打造商业应用，加速了 AI 原生应用的规模化落地，现已惠及超 3500 万用户。",
+      "source": "aihot_selected",
+      "title_zh": "秒哒 3.5 全球首发 iOS App，无代码开发与多端共享后端能力升级",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2481537830,
+      "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+      "title": "欧盟裁定 Google 必须向竞争对手开放 Android 和 Search，影响 Gemini 等 AI 服务",
+      "published_at": "2026-07-16T12:06:51+00:00",
+      "original_language": "zh",
+      "summary_en": "The EU's Digital Markets Act ruling forces Google to open Android and Search to competitors, addressing its market dominance that stifles rival AI assistants like Gemini alternatives. This key enforcement approach weakens Google's platform control and reshapes the AI landscape by granting third-party AI services broader access, which matters for fostering innovation and competition in AI.",
+      "summary_zh": "欧盟依据《数字市场法案》强制要求 Google 向竞争对手开放 Android 与 Search 的关键通道，旨在打破其平台垄断。该裁决允许第三方 AI 助手和搜索引擎获得更大接入权，可能重塑 Gemini 等 AI 服务的竞争格局，并为其他厂商创造新的市场机遇。",
+      "source": "aihot_selected",
+      "title_zh": "欧盟裁定 Google 必须向竞争对手开放 Android 和 Search，影响 Gemini 等 AI 服务",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3851280506,
+      "url": "https://mp.weixin.qq.com/s/RWveWvw9yBH6YQINBQ-XjA",
+      "title": "HYPIC：小红书联合北大、上交提出首个混合注意力大模型位置无关缓存系统",
+      "published_at": "2026-07-16T10:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "HYPIC tackles the inefficiency in caching for hybrid-attention large models caused by position dependence, introducing the first position-independent caching system. It achieves an average 3.25× reduction in first-token latency and a 1.66× increase in sustained QPS under the same service-level objectives, while preserving task quality within 1.71 points of full recomputation. This enables significantly more efficient LLM serving with minimal quality trade-offs.",
+      "summary_zh": "HYPIC 解决了混合注意力大模型因位置编码导致缓存难以复用的问题，提出首个位置无关缓存系统，能显著降低首 token 生成延迟并提升吞吐。在多个生产级模型上，该方法在维持几乎无损的任务质量同时，将首 token 延迟平均降低 3.25 倍、持续 QPS 提升 1.66 倍，对在线推理服务的高效部署至关重要。",
+      "source": "aihot_selected",
+      "title_zh": "HYPIC：小红书联合北大、上交提出首个混合注意力大模型位置无关缓存系统",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1296320312,
+      "url": "https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search",
+      "title": "Gemini Enterprise Agent Platform 新增 Parallel Web Search 网络接地提供商",
+      "published_at": "2026-07-16T09:58:51.914000+00:00",
+      "original_language": "zh",
+      "summary_en": "Google Cloud has integrated Parallel Web Systems' search infrastructure as a new grounding provider in the Gemini Enterprise Agent Platform, allowing AI agents to anchor on verifiable real-time web results to boost factual accuracy in enterprise workflows. Developers can also programmatically extract, permanently cache, and process web data with other large language models, promoting reliable, data-driven automation.",
+      "summary_zh": "Google Cloud 将 Parallel 的搜索基础设施集成到 Gemini Enterprise Agent Platform，使 AI 智能体能基于实时可验证的网络结果，提高企业工作流的事实准确性。这一改变让开发者可以提取并永久缓存网络数据，供多模型处理，从而增强信息复用与智能体可靠性。",
+      "source": "aihot_selected",
+      "title_zh": "Gemini Enterprise Agent Platform 新增 Parallel Web Search 网络接地提供商",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1063365156,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.11-nightly.20260717.f8e6e8931",
+      "title": "QwenLM/qwen-code: Release v0.19.11-nightly.20260717.f8e6e8931",
+      "published_at": "2026-07-17T00:43:17+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release improves observability and security for the qwen-code platform. It introduces tracing to diagnose slow first-session startup times in the daemon, and hardens multi-workspace ownership guards in the serve component to close access-control gaps. These changes are important for ensuring reliable cold-start performance and preventing unauthorized cross-workspace access in shared environments.",
+      "summary_zh": "该版本通过追踪守护进程冷首次会话优化了启动性能，同时强化了多工作空间服务的所有权保护并补齐了文档，提升了系统的可观测性与多用户环境下的安全隔离能力。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.11-nightly.20260717.f8e6e8931",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3504296786,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.11",
+      "title": "QwenLM/qwen-code: Release v0.19.11",
+      "published_at": "2026-07-16T14:22:22+00:00",
+      "original_language": "en",
+      "summary_en": "Release v0.19.11 of QwenLM/qwen-code enhances the reliability and extensibility of its web-based shell environment by introducing workspace path locking to prevent conflicts, a dedicated extension management page, and liveness heartbeats that detect stalled foreground shell commands. These improvements address critical pain points in silent shell execution and workspace management, ensuring a more robust and user-friendly experience for AI-assisted coding workflows.",
+      "summary_zh": "此次发布为 Web Shell 新增了工作区路径锁定与扩展管理页面，提升了交互的安全性和插件管理便利性；同时在内核层引入静默命令的心跳保活机制，防止会话意外中断。这些改进有助于增强命令行工具在长时间任务中的稳定性与用户体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.11",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1926079453,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.26.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.26.0",
+      "published_at": "2026-07-16T10:59:27+00:00",
+      "original_language": "en",
+      "summary_en": "This update addresses the limited tooling of coder subagents by expanding their capabilities to mirror the main agent—including background tasks, todo lists, plan mode, skill invocation, and nested agents—and ensures a subagent run only completes after all its spawned background tasks finish. This matters for AI-assisted coding because it enables more autonomous, complex multi-step task execution within hierarchical agent architectures, improving coordination and reliability.",
+      "summary_zh": "此次更新扩展了kimi-code的子代理工具集，使其支持后台任务、待办列表、计划模式、技能调用及嵌套代理，能力与主代理对齐，且子代理会等待后台任务完成后再结束。这一改进让子代理具备了更强的自主性与复杂任务处理能力，能更好地镜像主代理的异步工作流，从而提升在复杂编程场景下的效率与灵活性。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.26.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 215219115,
+      "url": "https://github.com/MoonshotAI/kimi-cli/releases/tag/1.49.0",
+      "title": "MoonshotAI/kimi-cli: 1.49.0",
+      "published_at": "2026-07-16T10:23:29+00:00",
+      "original_language": "en",
+      "summary_en": "This release fixes miscalculated completion budgets by using remaining context and preserves empty reasoning strings as ThinkPart to prevent data loss, while also ceasing implicit reasoning-effort signals. The telemetry update adds trace IDs and aligns events with a TypeScript schema for consistent monitoring. These changes improve output reliability and traceability in AI-assisted CLI interactions.",
+      "summary_zh": "该版本修复了完成预算计算问题，通过利用剩余上下文长度来优化资源分配；同时保留空的推理内容以维护对话结构，并停止隐式发送推理强度参数，避免意外行为。此外，遥测事件与 TypeScript 模式对齐并增加了 trace_id，增强了可追溯性与监控能力，从而提升 CLI 工具交互的稳定性和推理输出的一致性。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-cli: 1.49.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
