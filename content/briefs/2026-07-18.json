@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-18",
+  "headline_en": "15 items collected today",
+  "lede_en": "15 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    1173511625,
+    2851541052,
+    2437764394
+  ],
+  "item_count": 15,
+  "source_breakdown": {
+    "claude_blog": 2,
+    "unsupervised_learning": 1,
+    "aihot_selected": 10,
+    "qwen_github": 1,
+    "moonshot_github": 1
+  },
+  "generated_at": "2026-07-18T09:32:09.179742Z",
+  "headline_zh": "今日共采集 15 项内容",
+  "lede_zh": "今日共采集 15 项内容。",
+  "sections_zh": []
+}
