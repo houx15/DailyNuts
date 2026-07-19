@@ -1,0 +1,214 @@
+{
+  "date": "2026-07-19",
+  "items": [
+    {
+      "id": 1151538540,
+      "url": "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night",
+      "title": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night",
+      "published_at": "2026-07-19T09:46:06.179854",
+      "original_language": "en",
+      "summary_en": "Cognition leverages Anthropic’s Claude Fable 5 to autonomously handle overnight workloads, solving the problem of maintaining reliable, unsupervised AI performance during off-hours. The approach demonstrates that advanced language models can be trusted to work through the night without human oversight, significantly extending productive work cycles. This matters for organizations seeking continuous AI-assisted workflows that reduce downtime and human intervention.",
+      "summary_zh": "Cognition公司利用Claude Fable 5模型通宵自主完成编码任务，解决了AI代理长时间运行时的可靠性与稳定性问题。其核心发现是该前沿模型具备持续夜间工作的信任度，能独立处理复杂开发工作。这标志着AI代理正从辅助工具迈向可无人值守的自主工程伙伴，大幅提升软件研发效率与迭代速度。",
+      "source": "claude_blog",
+      "title_en": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2240620798,
+      "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+      "title": "Giving admins more visibility and control over Claude spend",
+      "published_at": "2026-07-19T09:46:06.183498",
+      "original_language": "en",
+      "summary_en": "This addresses the challenge of administrators struggling to monitor and manage organizational spending on Claude. The key approach involves introducing enhanced admin tools for visibility and granular control over usage costs. This matters because it empowers enterprises to prevent budget overruns, optimize AI resource allocation, and scale their adoption of Claude responsibly.",
+      "summary_zh": "此更新针对企业管理员难以监控和控制Claude模型使用成本的问题，通过增强消费可见性和管理权限来赋予更精细的财控能力。这有助于组织合理预算并防止意外支出，对保障AI服务在业务中可持续部署至关重要。",
+      "source": "claude_blog",
+      "title_en": "Giving admins more visibility and control over Claude spend",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3331085827,
+      "url": "https://x.com/Alibaba_Qwen/status/2078754377473601787",
+      "title": "Qwen3.8 开源发布，2.4T 参数模型上线",
+      "published_at": "2026-07-19T08:10:39+00:00",
+      "original_language": "zh",
+      "summary_en": "Alibaba's Qwen3.8, a 2.4-trillion-parameter model, is being open-sourced and released to address the demand for frontier-level AI capabilities. Its key feature is state-of-the-art performance that rivals leading models, second only to Fable 5, and it is immediately testable via previews on Alibaba's platforms. This matters because it grants researchers and developers quick access to a top-tier, open-weight model, accelerating innovation and lowering barriers to advanced AI.",
+      "summary_zh": "通义千问3.8模型以2.4万亿参数规模开源发布，旨在提供与领先前沿AI相媲美的强大能力，解决现有大模型在性能与可及性上的平衡难题。其关键突破在于通过持续进化与预览版本快速上线，让开发者无需等待即可体验，直接推动AI应用生态的快速构建与创新。这一发布标志着开源大模型在规模与实用性上迈上新台阶，对加速行业智能化具有显著意义。",
+      "source": "aihot_selected",
+      "title_zh": "Qwen3.8 开源发布，2.4T 参数模型上线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2890326058,
+      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
+      "title": "AI 热潮正在瓦解全球决策机制",
+      "published_at": "2026-07-19T05:13:24.607000+00:00",
+      "original_language": "zh",
+      "summary_en": "The article warns that a global AI frenzy is undermining decision-making, as organizations blindly pursue AI projects despite a 0% success rate observed over 18 months. Failures stem from pre-existing software project management weaknesses and added AI-specific risks, not from LLM capabilities, resulting in unused internal chatbots and poor customer experiences — like Mitsubishi’s voice assistant failing to call back for six weeks. This highlights how the rush into AI can erode effective governance when institutional execution gaps are ignored.",
+      "summary_zh": "全球公私机构深陷AI狂热，决策机制瓦解，表现为无计划跟风或回避问题。从业者观察发现，所有AI项目均失败，主因并非大模型不够强，而是企业本已薄弱的软件执行能力叠加AI项目特有的额外风险，导致员工不用内部聊天机器人、客户体验恶化。这一发现暴露出脱离实际需求的AI投资正在系统性破坏组织决策效力与资源使用效率。",
+      "source": "aihot_selected",
+      "title_zh": "AI 热潮正在瓦解全球决策机制",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 171253310,
+      "url": "https://x.com/thsottiaux/status/2078697631019303273",
+      "title": "ChatGPT Work 功能：建站、邮件、文档处理",
+      "published_at": "2026-07-19T04:25:10+00:00",
+      "original_language": "zh",
+      "summary_en": "ChatGPT Work tackles the inefficiency of juggling multiple disconnected tools for everyday office tasks by bundling website hosting, email management, document summarization, and content creation directly into the ChatGPT interface. This integration streamlines workflows, enabling users to complete complex productivity tasks within a single conversational environment, which reduces tool switching and enhances efficiency for both individual and business subscribers.",
+      "summary_zh": "ChatGPT Work 主要解决用户在办公场景中分散处理网站、邮件与文档的繁琐问题，通过集成建站、邮件管理、文档总结和办公套件制作等功能于一体的 AI 助手，让用户一站式完成多项任务。这一功能内置于移动端和网页端，对提升个人与团队的工作效率具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "ChatGPT Work 功能：建站、邮件、文档处理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3269626825,
+      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+      "title": "transcribe.cpp 发布：基于 ggml 的跨平台语音转录库，支持 16 个 ASR 模型族",
+      "published_at": "2026-07-19T02:49:15.657000+00:00",
+      "original_language": "zh",
+      "summary_en": "transcribe.cpp v0.1.0 addresses the need for efficient, cross-platform speech transcription by providing a lightweight library built on the ggml runtime. It supports 16 ASR model families (over 60 models) and leverages GPU acceleration via Vulkan, Metal, CUDA, and TinyBLAS to deliver fast inference across diverse hardware. This matters because it unifies a wide range of state-of-the-art models under a single, optimized backend, lowering the barrier to deploying high-performance speech-to-text in resource-constrained or heterogeneous environments.",
+      "summary_zh": "transcribe.cpp 解决了跨平台语音转录的部署难题，通过基于 ggml 的高效推理框架和 GPU 加速，在单一库中集成了 16 个 ASR 模型族，提供广泛的模型选择。这一发布显著降低了开发者在不同硬件上实现高性能语音识别应用的复杂度，有助于推动端侧与边缘语音 AI 的快速落地。",
+      "source": "aihot_selected",
+      "title_zh": "transcribe.cpp 发布：基于 ggml 的跨平台语音转录库，支持 16 个 ASR 模型族",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2831434993,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.20.1-preview.7215",
+      "title": "QwenLM/qwen-code: Release v0.20.1-preview.7215",
+      "published_at": "2026-07-19T09:14:15+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses a gap in automated code fixing (autofix) by introducing label‑driven takeover and release mechanics, ensuring that fixes can be explicitly claimed and handed off based on labels. It also resolves a bug where a forced‑dispatch “green” signal was a no‑op, restoring intended behavior. These improvements tighten control over autonomous fix pipelines, making the autofix process more predictable and robust.",
+      "summary_zh": "此版本针对 Qwen-code 的自动修复（autofix）功能进行了改进，解决了强制调度变绿却无实际操作（green no-op）的问题。其核心方法是通过标签驱动控制工作流的接管与释放，这能提升自动化修复流程的可靠性与灵活性，避免空操作的误导。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.20.1-preview.7215",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2131997127,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.20.0",
+      "title": "QwenLM/qwen-code: Release v0.20.0",
+      "published_at": "2026-07-19T07:27:26+00:00",
+      "original_language": "en",
+      "summary_en": "The v0.20.0 release of qwen-code targets operational stability and review transparency: it introduces bounded log rotation to prevent disk overflow from long-running daemons, embeds review round metadata into each finding’s identity for clearer multi‑round audit trails, and adds a read‑only webshell to replay chat history. These enhancements help maintain reliable agent execution, streamline iterative code review, and support forensic debugging of AI‑assisted sessions.",
+      "summary_zh": "qwen-code v0.20.0 重点解决了守护进程日志无限增长、代码审查轮次追溯不清以及远程会话共享不便等问题。通过引入有界日志轮转、在审查发现中嵌入轮次标签，以及支持Web端只读会话回放，显著提升了工具的长期运行稳定性、审查可跟踪性与协作效率。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.20.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3414075579,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.12-nightly.20260719.86ad532de",
+      "title": "QwenLM/qwen-code: Release v0.19.12-nightly.20260719.86ad532de",
+      "published_at": "2026-07-19T00:51:43+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release tackles maintenance and robustness: it synchronizes third-party notices to avoid legal drift, adds automatic log rotation to keep daemon logs manageable, and fixes the Java SDK to retain original exception causes during initialization failures. These improvements ensure operational stability, legal compliance, and easier debugging for developers.",
+      "summary_zh": "此次 Qwen Code 夜间版本修复了 Java SDK 中 ACP 客户端初始化失败时异常原因丢失的问题，并新增了守护进程的日志轮转机制，防止日志文件无限膨胀。这些改进提升了系统稳定性和可维护性，同时同步第三方声明确保了合规性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.12-nightly.20260719.86ad532de",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2290631114,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.12",
+      "title": "QwenLM/qwen-code: Release v0.19.12",
+      "published_at": "2026-07-18T14:37:02+00:00",
+      "original_language": "en",
+      "summary_en": "This release improves observability and usability for the Qwen Code development environment by adding startup tracing for the daemon’s cold first session, an archived session export feature in the web shell, and a new workspace aggregate endpoint for session information. These enhancements address pain points in diagnosing slow initial loads, managing session history, and retrieving consolidated session data, ultimately streamlining the developer workflow and debugging experience.",
+      "summary_zh": "本次版本针对会话管理引入了多个功能：通过守护进程追踪首次会话冷启动性能，支持从网页Shell导出归档会话，以及提供工作区会话信息聚合API。这些改进有助于开发者监控系统启动行为、备份与分析会话数据，从而提升排查效率与整体可观测性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.12",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1213313654,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.12-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.19.12-preview.0",
+      "published_at": "2026-07-18T12:39:13+00:00",
+      "original_language": "en",
+      "summary_en": "This preview release targets cold-start performance diagnostics and multi-tenant security in an AI coding environment. It introduces tracing for daemon cold first-session startup to pinpoint initial latency, and hardens server-side multi-workspace ownership guards to prevent cross-workspace access. These improvements are critical for maintaining responsive, secure collaborative coding sessions in deployment.",
+      "summary_zh": "该版本聚焦于解决首次会话冷启动的性能监控问题，通过守护进程增加冷启动跟踪功能；同时加固了多工作空间服务的安全性，修复所有权保护漏洞并补齐文档；还为 Web Shell 引入归档功能，便于长期数据管理。这些改进有助于提升系统启动效率、增强多用户环境下的隔离安全性，并优化交互式终端体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.19.12-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
