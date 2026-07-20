@@ -1,0 +1,214 @@
+{
+  "date": "2026-07-20",
+  "items": [
+    {
+      "id": 2196243136,
+      "url": "https://mp.weixin.qq.com/s/INvrqTrWLMm2WCLIqhqTrg",
+      "title": "通义实验室发布 Qwen-Audio-3.0-TTS 实时语音合成模型",
+      "published_at": "2026-07-20T08:53:11+00:00",
+      "original_language": "zh",
+      "summary_en": "通义实验室发布 Qwen-Audio-3.0-TTS，含 Flash（首包延迟约300ms）和 Plus 两个版本。Plus 版本在 Artificial Analysis 榜单夺冠，支持16种语言和20种中文方言，平均 WER/CER 低至3.87（Flash），说话人相似度最高达82.75（Plus）。",
+      "summary_zh": "通义实验室发布的 Qwen-Audio-3.0-TTS 实时语音合成模型解决了多语言、多方言场景下语音合成延迟与质量难以兼顾的问题。其关键发现是通过 Flash 与 Plus 两个版本的分层设计，前者实现低至 300ms 的首包延迟，后者在权威榜单夺冠并达到 82.75 的说话人相似度，将合成误差（WER/CER）显著降至 3.87。这一成果对需要低延时、高拟人度的全球化实时语音交互应用具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "通义实验室发布 Qwen-Audio-3.0-TTS 实时语音合成模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2847603756,
+      "url": "https://mp.weixin.qq.com/s/rAoF65ywi5trWbI-heJieg",
+      "title": "小红书与北大开源 UltraEP：面向大规模 MoE 训推的实时负载均衡方案",
+      "published_at": "2026-07-20T08:00:45+00:00",
+      "original_language": "zh",
+      "summary_en": "UltraEP tackles the load imbalance problem in large-scale Mixture-of-Experts (MoE) models by introducing real-time, precise routing–based load balancing that dynamically replicates over‑subscribed “hot” experts at every microbatch and layer—a first in production systems. On models like Qwen3‑235B, it achieves 94.6% of ideal training throughput (a 42% gain over Megatron‑LM) and boosts inference prefill throughput by 1.56× compared to SGLang, demonstrating near‑optimal utilization and significant practical speedups for both training and serving.",
+      "summary_zh": "小红书与北大开源的UltraEP方案针对大规模混合专家（MoE）模型训练与推理中专家负载不均的问题，首次在生产系统中引入基于精确路由信息的实时动态负载均衡，在每个微批次和每一层热点专家进行复制迁移。该方案在Qwen3-235B等模型上使训练吞吐达到理想性能的94.6%，较Megatron-LM提升42%，推理prefill吞吐较SGLang提升1.56倍，显著提升了大规模MoE系统的资源利用效率与吞吐能力。",
+      "source": "aihot_selected",
+      "title_zh": "小红书与北大开源 UltraEP：面向大规模 MoE 训推的实时负载均衡方案",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 943594812,
+      "url": "https://www.ithome.com/0/979/017.htm",
+      "title": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
+      "published_at": "2026-07-20T07:00:15+00:00",
+      "original_language": "zh",
+      "summary_en": "The \"Shenzhen\" model addresses the challenge of building a unified foundation model for diverse scientific data by handling six modalities (DNA, RNA, proteins, small molecules, Earth systems, and medical imaging) in a single 11B-parameter architecture. It sets new benchmarks, achieving the best results on 9 of 20 biological sequence tasks and a leading medical image segmentation Dice score of 91.20. By releasing the weights and code openly, it provides a powerful, ready-to-use tool for accelerating multi-disciplinary scientific discovery.",
+      "summary_zh": "模型“神珍”针对科学领域多模态数据统一处理的难题，采用约110亿参数的基础模型架构，支持DNA、RNA、蛋白质、小分子、地球系统和医学影像六类数据的融合分析。它在生物序列任务中9项领先，医学影像分割取得91.20的最高平均Dice得分，体现了跨尺度科学智能的强大性能。该模型完全开源，为生命科学、环境科学和医学等领域的AI应用提供了关键基础设施。",
+      "source": "aihot_selected",
+      "title_zh": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1641021584,
+      "url": "https://mp.weixin.qq.com/s/KwBAC8TFa846WFj-DHrgIQ",
+      "title": "面壁智能发布首个具身智能成果 MiniCPM-Robot 系列模型，含 1.5B VLA 与 0.9B 跟踪模型",
+      "published_at": "2026-07-20T03:54:08+00:00",
+      "original_language": "zh",
+      "summary_en": "The MiniCPM-Robot series addresses the challenge of enabling embodied intelligence in resource",
+      "summary_zh": "该成果针对具身智能领域，通过发布MiniCPM-Robot系列模型解决了通用机器人操作与移动跟踪的双重难题。关键方法是推出1.5B参数的视觉语言动作模型MiniCPM-RobotManip和0.9B参数的跟踪模型MiniCPM-RobotTrack，并以开源形式提供。这为低资源下的机器人自主操控与场景适应提供了高效可复现的基准，推动了具身大模型的实用化进程。",
+      "source": "aihot_selected",
+      "title_zh": "面壁智能发布首个具身智能成果 MiniCPM-Robot 系列模型，含 1.5B VLA 与 0.9B 跟踪模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 944302612,
+      "url": "https://ollama.com/blog/all-aboard-open-models",
+      "title": "Ollama 获 8800 万美元融资，加速开放模型生态发展",
+      "published_at": "2026-07-20T01:45:09.765000+00:00",
+      "original_language": "zh",
+      "summary_en": "Ollama addresses the challenge of easily and privately deploying powerful open-source AI models. Its platform has gained massive traction—serving 8.9 million developers and 85% of Fortune 500 companies—and secured $88M in funding to accelerate features like seamless hybrid inference and same-day model integration. This matters because it enables broad enterprise and developer adoption of open models without compromising data ownership or privacy.",
+      "summary_zh": "Ollama 获 8800 万美元融资，旨在解决开发者和企业在使用大模型时面临的所有权与隐私挑战，通过无缝混合推理和本地优先的开放模型部署，让用户无需牺牲数据控制权即可使用最先进的模型。此举将加速开放模型在企业级场景的落地，降低对封闭 API 的依赖，对推动安全、自主的AI开发生态意义重大。",
+      "source": "aihot_selected",
+      "title_zh": "Ollama 获 8800 万美元融资，加速开放模型生态发展",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3229829315,
+      "url": "https://mp.weixin.qq.com/s/EeHjsju08ARLbwtwFcViqg",
+      "title": "不会代码也能做产品：一份从0开始的Vibe Coding保姆级教程",
+      "published_at": "2026-07-20T00:08:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This tutorial addresses the challenge of non-coders building and launching a software product by guiding them through a complete workflow using Chinese large language models like Kimi, GLM, and Qwen. The key approach is a \"Vibe Coding\" pipeline where users purchase an AI coding plan, use agent-based programming tools to generate code from natural‑language requirements, and handle deployment steps like domain registration and ICP filing. It matters because it democratizes product development, enabling anyone to create functional applications while emphasizing that understanding system architecture remains critical even without coding skills.",
+      "summary_zh": "本文解决零代码用户无法独立开发产品的问题，提出了一套基于国产大模型（如Kimi、GLM等）结合AI编程Agent的“Vibe Coding”完整流程。其关键方法是从购买计划、域名备案到用自然语言描述需求让AI自动生成代码并上线，强调即使不懂代码也需掌握系统架构。这对降低技术门槛、加速非技术人员的产品化验证具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "不会代码也能做产品：一份从0开始的Vibe Coding保姆级教程",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4027063229,
+      "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit",
+      "title": "黄仁勋访日：Nvidia 联手日本打造物理 AI 时代，Noetra 主权 AI 工厂与 Cosmos 机器人联盟落地",
+      "published_at": "2026-07-19T21:16:07+00:00",
+      "original_language": "zh",
+      "summary_en": "Nvidia CEO 黄仁勋在 7 月 15-16 日访日期间，宣布为日本建设\"Vera Rubin AI 工厂\"，配备 13，750 颗 Vera CPU 和 27，500 颗 Rubin GPU，预计 2028 年投运。",
+      "summary_zh": "英伟达CEO黄仁勋访日期间宣布为日本建设配备上万颗新一代CPU与GPU的“Vera Rubin AI工厂”，旨在打造主权AI基础设施，支持物理AI时代的发展。这一合作标记着日本在构建国家算力底座、推动虚实融合的机器人及工业智能应用上迈出关键一步，凸显主权AI工厂对全球技术竞争的战略价值。",
+      "source": "aihot_selected",
+      "title_zh": "黄仁勋访日：Nvidia 联手日本打造物理 AI 时代，Noetra 主权 AI 工厂与 Cosmos 机器人联盟落地",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2388371692,
+      "url": "https://seed.bytedance.com/zh/blog/%E4%BB%8E-%E4%BC%9A%E8%AF%B4-%E8%B5%B0%E5%90%91-%E4%BC%9A%E5%88%9B%E4%BD%9C-seed-audio-1-0-%E9%9F%B3%E9%A2%91%E5%88%9B%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83",
+      "title": "字节跳动发布 Seed Audio 1.0 音频创作模型，统一建模人声与音效实现端到端影视级音频生成",
+      "published_at": "2026-07-19T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Seed Audio 1.0 tackles the challenge of separately generating voice, sound effects, and ambient sound by introducing a unified, end-to-end model that jointly synthesizes all audio components with precise temporal control and support for over 20 languages. It achieves film-grade quality, with over 90% audio usability in most scenarios and multilingual naturalness exceeding MOS 4. This significantly simplifies professional audio production, enabling high-fidelity, time-aligned sound creation at scale.",
+      "summary_zh": "字节跳动推出的 Seed Audio 1.0 模型解决了传统音频生成中人声与音效需分离处理、时间控制粗糙等问题，通过在统一框架下端到端联合建模人声、音效和环境声，实现了高达 100ms 精度的可控影视级音频输出。该模型支持超过 20 个语种的自然生成，单次可延展近 2 分钟音频，上线后多数场景音频可用率超 90% 且多语种自然度 MOS 高于 4 分，显著提升了内容创作效率与质量。",
+      "source": "aihot_selected",
+      "title_zh": "字节跳动发布 Seed Audio 1.0 音频创作模型，统一建模人声与音效实现端到端影视级音频生成",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3493528711,
+      "url": "https://mp.weixin.qq.com/s/rjFxrUylyGMqa5QtgypCdw",
+      "title": "MiniCPM5-2B发布：4B以下全球性能第一，适配9款芯片",
+      "published_at": "2026-07-19T13:12:39+00:00",
+      "original_language": "zh",
+      "summary_en": "MiniCPM5-2B, a 2B-parameter edge model, achieves the top score among sub-4B models on the AA-Index benchmark, outperforming competitors like Qwen3.5-2B. It natively integrates hybrid reasoning and 512K context length, with Day0 adaptation across 9 chips (Huawei Ascend, NVIDIA, etc.). This open-source release delivers state-of-the-art performance and broad hardware compatibility for resource-constrained",
+      "summary_zh": "面壁智能与OpenBMB发布的MiniCPM5-2B模型，针对端侧设备资源受限场景下的高性能需求，以仅2B参数量在AA-Index榜单取得4B以下模型最高分，超越同规模竞品。其关键突破在于原生支持混合思考与512K超长上下文，并率先完成华为昇腾、英伟达等9款主流芯片的Day0适配，这对推动大模型在手机、IoT等端侧设备的普惠化部署具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "MiniCPM5-2B发布：4B以下全球性能第一，适配9款芯片",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3524901191,
+      "url": "https://mp.weixin.qq.com/s/LidvGePhOOoUY3KTor_w9g",
+      "title": "昆仑万维宣布2026为\"世界模型元年\"，发布Matrix-Game 3.5等模型",
+      "published_at": "2026-07-19T12:35:56+00:00",
+      "original_language": "zh",
+      "summary_en": "Kunlun Tech’s announcement at WAIC positions 2026 as the “first year of the world model,” addressing the challenge of persistent, real-time interactive world simulation. The key finding is that the Matrix‑Game 3.5 model achieves patch-level memory injection, enabling a 5B-parameter model to generate 720p scenes at 20 FPS on a single GPU. This matters because the open‑sourced architecture and real‑time performance could drastically advance cost‑effective virtual environment generation for games, digital twins, and embodied AI.",
+      "summary_zh": "昆仑万维发布Matrix-Game 3.5世界模型，通过Patch级记忆注入技术，使5B小模型在720p分辨率下单卡达到20FPS实时生成，并开源核心架构。该突破为实时交互式世界模型铺平了道路，推动2026年成为“世界模型元年”的愿景，标志着低延时、高保真虚拟场景生成的重大进展。",
+      "source": "aihot_selected",
+      "title_zh": "昆仑万维宣布2026为\"世界模型元年\"，发布Matrix-Game 3.5等模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 696906084,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.28.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.28.0",
+      "published_at": "2026-07-20T05:58:41+00:00",
+      "original_language": "en",
+      "summary_en": "The release replaces the `kimi server` background daemon and OS-service lifecycle management with a simpler foreground `kimi web` command, addressing the complexity and inflexibility of the previous server model. The key change allows multiple server instances to share a single home directory, each binding to the next available port automatically, which matters because it streamlines local development and enables effortless concurrent testing without port conflicts or service configuration.",
+      "summary_zh": "### Minor Changes\n\n- [#1826](https://github.com/MoonshotAI/kimi-code/pull/1826) [`a41a09c`](https://github.com/MoonshotAI/kimi-code/commit/a41a09c33c8e432fbc306f5882692c967ed5ea17) Thanks [@sailist](https://github.com/sailist)! - Replace the `kimi server` command tree with `kimi web`: the server run",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.28.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
