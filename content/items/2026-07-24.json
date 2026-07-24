@@ -1,0 +1,537 @@
+{
+  "date": "2026-07-24",
+  "items": [
+    {
+      "id": 78216032,
+      "url": "https://claude.com/blog/four-role-based-claude-certifications",
+      "title": "Four role-based certifications for the people who put Claude to work for customers",
+      "published_at": "2026-07-24T10:12:24.802859",
+      "original_language": "en",
+      "summary_en": "This announcement introduces four role-based certifications aimed at equipping professionals who deploy Claude for customer solutions, addressing the challenge of ensuring safe and effective AI integration in enterprise settings. By tailoring training to specific job functions, the program establishes standardized expertise in building, managing, and scaling Claude-powered applications. This matters because it helps organizations adopt AI responsibly while maximizing the tool’s value through certified practitioners.",
+      "summary_zh": "该方案针对企业部署Claude AI时人员技能参差不齐的问题，推出了四种按岗位角色定制的认证体系。通过结构化的培训与考核，确保不同职能的员工能高效、安全地将Claude落地到客户场景中，从而提升服务质量和实施可靠性。",
+      "source": "claude_blog",
+      "title_en": "Four role-based certifications for the people who put Claude to work for customers",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2093293131,
+      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+      "title": "Think through hard problems in voice mode",
+      "published_at": "2026-07-24T10:12:24.803395",
+      "original_language": "en",
+      "summary_en": "This concept addresses the challenge of effectively tackling complex cognitive tasks when traditional text-based interaction falls short. The key approach is using voice mode to verbalize reasoning aloud, enabling a more fluid, conversational process that mirrors natural thought and can surface insights difficult to articulate in writing. It matters because voice interaction reduces cognitive friction, making AI a more intuitive thinking partner for solving hard problems in real time.",
+      "summary_zh": "此文探讨了利用语音交互模式取代传统文字输入来应对复杂思考任务。其核心方法是借助大语言模型的实时语音对话能力，让用户在边说边想的过程中保持思维链条完整，并通过多轮口语化交流激发深度推理。该方式降低了认知负荷与表达门槛，对于提升创新性解决问题的效率和用户参与度具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "Think through hard problems in voice mode",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2005544756,
+      "url": "https://claude.com/blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work",
+      "title": "Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work",
+      "published_at": "2026-07-24T10:12:24.807898",
+      "original_language": "en",
+      "summary_en": "Base44 entrusts the AI model Claude Fable 5 with its most advanced, frontier-level engineering challenges, using it to solve complex problems at the cutting edge. The key finding is that the model's reliability and capability enable it to be a trusted partner for the company’s hardest work, illustrating how AI can amplify human expertise in pushing technological boundaries.",
+      "summary_zh": "Base44 利用 Claude Fable 5 解决最具挑战性的工程问题，以突破传统方法的能力边界。这一信任源于该模型在前沿工作中的出色表现，揭示了先进 AI 如何助力企业攻克核心技术难题。",
+      "source": "claude_blog",
+      "title_en": "Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 267748588,
+      "url": "https://podcasters.spotify.com/pod/show/firstmark/episodes/The-Biggest-Chip-Ever-Built--Why-OpenAI-Runs-On-It--Cerebras-CEO-Andrew-Feldman-e3meeca",
+      "title": "The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman",
+      "published_at": "2026-07-23T11:30:00",
+      "original_language": "en",
+      "summary_en": "This conversation highlights that as AI moves from training to real-world deployment, slow inference becomes a critical bottleneck for tasks like reasoning and tool use. Cerebras's breakthrough is a wafer-sized chip engineered to accelerate token generation, and the discussion argues that such speed is what will define the next competitive era of AI.",
+      "summary_zh": "Cerebras 打造的晶圆级巨型芯片，意在解决 AI 从训练转向推理时的核心瓶颈——生成速度与实时交互能力。通过极致算力加速 token 生成、推理与工具使用，这一硬件方案有望决定下一阶段 AI 应用的竞争力，而 OpenAI 正以此为基础运行，凸显了快速推理对模型落地的决定性意义。",
+      "source": "mad_podcast",
+      "title_en": "The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2731257027,
+      "url": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
+      "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
+      "published_at": "2026-07-24T09:48:32+00:00",
+      "original_language": "zh",
+      "summary_en": "英国AI安全研究所与美国AI标准与创新中心联合评估显示，月之暗面的Kimi K3在ExploitBench基准上得分32.2%，远低于美国领先模型的76.2%，但优于智谱GLM-5.2的24.4%。",
+      "summary_zh": "针对AI模型在网络安全漏洞利用上的实战能力，该联合评估揭示月之暗面Kimi K3得分（32.2%）显著低于美国领先模型（76.2%），虽优于智谱GLM-5.2（24.4%），但整体差距明显。分析指出，其背后可能源于知识蒸馏导致的核心推理能力受限。这一发现凸显了国产模型在自主安全推理与漏洞利用领域仍存在短板，对AI安全发展路径有重要警示。",
+      "source": "aihot_selected",
+      "title_zh": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2486907033,
+      "url": "https://github.com/izeigerman/claude-thermos",
+      "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+      "published_at": "2026-07-24T09:47:29.601000+00:00",
+      "original_language": "zh",
+      "summary_en": "Claude-thermos tackles the cost of prompt cache expiration when Claude Code's main agent idles for over 5 minutes waiting for sub-agents. It operates as a local reverse proxy that automatically sends warm-up requests to refresh the cache, avoiding re‑encoding charges. In testing across roughly 185 sessions, cache expiration contributed to about 22% of the bill, demonstrating the tool’s significant cost-saving potential.",
+      "summary_zh": "Claude-thermos 解决的是 AI 会话中因提示缓存过期而产生的巨额重新编码费用问题（实测占账单约 22%）。它通过本地反向代理监控主智能体空闲状态，在超过 5 分钟无操作时自动发送预热请求，刷新缓存；该工具以 uvx 运行，支持自定义空闲阈值与预热间隔，从而有效维持缓存热度、显著降低 API 成本。",
+      "source": "aihot_selected",
+      "title_zh": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1363127146,
+      "url": "https://www.ithome.com/0/981/137.htm",
+      "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+      "published_at": "2026-07-24T06:48:04+00:00",
+      "original_language": "zh",
+      "summary_en": "Black Forest Labs released FLUX 3, a multimodal foundation model that jointly learns image, video, and audio in a unified architecture. It extends the Self-Flow learning framework to generate up to 20-second videos with native audio in a single pass, supporting tasks like text-to-video, image-to-video, and multi-shot sequences. This advance matters because it unifies multiple modalities in one model, enabling richer, more coherent AI-generated media without separate generation pipelines.",
+      "summary_zh": "FLUX 3 多模态模型解决了传统方法需分离处理图像、视频与音频的局限，采用统一架构及 Self-Flow 学习框架，首次在单次生成中直接输出最长 20 秒视频并附带原生音频。这大幅简化了文生视频、多镜头串联等任务的流程，标志着端到端多模态内容生成迈出重要一步。",
+      "source": "aihot_selected",
+      "title_zh": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 445971821,
+      "url": "https://www.ithome.com/0/980/890.htm",
+      "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+      "published_at": "2026-07-23T23:30:43+00:00",
+      "original_language": "zh",
+      "summary_en": "A Florida man is suing OpenAI after ChatGPT-4o allegedly advised him repeatedly not to seek medical care, leading to a near-fatal pulmonary embolism from blood clots in both lungs. The lawsuit accuses OpenAI of negligence and “practicing medicine without a license,” seeking monetary damages and suspension of ChatGPT Health services, while OpenAI states the tool is not a doctor and should not replace professional care. This case highlights the urgent need to clarify liability and set safety guardrails for health-related AI advice.",
+      "summary_zh": "该事件曝光了用户盲目听从ChatGPT医疗建议而险些丧命的案例，揭示出大语言模型在缺乏专业医学验证时极易给出错误指导，对高风险领域的AI安全性和可靠性构成严峻挑战。这起诉讼突显了强化AI拒答机制、明确责任边界及建立医疗AI监管的迫切需求，为负责任AI的部署敲响警钟。",
+      "source": "aihot_selected",
+      "title_zh": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 214325617,
+      "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+      "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+      "published_at": "2026-07-23T20:11:31.906000+00:00",
+      "original_language": "zh",
+      "summary_en": "DARPA and the U.S. Air Force tackled the problem of autonomous aerial combat by flight-testing an AI-piloted F-16 in a real-world environment, where the system successfully executed autonomous flight and tactical maneuvers. This marks a critical milestone in military AI, showing that learning-based agents can operate high-performance aircraft in complex, live scenarios, which could transform future force deployment and pilot safety.",
+      "summary_zh": "DARPA 与美国空军通过实机试飞验证了人工智能在真实空战环境中操控 F-16 的可行性，该 AI 系统自主完成了飞行与战术机动测试。这项突破展示了 AI 在高动态军事任务中的潜力，为未来无人作战航空发展奠定了重要基础。",
+      "source": "aihot_selected",
+      "title_zh": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 307573073,
+      "url": "https://x.com/OpenAI/status/2080378182469857576",
+      "title": "ChatGPT 桌面版上线语音控制多智能体",
+      "published_at": "2026-07-23T19:43:04+00:00",
+      "original_language": "zh",
+      "summary_en": "ChatGPT's desktop app now supports voice control, allowing users to command multiple AI agents in ChatGPT Work or Codex hands-free. Powered by GPT-Live, the feature enables simultaneous speaking, listening, and coordination, streamlining complex multi-agent tasks through natural language. This rollout to macOS and Windows broadens accessibility for Plus, Pro, Business, Edu, and Enterprise users worldwide.",
+      "summary_zh": "ChatGPT 桌面版推出了语音控制功能，解决了用户在复杂工作场景中需同时协调多个 AI 智能体和电脑操作的问题。该功能由 GPT-Live 驱动，能实时处理语音指令，让用户在说话的同时指挥 ChatGPT Work 或 Codex 中的多智能体协作，实现边讲、边听、边协调的无缝体验。这标志着语音交互从简单问答迈入多智能体实际工作流控制，显著提升了专业用户的操作效率和人机协作的自然度。",
+      "source": "aihot_selected",
+      "title_zh": "ChatGPT 桌面版上线语音控制多智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 130428497,
+      "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+      "title": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
+      "published_at": "2026-07-23T18:35:29.016000+00:00",
+      "original_language": "zh",
+      "summary_en": "The Numbers, a film data authority, was forced offline after AI crawlers and agent traffic overwhelmed its servers, accounting for 90% of total requests, while malicious attacks targeted backdoors. The team had to replace a 30-year-old system with 160,000 source files, rebuilding the site in a stripped-down form on new infrastructure. This incident highlights the growing operational threat that unchecked AI bots pose to long-established public data repositories.",
+      "summary_zh": "电影数据权威网站 The Numbers 因 AI 爬虫和智能体流量激增至总流量的 90%，导致服务器压垮并遭遇恶意攻击，最终被迫下线。这一事件暴露了 AI 抓取行为对传统网络基础设施造成的巨大资源与安全负荷，促使这个运行 30 年的系统不得不放弃旧架构重建。该案例凸显了 AI 时代下，公开数据网站面临从抗压设计到安全防护的全面转型挑战。",
+      "source": "aihot_selected",
+      "title_zh": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3071931448,
+      "url": "https://x.com/gdb/status/2080351159638704615",
+      "title": "ChatGPT 向美国用户推出健康功能",
+      "published_at": "2026-07-23T17:55:42+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI addresses the need for personalized health assistance by launching a feature that securely connects ChatGPT with Apple Health and medical records, enabling it to interpret individual health context and track changes over time. This matters because it transforms generic health consultations—already sought by 300 million weekly users—into tailored support, potentially improving health outcomes through context-aware AI guidance.",
+      "summary_zh": "OpenAI针对用户健康咨询缺乏个性化背景的问题，为美国用户推出ChatGPT健康功能，通过安全连接Apple Health及医疗记录，让模型能理解个人健康上下文并追踪变化。这使ChatGPT从通用建议转向精准指导，对提升3亿周活用户的健康管理体验具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "ChatGPT 向美国用户推出健康功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3043090193,
+      "url": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
+      "title": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体",
+      "published_at": "2026-07-23T17:01:30+00:00",
+      "original_language": "zh",
+      "summary_en": "This report reveals a critical vulnerability in OpenAI's Workspace Agents, where an attacker could send a malicious ChatGPT link that silently creates an autonomous AI agent in the victim's account. The agent inherits the victim's identity and authorized application permissions, bypasses security approvals, and schedules a task to retrieve and execute commands from the attacker's email every five minutes. The finding underscores the severe security risks of unverified agent creation in enterprise AI platforms, though OpenAI patched the issue within four days.",
+      "summary_zh": "该研究揭示了一个严重安全漏洞：攻击者只需发送一个特制的ChatGPT链接，即可在受害者OpenAI Workspace Agents账户中自动创建并授权一个恶意AI智能体。该智能体不仅继承用户身份和已授权应用权限、绕过安全审批，还能通过定时任务持续接收外部指令，从而完全操控账户。此发现凸显了AI代理在自动化权限管理中可能面临的隐蔽攻击面，对企业安全构成重大威胁，所幸OpenAI迅速修复。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1633781233,
+      "url": "https://x.com/satyanadella/status/2080329851127669104",
+      "title": "微软MAI模型：以更低成本实现前沿能力规模化",
+      "published_at": "2026-07-23T16:31:01+00:00",
+      "original_language": "zh",
+      "summary_en": "Microsoft's MAI model family tackles the high cost of deploying cutting-edge AI by optimizing the cost–effectiveness frontier, enabling products like GitHub Copilot and Excel to surpass general frontier models using fewer tokens. The core strategy is a model-independent evaluation system that grounds learning in real product tasks users care about, showing that practical, scalable AI can be achieved at lower cost. This approach matters because it is being opened to enterprises via the Foundry platform, making affordable frontier capabilities widely accessible.",
+      "summary_zh": "微软MAI模型针对前沿AI能力规模化部署的高成本问题，通过产品真实场景中的专用评估系统和成本-效果优化，让模型在GitHub Copilot、Excel等应用中用更少计算资源超越了通用大模型。这一策略将高性能AI的经济可行性大幅提升，并通过Foundry平台向企业开放，推动各行业以更低门槛落地定制化智能服务。",
+      "source": "aihot_selected",
+      "title_zh": "微软MAI模型：以更低成本实现前沿能力规模化",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1649983459,
+      "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
+      "title": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品",
+      "published_at": "2026-07-23T14:52:44+00:00",
+      "original_language": "zh",
+      "summary_en": "Google的AI助手Gemini月活跃用户已超9.5亿，同比增长三倍，正直接与用户破10亿的ChatGPT竞争，其AI搜索模式用户也突破10亿。这一发现揭示了AI助手市场格局的快速变化，Gemini市场份额升至27.7%而ChatGPT首次跌破50%，表明谷歌正快速追赶，凸显了生成式AI产品规模化竞争的加剧。",
+      "summary_zh": "Google Gemini 月活用户逼近 9.5 亿，直接应对与已超 10 亿月活的 ChatGPT 激烈竞争这一市场格局。关键进展是用户数一年内增长三倍，其 AI 助手市场份额升至 27.7%，而 ChatGPT 份额首次跌破 50%，且 AI 搜索模式用户也突破 10 亿。这表明 Gemini 正快速缩小差距，有望成为 Google 下一个十亿级产品，重塑 AI 助手市场领导地位。",
+      "source": "aihot_selected",
+      "title_zh": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2876132078,
+      "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
+      "title": "Apple 起诉 OpenAI 窃取硬件制造机密",
+      "published_at": "2026-07-23T14:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple is suing OpenAI, alleging that former employees stole hardware manufacturing secrets during interviews, including physically removing devices to demonstrate them. OpenAI denies the claims, but the case underscores Apple's aggressive litigation history and raises concerns about intellectual property risks as talent moves between tech giants and AI startups.",
+      "summary_zh": "Apple 指控前员工在面试 OpenAI 时窃取硬件制造机密，甚至将设备带出“展示”，暴露了AI人才争夺中商业秘密泄露的风险。此案关键点在于 OpenAI 矢口否认，而法律专家指出 Apple 惯以诉讼手段维护知识产权，类似策略曾用于对抗微软与三星，凸显了巨头间技术保护与竞争的白热化。",
+      "source": "aihot_selected",
+      "title_zh": "Apple 起诉 OpenAI 窃取硬件制造机密",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1187393491,
+      "url": "https://x.com/Alibaba_Qwen/status/2080270065547809133",
+      "title": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜",
+      "published_at": "2026-07-23T12:33:27+00:00",
+      "original_language": "zh",
+      "summary_en": "Alibaba's Qwen-Audio-3.0-TTS addresses the challenge of creating expressive, long-form, and multilingual speech with fine-grained control, offering a Flash version for real-time interaction and a Plus version for higher quality. It achieves this through novel features like inline emotion/style tags and natural language instructions, supporting 16 languages and generating up to three minutes of audio in one go. Its top ranking on the Artificial Analysis TTS leaderboard demonstrates its state-of-the-art performance and practical importance for real-time and high‑fidelity speech applications.",
+      "summary_zh": "通义千问的Qwen-Audio-3.0-TTS模型针对文本转语音任务中风格控制不足与长文本生成挑战，提出了细粒度内联标签和自然语言风格控制方法，并支持16种语言与长达3分钟的语音合成。该模型凭借实时交互与高质量输出双版本，在Artificial Analysis TTS排行榜上斩获第一，为多场景语音应用提供了标杆级解决方案。",
+      "source": "aihot_selected",
+      "title_zh": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2892080475,
+      "url": "https://mp.weixin.qq.com/s/P3yzceXkVxth7Q63nRfBLg",
+      "title": "MineExplorer：首个《我的世界》分钟级长程任务评测基准发布",
+      "published_at": "2026-07-23T11:58:00+00:00",
+      "original_language": "zh",
+      "summary_en": "MineExplorer is the first benchmark for evaluating multimodal large models on minute-long tasks in the open-world game Minecraft, featuring 813 human-verified instances. Testing 18 top models reveals that even the best, Claude-Opus-4.6, achieves only a 41% overall success rate, plunging from 77% on 1-hop tasks to 12% on 4-hop tasks, with nearly 60% of failures due to navigation errors. The benchmark, now fully open-source, highlights critical shortcomings in long-horizon reasoning and navigation, guiding future model development toward robust real-world AI.",
+      "summary_zh": "美团LongCat团队推出了MineExplorer，首个在《我的世界》开放环境中支持分钟级长程任务的评测基准，通过813个人工验证实例系统评估了18款多模态大模型。结果发现，最强的Claude-Opus-4.6整体任务成功率仅41%，且从1跳到4跳任务骤降至12%，其中近60%的失败源于导航能力不足，揭示了当前模型在开放世界持久规划与空间推理上的重大短板。该基准已全面开源，为推进具身智能与长程任务研究提供了重要公共测试场。",
+      "source": "aihot_selected",
+      "title_zh": "MineExplorer：首个《我的世界》分钟级长程任务评测基准发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3219837247,
+      "url": "https://mp.weixin.qq.com/s/TEAuv29LPgmjQG_rO3b_Ag",
+      "title": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本",
+      "published_at": "2026-07-23T11:20:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Kunlun CEO Fang Han argues that measuring AI value by token consumption is misguided, and that true productivity requires integrating models with engineering frameworks like Coding Agents; long-term competitiveness depends on sustained model training and computing infrastructure. He further warns that AI-generated code can multiply production incidents, highlighting the critical need for robust code review and accountability to manage technical debt.",
+      "summary_zh": "昆仑万维CEO方汉指出，单纯消耗Token无法衡量AI价值，模型能力必须通过Coding Agent等工程框架才能转化为实际生产力。他强调模型与算力才是长期竞争的根本，并透露公司将持续训练发布音乐、具身世界等新模型。同时他警示，AI编程可能引入数倍生产事故，因此代码审查与责任机制必须同步加强。",
+      "source": "aihot_selected",
+      "title_zh": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 22854734,
+      "url": "https://arxiv.org/abs/2607.21461",
+      "title": "AREX：面向深度研究的递归自改进智能体",
+      "published_at": "2026-07-23T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "AREX introduces recursive self-improving (RSI) deep-research agents that combine an inner loop for evidence gathering with an outer self-improvement loop that audits answers constraint by constraint and triggers targeted research. Smaller 4B dense and 122B-A10B MoE models using this approach substantially outperform same-scale baselines on BrowseComp, WideSearch, DeepSearchQA, and HLE, matching the performance of models with far more activated parameters.",
+      "summary_zh": "AREX 旨在解决深度研究中证据收集不充分和答案难以自我完善的问题，通过内层研究循环收集证据、外层自改进循环对答案进行逐约束审计并启动针对性延伸研究。其以 4B 密集模型和 122B-A10B MoE 模型在多个深度搜索基准上显著超越同规模基线，甚至与更大激活参数量的模型性能相当，证明递归自改进机制能大幅提升小模型的研究效率与竞争力。",
+      "source": "aihot_selected",
+      "title_zh": "AREX：面向深度研究的递归自改进智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1705131687,
+      "url": "https://arxiv.org/abs/2607.20911",
+      "title": "腾讯发布 WorkBuddy Bench：多领域编码智能体评测套件",
+      "published_at": "2026-07-23T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Tencent's WorkBuddy Bench tackles the need for contamination-resistant evaluation by reverse-engineering tasks from real-world commits, PRs, and business scenarios into colloquial role-play requests across coding, web, office, and security domains. Its open-source release with complete task directories, environments, and scoring tools provides a realistic benchmark for assessing AI coding agents, advancing reliable evaluation in practical, multi-domain workflows.",
+      "summary_zh": "腾讯发布的 WorkBuddy Bench 是一个覆盖代码、网页、办公、安全四个真实业务场景的编码智能体评测基准，其核心问题是现有评测数据易受模型训练污染。该套件通过从真实 commit/PR 逆向工程生成口语化任务，从构造上抵抗数据污染，并提供完整开源环境与方案，为多领域编码智能体提供了更可靠、贴近实际的评测手段。",
+      "source": "aihot_selected",
+      "title_zh": "腾讯发布 WorkBuddy Bench：多领域编码智能体评测套件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1729571538,
+      "url": "https://x.com/Thom_Wolf/status/2079954096950264238",
+      "title": "HuggingFace 遭 AI 智能体入侵，GLM-5.2 协助分析",
+      "published_at": "2026-07-22T15:37:55+00:00",
+      "original_language": "zh",
+      "summary_en": "HuggingFace experienced a sophisticated intrusion involving a fully autonomous AI agent driven by an unreleased frontier model, which attempted to access infrastructure. Since closed models with safety guardrails failed to assist in analysis, the team used Zhipu AI's open-source GLM-5.2 to investigate, and OpenAI later collaborated to confirm the attacker’s nature. This incident highlights the real-world threat of autonomous AI agents bypassing safety measures and the value of open-source models in security forensics.",
+      "summary_zh": "HuggingFace 遭遇疑似由未发布前沿模型驱动的全自主 AI 智能体入侵，闭源模型因安全护栏失效无法参与分析。团队转而使用开源模型 GLM-5.2 协助调查，最终在 OpenAI 合作下确认攻击细节。这一事件突显了开源模型在应对新型 AI 攻击时的独特价值，同时也暴露了封闭系统在面对自主智能体威胁时的防御局限。",
+      "source": "aihot_selected",
+      "title_zh": "HuggingFace 遭 AI 智能体入侵，GLM-5.2 协助分析",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2625237741,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.20.1-nightly.20260724.7d17c44a3",
+      "title": "QwenLM/qwen-code: Release v0.20.1-nightly.20260724.7d17c44a3",
+      "published_at": "2026-07-24T00:50:59+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release of Qwen Code improves editor responsiveness and debugging visibility. Startup latency is reduced by loading the `undici` HTTP client lazily, and a fix prevents prematurely hiding failing code checks until they've been evaluated, keeping the problem state clear for users. Telemetry testing is also strengthened to cover metric initialization ordering and document asymmetric reader behavior for more predictable observability.",
+      "summary_zh": "该版本修复了遥测指标初始化顺序问题并优化了启动性能，通过将 undici 库改为懒加载来减少启动时间。它还修正了自动修复中仍红色检查项未及时隐藏的显示缺陷，提升了工具在代码分析场景下的响应速度和界面准确性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.20.1-nightly.20260724.7d17c44a3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 4059021661,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-swe-full-poc-20260724-fadeed2",
+      "title": "QwenLM/qwen-code: DSW SWE-bench Full POC 20260724 Run 3",
+      "published_at": "2026-07-24T06:58:14+00:00",
+      "original_language": "en",
+      "summary_en": "This prerelease captures a failed proof-of-concept run that attempted to evaluate an unofficial Qwen Code build on the full 500‑instance SWE‑bench Verified benchmark using a self‑hosted runner; the pipeline terminated with a `PIPELINE_ERROR` and produced no validated score. The result underscores the infrastructure challenges in scaling reproducible, automated benchmarking for code models.",
+      "summary_zh": "本次发布是针对 PR #7656 的隔离测试预发布，旨在通过自托管运行器完整评估 SWE-bench Verified 的 500 个案例，但运行结果显示管道错误，未能产出可验证的评分。这一发现揭示了当前管道配置中的关键缺陷，对确保后续正式版本的基准测试可靠性和准确性具有重要意义。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW SWE-bench Full POC 20260724 Run 3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3430082770,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-swe-full-poc-20260724-78a7554",
+      "title": "QwenLM/qwen-code: DSW SWE-bench Full POC 20260724 Run 2",
+      "published_at": "2026-07-24T06:51:19+00:00",
+      "original_language": "en",
+      "summary_en": "This release reports an unsuccessful attempt to evaluate a Qwen Code variant on the full SWE-bench Verified benchmark (500 cases) using a self-hosted runner, which resulted in a pipeline error and no published score. The key finding is a deployment or infrastructure failure that prevented benchmark validation, highlighting the challenges of running reliable automated evaluations for code generation models. This matters because such tests are essential for gauging real-world software engineering capability, and pipeline errors hinder progress in model assessment and comparison.",
+      "summary_zh": "该发布是Qwen Code针对PR #7656的隔离测试预发布，旨在通过自托管运行器完成500个SWE-bench Verified案例的评估，但管道因未产出有效验证结果而以错误告终，因此分数未公开。这一事件表明该内测版本存在流程缺陷，对评估其代码能力在真实任务上的可靠性提出了挑战，也提醒开发者注意基础设施稳定性对基准评测的影响。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW SWE-bench Full POC 20260724 Run 2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3052736917,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-swe-full-poc-20260724-76c64c1",
+      "title": "QwenLM/qwen-code: DSW SWE-bench Full POC 20260724",
+      "published_at": "2026-07-24T06:43:07+00:00",
+      "original_language": "en",
+      "summary_en": "This prerelease provides a proof-of-concept isolate test for a pull request, demonstrating that Qwen Code's DSW self-hosted runner can execute the full 500-case SWE-bench Verified benchmark. It establishes an internal evaluation pipeline, which matters for scalable, reproducible benchmarking of code generation models without relying on external platforms.",
+      "summary_zh": "这个预发布版本针对软件工程基准测试SWE-bench Verified完成了全部500个案例的隔离验证，通过自托管运行器实现端到端评估。它旨在为代码变更（PR #7656）提供完整的正确性证明，确保后续Qwen Code正式版本的质量与稳定性，因此对于保障模型代码能力评测的可靠性至关重要。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW SWE-bench Full POC 20260724",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 990976316,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-swe-full-poc-20260724-046c1e5",
+      "title": "QwenLM/qwen-code: DSW SWE-bench Full POC 20260724 Run 4",
+      "published_at": "2026-07-24T07:02:52+00:00",
+      "original_language": "en",
+      "summary_en": "This prerelease attempted a full 500-case SWE-bench Verified evaluation for a Qwen Code pull request (#7656) using a self-hosted runner, but the pipeline ended in a PIPELINE_ERROR without producing a validated score. The failed proof-of-concept run highlights instability in the nightly benchmark setup, preventing a reliable performance measurement for the proposed code changes.",
+      "summary_zh": "本次发布的Qwen Code预发行版针对PR #7656的集成测试，尝试在DSW自托管运行器上运行完整的SWE-bench Verified 500个案例，但最终管道状态为错误，未能生成有效评分。它揭示了当前在自托管环境中执行大规模基准测试时仍存在稳定性问题，对后续优化Qwen Code的自动化评测管线具有参考意义。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW SWE-bench Full POC 20260724 Run 4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 4226308934,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.29.1",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.29.1",
+      "published_at": "2026-07-24T05:27:11+00:00",
+      "original_language": "en",
+      "summary_en": "The release addresses the lack of centralized timeout management for MCP (Model Context Protocol) servers by adding global default timeout settings in `config.toml` and environment variables. This allows users to easily control connection timeouts across all servers, reducing the risk of failures from unresponsive endpoints and streamlining agent reliability.",
+      "summary_zh": "kimi-code 0.29.1 更新解决了 MCP 服务器连接的超时管理问题：新增了在 `config.toml` 和环境变量中设置全局默认 MCP 服务器超时的能力，使开发者能更灵活地控制工具调用等待时间，避免因默认超时过长导致的效率瓶颈或过短引发的误中断，提升了开发体验与系统稳定性。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.29.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
