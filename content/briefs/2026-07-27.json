@@ -1,0 +1,52 @@
+{
+  "date": "2026-07-27",
+  "headline_en": "Clarity for Agents, Creativity for Users, Controversy for Policy",
+  "lede_en": "Today’s AI landscape reveals a concerted push to bring order to agent workflows—from frameworks that define human-AI responsibility to tools that clarify vague goals and manage agent memory. Meanwhile, creative applications bloom with Suno’s pro-level music editing and a zero-layout presentation builder, while a simmering policy clash over restricting Chinese open-source models threatens to reshape global collaboration.",
+  "sections_en": [
+    {
+      "title": "Agent Engineering: Taming the Chaos from Goal to State",
+      "body": "Three items converge to make AI agents more reliable. A new framework (index 0) defines three levels of software development autonomy—code, pipeline, and requirements—clarifying where humans and AI share accountability. Leader.skill (index 2) converts fuzzy human instructions into detailed task briefs using a seven-question methodology, aiming to eliminate token-wasting misdirection. On the technical side, Kimi Code’s update (index 6) centralizes per-agent state and collapses instance snapshots to prevent memory exhaustion and unexportable resource graphs, ensuring clean lifecycle management. Together, they address the full spectrum of agentic execution: what to do, how to define it, and how to keep it running sustainably."
+    },
+    {
+      "title": "Applications & Product: Creative Tools Evolve at Speed",
+      "body": "A new presentation tool (index 1) transforms a simple text prompt into an editable, collaborative HTML slide deck—no manual layout required—packaged as an installable AI Skill for real-time online presenting. Suno’s latest music update (index 3) bridges the gap to professional workflows with stem separation, MIDI export, lyric co-writing, and even screenshot-to-song functionality. Qwen Code’s nightly release (index 5) squashes timezone bugs and refactors autofix logic, improving developer experience. These releases demonstrate how AI tools are becoming both more capable and more seamlessly integrated into everyday creative and coding tasks."
+    },
+    {
+      "title": "Other: Open-Source Policy Rift Threatens Global AI Collaboration",
+      "body": "OpenAI and Anthropic’s lobbying to restrict Chinese open-source AI models on national security grounds has sparked fierce opposition from nearly 200 startups and industry figures like Jensen Huang and Elon Musk (index 4). The debate pits protectionism against competitive openness and could determine whether the U.S. fosters a global open-source ecosystem or retreats into fragmentation, with far-reaching consequences for research and innovation."
+    }
+  ],
+  "top_picks": [
+    4019506750,
+    626169448,
+    97611891,
+    1638989938
+  ],
+  "item_count": 7,
+  "source_breakdown": {
+    "aihot_selected": 5,
+    "qwen_github": 1,
+    "moonshot_github": 1
+  },
+  "generated_at": "2026-07-27T11:17:22.163649Z",
+  "headline_zh": "开源AI工具栈迭代加速，政策博弈同步升温",
+  "lede_zh": "今日AI领域呈现“应用爆发”与“政策角力”双线叙事。Berkeley发布软件自主开发三级框架，推动Agent从编码到需求的系统化跃迁；Leader.skill等开源工具则让复杂任务的结构化定义与执行更易落地。与此同时，Suno的MIDI导出、HTML PPT自动生成等创意工具持续降低创作门槛，而OpenAI与Anthropic限制中国开源模型的游说引发产业领袖集体反对，安全与开放的博弈再度成为焦点。",
+  "sections_zh": [
+    {
+      "title": "Agent 工程：从自主分级到目标定义，可观测性闭环初现",
+      "body": "Berkeley RDI的软件自主开发框架将AI能力划分为代码、流水线、需求三个自主层级，为Agent的度量与问责提供了清晰基准。在此基础上，开源的Leader.skill将模糊需求转化为包含目的、边界、完成标准的结构化任务书，使Agent能够独立工作数小时，显著提升执行效率。底层基础设施层面，Moonshot的实验引擎补丁将Agent运行时状态集中存储于作用域容器，实现了统一观测与自动清理，进一步增强了多Agent系统的可维护性。三者分别从哲学分层、任务规划到运行稳定性，勾勒出Agent工程迈向产品级可靠性的关键路径。"
+    },
+    {
+      "title": "应用与产品：创意工具下沉，协作与专业性双提升",
+      "body": "AI驱动的创作工具正以更低门槛渗透至高频场景。结合前端审美模型优化的HTML PPT生成Skill，让用户输入主题即可获得可在线协作、实时演示的网页版幻灯片，彻底简化了传统排版流程。音乐生成领域，Suno新增高阶音轨分离、MIDI导出及截图生成歌曲功能，并拓展至车载平台，既满足了专业用户的后期混音需求，也将灵感捕捉场景延伸至行车途中。这些更新标志着AI从单一生成向“生成-编辑-协作”一体化工作流的进化。"
+    },
+    {
+      "title": "产业动态：限制开源模型争议激化，生态博弈牵动全球格局",
+      "body": "OpenAI与Anthropic以国家安全为由游说美国限制中国开源模型，遭到黄仁勋、马斯克、纳德拉等领军人物及近200家初创公司的公开反对。该事件凸显出前沿实验室与开源生态的安全理念冲突，其结果不仅将左右LLaMA等开源模型的全球流通规则，更可能重塑中国大模型技术的出海路径与国际竞争力。短期内，围绕管制与创新的争论将成为行业持续关注的核心变量。"
+    },
+    {
+      "title": "开发工具与基础设施：CLI体验与CI稳定性微迭代",
+      "body": "Qwen项目对命令行工具进行修复，统一采用本地时间度量，并重构自动修复模块以提升代码可维护性，同时修正了CI流水线在清理阶段的潜在故障。这些看似细微的调整保障了开发者日常运行的稳定性，是AI研发流程中不可或缺的基础支撑。"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "date": "2026-07-27",
+  "items": [
+    {
+      "id": 4019506750,
+      "url": "https://rdi.berkeley.edu/blog/auto-software-dev",
+      "title": "当编码不再是瓶颈：Berkeley RDI 提出软件自主开发三级框架",
+      "published_at": "2026-07-27T07:51:26.272000+00:00",
+      "original_language": "zh",
+      "summary_en": "该框架解决AI在软件开发中能力与责任界定模糊的问题，提出了代码自主、流水线自主和需求自主三级递进分类。它通过明确人类与AI在不同层级的分工和审核关系，为能力声明、部署选择和问责提供了清晰标准，对推动软件自主开发具有重要意义。",
+      "summary_zh": "该框架针对AI在软件开发中编码能力已非瓶颈但仍缺乏系统性自主的问题，提出代码自主、流水线自主、需求自主三级分层递进模式，明确划分了人工智能自主范围。其意义在于为软件自主开发的能力度量、部署策略和问责机制提供了清晰的分类基准。",
+      "source": "aihot_selected",
+      "title_zh": "当编码不再是瓶颈：Berkeley RDI 提出软件自主开发三级框架",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3677115875,
+      "url": "https://x.com/vista8/status/2081568902241513786",
+      "title": "用AI Skill自动生成可协作HTML PPT",
+      "published_at": "2026-07-27T02:34:34+00:00",
+      "original_language": "zh",
+      "summary_en": "This tool addresses the friction of building visually appealing, shareable presentations by turning a simple topic or text input into a fully editable, browser-based HTML slide deck—no manual layout work required. It packages bento PPT into an installable AI Skill, enabling real-time collaboration and online presenting directly from the generated output. The result is a rapid, collaborative creation pipeline that benefits especially from models with strong front-end design taste, such as Kimi K3 or Opus 4.8+, to ensure the output is polished and ready to use.",
+      "summary_zh": "这个AI Skill旨在解决快速生成可编辑、在线演示且支持协作的HTML PPT的问题，只需输入内容或主题即可自动完成。它基于bento PPT改造，并推荐配合前端审美优秀的模型使用，显著降低了PPT制作门槛，提升了团队协作效率。",
+      "source": "aihot_selected",
+      "title_zh": "用AI Skill自动生成可协作HTML PPT",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 626169448,
+      "url": "https://mp.weixin.qq.com/s/AwOk3di8m6eVeIUjzNftgg",
+      "title": "浪费20亿Token后，我开源了帮Agent定义目标的Leader.skill",
+      "published_at": "2026-07-27T00:12:00+00:00",
+      "original_language": "zh",
+      "summary_en": "After wasting 2 billion tokens on unclear goals, the author open-sourced Leader.skill, a tool that converts vague human requirements into detailed task briefs that AI agents can independently execute for hours. It uses a \"seven-question goal methodology\" (covering purpose, completion criteria, anti-cheating measures, and boundaries), recommends planning with models like Claude Fable 5 or Kimi K3, and then delegates long-duration execution to models such as GPT‑5.6 Sol or GLM‑5.2. This approach aims to drastically reduce ineffective exploration and token waste by giving agents well-defined objectives upfront.",
+      "summary_zh": "该Skill解决人类模糊需求难以直接交给AI代理长期执行的问题，通过“目标七问”方法论将其结构化为包含目的、完成标准、边界等维度的目标任务书。它推荐用特定模型规划再用另一些模型执行，从而让代理能独立工作数小时，显著提升复杂任务自动化效率。",
+      "source": "aihot_selected",
+      "title_zh": "浪费20亿Token后，我开源了帮Agent定义目标的Leader.skill",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 97611891,
+      "url": "https://x.com/suno/status/2081443050312843765",
+      "title": "Suno 推出多项新功能，含MIDI导出等",
+      "published_at": "2026-07-26T18:14:29+00:00",
+      "original_language": "zh",
+      "summary_en": "Suno’s latest update addresses the limited post-generation editing and interoperability of AI-created music by introducing advanced stem separation, MIDI export, lyric co-writing with auto-save, and screenshot-to-song capabilities. These features bridge the gap between AI composition and professional workflows, enabling seamless DAW integration and expanding creative control, while CarPlay/Android Auto support embeds AI music generation into daily life.",
+      "summary_zh": "Suno 此次更新针对音乐创作者在后期编辑与跨平台协作中的痛点，推出了高级音轨分离、MIDI 导出和截图生成歌曲等核心功能。通过将音频精确拆分为独立轨道并输出通用 MIDI 格式，大幅提升了制作灵活性与工作效率；同时新增的 Apple CarPlay 与 Android Auto 支持，将创作场景延伸至车内，降低了使用门槛。",
+      "source": "aihot_selected",
+      "title_zh": "Suno 推出多项新功能，含MIDI导出等",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1638989938,
+      "url": "https://www.ithome.com/0/981/797.htm",
+      "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
+      "published_at": "2026-07-26T12:54:28+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI and Anthropic are lobbying to restrict Chinese open-source AI models on national security grounds, while industry leaders like Jensen Huang, Elon Musk, and nearly 200 startups publicly oppose such limits, arguing they stifle innovation. This debate highlights a critical rift in AI policy, as it could reshape global open-source collaboration and determine whether the U.S. prioritizes protectionism or competitive openness in AI development.",
+      "summary_zh": "OpenAI 与 Anthropic 正游说美国以国家安全为由限制中国开源 AI 模型，引发英伟达黄仁勋、微软纳德拉、马斯克等业界领袖及近 200 家硅谷初创公司公开反对。这起争议体现了 AI 领域安全管控与开源创新之间的激烈博弈，结果将直接影响全球模型生态和中国开源技术的国际竞争力。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3129394078,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.0-nightly.20260727.c003e1718",
+      "title": "QwenLM/qwen-code: Release v0.21.0-nightly.20260727.c003e1718",
+      "published_at": "2026-07-27T00:50:39+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses several maintenance and user-facing issues in the Qwen Code tool. It fixes the CLI to consistently measure insight days and hours in local time, avoiding timezone discrepancies; refactors the autofix module to extract a dedicated review verification runner, improving code structure; and patches CI to gracefully handle empty triage cleanups. These changes collectively boost developer experience by ensuring accurate metrics, simplifying future maintenance, and preventing spurious CI failures.",
+      "summary_zh": "本次发布主要解决了命令行工具中时间显示不一致的问题，通过统一采用本地时间来度量洞察天数与小时。同时，对自动修复模块进行重构，抽取独立的审查验证运行器，提升了代码的可维护性；并修复了CI流水线在清理阶段无内容时的失败问题，增强了开发流程的稳定性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.0-nightly.20260727.c003e1718",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 485515508,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.29.2",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.29.2",
+      "published_at": "2026-07-27T06:31:23+00:00",
+      "original_language": "en",
+      "summary_en": "This update solves the problem of scattered per-agent runtime state and memory exhaustion when exporting state snapshots. The solution centralizes the experimental engine’s per-agent state in an agent-scope container for unified observability and proper disposal, while snapshots collapse class instances into name markers. This prevents resource graphs from growing too large to export and ensures clean lifecycle management.",
+      "summary_zh": "该补丁解决了实验引擎中每个智能体运行时状态分散、难以统一观察和清理的问题，通过将其集中存储至智能体作用域状态容器，实现一处可观测并与智能体生命周期自动绑定；同时，状态快照将类实例折叠为名称标记，防止导出时资源图耗尽内存，从而提升可维护性和运行稳定性。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.29.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
