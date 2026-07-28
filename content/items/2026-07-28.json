@@ -1,0 +1,442 @@
+{
+  "date": "2026-07-28",
+  "items": [
+    {
+      "id": 2303834506,
+      "url": "http://arxiv.org/abs/2607.24743v1",
+      "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+      "published_at": "2026-07-27T17:59:49+00:00",
+      "original_language": "en",
+      "summary_en": "ClinFusion addresses the vision-centric limitations of multimodal LLMs in medicine by proposing a cascaded encoder with a Cascade Spatial-Aware Locality Fusion operator that unifies heterogeneous 2D and native 3D medical image understanding. It also introduces a vision-grounded evaluation framework with MedIF-Bench and region-of-interest–grounded report generation, enabling clinically aligned, fine-grained, and fact-based assessment. This integration of imaging and evaluation advances holistic medical understanding and factualness-driven clinical AI deployment.",
+      "summary_zh": "ClinFusion 旨在解决医学多模态大模型中视觉端的关键挑战，即如何有效整合异构的 2D 和 3D 医学图像，并建立与临床实践一致、细粒度且基于事实的评估体系。其创新之处在于提出了级联空间感知局部融合算子，统一处理 2D 与原生 3D 图像，并构建了 MedIF-Bench 和基于感兴趣区域的评估框架。这项工作为构建面向整体医学理解的视觉中心化系统提供了新思路，有助于提升模型在真实临床场景中的可靠性和实用性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4103101092,
+      "url": "http://arxiv.org/abs/2607.24730v1",
+      "title": "KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability",
+      "published_at": "2026-07-27T17:57:02+00:00",
+      "original_language": "en",
+      "summary_en": "KANEx tackles the opacity of medical imaging classifiers by grounding vision-language model explanations in the inherent interpretability of Kolmogorov-Arnold Networks, and it introduces KAN-Map, a heatmap directly derived from these models rather than gradient approximations. This framework bridges architectural transparency with clinical explainability, aiming to produce more trustworthy natural-language rationales for chest X-ray analysis.",
+      "summary_zh": "该研究针对医学影像模型的黑箱问题，提出KANEx框架，利用KAN网络样条基组件的内在可解释性，为视觉语言模型提供透明的推理依据，并设计了直接从KAN模型导出的KAN-Map热力图方法。这一方法将结构上的可解释性转化为更可信的自然语言解释，有望提升临床医生对AI辅助诊断的信任。",
+      "source": "arxiv_cs_cl",
+      "title_en": "KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3574685401,
+      "url": "http://arxiv.org/abs/2607.24720v1",
+      "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+      "published_at": "2026-07-27T17:55:03+00:00",
+      "original_language": "en",
+      "summary_en": "This paper investigates how multi-turn long-hor",
+      "summary_zh": "这篇论文系统研究了大模型在多轮长程规划中的能力获取与提升机制。通过在受控环境中实验发现，预训练时采用思维链式状态转移建模构建显式世界模型，并加入少量长程数据，能显著促进组合泛化，而次优轨迹会因长程误差放大导致性能大幅下降；在后训练阶段，基于互信息的规划蒸馏等新方法可进一步塑造规划能力。这项工作为理解和优化基础模型智能体的长期规划提供了可复现的实验框架与关键性洞见。",
+      "source": "arxiv_cs_cl",
+      "title_en": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 328615798,
+      "url": "http://arxiv.org/abs/2607.24717v1",
+      "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+      "published_at": "2026-07-27T17:54:12+00:00",
+      "original_language": "en",
+      "summary_en": "DataOrchestra addresses the problem that uniform pretraining data processing strategies fail to adapt to the specific needs of individual examples. It introduces an orchestrator that decides per chunk whether to drop, keep, or clean, and for cleaning dynamically selects and instructs operations like programmatic editing or LLM-based rewriting. Pretraining models from 0.5B to 7B with this example-specific pipeline yields consistent benchmark improvements, demonstrating the value of adaptive data curation for LLMs.",
+      "summary_zh": "DataOrchestra 解决了现有预训练数据处理策略一成不变、未针对每个样本特性动态调整的问题。它提出了一种编排框架，为每个数据片段自动决定丢弃、保留或清洗，并生成具体的清洗指令与工具调用，实现对单个样本的精细定制。该方法在 0.5B 到 7B 规模的预训练实验中，于多项基准上带来稳定提升，证明了按例动态处理数据能显著改善语言模型性能，具有重要的实践价值。",
+      "source": "arxiv_cs_cl",
+      "title_en": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3967565993,
+      "url": "http://arxiv.org/abs/2607.24714v1",
+      "title": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures",
+      "published_at": "2026-07-27T17:51:18+00:00",
+      "original_language": "en",
+      "summary_en": "This study shows that a single large language model (Claude Opus 4.7) can autonomously generate and refine Python shuttling compilers for trapped-ion quantum computers from written specifications, reducing shuttling timesteps by up to 76% on linear traps and 39% on trap junctions compared to state-of-the-art hand-crafted compilers, and efficiently handling a broad class of connected architectures. The work demonstrates that LLMs can automate and optimize critical quantum hardware compilation tasks, potentially accelerating trapped-ion processor performance and future development.",
+      "summary_zh": "该研究首次利用大语言模型Claude Opus 4.7从文字规范自动生成并迭代优化离子阱量子计算机的shuttling编译器，成功将移动步数相对现有手工编译器最多降低76%。这展示了LLM具备为复杂量子架构生成高效关键软件的能力，有望大幅加速编译器开发和架构探索。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3965462551,
+      "url": "https://www.anthropic.com/news/cognizant-anthropic",
+      "title": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
+      "published_at": "2026-07-27T00:00:00",
+      "original_language": "en",
+      "summary_en": "Cognizant and Anthropic are deepening their partnership to make Anthropic’s Claude AI assistant available to enterprise clients, addressing the need for secure and capable generative AI in business. The collaboration combines Anthropic’s advanced language models with Cognizant’s global consulting and integration services. This expansion matters because it enables wider, responsible enterprise adoption of AI by providing the implementation support needed to safely embed powerful models into real-world workflows.",
+      "summary_zh": "该合作针对企业客户在引入生成式AI时面临的安全性与合规挑战，由Cognizant与Anthropic扩大联盟，将Claude模型深度整合到企业级服务中。此举不仅加速了先进AI能力在商业场景的落地，更通过可信任的协作框架，推动行业以负责任的方式释放生成式AI的转型价值。",
+      "source": "anthropic_news",
+      "title_en": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3788894656,
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "title": "Our position on open-weights models",
+      "published_at": "2026-07-27T00:00:00",
+      "original_language": "en",
+      "summary_en": "This statement addresses the dilemma of balancing the benefits of open-weights models (like accelerated innovation and accessibility) with the risks of misuse and safety concerns. It proposes a responsible release framework that encourages transparency and collaboration while incorporating necessary safeguards. This position is critical for shaping policies that foster a trustworthy AI ecosystem without stifling openness.",
+      "summary_zh": "该文件阐述了某机构对开放权重模型所持的立场，旨在回应人工智能社区关于模型开放性、安全性与可获取性的争议。其核心观点可能是界定在何种条件下公开模型权重，并强调在促进创新与防止滥用之间取得平衡。这一立场对指导未来开源AI发布策略、影响行业规范及政策制定具有参考意义。",
+      "source": "anthropic_news",
+      "title_en": "Our position on open-weights models",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4168205464,
+      "url": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
+      "title": "Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+      "published_at": "2026-07-27T00:00:00",
+      "original_language": "en",
+      "summary_en": "The work addresses the challenge of creating assistive robots that can truly empower people with disabilities to live more independently. By integrating Meta’s advanced AI models into the University of Pittsburgh’s robotics research, the team is enabling robots to better perceive and interact with their environment, transforming them into practical, everyday companions. This matters because it paves the way for more intuitive and capable assistive technologies that can dramatically improve quality of life and autonomy for millions of individuals.",
+      "summary_zh": "匹兹堡大学借助Meta的AI模型，提升了辅助机器人的环境感知和人机交互能力，以解决残障及行动不便人士在日常生活中对自主操作的需求。其关键在于利用大规模预训练模型赋能机器人，使其能更自然地理解指令并执行复杂任务。这项工作展示了前沿AI在医疗与辅助技术落地中的巨大潜力，为提升弱势群体的独立生活品质开辟了新路径。",
+      "source": "meta_ai",
+      "title_en": "Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3913893214,
+      "url": "https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym",
+      "title": "Microsoft 发布 MAI-Cyber-1-Flash：5B 活跃参数的网络安全模型，驱动 MDASH 在 CyberGym 上达到 95.95%",
+      "published_at": "2026-07-28T08:33:30+00:00",
+      "original_language": "zh",
+      "summary_en": "Microsoft’s MAI-Cyber-1-Flash tackles automated cybersecurity tasks by fine-tuning a 137B-parameter sparse mixture-of-experts model from a code foundation model, with only 5B active parameters per token and a 256k context window. The model enables the MDASH system to achieve 95.95% on the CyberGym benchmark, demonstrating a highly efficient yet capable AI agent for security operations with drastically reduced compute costs.",
+      "summary_zh": "MAI-Cyber-1-Flash 是微软发布的稀疏混合专家模型，针对网络安全任务对代码模型进行微调，以 5B 活跃参数实现高效推理。该模型驱动 MDASH 系统在 CyberGym 评测中达到 95.95% 的准确率，展示了专用小模型在安全自动化中的高效能与实用价值。",
+      "source": "aihot_selected",
+      "title_zh": "Microsoft 发布 MAI-Cyber-1-Flash：5B 活跃参数的网络安全模型，驱动 MDASH 在 CyberGym 上达到 95.95%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2101606131,
+      "url": "https://mp.weixin.qq.com/s/1nZqQHYqclsIF6__WLscgA",
+      "title": "火山引擎上线豆包搜索服务，为AI Agent提供实时可信搜索能力",
+      "published_at": "2026-07-28T07:51:54+00:00",
+      "original_language": "zh",
+      "summary_en": "Volcano Engine launched the Doubao Search service to give AI agents real‑time, trustworthy search capabilities by combining cross‑language, multimodal web data with industry knowledge and ByteDance’s exclusive content, while using an authority grading system to filter low‑quality sources. In evaluations like SimpleQA and FreshQA, the service demonstrated high performance, and it offers API, Skill, and MCP access with a free monthly tier, making reliable search accessible for enterprise and developer AI applications.",
+      "summary_zh": "火山引擎推出豆包搜索服务，解决AI Agent在跨语言、多模态场景下获取实时可信信息的难题。该服务通过融合互联网全域信息与字节跳动独家内容，并建立权威分级体系过滤低质信息，在多项评测中表现优异。该服务提供API、Skill等多种接入方式，并面向开发者赠送每月免费额度，为Agent落地提供了高可靠性的搜索能力。",
+      "source": "aihot_selected",
+      "title_zh": "火山引擎上线豆包搜索服务，为AI Agent提供实时可信搜索能力",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3432054085,
+      "url": "https://www.ithome.com/0/982/520.htm",
+      "title": "德里高等法院裁定 OpenAI 利用 ANI 内容训练 AI 未侵犯版权",
+      "published_at": "2026-07-28T06:21:07+00:00",
+      "original_language": "zh",
+      "summary_en": "The Delhi High Court addressed whether OpenAI’s use of ANI’s news content for AI training infringes copyright, ruling it qualifies as \"fair use\" for research under Indian law with no proven direct copying. This decision is significant because it preserves the legal space for LLM development and free access to ChatGPT in India, avoiding a preliminary injunction that would have stifled progress.",
+      "summary_zh": "德里高等法院裁定，OpenAI 使用亚洲国际新闻社（ANI）的内容训练模型属于印度版权法下的研究合理使用，不构成侵权。法院还指出，下达临时禁令将有损印度本土大语言模型的研发和大量免费用户的权益，这标志着印度司法系统对 AI 训练版权边界的初步界定，为生成式 AI 发展提供了重要判例。",
+      "source": "aihot_selected",
+      "title_zh": "德里高等法院裁定 OpenAI 利用 ANI 内容训练 AI 未侵犯版权",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1114660926,
+      "url": "https://usefeyn.com/blog/feynobg",
+      "title": "FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA",
+      "published_at": "2026-07-28T04:57:13.190000+00:00",
+      "original_language": "zh",
+      "summary_en": "FeyNoBg tackles automatic background removal, achieving state-of-the-art performance by leading in four out of eight benchmarks on S-measure and staying within 2% of the top score on the remaining ones. The model scales the BiRefNet architecture from 222M to 263M parameters and is open-sourced together with its NoBg training library, providing a strong, reproducible foundation for the community.",
+      "summary_zh": "FeyNoBg 针对自动背景去除任务，通过扩展 BiRefNet 架构至 2.63 亿参数，在八项基准测试中的四项取得最高 S-measure 分数，其余与最优方案差距在 2% 以内。该模型连同其训练库 NoBg 完全开源，为背景去除领域设定了新的性能标杆，并推动了技术的可复现与民主化。",
+      "source": "aihot_selected",
+      "title_zh": "FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3511809278,
+      "url": "https://openrouter.ai/blog/insights/evaluate-llm-provider-performance",
+      "title": "如何评估不同 LLM 提供商在延迟、吞吐量和正常运行时间上的性能",
+      "published_at": "2026-07-28T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The article tackles the problem that identical large language models perform inconsistently across providers due to differences in infrastructure, quantization, load handling, and routing defaults. Its key approach is to evaluate providers by measuring latency, throughput, uptime, and accuracy, then translate those results into dynamic routing strategies. This matters because it enables optimized, reliable model serving by automatically selecting the best-performing endpoint for each request.",
+      "summary_zh": "本文解决同一 LLM 模型部署在不同云服务提供商时因基础设施差异导致的性能不一致问题；通过系统测量延迟、吞吐量、正常运行时间和精度等关键指标，并据此构建路由策略，来量化并优化服务选择。该方法对提升生产环境中调用的稳定性和响应效率具有重要实践意义。",
+      "source": "aihot_selected",
+      "title_zh": "如何评估不同 LLM 提供商在延迟、吞吐量和正常运行时间上的性能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1027816385,
+      "url": "https://the-decoder.com/openai-says-more-workers-are-using-chatgpt-to-do-other-peoples-jobs",
+      "title": "OpenAI 称越来越多员工用 ChatGPT 做其他岗位的工作",
+      "published_at": "2026-07-27T19:08:51+00:00",
+      "original_language": "zh",
+      "summary_en": "This analysis of over 800,000 work-related ChatGPT messages reveals that 43.5% of job-specific queries actually involve tasks from other professions, signaling an early shift in job roles as employees use AI to handle expert-level work like contract review and data analysis. The cross-pollination is most pronounced in marketing and engineering, and the trend is especially evident in smaller companies lacking specialized teams, suggesting AI is blurring traditional job boundaries.",
+      "summary_zh": "OpenAI 的研究发现，43.5% 的 ChatGPT 工作相关查询涉及跨职业任务，尤其常见于营销与工程领域的交叉，显示员工正用 AI 处理合同审查、数据分析等原本由专家负责的工作。这一趋势表明岗位职责边界正在模糊，且在缺乏专业团队的小公司中尤为突出，反映出 AI 正推动工作模式的深层变革。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 称越来越多员工用 ChatGPT 做其他岗位的工作",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3631872040,
+      "url": "https://x.com/Kimi_Moonshot/status/2081813202514681878",
+      "title": "Kimi 发布视觉感知基准 PerceptionBench",
+      "published_at": "2026-07-27T18:45:20+00:00",
+      "original_language": "zh",
+      "summary_en": "Kimi.ai's PerceptionBench addresses the problem that existing vision benchmarks often blend perception with reasoning, making it hard to pinpoint specific perceptual failures. The benchmark distills visual perception into 10 atomic abilities, validated by 3,000 single-capability questions derived from model errors across 42 benchmarks, each requiring no reasoning or external knowledge. This isolation of pure perceptual skills matters because it enables precise diagnostics of fundamental vision-model weaknesses, guiding targeted improvements without confounding factors.",
+      "summary_zh": "Kimi.ai 推出 PerceptionBench，针对前沿视觉模型在 42 个基准中暴露的感知短板，将视觉能力拆解为 10 种原子能力并构建 3000 道纯感知验证题，无需推理或外部知识。这一基准能精准诊断模型在基础视觉感知层面的弱点，为细粒度能力评估与定向优化提供关键工具。",
+      "source": "aihot_selected",
+      "title_zh": "Kimi 发布视觉感知基准 PerceptionBench",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1706652195,
+      "url": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables",
+      "title": "用Claude和Python构建技能驱动的金融分析智能体",
+      "published_at": "2026-07-27T18:08:24+00:00",
+      "original_language": "zh",
+      "summary_en": "This tutorial addresses the challenge of building domain-specific AI agents for financial analysis by replicating a skill-driven architecture using Claude and pure Python. It presents a reusable SkillAgent that parses SKILL.md files into a searchable skill registry and injects financial analysis playbooks into the Anthropic Messages API, enabling iterative tool-calling loops. This approach matters because it streamlines the development of modular, context-aware AI assistants for regulated industries like finance without relying on dedicated frameworks.",
+      "summary_zh": "该教程聚焦于如何构建灵活可维护的金融分析智能体，通过用纯Python解析`SKILL.md`文件，建立起可搜索的技能注册表，并将领域特定的分析剧本注入`Anthropic Messages API`，让智能体具备迭代调用工具的能力。其关键在于采用技能驱动架构，使金融决策逻辑模块化，从而降低开发成本并提升智能体的可解释性与复用性。",
+      "source": "aihot_selected",
+      "title_zh": "用Claude和Python构建技能驱动的金融分析智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1814197556,
+      "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly",
+      "title": "GitHub Copilot 发布\"Harness\"工作流：用单一工具完成原型、规划、实现与代码审查",
+      "published_at": "2026-07-27T18:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "GitHub Copilot’s “Harness” workflow tackles the productivity drain caused by toggling between separate AI tools for prototyping, planning, implementation, and code review. By consolidating these stages into one integrated experience within Copilot, it streamlines the full development lifecycle from idea to review. This matters because it reduces context-switching and tool fragmentation, allowing developers to work more efficiently with a single, practical AI assistant.",
+      "summary_zh": "GitHub Copilot 推出的“Harness”工作流解决了开发者需在多个 AI 工具间频繁切换以完成不同开发阶段的效率痛点。它通过单一工具将原型设计、规划、实现与代码审查整合为连贯流程，强调实用集成，从而消除上下文切换损耗。这一方式让开发者无需追逐多种新工具，能显著提升端到端的软件开发效率。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub Copilot 发布\"Harness\"工作流：用单一工具完成原型、规划、实现与代码审查",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1465440825,
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
+      "title": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览",
+      "published_at": "2026-07-27T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This guide introduces GitHub Copilot app's upgrade to a multi-agent session workspace, addressing the challenge of managing multiple parallel tasks without losing context. Key features include project-context binding per session, a `/create-canvas` command for in-browser UI preview with direct click-to-edit, and Agent Merge for automatic PR review feedback and merge conflict resolution, significantly streamlining development workflows and collaboration.",
+      "summary_zh": "该指南介绍了 GitHub Copilot 应用如何通过多 Agent 会话工作区解决开发者在并行任务中上下文丢失的问题，关键创新在于允许为每个会话绑定独立项目上下文，并借助 Canvas 实现了 UI 的可视化即时预览与交互修改。这标志着 AI 编码工具从单一补全向多线程协作与闭环开发体验演进，大幅提升了复杂项目的迭代效率与代码审查流程的自动化程度。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2987791093,
+      "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows",
+      "title": "Google AI Overviews 搜索结果出现率升至43%",
+      "published_at": "2026-07-27T15:57:12+00:00",
+      "original_language": "zh",
+      "summary_en": "This study reports the rapid rise of Google's AI Overviews in search results (from 15% to 43% in one year) and a concurrent spike in AI Mode usage, alongside a user shift from short keywords to longer, conversational queries. The findings highlight how AI-generated summaries are fundamentally reshaping information retrieval behavior, signalling an industry-wide move toward dialogue-driven search and placing greater emphasis on direct-answer generation over traditional link-based results.",
+      "summary_zh": "该报告揭示了搜索引擎正加速从传统关键词匹配转向智能对话式问答的趋势：Google AI Overviews 在搜索结果中的触发率一年内从15%激增至43%，同时 AI Mode 的月访问量翻倍，表明用户正大量采用更自然的完整问句进行搜索。这一变化意味着搜索生态正从“输入关键词获链接”向“直接生成多模态答案”演进，对内容创作、广告模式和用户信息获取方式产生深远影响。",
+      "source": "aihot_selected",
+      "title_zh": "Google AI Overviews 搜索结果出现率升至43%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2919722516,
+      "url": "https://mp.weixin.qq.com/s/IW9BdyA3hLvuuiX_aMCJEQ",
+      "title": "Kimi K3 开放日：模型权重、技术报告和关键 Infra 技术同步开放",
+      "published_at": "2026-07-27T15:34:59+00:00",
+      "original_language": "zh",
+      "summary_en": "Moonshot AI’s Kimi K3 addresses the challenge of efficiently scaling multimodal foundation models by introducing a 2.8‑trillion‑parameter mixture‑of‑experts architecture with native vision and a 1‑million‑token context window, achieving a 2.5× improvement in scaling efficiency over its predecessor. The simultaneous release of model weights, a detailed technical report, and key infrastructure technologies (MoonEP, FlashKDA, AgentEnv) provides the research community with both a state‑of‑the‑art reference and reusable components for training and deploying large",
+      "summary_zh": "月之暗面发布 2.8 万亿参数的混合专家模型 Kimi K3，解决了大规模模型训练与推理效率难题，通过架构与基础设施创新将规模化效率较前代提升 2.5 倍，并首次支持原生视觉与超长上下文。该工作同步开源模型权重、技术报告及 MoonEP 等核心 Infra 技术，为业界复现与优化千亿级稀疏模型提供了关键参考，有力推动大规模多模态模型走向高效实用。",
+      "source": "aihot_selected",
+      "title_zh": "Kimi K3 开放日：模型权重、技术报告和关键 Infra 技术同步开放",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2140817933,
+      "url": "https://x.com/Kimi_Moonshot/status/2081762978391843020",
+      "title": "Kimi K3 开源分布式智能体环境 AgentENV",
+      "published_at": "2026-07-27T15:25:45+00:00",
+      "original_language": "zh",
+      "summary_en": "AgentENV tackles the challenge of scaling reinforcement learning for autonomous agents by offering a distributed environment with fast snapshot, recovery, and branching capabilities, designed to support massively parallel agent workflows. It directly powered the training of Kimi K3’s agent systems, demonstrating its practical value in handling complex, multistep interactions at scale. This open-source infrastructure is crucial for making large-scale agent RL training efficient and reproducible.",
+      "summary_zh": "AgentENV 旨在解决大规模并行智能体训练中的环境管理与状态同步难题，它通过与 kvcache-ai 合作开源，为 Kimi K3 的强化学习提供分布式运行环境支持。其关键设计在于引入快速快照、恢复与分支机制，使大规模智能体工作流能够高效地暂停、重现和探索不同决策路径。这一环境对推动复杂智能体系统的可扩展训练与实验复现具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Kimi K3 开源分布式智能体环境 AgentENV",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2592380940,
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance",
+      "title": "NVIDIA 等多家行业领袖联合成立 Open Secure AI Alliance，推动 AI 安全与防御开源化",
+      "published_at": "2026-07-27T09:00:07+00:00",
+      "original_language": "zh",
+      "summary_en": "The Open Secure AI Alliance, founded by NVIDIA, Microsoft, Hugging Face, IBM, and others, tackles the lack of transparent, auditable security mechanisms in AI systems. Its key approach is to develop an open-source ecosystem of models, tools, and frameworks that enable customizable and verifiable AI defenses. This multi-stakeholder effort matters because it shifts AI security from proprietary black boxes to community-driven, inspectable solutions, fostering greater trust and resilience across the industry.",
+      "summary_zh": "Open Secure AI Alliance 由 NVIDIA、Microsoft、Hugging Face、IBM 等数十家行业领袖联合发起，旨在解决 AI 安全防御体系封闭、难以审查与定制的问题。联盟通过开放模型、工具和框架，构建可审计、可自定义的安全防御生态，推动协作与标准化，提升整个行业应对 AI 安全威胁的能力。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 等多家行业领袖联合成立 Open Secure AI Alliance，推动 AI 安全与防御开源化",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4239670833,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-manual-poc-20260727-2",
+      "title": "QwenLM/qwen-code: DSW manual benchmark POC 20260727-2",
+      "published_at": "2026-07-27T09:22:30+00:00",
+      "original_language": "en",
+      "summary_en": "This document describes a quarantined, non-production benchmark test of the Qwen Code model (qwen3.7-max) on the SWE-bench Verified dataset, which resolved 376 out of 500 tasks but was not published due to potential execution or infrastructure issues. It serves as a proof-of-concept run that cannot be used for official performance claims, underscoring the need for rigorous validation before releasing model scores.",
+      "summary_zh": "该基准测试评估了 Qwen Code 模型在 SWE-bench Verified 软件工程任务上的表现，虽因运行隔离未公布最终分数，但量化了其在500个真实世界代码问题中的解决情况（376个成功解析）。结果表明，Qwen3.7-Max 在非生产环境中仍能处理大部分任务，但存在执行错误和基础设施故障，这为模型迭代和稳定性改进提供了早期信号。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW manual benchmark POC 20260727-2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
