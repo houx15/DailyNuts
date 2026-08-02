@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-02",
+  "headline_en": "Claude 5's New Context Playbook, xAI's Colossus, and Suno's Copyright Loss",
+  "lede_en": "Today's AI landscape highlights a dual push: Anthropic unveils refined practices for wrangling Claude 5 and scaling code migrations, while xAI's Igor Babuschkin details a 120-day data center sprint to supercharge Grok. Meanwhile, a Munich court's decision against Suno signals growing legal peril for generative models trained on copyrighted works.",
+  "sections_en": [
+    {
+      "title": "Applications & Product",
+      "body": "Anthropic's ecosystem expands with practical blueprints: a designer leverages Claude Design for rapid prototyping, new context engineering rules sharpen developer interactions with Claude 5, and a model selection guide helps users navigate capability‑cost tradeoffs. Meanwhile, Grok's new video‑input feature and the Claude Fable 5 narrative model in Cowork signal multimodal and specialized creative tools entering mainstream workflows."
+    },
+    {
+      "title": "Agent Engineering",
+      "body": "AI agents are proving their mettle in software development. Anthropic reports using Claude Code to automate large‑scale codebase migrations, a task once reserved for painstaking manual effort. xAI's integration of Cursor into Grok and the Qwen‑code team's enhanced review command—now with test plan validation—reflect a broader industry push toward AI‑powered code review and generation that catches bugs and speeds delivery. Qwen‑code's nightly bug fix restoring history pagination underscores the steady maturation of coding assistants."
+    },
+    {
+      "title": "Legal & Policy",
+      "body": "A Munich court dealt a blow to generative music, ruling that Suno's AI infringes copyright both in training and in its output, rejecting any notion of a US‑style fair use. As the decision prohibits training on copyrighted material and holds the model liable for memorized reproductions, it signals a tightening legal vise around generative AI, particularly in jurisdictions without fair use defenses."
+    }
+  ],
+  "top_picks": [
+    1940673120,
+    909053371,
+    3522631011,
+    2185123667,
+    3207459251
+  ],
+  "item_count": 10,
+  "source_breakdown": {
+    "claude_blog": 5,
+    "unsupervised_learning": 1,
+    "aihot_selected": 2,
+    "qwen_github": 2
+  },
+  "generated_at": "2026-08-02T09:55:09.299384Z",
+  "headline_zh": "AI 深度嵌入设计工程全流程，视频分析通用化与版权先例齐现",
+  "lede_zh": "今日动态显示，AI 正从工具走向协作者，渗透产品设计、代码重构与多媒体分析各环节，同时法律挑战为生成式应用划出红线。Claude 生态集中展示了从创意验证到大规模迁移的工程化能力，Grok 则实现了不依赖预标记的通用视频理解，而德国对 Suno 的侵权裁决警示模型记忆化的合规风险。",
+  "sections_zh": [
+    {
+      "title": "应用与产品",
+      "body": "Claude 家族的一系列实践揭示了 AI 如何重构生产流水线：借助自研设计工具快速迭代视觉方案，缩短从创意到验证的周期；通过优序信息块、动态密度控制等上下文工程法则，解决超长文本的精准提取难题；模型选择指南则为不同任务（复杂推理或轻量对话）提供成本与性能间的权衡依据。更突出的是，Claude Code 在跨库代码重构中实现了可靠自动化，大幅降低大型维护的人力成本，而协作寓言故事展示了角色化互动如何激发创造性思维。与此同时，Grok 推出任意视频分析能力，直接解析深层语义，无需额外微调，为内容审核与跨模态检索带来灵活基础。行业人物方面，跨越 DeepMind、OpenAI 与 xAI 的多栖研究者 Igor Babuschkin 也现身分享，折射出顶级人才在 AI 实验室间的加速流动与经验聚合。"
+    },
+    {
+      "title": "新模型发布",
+      "body": "开源侧的快速迭代同样值得关注。Qwen-code 发布 v0.21.3 版本，一方面修复超大对话历史下的分页卡死问题，补充终端快捷键参考并优化 CI 流程，提升日常使用流畅度；另一方面强化 `/review` 命令，引入测试计划校验与失败归因视角，让开发者能系统性地评估代码变更风险。这些改进反映出工具链在可靠性与审查效率上的持续精进，为 AI 辅助编程落地提供了更扎实的工程支撑。"
+    },
+    {
+      "title": "其他",
+      "body": "德国慕尼黑法院对 AI 音乐生成器 Suno 的侵权裁决发出强烈信号：模型输出的“记忆化”侵权不能以合理使用抗辩开脱，且责任归于开发者而非终端用户。该案首次在法律层面确认，即使是对知名歌曲元素的非直接复现，若源于模型训练中的记忆残留，同样构成版权侵害。这一判决不仅为生成式音乐划定合规边界，更对整个文娱 AI 的模型训练与数据使用方式提出了严格的先例约束。"
+    }
+  ]
+}

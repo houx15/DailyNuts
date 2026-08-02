@@ -1,0 +1,195 @@
+{
+  "date": "2026-08-02",
+  "items": [
+    {
+      "id": 1940673120,
+      "url": "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
+      "title": "How the product designer who built Claude Design uses it to explore ideas before building them",
+      "published_at": "2026-08-02T09:50:37.532428",
+      "original_language": "en",
+      "summary_en": "A product designer who created Claude Design uses the tool to prototype and explore concepts before committing to full builds, addressing the risk of investing effort in unvalidated ideas. The key finding is that Claude Design enables rapid iteration and visual brainstorming, helping the designer refine direction early. This matters because it saves time, reduces rework, and leads to more thoughtful, user‑centered final products.",
+      "summary_zh": "该文章探讨了产品设计师在构建功能前如何高效探索创意的难题。主要方法是利用自建的 Claude Design 工具快速迭代视觉方案，从而在实际开发前验证想法。这揭示了 AI 辅助设计能显著加速构思过程并降低实现成本，对优化产品开发流程具有实践意义。",
+      "source": "claude_blog",
+      "title_en": "How the product designer who built Claude Design uses it to explore ideas before building them",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3349344844,
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "title": "The new rules of context engineering for Claude 5 generation models",
+      "published_at": "2026-08-02T09:50:37.532973",
+      "original_language": "en",
+      "summary_en": "This piece outlines updated best practices for designing prompts and managing context when interacting with Claude 5 generation models. It addresses the challenge of reliably eliciting high-quality responses by introducing new engineering rules that leverage the model's expanded strengths. Following these rules is essential for developers to maximize Claude 5's performance and avoid degradation in complex tasks.",
+      "summary_zh": "本文探讨了针对Claude 5代模型的长上下文利用难题，提出一套新的上下文工程规则。通过优序信息块、增强关键内容标记与动态密度控制等方式，提升模型对核心信息的关注与精准提取能力，这对高可靠性AI应用至关重要。",
+      "source": "claude_blog",
+      "title_en": "The new rules of context engineering for Claude 5 generation models",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 909053371,
+      "url": "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case",
+      "title": "Claude models explained: choosing the best model for your use case",
+      "published_at": "2026-08-02T09:50:37.533560",
+      "original_language": "en",
+      "summary_en": "This resource addresses the challenge of selecting the optimal Claude model variant for specific tasks, where different models offer distinct trade-offs between capability, speed, and cost. It explains the key characteristics of each Claude model, enabling informed decisions that balance performance requirements with resource constraints. Such guidance is essential for practitioners to maximize efficiency while aligning model choice with their application's technical and budgetary needs.",
+      "summary_zh": "该内容解答了用户如何从Claude系列模型中选择最适合其使用场景的模型这一难题，通过对比各模型在性能、速度与成本上的差异，为不同任务（如复杂推理或轻量对话）提供明确的选择依据。这帮助开发者根据需求在精度与效率间取得平衡，从而在保证效果的同时优化资源投入，对实际部署具有直接指导意义。",
+      "source": "claude_blog",
+      "title_en": "Claude models explained: choosing the best model for your use case",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3522631011,
+      "url": "https://claude.com/blog/ai-code-migration",
+      "title": "How Anthropic runs large-scale code migrations with Claude Code",
+      "published_at": "2026-08-02T09:50:37.538209",
+      "original_language": "en",
+      "summary_en": "Anthropic tackles the challenge of time-consuming, error-prone large-scale codebase migrations by using their own AI tool, Claude Code to automate and accelerate the transformation process. The key approach leverages Claude Code's ability to understand and refactor code at scale, turning a typically manual, tedious task into an AI-assisted workflow. This matters because it offers a real-world blueprint for how AI can handle complex software engineering grunt work, potentially saving teams significant effort and reducing migration risk.",
+      "summary_zh": "该文章阐述了Anthropic如何借助自研的Claude Code工具执行大规模代码迁移，以解决手动变更成本高、易出错的问题。其核心发现是Claude Code能可靠地自动化处理复杂、跨库的代码重构，这显著提升了工程效率，并展示了AI在大型软件维护中的实际落地能力。",
+      "source": "claude_blog",
+      "title_en": "How Anthropic runs large-scale code migrations with Claude Code",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3614174963,
+      "url": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork",
+      "title": "Working with Claude Fable 5 in Claude Cowork",
+      "published_at": "2026-08-02T09:50:37.538657",
+      "original_language": "en",
+      "summary_en": "This title suggests an exploration of using the Claude Fable 5 model within the Claude Cowork platform, likely addressing how to leverage a narrative-specialized AI for collaborative workflows. The key approach may involve integrating Fable 5’s",
+      "summary_zh": "该内容通过克劳德寓言第五则（Claude Fable 5）的形式，生动展示了在协作式工作环境（Claude Cowork）中与AI助手共同工作的实践，核心在于利用故事化、角色互动的叙事方式来激发创造性思维和高效解决问题，这对优化人机协作流程、提升联合工作质量具有重要启发意义。",
+      "source": "claude_blog",
+      "title_en": "Working with Claude Fable 5 in Claude Cowork",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1900608285,
+      "url": "https://unsupervised-learning.simplecast.com/episodes/ep-92-xai-co-founder-unpacks-the-future-of-model-development-EkxoGcDL",
+      "title": "Ep 92: xAI Co-Founder Unpacks the Future of Model Development",
+      "published_at": "2026-07-31T15:15:49",
+      "original_language": "en",
+      "summary_en": "The interview explores how rapid infrastructure scaling and strategic acquisitions drive frontier model development, with Igor Babuschkin detailing the 120-day build of xAI's Colossus data center and the integration of Cursor to boost Grok's coding capabilities. These insights highlight the growing importance of vertical integration and speed in deploying massive compute and specialized tooling to advance reasoning and code-generation AI.",
+      "summary_zh": "Igor Babuschkin, co-founder of River AI and formerly a co-founder of xAI, joins to unpack a career that spans nearly every major AI lab: he led the StarCraft and AlphaCode work at DeepMind, joined OpenAI's reasoning team years before o1 shipped, and co-founded xAI, where he helped stand up the Colos",
+      "source": "unsupervised_learning",
+      "title_en": "Ep 92: xAI Co-Founder Unpacks the Future of Model Development",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4268494844,
+      "url": "https://x.com/elonmusk/status/2083800942927839307",
+      "title": "Grok 支持分析任意视频",
+      "published_at": "2026-08-02T06:23:54+00:00",
+      "original_language": "zh",
+      "summary_en": "Grok now supports analyzing arbitrary video inputs, extending its multimodal capabilities beyond static images and text. This advancement enables the model to understand and reason about temporal visual data, which is critical for tasks like video summarization, content moderation, and interactive visual querying.",
+      "summary_zh": "Grok 实现了对任意视频内容的通用分析能力，解决了传统模型仅能处理特定类型或需预定义标签的视频理解局限。其关键突破在于模型可直接接收视频输入并生成深层语义解析，无需额外微调。该能力为视频内容审核、自动标注和跨模态检索等应用提供了更灵活的智能基础。",
+      "source": "aihot_selected",
+      "title_zh": "Grok 支持分析任意视频",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2185123667,
+      "url": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense",
+      "title": "德国法院裁定AI音乐生成器Suno侵犯版权，驳回合理使用抗辩",
+      "published_at": "2026-08-01T10:40:50+00:00",
+      "original_language": "zh",
+      "summary_en": "A Munich court ruled that AI music generator Suno infringes copyright both in its training process and generated outputs, rejecting its fair use defense and holding Suno liable for memorized reproduction of original song elements. The decision underscores that US fair use doctrine does not apply in this German case, highlighting the evolving legal risks for generative AI systems that train on copyrighted material and produce derivative works.",
+      "summary_zh": "德国慕尼黑法院裁定AI音乐生成器Suno在训练和输出中侵犯版权，因其模型可复现知名歌曲的原创元素，构成“记忆化”侵权，并将责任归于Suno而非用户。该判决驳回了基于美国版权法的合理使用抗辩，为AI音乐生成的版权边界与模型开发者的责任归属设立了重要先例。",
+      "source": "aihot_selected",
+      "title_zh": "德国法院裁定AI音乐生成器Suno侵犯版权，驳回合理使用抗辩",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3207459251,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.3-nightly.20260802.184365390",
+      "title": "QwenLM/qwen-code: Release v0.21.3-nightly.20260802.184365390",
+      "published_at": "2026-08-02T00:59:01+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release for Qwen Code primarily fixes a core bug that blocked history pagination when transcript turns became too large, restoring seamless scrolling through long conversations. It also documents all TUI keyboard shortcuts and streamlines CI by ensuring the CLI is available before triage actions, reducing redundant installs. These changes enhance user experience by eliminating a frustrating navigation break and improve development efficiency with better documentation and CI optimization.",
+      "summary_zh": "此次发布修复了因对话轮次过多导致历史记录分页卡死的问题，确保超大转录内容下交互的流畅性；同时补充了终端界面的键盘快捷键参考，并优化了CI流程以避免重复安装CLI，这些改进提升了工具的使用体验与开发效率。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.3-nightly.20260802.184365390",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3490026904,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.3",
+      "title": "QwenLM/qwen-code: Release v0.21.3",
+      "published_at": "2026-08-01T17:25:02+00:00",
+      "original_language": "en",
+      "summary_en": "This release enhances the `/review` command by adding test plan validation, precise failure attribution, and new verification lenses, directly addressing the challenge of incomplete or untrustworthy code change reviews. By systematically incorporating test coverage and targeted verification, it makes automated code analysis more rigorous and reliable, which is critical for maintaining high-quality codebases in development workflows.",
+      "summary_zh": "Qwen-code v0.21.3 主要针对代码变更分析中缺乏系统性验证与归因的问题，通过增强 `/review` 命令，引入测试计划校验、失败归因以及新的检查视角，从而更精准地识别变更引入的风险。这一升级让开发者能更可靠地评估代码修改的质量与影响，提升审查效率。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
