@@ -1,0 +1,138 @@
+{
+  "date": "2026-08-03",
+  "items": [
+    {
+      "id": 2313761707,
+      "url": "https://claude.com/blog/working-at-the-frontier-cursor",
+      "title": "Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
+      "published_at": "2026-08-03T11:14:43.577142",
+      "original_language": "en",
+      "summary_en": "The title describes how Cursor evaluated whether a new AI model (Claude Fable 5) could handle the most challenging 1% of coding problems. The key approach likely involved testing the model against a curated set of frontier-difficulty software tasks that push reasoning and code-generation limits. This matters because it ensures that advanced coding assistants can reliably tackle the complex, real-world problems faced by top-tier developers, enabling safe deployment at the cutting edge.",
+      "summary_zh": "这篇文章探讨了Cursor如何评估Claude Fable 5模型是否已具备解决最前沿、最困难那1%问题的能力。核心发现是Cursor通过特定的前沿基准测试和极限场景验证，确认了模型在复杂推理和边缘案例上的可靠性。这一突破至关重要，它标志着AI助手能够从处理常规任务迈向真正应对高难度、高风险挑战的转折点。",
+      "source": "claude_blog",
+      "title_en": "Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2402710209,
+      "url": "https://claude.com/blog/ciso-guide-to-agentic-ai",
+      "title": "Zero risk isn't the job: a CISO's guide to agentic AI",
+      "published_at": "2026-08-03T11:14:43.577513",
+      "original_language": "en",
+      "summary_en": "This work addresses the security challenge posed by autonomous AI agents, where traditional zero-risk approaches are impractical. It presents a CISO-oriented framework that prioritizes continuous risk management and pragmatic guardrails over perfect safety. This matters because it enables organizations to safely adopt agentic AI by shifting the security mindset from elimination to resilience.",
+      "summary_zh": "该文针对CISO在应对自主式AI时追求“零风险”的误区，指出核心方法是转变风险管理思维，接受并管理固有风险而非消除一切风险。这一观点对于安全领导者调整策略以有效驾驭Agentic AI带来的新型安全挑战具有重要现实意义。",
+      "source": "claude_blog",
+      "title_en": "Zero risk isn't the job: a CISO's guide to agentic AI",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2160149971,
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
+      "published_at": "2026-08-03T02:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Qwen3.8-Max addresses the demand for a top-tier, open-source model specialized in coding and collaborative tasks. It introduces a massive 2.4-trillion-parameter architecture (with 95 billion activated parameters), achieving state-of-the-art performance while, for the first time, making Qwen-Max-level weights publicly available. This release marks a significant step in democratizing access to extremely large-scale, high-performance language models for the research and developer community.",
+      "summary_zh": "Qwen3.8-Max 的发布解决了此前闭源大模型权重不可获取的问题，它通过公开 2.4T 总参数（95B 激活）的 Max 级模型权重，直接为开发者与研究者提供了顶级的编码和协作能力基础。这一开放举措显著降低了前沿大模型技术的使用门槛，将加速相关领域的应用创新与学术探索。",
+      "source": "aihot_selected",
+      "title_zh": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2103661621,
+      "url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
+      "title": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
+      "published_at": "2026-08-02T21:25:27+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI's internally tested model Astra shows strong math performance, but Gary Marcus warns it's subject to a \"composition fallacy\" where excelling at certain math problems is mistaken for broader cognitive ability. Math serves as an early breakthrough mainly because it allows easy symbolic verification and cheap synthetic data generation, unlike open-world tasks. Since OpenAI hasn't disclosed methodological details, the true significance of Astra's results remains unclear.",
+      "summary_zh": "OpenAI 新模型 Astra 在数学问题上表现优异，但专家指出这并不代表其通用智能已突破，因为数学便于符号验证和生成海量合成数据，而开放式任务无法如此模拟。过度渲染容易陷入“合成谬误”，且方法细节未公开，实际意义尚难判断。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1403905592,
+      "url": "https://x.com/AYi_AInotes/status/2083867265179537565",
+      "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
+      "published_at": "2026-08-02T10:47:27+00:00",
+      "original_language": "zh",
+      "summary_en": "This approach addresses the challenge of maximizing output while minimizing token usage in Codex by orchestrating a two-tier agent system. Sol acts as a high-level manager, breaking down tasks and reviewing code, while delegating implementation to a Luna Max sub-agent configured with a high-reasoning-effort model (gpt-5.6-luna). This separation of concerns saves quota by reserving expensive reasoning for complex work and",
+      "summary_zh": "该玩法解决了AI编程代理在计算额度有限时产出效率低的问题。核心方法是让Sol代理负责任务拆解与代码审查，而将具体实现委托给配置为高推理能力的Luna Max子代理，通过分工协作实现资源优化。这一发现揭示了通过代理间智能分工可以突破单代理资源瓶颈，对提升复杂任务处理效率具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2436828460,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.4",
+      "title": "QwenLM/qwen-code: Release v0.21.4",
+      "published_at": "2026-08-03T04:19:14+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses stability and usability issues in qwen-code’s interactive environment by graduating the Web Shell into a native desktop app with lifecycle management and automatic updates, and by adding robust pagination with retry for oversized chat histories. It also enforces isolation between forked subagents, preventing cross-contamination in parallel execution. These improvements make the tool more reliable and production-ready for developers managing complex multi-agent workflows.",
+      "summary_zh": "该版本重点解决了Web Shell从网页工具向桌面应用的升级问题，通过原生生命周期管理、单实例机制和自动更新实现了更流畅的用户体验。同时，它改进了历史记录分页对超长对话轮次的处理，增加了失败重试功能，并确保分叉的子代理彼此隔离，从而提升了多代理协作的稳定性和容错性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2530332833,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.3-nightly.20260803.e1e5b42ce",
+      "title": "QwenLM/qwen-code: Release v0.21.3-nightly.20260803.e1e5b42ce",
+      "published_at": "2026-08-03T00:52:43+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release addresses a critical usability bug where oversized chat history turns would block pagination in the terminal interface, alongside completing the TUI keyboard shortcut reference for better documentation. It also streamlines CI workflows by ensuring the qwen CLI is available before triage actions, reducing redundant installations. These fixes improve both developer tooling reliability and end-user conversational interaction stability.",
+      "summary_zh": "该夜间版本补全了终端界面（TUI）的键盘快捷键参考文档，修复了因对话轮次体积过大导致历史记录分页阻塞的核心问题，并优化了 CI 流程，避免在分类操作前重复安装 qwen CLI，从而提升了开发者的交互效率与工作流稳定性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.3-nightly.20260803.e1e5b42ce",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
