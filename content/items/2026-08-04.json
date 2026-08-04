@@ -1,0 +1,651 @@
+{
+  "date": "2026-08-04",
+  "items": [
+    {
+      "id": 4127241335,
+      "url": "http://arxiv.org/abs/2608.02602v1",
+      "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+      "published_at": "2026-08-03T17:59:50+00:00",
+      "original_language": "en",
+      "summary_en": "AURORA-LM tackles the disconnect between discrete text generation and continuous-latent modeling in other modalities. It preserves a high-fidelity, decodable text representation via a query-based encoder-decoder and learns its distribution with a block-causal diffusion transformer using flow matching. This separation enables diffusion language models to generate precise text directly in continuous space, bridging the gap and paving the way for more unified multimodal generative systems.",
+      "summary_zh": "AURORA-LM 针对语言生成仍依赖离散令牌、而连续潜变量模型常牺牲令牌级保真度的问题，将可解码文本表示与其分布建模解耦。它通过基于查询的编码器-解码器构建高容量、前缀对齐的潜变量序列，再利用分块因果扩散Transformer与流匹配从左至右生成并去噪。这一设计在保留高保真切词能力的同时，直接对复杂连续分布建模，弥合了语言与",
+      "source": "arxiv_cs_cl",
+      "title_en": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2694315969,
+      "url": "http://arxiv.org/abs/2608.02599v1",
+      "title": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework",
+      "published_at": "2026-08-03T17:59:09+00:00",
+      "original_language": "en",
+      "summary_en": "This paper tackles the lack of accessible, engineering-grounded educational resources for applying AI in power systems, where most materials are either too specialized or treat AI as black boxes. The authors present an open, executable module library that progressively maps core AI concepts onto real power-system tasks, guided by a community survey revealing that 92% of respondents face barriers to running AI models. This framework lowers the entry barrier for newcomers and promotes domain-aware, reliable AI practice, directly addressing the strong demand for a hands-on, power-specific course.",
+      "summary_zh": "该研究针对电力系统领域AI教育缺乏可复现、新手友好的素材这一障碍，通过开源可执行模块库映射核心AI概念至典型电力任务并设计渐进式难度阶梯，从而降低入门门槛。其意义在于推动工程扎根型AI实践，使得AI逻辑遵循电力系统领域规则而非黑箱，且社区调研中94%从业者明确需求此类专项课程。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3723149085,
+      "url": "http://arxiv.org/abs/2608.02595v1",
+      "title": "onepot-Bench 0: towards lab-aware in silico chemistry benchmarks",
+      "published_at": "2026-08-03T17:58:27+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the lack of realistic, contamination-free evaluations for language models applied to wet-lab chemistry, where public benchmarks often fail to capture the mix of problem-solving and domain intuition needed for safe physical experimentation. It introduces onepot-Bench 0, a proprietary suite with three components—ChemAbacus (cheminformatics literacy), SynthRefusal (safety refusal across benign, controlled, and dangerous targets), and SynthBench (reaction-outcome prediction)—to measure lab-relevant skills directly. This matters because it enables rigorous, lab-aware assessment of models before deployment in real-world synthetic chemistry workflows.",
+      "summary_zh": "onepot-Bench 0 針對現有基準難以衡量語言模型在真實實驗室場景中可靠決策能力的問題，提出專有評測套件，結合同步的化學資訊素養、安全拒答與反應預測三項測試。這套工具能更貼近濕實驗室需求，精準刻畫模型在規劃、安全判斷與結果預測上的實際表現，對推動 AI 輔助合成化學落地至關重要。",
+      "source": "arxiv_cs_cl",
+      "title_en": "onepot-Bench 0: towards lab-aware in silico chemistry benchmarks",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1586657159,
+      "url": "http://arxiv.org/abs/2608.02588v1",
+      "title": "The Condition-Number Barrier in Sparse Least Squares",
+      "published_at": "2026-08-03T17:57:01+00:00",
+      "original_language": "en",
+      "summary_en": "This paper resolves a conjecture about the fundamental limits of sparse linear regression by proving that no polynomial-time algorithm can break the linear dependence on the restricted condition number, assuming the randomized Small-Set Expansion Hypothesis. The result formally establishes a \"condition-number barrier\" for sparse least squares, showing that algorithms achieving a linear scaling—like those of Axiotis and Sviridenko—are essentially optimal. This matters because it delineates the complexity boundary for a core problem in high-dimensional statistics and signal processing, guiding future algorithmic efforts toward what is computationally possible.",
+      "summary_zh": "本文解决了稀疏最小二乘问题中受限条件数对算法效率的根本限制，证明了在随机小集展开假设下，Axiotis 和 Sviridenko 所猜想的多项式时间算法无法突破对受限条件数的线性依赖。该下界揭示了稀疏优化计算复杂性的本质屏障，且其证明最初由自动化智能体辅助发现，展示了算法下界研究的新范式。",
+      "source": "arxiv_cs_cl",
+      "title_en": "The Condition-Number Barrier in Sparse Least Squares",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2562518906,
+      "url": "http://arxiv.org/abs/2608.02585v1",
+      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+      "published_at": "2026-08-03T17:55:24+00:00",
+      "original_language": "en",
+      "summary_en": "GradCuit addresses the problem that existing test-time latent reasoning methods rely on decoded tokens for credit assignment, making it indirect and opaque how latent states influence the reasoning process. It introduces optimizable latent states placed between the prompt and continuation in a Transformer, using causal self-attention to provide each continuation token’s log-probability with a direct differentiable path to preceding latents, enabling reward-weighted gradients to flow straight into those states. This yields robust, interpretable latent optimization and consistently improves reasoning performance across multiple models and benchmarks.",
+      "summary_zh": "GradCuit 旨在解决现有测试时潜在推理方法中序列级信用分配间接、潜在更新影响不透明的问题。它通过在Transformer中间层插入可优化潜在状态，借助因果自注意力为每个后续token提供到所有先前潜在状态的直接可微路径，使奖励梯度能直接分配至潜在状态。该方法在多模型和基准上实现了稳健且可解释的推理性能提升，为理解潜在空间如何引导推理过程提供了机制视角。",
+      "source": "arxiv_cs_cl",
+      "title_en": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3696820273,
+      "url": "https://unsupervised-learning.simplecast.com/episodes/ai-vibe-check-chinese-open-models-distillation-the-hugging-face-breach-GcKLYFVG",
+      "title": "AI Vibe Check: Chinese Open Models, Distillation & The Hugging Face Breach",
+      "published_at": "2026-08-03T12:55:21",
+      "original_language": "en",
+      "summary_en": "This roundtable examines whether Chinese open-source models like Kimi K3 genuinely rival US frontier performance or merely appear to, questioning if techniques like distillation account for narrowing gaps. It broadens into the contentious debate over open-weight model risks, challenging positions like Anthropic’s that powerful open models are inherently dangerous. The discussion matters because it illuminates the strategic dynamics of global AI competition and the real-world safety-versus-access tensions shaping model release policies.",
+      "summary_zh": "本期圆桌讨论聚焦于中国开源模型（如Kimi K3）是否已真正追平美国前沿水平，并探讨知识蒸馏在多大程度上解释了其",
+      "source": "unsupervised_learning",
+      "title_en": "AI Vibe Check: Chinese Open Models, Distillation & The Hugging Face Breach",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3406593659,
+      "url": "https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy-a-rust-backed-super-fast-python-charting-library-that-keeps-100-million-point-charts-interactive",
+      "title": "Reflex 开源 XY：基于 Rust 的超快 Python 绘图库，可保持 1 亿点图表交互流畅",
+      "published_at": "2026-08-04T08:57:47+00:00",
+      "original_language": "zh",
+      "summary_en": "Reflex XY 解决了大规模数据点（最高 1 亿点）下交互式 2D 图表渲染性能瓶颈的问题。其核心方法是结合 Rust 原生性能、二进制缓冲数据传输和 WebGL2 渲染，实现了约 0.08 秒的极快渲染时间。这让 Python 用户能在海量数据上保持流畅交互，显著提升了数据探索和可视化的体验与效率。",
+      "summary_zh": "Reflex 开源的 XY 库解决了在大数据量下 Python 绘图交互卡顿的问题，通过 Rust 原生核心、二进制传输和 WebGL2 渲染，在百万级至亿级数据点场景下仍能保持约 0.08 秒的极速渲染。该技术使得实时探索海量数据成为可能，对科学计算、金融分析等需要高性能可视化的领域意义重大。",
+      "source": "aihot_selected",
+      "title_zh": "Reflex 开源 XY：基于 Rust 的超快 Python 绘图库，可保持 1 亿点图表交互流畅",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3487197061,
+      "url": "https://www.marktechpost.com/2026/08/04/building-an-advanced-ai-skill-security-auditing-pipeline-with-nvidia-skillspector-langgraph-yara-rules-sarif-and-ci-policy-gates",
+      "title": "用 NVIDIA SkillSpector、LangGraph、YARA 规则、SARIF 与 CI 策略门构建高级 AI 技能安全审计流水线",
+      "published_at": "2026-08-04T08:12:36+00:00",
+      "original_language": "zh",
+      "summary_en": "This tutorial addresses the challenge of auditing the security posture of AI skills by building an automated pipeline that combines NVIDIA SkillSpector, LangGraph, YARA rules, SARIF, and CI policy gates to inspect a synthetic marketplace of clean, risky, and malicious skills. The key approach involves scanning each skill through a structured workflow to classify and report security risks, demonstrating how organizations can integrate continuous security validation into their AI skill deployment processes. This matters because it provides a practical blueprint for catching malicious or vulnerable AI components before they reach production, strengthening trust and safety in AI-powered systems.",
+      "summary_zh": "该教程解决AI技能的安全审计问题，通过构建包含干净、风险、恶意等不同类别技能的合成市场，并使用LangGraph检查流水线与NVIDIA SkillSpector进行自动化安全扫描。其关键意义在于以流水线方式实现高级AI技能安全态势的持续评估与CI策略门集成，从而高效识别和防范潜在威胁。",
+      "source": "aihot_selected",
+      "title_zh": "用 NVIDIA SkillSpector、LangGraph、YARA 规则、SARIF 与 CI 策略门构建高级 AI 技能安全审计流水线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2295789294,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498223&idx=1&sn=ae271ec2c72723393d3e1d8074a33205",
+      "title": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
+      "published_at": "2026-08-04T08:12:36+00:00",
+      "original_language": "zh",
+      "summary_en": "Tencent's Hy ASR 3.0 preview tackles context-aware speech recognition by fusing a large language model (Hy3) with a Mixture-of-Experts architecture, achieving state-of-the-art word error rates (2.62% English, 3.34% Mandarin, 3.12% Cantonese) while enabling contextual error correction and hotword injection. Its release via cloud API and free integration in the Yuanbao app makes high-accuracy, semantically aware ASR accessible for real-world noisy and nuanced scenarios.",
+      "summary_zh": "腾讯混元发布的 Hy ASR 3.0 preview 针对传统语音识别缺乏上下文理解的问题，通过结合大语言模型 Hy3 与 MoE 架构，实现了高精度识别与语义理解的融合。该模型在中文、英语、粤语等测试中取得领先的词错率，并能支持上下文纠错、热词注入等复杂场景，显著提升了语音识别的实用性和理解能力。",
+      "source": "aihot_selected",
+      "title_zh": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3030041148,
+      "url": "https://github.com/leonickson1/Swiftlet",
+      "title": "Swiftlet：在 Mac 上运行 80B 版 Qwen（内存 4.3 GB），在 iPhone 上运行 35B 版",
+      "published_at": "2026-08-04T06:32:44.149000+00:00",
+      "original_language": "zh",
+      "summary_en": "Swiftlet tackles the challenge of running massive mixture-of-experts (MoE) models like Qwen’s 80B and 35B variants on resource-constrained Apple devices. It achieves this by using a Swift + Metal runtime that keeps only a small dense core in memory and streams expert weights from storage on demand, reducing RAM usage to just 4.3 GB on a Mac for an 80B model. This approach makes state-of-the-art large language models accessible on everyday iPhones and Macs, drastically lowering hardware barriers.",
+      "summary_zh": "Swiftlet 通过仅将小型稠密核心常驻内存、按需从存储流式加载专家权重的方式，让 80B 参数的 Qwen 模型在 Mac 上仅用 4.3 GB 内存即可运行，35B 模型甚至能在 iPhone 上执行。这种 Swift+Metal 运行时突破了苹果设备有限内存的约束，使大参数混合专家模型在消费级硬件上的本地部署成为可能。",
+      "source": "aihot_selected",
+      "title_zh": "Swiftlet：在 Mac 上运行 80B 版 Qwen（内存 4.3 GB），在 iPhone 上运行 35B 版",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1412672837,
+      "url": "https://x.com/thsottiaux/status/2084506501834829833",
+      "title": "GPT-5.6 Luna降价80%永久生效",
+      "published_at": "2026-08-04T05:07:32+00:00",
+      "original_language": "zh",
+      "summary_en": "有些人显然误解了，但 GPT-5.6 Luna 降价 80% 不是临时噱头，而是永久的。效率提升不会消失。幸运的是。",
+      "summary_zh": "本研究澄清了关于GPT-5.6 Luna大幅降价的误解，明确指出80%的价格下调是永久性政策而非短期促销。关键发现在于伴随降价的效率提升同样持续存在，这消除了市场对价格波动和性能退坡的担忧，为长期用户提供了稳定的成本预期与可靠的技术保障。",
+      "source": "aihot_selected",
+      "title_zh": "GPT-5.6 Luna降价80%永久生效",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2443611010,
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498861&idx=1&sn=d2d16692dd7eb27f9d466803f25c2b78",
+      "title": "面壁智能开源 ForgeStencil：一周自动优化 100+ 工业与科学软件，全程零人工介入",
+      "published_at": "2026-08-04T04:20:28+00:00",
+      "original_language": "zh",
+      "summary_en": "ForgeStencil addresses the challenge of manually optimizing stencil computations across diverse industrial and scientific software. It introduces a fully automated system where two AI agents—a Kernel Agent and an App Agent—collaboratively research and deploy optimizations from low-level kernels to full application integration. This enables zero‑touch optimization of over 100 applications in a week, significantly accelerating deployment and democratizing high‑performance computing.",
+      "summary_zh": "面壁智能与OpenBMB开源的ForgeStencil系统，旨在解决工业与科学软件中Stencil计算的自动优化难题。它通过Kernel Agent与App Agent的闭环协作，首次实现从算子研究到应用部署的全流程自动化，无需人工介入。该突破能大幅提升百款以上软件的高性能计算效率，对加速科学仿真与工业应用具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "面壁智能开源 ForgeStencil：一周自动优化 100+ 工业与科学软件，全程零人工介入",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1156092937,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
+      "title": "从零开始，教你用Codex搓出属于你自己的第一个硬件",
+      "published_at": "2026-08-04T00:06:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The article demonstrates how a complete beginner used conversational AI (Codex) to design and build a physical hardware gadget—a cat-paw reminder for sedentary behavior—in just five days, covering everything from circuit design to 3D printing. The key finding is that AI-assisted \"learning by doing\" can drastically lower the barrier to hardware creation, enabling rapid prototyping even without prior expertise. This matters because it showcases a shift toward democratized, AI-guided development that could accelerate innovation and empower more people to create custom physical devices.",
+      "summary_zh": "本文通过作者零基础五天做出久坐提醒猫爪硬件的全程实录，展示了借助 AI 编程工具 Codex 以自然语言对话驱动硬件开发的新方法：从需求讨论、电路搭建、代码生成到 3D 打印组装，全部在与 AI 的交互中完成。该方法的核心价值在于将“干中学”的循环极度压缩，让普通人也能快速将创意变成实物，极大降低硬件创新门槛，预示 AI 将重塑个人制造与原型开发的方式。",
+      "source": "aihot_selected",
+      "title_zh": "从零开始，教你用Codex搓出属于你自己的第一个硬件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3101281776,
+      "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
+      "title": "Palantir 强劲季度后，CEO Alex Karp 称 AI 行业\"马克思主义\"",
+      "published_at": "2026-08-03T23:19:50+00:00",
+      "original_language": "zh",
+      "summary_en": "Palantir CEO Alex Karp argues that leading AI labs cannot be trusted by enterprises, likening their intent to \"Marxist\" ownership of partners' means of production, while positioning his company’s model-agnostic software as a way for organizations to retain control over their own data and AI \"exhaust.\" The critique accompanies a strong quarter with $1.9 billion in revenue, supporting Palantir’s claim that enterprise autonomy in AI is both strategically vital and commercially successful.",
+      "summary_zh": "Palantir CEO 亚历克斯·卡普警告前沿 AI 实验室存在“马克思主义”倾向——试图掌控合作伙伴的数据与生产资料，造成企业信任危机，而 Palantir 通过提供模型无关的 AI 与分析平台，让客户自主掌握数据、提示词与编排上下文等“AI 废气”，保障数据主权。此举既解释了该公司季度营收增长 93%、利润 11 亿美元的强劲表现，也凸显出在企业级 AI 部署中，“模型无关、数据可控”架构对打破巨头垄断和构建信任的战略价值。",
+      "source": "aihot_selected",
+      "title_zh": "Palantir 强劲季度后，CEO Alex Karp 称 AI 行业\"马克思主义\"",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3124980930,
+      "url": "https://x.com/gdb/status/2084405421041963356",
+      "title": "GPT-Live实时音频新架构发布",
+      "published_at": "2026-08-03T22:25:53+00:00",
+      "original_language": "zh",
+      "summary_en": "GPT-Live tackles the problem of delivering natural, uninterrupted real-time audio conversations at scale, where speaking and listening must happen simultaneously without breaking flow. The key approach is a full redesign of the voice stack—from client to model—to create a continuous audio stream that lets deeper reasoning and tool use happen in the background without pausing the dialogue. This matters because it enables more fluid, human-like interactions in voice AI, allowing complex processing to remain invisible to the user.",
+      "summary_zh": "GPT-Live 针对实时音频交互中的流畅性问题，通过重建从客户端到模型的语音栈，实现了边说边听的连续音频流，使深度推理和工具调用不再中断对话。这一架构让大规模实时对话体验更自然，对提升语音助手场景下的响应质量和用户体验具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "GPT-Live实时音频新架构发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 139807625,
+      "url": "https://x.com/trq212/status/2084387303959740449",
+      "title": "Claude Code 连接器可复用至 Artifacts",
+      "published_at": "2026-08-03T21:13:53+00:00",
+      "original_language": "zh",
+      "summary_en": "Many users don’t realize that Claude connectors (like Gmail, Calendar, Slack) can also be used by Claude Code, including within Artifacts. This reuse lets code-driven interactions access the same connected services, unlocking automated workflows that bridge personal data with programmatic execution.",
+      "summary_zh": "该发现指出，用户已连接的 Claude 连接器（如邮箱、日历等）可被 Claude Code 无缝复用，甚至在生成的 Artifacts 中调用，从而大幅扩展 AI 编程助手的上下文与自动化能力，这对提升开发效率和工作流整合至关重要。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Code 连接器可复用至 Artifacts",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3689748231,
+      "url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
+      "title": "EA 首席战略官谈生成式 AI 如何进入可游玩的实时游戏世界",
+      "published_at": "2026-08-03T20:12:03.229000+00:00",
+      "original_language": "zh",
+      "summary_en": "EA's Chief Strategy Officer highlights that real-time games impose strict constraints like 60 fps, massive concurrency, and low latency, requiring AI to produce not just realistic visuals but correct behavior. He advocates a neuro-symbolic architecture blending generative capabilities with deterministic control, calling control the next frontier, and frames AI's impact across efficiency, expansion, and transformation—citing The Sims’ 500 million players and nearly a trillion gameplay combinations.",
+      "summary_zh": "生成式 AI 进入实时游戏面临高帧率、大规模并发与低延迟等严苛约束，不能仅追求视觉逼真，更需保证“行为正确”。EA 首席战略官提出采用神经符号架构，在生成能力外保留确定性与可控性，将“控制”视为下一阶段关键，并以此支撑《模拟人生》等游戏从效率提升到体验转型的规模化应用。",
+      "source": "aihot_selected",
+      "title_zh": "EA 首席战略官谈生成式 AI 如何进入可游玩的实时游戏世界",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1261800386,
+      "url": "https://x.com/MSFTResearch/status/2084364547142418722",
+      "title": "微软开源 Orchard 智能体训练框架",
+      "published_at": "2026-08-03T19:43:28+00:00",
+      "original_language": "zh",
+      "summary_en": "Orchard addresses the challenge of high complexity and resource demands in training AI agents across diverse tasks. By providing a unified open-source infrastructure that lets researchers reuse the same framework for different task types, it enables even smaller models to achieve strong performance. This lowers the barrier to entry for agent research and promotes more efficient, scalable experimentation.",
+      "summary_zh": "微软开源的 Orchard 框架旨在解决 AI 智能体训练与评估中任务多样、实现复杂且高度依赖大模型的问题。它通过提供可复用的统一基础设施，大幅降低了研究门槛，并证明即使使用较小规模的模型，也能取得强劲性能，这为资源受限的学术研究提供了重要推动力。",
+      "source": "aihot_selected",
+      "title_zh": "微软开源 Orchard 智能体训练框架",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2105473143,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "title": "欧盟《人工智能法案》透明度规则生效，违规最高罚 1500 万欧元",
+      "published_at": "2026-08-03T17:38:45+00:00",
+      "original_language": "zh",
+      "summary_en": "The EU AI Act's new transparency obligations require companies to disclose when users interact with AI systems and to machine-tag synthetic audio, video, and text, with non-compliance risking fines up to €15 million or 3% of global annual turnover. This regulation compels mandatory labeling of AI-generated content, directly addressing deepfake and manipulation risks while giving models launched before the effective date a four-month grace period. It marks a significant step toward enforceable AI accountability in the European market.",
+      "summary_zh": "该规则旨在解决用户无法识别AI生成内容、可能被误导的问题。它要求公司强制披露AI互动并对合成音视频文本添加机器可读标记，违者面临高额罚款。这有助于确保透明度，维护数字环境的诚信与公众知情权。",
+      "source": "aihot_selected",
+      "title_zh": "欧盟《人工智能法案》透明度规则生效，违规最高罚 1500 万欧元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1951001809,
+      "url": "https://github.com/lyogavin/airllm",
+      "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
+      "published_at": "2026-08-03T16:24:45.027000+00:00",
+      "original_language": "zh",
+      "summary_en": "AirLLM addresses the problem of requiring massive GPU memory for large language model inference by enabling a 70-billion-parameter model to run on a single 4GB GPU. The key finding is an open-source implementation that drastically reduces the hardware barrier without needing multi-GPU setups. This matters for democratizing access to cutting-edge AI, as it allows researchers and developers with limited resources to deploy and experiment with large models.",
+      "summary_zh": "AirLLM 项目针对大模型推理依赖昂贵多卡或高显存 GPU 的难题，提出了一种能在单块 4GB 显存 GPU 上运行 70B 参数模型的高效方案。这一技术突破让普通硬件也能部署超大规模模型，显著降低了 AI 应用的门槛，其开源发布与社区热议更显示出推动大模型普惠化的重大意义。",
+      "source": "aihot_selected",
+      "title_zh": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4294551072,
+      "url": "https://x.com/OpenRouter/status/2084301100078027143",
+      "title": "OpenRouter 推出 Ori Eval 简化评估流程",
+      "published_at": "2026-08-03T15:31:21+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter’s Ori Eval addresses the challenge of identifying the most suitable model for specific tasks by acknowledging that no single model excels universally. It simplifies evaluation by using OpenRouter’s API to process codebase tasks and automatically assess the results. This streamlined approach reduces setup overhead, making it easier for developers to quickly write their first evaluation and select the best model for their needs.",
+      "summary_zh": "OpenRouter 推出的 Ori Eval 旨在解决“没有万能模型，需针对具体任务选型”的难题，它利用自家 API 跨代码库批量执行任务并评估结果。其关键在于将模型评估与筛选流程高度简化，让开发者能快速写出首个评估，从而更高效地为每项任务匹配最佳模型。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 推出 Ori Eval 简化评估流程",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1259951052,
+      "url": "https://x.com/SenseTime_AI/status/2084288424236782073",
+      "title": "商汤发布 SenseNova U1.5-Lite-Preview 开源模型",
+      "published_at": "2026-08-03T14:40:59+00:00",
+      "original_language": "zh",
+      "summary_en": "SenseTime released SenseNova U1.5-Lite-Preview, a lightweight, open-source unified multimodal model that tackles the challenge of achieving commercial-grade image generation and editing without massive proprietary systems. By using the NEO-Unify architecture and just 8 billion mixture-of-tokens parameters, it delivers quality on par with closed-source commercial models, making advanced multimodal capabilities more accessible and efficient for research and deployment.",
+      "summary_zh": "商汤发布的 SenseNova U1.5-Lite-Preview 模型解决了轻量级多模态生成与编辑任务中质量与效率难以兼顾的问题，通过 NEO-Unify 架构在仅 8B-MoT 参数下实现了接近商业闭源模型的性能，证明了小规模原生统一模型也能达到高水准生成效果，为开源多模态应用提供了高效可部署的新选择。",
+      "source": "aihot_selected",
+      "title_zh": "商汤发布 SenseNova U1.5-Lite-Preview 开源模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2219528017,
+      "url": "https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5",
+      "title": "Google Agent Skills 幕后：如何构建、测试与规模化",
+      "published_at": "2026-08-03T14:33:20+00:00",
+      "original_language": "zh",
+      "summary_en": "The Google Agent Skills team addresses the challenge of maintaining quality in their rapidly growing open-source skill library by implementing a strict governance framework. Their approach combines a standardized directory structure with CI/CD pipelines that include linters, link checks, and AI-assisted checklists, alongside continuous evaluations at commit and weekly intervals, while prioritizing the use of remote MCP tools. This systematic process is essential to ensure that every skill remains reliable and consistent as the project scales beyond its initial 15,000-star launch.",
+      "summary_zh": "Google Agent Skills 团队为解决开源技能库在快速规模化后（GitHub 星标超 15,000）的质量保障难题，构建了一套标准化治理体系。其关键方法包括强制采用统一目录结构、集成 CI/CD 流水线（含 linter、链接检查和 AI 辅助清单）以及实施提交时与每周的持续评估，并优先通过远程 MCP 工具实现技能集成。这一实践为大规模 AI 技能开发提供了可复用的质量控制与自动化治理范例。",
+      "source": "aihot_selected",
+      "title_zh": "Google Agent Skills 幕后：如何构建、测试与规模化",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 372605149,
+      "url": "https://blog.cloudflare.com/cloudflare-computer",
+      "title": "Cloudflare 推出 @cloudflare/computer 预览版：为智能体提供虚拟文件系统与多执行环境",
+      "published_at": "2026-08-03T13:15:24+00:00",
+      "original_language": "zh",
+      "summary_en": "Cloudflare's @cloudflare/computer preview addresses the need for secure, isolated execution environments for AI agents by providing each agent with a virtual file system and supporting code execution in isolates, container sandboxes, or browsers. This open-source runtime makes it easier to build and deploy autonomous agents safely, enabling scalable production use.",
+      "summary_zh": "Cloudflare 发布的开源智能体运行时 @cloudflare/computer 为每个智能体提供了虚拟文件系统，并支持在隔离环境、容器沙箱或浏览器中执行代码，解决了智能体安全存储与多环境执行的需求，为智能体应用提供了灵活的基础设施。",
+      "source": "aihot_selected",
+      "title_zh": "Cloudflare 推出 @cloudflare/computer 预览版：为智能体提供虚拟文件系统与多执行环境",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 236772937,
+      "url": "https://blog.cloudflare.com/billable-usage-api",
+      "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性",
+      "published_at": "2026-08-03T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cloudflare's new Billable Usage API addresses the lack of unified, programmatic cost visibility for self-serve accounts, offering a single endpoint that returns per-product, per-billing-cycle usage and costs across key developer services including Workers AI, R2, and D1. This enables AI/ML teams to automate cost monitoring and integrate billing data into internal dashboards, crucial for managing expenses in dynamic, multi-service cloud environments.",
+      "summary_zh": "Cloudflare 为解决自助账户多产品成本管理不便的问题，推出 Billable Usage API，通过统一端点程序化返回按产品与计费周期拆分的用量及成本数据。该功能提升了计费透明度，便于用户自动化监控和优化多服务开销。",
+      "source": "aihot_selected",
+      "title_zh": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3020928150,
+      "url": "https://blog.cloudflare.com/grpc-workers",
+      "title": "Cloudflare Workers 与 Containers 现已支持入站 TCP 连接和 gRPC",
+      "published_at": "2026-08-03T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cloudflare now enables its Workers and Containers to directly accept inbound TCP connections, solving the previous limitation of handling only HTTP requests for stateful services. By introducing a new `connect()` API that works with Spectrum, requests can be forwarded as full-duplex TCP sockets to Durable Objects or Containers, allowing developers to build long-lived, real-time applications like gRPC servers at the edge. This matters because it expands serverless and containerized platforms to support persistent, bi-directional protocols beyond traditional web workflows.",
+      "summary_zh": "Cloudflare 解决了 Workers 此前无法直接处理入站 TCP 连接的限制，通过在运行时引入 connect 处理器直接接收 Spectrum 提供的原始套接字，并将其转发至有状态的 Durable Objects 或 Containers。这一能力实现了从客户端到应用层的全双工通信，为构建需要持久连接的 AI Agent 等场景提供了关键的基础设施支撑。",
+      "source": "aihot_selected",
+      "title_zh": "Cloudflare Workers 与 Containers 现已支持入站 TCP 连接和 gRPC",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3069714188,
+      "url": "https://x.com/Kimi_Moonshot/status/2084245860339298423",
+      "title": "Kimi Work 幻灯片制作教程发布",
+      "published_at": "2026-08-03T11:51:51+00:00",
+      "original_language": "zh",
+      "summary_en": "This tutorial addresses the challenge of streamlining end-to-end slide creation by automating structure, research, and design. Kimi Slides, powered by the Kimi K3 model, generates clear slide structures, coherent designs with refined diagrams and SmartArts, and delivers fully editable, downloadable presentations. The approach matters because it reduces manual effort in crafting professional slides, enabling users to focus on content while maintaining high-quality visual output.",
+      "summary_zh": "Kimi Work 教程展示了如何用 AI 自动化幻灯片制作全流程，解决手动设计耗时的问题。其核心方案是借助 Kimi K3 生成清晰结构与研究，并搭配连贯的图表与 SmartArt 设计，最终产出可编辑、可直接下载的成品，让高效创建专业演示变得触手可及。",
+      "source": "aihot_selected",
+      "title_zh": "Kimi Work 幻灯片制作教程发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 81413939,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ%3D%3D&mid=2247488931&idx=1&sn=0506e1d52edd5166becf35f5ebd83a07",
+      "title": "MiniMax H3 正式开源：通用全模态生成系统支持 2K 视频与原生立体声",
+      "published_at": "2026-08-03T02:44:09+00:00",
+      "original_language": "zh",
+      "summary_en": "MiniMax H3 tackles the fragmentation in multimodal generation by unifying text, image, video, and audio understanding into a single open-source model that outputs up to 2K, 15-second videos with 32 kHz native stereo audio. This integration enables coherent audiovisual synthesis without pipelining separate systems, and its open availability accelerates research and application development in seamless media creation.",
+      "summary_zh": "MiniMax 开源的 H3 模型旨在统一处理文本、图像、视频和音频的多模态理解与生成，关键突破在于能直接产出最高 2K 分辨率、15 秒时长且自带 32kHz 原生立体声的视频。这一全模态系统让高保真、带声音的视频生成变得更加一体化，对推动多媒体内容创作和降低专业制作门槛具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "MiniMax H3 正式开源：通用全模态生成系统支持 2K 视频与原生立体声",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2338771030,
+      "url": "https://arxiv.org/abs/2608.02023",
+      "title": "SwanTale：面向指令与零样本任务的统一多说话人语音与音频生成",
+      "published_at": "2026-08-03T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "SwanTale addresses the problem of unified multi-speaker speech and audio generation for both zero-shot and instruction-based tasks, overcoming data scarcity with the SwanData-Caption pipeline and incorporating SwanVAE, Unified MoE, and GRPO post-training. Experiments show it achieves leading results on multiple zero-shot and instruction metrics, earning the highest expressiveness scores for both task types. This demonstrates a strong foundation for versatile, high-fidelity, and expressive audio generation across diverse control modes.",
+      "summary_zh": "SwanTale 提出一个统一的多说话人语音与音频生成模型，同时解决零样本与指令任务中的数据稀缺与效果不足问题。其关键创新在于配套的 SwanData-Caption 数据方案以及 SwanVAE、统一混合专家（Unified MoE）和 GRPO 后训练等技术，使模型在多项零样本与指令指标上取得领先，并在表达力评分中达到最佳。该工作为多任务语音音频生成提供了高效、高质量的统一框架。",
+      "source": "aihot_selected",
+      "title_zh": "SwanTale：面向指令与零样本任务的统一多说话人语音与音频生成",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3616801832,
+      "url": "https://arxiv.org/abs/2608.02583",
+      "title": "UEmbed：统一稀疏与稠密的多模态嵌入模型",
+      "published_at": "2026-08-03T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "UEmbed addresses the challenge of unifying sparse and dense multimodal representations in a single model. It uses a decoder-only architecture that, in one causal forward pass, simultaneously produces both sparse word-level and dense embeddings by introducing learnable special tokens and partitioning the vocabulary, thereby overcoming the information bottleneck of relying on a single token. This unified approach is significant because it streamlines multimodal embedding generation and enhances representational capacity without separate sparse/dense pipelines.",
+      "summary_zh": "UEmbed 针对多模态嵌入中稀疏词级和稠密表示需分离构建的问题，提出了一种统一的仅解码器模型，能在单次因果前向传播中同时生成两种表示。其通过可学习特殊 token 与词汇表分区突破单 token 信息瓶颈，实现了高效且紧凑的联合表征，对提升多模态检索与理解任务效率具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "UEmbed：统一稀疏与稠密的多模态嵌入模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 588695351,
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509055&idx=1&sn=28254c9e78532b336895b8c541905d49",
+      "title": "实测MiniMax H3做后期和动效：视频届的审美王来了",
+      "published_at": "2026-08-02T13:26:14+00:00",
+      "original_language": "zh",
+      "summary_en": "This work evaluates MiniMax H3, a video generation model that tackles the need for high-quality, multi-modal controllable synthesis across professional creative domains. Key findings show it can produce 5–15-second, 2K-resolution videos with native stereo audio by conditioning on up to nine images, three video clips, three audio segments, and a 7,000-character text prompt, and it demonstrates strong aesthetic performance in advertising, short drama, motion graphics, and UI animation tasks. This matters for AI-driven media production as it integrates visual and audio generation in a single, highly steerable system, potentially reducing complex multi-tool post-production workflows.",
+      "summary_zh": "MiniMax H3 视频模型解决了多场景视频内容高效生成的问题，它通过支持多张图像、多段视频与音频的混合输入，结合高达7000字符的提示语，能直出2K分辨率、原生双声道的5-15秒视频。这一能力在广告、短剧、动效等六类实际应用中展现了强大的创意制作潜力，有望提升视频生产的审美品质和工作效率。",
+      "source": "aihot_selected",
+      "title_zh": "实测MiniMax H3做后期和动效：视频届的审美王来了",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 785313747,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.5",
+      "title": "QwenLM/qwen-code: Release v0.21.5",
+      "published_at": "2026-08-04T02:17:38+00:00",
+      "original_language": "en",
+      "summary_en": "This release of Qwen's coding assistant addresses tool execution reliability and desktop performance by introducing fine-grained outcome tracking (success, failure, cancellation) for tool calls and preventing unsafe replay of MCP tools after connection loss, which enhances debugging and safety. It also provides an opt-in update bridge for macOS users to migrate from Electron to the more efficient Tauri shell, improving resource usage.",
+      "summary_zh": "此版本为macOS用户提供从Electron到Tauri桌面应用的平滑迁移方案，并新增工具调用的详细执行状态追踪，以区分成功、失败与取消。同时，它修复了MCP工具在连接断开后可能被不安全重放的问题，切实增强了执行可靠性和安全性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3314691153,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.4-nightly.20260804.d6f55a1c9",
+      "title": "QwenLM/qwen-code: Release v0.21.4-nightly.20260804.d6f55a1c9",
+      "published_at": "2026-08-04T02:15:10+00:00",
+      "original_language": "en",
+      "summary_en": "This release bridges existing Electron-based desktop installations to the newer Tauri framework, enabling a seamless transition with improved performance and lower resource consumption. It also fixes a web-shell UI issue where closing a table dialog caused an unwanted scroll jump, and clean up broken CI workflows to ensure a more reliable development pipeline. These changes matter for AI/ML practitioners who rely on Qwen Code's stability and responsiveness during iterative coding sessions.",
+      "summary_zh": "此版本主要将桌面应用从 Electron 迁移至 Tauri 更新，以提升性能与资源占用；同时修复了 Web Shell 中表格对话框关闭时页面异常滚动的问题，并清理了失效的旧的工作流。这些改动增强了应用稳定性与用户体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.4-nightly.20260804.d6f55a1c9",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3322386096,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.32.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.32.0",
+      "published_at": "2026-08-04T07:14:10+00:00",
+      "original_language": "en",
+      "summary_en": "This update enhances session observability by introducing new hook events like TurnStarted, UserPromptQueued, TaskStarted, and SessionHeartbeat, while enriching payloads with contextual details such as session title, client type, model, and profile. It also adjusts the SessionEnd event to correctly report archived sessions, enabling more precise tracking of user interactions and lifecycle states.",
+      "summary_zh": "该版本解决了会话生命周期事件追踪不够全面的问题。主要新增了多个钩子事件（如任务启动、用户提示排队、会话心跳），并丰富了事件负载，添加了会话标题、客户端类型、模型和配置文件等上下文信息。这提升了AI代码交互过程的可观测性，便于开发者进行状态监控与问题诊断。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.32.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
