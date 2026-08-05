@@ -1,0 +1,803 @@
+{
+  "date": "2026-08-05",
+  "items": [
+    {
+      "id": 370643177,
+      "url": "http://arxiv.org/abs/2608.04010v1",
+      "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
+      "published_at": "2026-08-04T17:59:58+00:00",
+      "original_language": "en",
+      "summary_en": "ParVL tackles the inflexible, fixed computation split between vision and language components in multimodal LLMs, which prior scaling methods aggravate with memory-heavy or high-latency expansions. It proposes a parallel scaling framework that reuses a single ViT and LLM backbone across multiple branches, each with lightweight prefix parameters, allowing the model to learn how to",
+      "summary_zh": "现有的多模态大模型扩展策略存在计算分配僵化问题，无法根据任务动态调整视觉与语言部分间的计算资源。ParVL框架通过复用共享骨干网络并引入分支特定前缀参数，实现了并行可扩展的计算分配，在固定参数总量下能弹性优化多模态任务性能。这一方法突破了传统固定分配的限制，为高效多模态推理提供了新路径。",
+      "source": "arxiv_cs_cl",
+      "title_en": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3203658633,
+      "url": "http://arxiv.org/abs/2608.04009v1",
+      "title": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
+      "published_at": "2026-08-04T17:59:56+00:00",
+      "original_language": "en",
+      "summary_en": "SocietyBench introduces a benchmark to evaluate how well large language models forecast real-world social evolution—an ability largely ignored by current task-focused evaluations. It transforms real news and social-media timelines into counterfactual social worlds by anonymizing entities and shifting dates, then generates calibrated and temporally scored forecasting questions. This fills a gap in measuring deep social understanding, which is essential for AI systems operating in societal contexts.",
+      "summary_zh": "该研究针对现有基准仅关注大模型任务完成能力、忽视其对社会事件演变预测的问题，提出了SocietyBench基准，通过构建包含事实与舆论分离的时间线并引入实体与时间偏移的反事实情境，系统评估模型在概率校准和时间准确性两个维度上的社会预测能力，为衡量AI对社会动态的深层理解提供了重要标尺。",
+      "source": "arxiv_cs_cl",
+      "title_en": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 201192442,
+      "url": "http://arxiv.org/abs/2608.04008v1",
+      "title": "WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament",
+      "published_at": "2026-08-04T17:59:55+00:00",
+      "original_language": "en",
+      "summary_en": "This study tackles the problem that traditional LLM forecasting benchmarks are retrospective and vulnerable to data leakage by conducting a prospective evaluation during the live 2026 FIFA World Cup, asking six frontier models to make predictions before each match when no answer existed. The key findings show that the models averaged only 63.9% accuracy on match outcomes—merely matching the bookmaker's favorite—and exhibited strong consensus with each other, often erring together. This matters because it provides a clean, leakage-free methodology that reveals current LLMs do not surpass simple heuristics for real-world prediction and display herd-like behavior, highlighting limitations in their reasoning under uncertainty.",
+      "summary_zh": "该研究解决了大语言模型预测能力评估中普遍存在的数据泄漏（事后回溯）问题。其关键创新在于，在2026年世界杯进行期间，要求六个前沿LLM在每场比赛开球前实时完成预测，由此构建了一个天然无泄漏的评估范式，并积累了4494条打分预测。研究发现，这些模型在比赛结果预测上的平均准确率仅为63.9%，与盲目跟随博彩公司热门选项相当，且模型间存在高度一致但未必正确的行为，这为客观衡量LLM的现实世界预测能力提供了重要基准。",
+      "source": "arxiv_cs_cl",
+      "title_en": "WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1172134123,
+      "url": "http://arxiv.org/abs/2608.04007v1",
+      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+      "published_at": "2026-08-04T17:59:21+00:00",
+      "original_language": "en",
+      "summary_en": "TurnSight tackles the fine-grained credit assignment problem in tool-integrated reasoning by proposing a turn-level hindsight self-distillation framework that derives supervision directly from the agent's own execution states. It constructs multiple hindsight views with varying",
+      "summary_zh": "TurnSight 针对长程工具集成推理中轨迹级监督信用分配粗糙、现有自蒸馏方法依赖不反映真实交互状态的外部特权",
+      "source": "arxiv_cs_cl",
+      "title_en": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4009942589,
+      "url": "http://arxiv.org/abs/2608.04003v1",
+      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+      "published_at": "2026-08-04T17:58:05+00:00",
+      "original_language": "en",
+      "summary_en": "PAST-Bench systematically tests whether personal AI agents actually improve over time from retained experience, a core question for recursive self-improvement. By running agents through ordered task sequences with and without access to past interactions across 26 scenarios, it reveals that gains are real but uneven across capabilities, and that even similar overall improvement can stem from different underlying mechanisms—often failing to follow the intended save-retrieve-update pathway. This benchmark provides a foundational, controlled framework to evaluate and compare how well personal agents turn history into better future behavior.",
+      "summary_zh": "PAST-Bench 基准针对个人AI智能体能否通过积累经验实现递归自我提升这一尚待系统验证的问题，设计了在控制经验保留与否的匹配条件下测试有序任务序列的实验框架，覆盖记忆、程序复用等 26 个场景。研究表明，尽管智能体确实展现出真实但不均衡的改善，但同等进步幅度可能源于不同的内部机制，这为深入理解智能体自我提升的基础能力提供了关键诊断工具。",
+      "source": "arxiv_cs_cl",
+      "title_en": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3077882259,
+      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "title": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+      "published_at": "2026-08-04T00:00:00",
+      "original_language": "en",
+      "summary_en": "Anthropic is appointing Mariano-Florentino (Tino) Cuéllar as Chief Global Affairs Officer to strengthen its capacity for navigating complex international AI policy and governance challenges. This hire signals the company’s commitment to engaging proactively with global regulators and shaping responsible AI development, leveraging Cuéllar’s extensive legal and policy expertise to address the cross-border implications of advanced AI systems.",
+      "summary_zh": "针对人工智能企业在全球范围内面临日益复杂的治理与政策挑战，Anthropic 任命法律与公共政策专家 Mariano-Florentino Cuéllar 担任首席全球事务官。此举旨在以高层战略领导来协调国际监管、推进负责任的人工智能发展，体现该公司对全球对话与伦理框架建设的重视。",
+      "source": "anthropic_news",
+      "title_en": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1881837048,
+      "url": "https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude",
+      "title": "A guide to cost visibility and control in Claude",
+      "published_at": "2026-08-05T10:27:59.184018",
+      "original_language": "en",
+      "summary_en": "This guide tackles the challenge of managing expenses when using Claude by providing strategies and tools for monitoring and controlling API costs. It explains how to gain visibility into token consumption and set usage limits, empowering developers to optimize spending and avoid budget overruns. This is crucial for sustaining cost-effective and scalable AI integration in production systems.",
+      "summary_zh": "该指南针对使用Claude模型时成本不可见或失控的挑战，提出了通过实时监控与预算阈值设置来实现透明化成本管理的方法。其核心在于帮助研究者在模型调用过程中精准追踪费用并主动约束支出，这对规模化AI应用的可持续落地至关重要。",
+      "source": "claude_blog",
+      "title_en": "A guide to cost visibility and control in Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1069353015,
+      "url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving",
+      "title": "NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与自动驾驶的 34B 开源视觉-语言-动作模型",
+      "published_at": "2026-08-05T08:25:11+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA's Alpamayo 2 Super is an open-source 34B-parameter vision-language-action model that tackles long-tail corner cases in robotaxi and autonomous driving scenarios. By releasing the weights under the Linux Foundation's OpenMDW-1.1 license and code under Apache 2.0, it enables immediate commercial deployment, significantly lowering the barrier for safety-critical edge-case handling in self-driving systems.",
+      "summary_zh": "NVIDIA发布的Alpamayo 2 Super是一个34B参数的视觉-语言-动作模型，旨在应对自动驾驶中难以覆盖的长尾场景。该模型采用权重开源许可和Apache 2.0代码，发布即商用，为Robotaxi提供了可直接落地的安全关键决策能力。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与自动驾驶的 34B 开源视觉-语言-动作模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2132330674,
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509161&idx=1&sn=bd9aa077bbc46a6049ad66af6d15af0f",
+      "title": "烧了5亿token后，我给Codex和Claude Code做Skill上下文瘦身的新技巧",
+      "published_at": "2026-08-05T06:46:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The problem addressed is the massive token waste from AI coding assistants (Codex and Claude Code) loading extensive Skill lists in every new session. The key finding is that this Skill overhead consumed ~9.9k tokens per conversation and, under typical monthly",
+      "summary_zh": "该研究针对AI编程工具中大量Skill定义导致的上下文浪费问题，通过清理和精简Codex与Claude Code内300余个Skill列表，发现仅初始Skill列表就占用约9.9k token，按高频使用推算可节省4至5亿token。这一发现揭示了管理上下文长度对降低模型调用成本、提升响应效率的关键意义。",
+      "source": "aihot_selected",
+      "title_zh": "烧了5亿token后，我给Codex和Claude Code做Skill上下文瘦身的新技巧",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1815137201,
+      "url": "https://x.com/elonmusk/status/2084857373555101726",
+      "title": "Grok 4.5 免费体验，推荐 Build 工具链",
+      "published_at": "2026-08-05T04:21:47+00:00",
+      "original_language": "zh",
+      "summary_en": "Grok 4.5 provides a free trial, and the recommended method for leveraging its capabilities is through the official Build toolchain available at X.ai/cli. This toolchain streamlines integration and offers an optimized development experience, making it the most effective way for users to work with Grok.",
+      "summary_zh": "本文指出，要充分发挥 Grok 4.5 的能力，最佳途径是采用官方的 Build 工具链。它通过 X.ai/cli 提供的命令行工具体验，旨在简化 AI 开发流程，让用户更高效地构建智能应用。这一推荐对希望快速落地的开发者尤为重要。",
+      "source": "aihot_selected",
+      "title_zh": "Grok 4.5 免费体验，推荐 Build 工具链",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2982144693,
+      "url": "https://x.com/Alibaba_Qwen/status/2084831888729072121",
+      "title": "Qwen-Image-3.0-Pro 上线 Qwen Cloud",
+      "published_at": "2026-08-05T02:40:31+00:00",
+      "original_language": "zh",
+      "summary_en": "Alibaba's Qwen-Image-3.0 Pro and Standard tackle the challenge of high-fidelity text-to-image generation with extremely long and multilingual prompts. The models rank first among Chinese models and second overall on the Arena leaderboard, uniquely enabling 4.5k-token prompts and precise 10px text rendering across 12 languages. This advance makes sophisticated, fine-grained image synthesis widely accessible via Qwen Cloud at competitive pricing ($0.04/image for Pro).",
+      "summary_zh": "通义千问发布的Qwen-Image-3.0-Pro通过支持4.5k长文本提示、10px级精确文字渲染和12种语言，解决了复杂多语言图像生成场景中的精细控制难题。该模型在文生图竞技场中荣获中国模型第一，并以低至每张0.04美元的起价上线云服务，极大降低了高质量、多语言AI绘图的使用门槛，对全球化内容创作至关重要。",
+      "source": "aihot_selected",
+      "title_zh": "Qwen-Image-3.0-Pro 上线 Qwen Cloud",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2818309592,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684946&idx=1&sn=ae7edcc572b998dc4e1ac3591977aa85",
+      "title": "开源「活人感写作.skill」：一个帮你写出没有AI味的文字的通用写作技能",
+      "published_at": "2026-08-05T01:35:42+00:00",
+      "original_language": "zh",
+      "summary_en": "This open-source \"Human Writing.skill\" addresses the problem of AI-generated text feeling mechanical and impersonal. It works by requiring users to supply real experiences and emotions, while explicitly forbidding the model from using common AI clichés and jargon, and supports multiple LLMs like Qwen 3.8 Max and DeepSeek V4 Pro. The result is writing that feels authentically human, making it valuable for anyone who needs natural, lived-in prose.",
+      "summary_zh": "该技能开源项目旨在解决AI生成文本缺乏真实人味的问题，通过引导用户输入个人经历与情感并禁止使用AI常见的套话和黑话，让文字更具生活感。其关键价值在于提供跨模型（如Qwen、DeepSeek）和跨平台（如WorkBuddy）的通用即用方案，直接帮助用户写出自然无痕的原创内容。",
+      "source": "aihot_selected",
+      "title_zh": "开源「活人感写作.skill」：一个帮你写出没有AI味的文字的通用写作技能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 841220535,
+      "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
+      "title": "LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志",
+      "published_at": "2026-08-04T23:58:24+00:00",
+      "original_language": "zh",
+      "summary_en": "LLM 0.32 解决了大语言模型推理过程不透明和工具集成受限的问题，通过新增推理轨迹显示、服务端工具支持及 OpenAI Responses API 实现。该版本让开发者能更清晰地追踪模型思考过程并直接在服务端调用外部工具，同时默认采用 GPT-5.6 Luna 模型，显著提升了开发透明度和构建智能代理的便捷性。",
+      "summary_zh": "LLM 0.32 版本通过新增推理轨迹展示、服务端工具和 OpenAI Responses API 支持，解决了此前模型交互过程不透明、工具集成困难的问题；其核心创新在于让用户直观查看 AI 思维过程，并默认搭载 GPT-5.6 Luna 模型，极大提升了开发调试效率与应用构建灵活性，对 AI 开发者社区具有里程碑意义。",
+      "source": "aihot_selected",
+      "title_zh": "LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3819478541,
+      "url": "https://x.com/Replit/status/2084761337570144424",
+      "title": "Replit 环境智能：免提示词自动生成设计",
+      "published_at": "2026-08-04T22:00:10+00:00",
+      "original_language": "zh",
+      "summary_en": "Replit的环境智能功能解决了用户在设计过程中不知如何继续的痛点，通过在每个画面旁自动生成多个设计方向建议卡，无需任何提示词或设计语言。点击建议即可立即呈现新画面，这极大地简化了创意探索流程，让任何人都能轻松推进设计，显著降低了使用门槛。",
+      "summary_zh": "Replit 推出环境智能功能，解决设计师在创作中不知下一步该做什么的困扰。它在每个设计画面旁自动生成多张不同方向的建议卡片，用户只需点击喜欢的方向，系统便会直接生成新画面。这一方法省去了手动输入提示词或使用专业设计语言的繁琐，让设计过程更加流畅直观。",
+      "source": "aihot_selected",
+      "title_zh": "Replit 环境智能：免提示词自动生成设计",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3577263806,
+      "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx",
+      "title": "MiniMax-H3 通过 MLX 移植可在 Apple Silicon 上运行",
+      "published_at": "2026-08-04T19:10:09+00:00",
+      "original_language": "zh",
+      "summary_en": "The MiniMax-H3 multimodal generation system, which accepts text, image, audio, and video inputs to produce up to 15-second video clips with audio, was ported via the `PipeNetwork/minimax-h3-mlx` package to run natively on Apple Silicon using MLX. An M5 Max MacBook Pro required downloading roughly 115 GB of model files and completed video generation in under 45 minutes. This port makes a large-scale, all-modality generative model accessible on consumer Apple hardware, removing the need for cloud-based inference.",
+      "summary_zh": "MiniMax-H3 解决了统一处理文本、图像、音频和视频的多模态生成问题，并能输出最长 15 秒的带音频视频。核心进展是通过 MLX 移植将其部署到 Apple Silicon，大幅降低了全模态视频生成对专用硬件的依赖。这使得在 M5 Max 这类消费级设备上本地运行千亿参数级多模态模型成为可能，为边缘端通用内容生成提供了实用参考。",
+      "source": "aihot_selected",
+      "title_zh": "MiniMax-H3 通过 MLX 移植可在 Apple Silicon 上运行",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2076233321,
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "title": "Soup v0.72.4：在4 GB显存笔记本GPU上微调8B模型",
+      "published_at": "2026-08-04T18:17:29.648000+00:00",
+      "original_language": "zh",
+      "summary_en": "Soup v0.72.4 tackles the challenge of fine-tuning large language models on low-resource devices by using QLoRA to enable 8B model adaptation on laptop GPUs with only 4 GB of VRAM, without relying on cloud services or SSH. This dramatically reduces hardware and infrastructure requirements, making powerful model customization directly accessible on consumer hardware.",
+      "summary_zh": "Soup v0.72.4 解决了在显存有限的本地笔记本 GPU 上微调大型语言模型的难题，其关键方法是采用 QLoRA 技术将 8B 模型适配到仅 4 GB 显存中。这使得用户无需依赖云服务或远程连接即可在离线环境下高效定制模型，大幅降低了微调门槛并保护了数据隐私。",
+      "source": "aihot_selected",
+      "title_zh": "Soup v0.72.4：在4 GB显存笔记本GPU上微调8B模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 406214896,
+      "url": "https://x.com/OpenRouter/status/2084699413898027064",
+      "title": "OpenRouter 上线 FLUX 3 Video 统一多模态模型",
+      "published_at": "2026-08-04T17:54:06+00:00",
+      "original_language": "zh",
+      "summary_en": "FLUX 3 Video addresses the fragmentation of multimodal generation by jointly training a single unified architecture on video, audio,",
+      "summary_zh": "FLUX 3 Video 通过统一架构联合训练，解决了视频、音频、图像和动作预测等多模态任务需要分立模型的难题，实现一个模型家族处理多种生成需求。它支持从严肃到电影感等多种创意风格，并已向所有人开放，显著降低了多模态内容创作的复杂度和门槛。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 上线 FLUX 3 Video 统一多模态模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1449407311,
+      "url": "https://www.lmsys.org/blog/2026-08-04-specforge-v0-3",
+      "title": "SpecForge v0.3.0 发布：统一解耦与共置投机解码栈，新增开放 SpecBundle 草稿模型",
+      "published_at": "2026-08-04T17:51:09.590000+00:00",
+      "original_language": "zh",
+      "summary_en": "SpecForge v0.3.0 addresses the tight coupling between target-model inference and draft-model training in speculative decoding by cleanly separating these stages. It introduces a unified stack for both decoupled and co-located workflows, supports multiple draft algorithms (EAGLE3, DFlash, Domino, etc.), and provides open SpecBundle draft models, making deployment and experimentation more flexible and efficient.",
+      "summary_zh": "SpecForge v0.3.0 解决了投机解码中目标模型推理与草稿模型训练紧密耦合的问题，通过将两者解耦，并统一支持 EAGLE3 等六种草稿模型算法以及在线、离线与解耦工作流。这一设计显著提升了推理栈的灵活性和可扩展性，为高效部署异构投机解码方案提供了统一框架。",
+      "source": "aihot_selected",
+      "title_zh": "SpecForge v0.3.0 发布：统一解耦与共置投机解码栈，新增开放 SpecBundle 草稿模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1282426669,
+      "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack",
+      "title": "GitHub 如何用堆叠式 Pull Request 拆解 AI 生成的巨型代码",
+      "published_at": "2026-08-04T16:47:18+00:00",
+      "original_language": "zh",
+      "summary_en": "This article addresses the challenge of reviewing massive AI-generated code diffs (1,000+ lines) by introducing a stacked pull request approach that decomposes the monolithic change into independent, hierarchical layers (data, API, wiring, UI), each assigned to different reviewers. This method significantly improves reviewability and efficiency by isolating concerns and enabling parallel, focused inspection.",
+      "summary_zh": "GitHub 使用堆叠式 Pull Request 将 AI 编码智能体生成的大批量代码（通常超过千行）按功能分层拆解为数据、API、接线、UI 等多个独立的审查单元，从而解决巨型 diff 难以审查的问题。该方法将单次修改分解为 L1-L4 层级递进的拉取请求，每层可指派专门的审查者，提升代码审查效率与准确性。这一实践为管理 AI 生成的大量代码提供了可操作的审阅流程，对保障代码质量与协作安全具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub 如何用堆叠式 Pull Request 拆解 AI 生成的巨型代码",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 525855338,
+      "url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing",
+      "title": "Google Cloud API Gateway 推出统一模型路由功能，支持 Gemini、Claude 与 OpenAI OSS-GPT",
+      "published_at": "2026-08-04T16:45:02.138000+00:00",
+      "original_language": "zh",
+      "summary_en": "Google Cloud API Gateway now offers a model routing feature that addresses the complexity of managing multiple AI model endpoints by letting developers define virtual model mappings in an OpenAPI spec, eliminating hard-coded endpoints and proxy maintenance. It provides a serverless entry layer that accepts standard OpenAI-compatible requests, automatically transcodes them to each target model's native format, and dynamically routes traffic, which simplifies multi-model integration and reduces operational overhead for AI applications.",
+      "summary_zh": "Google Cloud API Gateway 新推出的统一模型路由功能，解决了开发者需硬编码不同模型端点和管理代理的集成难题。通过在 OpenAPI 3.x 规范中定义虚拟模型名映射，该无服务器网关能自动将 OpenAI 兼容请求转码为各模型原生格式并动态路由，无需额外代理，从而大幅简化 Gemini、Claude 等异构模型的统一接入与管理。",
+      "source": "aihot_selected",
+      "title_zh": "Google Cloud API Gateway 推出统一模型路由功能，支持 Gemini、Claude 与 OpenAI OSS-GPT",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 581619181,
+      "url": "https://seed.bytedance.com/zh/blog/seedrealtime-%E9%9F%B3%E8%A7%86%E9%A2%91%E5%85%A8%E5%8F%8C%E5%B7%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83-%E8%B5%B0%E5%90%91%E5%85%A8%E6%A8%A1%E6%80%81%E8%87%AA%E7%84%B6%E4%BA%A4%E4%BA%92",
+      "title": "字节 Seed 发布 SeedRealtime 音视频全双工大模型，走向全模态自然交互",
+      "published_at": "2026-08-04T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "SeedRealtime addresses the limitations of cascade-based multimodal systems, which suffer from unnatural dialogue flow and latency, by introducing a unified architecture that natively fuses audio, video, and text for true real-time, full-duplex interaction. It cuts dialogue rhythm issues by half compared to prior pipelines and has been deployed at scale in the Doubao app, representing the first large-scale rollout of integrated audio-visual full-duplex technology. This advance matters because it enables more fluid, human-like multimodal conversations, moving AI assistants closer to seamless, all-modality natural interaction.",
+      "summary_zh": "字节跳动Seed团队推出的SeedRealtime大模型，通过统一架构原生融合音频、视频与文本，解决了传统级联模型在音视频实时对话中存在的节奏延迟与不流畅问题，将响应延迟显著降低一半。该技术已规模化落地于豆包App，标志着音视频全双工交互从实验室走向大规模应用，推动了AI向全模态自然交互的重要演进。",
+      "source": "aihot_selected",
+      "title_zh": "字节 Seed 发布 SeedRealtime 音视频全双工大模型，走向全模态自然交互",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3412754359,
+      "url": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents",
+      "title": "Google Cloud 推出 Database Operations Agents，实现自主数据库管理",
+      "published_at": "2026-08-04T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Google Cloud addresses the operational complexity of database lifecycle management by introducing two AI agents in its Agentic Data Cloud: the Database Onboarding Agent automates initial setup and deployment (Day 0), while the Database Observability Agent handles monitoring, troubleshooting, and maintenance (Day 1/2). This agent-driven approach enables autonomous database management, reducing manual effort and improving reliability.",
+      "summary_zh": "Google Cloud 推出的两款 AI 智能体，分别针对数据库 Day 0 的安装部署和 Day 1/2 的监控排障，解决了传统数据库管理依赖人工、效率低下的问题。通过自动化配置与持续运维，该方案让数据库管理向自主化迈进，从而降低运维成本、提升系统稳定性。",
+      "source": "aihot_selected",
+      "title_zh": "Google Cloud 推出 Database Operations Agents，实现自主数据库管理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3038773875,
+      "url": "https://x.com/SenseTime_AI/status/2084667189479837741",
+      "title": "商汤 SenseNova U1 开源：统一推理与图像生成",
+      "published_at": "2026-08-04T15:46:03+00:00",
+      "original_language": "zh",
+      "summary_en": "SenseNova U1 addresses the challenge of disjointed reasoning and image generation by unifying both tasks in a single model, enabling seamless multimodal output. Its key approach introduces modes that convert a single prompt into structured infographics or progressively generate illustrated step-by-step guides, like a six-step dragon-drawing tutorial. This open-source model matters because it streamlines content creation, allowing users to produce cohesive, rich visual narratives directly from text prompts, and is readily available on platforms like HuggingFace and GitHub.",
+      "summary_zh": "商汤发布开源模型 SenseNova U1，可在统一流程中同时进行推理与图像生成。其信息图模式可将单条提示词转为结构化幻灯片，交错模式则逐步生成图文内容，如演示六步画龙教程。模型已上线 SenseNova Studio、HuggingFace 及 GitHub。",
+      "source": "aihot_selected",
+      "title_zh": "商汤 SenseNova U1 开源：统一推理与图像生成",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3946714305,
+      "url": "https://x.com/AntLingAGI/status/2084656533489754475",
+      "title": "蚂蚁百灵发布Ling-3.0-flash开源权重",
+      "published_at": "2026-08-04T15:03:43+00:00",
+      "original_language": "zh",
+      "summary_en": "The Ant Group Bailing team has open-sourced the weights for Ling-3.0-flash, making both BF16 and FP8 quantized versions available to address diverse hardware and deployment needs. This release enables researchers and developers to flexibly run a high-performance model on varying compute budgets, lowering the barrier for efficient LLM experimentation and integration.",
+      "summary_zh": "蚂蚁百灵发布了Ling-3.0-flash的开源权重，并提供了BF16与FP8量化版本，以解决在不同硬件资源与部署场景下的高效推理问题。该版本让用户能根据自身性能需求灵活选择模型格式，从而降低大语言模型在实际应用中的计算门槛，推动轻量级AI的普及。",
+      "source": "aihot_selected",
+      "title_zh": "蚂蚁百灵发布Ling-3.0-flash开源权重",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2676428895,
+      "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available",
+      "title": "NVIDIA Alpamayo 2 Super 开放商用，面向 Robotaxi 与自动驾驶的前沿开源模型",
+      "published_at": "2026-08-04T15:00:49+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA Alpamayo 2 Super addresses the need for robust, multi-task reasoning in autonomous driving and robotaxi applications. It builds on the Cosmos 3 Super Reasoner architecture using reinforcement learning post-training, enabling trajectory prediction, causal chain reasoning, meta-actions, automated labeling, and visual question answering. This open-source commercial release matters by providing a unified foundation model that integrates perception, reasoning, and action planning to accelerate advanced autonomous system development.",
+      "summary_zh": "NVIDIA Alpamayo 2 Super 面向自动驾驶场景，通过 Cosmos 3 Super Reasoner 结合强化学习后训练，实现了轨迹预测、因果推理等多任务统一输出。这一开源商用模型降低了 Robotaxi 开发门槛，为复杂驾驶决策提供了可解释、高集成度的基础能力。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA Alpamayo 2 Super 开放商用，面向 Robotaxi 与自动驾驶的前沿开源模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1549140476,
+      "url": "https://blogs.nvidia.com/blog/ai-storage-fms",
+      "title": "NVIDIA 开源 cuFile API，推动 GPU 直连存储",
+      "published_at": "2026-08-04T15:00:47+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA’s open-source cuFile API tackles the I/O bottleneck in GPU computing by enabling direct storage access, slashing latency to microseconds and bypassing CPU intermediaries. The accompanying Vera CPU delivers up to 3.21× higher throughput than x86 in compression/encryption pipelines, while the Storage-Next initiative with 40+ partners standardizes GPU-centric data architectures. This matters for AI/ML because it dramatically accelerates data-intensive workloads like training and inference, reducing pipeline stalls and improving overall system efficiency.",
+      "summary_zh": "NVIDIA 开源 cuFile API 解决了 GPU 与存储之间高延迟的数据访问瓶颈，通过让 GPU 直接读写存储将延迟降至微秒级，同时其 Vera CPU 在压缩加密流水线中吞吐量较 x86 最高提升 3.21 倍，并联合 40 余家厂商推出 Storage-Next 生态计划，这对加速数据密集型 AI 工作负载至关重要。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 开源 cuFile API，推动 GPU 直连存储",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2384288979,
+      "url": "https://x.com/rohanpaul_ai/status/2084655258102546579",
+      "title": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议",
+      "published_at": "2026-08-04T14:58:39+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic has struck a $10 billion deal with Volta, a newly launched cloud startup, aiming to rapidly secure AI compute capacity by relying on rented hardware from Bitdeer, Nvidia, and Dell. In return for accelerated delivery, Anthropic assumes significant counterparty risk that is unusual for hyperscale cloud agreements.",
+      "summary_zh": "该协议解决了AI公司Anthropic对大规模算力的迫切需求，通过向初创云公司Volta采购，以高价换取快速交付。关键在于，这一安排让Anthropic承担了前所未有的交易对手风险，因其绕过传统超大规模云厂商，转而依赖由租赁硬件拼凑而成的新运营商。这凸显了在算力短缺下，AI竞赛正迫使企业做出高风险的非典型供应链决策。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1345920968,
+      "url": "https://blog.cloudflare.com/astro-issue-triage",
+      "title": "Cloudflare 如何用软件工厂将 Astro 的 GitHub issue 数降至零",
+      "published_at": "2026-08-04T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cloudflare deployed an automated triage pipeline using isolated AI sub-agents to reproduce, diagnose, and fix bugs in the Astro repository, reducing open GitHub issues from over 200 to roughly 30 with a target of zero. The label‑driven pipeline auto‑publishes preview builds for user validation, and the underlying engine was released as Flue—an open‑source, platform‑agnostic framework for persistent agents and workflows. This demonstrates how AI‑powered software factories can near‑eliminate issue backlogs and accelerate open‑source maintenance.",
+      "summary_zh": "Cloudflare 通过一个由 issue 标签驱动的自动化分流流水线，利用隔离的 AI 子代理自动复现、诊断并修复 Astro 仓库中的 bug，将开放 issue 从 200 多个大幅削减，有望归零。该做法的核心在于将维护工作转化为可自动执行的软件工厂，其底层引擎已发展为开源框架 Flue，为构建持久化、平台无关的智能工作流提供了通用基础，显著降低了开源项目的维护负担。",
+      "source": "aihot_selected",
+      "title_zh": "Cloudflare 如何用软件工厂将 Astro 的 GitHub issue 数降至零",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4014651463,
+      "url": "https://blog.cloudflare.com/local-tracing",
+      "title": "Cloudflare 让智能体通过本地追踪调试 Workers",
+      "published_at": "2026-08-04T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cloudflare now automatically captures OpenTelemetry traces for local Worker invocations without requiring SDK installation or configuration. This allows AI agents to query traces via a Local Explorer API to diagnose failures, repair local environments, and verify fixes, while developers can also visualize spans, errors, and logs. The approach streamlines local debugging by enabling both automated agent-based repairs and rich human visibility, significantly accelerating development and troubleshooting workflows.",
+      "summary_zh": "Cloudflare 通过在 wrangler dev 和 vite dev 中自动捕获 OpenTelemetry 追踪数据，解决了本地 Worker 调试时缺乏对操作链路和失败原因的洞察问题。智能体可经由 Local Explorer API 直接查询追踪，定位错误、修复环境并验证，大幅提升智能体驱动的本地调试效率与自动化闭环能力。同时，可视化的浏览器界面也为人工开发者提供了 span、错误和日志的直观关联视图。",
+      "source": "aihot_selected",
+      "title_zh": "Cloudflare 让智能体通过本地追踪调试 Workers",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3938737679,
+      "url": "https://blog.cloudflare.com/agents-on-cloudflare",
+      "title": "Cloudflare 推出 Agents 平台，率先上线智能体追踪功能",
+      "published_at": "2026-08-04T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cloudflare addresses the challenge of monitoring AI agent conversations and performance by launching Cloudflare Agents, which unifies agent sessions into a single view and introduces agent tracing. The tracing feature supports popular agent frameworks like OpenAI’s Think, Flue, and AI SDK, measuring metrics such as model calls, tool executions, and token consumption, and matters because it provides OpenTelemetry-compatible observability critical for debugging, cost optimization, and scaling AI-powered applications.",
+      "summary_zh": "Cloudflare Agents 平台旨在解决智能体会话管理分散、难以观测的问题，它将会话统一视图并率先推出 agent tracing 功能。该功能兼容 OpenTelemetry 及主流智能体框架，可精确追踪每次模型调用、工具执行和 token 消耗，为智能体应用的性能诊断与优化提供了关键可观测性支撑。",
+      "source": "aihot_selected",
+      "title_zh": "Cloudflare 推出 Agents 平台，率先上线智能体追踪功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3590618551,
+      "url": "https://blog.cloudflare.com/ci-workflows",
+      "title": "Cloudflare 推出 CI SDK：在 Cloudflare 上为百万级仓库运行 CI/CD 流水线",
+      "published_at": "2026-08-04T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cloudflare’s CI SDK, built on Workflows and Sandbox SDK, lets platform providers run build, lint, type‑check, unit‑",
+      "summary_zh": "Cloudflare 发布的 CI SDK 解决了平台方在其基础设施上安全、高效运行百万级 CI/CD 流水线的难题，它采用 Workflows 和 Sandbox SDK 实现构建、测试、缓存及条件部署等全流程。该方案让开发者无需自建流水线即可直接利用 Cloudflare 的全球网络执行任务，降低了维护成本并提升了规模化处理能力。",
+      "source": "aihot_selected",
+      "title_zh": "Cloudflare 推出 CI SDK：在 Cloudflare 上为百万级仓库运行 CI/CD 流水线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3867595113,
+      "url": "https://blog.cloudflare.com/agent-development-lifecycle",
+      "title": "Cloudflare 推出 Agent Development Lifecycle，让智能体接管更多软件开发生命周期",
+      "published_at": "2026-08-04T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cloudflare introduced the Agent Development Lifecycle (ADLC) to expand AI agents beyond mere code generation, addressing the limitation of traditional software development lifecycles (SDLC) where agents only write code. ADLC integrates AI into a broader range of development stages, enabling agents to assume more responsibilities throughout the process. This shift matters because it moves AI toward full-cycle automation, potentially increasing efficiency and reducing manual effort across the entire software creation pipeline.",
+      "summary_zh": "Cloudflare 提出 Agent Development Lifecycle（ADLC），旨在突破传统软件开发生命周期（SDLC）中 AI 辅助仅限于代码生成的局限，让智能体能够接管更广泛的开发环节。其关键方法是用 ADLC 重构流程，使智能体深度融入规划与执行阶段，从而提升开发效率并推动 AI 在软件工程中的角色从工具向协作者转变。",
+      "source": "aihot_selected",
+      "title_zh": "Cloudflare 推出 Agent Development Lifecycle，让智能体接管更多软件开发生命周期",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 262505655,
+      "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+      "title": "在单颗 AMD MI300X 上运行 DeepSeek V4 Flash",
+      "published_at": "2026-08-04T12:56:45.712000+00:00",
+      "original_language": "zh",
+      "summary_en": "This work addresses the challenge of deploying a massive 304B-parameter model on a single GPU. By providing open-source configurations and patches for the AMD MI300X, it demonstrates production-ready inference without quantization or weight offloading, achieving 168.6 tok/s single-stream decoding and 542 tok/s aggregated throughput across 8 concurrent streams on 192 GB HBM. The validation of 256K context length highlights cost-effective, high-throughput serving of very large models on a single accelerator, broadening hardware options beyond traditional setups.",
+      "summary_zh": "一个开源仓库提供了在单颗 AMD MI300X 上生产运行 DeepSeek-V4-Flash-0731 的完整配置与补丁，无需额外量化或权重卸载。该 304B 参数模型在 192 GB HBM 上实现单流 168.6 tok/s 解码、8 并发流 542 tok/s 聚合吞吐，并验证了 256K 上下文。",
+      "source": "aihot_selected",
+      "title_zh": "在单颗 AMD MI300X 上运行 DeepSeek V4 Flash",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2487488474,
+      "url": "https://www.ithome.com/0/985/665.htm",
+      "title": "工信部发布首部L3/L4自动驾驶系统安全要求强制性国标，2027年7月实施",
+      "published_at": "2026-08-04T11:06:29+00:00",
+      "original_language": "zh",
+      "summary_en": "China has issued its first mandatory national standard (GB 44721-2026) for L3 conditional and L4 highly automated driving systems, upgrading a previous recommended standard to establish a unified safety baseline for autonomous vehicle market access. This regulation, set to take effect in July 2027, addresses the lack of consistent binding safety requirements for high-level automation, ensuring that all products meet a common threshold. It matters because it provides a clear, enforceable framework that accelerates safe deployment and commercialization of autonomous vehicles.",
+      "summary_zh": "该标准解决了我国L3/L4自动驾驶系统缺乏统一安全准入基线的问题，通过将推荐性国标升级为强制性国标，为产品安全设计提供了硬性约束。这将规范高级别自动驾驶的研发与商业化落地，保障公共道路安全，计划于2027年7月实施。",
+      "source": "aihot_selected",
+      "title_zh": "工信部发布首部L3/L4自动驾驶系统安全要求强制性国标，2027年7月实施",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 602232197,
+      "url": "https://arxiv.org/abs/2608.03979",
+      "title": "Video-DeepResearch：迈向下一代多模态深度研究智能体",
+      "published_at": "2026-08-04T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Video-DeepResearch addresses the challenge of extending multimodal AI agents from static images to continuous video streams, targeting bottlenecks like modality bias and parametric knowledge leakage. It introduces a decoupled perception-exploration pipeline with staged tool unlocking, enabling the agent to effectively reason over video. This advance matters for building next-generation deep research agents that can jointly process dynamic visual and textual information.",
+      "summary_zh": "Video-DeepResearch 将多模态智能体从静态图像分析拓展到连续视频流理解，重点解决模态偏差（视觉与文本不对齐）和参数知识泄漏（模型过度依赖预训练知识）两大瓶颈。其核心创新是设计了解耦感知与探索的流水线，并采用分阶段工具解锁策略，让智能体逐步调用外部工具以弥补知识缺口。这项工作为构建能对动态视频进行深度推理与研究的下一代智能体提供了关键思路。",
+      "source": "aihot_selected",
+      "title_zh": "Video-DeepResearch：迈向下一代多模态深度研究智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1005498057,
+      "url": "https://arxiv.org/abs/2608.03316",
+      "title": "Any-OPD：面向流匹配模型的异构同策略蒸馏框架",
+      "published_at": "2026-08-04T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Any-OPD introduces the first on-policy distillation framework for flow-matching models that works across completely heterogeneous architectures by aligning their outputs in a frozen DINOv2 feature space, removing the need for shared VAEs, architectures, or noise schedules. Distilling FLUX.1‑dev into SD3.5‑Medium produces a student with one‑fifth the parameters yet nearly matching teacher‑level quality on PickScore and HPSv3, while standard latent‑regression distillation fails entirely. This",
+      "summary_zh": "Any-OPD 解决了异构流匹配模型之间的高效知识迁移难题，提出首个无需共享 VAE、架构或噪声调度的同策略蒸馏框架，仅靠冻结的 DINOv2 表示空间来对齐师生模型。该框架将十倍参数量的 FLUX.1-dev 知识蒸馏至 SD3.5-Medium，大幅提升学生模型的 PickScore 与 HPSv3 指标，在参数量仅为教师五分之一的情况下逼近其性能，而传统潜在回归方法则完全失效，验证了该方案在异构生成器蒸馏中的关键价值。",
+      "source": "aihot_selected",
+      "title_zh": "Any-OPD：面向流匹配模型的异构同策略蒸馏框架",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3275673979,
+      "url": "https://www.tomtunguz.com/what-if-gpu-prices-double",
+      "title": "杰文斯悖论还能持续吗：AI 定价分层如何支撑算力需求增长",
+      "published_at": "2026-08-04T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The article examines the sustainability of Jevons paradox in AI computing demand by analyzing evolving pricing strategies. It highlights that while computing supply remains insufficient, diverging pricing approaches—Anthropic’s doubling of output token costs versus OpenAI’s steep price cut—reveal a layered pricing structure. This finding matters because it suggests market segmentation may sustain demand growth even as efficiency improves, challenging the simple assumption that lower unit costs always expand total consumption.",
+      "summary_zh": "本文探讨了杰文斯悖论在AI算力需求中的适用性，面对算力供不应求的整体态势，Anthropic与OpenAI分别采取涨价与降价的定价分层策略。该现象揭示了差异化的定价机制如何影响需求的持续膨胀，为预测算力市场走向与资源配置提供了关键洞察。",
+      "source": "aihot_selected",
+      "title_zh": "杰文斯悖论还能持续吗：AI 定价分层如何支撑算力需求增长",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2927433752,
+      "url": "https://openrouter.ai/blog/announcements/ori-harness",
+      "title": "OpenRouter 推出 ori CLI：为 Claude Code 等 Harness 提供开箱即用的优化配置",
+      "published_at": "2026-08-04T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter's ori CLI eliminates the manual hassle of configuring numerous environment variables for AI coding harnesses such as Claude Code, Codex, and Hermes. After a simple install and login, it instantly provides optimized, out-of-the-box configurations, streamlining developer workflows and reducing setup friction.",
+      "summary_zh": "OpenRouter 推出的 ori CLI 解决了在 Claude Code 等 AI 代码助手工具（harness）中手动配置复杂环境变量的问题。其关键方法是提供一键式安装和登录，即可自动加载针对不同工具的优化配置。这一举措显著降低了开发者的使用门槛，让更多人可以便捷高效地接入先进的 AI 编程体验。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 推出 ori CLI：为 Claude Code 等 Harness 提供开箱即用的优化配置",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1074964509,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.6-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.21.6-preview.0",
+      "published_at": "2026-08-05T01:03:34+00:00",
+      "original_language": "en",
+      "summary_en": "This preview release enhances Qwen-Code's ability to capture and trace development context by recording PR, issue, and comment URLs as artifacts, and adds diagnostic checks for the browser extension's readiness. It also documents workflows for headless Goal-based automation, improving transparency and reliability in AI-assisted coding pipelines.",
+      "summary_zh": "该版本发布为 qwen-code 的 v0.21.6-preview.0，重点增强浏览器扩展的 alpha 诊断能力，并新增无界面 Goal 工作流的文档支持。通过记录 PR、issue 和评论 URL 作为构建产物，进一步提升开发流程的可追溯性，这有助于早期发现和调试问题，提升集成效率。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.6-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1541014496,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.5-nightly.20260805.32e274157",
+      "title": "QwenLM/qwen-code: Release v0.21.5-nightly.20260805.32e274157",
+      "published_at": "2026-08-05T00:58:35+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release addresses several gaps in the Qwen‑Code toolchain: it adds diagnostics for the browser extension’s alpha readiness, documents headless execution of Goal workflows for CI/unattended use, and guides the automatic capture of pull request, issue, and comment URLs as artifacts. These changes collectively improve extension stability testing, enable seamless integration in automated pipelines, and enrich artifact traceability—making the platform more robust and",
+      "summary_zh": "该版本针对提升开发工作流可观测性与自动化水平，引入了浏览器扩展的alpha状态诊断工具、编写了无头Goal工作流文档，并新增将PR/Issue及评论URL记录为工件的能力。这些更新帮助用户更早发现集成问题、实现全自动化流程，并以结构化方式追溯决策上下文，从而增强AI编码辅助的可信度与工程实践性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.5-nightly.20260805.32e274157",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1526714996,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.1.0",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.1.0",
+      "published_at": "2026-08-05T10:06:19+00:00",
+      "original_language": "en",
+      "summary_en": "Qwen Code Desktop v0.1.0 resolves early stability and usability issues for the AI-assisted coding environment. Key fixes include correcting CI container shell defaults, preserving pasted text in the composer, and adding task monitor details in the web shell, which together improve development reliability and debugging visibility. These refinements directly benefit AI/ML researchers by ensuring a smoother, more dependable interaction with the tool during code generation and experimentation.",
+      "summary_zh": "Qwen Code Desktop v0.1.0 版本主要修复了 Web Shell 环境下粘贴文本丢失和 CI 流水线默认 Shell 缺失等体验问题，并为监控任务补充了详细状态信息。这些改进提升了开发工具的稳定性和可观测性，对依赖终端交互的 AI 编码场景更具实用价值。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.1.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2428716775,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.33.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.33.0",
+      "published_at": "2026-08-05T08:24:45+00:00",
+      "original_language": "en",
+      "summary_en": "This update makes it easier to install and manage Kimi’s Computer Use and WebBridge features by integrating them as built-in official marketplace entries in the v2 CLI. The installation process now automatically bundles the latest managed runtime and plugin, flags any missing manual steps, and supports retrying interrupted setups, reducing friction and setup errors for users.",
+      "summary_zh": "### Minor Changes\n\n- [#2407](https://github.com/MoonshotAI/kimi-code/pull/2407) [`0abcd00`](https://github.com/MoonshotAI/kimi-code/commit/0abcd00f7fd3e3cbf087509ffef1c54a6f8d396d) Thanks [@wbxl2000](https://github.com/wbxl2000)! - Add Kimi Computer Use and Kimi WebBridge as built-in official market",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.33.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
