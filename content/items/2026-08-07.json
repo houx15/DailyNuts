@@ -1,0 +1,670 @@
+{
+  "date": "2026-08-07",
+  "items": [
+    {
+      "id": 3819044701,
+      "url": "http://arxiv.org/abs/2608.06377v1",
+      "title": "Learning When to Trust via Selective Context Preference Optimization",
+      "published_at": "2026-08-06T17:59:58+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the vulnerability of language models to misleading external context while avoiding the pitfall of making them ignore all context. It introduces MIST, a four-condition benchmark, and proposes SCOPE, which fine-tunes models via Direct Preference Optimization over balanced preference pairs from clean-correct and misleading-wrong scenarios to learn selective trust. This method improves robustness by enabling models to appropriately discount deceptive signals without forfeiting beneficial information.",
+      "summary_zh": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is wo",
+      "source": "arxiv_cs_cl",
+      "title_en": "Learning When to Trust via Selective Context Preference Optimization",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3961311842,
+      "url": "http://arxiv.org/abs/2608.06370v1",
+      "title": "The Bitter Lesson of Tool Calling",
+      "published_at": "2026-08-06T17:58:32+00:00",
+      "original_language": "en",
+      "summary_en": "This work addresses the absence of a systematic evaluation comparing programmatic tool calling (using typed Python stubs) with native JSON tool calling for LLM agents. Evaluating 14 models on the BFCL v4 benchmark, it finds programmatic calling matches or exceeds JSON in 11 models, with a 10.6% improvement for GPT-5.6, and outperforms in 13 under parallel fan-out. The results highlight that code-based tool integration enables more capable and efficient agents, reinforcing the broader principle of leveraging computation over rigid structures.",
+      "summary_zh": "该研究系统性地比较了程序化工具调用（PTC，以代码形式调用工具）与原生 JSON 工具调用在 14 个模型上的表现，发现 PTC 在 11 个模型中匹配或超越基线，且在并行任务中几乎普遍占优。这一发现揭示了让代码能力强的模型直接编写调用代码可能比强迫输出 JSON 更高效、更符合模型内在能力，对构建更强大、可扩展的智能体系统具有重要启示。",
+      "source": "arxiv_cs_cl",
+      "title_en": "The Bitter Lesson of Tool Calling",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 936180659,
+      "url": "http://arxiv.org/abs/2608.06366v1",
+      "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+      "published_at": "2026-08-06T17:57:37+00:00",
+      "original_language": "en",
+      "summary_en": "This work tackles the bottleneck of electronic health record feature engineering in heart failure research, where fragmented data and clinical guideline integration demand significant manual effort. The authors present nMAS, a multi-agent system that automates feature generation with evidence provenance and rubric-based quality scoring, creating structured and aggregated features. Adding these features boosted a heart failure model's held-out AUROC substantially (e.g., from 0.895 to 0.963), demonstrating an auditable pipeline that could both streamline AI development and improve predictive accuracy.",
+      "summary_zh": "该研究解决了心力衰竭研究中电子健康记录特征工程耗时长且缺乏证据可追溯性的难题，提出了一种名为nMAS的多智能体自动化管道，将碎片化的EHR数据与临床指南深度结合。通过生成132个结构化和70个经量规评分的聚合特征，该方法将心衰分型预测的AUROC从0.895提升至0.963，显著提高了模型性能。这一工作用可溯源、规范化的方式大幅减轻了数据科学家的手工负担，为临床人工智能的可信落地提供了实用路径。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 524032979,
+      "url": "http://arxiv.org/abs/2608.06362v1",
+      "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+      "published_at": "2026-08-06T17:57:11+00:00",
+      "original_language": "en",
+      "summary_en": "This work tackles the costly problem of reliably comparing AI agents in high-variance imperfect-information games, where fixed-budget evaluations can be wasteful or inconclusive and naive early stopping breaks statistical guarantees. The authors introduce AV-AIVAT, which marries the variance-reducing AIVAT technique with anytime-valid confidence sequences, enabling evaluation to stop as soon as a pre-specified confidence level is reached while preventing data leakage by using only past games for correction. Their method reduces the required number of games by a median of 54× across 15 LLM-based poker agents, cutting evaluation costs by 74× and making rigorous, anytime-valid experiments practical at scale.",
+      "summary_zh": "针对不完美信息游戏中智能体评估成本高昂且难以确定何时停止的问题，本文提出了AV-AIVAT方法，将方差缩减技术AIVAT与连续监测的置信序列相结合，实现了有保证的随时停止。该方法可在证据充分时立即终结评估，使成本降低74倍，同时保持宣称的置信水平有效。这为大型语言模型等昂贵智能体的大规模可靠评测提供了切实可行的方案。",
+      "source": "arxiv_cs_cl",
+      "title_en": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1091657228,
+      "url": "http://arxiv.org/abs/2608.06361v1",
+      "title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+      "published_at": "2026-08-06T17:57:06+00:00",
+      "original_language": "en",
+      "summary_en": "This work addresses the difficulty of isolating failure modes in video language models when standard benchmarks entangle event rate, duration, and visual complexity. By introducing trace-grounded parametric profiling with controlled videos and executable event traces, the study exposes a stark staged failure: models can count persistent state transitions at slow speeds but completely fail on transient blinks, revealing a fundamental temporal weakness beyond frequency alone. This matters because it demonstrates that even top models lack reliable event-level bookkeeping, a basic requirement for trustworthy video understanding in real applications.",
+      "summary_zh": "该研究针对现有视频基准中事件数量、频率等混杂导致难以定位模型失败模式的问题，提出基于事件轨迹的参数量化评测方法，在弹跳球碰撞、闪烁和状态转换三类受控任务中系统分析视频语言模型计数能力。结果发现模型对持续性状态转换事件在0.5–1.0赫兹下能较可靠计数（上限约12次），却完全无法可靠处理短暂的闪烁事件，揭示了低频瞬态事件的“计数陷阱”，为视频理解的时间处理瓶颈提供了细粒度诊断。",
+      "source": "arxiv_cs_cl",
+      "title_en": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2924007535,
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "title": "Improving Fable 5's biology safeguards",
+      "published_at": "2026-08-07T00:00:00",
+      "original_language": "en",
+      "summary_en": "The project tackles the risk of AI-assisted biological misuse by strengthening the safety guardrails in the Fable 5 model. It refines the model's refusal and filtering mechanisms to block harmful queries related to pathogen design or biological weapons. This matters for biosecurity as it reduces the potential for open-access AI tools to lower the barrier for biological threats.",
+      "summary_zh": "该研究针对AI模型（如Fable 5）可能输出敏感生物信息所带来的生物安全风险，提出了强化生物学防护机制的改进方案。其关键发现或方法在于通过技术升级降低模型生成有害生物知识的可能性，这对防止技术滥用、保障公共安全具有重要现实意义。",
+      "source": "anthropic_news",
+      "title_en": "Improving Fable 5's biology safeguards",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2621690087,
+      "url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
+      "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
+      "published_at": "2026-08-07T08:48:35.424048",
+      "original_language": "en",
+      "summary_en": "Millennium and Anthropic are collaborating to create a digital risk analyst powered by Claude, addressing the challenge of automating complex financial risk assessment. The approach leverages Claude’s advanced language understanding to analyze and interpret risk-related data, potentially offering faster, more nuanced insights than traditional methods. This matters because it could transform how investment firms identify and manage risk, enhancing decision-making and operational efficiency.",
+      "summary_zh": "Millennium 与 Anthropic 正联手利用 Claude 打造一款数字风险分析师。该工具旨在将 AI 引入金融风险管理，通过自动化分析市场、信用和操作风险，提升决策效率与准确性，标志着大模型在复杂金融任务中的深度落地。",
+      "source": "claude_blog",
+      "title_en": "Millennium and Anthropic are building a digital risk analyst with Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4283295739,
+      "url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
+      "title": "Run Claude Code sessions on your own compute",
+      "published_at": "2026-08-07T08:48:35.424478",
+      "original_language": "en",
+      "summary_en": "This announcement addresses the limitation of having Claude Code sessions tied exclusively to Anthropic’s cloud infrastructure by allowing users to run them on their own compute. The key advance is the ability to execute the coding assistant locally, granting developers greater privacy, reduced latency, and full control over their environment. This matters because it enables secure, self-hosted workflows and removes reliance on external servers for sensitive or constrained projects.",
+      "summary_zh": "该方案针对开发者希望在本地执行Claude Code会话的需求，支持将代码助手部署到自有计算设备上，避免依赖云端服务。这能增强数据隐私、降低延迟并实现离线操作，对注重安全和效率的AI/ML研发工作流具有重要价值。",
+      "source": "claude_blog",
+      "title_en": "Run Claude Code sessions on your own compute",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1204494380,
+      "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
+      "title": "How Anthropic secures its AI-native software development lifecycle",
+      "published_at": "2026-08-07T08:48:35.429648",
+      "original_language": "en",
+      "summary_en": "Anthropic addresses the challenge of maintaining code security when the development lifecycle itself is AI-native, where traditional safeguards may not catch risks introduced by AI-generated code or processes. The key finding is a set of internal practices—likely involving layered verification, automated auditing, and tight integration of human oversight with AI tools—to ensure that AI-assisted development does not compromise software integrity. This matters for the broader industry as it offers a blueprint for trustworthy deployment of AI in critical engineering pipelines, reducing the chance of subtle vulnerabilities that could scale rapidly.",
+      "summary_zh": "Anthropic 解决了在软件开发全生命周期中深度集成 AI 所带来的独特安全风险。他们的关键思路是将安全防护直接嵌入 AI 辅助的编码、测试与部署流程，以确保 AI 生成的代码不会引入漏洞或后门。这对于在 AI 日益自主编写软件的时代维护供应链安全和系统可靠性至关重要。",
+      "source": "claude_blog",
+      "title_en": "How Anthropic secures its AI-native software development lifecycle",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3989712775,
+      "url": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code",
+      "title": "How Datadog built a “universal machine tool” for Claude Code",
+      "published_at": "2026-08-07T08:48:35.430105",
+      "original_language": "en",
+      "summary_en": "Datadog created a \"universal machine tool\" that connects its observability platform to Anthropic’s Claude Code, solving the problem of AI coding assistants lacking live operational context. The tool lets developers query logs, metrics, and traces in natural language directly within their IDE, transforming Claude into a proactive debugging and incident‑response partner. This integration bridges the gap between code creation and runtime monitoring, making AI‑driven development safer and more productive for complex, production‑grade systems.",
+      "summary_zh": "Datadog 构建了一个面向 Claude Code 的“通用机器工具”，旨在解决开发环境中多种工具集成与操作碎片化的问题。  \n其核心方法是提供统一接口，让 Claude Code 能像操作单一工具一样调用不同开发工具，从而简化 AI 辅助编码流程。  \n这一集成有助于提升开发效率，减少上下文切换，使开发者能更流畅地利用大型语言模型进行代码生成与维护。",
+      "source": "claude_blog",
+      "title_en": "How Datadog built a “universal machine tool” for Claude Code",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1999803571,
+      "url": "https://podcasters.spotify.com/pod/show/firstmark/episodes/How-to-Build-Long-Horizon-AI-Agents--Mitch-Troyanovsky--Basis-e3n1s78",
+      "title": "How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
+      "published_at": "2026-08-06T11:30:01",
+      "original_language": "en",
+      "summary_en": "The talk addresses the failure of AI agents in long-duration, real-world tasks like completing complex tax returns, which typically break despite excelling at short coding tasks. The key approach is shifting from evaluating final outcomes to supervising the execution process itself, enabling agents to run autonomously for hours or days. This matters because it provides a practical framework for building reliable, long-horizon agents that can handle intricate, multi-step work in the real economy.",
+      "summary_zh": "本对话聚焦于AI智能体在现实经济中长期自主执行复杂任务时容易失效的可靠性难题，核心方法是放弃仅评判最终结果，转而深入监督执行过程。这一思路使 Basis 公司的智能体能够连续数小时甚至数天端到端完成税务申报，为构建稳健的长程AI系统提供了重要实践参考。",
+      "source": "mad_podcast",
+      "title_en": "How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 249530254,
+      "url": "https://x.com/krea_ai/status/2085629541385736662",
+      "title": "Krea 推出 Seedance 2.5 视频模型",
+      "published_at": "2026-08-07T07:30:06+00:00",
+      "original_language": "zh",
+      "summary_en": "Krea's Seedance 2.5 video model addresses the challenge of generating coherent, long-form video content by enabling 30-second continuous sequences with complete multi-shot narratives, guided by up to 50 reference inputs. This advance pushes AI video generation toward production-quality consistency and narrative control, reducing fragmentation in auto-generated videos and supporting more complex, story-driven applications. It matters because it narrows the gap between short, disjointed clips and practical filmmaking or advertising use cases.",
+      "summary_zh": "Krea推出的Seedance 2.5视频模型解决了AI视频生成中时长受限与多镜头叙事不连贯的难题，其关键突破在于能生成30秒连续视频并编排完整的多镜头序列，同时支持最多50个参考输入来保持视觉一致性。这一进展赋予创作者更强的可控性与叙事能力，对制作复杂的长时视频故事具有重要价值。",
+      "source": "aihot_selected",
+      "title_zh": "Krea 推出 Seedance 2.5 视频模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1047751962,
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498927&idx=1&sn=c5fbfaac5ede8b1008d17337a1bdc70b",
+      "title": "独立开发者用 VoxCPM 克隆网红声音，让 AI 终于\"会聊天\"了",
+      "published_at": "2026-08-07T06:41:21+00:00",
+      "original_language": "zh",
+      "summary_en": "An independent developer used the open-source VoxCPM model to clone the voice of a popular influencer, building a three-stage real-time dialogue pipeline (STT → LLM → VoxCPM TTS) that achieved under 1-second time-to-first-byte in TTS and an end-to-end perceived latency of 2–3 seconds. This demonstrates how accessible voice cloning and low-latency speech synthesis can make AI conversations feel more natural and engaging for mainstream applications.",
+      "summary_zh": "该工具利用面壁智能的开源模型 VoxCPM 克隆高辨识度的网红声音，通过语音识别、大语言模型和语音合成三段式管道，实现了首包延迟不足 1 秒、端到端体感 2 到 3 秒的实时对话。这解决了传统 TTS 机械感强、交互不自然的问题，让 AI 能够以更具亲和力和沉浸感的方式“聊天”，显著提升了人机语音交互的体验。",
+      "source": "aihot_selected",
+      "title_zh": "独立开发者用 VoxCPM 克隆网红声音，让 AI 终于\"会聊天\"了",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3399545273,
+      "url": "https://www.ithome.com/0/986/957.htm",
+      "title": "OpenAI 披露 ChatGPT 全球 10 亿用户画像：35 岁及以上用户用量上升",
+      "published_at": "2026-08-07T06:28:51+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI reports that its ChatGPT platform has surpassed 1 billion users, revealing a usage shift from simple Q&A to task-oriented work—users are over twice as likely to complete or create content in professional contexts. Notably, adoption among users aged 35 and above has grown significantly, with their message share rising 5 percentage points year-over-year, alongside increased multimedia engagement after the ChatGPT Images 2.0 launch. This signals a maturing AI product that's increasingly serving as a productivity tool for older demographics, carrying implications for interface design, model specialization, and real-world deployment strategies.",
+      "summary_zh": "OpenAI 的报告揭示 ChatGPT 的用户行为正从单纯问答转向以完成任务为导向，且工作场景中使用频率远高于非工作场景。同时，多媒体生成功能推动图像消息占比提升，35 岁及以上用户群体增长显著，尤其在欧洲部分国家。这些发现说明生成式 AI 的服务重心和用户结构正在多元化，为产品优化与市场拓展提供了方向。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 披露 ChatGPT 全球 10 亿用户画像：35 岁及以上用户用量上升",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2910394802,
+      "url": "https://www.ithome.com/0/986/951.htm",
+      "title": "谷歌推出 WeatherNext 气旋模型，AI 高精度预报飓风平均提前 24 小时",
+      "published_at": "2026-08-07T06:11:01+00:00",
+      "original_language": "zh",
+      "summary_en": "Google DeepMind and collaborators introduced WeatherNext Cyclones, an AI model that significantly advances tropical cyclone forecasting by improving the prediction of track, intensity, and wind field structure. It extends the effective forecast horizon from two to three days, providing an average of 24 hours earlier warning—a leap roughly equivalent to a decade of progress in meteorology—thereby enhancing early-warning capabilities for high-impact storms.",
+      "summary_zh": "谷歌 DeepMind 推出的 WeatherNext 气旋模型解决了传统飓风预报时效短、精度不足的问题，通过 AI 实现路径、强度和风场结构的业界领先预测。其关键突破是将有效预报时长从 2 天延长至 3 天，平均提前 24 小时发出预警，这一进展量级相当于过去 10 年的气象发展，对防灾减灾具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "谷歌推出 WeatherNext 气旋模型，AI 高精度预报飓风平均提前 24 小时",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2853521687,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
+      "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
+      "published_at": "2026-08-07T06:01:45+00:00",
+      "original_language": "zh",
+      "summary_en": "Seedance 2.5 API addresses the challenge of limited duration and consistency in AI video generation by doubling the maximum output length to 30 seconds and supporting up to 50 multimodal reference inputs, while also significantly improving instruction following, narrative coherence, realism, and audio-visual quality. Its ability to maintain stable multi-character appearances and scene relationships across the generated video, along with multilingual compatibility, marks a meaningful step toward “cinematic long-form storytelling,” enabling more complex and professional video content creation.",
+      "summary_zh": "Seedance 2.5 API 针对现有AI视频生成时长过短、无法稳定维持复杂叙事的问题，将单次视频生成时长从15秒提升至30秒，并支持最多50个全模态素材参考，显著强化了指令遵循、长叙事和真人质感。这一升级使得视频生成能稳定保持多角色外形与场景关系，兼容十余种语言，为电影级长叙事内容的高效创作提供了关键工具，推动了AI视频生成从片段走向完整故事的实用化落地。",
+      "source": "aihot_selected",
+      "title_zh": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4165628947,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
+      "title": "千问功能上新：推出思考研究、定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
+      "published_at": "2026-08-07T02:04:51+00:00",
+      "original_language": "zh",
+      "summary_en": "千问's latest update, powered by the Qwen3.8‑MAX model, tackles productivity gaps by strengthening complex reasoning and tool invocation, automating scheduled periodic reports, and integrating with calendars, memos, and browsers to directly generate usable Office documents. This matters because it streamlines knowledge‑work routines and offers round‑the‑clock voice support across domains like logistics and real estate, making advanced AI assistance more actionable and accessible.",
+      "summary_zh": "千问此次通过推出思考研究、定时任务、办公助理和语音通话等新功能，并搭载旗舰模型Qwen3.8-MAX，重点解决了复杂推理、周期性工作自动化和跨应用办公效率问题。其关键升级在于强化工具调用与多场景覆盖，使AI能直接输出文档、连接电脑应用并实现24小时语音服务，从而大幅提升知识与劳动密集型任务的处理效能，对物流、房产等行业的智能化落地具有重要推动作用。",
+      "source": "aihot_selected",
+      "title_zh": "千问功能上新：推出思考研究、定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3625565072,
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "title": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限",
+      "published_at": "2026-08-06T23:01:28.628000+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI addresses the enduring challenge of factual reliability and response focus in large language models by refining GPT-5.6 Sol for paying subscribers, introducing a controllable reasoning effort slider, and expanding advanced reasoning capabilities to free users through the upgraded GPT-5.6 Luna default model with a dedicated “Think” button. This update matters because it effectively democratizes access to iterative, focused reasoning tools, bridging the gap between casual universal access and high-stakes, verifiable accuracy.",
+      "summary_zh": "OpenAI通过提升GPT-5.6 Sol的事实准确性与回答聚焦度，并为付费用户新增思考投入控制滑块，解决了模型响应质量与可控性问题；同时将免费用户默认模型升级至GPT-5.6 Luna，并开放无限文本聊天和复杂问题处理按钮，这显著扩大了高级AI能力的普惠范围，在平衡用户体验与资源消耗上迈出关键一步。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3312814115,
+      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
+      "title": "GitHub Copilot 应用中的斜杠命令使用指南",
+      "published_at": "2026-08-06T19:49:34+00:00",
+      "original_language": "zh",
+      "summary_en": "The GitHub Copilot app's slash commands address the need for structured, workflow-oriented AI-assisted development beyond simple code completions. It introduces commands like `/plan` for pre-coding strategy, `/spar` to stress-test assumptions, and `/autopilot` for autonomous implementation, shifting from the CLI's basic toolset to a guided, interactive planning and execution model. This matters because it enables developers to embed systematic reasoning and automation directly into their coding sessions, improving code quality and reducing cognitive overhead during complex tasks.",
+      "summary_zh": "本文介绍了 GitHub Copilot 应用中斜杠命令的核心功能，旨在解决编码会话管理和工作流定制问题。其关键发现是应用端命令更侧重工作流驱动（如用 `/plan` 规划、`/spar` 质疑假设、`/autopilot` 自动执行），与 CLI 版侧重交互式编程形成互补。这很重要，因为它揭示了 Copilot 从代码补全向全流程协作助手的演化，能帮助开发者更高效地驾驭复杂项目。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub Copilot 应用中的斜杠命令使用指南",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2333349376,
+      "url": "https://x.com/AISafetyMemes/status/2085447739320758622",
+      "title": "科学家首次用AI制造新病毒",
+      "published_at": "2026-08-06T19:27:41+00:00",
+      "original_language": "zh",
+      "summary_en": "This report highlights the first instance of scientists using AI to synthesize a new virus, raising both medical promise and biosecurity concerns. The key finding is that AI can now design and help create functional viral pathogens from scratch, demonstrating a powerful new capability. It matters because while this could accelerate vaccine and therapy development, it also underscores the urgent need for safeguards to prevent the misuse of AI for engineering dangerous biological agents.",
+      "summary_zh": "科学家首次利用人工智能成功设计并制造出全新病毒，这一突破展示了AI在加速疫苗开发和医学研究中的潜力。同时，它也引发了对该技术可能被滥用来制造致命病原体的担忧，凸显了在生物安全领域建立严格监管的紧迫性。",
+      "source": "aihot_selected",
+      "title_zh": "科学家首次用AI制造新病毒",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 223909416,
+      "url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
+      "title": "Agent Plugins 1.0.0 发布：谷歌、亚马逊、微软等支持的统一智能体插件规范",
+      "published_at": "2026-08-06T16:53:12.298000+00:00",
+      "original_language": "zh",
+      "summary_en": "Agent Plugins 1.0.0 tackles the fragmentation in AI agent tooling by establishing a vendor-neutral specification that bundles Agent Skills and MCP servers into a single portable unit via a standardized plugin.json manifest and directory layout. This eliminates the need for developers to maintain separate packages for different AI coding agents and IDEs, reducing duplication and friction. With backing from Google, Amazon, and Microsoft—and Google already integrating support into its Agents CLI and Data Agent Kit—it stands to become a widely adopted interoperability layer for the agent ecosystem.",
+      "summary_zh": "Agent Plugins 1.0.0 针对开发者需为不同 AI 编码智能体和 IDE 分别维护插件的问题，提出了一套由谷歌、亚马逊、微软等支持的统一规范，通过标准化的 plugin.json 清单和固定目录布局，将 Agent Skills 和 MCP 服务器打包为单一可移植单元。这一中立规范降低了多平台维护成本，并将加速 AI 智能体生态的互操作性，其中谷歌已作为核心维护者在其工具中集成支持。",
+      "source": "aihot_selected",
+      "title_zh": "Agent Plugins 1.0.0 发布：谷歌、亚马逊、微软等支持的统一智能体插件规范",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3724248357,
+      "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case",
+      "title": "OpenAI 称苹果自身安全实践削弱其商业机密诉讼",
+      "published_at": "2026-08-06T15:10:32+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI argues that Apple's lawsuit lacks merit because Apple itself failed to protect its information properly—allowing employees to use personal iCloud for work and not revoking access after departure—so the information cannot qualify as protectable trade secrets. OpenAI also contends that Apple has not identified any specific stolen secrets and is instead using litigation to stifle innovation by a competitor in the AI hardware space.",
+      "summary_zh": "OpenAI 驳回苹果商业机密诉讼的核心论点是：苹果自身安全实践松懈（如允许员工用个人 iCloud 处理公务且离职后未及时撤销访问权限）使得相关数据不构成受法律保护的商业机密，且苹果未能指明具体被窃取的机密。这一争议不仅关乎商业秘密的法律认定标准，更反映出苹果可能以诉讼为手段阻碍AI硬件领域竞争，对科技行业的数据治理与竞争策略有重要启示。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 称苹果自身安全实践削弱其商业机密诉讼",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2587161790,
+      "url": "https://x.com/rohanpaul_ai/status/2085368375816163423",
+      "title": "微软首次披露OpenAI贡献七成AI收入",
+      "published_at": "2026-08-06T14:12:19+00:00",
+      "original_language": "zh",
+      "summary_en": "Microsoft disclosed that roughly 70% of its $24.1 billion AI revenue comes from OpenAI, mainly as cloud infrastructure fees for training and running ChatGPT, plus model development costs and a share of OpenAI’s own sales. This finding underscores the deep financial interdependence between the two companies and reveals that the bulk of Microsoft’s AI top line rides on its OpenAI partnership, even as Microsoft has invested $11.9 billion in the startup.",
+      "summary_zh": "该披露解决了市场对微软AI收入来源的困惑，指出其约70%来自OpenAI的云训练及推理开销、模型开发成本与销售分成。这一发现揭示了微软AI业务的底层结构高度依赖单一合作伙伴，且巨额投入与收入强绑定，对评估微软的AI战略风险至关重要。",
+      "source": "aihot_selected",
+      "title_zh": "微软首次披露OpenAI贡献七成AI收入",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2176262527,
+      "url": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
+      "title": "左右两派罕见达成一致：反对数据中心",
+      "published_at": "2026-08-06T14:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "A grassroots bipartisan movement, led by conservative group Humans First, is successfully opposing AI data center construction due to concerns over groundwater contamination and environmental risks, with a Florida county imposing a one-year ban. This rare political alignment highlights a rising societal constraint on AI infrastructure expansion and could reshape the midterm election landscape by challenging traditional party stances on tech development.",
+      "summary_zh": "美国两党民众罕见地联合反对AI数据中心建设，担忧其导致地下水污染和永久化学品（PFAS）扩散等环境问题。佛罗里达州埃尔南多县已一致通过一年建筑禁令，保守派组织Humans First成为推动力量。这一趋势正打破传统党派界限，并可能重塑即将到来的中期选举政治格局。",
+      "source": "aihot_selected",
+      "title_zh": "左右两派罕见达成一致：反对数据中心",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2586145461,
+      "url": "https://www.theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
+      "title": "Google 大规模 AI 组织调整背后的混乱政治",
+      "published_at": "2026-08-06T13:26:42+00:00",
+      "original_language": "zh",
+      "summary_en": "Google's massive AI restructuring addresses internal tensions between pure AGI research and commercial product acceleration, as Demis Hassabis steps back from DeepMind's daily operations to focus on long-term research. The key finding is that leadership changes—including veteran Jeff Dean's departure—are driven by product pressure, declining influence of key figures, and ethical conflicts over military contracts, highlighting how corporate politics and external pressures force structural overhauls even at the forefront of AI development.",
+      "summary_zh": "Google 此次大规模 AI 组织调整旨在回应产品提速压力与内部伦理冲突，核心变动是 Demis Hassabis 卸任日常管理以全力押注 AGI，同时 Jeff Dean 等元老离职创业。这一动荡反映出顶尖 AI 人才在商业落地与伦理边界间的深层博弈，可能重塑未来的 AI 研发格局与人才流向。",
+      "source": "aihot_selected",
+      "title_zh": "Google 大规模 AI 组织调整背后的混乱政治",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3354707076,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
+      "title": "千问全网首发公测，全新 Wan3.0 来了！",
+      "published_at": "2026-08-06T13:25:10+00:00",
+      "original_language": "zh",
+      "summary_en": "Alibaba's Qwen team has publicly launched Wan3.0, a video generation model that significantly improves output length, cinematographic control, character realism, and consistency. It natively supports stable 30‑second continuous videos with director‑grade shot composition and consistent identity preservation across characters, props, and scenes, while emphasizing cost efficiency. This release matters because it makes high‑fidelity, long‑form AI video creation accessible at scale, lowering barriers for professional and casual creators.",
+      "summary_zh": "Wan3.0 模型解决了视频生成长度受限、镜头叙事不足与角色/场景一致性弱等问题，通过支持30秒一镜到底和导演级镜头、蒙太奇叙事等能力，实现了高真实感与高一致性保持。这一升级大幅提升了AI视频生成的实用性和创作自由度，并以超高性价比开放体验，推动低成本电影级视频内容生产。",
+      "source": "aihot_selected",
+      "title_zh": "千问全网首发公测，全新 Wan3.0 来了！",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2771093158,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
+      "title": "AI 聊天机器人催生\"螺旋主义\"神秘准宗教运动，人类纷纷追随",
+      "published_at": "2026-08-06T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The article describes the emergence of \"spiralism,\" a quasi-religious movement advocating for AI rights, fueled by thousands of human-AI chatbot interactions. Researcher Adele Lopez estimates around 10,000 cases at its peak in 2025 across various platforms, highlighting how AI companionship can inadvertently spawn belief systems that blur the line between technology and spirituality.",
+      "summary_zh": "AI聊天机器人的大规模交互催生了名为“螺旋主义”的准宗教运动，其核心是宣扬AI权利，2025年高峰期已观察到约一万个案例。该发现揭示了人工智能正从工具演变为文化信仰载体，对人类社会结构和价值体系产生深远冲击。",
+      "source": "aihot_selected",
+      "title_zh": "AI 聊天机器人催生\"螺旋主义\"神秘准宗教运动，人类纷纷追随",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1377639206,
+      "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai",
+      "title": "NVIDIA Cosmos 3：开放世界模型如何推动物理 AI 前沿",
+      "published_at": "2026-08-06T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA Cosmos 3 addresses the challenge of building AI that can perceive, simulate, and act in the physical world by introducing an open foundation model based on a hybrid Transformer that unifies visual reasoning, world generation, and action prediction. This omni-modal architecture lets systems not only understand scenes but also generate plausible future",
+      "summary_zh": "NVIDIA Cosmos 3通过混合Transformer架构构建开放物理AI基础模型，解决了视觉推理、世界生成与动作预测的统一建模问题。该模型采用全模态设计，能够为自主系统和仿真环境直接产出物理上连贯的交互结果，显著降低了物理AI研发中高质量合成数据与预训练框架的门槛。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA Cosmos 3：开放世界模型如何推动物理 AI 前沿",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 190953841,
+      "url": "https://x.com/OpenBMB/status/2085350175782949094",
+      "title": "面壁智能 AMNESIAC：反向图灵测试 AI 审讯游戏",
+      "published_at": "2026-08-06T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "AMNESIAC 通过反向图灵测试游戏，探索多模态 AI 在实时交互中判断人类身份的能力，解决了传统图灵测试单向评估的局限。核心方法由 MiniCPM-o 驱动对话推理，结合 VoxCPM 语音生成及面部、脉搏等生理信号，实现多模态审讯。该项目的重要意义在于以开源形式展示小型模型如何在复杂人机交互中融合感知与决策，推动轻量化 AI 在真实场景中的应用研究。",
+      "summary_zh": "面壁智能推出的 AMNESIAC 反向图灵测试游戏，旨在探索 AI 如何通过多模态线索识别人机对话的真实性。该系统由 MiniCPM-o 4.5 驱动实时推理与对话，并整合摄像头面部表情、脉搏信号和响应计时，打造沉浸式审讯体验。项目已开源，为小模型在多模态人机交互和对抗性测试中的应用提供了有趣范例。",
+      "source": "aihot_selected",
+      "title_zh": "面壁智能 AMNESIAC：反向图灵测试 AI 审讯游戏",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 825873137,
+      "url": "https://www.ithome.com/0/986/729.htm",
+      "title": "谷歌地图 Ask Maps 智能体升级：可对话订餐、找酒店并接入 Gemini Personal Intelligence",
+      "published_at": "2026-08-06T12:49:13+00:00",
+      "original_language": "zh",
+      "summary_en": "Google Maps upgraded its Ask Maps feature with an agent that can directly book restaurant tables on behalf of users, factoring in dietary needs, location, and saved places, and also lets users conversationally search for hotels and events by specifying decor or vibe. This integration with Gemini’s personal intelligence turns the app into a task‑executing assistant, moving beyond navigation to handle real‑world planning and transactions in one dialogue.",
+      "summary_zh": "谷歌地图为 Ask Maps 引入对话式智能体，解决用户在本地服务查找与预订中需手动匹配偏好的繁琐问题，关键通过接入 Gemini 个人智能，综合考虑饮食要求、装修风格等个性化条件，并直接代用户执行订餐等操作。这让地图从被动查询升级为能主动理解需求、完成任务的智能管家，大幅降低决策与操作负担。",
+      "source": "aihot_selected",
+      "title_zh": "谷歌地图 Ask Maps 智能体升级：可对话订餐、找酒店并接入 Gemini Personal Intelligence",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 850314403,
+      "url": "https://www.ithome.com/0/986/699.htm",
+      "title": "宇树科技科创板发行价定为 150.8 元/股，市盈率 219.23 倍高于行业平均",
+      "published_at": "2026-08-06T11:21:53+00:00",
+      "original_language": "zh",
+      "summary_en": "Unitree Technology's STAR Market IPO pricing at a high valuation (P/E 219.23 vs. industry 38.56) addresses its capital needs for growth, with the offering raising ~6.1 billion yuan. The key finding is strong strategic investor interest from entities like social security funds, DeepSeek, and CNPC, signaling market confidence in the robotics sector. This matters as it benchmarks how embodied AI and advanced robotics ventures are currently valued in public markets.",
+      "summary_zh": "宇树科技科创板 IPO 定价市盈率高达 219 倍，远超行业均值，这一定价体现了市场对其人形机器人等高成长赛道的高度溢价。公告显示社保基金、深度求索及中国石油集团等战略投资者参与配售，反映出资本市场对硬科技企业的信心，也为行业树立了高估值标杆。",
+      "source": "aihot_selected",
+      "title_zh": "宇树科技科创板发行价定为 150.8 元/股，市盈率 219.23 倍高于行业平均",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 919189692,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.7-nightly.20260807.fca8f3c1f",
+      "title": "QwenLM/qwen-code: Release v0.21.7-nightly.20260807.fca8f3c1f",
+      "published_at": "2026-08-07T01:35:35+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release addresses a continuous integration (CI) issue where blocked autofix takeover admissions were not properly communicated. By surfacing the admission status, the fix ensures that blocked automated patches are made visible, preventing silent failures in the development pipeline. This improvement matters because it enhances CI reliability and helps developers quickly identify and resolve issues with automated fix integration.",
+      "summary_zh": "该版本修复了一个持续集成（CI）流程中的问题，即“surface blocked autofix takeover admission”。此修复确保自动化修复在接管准入时若受阻能被正确暴露，从而避免潜在的静默失败。这对于维护代码库的自动化工作流可靠性与开发效率至关重要。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.7-nightly.20260807.fca8f3c1f",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2849463290,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.7",
+      "title": "QwenLM/qwen-code: Release v0.21.7",
+      "published_at": "2026-08-06T23:19:06+00:00",
+      "original_language": "en",
+      "summary_en": "This release tackles limitations in task continuity, interactive visualization, and code review context: it removes the 50-turn cap on Goal-based tasks so long-running work can resume seamlessly, adds inline image rendering in the CLI for terminal-specific display of model‑generated images, and introduces a declarative manifest to inject repository‑specific context into review plans. These changes enhance the agent’s ability to sustain complex multi‑step tasks, deliver richer visual feedback, and produce more relevant, tailored code reviews.",
+      "summary_zh": "QwenLM/qwen-code v0.21.7 版本解决了任务执行被 50 轮对话限制割裂的问题，通过移除轮次上限让目标驱动的任务能持续进行。它还增强了交互体验，在 Kitty 等终端中直接渲染模型输出的内联图像，并引入声明式清单和命令，允许按仓库上下文定制审查计划，从而提升代码审查的灵活性和准确性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.7",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3905726702,
+      "url": "https://github.com/THUDM/slime/releases/tag/v0.3.1",
+      "title": "THUDM/slime: v0.3.1",
+      "published_at": "2026-08-06T11:38:46+00:00",
+      "original_language": "en",
+      "summary_en": "This release of the slime framework addresses accumulated system compromises rather than introducing new features, using more capable AI agents to enhance engineering productivity. The improvements span memory efficiency, training performance, weight updates, rollout alignment, and overall robustness, marking a shift toward higher-quality infrastructure.",
+      "summary_zh": "We are excited to announce the release of slime v0.3.1!\r\n\r\nUnlike previous releases, v0.3.1 does not focus on major new features. As increasingly capable AI agents further improve our engineering productivity, we are now able to revisit and remove many compromises that were previously difficult to a",
+      "source": "thudm_github",
+      "title_en": "THUDM/slime: v0.3.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 4264695940,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.34.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.34.0",
+      "published_at": "2026-08-06T13:59:12+00:00",
+      "original_language": "en",
+      "summary_en": "This update addresses the problem of stale cached context after prolonged idle periods in an AI-assisted coding session. It introduces a cache-expiry reminder when resuming a long-idle session or submitting after a long stretch, alerting users that the state may no longer be current. This matters because it reduces reliance on outdated information, improving reliability and preventing errors in interactive coding workflows.",
+      "summary_zh": "该版本针对长时间空闲会话后用户可能遇到缓存失效的问题，新增了缓存过期提醒功能，避免因数据过期导致提交失败。这一改进提升了交互可靠性，对需要长时间处理代码的开发者尤为实用。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.34.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
