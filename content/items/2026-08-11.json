@@ -1,0 +1,537 @@
+{
+  "date": "2026-08-11",
+  "items": [
+    {
+      "id": 1704021321,
+      "url": "http://arxiv.org/abs/2608.09930v1",
+      "title": "Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions",
+      "published_at": "2026-08-10T17:59:51+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the gap between how automated TTS evaluators (MOS predictors and Audio-LLM judges) assess speech and what human listeners actually perceive, by breaking “naturalness” into ten linguistically grounded perceptual dimensions and building the first dimension-level benchmark with 860 expert-annotated utterances. The key finding is that MOS predictors reduce quality to acoustic signal features, while Audio-LLM judges detect some dimensions only when explicitly prompted, and neither model class reliably captures the full range of linguistically structured speech errors. This work matters because it exposes the narrow, collapsed focus of current automatic metrics and provides",
+      "summary_zh": "本研究针对自动语音合成评估未能全面反映人类感知的问题，将“自然度”解构为10个语言学维度的感知体系，并以此构建首个维度级元评估基准（含860句标注）。实验发现，MOS预测器仅捕捉声学信号质量，音频大语言模型评判虽能选择性检测，但无法跨维度泛化，两者均不能可靠识别广泛的语言学结构错误。该基准为研发更精准、细粒度的TTS评估方法提供了关键支撑。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3447388463,
+      "url": "http://arxiv.org/abs/2608.09928v1",
+      "title": "Multimodal Model Diffing for Feature Discovery and Control",
+      "published_at": "2026-08-10T17:59:30+00:00",
+      "original_language": "en",
+      "summary_en": "MMDiff tackles the challenge of interpreting and controlling the internal features that drive behavior in multimodal large language models (MLLMs). It introduces a model-diffing framework that trains multimodal sparse autoencoders, then compares them with base-language-model SAEs to isolate features altered by multimodal training, detect task-specific causal features via contrastive firing analysis, and enable feature-level steering or removal. This provides a direct interface for auditing and precisely manipulating multimodal model behavior, making MLLMs more transparent and controllable.",
+      "summary_zh": "MMDiff 框架针对多模态大语言模型内部特征难以识别与控制的问题，提出通过训练多模态稀疏自编码器（SAE），并与基座语言模型的 SAE 进行比对（diffing），来隔离多模态训练所改变的特征。该框架支持特征隔离、任务特定特征检测以及特征层面操控，为理解和精准调控多模态模型行为提供了可直接交互的接口。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Multimodal Model Diffing for Feature Discovery and Control",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3813246601,
+      "url": "http://arxiv.org/abs/2608.09925v1",
+      "title": "From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch",
+      "published_at": "2026-08-10T17:59:05+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the lack of evaluation frameworks for LLMs in government that integrate public-sector values and non-English language demands, focusing on the Dutch context. Through a collaborative process with municipal experts, the authors build the \"Grip on LLMs\" benchmark around six dimensions (factuality, honesty, social bias, energy use, cost, and transparency) and test over 30 models, revealing that no single model excels everywhere and that higher quality consistently entails greater environmental and financial cost while bias remains separate. This work provides a replicable, values-driven evaluation suite that highlights critical trade-offs for responsible governmental LLM adoption.",
+      "summary_zh": "该研究针对大型语言模型在政府应用中缺乏兼顾公共管理价值与非英语语言要求的评估框架，通过与荷兰市政专家合作，构建了“Grip on LLMs”评估体系，覆盖事实性、偏见、能耗等六大维度及30余个模型。关键发现是模型在质量、成本与环境影响间必然存在权衡，且社会偏见与二者无关，这为政府机构在采纳语言模型时提供了可操作的平衡决策依据。",
+      "source": "arxiv_cs_cl",
+      "title_en": "From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1083463449,
+      "url": "http://arxiv.org/abs/2608.09902v1",
+      "title": "DSLE: A Learning Environment for Dark Souls Boss Encounters",
+      "published_at": "2026-08-10T17:48:45+00:00",
+      "original_language": "en",
+      "summary_en": "The DSLE addresses the need for challenging, real-time game-playing benchmarks by providing a Gymnasium-style interface to 22 Dark Souls boss encounters, featuring high-dimensional visual input and sparse rewards. A representative five-boss subset, DSLE-5, is proposed for standardized agent evaluation, where even the best method (an expert system) only defeats the tutorial boss, with no approach succeeding on the harder fights. This matters because it establishes a difficult, visually rich environment that can spur advances in reinforcement learning and agent design beyond standard toy domains.",
+      "summary_zh": "该工作提出了一个基于《黑暗之魂》Boss战的强化学习测试环境，将高维视觉输入、实时动作和稀疏奖励结合，用于评估AI在复杂3D战斗中的决策能力。实验显示，即便最强的专家系统和进化策略也仅能击败最简单的教程Boss，而PPO和DQN等深度方法均告失败，凸显了这一基准对现有算法的巨大挑战。这为研究在长期、高难度视觉控制任务中的强化学习提供了重要平台。",
+      "source": "arxiv_cs_cl",
+      "title_en": "DSLE: A Learning Environment for Dark Souls Boss Encounters",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2968295870,
+      "url": "http://arxiv.org/abs/2608.09900v1",
+      "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
+      "published_at": "2026-08-10T17:47:24+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the gap between LLM benchmark scores and real-world performance by introducing Decoding-Level Taboo, a zero-prompt diagnostic stress test that directly masks top token candidates in logit space at word boundaries, forcing models into circumlocution. Experiments show that off-nominal robustness improves with model scale and post-training instruction alignment, providing a practical way to probe model resilience beyond idealized evaluation conditions.",
+      "summary_zh": "该研究针对大语言模型在真实部署中因系统约束偏离标准生成路径导致性能下降的问题，提出了一种名为“解码级禁忌”的零提示诊断压力测试，通过在解码时动态屏蔽主候选词，迫使模型进行迂回表达。实验发现，模型的离线鲁棒性随参数规模增加和指令对齐优化而提升，这一方法为评估 LLM 在非理想条件下的真实鲁棒性提供了有效工具。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3792680309,
+      "url": "https://www.anthropic.com/research/riemann-zeta",
+      "title": "Learning more about Claude's mathematical capabilities",
+      "published_at": "2026-08-10T00:00:00",
+      "original_language": "en",
+      "summary_en": "This report investigates the mathematical reasoning limitations of Claude, an AI assistant, to benchmark its problem-solving accuracy and error patterns. The key finding reveals that while Claude handles simple arithmetic and algebra, it struggles with advanced topics like calculus proofs and multi-step word problems, often producing plausible but incorrect answers. Identifying these gaps is critical for responsibly deploying AI in quantitative domains and guiding future improvements in model training.",
+      "summary_zh": "该报告针对大语言模型的数学推理能力进行评测，重点考察Claude在不同类型数学问题上的表现。研究通过系统化测试揭示了Claude在数学领域的优势与局限，这对于优化AI在科学计算等专业场景中的应用具有重要参考价值。",
+      "source": "anthropic_research",
+      "title_en": "Learning more about Claude's mathematical capabilities",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4091680435,
+      "url": "https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale",
+      "title": "How Anthropic's business development team uses Claude to run inbound and outbound at scale",
+      "published_at": "2026-08-11T08:46:01.662164",
+      "original_language": "en",
+      "summary_en": "Anthropic’s business development team addresses the challenge of manually handling high-volume inbound and outbound sales efforts by leveraging their own AI assistant, Claude. The key approach is automating and scaling prospecting, qualification, and outreach using Claude, which reduces repetitive work and accelerates deal flow. This matters because it showcases a real-world, internal use case where generative AI tangibly improves operational efficiency in a commercial function, providing a blueprint for other enterprises.",
+      "summary_zh": "Anthropic的业务开发团队分享了如何利用自研AI助手Claude大规模处理入站和出站业务，旨在解决传统业务开发在高速增长下面临的效率与个性化平衡难题。文章阐述了通过Claude自动化沟通与线索管理，实现可扩展的业务开发流程，证明AI能显著提升团队产能，使其无需等比例增加人力即可驾驭更多商机。",
+      "source": "claude_blog",
+      "title_en": "How Anthropic's business development team uses Claude to run inbound and outbound at scale",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3915435883,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494052&idx=1&sn=ee3ab3d0f4550e9120927c53a27522c9",
+      "title": "ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线",
+      "published_at": "2026-08-11T05:52:25+00:00",
+      "original_language": "zh",
+      "summary_en": "ZCode introduces Goal, Subagents, Remote Control, and idle-task features optimized for GLM models to boost coding efficiency. In benchmarks, GLM-5.2 with ZCode achieves a 2.39% higher task pass rate than Claude Code, combined with over 98% cache hit rate and a 1.5× usage bonus, effectively multiplying usable coding capacity. This upgrade makes ZCode a more cost-effective and productive assistant, closing performance gaps and maximizing resource utilization for GLM users.",
+      "summary_zh": "ZCode针对GLM深度优化，推出Goal、Subagents等四大功能，解决AI编程任务通过率与资源利用率不足的问题。在基准测试中，GLM-5.2搭配ZCode较搭配Claude Code任务通过率提升2.39%，且缓存命中率超98%，叠加额度加成后实际用量接近常规的1.8倍。这意味着开发者能以更低成本获得更高成功率的AI编程体验，显著提升编码效率与资源效能。",
+      "source": "aihot_selected",
+      "title_zh": "ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2252712800,
+      "url": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis",
+      "title": "用 ComfyUI API 实现 MiniMax-H3 多模态视频与音频生成流水线",
+      "published_at": "2026-08-11T05:44:38+00:00",
+      "original_language": "zh",
+      "summary_en": "This work presents a headless video generation pipeline that leverages the ComfyUI API to operate the MiniMax-H3 model, enabling text-to-video, start/end frame, and reference image conditioning without a graphical interface. The approach automatically selects from three weight configurations based on available GPU memory and integrates model downloading, execution validation, and audio-video decoding with progress monitoring. This setup simplifies reproducible research and efficient multimodal video synthesis by turning ComfyUI into a backend that can be fully controlled via Python.",
+      "summary_zh": "本教程解决了在无图形界面下复现 MiniMax-H3 多模态生成实验的难题，通过 ComfyUI API 作为无头后端，用 Python 直接构建执行图，实现文生视频、首尾帧及参考图像条件生成。关键方法是自动适配 GPU 显存选择 quality/balanced/squeeze 权重配置，并集成模型下载与进度监控，从而简化端到端的音视频联合解码流水线，对高效部署和实验复现具有重要价值。",
+      "source": "aihot_selected",
+      "title_zh": "用 ComfyUI API 实现 MiniMax-H3 多模态视频与音频生成流水线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 663464249,
+      "url": "http://danluu.com/pl-tokens",
+      "title": "编写智能体时，哪种编程语言最合适？",
+      "published_at": "2026-08-11T04:58:14.908000+00:00",
+      "original_language": "zh",
+      "summary_en": "The article challenges the popular claim that dynamic languages save more LLM tokens than static languages in agent coding, by empirically testing GPT-5.6 Sol implementing a zstd decoder. It finds that dynamic languages perform better at medium effort but static languages excel at ultra effort, and reveals flaws in prior evaluations. The key takeaway is that performance on trivial tasks does not generalize to larger problems.",
+      "summary_zh": "作者通过让智能体实现 zstd 解码器的实测，驳斥了“动态语言比静态语言更省 token”的流行观点，发现仅在中等能力等级下动态语言占优，而在极高能力等级下静态语言反超，并揭示此前评测存在测试路径错误。该研究指出，不能将琐碎任务上的性能结论简单推广到复杂问题中，选择智能体编程语言需结合任务难度与实现深度。",
+      "source": "aihot_selected",
+      "title_zh": "编写智能体时，哪种编程语言最合适？",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3954648226,
+      "url": "https://www.ithome.com/0/988/239.htm",
+      "title": "消息称 Anthropic 最快今年 9 月上市，向投资者淡化 AI 模型竞争等挑战",
+      "published_at": "2026-08-11T03:57:53+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic is preparing for what could be the largest IPO in history, targeting a valuation of $965 billion on annualized revenue over $47 billion, while downplaying competitive threats from Chinese AI firms. The company intends to extend its AI into healthcare and biology, signaling how massive commercial-scale AI ventures are shaping markets and investor expectations.",
+      "summary_zh": "该消息揭示了AI大模型企业面临的商业化落地与地缘竞争双重挑战，Anthropic通过筹备超大规模IPO获取资本，并聚焦医疗和生物学领域的垂直应用来构建护城河。此举标志着头部AI公司正从单纯的技术竞赛转向深度产业融合，对理解大模型商业化路径和全球AI竞争格局具有风向标意义。",
+      "source": "aihot_selected",
+      "title_zh": "消息称 Anthropic 最快今年 9 月上市，向投资者淡化 AI 模型竞争等挑战",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 350863558,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685081&idx=1&sn=13a05578a3959c047209c8e74b56fa48",
+      "title": "微信小微AI帮写与AI点评内测：朋友圈最后一点人味正在消失",
+      "published_at": "2026-08-11T00:12:00+00:00",
+      "original_language": "zh",
+      "summary_en": "WeChat is testing AI-powered features for its Moments feed—using its Xiaowei model to generate caption suggestions from photos and text, and to auto-generate comments—shifting AI into the center of social posting. The concern is that this threatens the platform’s long-standing “record your life” human-centric ethos by flooding feeds with AI-generated content, while an additional AI summary of followed public accounts risks steering creator output, signaling a broader erosion of authentic human expression in social media.",
+      "summary_zh": "微信近期内测的“AI帮写”与“AI点评”功能，试图让AI根据图片和文字自动生成朋友圈文案及评论，将AI推入社交互动的中心。作者指出，这种功能可能鼓励大批量AI生成内容，蚕食朋友圈自2012年以来“记录美好生活”的基调，导致最后一点真实人情味消失，并担忧公众号端的AI自动总结会反向塑造创作者的产出，扭曲内容生态。",
+      "source": "aihot_selected",
+      "title_zh": "微信小微AI帮写与AI点评内测：朋友圈最后一点人味正在消失",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3760934053,
+      "url": "https://www.databricks.com/blog/how-ground-genie-agents-both-structured-data-and-documents-without-losing-governance",
+      "title": "Databricks 如何在兼顾治理的前提下让 Genie Agents 同时基于结构化数据与文档运行",
+      "published_at": "2026-08-10T23:08:50+00:00",
+      "original_language": "zh",
+      "summary_en": "Databricks addresses the challenge of enabling AI agents to query both structured data and unstructured documents within a unified governance framework, ensuring data permissions, lineage tracking, and policy enforcement are not compromised. The key finding is that Genie Agents can safely combine these data sources to automate business tasks without sacrificing security or compliance, which matters because it allows enterprises to extend conversational AI to diverse data while maintaining strict control.",
+      "summary_zh": "Databricks 展示了其 Genie Agents 如何在统一治理框架下同时融合结构化数据与文档来执行查询，重点解决智能体在多源数据环境中难以兼顾安全合规与自动化的问题。核心方法是通过整合数据权限、血缘追踪和策略管控，确保两类数据源的安全可控访问。这为企业构建可信、合规且能处理复杂数据场景的 AI 智能体提供了关键实践。",
+      "source": "aihot_selected",
+      "title_zh": "Databricks 如何在兼顾治理的前提下让 Genie Agents 同时基于结构化数据与文档运行",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 584818993,
+      "url": "https://x.com/JensenHuang/status/2086934705207959965",
+      "title": "英伟达联合六大机构融资5000亿美元建AI工厂",
+      "published_at": "2026-08-10T21:56:21+00:00",
+      "original_language": "zh",
+      "summary_en": "Nvidia is tackling the immense capital barrier to scaling AI infrastructure by forming a consortium with six major financial institutions to create a dedicated financing platform that aims to mobilize over $500 billion in third-party capital. This approach directly addresses the funding gap for the massive data center buildouts needed to support next-generation AI workloads, moving beyond what any single company or traditional investment model can supply. The creation of such a capital pool matters because it could dramatically accelerate the deployment of AI factories globally, potentially shaping the speed and reach of AI development and commercialization.",
+      "summary_zh": "英伟达通过联合六大顶级金融机构成立独立融资平台，解决了AI基础设施对巨额资金的迫切需求，计划动员超5000亿美元第三方资本。这一举措将大规模加速全球AI工厂及相关设施的建设，对AI产业发展具有关键的推动作用。",
+      "source": "aihot_selected",
+      "title_zh": "英伟达联合六大机构融资5000亿美元建AI工厂",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1984909545,
+      "url": "https://x.com/ClaudeDevs/status/2086844755770757531",
+      "title": "Claude Code 自动模式默认开启原理",
+      "published_at": "2026-08-10T15:58:56+00:00",
+      "original_language": "zh",
+      "summary_en": "This change addresses the problem that users previously had to manually approve every operation, creating friction. Claude Code now runs in auto mode by default, using an internal mechanism to determine which operations are safe to execute without approval, streamlining the workflow while preserving safety.",
+      "summary_zh": "Claude Code 将自动模式设为默认，解决的问题是降低每次操作都需手动审批的交互负担，让 AI 能自主执行安全操作。核心原理在于内置安全判定机制，能自动评估操作的风险并决定是否可直接运行，而不再依赖用户的逐项批准。这一变化显著提升了开发流程的流畅度与效率，同时平衡了自动化与安全性。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Code 自动模式默认开启原理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1416681984,
+      "url": "https://bobdahacker.com/blog/tldv-hack",
+      "title": "tl；dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话",
+      "published_at": "2026-08-10T14:03:26.804000+00:00",
+      "original_language": "zh",
+      "summary_en": "The tl;dv AI meeting recording platform suffered a critical security flaw where its Firestore database lacked tenant isolation, allowing any authenticated user to access over 181,000 meeting recordings involving 84,312 users across 35,003 domains. The vulnerability exposed about 1,000 live meetings, enabling an unauthorized researcher to join sessions at Malaysia’s Ministry of Education and a U.S. university startup team, and remained unfixed for six months after reporting, with over 1,000 recordings publicly accessible. This highlights severe data isolation and access control failures in SaaS AI tools, risking real-time intrusions and massive privacy breaches for government and institutional users.",
+      "summary_zh": "AI会议平台tl;dv因数据库隔离缺陷导致18.1万段会议记录遭暴露，研究者利用漏洞可实时闯入包括政府与高校在内的通话。该发现揭示了SaaS服务在多租户隔离上的严重隐患，且漏洞报告后长期未修复，凸显了数据安全防护的紧迫性。",
+      "source": "aihot_selected",
+      "title_zh": "tl；dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2495678097,
+      "url": "https://www.a16z.news/p/can-agents-use-a-computer-yet-weve",
+      "title": "智能体真的会用电脑吗？a16z 用数据给出答案",
+      "published_at": "2026-08-10T14:00:46+00:00",
+      "original_language": "zh",
+      "summary_en": "The benchmark evaluates whether AI agents can actually use computers like humans, addressing the gap between claimed capabilities and real-world performance. Key finding: on the OSWorld-Verified test, the top agent (Claude Fable 5) reached 85% accuracy, surpassing the human average of 72% and more than doubling last year’s best of 42%. This leap matters because it signals that GUI agents are becoming reliable enough for practical automation of complex digital workflows.",
+      "summary_zh": "这项研究评估了计算机操作智能体在 OSWorld-Verified 基准上的能力，发现过去一年其任务完成准确率已从 42% 大幅提升至 85%，超过了人类测试者约 72% 的水平，其中 Claude Fable 5 表现最优。这一结果表明智能体已真正具备了超越普通用户的电脑使用能力，成为衡量 AI 实用化进展的关键里程碑。",
+      "source": "aihot_selected",
+      "title_zh": "智能体真的会用电脑吗？a16z 用数据给出答案",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3784245289,
+      "url": "https://www.lmsys.org/blog/2026-08-10-meta-muse-glimmer",
+      "title": "SGLang 为 Muse Glimmer 提供 Day-0 支持，针对本地智能体工作流优化推理",
+      "published_at": "2026-08-10T11:51:38.747000+00:00",
+      "original_language": "zh",
+      "summary_en": "SGLang has partnered with Meta Superintelligence Labs to deliver Day-0 inference support for Muse Glimmer, a 30B multimodal model featuring a 128k+ token context window, targeting local agent workflows. This optimization enables efficient on-device deployment of large-scale vision-language models, reducing infrastructure barriers and accelerating research into long-context, multimodal agents in constrained environments.",
+      "summary_zh": "SGLang与Meta Superintelligence Labs合作为多模态模型Muse Glimmer提供Day-0支持，解决本地智能体工作流中30B参数、128k+超长上下文窗口模型的高效推理部署难题。通过优化推理性能，该方案使多模态大模型能在本地环境中稳定运行，对推动智能体应用的本地化部署具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "SGLang 为 Muse Glimmer 提供 Day-0 支持，针对本地智能体工作流优化推理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 152562930,
+      "url": "https://x.com/AIatMeta/status/2086757844544811485",
+      "title": "Meta 发布开源模型 Muse Glimmer",
+      "published_at": "2026-08-10T10:13:34+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta’s Muse Glimmer addresses the challenge of running powerful, agentic AI workflows entirely on local consumer hardware. It achieves this as an open-weight, 300-billion-parameter model optimized for agent-specific benchmarks, outperforming comparable models while being designed to operate on devices like Macs or high-end PCs. This matters because it brings cutting-edge, on-device agent capabilities into the open under Apache 2.0, reducing dependency on cloud infrastructure.",
+      "summary_zh": "Meta 发布 Muse Glimmer 模型，旨在解决智能体工作流在本地消费级硬件上高效运行的需求，通过开放 300 亿参数权重并优化性能，使其在关键智能体基准测试中领先同类模型。这一开源发布（Apache 2.0 许可）降低了高性能 AI 智能体的部署门槛，有利于推动 AI 研究在本地设备上的普及与创新。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 发布开源模型 Muse Glimmer",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 312710994,
+      "url": "https://x.com/alexandr_wang/status/2086756152034066792",
+      "title": "Scale AI 开源 Muse 系列模型",
+      "published_at": "2026-08-10T10:06:51+00:00",
+      "original_language": "zh",
+      "summary_en": "Scale AI is releasing open-weight versions of Muse Spark 1.2 and Muse Glimmer, a 30B-parameter agent model under Apache 2.0 that runs on just 24 GB of VRAM without compromising agent reliability. This addresses the challenge of deploying high-performance AI agents on consumer-grade hardware, democratizing access to capable, openly licensed agent models.",
+      "summary_zh": "Scale AI 开源了 Muse 系列模型，其中 Muse Glimmer 是一个 30B 参数的智能体模型，可在 24GB 显存上运行且不损失智能体可靠性。这解决了大参数模型在消费级硬件上部署智能体的难题，通过开源权重显著降低了技术门槛，对推动智能体应用的广泛落地具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Scale AI 开源 Muse 系列模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2716754066,
+      "url": "https://x.com/finkd/status/2086754845218726027",
+      "title": "扎克伯格：超级智能应人人可用",
+      "published_at": "2026-08-10T10:01:39+00:00",
+      "original_language": "zh",
+      "summary_en": "Zuckerberg argues that superintelligence risks being concentrated among a few, and Meta's approach is to democratize access as a foundational principle for a positive, inclusive future. The key message is that making powerful AI broadly available is essential to ensure its benefits are shared equitably, preventing societal divides and fostering collective progress.",
+      "summary_zh": "扎克伯格强调超级智能不应被少数人垄断，主张人人皆可受益。他通过 Meta 的公开声明阐述了构建普惠未来的核心理念，这关乎技术民主化与责任分配，旨在防止智能鸿沟加剧社会不公。",
+      "source": "aihot_selected",
+      "title_zh": "扎克伯格：超级智能应人人可用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2173416814,
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "title": "OpenAI 推出 GPT-5.6-Cyber，面向授权漏洞研究的网络安全专用模型",
+      "published_at": "2026-08-10T10:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "To combat shrinking cyber defense windows, OpenAI released GPT-5.6-Cyber, a dedicated model for authorized vulnerability research and security testing, accessible via Daybreak Red. This specialized AI tool helps security researchers rapidly verify and assess vulnerabilities, enabling faster, more effective responses before attackers can exploit them.",
+      "summary_zh": "OpenAI 发布网络安全专用模型 GPT-5.6-Cyber，旨在应对网络防御响应时间日益缩短的挑战。该模型通过 Daybreak Red 平台提供，专注于授权环境下的漏洞研究、验证与安全测试，为安全研究人员提供高效的专业工具。这体现了人工智能在主动安全防御中的深入应用，有望加速漏洞发现与修复，提升整体网络韧性。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 推出 GPT-5.6-Cyber，面向授权漏洞研究的网络安全专用模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 188576590,
+      "url": "https://arxiv.org/abs/2608.09867",
+      "title": "窃取专有 LLM API 的推理轨迹：加密块可跨会话互换引发解密越狱",
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This study uncovers a vulnerability in proprietary LLMs where encrypted reasoning-trace blocks are interchangeable across sessions, users, and even models from providers like Anthropic, OpenAI, and Google. By injecting these",
+      "summary_zh": "研究发现，专有LLM API的加密推理轨迹块可跨会话、用户和模型互换，攻击者通过将其注入同提供商防护较弱的模型，即可强制输出明文推理内容。该攻击揭示了推理轨迹加密机制的重大漏洞，使攻击者能窃取原本受保护的推理过程，威胁模型的知识产权和安全。",
+      "source": "aihot_selected",
+      "title_zh": "窃取专有 LLM API 的推理轨迹：加密块可跨会话互换引发解密越狱",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2008084097,
+      "url": "https://arxiv.org/abs/2608.09853",
+      "title": "RynnValue：用时间距离扩展机器人价值基础模型",
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "RynnValue addresses the challenge of scaling robot learning by eliminating the need for expensive human preference or progress labels. It introduces time distance as a self-supervised signal derived directly from timestamps, enabling the creation of a value foundation model trained on over 7,000 hours of instruction-conditioned data. This open-source model demonstrates a scalable path for robot manipulation without relying on task-specific annotations.",
+      "summary_zh": "RynnValue 针对机器人操作价值模型依赖人工标注偏好或进度等锚点的大规模扩展难题，提出以时间距离作为监督信号，直接从时间戳生成标签，从而将数据规模提升至超 7,000 小时、约 300 万条指令条件片段。这一设计突破了标注瓶颈，使价值模型能低代价利用海量真实交互数据，对提升机器人跨任务的泛化能力和操作效率具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "RynnValue：用时间距离扩展机器人价值基础模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 792144107,
+      "url": "https://openrouter.ai/blog/announcements/introducing-the-new-auto-router",
+      "title": "OpenRouter 推出由市场智慧驱动的新版 Auto 路由器",
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter’s new Auto router leverages over 55T weekly tokens of community consumption data to optimize model selection across roughly 30 task types, matching recent actual usage patterns. It introduces a cost_tier parameter and, on benchmarks like MMLU Pro, achieves performance on par with the old version at lower cost in most domains. This data-driven approach reduces inference costs while maintaining effectiveness, making LLM routing more efficient and community-informed.",
+      "summary_zh": "新版 OpenRouter Auto 路由器利用每周超 55T token 的社区真实消费数据，按约 30 种任务类型动态匹配合适模型，并支持成本层级调节，解决了旧版路由在任务特异性与性价比上的不足。关键突破在于以市场驱动的方式在多数场景下以更低成本达到或超越旧版性能，这对降低 AI 应用部署成本、提升任务匹配效率具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 推出由市场智慧驱动的新版 Auto 路由器",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3553075925,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.9-nightly.20260811.8c90697ace",
+      "title": "QwenLM/qwen-code: Release v0.21.9-nightly.20260811.8c90697ace",
+      "published_at": "2026-08-11T00:39:53+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release adds a test to verify that context refresh markers are correctly carried over across multiple turns within the memory module, addressing a potential gap in test coverage. Ensuring these markers persist properly helps maintain coherent long-conversation context, which is critical for the reliability of the Qwen-Code AI assistant.",
+      "summary_zh": "此次发布针对上下文刷新标记在多轮对话间的传递行为增加了测试覆盖，以确保模型在处理长上下文时标记传递的准确性。该改进有助于保障AI记忆管理功能的稳定性，避免因标记丢失导致的上下文断裂问题。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.9-nightly.20260811.8c90697ace",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3220811381,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/live-host-v0.1.1",
+      "title": "QwenLM/qwen-code: Qwen Live Host v0.1.1",
+      "published_at": "2026-08-11T07:57:27+00:00",
+      "original_language": "en",
+      "summary_en": "This release fixes critical stability and security issues in Qwen Live Host: it probes sandbox runtimes before selection to avoid misconfiguration, serializes autofix operations to prevent concurrency conflicts, and resolves symlinks before granting file read permissions to tighten access control. These patches enhance the reliability and safety of the AI coding agent when executing operations in isolated environments.",
+      "summary_zh": "此版本 v0.1.1 主要修复了三个关键问题：先探测沙箱运行时再选择，避免启动失败；对扫描选择问题的自动修复进行串行化控制，防止并发冲突；以及解析符号链接后再授予读取权限，消除安全漏洞。这些改进增强了 Qwen Code 的可靠性、执行一致性和安全性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Live Host v0.1.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2779591061,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.9",
+      "title": "QwenLM/qwen-code: Release v0.21.9",
+      "published_at": "2026-08-10T15:14:22+00:00",
+      "original_language": "en",
+      "summary_en": "This release expands plugin installation to directories, archives, Git repositories, URLs, and npm packages with automatic system-prompt loading, while introducing QR‑code pairing for secure LAN access and automatic default workspace creation on first launch. These additions streamline plugin management and enable convenient, secure remote control of the coding assistant, enhancing developer productivity and security.",
+      "summary_zh": "该版本主要解决了开发者快速集成插件和便捷安全访问本地环境的问题：通过支持从目录、压缩包、Git仓库等多种来源安装 Qoder 插件并自动加载系统提示，简化了工具扩展流程；同时基于二维码实现本地控制配对，在 CLI 和桌面应用中建立安全局域网连接，并首次启动自动创建工作区，大幅降低了配置门槛，提升了远程协作与开发的效率。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.9",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
