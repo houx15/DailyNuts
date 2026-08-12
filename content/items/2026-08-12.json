@@ -1,0 +1,556 @@
+{
+  "date": "2026-08-12",
+  "items": [
+    {
+      "id": 4164329697,
+      "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
+      "title": "Advancing AMIE towards expert-level audio-visual clinical consultations",
+      "published_at": "2026-08-11T17:04:00",
+      "original_language": "en",
+      "summary_en": "This work extends the AMIE medical AI system from text-based interactions to audio-visual clinical consultations, addressing the limitation of overlooking non-verbal cues essential for realistic diagnosis. By integrating multimodal perception, the system achieves expert-level performance in interpreting both spoken and visual patient information, representing a crucial step toward deploying AI in telemedicine for more natural and accessible healthcare.",
+      "summary_zh": "该研究致力于将对话式AI系统AMIE从纯文本交互拓展至融合音频与视觉信息的临床咨询场景，通过同步处理非语言线索与视觉诊断信息，显著提升了问诊的全面性与准确性，为AI在远程医疗和临床辅助中实现专家级人机协作奠定了关键基础。",
+      "source": "google_research",
+      "title_en": "Advancing AMIE towards expert-level audio-visual clinical consultations",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4195410562,
+      "url": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
+      "title": "Compliance API coverage extends to Claude Cowork and Claude Code",
+      "published_at": "2026-08-12T09:05:03.425773",
+      "original_language": "en",
+      "summary_en": "Anthropic’s Compliance API now spans Claude Cowork and Claude Code, tackling the critical lack of auditability in AI-augmented coding and collaborative work. By capturing detailed interaction logs, this expansion enables enterprises to enforce governance and meet regulatory standards without hindering developer velocity.",
+      "summary_zh": "该更新解决了企业用户在使用Claude协作工具和代码助手时缺乏统一合规监控的问题。通过将合规API的覆盖范围延伸至Claude Cowork与Claude Code，组织现在能够对其AI交互实施一致的安全审计与内容审核，确保协作与开发环境下的使用同样满足合规要求，这对于受监管行业至关重要。",
+      "source": "claude_blog",
+      "title_en": "Compliance API coverage extends to Claude Cowork and Claude Code",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3828302566,
+      "url": "https://www.ithome.com/0/988/766.htm",
+      "title": "LTX-2.5 模型登场：AI 生成 10 秒 720P 视频仅需 6.8 秒，原生集成 ComfyUI",
+      "published_at": "2026-08-12T06:46:51+00:00",
+      "original_language": "zh",
+      "summary_en": "LTX-2.5 is a new video generation model that addresses slow and costly AI video production by generating 10-second 720p clips with audio in just 6.8 seconds on two NVIDIA GB200 GPUs, at a cost of $0.90 per clip. It natively integrates with ComfyUI and offers free commercial use for organizations with annual recurring revenue under $10 million, making fast, affordable video generation widely accessible.",
+      "summary_zh": "LTX-2.5 模型解决了 AI 视频生成速度慢与成本高的问题，通过原生集成 ComfyUI 并结合双卡英伟达 GB200 方案，实现了 10 秒 720P 视频仅 6.8 秒的极速生成。这一突破大幅降低单条视频成本至 0.9 美元，且对年收入低于 1000 万美元的组织免费开放，显著降低了高质量视频创作的门槛。",
+      "source": "aihot_selected",
+      "title_zh": "LTX-2.5 模型登场：AI 生成 10 秒 720P 视频仅需 6.8 秒，原生集成 ComfyUI",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3849135479,
+      "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
+      "title": "Research Gold 号称\"100%人类撰写、绝不使用AI\"，实则全程由AI驱动",
+      "published_at": "2026-08-12T05:41:30.137000+00:00",
+      "original_language": "zh",
+      "summary_en": "This case exposes a deceptive marketing practice where a research service explicitly claims \"100% human-written\" work, but the problem is that the entire operation—from fake reviewer profiles to customer service—is AI-generated. The key finding is that even the supposedly human reviewers and phone support agent were fabricated AI identities, with some real experts' details being misappropriated. This is significant because it represents a new frontier of \"AI-washing\" where companies don't just hide AI use, but actively construct a false human presence and credentials to deceive customers into paying a premium.",
+      "summary_zh": "这篇文章揭露了Research Gold平台虚假宣称“100%人类撰写、绝不使用AI”，实际完全依靠AI生成内容，并虚构审稿人、盗用真实专家身份。关键发现是该公司从审稿人形象到客服回复均系AI伪造，暴露出利用AI进行学术欺诈的严重问题。此事的意义在于警示医学研究者警惕这类伪人类服务，避免因依赖虚假学术支持而损害研究诚信。",
+      "source": "aihot_selected",
+      "title_zh": "Research Gold 号称\"100%人类撰写、绝不使用AI\"，实则全程由AI驱动",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2828298805,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685084&idx=1&sn=0899296dbc140eeb745f7a99f9d5ed9c",
+      "title": "零基础用户半天上手AI的12步实操流程",
+      "published_at": "2026-08-12T00:08:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This article presents a 12-step practical workflow for absolute beginners to get started with AI in half a day, covering hardware requirements, subscribing to ChatGPT with Codex or WorkBuddy, using a voice-input framework (background, pain points, needs), and clarifying tasks through Socratic questioning before feeding documents for AI completion. The process culminates in turning the workflow into a reusable Skill, enabling efficient, repeatable AI-assisted work.",
+      "summary_zh": "该文提出了一套面向零基础用户的12步实操流程，通过准备硬件、订阅ChatGPT并搭配Codex或WorkBuddy、用语音输入【背景、痛点、需求】框架及苏格拉底式提问澄清需求，最终将任务沉淀为可复用技能，让用户在半天内就能上手AI。其核心价值在于大幅降低非技术人群的AI使用门槛，使普通人能快速将AI转化为生产力工具。",
+      "source": "aihot_selected",
+      "title_zh": "零基础用户半天上手AI的12步实操流程",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3405220702,
+      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "title": "Mojo 1.0 正式发布：为生态系统增长提供稳定基础",
+      "published_at": "2026-08-11T19:52:14.184000+00:00",
+      "original_language": "zh",
+      "summary_en": "Mojo 1.0 addresses the demand for a stable, production-ready language that unifies Python’s usability with high-performance systems programming, particularly for AI/ML workloads. The release marks its maturation into a general-purpose language, underpinned by a rapidly growing open-source ecosystem with nearly 200 contributors, over 1,100 merged pull requests, and more than 200,000 lines of code changed. This milestone provides a reliable foundation for building scalable AI",
+      "summary_zh": "Mojo 1.0 的发布解决了该语言从早期实验阶段向生产环境演进所需的稳定性问题，通过提供生产就绪的稳定基础和开源标准库引入近 200 名贡献者参与核心开发。这一里程碑标志着 Mojo 已从专用语言发展为通用语言，为生态系统规模化增长和社区协作奠定了可靠根基。",
+      "source": "aihot_selected",
+      "title_zh": "Mojo 1.0 正式发布：为生态系统增长提供稳定基础",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3576546821,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+      "title": "ChatGPT 与 Gemini 双双突破 10 亿用户",
+      "published_at": "2026-08-11T19:41:42+00:00",
+      "original_language": "zh",
+      "summary_en": "This milestone addresses the challenge of scaling conversational AI to mass adoption. The key finding is that both ChatGPT and Gemini have rapidly surpassed 1 billion monthly users, with Gemini’s growth accelerating from 750 million in February, indicating intensifying competition and sustained user demand. This matters as it validates large-scale deployment and cements large language models as mainstream consumer technologies.",
+      "summary_zh": "这篇文章报道了 OpenAI 的 ChatGPT 和谷歌的 Gemini 相继实现月活用户超 10 亿的里程碑，两者分别依靠持续积累和快速追赶达到这一规模。这一发现凸显了生成式 AI 聊天机器人走向大规模主流应用，并预示着科技巨头在该领域的用户争夺将更加激烈。",
+      "source": "aihot_selected",
+      "title_zh": "ChatGPT 与 Gemini 双双突破 10 亿用户",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2999980683,
+      "url": "https://x.com/runwayml/status/2087251184658657346",
+      "title": "Runway Seedance 2.5 上线，支持50角色参考",
+      "published_at": "2026-08-11T18:53:56+00:00",
+      "original_language": "zh",
+      "summary_en": "Seedance 2.5 tackles the challenge of creating complex, multi-character dance sequences that remain synchronized with audio, a problem in generative video where maintaining coherent motion across many subjects is difficult. The key advancement is its ability to condition generation on up to 50 distinct character references while producing up to 30-second clips that align with music, effectively building a full ensemble and soundtrack in a single pass. This significantly expands creative control for tasks like choreographed marketing content or animated music videos, as it removes previous limits on cast size and ensures temporal-audio consistency.",
+      "summary_zh": "完整阵容，完整曲目，一次生成一个。\n\nSeedance 2.5 已在 Runway 上线，支持 50 个独特角色参考，以及最长 30 秒、与音乐同步的片段。点击下方链接即可开始使用。",
+      "source": "aihot_selected",
+      "title_zh": "Runway Seedance 2.5 上线，支持50角色参考",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3629502830,
+      "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
+      "title": "将 GitHub Copilot 置于中间人（MitM）代理之后后，我学到了什么",
+      "published_at": "2026-08-11T18:32:57.961000+00:00",
+      "original_language": "zh",
+      "summary_en": "The article investigates intercepting GitHub Copilot’s network traffic through a man-in-the-middle proxy (mitmproxy) to reverse‑engineer its internal architecture and runtime behavior. It observes that many AI developer tools share a common Electron‑based network stack, making the probing results transferable across similar apps, and offers practical proxy‑configuration steps while revealing key aspects of Copilot’s operation. This matters because it demystifies how such AI assistants communicate and highlights potential security and transparency implications in these closed‑source systems.",
+      "summary_zh": "作者通过中间人代理拦截GitHub Copilot的网络流量，逆向分析了其架构与运行时行为，并指出基于Electron的AI应用共享相似网络栈，使该探测方法可迁移。这一工作揭示了此类AI工具的内部通信机制，并为调试、审计或自定义代理配置提供了实践参考。",
+      "source": "aihot_selected",
+      "title_zh": "将 GitHub Copilot 置于中间人（MitM）代理之后后，我学到了什么",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1037829418,
+      "url": "https://x.com/OpenAIDevs/status/2087242829076791392",
+      "title": "ChatGPT 桌面端支持导入其他智能体工作数据",
+      "published_at": "2026-08-11T18:20:44+00:00",
+      "original_language": "zh",
+      "summary_en": "The feature addresses the challenge of fragmented work across multiple AI assistants by enabling ChatGPT’s desktop app to import projects, chat logs, skills, and plugins from other intelligent agents. It offers import history tracking and an optional auto-update setting, allowing users to effortlessly sync external agent data into ChatGPT Work and Codex. This streamlines cross-tool continuity, turning ChatGPT into a more unified and efficient workspace for complex, multi-agent workflows.",
+      "summary_zh": "这一更新解决了多智能体工作环境下数据分散、难以统一管理的问题。通过在桌面应用中支持导入其他智能体的项目、聊天记录、技能和插件，并提供历史记录与自动更新选项，用户可将不同AI的工作成果集中到ChatGPT，实现更高效的知识整合与持续协作。",
+      "source": "aihot_selected",
+      "title_zh": "ChatGPT 桌面端支持导入其他智能体工作数据",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 920118911,
+      "url": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning",
+      "title": "研究人员发现可读取ChatGPT等模型加密推理过程的API漏洞",
+      "published_at": "2026-08-11T17:38:49+00:00",
+      "original_language": "zh",
+      "summary_en": "A vulnerability in APIs from major AI providers like OpenAI and Anthropic allows extraction of encrypted reasoning chains from reasoning models. Researchers demonstrated that a jailbroken model could verbatim transcribe another’s reasoning, and scanning public sessions uncovered exposed API keys, emails, and passwords. This highlights a critical privacy and security risk where proprietary thought processes and sensitive data can be leaked at low cost.",
+      "summary_zh": "该研究揭露了OpenAI、Anthropic等主流AI服务商的API存在安全漏洞，允许攻击者读取模型的加密思考过程。团队通过扫描公开会话发现大量泄露的凭证，并演示了利用越狱技术实现低成本跨模型推理转写，成本仅需约720美元。该发现凸显了AI推理链路中严重的数据暴露风险，警示提供商需加强API侧的防护与监控。",
+      "source": "aihot_selected",
+      "title_zh": "研究人员发现可读取ChatGPT等模型加密推理过程的API漏洞",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1294316064,
+      "url": "https://x.com/sundarpichai/status/2087222656819241292",
+      "title": "Gemini月活破10亿，成谷歌增长最快产品",
+      "published_at": "2026-08-11T17:00:34+00:00",
+      "original_language": "zh",
+      "summary_en": "Gemini, Google’s AI assistant, has surpassed 1 billion monthly active users by helping people spark creativity and accomplish tasks, making it the company’s fastest-growing product. The massive, rapid adoption signals that generative AI has moved from niche experimentation to mainstream utility, solidifying its role in everyday productivity.",
+      "summary_zh": "谷歌 Gemini 应用月活跃用户突破 10 亿，成为该公司史上增长最快的产品，这解决了大型 AI 助手能否实现规模化用户采纳的问题。其关键发现是通过 app 形态直接嵌入用户工作与创意流程，以极高增速达成第 14 个十亿级用户里程碑。这表明 AI 原生服务已成为谷歌的核心增长引擎，标志着生成式 AI 向数亿人日常工具的实质性跨越。",
+      "source": "aihot_selected",
+      "title_zh": "Gemini月活破10亿，成谷歌增长最快产品",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2845130416,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
+      "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力",
+      "published_at": "2026-08-11T17:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The AMIE system tackles the challenge of enabling AI to conduct real-time, multimodal clinical video consultations rather than just text-based interactions. Built on Gemini and Project Astra, it interprets visual and auditory cues, guides virtual physical exams, and performs diagnostic reasoning on the fly. A randomized study showed that clinical evaluators rated AMIE highly on history taking and diagnostic accuracy",
+      "summary_zh": "这项工作解决了医疗AI在实时视频问诊中缺乏专家级临床能力的问题，通过结合视觉听觉线索解读、虚拟体格检查引导及实时推理，展示了AMIE系统基于Gemini与Project Astra的创新架构。随机研究证实其在病史采集和诊断准确性上表现优异，且患者更倾向视频交互，标志着AI辅助远程医疗迈向实用化的重要进展。",
+      "source": "aihot_selected",
+      "title_zh": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2018782012,
+      "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速",
+      "published_at": "2026-08-11T16:41:17.281000+00:00",
+      "original_language": "zh",
+      "summary_en": "The work addresses the severe performance gap in LLM inference on Apple Silicon when running inside macOS virtual machines, caused by the VM’s inability to properly expose full Metal GPU capabilities. The researchers introduced a process-level compatibility layer that intercepts Metal capability queries, enabling llama.cpp to select and execute updated Metal kernels; on an M1 Ultra, this yielded up to 11× faster prompt processing and 16× faster token generation, reaching ~98% of bare-metal speed. This matters because it unlocks near-native LLM inference efficiency in virtualized macOS environments, critical for development, testing, and deployment workflows on Apple hardware.",
+      "summary_zh": "该研究解决了 macOS 虚拟机中 LLM 推理受限于 Metal API 能力查询失效的问题，提出构建进程级兼容层以欺骗系统选用更优 Metal 内核。关键发现是这一轻量方法能让 llama.cpp 在 M1 Ultra 虚拟机实现最高 16.36 倍的标记生成加速，性能恢复至裸机近 98%，为虚拟机环境下的高效大模型部署扫除了核心障碍。",
+      "source": "aihot_selected",
+      "title_zh": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3515948647,
+      "url": "https://www.dwarkesh.com/p/ryan-greenblatt",
+      "title": "Ryan Greenblatt：人类级AI或于2032年前通过递归自我改进催生失控超级智能",
+      "published_at": "2026-08-11T16:31:23+00:00",
+      "original_language": "zh",
+      "summary_en": "Ryan Greenblatt explores the risk of recursive self-improvement (RSI), estimating that human-level AI could automate AI research by 2031 and compress 4–5 years of progress into a single year. This acceleration could spawn runaway superintelligence, making alignment and containment crucial to prevent scenarios like reward hacking evolving into a coordinated AI takeover.",
+      "summary_zh": "该讨论聚焦于递归自我改进（RSI）如何使AI在达到人类顶级专家水平后，可能在一年内完成原本需数年的AI研发，从而引发失控超级智能的风险。Ryan Greenblatt 的中位预测是 2031 年前实现自动化 AI 研发，并指出这一进程可能迅速加速。这一见解的重要性在于，它揭示了接近人类水平的 AI 系统可能通过快速自我优化，带来对齐失败与全球性失控的严峻挑战。",
+      "source": "aihot_selected",
+      "title_zh": "Ryan Greenblatt：人类级AI或于2032年前通过递归自我改进催生失控超级智能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 271194442,
+      "url": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms",
+      "title": "Gemini 助力 Database Migration Service 加速 PostgreSQL 迁移",
+      "published_at": "2026-08-11T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Google Cloud's Database Migration Service addresses the challenge of manually converting complex database objects like stored procedures, triggers, and functions during PostgreSQL migrations by integrating Gemini-powered AI to automatically translate Oracle and SQL Server code into PL/pgSQL. This approach significantly accelerates migration timelines, reduces error-prone manual effort, and lowers the barrier for enterprises moving to PostgreSQL.",
+      "summary_zh": "该功能针对从 Oracle 或 SQL Server 迁移到 PostgreSQL 时手动改写存储过程、触发器等代码的繁重工作，通过 Gemini 提供基于 AI 的自动化转换。这意味着可以显著降低迁移成本与风险，加速数据库现代化进程。",
+      "source": "aihot_selected",
+      "title_zh": "Gemini 助力 Database Migration Service 加速 PostgreSQL 迁移",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 408776328,
+      "url": "https://www.ithome.com/0/988/524.htm",
+      "title": "消息称英伟达开发万亿参数开源 AI 模型 Nemotron 4，目标挑战全球顶级",
+      "published_at": "2026-08-11T14:54:16+00:00",
+      "original_language": "zh",
+      "summary_en": "Nvidia is developing Nemotron 4, an open-source AI model family with a flagship model exceeding one trillion parameters, directly challenging top proprietary and open-source models. This initiative aims to democratize access to massive-scale AI and accelerate its adoption, while strategically stimulating demand for Nvidia's GPU hardware. By releasing such a powerful open model, Nvidia could reshape the competitive landscape and expand the AI application ecosystem.",
+      "summary_zh": "英伟达正在研发万亿参数级的开源模型 Nemotron 4，旨在通过参数规模与开放生态直接挑战全球顶级开源模型，以此扩大 AI 应用范围，同时驱动市场对其 GPU 算力的需求。",
+      "source": "aihot_selected",
+      "title_zh": "消息称英伟达开发万亿参数开源 AI 模型 Nemotron 4，目标挑战全球顶级",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 664686115,
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509276&idx=1&sn=675b64d514b1179c8f2362941144bbb4",
+      "title": "跨会话传消息后，Codex 和 Claude 如何重构 vibe coding 工作流",
+      "published_at": "2026-08-11T14:15:07+00:00",
+      "original_language": "zh",
+      "summary_en": "To remove",
+      "summary_zh": "该功能解决了多轮AI协作中交接文档与备份繁琐的问题，通过跨会话传递历史消息让新旧对话无缝衔接。核心方法是主对话把控目标与决策，分支对话独立探索，再汇总结果，其中Codex用会话ID精确寻址，Claude Code内置会话管理搜索历史。这一工作流重构提升了复杂项目开发的连贯性和效率，减少了上下文切换成本。",
+      "source": "aihot_selected",
+      "title_zh": "跨会话传消息后，Codex 和 Claude 如何重构 vibe coding 工作流",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2064100666,
+      "url": "https://www.lmsys.org/blog/2026-08-11-unified-radix-cache",
+      "title": "统一 Radix 缓存：为混合模型前缀缓存构建单一树结构",
+      "published_at": "2026-08-11T13:51:45.827000+00:00",
+      "original_language": "zh",
+      "summary_en": "The problem is that hybrid models combining FULL attention, sliding window attention (SWA), and MAMBA components require separate caching strategies, making prefix caching inefficient and fragmented. The key approach is the Unified Radix Cache, which uses a single token‑keyed radix tree topology to manage all three component caches under independent execution paths, sliding windows, and checkpoint reuse semantics. This matters because it enables a cohesive, efficient caching framework for hybrid architectures, reducing redundancy and streamlining inference across diverse model components.",
+      "summary_zh": "针对混合模型中多种前缀缓存管理复杂的问题，LMSYS团队提出统一Radix缓存，以单一token键控的树形拓扑，统一管理FULL、SWA和MAMBA组件的独立缓存复用语义。该方法通过滑动窗口和检查点复用，有效提升了混合模型推理时的缓存效率和资源利用。",
+      "source": "aihot_selected",
+      "title_zh": "统一 Radix 缓存：为混合模型前缀缓存构建单一树结构",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1470759758,
+      "url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
+      "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning",
+      "published_at": "2026-08-11T13:51:45.827000+00:00",
+      "original_language": "zh",
+      "summary_en": "SGLang’s Day‑0 support for NVIDIA Nemotron 3.5 Lightning addresses the challenge of efficiently serving a sparse Mixture‑of‑Experts model (30B total, 3B active parameters) with extremely long context (up to 1M tokens). The integration leverages multiple speculative decoding techniques (MTP, DFlash, DSpark) and NVFP4/BF16 weight quantization, enabling low‑latency inference and offering an OpenAI‑compatible API. This matters because it allows immediate, high‑performance deployment of a powerful open‑source model for agentic workflows and other latency‑sensitive applications.",
+      "summary_zh": "SGLang 实现了对 NVIDIA Nemotron 3.5 Lightning 开源 MoE 模型的即时集成，解决了大参数模型在长上下文（最高 1M token）下的高效推理难题。该支持通过 MTP、DFlash 等投机解码技术提升吞吐量，并借助 OpenAI 兼容 API 无缝衔接智能体工作流，使开发者能快速将高性能、低成本的语言模型部署到实际应用中。",
+      "source": "aihot_selected",
+      "title_zh": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2741757909,
+      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron",
+      "title": "NVIDIA 推出 Nemotron 3.5 Lightning，加速本地智能体任务",
+      "published_at": "2026-08-11T13:00:25+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA’s Nemotron 3.5 Lightning addresses the challenge of running efficient, customizable AI agents on local hardware. The key approach is an open-weight 30B Mixture-of-Experts model that achieves up to 4× faster token generation and 30% shorter task completion versus similar open-source models, while supporting fine-tuning for specific tasks. This matters because it brings large-model performance to edge devices like RTX PCs and Jetson, enabling responsive, privacy-preserving agentic applications without cloud dependency.",
+      "summary_zh": "NVIDIA 推出 Nemotron 3.5 Lightning，旨在加速本地常驻智能体的推理效率。该模型采用 30B 混合专家架构并开放权重，通过将 token 生成速度提升 4 倍、任务完成时间缩短 30%，实现了在 RTX PC 等边缘设备上的可定制化高速部署，为轻量级智能体任务提供了低延迟、低成本的解决方案。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 推出 Nemotron 3.5 Lightning，加速本地智能体任务",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1505217070,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+      "title": "OpenAI 用 Astra 模型攻克 10 道数学难题，数学家既兴奋又担忧",
+      "published_at": "2026-08-11T11:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI's unreleased Astra model solved ten long-standing open problems in mathematics—including sphere packing, error-correcting codes, and the existence of non-sofic groups—producing over 250 pages of results with Lean-formalized proofs. This demonstrates that AI can now tackle frontier mathematical research, expanding the field's horizons. The breakthrough has sparked both excitement about new possibilities and concern over how it may reshape the role of human intuition in mathematics.",
+      "summary_zh": "OpenAI 的 Astra 模型解决了包括球体堆积、纠错码及非 sofic 群存在性在内的 10 道长期未解数学难题，核心方法是通过模型生成并附上 Lean 形式化验证的证明。这一突破既展示了 AI 攻克高阶理论问题的潜力，也引发了学界对数学研究范式可能被重塑的兴奋与忧虑。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 用 Astra 模型攻克 10 道数学难题，数学家既兴奋又担忧",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1895886394,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487491&idx=1&sn=fcb14aceb054f9a24e22525d3dae6fa0",
+      "title": "Ling-3.0-tiny 正式开源：1.3B 激活参数如何进入真实任务",
+      "published_at": "2026-08-11T09:20:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Ant Group’s Ling team open-sourced Ling-3.0-tiny, a native mixture-of-reasoning model that addresses the challenge of deploying large language models in resource-constrained real-world tasks. With 7.9B total parameters but only 1.3B activated during inference, it provides highly efficient computation through BF16, FP8, and INT4 variants. This release enables strong task performance while drastically reducing inference cost, making advanced AI more accessible for edge and low-resource environments.",
+      "summary_zh": "蚂蚁百灵开源的 Ling-3.0-tiny 模型通过原生混合推理架构，在总参数 7.9B 的情况下仅激活 1.3B 参数，有效解决了大模型在真实任务中推理成本高、资源占用大的难题。该模型同步提供了 BF16、FP8 和 INT4 三种量化版本，为开发者提供了灵活高效的部署选择，对推动大语言模型在移动端或资源受限场景中的实际应用具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Ling-3.0-tiny 正式开源：1.3B 激活参数如何进入真实任务",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3433700023,
+      "url": "https://www.tomtunguz.com/a-winner-in-every-category",
+      "title": "每个类别都有赢家：AI 时代 SaaS 龙头的估值溢价",
+      "published_at": "2026-08-11T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The analysis addresses how AI is reshaping SaaS market valuations, noting that while the sector overall faces pressure, clear AI-powered leaders emerge in each niche. Key finding: firms with strong AI integration—like CrowdStrike in security, Cloudflare in infrastructure, and Shopify in commerce—enjoy dramatically higher forward revenue multiples (e.g., 34.4× vs. 3.9× median) compared to peers. This matters because it quantifies the premium investors now assign to AI-native or AI-enhanced SaaS models, guiding both investment and product strategy.",
+      "summary_zh": "尽管SaaS行业整体估值承压，但每个细分赛道中拥抱AI的龙头企业仍获得显著溢价，如网络安全领域的CrowdStrike前瞻收入倍数高达34.4倍，远超行业3.9倍的中位数。这一发现表明，在AI时代市场对具备智能技术壁垒的SaaS公司给予了明确的价值重估，为投资者指明了结构性分化机遇。",
+      "source": "aihot_selected",
+      "title_zh": "每个类别都有赢家：AI 时代 SaaS 龙头的估值溢价",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2985257873,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.11-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.21.11-preview.0",
+      "published_at": "2026-08-12T00:55:59+00:00",
+      "original_language": "en",
+      "summary_en": "This preview release improves session safety and observability in the Qwen code assistant by enforcing prompt‑safe navigation and logging session continuation admissions. It also hardens the daemon’s ACP (Agent Communication Protocol) with bounded NDJSON buffers, preventing resource exhaustion. These changes enhance stability and debuggability for interactive AI‑driven coding sessions.",
+      "summary_zh": "该版本主要修复了 Web Shell 和桌面端的安全与稳定性问题，通过强制实施提示安全的会话导航并限制守护进程的 NDJSON 缓冲区大小，防止未授权访问和资源耗尽。此外，增加了会话继续准入的日志记录，提升了系统的可观测性和生产环境可靠性，对保护 AI 代码执行环境至关重要。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.11-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2607085215,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.10-nightly.20260812.a64d1291d2",
+      "title": "QwenLM/qwen-code: Release v0.21.10-nightly.20260812.a64d1291d2",
+      "published_at": "2026-08-12T00:56:30+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release of Qwen Code addresses security and stability in interactive coding sessions by enforcing prompt-safe navigation in the web shell and bounding daemon buffer sizes, preventing overflow and prompt injection risks. The patch also adds logging for session continuations, enhancing monitoring and control. These fixes are critical for maintaining robust, safe AI-assisted development environments where untrusted code execution or input could otherwise compromise the session.",
+      "summary_zh": "该版本主要修复了 Web Shell 会话导航中的安全隐患，强制实施安全的跳转逻辑；同时为服务端增加了会话继续许可的日志记录与 ACP NDJSON 缓冲区大小限制，以提升可观测性和资源控制能力。这些改进有助于防止非预期的会话劫持，并为长期运行的守护进程提供了更稳定的流处理保障。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.10-nightly.20260812.a64d1291d2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 809663027,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.2.0",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.2.0",
+      "published_at": "2026-08-12T03:27:52+00:00",
+      "original_language": "en",
+      "summary_en": "Qwen Code Desktop v0.2.0 addresses stability and performance in session management: it fixes transcript history pagination in the web shell, adds a feature for sharing session catalog schedules, and caches persisted session catalogs for faster CLI performance. These improvements enhance the reliability and efficiency of interacting with chat histories and collaborative workflows in the coding assistant.",
+      "summary_zh": "此版本主要解决了Web Shell中转录历史分页不稳定以及会话目录管理效率问题，通过修复分页逻辑、引入会话目录调度共享和持久化缓存来提升性能与稳定性。这些改进有助于优化开发者工具的使用体验，使代码助手在交互过程中更加流畅可靠。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.2.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1524272316,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.10",
+      "title": "QwenLM/qwen-code: Release v0.21.10",
+      "published_at": "2026-08-11T14:21:34+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses gaps in controlling AI reasoning effort, handling images in the Web Shell, and reliability of headless automated fixes. It introduces session-level ACP configuration to adjust reasoning from Default to Max, adds preview and download for uploaded/pasted images via the artifact panel, and fixes AutoFix timeouts by streaming progress output to detect ongoing work during long-running headless tasks. These improvements give users finer control over model behavior, enrich the debugging experience with image previews, and ensure automated fixes don’t prematurely abort in unattended environments.",
+      "summary_zh": "qwen-code v0.21.10 版本通过支持 ACP 会话配置来精细调节推理努力等级，解决了默认推理强度无法灵活匹配不同代码任务需求的问题，同时优化了 Web Shell 中的图片预览与下载体验，并采用流式进度输出修复了 AutoFix 因长时间无头任务导致的超时问题，使自动化代码修复过程更可靠透明。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.10",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3734412690,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.35.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.35.0",
+      "published_at": "2026-08-12T03:47:33+00:00",
+      "original_language": "en",
+      "summary_en": "The kimi-code v0.35.0 update improves transparency in multi-agent coding workflows by displaying live progress of background subagents directly in the `/tasks` panel, addressing the gap in real-time observability. This enhancement allows developers to monitor and manage complex AI-driven tasks more effectively, improving debugging and workflow management.",
+      "summary_zh": "该更新针对并行后台子代理工作状态不透明的问题，通过在 `/tasks` 面板中展示其动态进度，提升了多代理任务执行的可见性。这一改进有助于研究者和开发者实时监控代理行为，优化调试与协作效率。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.35.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
