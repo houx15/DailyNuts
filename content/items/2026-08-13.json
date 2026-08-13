@@ -1,0 +1,518 @@
+{
+  "date": "2026-08-13",
+  "items": [
+    {
+      "id": 3024468316,
+      "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
+      "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
+      "published_at": "2026-08-12T09:51:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses why generative AI models produce incorrect factual statements despite having learned correct information during training. Its key finding is that parametric factuality failures are primarily due to recall failures—the model cannot reliably access stored knowledge—rather than missing knowledge. This matters because improving factuality may depend less on adding more training data and more on mechanisms that enhance memory retrieval.",
+      "summary_zh": "该研究针对生成式AI的参数化事实性问题，提出模型在回答事实时的主要瓶颈是“回忆”（recall），而非知识存储不足或精度不够——即模型常常“知道却提取不出来”。这一发现表明，提升事实性应优先优化知识的检索与提取机制，对减少幻觉、提高生成内容的可信度具有重要意义。",
+      "source": "google_research",
+      "title_en": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3909698952,
+      "url": "http://arxiv.org/abs/2608.12313v1",
+      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+      "published_at": "2026-08-12T17:58:02+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the lack of structured video representations that creative agents can use to learn from high-quality films for cinematic video generation. It proposes AVA-Encoder, which encodes video into an editable knowledge graph with hierarchical text nodes, linked media assets, and typed relations, then reconstructs the video and uses reconstruction differences to drive textual-gradient optimization. This matters because it gives agents a faithful, queryable, and manipulable representation for agentic reasoning and improved video creation.",
+      "summary_zh": "针对创意智能体难以从高质量人类影片中有效学习、缺乏既忠实于内容又可直接用于推理和操作的视频表示这一问题，本文提出 AVA-Encoder 框架，通过智能体自编码将视频转化为由层级/状态节点、资产层和类型化边构成的知识图谱，再从图谱重建视频，并利用重建差异进行文本梯度优化。该方法为智能体提供了可理解、可查询、可编辑的“智能体原生”视频表示，有助于提升其生成电影级视频的能力。",
+      "source": "arxiv_cs_cl",
+      "title_en": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1963936425,
+      "url": "http://arxiv.org/abs/2608.12308v1",
+      "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
+      "published_at": "2026-08-12T17:54:33+00:00",
+      "original_language": "en",
+      "summary_en": "DreamFly addresses aerial vision-language navigation challenges—limited historical context, short planning horizons, and unreliable termination—by introducing a causally aligned memory and receding-horizon diffusion planning built on Dream-VLA. It predicts a K-step action chunk but executes only the first action, enabling temporal reasoning and stable replanning without future information leakage. This improves an embodied aerial agent’s ability to integrate visual evidence over time and decide when goals are reached under partial observability.",
+      "summary_zh": "DreamFly 针对航空视觉语言导航中历史上下文有限、规划视野短和隐式终止不可靠的问题，提出基于 Dream-VLA 的扩散框架：引入仅利用当前决策步之前观测的因果对齐历史记忆，避免未来信息泄漏，并将导航建模为预测 K 步动作但仅执行第一步的滚动时域扩散规划。该方法通过结合因果时序记忆与重规划策略，提升了部分可观测条件下航空导航的时序推理与决策可靠性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3056444951,
+      "url": "http://arxiv.org/abs/2608.12307v1",
+      "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+      "published_at": "2026-08-12T17:53:18+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses whether capabilities can be transferred from a strong model to a weaker one at inference time without updating the weaker model’s parameters. It introduces strong-to-weak scaffolding, where a stronger builder iteratively designs test-time harnesses on 5% validation data, and finds this nearly doubles target-model performance on Theory-of-Mind benchmarks (0.49 to 0.91). The approach matters because it shows effective capability transfer can come from offloading unstable reasoning into deterministic code rather than costly training-time distillation.",
+      "summary_zh": "本文探讨是否能在测试时（而非通过训练更新参数）实现强模型到弱模型的能力迁移。研究发现，让较强的构建模型利用少量验证数据迭代设计推理脚手架（harness），可在不更新弱模型参数的情况下，将弱模型在四个心理理论基准上的平均性能从0.49提升至0.91。其效果主要源于将不稳定的模型推理卸载到确定性代码中，为低成本、无需训练的模型能力增强提供了新途径。",
+      "source": "arxiv_cs_cl",
+      "title_en": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 496665600,
+      "url": "http://arxiv.org/abs/2608.12304v1",
+      "title": "Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models",
+      "published_at": "2026-08-12T17:50:39+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the scalability limits of manually building Dynamic Master Logic models for complex system diagnostics by automating their construction from technical documentation. It uses retrieval-augmented large language models to generate hierarchical DML models represented as knowledge graphs, extending prior small-scale work to larger systems while preserving functional dependencies and logical relationships. This matters because the resulting KG-DML supports diagnostic reasoning, safety assessment, and failure/dependency tracing at scale.",
+      "summary_zh": "该研究解决了复杂系统动态主逻辑（DML）模型构建依赖专家、难以扩展的问题，提出利用检索增强生成和大语言模型从系统描述自动构建DML，并将其表示为知识图谱（KG-DML）。该方法在更大规模系统上保留功能依赖与逻辑关系，能够支持诊断推理、安全评估及故障传播与依赖追踪，提升了复杂系统建模的自动化与可扩展性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3753868358,
+      "url": "http://arxiv.org/abs/2608.12299v1",
+      "title": "Class Activation Mapping in Explainable Computer Vision: A Method-Centered Review of CNN, Transformer, and Foundation-Model-Era Visual Explanations",
+      "published_at": "2026-08-12T17:45:03+00:00",
+      "original_language": "en",
+      "summary_en": "This review addresses the fragmented landscape of Class Activation Mapping (CAM) methods in explainable computer vision by synthesizing 57 method-centered papers from 2016 onward. It develops a taxonomy based on attribution mechanism, architectural dependence, and evaluation, covering CNN, transformer, and foundation-model-era techniques. This matters because it clarifies how visual explanations have evolved from simple CNN heatmaps to diverse gradient-based, token-level, causal, and foundation-model approaches, helping researchers select and advance appropriate explainability methods.",
+      "summary_zh": "本文综述了类别激活映射（CAM）在可解释计算机视觉中的发展，系统梳理了57篇方法论文，提出按归因机制、架构依赖和评估方式划分的分类体系。其关键发现是CAM已从早期基于CNN全局平均池化的方法，扩展到梯度/无梯度、Transformer标记归因以及CLIP、DINO、SAM等基础模型时代的多种解释技术。该综述为理解不同视觉解释方法的适用边界与选择提供了方法中心的理论框架。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Class Activation Mapping in Explainable Computer Vision: A Method-Centered Review of CNN, Transformer, and Foundation-Model-Era Visual Explanations",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1505570442,
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "title": "Aug 13, 2026Frontier Red TeamPatterns and problems in emerging multiagent systems",
+      "published_at": "2026-08-13T00:00:00",
+      "original_language": "en",
+      "summary_en": "This piece from the Frontier Red Team examines recurring patterns and failure modes in emerging multiagent systems. It identifies key technical and coordination problems that arise when multiple AI agents interact, helping to anticipate risks and guide safer system design.",
+      "summary_zh": "该报告聚焦新兴多智能体系统中出现的模式与问题，由 Frontier Red Team 于 2026 年 8 月发布，旨在识别和梳理多智能体协作与交互中的关键风险及异常行为。其价值在于为理解和治理复杂多智能体系统提供早期警示与问题框架。",
+      "source": "anthropic_research",
+      "title_en": "Aug 13, 2026Frontier Red TeamPatterns and problems in emerging multiagent systems",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 853251662,
+      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+      "title": "Aug 12, 2026Economic ResearchReviewing the evidence on worker retraining programs",
+      "published_at": "2026-08-12T00:00:00",
+      "original_language": "en",
+      "summary_en": "This piece reviews existing evidence on worker retraining programs to assess whether they improve employment and earnings outcomes for displaced or transitioning workers. By synthesizing prior research, it aims to identify which program designs are most effective, providing guidance for policymakers allocating resources to workforce development.",
+      "summary_zh": "本文回顾了关于工人再培训项目效果的实证研究，旨在评估此类项目能否有效提升参与者的就业与收入。通过系统梳理现有证据，为政策制定者优化劳动力市场干预措施提供参考。",
+      "source": "anthropic_research",
+      "title_en": "Aug 12, 2026Economic ResearchReviewing the evidence on worker retraining programs",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4153278859,
+      "url": "https://claude.com/blog/cowork-chrome-side-panel",
+      "title": "The Claude in Chrome side panel is now Claude Cowork",
+      "published_at": "2026-08-13T09:05:04.382027",
+      "original_language": "en",
+      "summary_en": "The update addresses the limited positioning of Claude as a simple browser side-panel assistant by rebranding it as **Claude Cowork**. The key change is a strategic reframing of the tool toward collaborative, ongoing AI work within Chrome rather than one-off queries. This matters because it signals a shift in how users are expected to interact with Claude—as an active coworking partner rather than a passive utility.",
+      "summary_zh": "该公告说明 Chrome 侧边栏中的 Claude 功能已更名为 Claude Cowork，旨在从单纯的浏览器助手升级为更贴近协同工作场景的工具。此举表明其产品定位正向浏览器内的任务协作与工作流整合方向发展，对用户在网页环境中直接完成工作具有实用意义。",
+      "source": "claude_blog",
+      "title_en": "The Claude in Chrome side panel is now Claude Cowork",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2191327021,
+      "url": "https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude",
+      "title": "A guide to cost visibility and control in Claude",
+      "published_at": "2026-08-13T09:05:04.385695",
+      "original_language": "en",
+      "summary_en": "This guide addresses the challenge of managing and monitoring expenses when using Claude. It provides practical methods for gaining visibility into usage costs and implementing controls to keep spending in check. This matters because it helps users and organizations use Claude efficiently without unexpected budget overruns.",
+      "summary_zh": "本文针对使用 Claude 时成本难以追踪和控制的问题，提供了一份关于成本可见性与管控的指南。其核心是帮助用户理解并监控 Claude 相关的费用支出，从而更有效地优化资源使用。这对控制 AI 应用预算、提升投入产出比具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "A guide to cost visibility and control in Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2353277259,
+      "url": "https://podcasters.spotify.com/pod/show/how-do-you-use-chat-gpt/episodes/Microsofts-Vision-for-an-Internet-Made-for-Agents-With-CTO-Kevin-Scott-Best-of-the-Pod-e3naje0",
+      "title": "Microsoft’s Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)",
+      "published_at": "2026-08-12T16:55:27",
+      "original_language": "en",
+      "summary_en": "Microsoft CTO Kevin Scott addresses the gap between AI agents that can converse and agents that can actually act on users’ behalf, arguing they need access to the same tools, data, and systems that make up the internet. His key bet is that an “agentic web” will emerge as the next major AI infrastructure, and the discussion highlights how that foundational layer is now being built. This matters because it outlines the practical path from passive AI assistants to autonomous agents capable of real-world tasks.",
+      "summary_zh": "微软CTO Kevin Scott提出“代理网络”（agentic web）愿景，认为AI代理要真正有用，必须能代表用户访问和操作互联网上的工具、数据与系统。这一押注正在见效，相关基础设施已开始建设，为代理自主行动奠定基础，可能成为AI下一阶段的重大方向。",
+      "source": "ai_and_i",
+      "title_en": "Microsoft’s Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3810763437,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7",
+      "title": "WorkBuddy上线远程控制，国内也有了最丝滑的Agent工作方式",
+      "published_at": "2026-08-13T04:32:24+00:00",
+      "original_language": "zh",
+      "summary_en": "WorkBuddy now addresses the gap between desktop AI agent work and mobile access by adding remote control that syncs tasks, conversations, workspaces, and outputs between PC, app, and mini-program, letting one phone manage multiple computers without scanning. The update also adds a shared knowledge base, collaborative Markdown editing, AI-native review, and one-click publishing of content to HTML websites. This matters because it makes complex agent workflows continuously accessible and collaborative from mobile, reducing friction for individuals and teams.",
+      "summary_zh": "WorkBuddy 推出远程控制功能，打通 PC、App 与小程序，让手机实时同步电脑端的任务、对话、工作空间和产物，并支持一台手机在多台电脑间切换，解决移动场景下 Agent 工作流难以远程接续与操控的问题。同时新增资料库、多人 Markdown 编辑、AI 原生审阅和一键生成可发布网页，使 AI 工作成果从生产到分享更顺畅，提升了国内 Agent 协作的便捷性与流畅度。",
+      "source": "aihot_selected",
+      "title_zh": "WorkBuddy上线远程控制，国内也有了最丝滑的Agent工作方式",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1273767773,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301",
+      "title": "DeepSeek V4 Pro与Grok 4.6同日发布，双双逼近Claude Fable 5体验",
+      "published_at": "2026-08-12T22:22:28+00:00",
+      "original_language": "zh",
+      "summary_en": "This news reports the same-day release of DeepSeek V4 Pro and Grok 4.6, two large models with 1.6T and 1.5T parameters respectively. Both models are described as approaching the experience of Claude Fable 5, signaling that multiple frontier AI systems are rapidly converging on comparable performance. This matters because it shows intensifying competition and faster iteration among leading AI developers.",
+      "summary_zh": "DeepSeek V4 Pro与Grok 4.6同日发布，均为约1.5T–1.6T参数的大模型，旨在缩小与Claude Fable 5的体验差距。其关键进展在于以相近参数量逼近顶级模型的综合表现，表明头部大模型竞争进一步白热化，用户体验差异正在快速收窄。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek V4 Pro与Grok 4.6同日发布，双双逼近Claude Fable 5体验",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2801948136,
+      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project",
+      "title": "AutoGPT 如何用 AGENTS.md 和技能门控管理 AI 生成的拉取请求",
+      "published_at": "2026-08-12T18:00:08+00:00",
+      "original_language": "zh",
+      "summary_en": "AutoGPT maintainers addressed the problem that AI agents ignore documentation by placing instructions directly in AGENTS.md and skill files alongside code. They enforced gates such as PR templates, test plans, CI coverage thresholds, and CLA signing—the latter serving as a “human detector” because it requires browser/OAuth interaction. This approach turned agent-submitted pull requests from unusable into usable, though still not aligned with the project roadmap.",
+      "summary_zh": "AutoGPT 维护者解决 AI 智能体不主动阅读文档的问题，将指令嵌入代码旁的 AGENTS.md 和技能文件，并用 PR 模板、测试计划、CI 覆盖率及 CLA 签名等门控机制筛选提交。其关键发现是 CLA 的浏览器 OAuth 流程可充当“人类探测器”，将智能体 PR 从“不可用”提升为“可用但偏离路线图”，从而在自动化与项目治理间取得平衡。",
+      "source": "aihot_selected",
+      "title_zh": "AutoGPT 如何用 AGENTS.md 和技能门控管理 AI 生成的拉取请求",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2920901559,
+      "url": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality",
+      "title": "空货架还是丢钥匙？Google 研究：Recall 是参数化事实性的瓶颈",
+      "published_at": "2026-08-12T17:57:36.369000+00:00",
+      "original_language": "zh",
+      "summary_en": "Google Research introduces a knowledge profiling framework showing that in frontier LLMs like Gemini 3 and GPT-5, factual encoding is nearly saturated, while recall is the main bottleneck—most errors are “lost keys” rather than “empty shelves.” The work also contributes the WikiProfile benchmark with 2,150 Wikipedia facts (10 questions each) to separately measure encoding, recall, and recognition, helping diagnose why models fail to retrieve known facts.",
+      "summary_zh": "Google Research 针对大模型事实性错误来源提出知识画像框架，将错误分为编码失败、回忆失败等五类，并发现 Gemini 3、GPT-5 等前沿模型的事实编码接近饱和，多数错误源于回忆失败（“丢钥匙”而非“空货架”）。研究还推出含 2,150 条维基事实、每条 10 问的 WikiProfile 基准，用于分别探测编码、回忆与识别能力，为定位和改善模型事实性提供了新工具。",
+      "source": "aihot_selected",
+      "title_zh": "空货架还是丢钥匙？Google 研究：Recall 是参数化事实性的瓶颈",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1578600139,
+      "url": "https://www.ithome.com/0/989/001.htm",
+      "title": "阿里开放 Qwen3.8-2.4T-A95B 模型权重：2.4T MoE、激活 95B、原生 256K 上下文",
+      "published_at": "2026-08-12T16:10:01+00:00",
+      "original_language": "zh",
+      "summary_en": "Alibaba’s Qwen team has open-sourced the Qwen3.8-2.4T-A95B model weights, marking the first Qwen-Max-level release. It uses a 2.4T-parameter Mixture-of-Experts architecture with 95B active parameters per token and natively supports 262,144 tokens of context, extendable to 1,010,000 tokens. This matters because it gives researchers open access to a frontier-scale, long-context model for further study and application.",
+      "summary_zh": "阿里 Qwen 团队开源了 Qwen-Max 级别的 MoE 模型 Qwen3.8-2.4T-A95B，总参数 2.4T、每个 Token 激活 95B，原生支持 256K 上下文并可扩展至 1M Token。该发布首次将顶级闭源能力的大模型权重开放给社区，解决了超大模型高效推理与长上下文处理的可获取性问题，为后续研究和部署提供了高性能基础。",
+      "source": "aihot_selected",
+      "title_zh": "阿里开放 Qwen3.8-2.4T-A95B 模型权重：2.4T MoE、激活 95B、原生 256K 上下文",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4270528461,
+      "url": "https://x.com/mustafasuleyman/status/2087570047967408396",
+      "title": "微软首发自研推理模型MAI-Thinking-1",
+      "published_at": "2026-08-12T16:00:59+00:00",
+      "original_language": "zh",
+      "summary_en": "Microsoft has introduced MAI-Thinking-1, its first reasoning model built entirely from scratch, now available on Microsoft Foundry. This marks a shift toward in-house AI reasoning capabilities rather than relying solely on external models, expanding Microsoft’s enterprise AI infrastructure.",
+      "summary_zh": "微软发布其首个自研推理模型 MAI-Thinking-1，该模型从零开始构建，并已在 Microsoft Foundry 平台上线。此举旨在强化微软在复杂推理任务上的自主能力，标志着其在推理模型领域摆脱外部依赖、完善自身 AI 技术栈的重要一步。",
+      "source": "aihot_selected",
+      "title_zh": "微软首发自研推理模型MAI-Thinking-1",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 426899312,
+      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+      "title": "我写了一本 AI 教科书--AI 还要多久才能写得更好？",
+      "published_at": "2026-08-12T13:01:16+00:00",
+      "original_language": "zh",
+      "summary_en": "The author reflects on writing an RLHF textbook and observes that while LLMs now approach superhuman performance in coding and math, their long-form non-fiction writing has stalled, with even strong writing models like GPT-4.5 and Kimi K2 feeling dated. Models can edit and correct errors but still struggle to organize whole chapters coherently, which the author argues limits their ability to autonomously tackle open scientific problems.",
+      "summary_zh": "作者在完成一本 RLHF 教科书后发现，大语言模型在长文非虚构写作上进展停滞，虽能纠错和编辑，但组织整章内容时仍混乱易错；而编码、数学等任务已接近超人水平。这一写作短板被认为会阻碍模型自主解决开放科学问题。",
+      "source": "aihot_selected",
+      "title_zh": "我写了一本 AI 教科书--AI 还要多久才能写得更好？",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1956945773,
+      "url": "https://x.com/OpenRouter/status/2087509478480765218",
+      "title": "Meta 开源 Muse Glimmer 登陆 OpenRouter",
+      "published_at": "2026-08-12T12:00:18+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta AI’s superintelligence lab has released Muse Glimmer, its first open-weight model, now available on OpenRouter. It is a 30B dense text-plus-image model under an Apache 2.0 license, designed as a reliable local AI agent, scoring 75.5 on MCP Atlas and 51.2 on SWE-Bench Pro. This matters because it provides a capable, openly licensed multimodal agent model for local deployment and further research.",
+      "summary_zh": "Meta 开源了 Muse Glimmer，一个 30B 密集文本+图像模型，采用 Apache 2.0 许可并在 OpenRouter 上线，旨在作为可靠的本地智能体。该模型在 MCP Atlas 和 SWE-Bench Pro 上分别取得 75.5 和 51.2 分，展示了较强的智能体与软件工程能力。这一发布为本地部署和开放权重下的智能体研究提供了新选择。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 开源 Muse Glimmer 登陆 OpenRouter",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 105548263,
+      "url": "https://cursor.com/blog/grok-4-6",
+      "title": "Cursor 与 SpaceXAI 联合发布 Grok 4.6",
+      "published_at": "2026-08-12T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cursor and SpaceXAI have jointly released Grok 4.6, targeting improved performance in long-running autonomous agents and interactive visual tasks. It achieves frontier-level results on several agentic programming and knowledge-work benchmarks and ties GPT-5.6 Sol on the Artificial Analysis Intelligence Index, positioning it as a competitive model for sustained, multimodal AI workloads.",
+      "summary_zh": "Cursor 与 SpaceXAI 联合发布的 Grok 4.6 重点解决长时运行智能体和交互式视觉任务中的能力瓶颈，通过在相关基准上达到前沿水平并在 Artificial Analysis Intelligence Index 上追平 GPT-5.6 Sol，展现了在复杂持续交互场景下的竞争力。",
+      "source": "aihot_selected",
+      "title_zh": "Cursor 与 SpaceXAI 联合发布 Grok 4.6",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1147336168,
+      "url": "https://x.ai/news/grok-4-6",
+      "title": "xAI 发布 Grok 4.6，强化长时运行智能体能力",
+      "published_at": "2026-08-12T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "xAI’s Grok 4.6 improves on Grok 4.5 to better handle long-running autonomous agents and more complex interactive and visual tasks. The model reaches frontier-level performance on agentic coding and knowledge-work benchmarks, matching GPT-5.6 Sol on the Artificial Analysis Intelligence Index. This matters because it advances capable, sustained AI agents for complex real-world work.",
+      "summary_zh": "xAI 发布 Grok 4.6，针对长时运行智能体及复杂交互式与视觉工作能力进行强化，解决此前模型在持续任务执行上的不足。该模型在多项智能体编码与知识工作基准上达到前沿水平，并在 Artificial Analysis Intelligence Index 九项综合分上追平 GPT-5.6 Sol，标志着开源与商业模型在通用智能体能力上的竞争进一步加剧。",
+      "source": "aihot_selected",
+      "title_zh": "xAI 发布 Grok 4.6，强化长时运行智能体能力",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3126870844,
+      "url": "https://openrouter.ai/blog/announcements/web-search-benchmark",
+      "title": "OpenRouter 推出实时网页搜索基准测试：如何为智能体选择引擎、深度与模型",
+      "published_at": "2026-08-12T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter launched a live benchmark ranking combinations of models, search engines, search methods, and budgets for real-time web-search agents. It finds that raising search rounds from 1 to 25 nearly doubles BrowseComp scores at only 2.5–7× the cost, and that model choice matters more than engine choice, while high-failure tasks benefit from shallower search to control costs. This helps developers choose cost-effective agent configurations by balancing search depth, model quality, and reliability.",
+      "summary_zh": "OpenRouter 发布了实时排行榜，系统评测模型、搜索引擎、搜索方法与预算的组合配置，以解决智能体网页搜索方案选择缺乏量化依据的问题。其关键发现是：将搜索预算从1轮增至25轮可使 BrowseComp 得分近乎翻倍而成本仅增2.5–7倍，且模型选择比搜索引擎对效果影响更大（平均分差15分 vs 10分）。这为在成本与准确率之间权衡、并根据任务失败率调整搜索深度提供了实用指导。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 推出实时网页搜索基准测试：如何为智能体选择引擎、深度与模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1814643819,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.12-preview.1",
+      "title": "QwenLM/qwen-code: Release v0.21.12-preview.1",
+      "published_at": "2026-08-13T09:04:55+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses issues in the web-shell component of Qwen Code by fixing preservation of standalone session targets and adding support for workspace file uploads. These changes improve session continuity and enable users to upload files directly within the workspace, enhancing web-based interaction and developer productivity.",
+      "summary_zh": "该版本修复了 Qwen Code Web Shell 中独立会话目标无法保留的问题，并新增了工作区文件上传功能。这一更新增强了 Web Shell 的会话稳定性与文件交互能力，有助于改善基于浏览器的代码执行与协作体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.12-preview.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1652071813,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.11",
+      "title": "QwenLM/qwen-code: Release v0.21.11",
+      "published_at": "2026-08-13T05:25:04+00:00",
+      "original_language": "en",
+      "summary_en": "Release v0.21.11 of Qwen Code expands agent capabilities by adding Agent Plugins v1 and native multi-agent coordination through a `/coordinate` command with read-only teammates, alongside UI refinements like smarter word- and line-wise text selection. These updates make the coding agent more extensible and collaborative, improving how users orchestrate multiple agents and interact with code.",
+      "summary_zh": "Qwen-code v0.21.11 版本主要解决 AI 编码助手在能力扩展和多智能体协作方面的需求，通过引入 Agent Plugins v1 插件机制和 `/coordinate` 命令支持只读队友的原生多智能体工作流，让开发者能更灵活地扩展 agent 功能并编排多 agent 任务。此外，该版本还改进了双击/三击的文本选择交互，提升编辑体验。这些更新对构建更复杂、可扩展的 AI 编码助手具有重要意义。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.11",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1664730309,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-full-20260813-r3",
+      "title": "QwenLM/qwen-code: DSW EAS Harbor full E2E 2026-08-13 r3",
+      "published_at": "2026-08-13T06:49:15+00:00",
+      "original_language": "en",
+      "summary_en": "This release performs a non-production, full end-to-end validation of Qwen Code on SWE-bench Verified to ensure readiness before production (PG) submission. It prepares the exact Qwen Code cache in ACR and pins the benchmark reference to v0.21.11, supporting reproducibility and controlled rollout. This matters because it de-risks the submission by verifying the complete pipeline and artifact consistency ahead of the official release.",
+      "summary_zh": "该发布事件针对 Qwen Code 在 PG 提交前进行非生产的完整 SWE-bench Verified 端到端验证，通过在 ACR 中准备精确的 Qwen Code 缓存来保障环境一致性。其意义在于提前锁定基准版本 v0.21.11 的缓存与验证流程，降低正式提交前的回归风险。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW EAS Harbor full E2E 2026-08-13 r3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1649721354,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-full-20260813-r1",
+      "title": "QwenLM/qwen-code: DSW EAS Harbor full E2E 2026-08-13 r1",
+      "published_at": "2026-08-13T06:35:33+00:00",
+      "original_language": "en",
+      "summary_en": "This entry reports a non-production, full end-to-end validation of Qwen Code v0.21.11 with model qwen3.7-plus on all 500 SWE-bench Verified instances. The run was quarantined with 0 valid resolved/unresolved results, yielding no score because zero valid grader outputs were produced. This matters as it flags an infrastructure or grader validity issue that prevents meaningful benchmark evaluation until resolved.",
+      "summary_zh": "该报告记录了 QwenLM/qwen-code 在 SWE-bench Verified 基准上的非生产全量端到端验证，旨在评估模型 qwen3.7-plus 的代码修复能力。运行完成了 500/500 个实例，但因基础设施或评分异常被标记为“隔离”状态，最终没有产生任何有效解析结果，分数也未发布。这表明当前验证流程或运行环境存在问题，无法据此判断模型真实表现，需要后续排查和重新运行。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW EAS Harbor full E2E 2026-08-13 r1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2905644984,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.36.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.36.0",
+      "published_at": "2026-08-13T05:50:17+00:00",
+      "original_language": "en",
+      "summary_en": "This update for MoonshotAI’s kimi-code introduces an experimental fullscreen terminal user interface mode, enabled by setting the `KIMI_CODE_TUI_FULL_SCREEN=1` environment variable. The change aims to improve the terminal-based coding assistant experience by offering a more immersive, fullscreen interaction option for developers who prefer command-line workflows.",
+      "summary_zh": "该版本为 kimi-code 增加了实验性全屏 TUI 模式，通过设置环境变量 `KIMI_CODE_TUI_FULL_SCREEN=1` 启用，以改善终端界面的显示空间和沉浸式交互体验。这一改进有助于提升开发者在终端中使用 AI 编程助手时的操作效率与使用体验。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.36.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
