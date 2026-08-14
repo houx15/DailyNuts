@@ -1,0 +1,537 @@
+{
+  "date": "2026-08-14",
+  "items": [
+    {
+      "id": 3553150172,
+      "url": "http://arxiv.org/abs/2608.13560v1",
+      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+      "published_at": "2026-08-13T17:59:57+00:00",
+      "original_language": "en",
+      "summary_en": "AutoDesign addresses the limitation of static media-generation harnesses by introducing a meta-harness optimizer that lets a code agent recursively improve its harness using rollout feedback, aligning with human design priors. Evaluated on a new academic paper-to-poster benchmark (PosterBench), it achieves a top score of 78.32, outperforming closed-source commercial systems, showing that self-improving agentic pipelines can produce higher-quality structured media outputs.",
+      "summary_zh": "AutoDesign 针对现有模型-harness 系统静态、难以对齐人类设计先验并递归自我改进的问题，提出由元 harness 优化器引导代码智能体根据 rollout 反馈迭代优化 harness 的框架。该工作以学术论文到海报生成为实例，构建了 PosterBench 评测基准，并在主赛道取得 78.32 分，超越闭源商业方案，展示了长期智能体设计任务中可自我改进 harness 的潜力与价值。",
+      "source": "arxiv_cs_cl",
+      "title_en": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3698658125,
+      "url": "http://arxiv.org/abs/2608.13558v1",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "published_at": "2026-08-13T17:59:52+00:00",
+      "original_language": "en",
+      "summary_en": "OmniScientist addresses the limitation that existing AI scientists rely on text, code, or precomputed summaries, missing spatial, temporal, cross-channel, and procedural evidence. It introduces an end-to-end omni-modal system with a perception layer and three autonomous agents for ideation, experiment, and writeup that reason directly over heterogeneous raw evidence through a deterministic pipeline with code-based novelty, rigor, and claim checks. This enables observations to shape the entire research lifecycle, supporting more evidence-grounded and rigorous multidisciplinary scientific discovery.",
+      "summary_zh": "OmniScientist 针对现有 AI 科学家只能基于文本、代码或预处理摘要推理、无法利用原始证据中空间、时间、跨通道和过程关系的问题，提出一个端到端的全模态科研智能体。其核心是由感知层和构思、实验、写作三个自主智能体组成确定性流水线，直接从异构原始证据开展多学科研究，并通过代码执行新颖性、严谨性和结论核查。这使观察证据能够全程塑造研究问题、实验决策与最终结论，提升了自动化科学发现的证据完整性和可靠性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1344822489,
+      "url": "http://arxiv.org/abs/2608.13555v1",
+      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "published_at": "2026-08-13T17:59:40+00:00",
+      "original_language": "en",
+      "summary_en": "HumanTracker addresses the gap between standard kinematic error metrics and human perception in humanoid motion tracking, where issues like unstable support and foot skating are often missed. It provides a large benchmark of roughly 153 hours of diverse optical motion trajectories with text labels, and introduces HumanScore, a preference-aligned metric trained on 12K motion pairs. HumanScore better predicts human preferences across state-of-the-art trackers, enabling more perceptually aligned and scalable evaluation.",
+      "summary_zh": "HumanTracker针对人形运动跟踪评估与人类感知不一致、现有测试集规模小且多样性不足的问题，提出包含约153小时光学运动轨迹、多表演者和四类运动及文本标签的可扩展基准。其关键方法是训练了基于12K运动对（24K运动）的偏好对齐指标HumanScore，该指标能更好地预测人类偏好，并揭示现有跟踪器在支撑稳定性和接触准确性（如脚部滑动、触地时机）方面的不足。这项工作为遥操作和全身模仿提供了更符合人类感知的评估工具，推动接触丰富、长时序行为的可靠度量。",
+      "source": "arxiv_cs_cl",
+      "title_en": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1643711443,
+      "url": "http://arxiv.org/abs/2608.13547v1",
+      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "published_at": "2026-08-13T17:57:20+00:00",
+      "original_language": "en",
+      "summary_en": "QuoteBench addresses a blind spot in evaluating LLM coding agents: matched execution scores can mask failures caused by command transport and parsing rather than by generation. It tests 56 incident-derived tasks across eight configurations, showing that adding one unescaped parser lowers success by 55–73 points when replaying identical replies, while disclosure recovers substantial performance in most cases. The work matters because it isolates the execution boundary as the key remaining differentiator, showing that raw generation is near-saturated and robust command-path handling is critical for reliable agents.",
+      "summary_zh": "QuoteBench 解决匹配执行分数无法区分命令生成错误与生成后传输/解析引入失败的问题，通过在 56 个事故衍生任务中故意加入未转义解析器，验证精确最终状态并重放同一回复。关键发现是相同回复经该边界后成功率下降 55.4–73.2 个百分点，披露边界后多数配置可恢复 30.4–60.7 个百分点，但原始生成已近饱和，模型间差异主要来自对执行边界的适应能力。",
+      "source": "arxiv_cs_cl",
+      "title_en": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 832850108,
+      "url": "http://arxiv.org/abs/2608.13545v1",
+      "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+      "published_at": "2026-08-13T17:56:12+00:00",
+      "original_language": "en",
+      "summary_en": "To study how language models acquire knowledge without uncharacterized prior exposure from web-scale data, the authors introduce LITTLECURRICULUM, an 88B-token pretraining corpus restricted to U.S. elementary school content up to Grade 5, and train the 5B-parameter LITTLELEARNER model on it. The resulting model has usable language competence but interpretable, curriculum-aligned knowledge boundaries, providing a controlled sandbox for examining knowledge acquisition, representation, and injection through post-training and in-context learning.",
+      "summary_zh": "为解决现代语言模型因训练语料庞杂而难以研究知识与技能习得的问题，该工作构建了仅包含美国小学五年级及以下内容的88B token预训练语料库LITTLECURRICULUM，并从头训练5B参数模型LITTLELEARNER，使其具备足够语言能力且知识与能力边界清晰可对应课程大纲。该模型与语料作为受控“沙盒”，可用于研究模型在明确训练范围下的知识获取、表示与运用，并通过后训练和上下文学习注入新知识的实验展示了其价值。",
+      "source": "arxiv_cs_cl",
+      "title_en": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1223401273,
+      "url": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
+      "title": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
+      "published_at": "2026-08-14T09:00:08.052003",
+      "original_language": "en",
+      "summary_en": "Anthropic addresses the bottleneck of ad-hoc data requests by deploying Claude Tag directly in Slack, letting users ask natural-language questions against internal data. The approach enables self-service analytics where Claude interprets and answers queries in context, reducing reliance on data teams. This matters because it speeds up decision-making and scales data access across the organization without manual analyst intervention.",
+      "summary_zh": "该内容介绍Anthropic如何在Slack中部署Claude Tag，以支持员工自助提出临时数据分析问题，减少对数据团队的依赖。其关键在于通过对话式AI直接响应查询，从而提升数据获取效率和分析敏捷性。",
+      "source": "claude_blog",
+      "title_en": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 426457165,
+      "url": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room",
+      "title": "Claude Tag now reads even more of the room",
+      "published_at": "2026-08-14T09:00:08.052210",
+      "original_language": "en",
+      "summary_en": "This update addresses Claude Tag’s previously limited contextual awareness by expanding its ability to “read the room”—picking up on more nuanced situational and conversational cues. The key change is broader real-time contextual understanding, which matters because it allows the system to respond more appropriately and adaptively in dynamic interactions.",
+      "summary_zh": "该更新针对 Claude Tag 在复杂互动中上下文感知不足的问题，通过增强其对周围环境与对话语境的识别能力，使模型能更精准地捕捉隐含信息和社交线索。这一改进有助于提升 AI 在真实场景中的响应质量与适应性，让交互更自然、更贴合用户意图。",
+      "source": "claude_blog",
+      "title_en": "Claude Tag now reads even more of the room",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2461933361,
+      "url": "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5",
+      "title": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
+      "published_at": "2026-08-14T09:00:08.052384",
+      "original_language": "en",
+      "summary_en": "The piece examines how JetBrains evaluates and deploys Claude Fable 5, focusing on security practices for adopting frontier AI in software development. It highlights the assessment and integration process, which matters for organizations aiming to use advanced AI capabilities while managing safety and security risks.",
+      "summary_zh": "本文围绕 JetBrains 如何评估和部署 Claude Fable 5 展开，旨在解决前沿 AI 模型在开发工具中安全、可控落地的问题。其关键做法是建立针对模型能力与风险的评估流程，并据此进行部署，确保先进模型在真实开发场景中可靠使用。这对企业安全采用前沿 AI 模型具有重要参考意义。",
+      "source": "claude_blog",
+      "title_en": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3408296800,
+      "url": "https://claude.com/blog/claude-enterprise-inference-hooks",
+      "title": "Inference hooks: inline data loss prevention for Claude Enterprise",
+      "published_at": "2026-08-14T09:00:08.054068",
+      "original_language": "en",
+      "summary_en": "Inference hooks provide inline data loss prevention for Claude Enterprise by intercepting and filtering prompts and responses in real time. This approach helps prevent sensitive information from leaking through AI interactions, making enterprise deployment safer and compliant.",
+      "summary_zh": "该功能针对 Claude Enterprise 的数据泄露风险，通过“推理钩子”在模型推理过程中内联执行数据丢失防护（DLP）。其核心是在推理链路中实时检测和拦截敏感信息，从而在不牺牲响应效率的前提下强化企业数据安全与合规。",
+      "source": "claude_blog",
+      "title_en": "Inference hooks: inline data loss prevention for Claude Enterprise",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4270336473,
+      "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+      "title": "Bringing MCP 2026-07-28 to Claude",
+      "published_at": "2026-08-14T09:00:08.054482",
+      "original_language": "en",
+      "summary_en": "This update addresses integrating the Model Context Protocol (MCP) version dated 2026-07-28 into Claude, ensuring the assistant can connect to external tools and data using the latest protocol specification. The key approach is adopting the updated MCP standard to improve interoperability and context handling, which matters because it enables more reliable, secure, and standardized interactions between Claude and external systems.",
+      "summary_zh": "该内容宣布将 2026-07-28 版 MCP（模型上下文协议）引入 Claude，解决 Claude 与外部工具、数据源之间的标准化连接与互操作问题。其核心做法是让 Claude 适配并支持该版本协议规范，从而通过统一接口调用外部工具和获取上下文。这有助于提升 Claude 在智能体应用和工作流中的扩展性与生态兼容性。",
+      "source": "claude_blog",
+      "title_en": "Bringing MCP 2026-07-28 to Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1015225776,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
+      "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
+      "published_at": "2026-08-14T05:31:04+00:00",
+      "original_language": "zh",
+      "summary_en": "GLM-5.3 addresses the need for stronger open-source coding and security capabilities by applying extreme post-training scaling to the same base model as GLM-5.2. It improves coding performance by 50% and ranks first among open-source models on Terminal Bench 3.0, while also achieving competitive cybersecurity results such as 84.5% on CyberGym. The model’s weights will be open-sourced in two weeks, making advanced coding and security AI more accessible.",
+      "summary_zh": "智谱发布GLM-5.3，针对编程与网络安全能力不足的问题，基于GLM-5.2相同基座通过极致后训练Scaling提升智能上界，编程能力较前代提升50%，在Terminal Bench 3.0等公开基准中取得开源第一并接近Claude Fable 5。模型在白盒代码审查等安全任务中表现持平Mythos 5，CyberGym得分84.5%，且权重将开源，对推动开源模型在编程与安全领域应用具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 699436553,
+      "url": "https://x.com/SiliconFlowAI/status/2088127458558271885",
+      "title": "DeepSeek V4 Pro 登陆硅基流动，1M 上下文",
+      "published_at": "2026-08-14T04:55:56+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek-V4-Pro-0813 is now available on SiliconFlow with Day-0 support, a 1M-token context window, and three inference intensity levels, optimized for coding, tool use, and agent workflows under the MIT open-source license. It is priced at $1.32/M input, $3.96/M output, and $0.44/M cached tokens, while the same-series DeepSeek-V4-Flash-0731 targets speed- and cost-sensitive production use. This gives developers a high-capacity, commercially flexible model for complex agentic tasks plus a cheaper daily-production option.",
+      "summary_zh": "DeepSeek V4 Pro 上线硅基流动，提供 1M 上下文窗口和低/高/最大三档推理强度，重点强化编码、工具调用与智能体工作流，并以 MIT 协议开源。该模型通过 Day-0 支持和分层推理配置，兼顾复杂任务能力与成本控制，对需要长上下文和智能体应用的开发者具有重要实用价值。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek V4 Pro 登陆硅基流动，1M 上下文",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3856690558,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
+      "title": "蚂蚁百灵与 ASystem 团队打通单机 Agentic RL 后训练闭环",
+      "published_at": "2026-08-14T04:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Ant Bailing and ASystem demonstrated a complete single-machine agentic RL post-training loop using Ling-3.0-tiny and AReno on a DGX Spark. With tic-tac-toe as a minimal testbed and the GSPO algorithm trained for 400 steps, rollout reward improved from about -0.5 to 0.4, response length dropped to roughly 850 tokens, and tool calls/actions became stable. This shows efficient, closed-loop agentic RL post-training is feasible on a single GPU workstation.",
+      "summary_zh": "蚂蚁百灵与 ASystem 团队针对单机环境下 Agentic 强化学习后训练闭环问题，基于 Ling-3.0-tiny 和 AReno 在 DGX Spark 上以井字棋为最小任务进行验证，采用 GSPO 算法训练 400 步后，奖励均值从约 -0.5 升至 0.4，响应长度降至约 850 tokens，工具调用与动作选择趋于稳定。这表明轻量模型在单机硬件上也能高效完成 Agentic RL 后训练闭环，为降低相关研发门槛和加速迭代提供了可行路径。",
+      "source": "aihot_selected",
+      "title_zh": "蚂蚁百灵与 ASystem 团队打通单机 Agentic RL 后训练闭环",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1692292882,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685238&idx=1&sn=c3159dba0dd5a141f8dd726fd474e6e2",
+      "title": "从0到1带你速通DeepSeek Harness。",
+      "published_at": "2026-08-13T23:58:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This guide addresses the challenge of quickly getting started with DeepSeek Harness, a framework for evaluating and working with DeepSeek models. It offers a step-by-step, from-basics-to-advanced walkthrough, helping practitioners lower the learning curve and efficiently adopt the tool in their AI/ML workflows.",
+      "summary_zh": "该内容面向不熟悉 DeepSeek Harness 的开发者，解决从零基础到上手使用的入门问题；核心是以循序渐进的方式讲解其功能、配置与调用流程，帮助读者快速掌握关键操作；这对希望高效集成或评估 DeepSeek 模型的工程实践具有实用参考价值。",
+      "source": "aihot_selected",
+      "title_zh": "从0到1带你速通DeepSeek Harness。",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 846412552,
+      "url": "https://x.com/bcherny/status/2088014489438621990",
+      "title": "Claude 接管应用日常维护：388 个 PR 的实践",
+      "published_at": "2026-08-13T21:27:02+00:00",
+      "original_language": "zh",
+      "summary_en": "Boris Cherny tested letting Claude autonomously handle routine app maintenance tasks—such as crash fuzzing, deduplicating code, and removing dead code—via Slack, producing 388 pull requests in a few weeks. About 180 PRs were merged after Claude Code Review and human review, with Claude usually fixing issues correctly on the first attempt and improving through routine adjustments after errors. This demonstrates the practical feasibility and value of AI agents taking over low-risk, high-frequency software upkeep at scale.",
+      "summary_zh": "Boris Cherny 让 Claude 通过 Slack 频道接管应用日常维护，执行崩溃模糊测试、重复代码统一、死代码移除等任务；数周内自动生成 388 个 PR，其中 180 个经 Claude 代码审查和人工审核后合并，且多数一次改对。这表明 AI 代理可在日常工程维护中大规模承担重复性代码任务，提升效率并减少人工负担。",
+      "source": "aihot_selected",
+      "title_zh": "Claude 接管应用日常维护：388 个 PR 的实践",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1633207861,
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+      "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型",
+      "published_at": "2026-08-13T17:04:18+00:00",
+      "original_language": "zh",
+      "summary_en": "Google DeepMind’s Gemini 3.7 Flash addresses coding and agentic workloads, arriving just three weeks after Gemini 3.6 Flash. It delivers stronger performance for these tasks while cutting input/output pricing to $0.75 and $3.75 per million tokens—half the cost of its predecessor. The rapid release and lower cost make capable coding and agent models more accessible for developers.",
+      "summary_zh": "Google DeepMind 发布 Gemini 3.7 Flash，主打编程与智能体任务，距上一代仅三周，重点解决高性能模型成本过高的问题。其关键举措是将输入/输出价格降至每百万 token 0.75/3.75 美元，仅为 3.6 Flash 的一半；这对需要大规模调用模型进行代码生成和自主智能体工作流的开发者具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 819143730,
+      "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
+      "title": "MiniMax Music 3.0 发布：新一代开源权重、生产级全能音乐模型",
+      "published_at": "2026-08-13T16:52:23.676000+00:00",
+      "original_language": "zh",
+      "summary_en": "MiniMax Music 3.0 is a new open-weight music generation model that can compose, arrange, perform, and produce a complete song up to five minutes long from a creative idea and optional lyrics. It addresses the need for end-to-end, production-quality music creation and matters because it makes full-song generation openly accessible for broader AI music applications.",
+      "summary_zh": "MiniMax 发布 Music 3.0，解决从创意概念和可选歌词一次性生成完整歌曲的问题，支持最长五分钟的作曲、编曲、演奏与制作。该模型采用新一代开源权重设计，具备生产级能力，为音乐创作提供了可自由使用的一体化生成工具。",
+      "source": "aihot_selected",
+      "title_zh": "MiniMax Music 3.0 发布：新一代开源权重、生产级全能音乐模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4292895196,
+      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
+      "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用",
+      "published_at": "2026-08-13T16:45:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Google Sheets has introduced Sheets canvas, a Gemini-powered feature that lets users turn spreadsheet data into interactive mini apps like dashboards, study trackers, and seating charts using natural language prompts. This addresses the gap between raw tabular data and usable, customized tools by automating app-like interfaces directly from a sheet. It matters because it makes data visualization and lightweight app creation accessible to non-developers without manual design or coding.",
+      "summary_zh": "谷歌表格推出新功能“Sheets canvas”，解决用户难以快速将表格数据转化为可视化、可交互工具的问题。该功能基于 Gemini，用户只需用自然语言提示词即可生成仪表盘、学习追踪器、座位表等“迷你应用”。这降低了数据应用开发门槛，使普通用户也能直接从表格中构建定制化交互体验。",
+      "source": "aihot_selected",
+      "title_zh": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 164576869,
+      "url": "https://x.com/SiliconFlowAI/status/2087903227224412222",
+      "title": "Qwen3.8-2.4T-A95B 开源，硅基流动即日上线",
+      "published_at": "2026-08-13T14:04:55+00:00",
+      "original_language": "zh",
+      "summary_en": "Alibaba has open-sourced Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter mixture-of-experts model with 95 billion active parameters, and SiliconFlow provides day-0 API support. It targets autonomous coding, deep research, and end-to-end agent execution, with pricing at $2.00 per million input tokens and $6.00 per million output tokens. This matters because it makes a large-scale open model for agentic workloads immediately usable on a cloud platform.",
+      "summary_zh": "阿里开源了 Qwen3.8-2.4T-A95B，该模型拥有 2.4T 总参数、95B 激活参数，主打自主编码、深度研究与端到端智能体执行，以解决复杂智能体任务。硅基流动提供 Day-0 上线支持，并以输入 $2.00/百万 token、输出 $6.00/百万 token 的 API 定价开放使用，降低了大规模智能体模型的应用门槛。",
+      "source": "aihot_selected",
+      "title_zh": "Qwen3.8-2.4T-A95B 开源，硅基流动即日上线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1637891667,
+      "url": "https://x.com/deepseek_ai/status/2087887408440164663",
+      "title": "DeepSeek Harness v0.1 开发者预览版发布",
+      "published_at": "2026-08-13T13:02:03+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek Harness v0.1 is an open-source agent framework released as a developer preview under the MIT license. Built on the Cordis meta-framework, its core “everything is a plugin” design lets models, tools, skills, sessions, sandboxes, orchestration, and UI be freely composed, replaced, and extended. This modularity matters because it gives developers a flexible foundation for building customizable AI agent systems.",
+      "summary_zh": "DeepSeek Harness v0.1 开发者预览版发布，旨在解决智能体框架中组件耦合度高、难以灵活扩展的问题。其核心方法是基于 Cordis 元框架采用“一切皆插件”的设计，使模型、工具、技能、会话、沙箱及 UI 等均可自由组合、替换和扩展。该框架以 MIT 许可证开源，为构建高度可定制和可组合的 AI 智能体提供了重要基础。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek Harness v0.1 开发者预览版发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3134920950,
+      "url": "https://cursor.com/blog/builds",
+      "title": "Cursor 推出 builds：云智能体启动速度提升至 3 倍",
+      "published_at": "2026-08-13T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cursor’s new “builds” feature addresses slow cloud agent startup by continuously preparing ready development environment snapshots in the background, so agents don’t need to set up from scratch and can start up to 3x faster (with internal environment startup 10x faster and first-token generation 3x faster). It also launches agents from the last successful build, so dependency or install script errors won’t break execution. The feature is enabled by default for all environments at no extra cost starting August 17.",
+      "summary_zh": "Cursor 推出 builds 功能，通过后台持续预构建开发环境副本，解决云智能体启动需从零搭建导致响应慢的问题，使启动速度最高提升 3 倍、首个 token 生成快 3 倍。该功能让智能体始终从最近一次成功构建启动，避免依赖更新或安装脚本出错影响运行，并自 8 月 17 日起默认免费启用，显著提升开发效率与稳定性。",
+      "source": "aihot_selected",
+      "title_zh": "Cursor 推出 builds：云智能体启动速度提升至 3 倍",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3606177820,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-13",
+      "title": "DeepSeek-V4-Pro 正式版上线，Agent 能力大幅增强",
+      "published_at": "2026-08-13T11:16:42.199000+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek-V4-Pro officially launches across app, web, and API under the model name `deepseek-v4-pro`, addressing the need for stronger autonomous agent performance. Its agent capabilities are significantly improved, achieving HLE scores of 42.7 (without tools) and 60.0 (with tools) and a Terminal Bench 2.1 score of 87.9. This matters because it provides developers and users with a more capable model for complex tool-using and terminal-based agent tasks through accessible interfaces.",
+      "summary_zh": "DeepSeek-V4-Pro 正式版已在 APP、网页端和 API 同步上线，重点解决 AI Agent 能力不足的问题。其核心提升体现在 HLE（无工具/有工具达 42.7/60.0）和 Terminal Bench 2.1（87.9）等基准上，表明模型在工具使用与终端操作等代理任务中表现显著增强，对复杂自动化应用具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek-V4-Pro 正式版上线，Agent 能力大幅增强",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1121941746,
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "title": "GPT-5.6 构建者指南：如何以更低成本实现前沿智能体性能",
+      "published_at": "2026-08-13T11:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The GPT-5.6 model family addresses the challenge of achieving frontier-level agent performance at much lower cost, while adding API features such as reasoning persistence, native multi-agent orchestration, and programmatic tool calling. Key results include a jump in ARC-AGI-3 Sol score from 13.3% to 38.3% with retained reasoning and compression, cutting output tokens about 6x, and Luna matching GPT-5.5 on BrowseComp (84.04% vs. 84.36%) while reducing cost from $33.27 to $1.33. This matters because it makes high-performance AI agents far more economical and easier to coordinate at scale.",
+      "summary_zh": "GPT-5.6 模型家族解决了前沿智能体性能成本过高的问题，通过新增推理持久化、原生多智能体编排和程序化工具调用等能力，在保持或提升任务表现的同时大幅降低费用。关键发现是：在 ARC-AGI-3 上启用保留推理和压缩后 Sol 得分从 13.3% 提升至 38.3%，且输出 token 减少约 6 倍；Luna 在 BrowseComp 上以 84.04% 追平 GPT-5.5，成本从 33.27 美元降至 1.33 美元。这表明更高效的推理与工具调用架构能以极低成本实现前沿级智能体能力。",
+      "source": "aihot_selected",
+      "title_zh": "GPT-5.6 构建者指南：如何以更低成本实现前沿智能体性能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1003794729,
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496062&idx=1&sn=d4c48926c5d7607f129dfea03699a6c0",
+      "title": "小红书开源连续自回归语音合成模型 dots.tts：打造可持续扩展的 TTS 基座",
+      "published_at": "2026-08-13T09:59:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Xiaohongshu’s dots team has open-sourced dots.tts, a 2-billion-parameter fully continuous end-to-end autoregressive speech synthesis model designed as a scalable TTS foundation. It achieves state-of-the-art average content accuracy and speaker similarity across the three Seed-TTS-Eval subsets, providing a strong open base for high-quality, extensible voice synthesis.",
+      "summary_zh": "小红书开源了20亿参数的全连续端到端自回归语音合成模型dots.tts，旨在解决传统TTS系统难以持续扩展和兼顾内容准确度与说话人相似度的问题。该模型在Seed-TTS-Eval三个子集上取得最佳平均内容准确度和平均说话人相似度，为构建可规模化扩展的语音合成基座提供了有力支撑。",
+      "source": "aihot_selected",
+      "title_zh": "小红书开源连续自回归语音合成模型 dots.tts：打造可持续扩展的 TTS 基座",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 252122842,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.12-preview.4",
+      "title": "QwenLM/qwen-code: Release v0.21.12-preview.4",
+      "published_at": "2026-08-14T08:37:31+00:00",
+      "original_language": "en",
+      "summary_en": "This release of Qwen Code fixes web-shell session handling by preserving standalone session targets and adds workspace file upload support. It also bumps the sharp dependency to resolve a security vulnerability, improving usability and safety for web-based coding workflows.",
+      "summary_zh": "该版本修复了 Web Shell 中独立会话目标丢失的问题，并新增工作区文件上传功能，同时升级 sharp 依赖以解决安全漏洞（GHSA-f88m-g3jw-g9cj）。这些改进增强了 Qwen Code 在浏览器端开发环境的会话稳定性、文件操作能力和安全性，对 AI 辅助编程工具的实际可用性具有重要意义。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.12-preview.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3597035358,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.12-preview.3",
+      "title": "QwenLM/qwen-code: Release v0.21.12-preview.3",
+      "published_at": "2026-08-14T07:45:34+00:00",
+      "original_language": "en",
+      "summary_en": "This release fixes a web-shell bug to preserve standalone session targets and adds support for workspace file uploads. These changes improve reliability and file handling in the web shell environment, making it more practical for interactive coding workflows.",
+      "summary_zh": "该预览版本主要修复了 web-shell 中独立会话目标无法保留的问题，并新增了工作区文件上传功能。这些改动提升了 Qwen Code 在 web-shell 环境下的会话稳定性与文件交互能力，便于用户在处理代码任务时更灵活地管理上下文和资源。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.12-preview.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2396554702,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.11-nightly.20260814.45c2e73080",
+      "title": "QwenLM/qwen-code: Release v0.21.11-nightly.20260814.45c2e73080",
+      "published_at": "2026-08-14T00:56:25+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release for Qwen Code addresses web-shell usability and security: it fixes session target preservation in standalone sessions, adds workspace file upload support, and upgrades the Sharp dependency to resolve a known vulnerability (GHSA-f88m-g3jw-g9cj). These changes improve file-handling workflows in the web shell and reduce security risk for users.",
+      "summary_zh": "该版本修复了 web-shell 中独立会话目标丢失的问题，并新增了工作区文件上传支持，增强了 Web 端代码执行环境的交互能力。同时通过升级 sharp 依赖到 ^0.35.0 解决了 GHSA-f88m-g3jw-g9cj 安全漏洞，提升了整体安全性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.11-nightly.20260814.45c2e73080",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3697965597,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-e2e-20260814-r6",
+      "title": "QwenLM/qwen-code: dsw-eas-tb-e2e-20260814-r6",
+      "published_at": "2026-08-14T07:55:47+00:00",
+      "original_language": "en",
+      "summary_en": "This report documents a full end-to-end validation of the Qwen-code release pipeline (v0.21.2), running the same release through Actions, DSW SWE-bench Verified 500, Publisher, and Terminal-Bench 2.0, which scored 89. It confirms consistent benchmark results across the release workflow, ensuring reproducibility and reliability for downstream use.",
+      "summary_zh": "该条目记录了 QwenLM/qwen-code（基准版本 v0.21.2）的完整端到端验证流程，覆盖从发布、Actions 自动化到 DSW SWE-bench Verified 500、Publisher 以及 Terminal-Bench 2.0 89 的评测，并确认最终发布版本与评测版本一致。这验证了发布流水线的可靠性和评测结果的可追溯性，确保代码版本的基准表现真实可信。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: dsw-eas-tb-e2e-20260814-r6",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
