@@ -1,0 +1,271 @@
+{
+  "date": "2026-08-15",
+  "items": [
+    {
+      "id": 2090359710,
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "title": "How Claude’s text watermark works",
+      "published_at": "2026-08-14T00:00:00",
+      "original_language": "en",
+      "summary_en": "The content explains how Claude embeds a detectable watermark into its generated text to distinguish AI output from human writing. The key approach involves subtly biasing token selection so the text carries a statistical signature while remaining fluent and useful. This matters because it enables reliable provenance verification and helps mitigate misuse of AI-generated content.",
+      "summary_zh": "该主题介绍Claude文本水印的工作机制，旨在解决AI生成文本的可追溯性和真伪鉴别问题。其关键思路是在文本生成过程中嵌入难以察觉的统计或符号模式，使生成内容可被可靠检测而不明显影响质量。这对防范滥用、保护版权和验证内容来源具有重要意义。",
+      "source": "anthropic_news",
+      "title_en": "How Claude’s text watermark works",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2110548258,
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "title": "Maximizing the value of your Claude Code sessions",
+      "published_at": "2026-08-15T08:17:50.050797",
+      "original_language": "en",
+      "summary_en": "The piece addresses how developers can get more out of their Claude Code sessions, likely by presenting practical strategies for managing context, prompts, and iterative workflows. Its key value is in improving productivity and output quality, making AI-assisted coding more efficient and reliable.",
+      "summary_zh": "本文围绕如何最大化 Claude Code 编程会话的价值展开，重点解决开发者在使用 AI 编码助手时效率与产出质量不高的问题。其核心在于通过优化会话交互、上下文管理和任务组织策略，提升代码生成质量与开发协作效率，对 AI 辅助软件工程实践具有参考意义。",
+      "source": "claude_blog",
+      "title_en": "Maximizing the value of your Claude Code sessions",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1837408011,
+      "url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
+      "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
+      "published_at": "2026-08-15T08:17:50.054692",
+      "original_language": "en",
+      "summary_en": "Millennium and Anthropic are partnering to develop a digital risk analyst powered by Claude, aimed at automating and enhancing risk assessment workflows. The approach applies Claude’s AI capabilities to analyze financial risks more efficiently, which matters because it could improve decision-making speed and accuracy in a major hedge fund environment.",
+      "summary_zh": "Millennium与Anthropic合作，利用Claude构建数字风险分析师，旨在解决金融风险管理中人工分析效率低、响应慢的问题。其核心做法是将Claude的推理与语言能力嵌入风险分析流程，辅助识别、评估和处理风险。这一合作表明前沿大模型正加速进入高价值金融决策场景，有望提升风险管理的自动化水平与实时性。",
+      "source": "claude_blog",
+      "title_en": "Millennium and Anthropic are building a digital risk analyst with Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1982461999,
+      "url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
+      "title": "Run Claude Code sessions on your own compute",
+      "published_at": "2026-08-15T08:17:50.055114",
+      "original_language": "en",
+      "summary_en": "This addresses the need to run Claude Code outside managed cloud infrastructure by enabling sessions to execute on your own compute resources. The key approach is allowing users to self-host or run sessions locally, giving them control over the execution environment. It matters for improving privacy, reducing costs, and supporting custom hardware or software setups.",
+      "summary_zh": "该内容解决了在自有计算资源上运行 Claude Code 会话的问题，使用户不必依赖默认云环境。其核心做法是支持将 Claude Code 会话部署到用户自己的算力上，这有助于提升数据隐私、成本控制和环境定制能力。",
+      "source": "claude_blog",
+      "title_en": "Run Claude Code sessions on your own compute",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 337746498,
+      "url": "https://x.com/GeminiApp/status/2088326407730692538",
+      "title": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户",
+      "published_at": "2026-08-14T18:06:29+00:00",
+      "original_language": "zh",
+      "summary_en": "Gemini 3.7 Flash is now available to Pro and Ultra users in Gemini chat, improving reasoning and accuracy for multi-step tasks such as merging many files and emails into one master document. It also powers Gemini Spark with better tool calling across Google Workspace apps, making the personal AI agent more precise. This matters because it enables more reliable, complex automation and assistant workflows for everyday productivity.",
+      "summary_zh": "Gemini 3.7 Flash 向 Pro 和 Ultra 用户开放，主要解决多步骤任务中的推理与准确性不足问题，能智能整合数十个文件与邮件。其关键改进还包括 Gemini Spark 基于该模型优化对 Google Workspace 工具调用，使个人 AI 智能体执行更精准，提升了复杂办公场景的自动化能力。",
+      "source": "aihot_selected",
+      "title_zh": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4258740382,
+      "url": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+      "title": "通义千问开源 Qwen3.8 系列模型",
+      "published_at": "2026-08-14T15:02:48+00:00",
+      "original_language": "zh",
+      "summary_en": "通义千问兑现承诺，开源 Qwen3.8 系列模型。其中 Qwen3.8-27B 为原生多模态稠密模型，仅 27B 参数即全面超越 Qwen3.7-Plus，原生支持 262K 上下文，可通过 YaRN 扩展至 1M tokens，采用 Apache 2.0 许可。Max 级 Qwen3.8-2.4T-A95B 的开放权重也已同步发布。",
+      "summary_zh": "通义千问开源 Qwen3.8 系列模型，重点解决多模态与超长上下文的高效部署问题：其中 Qwen3.8-27B 为原生多模态稠密模型，仅 27B 参数即全面超越 Qwen3.7-Plus，原生支持 262K 上下文并可通过 YaRN 扩展至 1M tokens，采用 Apache 2.0 许可。同步发布的 Max 级 Qwen3.8-2.4T-A95B 开放权重，为研究与应用提供了参数效率高、长上下文能力强的开源选择。",
+      "source": "aihot_selected",
+      "title_zh": "通义千问开源 Qwen3.8 系列模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3877452757,
+      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "published_at": "2026-08-14T14:27:14+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI and Anthropic are cutting prices in response to growing competition from Chinese AI companies, highlighting intensifying global rivalry in the AI market. The price war reflects pressure to retain users and market share as lower-cost Chinese models gain traction. This matters because it signals a shift toward more affordable AI services and could reshape the competitive landscape for advanced AI development.",
+      "summary_zh": "本文关注中国AI竞争对手崛起背景下，OpenAI与Anthropic之间的价格竞争。两家公司通过降价争夺市场份额，反映出全球AI行业竞争加剧。这一趋势可能重塑AI服务定价与市场格局，对用户和行业发展具有重要影响。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 38063587,
+      "url": "https://cursor.com/blog/joining-spacex",
+      "title": "Cursor 正式被 SpaceX 收购",
+      "published_at": "2026-08-14T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cursor has been officially acquired by SpaceX, completing a process that began in April. The merger gives Cursor access to the world’s largest GPU cluster to build more powerful, lower-cost models, with Grok 4.6 cited as an early result. This matters because it positions Cursor to offer stronger AI models at lower prices to customers.",
+      "summary_zh": "Cursor 被 SpaceX 正式收购后，将借助全球最大 GPU 集群来构建性能更强、运行成本更低的模型，从而以更低价格向客户提供更强大的模型。这一整合有望提升 AI 开发工具与模型服务的性价比，Grok 4.6 的发布已初步体现双方合作的协同效应。",
+      "source": "aihot_selected",
+      "title_zh": "Cursor 正式被 SpaceX 收购",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3070369203,
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+      "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+      "published_at": "2026-08-14T11:25:29+00:00",
+      "original_language": "zh",
+      "summary_en": "Xiaohongshu has open-sourced dots3-note Preview, the lightest model in its dots3 series, to address the need for efficient long-context multimodal reasoning and long-horizon agent tasks. With 280B total parameters but only 16B active parameters, it supports a 512K context window and text, vision, and speech understanding while optimized for complex reasoning. This release matters by offering a highly efficient, open multimodal model that balances capability and compute for long-range intelligent agents.",
+      "summary_zh": "小红书技术开源了 dots3-note Preview，这是 dots3 系列中最轻量的模型，总参数 280B、激活参数仅 16B，支持 512K 超长上下文以及文本、视觉、语音多模态理解。该模型针对复杂推理和长程智能体任务优化，旨在以较低激活成本提供强大的多模态长程推理能力。",
+      "source": "aihot_selected",
+      "title_zh": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2372575486,
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量",
+      "published_at": "2026-08-14T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This report addresses the concentration and shifting geography of open-source AI model releases by analyzing Hugging Face activity from January to August 2026. It finds that despite rapid repository growth, downloads are extremely skewed—1.5% of models account for 99.2% of downloads—while Chinese labs lead in frontier-scale open models (754B–2.78T parameters) and AMD/NVIDIA are the most prolific publishers. The results highlight a widening gap between massive but mostly ignored model output and a small set of high-impact releases, with China and hardware vendors emerging as key drivers.",
+      "summary_zh": "该报告揭示了开源模型生态中下载量高度集中的问题：Hugging Face上1.5%的仓库占据99.2%的下载量，而85.6%的模型下载不足200次。关键发现是中国前沿实验室在最大开源模型参数规模上显著领先（754B至2.78万亿），同时AMD与NVIDIA成为发布开源模型最多的机构。这对理解全球开源AI竞争格局及算力厂商的生态布局具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1626655622,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.11-nightly.20260815.c396fe3d12",
+      "title": "QwenLM/qwen-code: Release v0.21.11-nightly.20260815.c396fe3d12",
+      "published_at": "2026-08-15T00:46:12+00:00",
+      "original_language": "en",
+      "summary_en": "This release adds a deny-by-default footprint gate and positional window censuses to the autofix feature, improving control over generated changes. It also fixes the web shell so at-mention providers are shared across split-view panes, ensuring consistent suggestions in multi-pane workflows.",
+      "summary_zh": "该版本针对代码自动修复功能引入了默认拒绝的足迹门控与位置窗口统计，增强安全与可控性；同时修复了 Web Shell 在分屏视图中共享 @ 提及提供程序的问题，提升多面板协作体验。这些改动有助于在保障安全边界的同时改善复杂界面下的交互一致性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.11-nightly.20260815.c396fe3d12",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3971191113,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260815-r1",
+      "title": "QwenLM/qwen-code: dsw-eas-tb-smoke-20260815-r1",
+      "published_at": "2026-08-15T07:09:26+00:00",
+      "original_language": "en",
+      "summary_en": "This report validates the end-to-end release pipeline for Qwen Code v0.21.2 by running a single-case smoke test across SWE-bench Verified and Terminal-Bench 2.0. The SWE-bench Verified case succeeded with a 100% score (1/1 resolved, no errors), confirming that the release, action, and publisher stages work correctly for the benchmark workflow. This matters as a quick sanity check that the model and tooling are functioning end-to-end before broader evaluation.",
+      "summary_zh": "该验证针对 Qwen Code v0.21.2 的发布流水线进行单用例端到端冒烟测试，覆盖 Release→Action→DSW SWE-bench Verified→Publisher→Terminal-Bench 2.0→同版本 Release 的完整链路。结果显示 SWE-bench Verified 1/1 全部解决，得分 100%，无执行错误或基础设施故障。这表明该版本的发布与基准评测流程可靠，为后续更大规模验证提供了基础信心。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: dsw-eas-tb-smoke-20260815-r1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2968434050,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.12",
+      "title": "QwenLM/qwen-code: Release v0.21.12",
+      "published_at": "2026-08-14T16:39:48+00:00",
+      "original_language": "en",
+      "summary_en": "This release of Qwen Code improves developer workflow and safety: it adds drag-and-drop or @ file panel uploads to the Web Shell composer with progress tracking, and introduces a configurable diff growth brake to limit source and test line increases during autofix reviews. It also requires confirmed critical findings to have an executed witness, strengthening verification before acceptance.",
+      "summary_zh": "该版本主要解决了 Qwen Code 在文件上传、自动修复代码膨胀和关键漏洞确认方面的效率与可靠性问题。关键更新包括：为 Web Shell 编辑器支持拖拽或 @ 文件面板上传并显示进度；在自动修复评审中加入差异增长刹车，通过可配置预算限制每次窗口内源码和测试行的增长；",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.12",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3784130437,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.36.1",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.36.1",
+      "published_at": "2026-08-14T12:53:36+00:00",
+      "original_language": "en",
+      "summary_en": "This patch updates the Kimi Code web interface so that the timestamp beneath assistant replies now displays the actual message time rather than the work duration. The change addresses a UI labeling inaccuracy, making it clearer when a response was sent and improving user context.",
+      "summary_zh": "该更新修复了 Kimi Code 助手回复下方时间戳显示不准确的问题：此前显示的是工作耗时，现改为显示消息时间。这一调整让用户能更直观地了解回复的实际生成时刻，提升界面信息的一致性与可用性。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.36.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
