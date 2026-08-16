@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-16",
+  "headline_en": "Claude Code Flips Auto Default; Qwen Adds Privacy Gates; AI Books Flood Amazon",
+  "lede_en": "Today's developments cluster around autonomous coding workflows and the downstream effects of AI-generated content. Anthropic made Auto mode the default for Claude Code on paid plans while publishing operational guidance for running auto mode in production, signaling a shift toward autonomy-by-default in developer tools. Meanwhile, Qwen tightened qwen-code's security with a deny-by-default footprint gate, and new data shows AI-generated ebooks grew catalog volume 38.3-fold while revenue lagged, underscoring economic displacement.",
+  "sections_en": [
+    {
+      "title": "Agent Engineering & Operations",
+      "body": "Anthropic flipped the default for Claude Code on Pro, Max, and Team plans to Auto mode, removing manual configuration and smoothing entry into autonomous coding workflows. A companion piece outlines operational best practices for running auto mode in production, spotlighting safety and risk minimization as autonomy becomes the default rather than an opt-in. Together they signal a maturing agent-engineering stack where the focus is shifting from capability to dependable, production-grade operation."
+    },
+    {
+      "title": "Applications & Product: AI's Publishing Disruption",
+      "body": "A study of 14,419 self-published Amazon ebooks found that catalog volume rose 38.3-fold from Q1 2023 to Q1 2026, while revenue grew only 8.9-fold and per-book revenue fell for non-AI-text books in seven of eight genres. The result points to AI-generated volume economically displacing human authors even when detectable AI text is absent. It is a concrete warning about how generative supply can outpace demand and depress creator economics across a content market."
+    },
+    {
+      "title": "Model Releases & Tooling Security",
+      "body": "Qwen Code advanced through a preview release and a nightly build that introduces a deny-by-default footprint gate with positional window censuses to autofix sensitive outputs. The same nightly fixes mention-provider sharing across split-view panes and skips non-bot review requests in CI, improving privacy, UI consistency, and compute efficiency. Two smoke tests validated a Terminal-Bench proxy-prelude fix with a 100% score on a SWE-bench Verified instance, confirming the pipeline remains intact. These updates illustrate model-tooling release cadence increasingly coupling security hardening with automated end-to-end verification."
+    }
+  ],
+  "top_picks": [
+    525257727,
+    211423201,
+    2872858929,
+    3465845102,
+    657602417
+  ],
+  "item_count": 7,
+  "source_breakdown": {
+    "claude_blog": 2,
+    "aihot_selected": 1,
+    "qwen_github": 4
+  },
+  "generated_at": "2026-08-16T08:24:21.374220Z",
+  "headline_zh": "Claude Code 自动模式成默认，Qwen Code 基准满分，AI 书籍冲击创作者经济",
+  "lede_zh": "今日 AI/ML 动态聚焦自动化编码与创作者经济两条主线：Claude Code 将自动模式设为付费及团队计划默认项，推动 Agent 工具走向更少手动干预；Qwen Code 发布多项修复并在 SWE-bench Verified 冒烟测试中取得 1/1 满分。与此同时，研究显示 AI 生成书籍正以数量挤占自出版市场，导致人类作者单书收入下降，凸显生成式 AI 的结构性冲击。",
+  "sections_zh": [
+    {
+      "title": "Agent 工程",
+      "body": "Claude Code 将自动模式设为 Pro、Max 和 Team 计划的默认选项，直接降低付费及团队用户的配置负担，让系统自动选择工作模式。与此同时，围绕生产环境中运行自动模式的讨论强调了上线后的稳定性、可控性与部署策略。两项动态共同指向同一趋势：Agent 工具正从辅助功能走向默认自动化，但生产级可控性仍是落地关键。"
+    },
+    {
+      "title": "新模型发布",
+      "body": "Qwen Code 发布预览版本 v0.21.12-preview.5，并针对自动修复与协作体验进行改进，新增默认拒绝的足迹门控和位置窗口普查机制，以增强自动修复安全性。此外还修复了 Web Shell 分屏窗格共享提及提供程序的问题，并优化 CI 流程跳过非机器人评审请求。这些迭代说明 Qwen Code 在提升代码自动修复能力的同时，也在加强安全边界与工程效率。"
+    },
+    {
+      "title": "评估与基准",
+      "body": "在修复 Terminal-Bench 验证器代理的 prelude 转义问题后，团队执行了端到端冒烟测试：Qwen Code v0.21.12 搭配 qwen3.7-plus 在 SWE-bench Verified 上以 1/1 任务成功、得分 100% 完成。该结果验证了修复后的流水线可稳定完成真实软件工程任务，并保障 SWE 与 Terminal-Bench 完整链路发布顺序的可靠性。对后续规模化评测而言，这提供了一个无基础设施错误的干净基线。"
+    },
+    {
+      "title": "应用与产品",
+      "body": "一项针对 14,419 本自出版电子书的研究显示，AI 生成书籍数量在 2023 年 Q1 至 2026 年 Q1 激增 38.3 倍，但季度收入仅增长 8.9 倍；八个类型中七个类型的无 AI 文本书籍单书收入出现下降。这意味着 AI 书籍以数量而非质量稀释市场，即使未被检测为 AI 的内容也受到收入挤压。该发现为平台治理和创作者收入保障提供了量化依据，也揭示了生成式 AI 对创作者经济的结构性冲击。"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "date": "2026-08-16",
+  "items": [
+    {
+      "id": 525257727,
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "published_at": "2026-08-16T08:19:11.519555",
+      "original_language": "en",
+      "summary_en": "Claude Code now enables Auto mode by default for Pro, Max, and Team plans, removing the need for users to manually select it. This change streamlines the coding workflow by automatically applying the tool’s default behavior, making it easier for users to get started and reducing configuration friction.",
+      "summary_zh": "Claude Code 将自动模式设为 Pro、Max 和 Team 计划的默认选项，旨在减少用户手动配置，让系统自动选择合适的工作模式。这一变更简化了付费及团队用户的使用流程，有助于提升开发效率和使用便捷性。",
+      "source": "claude_blog",
+      "title_en": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 211423201,
+      "url": "https://claude.com/blog/auto-mode-in-production",
+      "title": "Running auto mode in production",
+      "published_at": "2026-08-16T08:19:11.519849",
+      "original_language": "en",
+      "summary_en": "The piece addresses the operational considerations of running systems in \"auto mode\" within production environments. It focuses on the challenges and best practices for safely enabling automated or autonomous behavior without direct human intervention. This matters because reliable auto mode operation is critical for scaling efficiency while minimizing risks and downtime.",
+      "summary_zh": "本文探讨在生产环境中运行自动模式（auto mode）的相关问题，重点关注自动化系统上线后的运行方式与部署策略。其核心在于说明如何让自动模式在生产条件下稳定、可控地执行，这对减少人工干预、提升系统效率与可靠性具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "Running auto mode in production",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2872858929,
+      "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
+      "title": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入",
+      "published_at": "2026-08-15T11:00:50+00:00",
+      "original_language": "zh",
+      "summary_en": "An analysis of 14,419 self-published ebooks on Amazon finds that AI-generated titles are flooding the market: total catalog volume grew 38.3-fold from Q1 2023 to Q1 2026 while revenue grew only 8.9-fold, and per-book revenue fell for non-AI-text books in seven of eight genres. This shows AI-generated volume is economically displacing human authors even when detectable AI text is absent.",
+      "summary_zh": "该研究针对AI生成内容涌入自出版平台的问题，分析了14,419本自出版电子书，发现AI书籍数量在2023年Q1至2026年Q1激增38.3倍，但季度收入仅增长8.9倍，且八个类型中七个类型的无AI文本书籍单书收入下降。其关键发现是AI生成书籍以数量而非质量挤占市场，即使未被检测为AI的书籍也受到收入稀释。这揭示了生成式AI对创作者经济的结构性冲击，为平台治理和作者收入保障提供了量化依据。",
+      "source": "aihot_selected",
+      "title_zh": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 806545295,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.12-preview.5",
+      "title": "QwenLM/qwen-code: Release v0.21.12-preview.5",
+      "published_at": "2026-08-16T00:48:15+00:00",
+      "original_language": "en",
+      "summary_en": "This is a preview release of QwenLM’s qwen-code, updating it to version v0.21.12-preview.5. The release notes do not detail specific changes; they only provide a link to the full changelog comparing v0.21.12 with this preview version, so it likely contains incremental fixes or experimental updates for users tracking development.",
+      "summary_zh": "这是 QwenLM 的 qwen-code 项目发布的预览版本 v0.21.12-preview.5，属于代码模型的迭代更新。发布说明未列出具体改动，需查看完整变更日志了解修复或新增内容。该预览版对跟踪 Qwen 代码能力演进和开发者测试具有一定参考价值。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.12-preview.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3465845102,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.11-nightly.20260816.5677823abb",
+      "title": "QwenLM/qwen-code: Release v0.21.11-nightly.20260816.5677823abb",
+      "published_at": "2026-08-16T00:47:18+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release of QwenLM/qwen-code adds a deny-by-default footprint gate with positional window censuses to autofix, strengthening privacy/security controls by blocking sensitive output by default. It also fixes mention-provider sharing across split-view panes in the web shell and skips non-bot review requests in CI to avoid wasted compute. These changes improve safety, UI consistency, and development efficiency.",
+      "summary_zh": "该版本针对 Qwen Code 的自动修复与协作体验进行了改进：新增默认拒绝的足迹门控和位置窗口普查机制，以增强自动修复安全性；同时修复了 Web Shell 中分屏窗格共享提及提供程序的问题，并优化 CI 流程以跳过非机器人评审请求、节省计算资源。这些变更提升了自动修复的可控性、多窗格协作一致性以及开发流程效率。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.11-nightly.20260816.5677823abb",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 657602417,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260815-r5",
+      "title": "QwenLM/qwen-code: DSW EAS SWE + TB smoke r5",
+      "published_at": "2026-08-15T13:20:21+00:00",
+      "original_language": "en",
+      "summary_en": "This smoke test validates the Qwen Code pipeline end-to-end after the Terminal-Bench proxy-prelude fix, using one SWE-bench Verified instance. The run succeeded with 1/1 tasks resolved (100% score) on Qwen Code v0.21.12 with model `qwen3.7-plus`, confirming the fix did not break SWE-bench functionality.",
+      "summary_zh": "该报告针对 Terminal-Bench 代理预修复后的端到端冒烟测试，验证 Qwen Code v0.21.12 搭配 qwen3.7-plus 在 SWE-bench Verified 上的表现。结果显示 1/1 任务成功解决，得分 100%，无执行或基础设施错误。这表明修复后的流水线可稳定完成真实软件工程任务，为后续规模化评测提供了可靠基线。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW EAS SWE + TB smoke r5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 518811511,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260815-r4",
+      "title": "QwenLM/qwen-code: DSW EAS SWE + TB smoke r4",
+      "published_at": "2026-08-15T13:14:45+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses a fix for Terminal-Bench verifier proxy prelude escaping by running a one-case end-to-end smoke test. It enforces an ordered pipeline where SWE runs first and Terminal-Bench is triggered only after successful SWE publication, ensuring the verifier fix is validated without premature downstream execution.",
+      "summary_zh": "该版本针对修复 Terminal-Bench 验证器代理的 prelude 转义问题后，执行单用例端到端冒烟测试，验证 SWE 与 Terminal-Bench 的完整链路。方法为先触发 SWE，待其成功发布后再运行 Terminal-Bench，以确认修复有效且不破坏后续流程。这有助于保障基准测试发布顺序的可靠性，防止验证器转义问题再次影响端到端集成。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW EAS SWE + TB smoke r4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
