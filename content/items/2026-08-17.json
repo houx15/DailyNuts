@@ -1,0 +1,119 @@
+{
+  "date": "2026-08-17",
+  "items": [
+    {
+      "id": 315569208,
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+      "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
+      "published_at": "2026-08-16T22:00:39+00:00",
+      "original_language": "zh",
+      "summary_en": "Alibaba’s Qwen Lab released Qwen 3.8 27B, an Apache 2-licensed 27B-parameter vision-language model whose official benchmarks surpass the previous Qwen 3.6 27B and the closed-source Qwen 3.7-Plus. While its performance is strong, the model’s default reasoning intensity is reportedly too high, causing overthinking, which matters for users needing efficient and calibrated inference from an open large vision model.",
+      "summary_zh": "阿里 Qwen 实验室发布 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B，官方基准显示其性能超越前代 Qwen 3.6 27B 及闭源 Qwen 3.7-Plus。该模型虽表现出色，但默认推理强度过高，容易产生过度思考，影响实际使用效率。这一发现提示在追求更强视觉推理能力的同时，需要平衡模型的推理深度与响应代价。",
+      "source": "aihot_selected",
+      "title_zh": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3410940794,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.13",
+      "title": "QwenLM/qwen-code: Release v0.21.13",
+      "published_at": "2026-08-17T02:11:15+00:00",
+      "original_language": "en",
+      "summary_en": "This release improves Qwen Code’s usability for multimodal and branching workflows: the web shell can now attach text files alongside images via drag-and-drop or paste, and conversations can be forked from any assistant response using durable checkpoints for accurate branching. It also makes split-view panes inherit the host’s @ mention configuration, ensuring consistent custom categories and references across views.",
+      "summary_zh": "Qwen Code v0.21.13 主要解决代码助手在多模态输入、对话分支管理和多视图配置一致性问题。通过支持拖放/粘贴文本文件作为附件、基于持久检查点的对话分叉，以及分割视图继承 @ 提及配置，提升了复杂开发场景下的操作灵活性与分支准确性。这些改进有助于减少工作流中断，增强协作与上下文管理的可靠性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.13",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2064744086,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.11-nightly.20260817.195128a17a",
+      "title": "QwenLM/qwen-code: Release v0.21.11-nightly.20260817.195128a17a",
+      "published_at": "2026-08-17T00:48:27+00:00",
+      "original_language": "en",
+      "summary_en": "This release improves Qwen Code’s autofix safety by adding a deny-by-default footprint gate and positional window censuses, and fixes web-shell so at-mention providers are shared across split-view panes. It also optimizes CI by skipping non-bot review_requested siblings before jobs consume compute. Together these changes tighten security/visibility, improve multi-pane collaboration, and reduce wasted CI resources.",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.21.11-nightly.20260817.195128a17a -->\n\n## What's Changed\n* feat(autofix): deny-by-default footprint gate and positional window censuses by @wenshao in https://github.com/QwenLM/qwen-code/pull/9156\n* fix(web-shell):",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.11-nightly.20260817.195128a17a",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3788250790,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260817-r4",
+      "title": "QwenLM/qwen-code: DSW EAS TB smoke r4",
+      "published_at": "2026-08-17T07:38:36+00:00",
+      "original_language": "en",
+      "summary_en": "This smoke test validates Qwen Code v0.21.13 after a resilient sandbox command-stream deployment by running one SWE-bench Verified task and one Terminal-Bench 2.0 end-to-end task. It achieved a 100% resolution score on the SWE-bench Verified sample with no execution or infrastructure errors, confirming the deployment works correctly for benchmark evaluation.",
+      "summary_zh": "本报告验证 Qwen Code v0.21.13 在弹性沙箱命令流部署后的端到端冒烟测试，覆盖 SWE-bench Verified 和 Terminal-Bench 2.0 任务。结果显示 SWE-bench Verified 1/1 全部解决，得分 100%，无执行错误或基础设施故障，证明该版本在软件工程基准上具备稳定可靠的性能。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW EAS TB smoke r4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3014028546,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260817-r3",
+      "title": "QwenLM/qwen-code: DSW EAS TB smoke r3",
+      "published_at": "2026-08-17T06:58:36+00:00",
+      "original_language": "en",
+      "summary_en": "This smoke test validates the Qwen Code v0.21.13 release candidate, reporting that one corrected SWE-bench Verified instance passed with a 100% resolution score and no execution or infrastructure failures, alongside one corrected Terminal-Bench 2.0 end-to-end case. The result confirms the release is functionally ready on these benchmark checks.",
+      "summary_zh": "本次发布验证了 Qwen Code v0.21.13 在 SWE-bench Verified 上的表现，成功解决 1/1 个实例，得分 100%，并完成 1 个 Terminal-Bench 2.0 端到端冒烟测试。该结果表明此版本在软件工程基准和端到端任务上运行稳定、无执行错误，具备可靠的发布质量。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW EAS TB smoke r3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3522272776,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260817-r2",
+      "title": "QwenLM/qwen-code: DSW EAS TB smoke r2",
+      "published_at": "2026-08-17T06:47:31+00:00",
+      "original_language": "en",
+      "summary_en": "This smoke test validates the Qwen Code v0.21.13 release by running one corrected SWE-bench Verified and one Terminal-Bench 2.0 end-to-end task. The SWE-bench Verified run is quarantined with 0/1 completed and no valid grader results, so no score is published or scoreable. This matters because it signals that the release smoke did not produce a usable benchmark outcome, blocking publication of the result.",
+      "summary_zh": "该发布烟雾测试针对 Qwen Code v0.21.13，在 SWE-bench Verified 与 Terminal",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW EAS TB smoke r2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}

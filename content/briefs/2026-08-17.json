@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-17",
+  "headline_en": "Qwen Debuts Apache-2 27B Vision-Language Model as Code Tooling Matures",
+  "lede_en": "Today’s Qwen ecosystem delivered a notable open model release and a batch of coding-agent refinements. Alibaba’s Qwen Lab launched Qwen 3.8 27B, an Apache-2 licensed vision-language model that beats previous Qwen checkpoints but is prone to overthinking by default. Meanwhile, Qwen Code v0.21.13 added multimodal attachments and durable conversation branching, with smoke tests showing the release passes SWE-bench Verified and Terminal-Bench 2.0 samples after an earlier quarantined run.",
+  "sections_en": [
+    {
+      "title": "Model Releases",
+      "body": "Alibaba’s Qwen Lab released Qwen 3.8 27B under Apache 2.0, a 27B-parameter vision-language model that officially surpasses the previous Qwen 3.6 27B and the closed-source Qwen 3.7-Plus. The strong benchmark results are tempered by reports that the model’s default reasoning intensity is too high, leading to overthinking. For developers choosing open large vision models, this creates a calibration trade-off: capability is present, but efficient inference may require tuning or prompt-level constraints."
+    },
+    {
+      "title": "Agent Engineering & Safety",
+      "body": "Qwen Code v0.21.13 improves multimodal and branching workflows: the web shell now accepts text files alongside images via drag-and-drop or paste, and conversations can fork from any assistant response using durable checkpoints. Split-view panes inherit the host’s @ mention configuration, so custom categories and references stay consistent across views. A nightly release adds a deny-by-default footprint gate and positional window censuses, tightening autofix safety before code suggestions are applied."
+    },
+    {
+      "title": "Release Validation & Benchmarks",
+      "body": "Smoke tests for Qwen Code v0.21.13 show the release candidate maturing from a quarantined r2 run with no valid grader results to r3 and r4 runs that report a 100% resolution score on a SWE-bench Verified sample and clean completion on one Terminal-Bench 2.0 end-to-end task. The r2 failure matters because it blocked publication of a usable benchmark outcome, while the later passing runs confirm functional readiness after a resilient sandbox command-stream deployment. This progression illustrates how benchmark smoke tests now gate release confidence in agentic coding tools."
+    }
+  ],
+  "top_picks": [
+    315569208,
+    3410940794,
+    3788250790
+  ],
+  "item_count": 6,
+  "source_breakdown": {
+    "aihot_selected": 1,
+    "qwen_github": 5
+  },
+  "generated_at": "2026-08-17T08:37:00.318276Z",
+  "headline_zh": "Qwen 3.8 27B 亮相：视觉推理强劲，Qwen Code 0.21.13 通过基准验证",
+  "lede_zh": "今日值得关注的两条主线均来自 Qwen 生态：Qwen 3.8 27B 视觉大模型发布并以官方基准超越前代，但默认推理强度过高带来过度思考问题；Qwen Code v0.21.13 通过多模态输入、对话分支与视图配置改进，并在 SWE-bench Verified 上以 1/1 通过冒烟测试，显示稳定发布质量。",
+  "sections_zh": [
+    {
+      "title": "新模型发布",
+      "body": "阿里 Qwen 实验室发布 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B，官方基准显示其性能超越 Qwen 3.6 27B 与闭源 Qwen 3.7-Plus。然而社区测试指出默认推理强度过高、易产生过度思考，提示视觉推理能力增强的同时需平衡推理深度与响应成本。这一权衡将成为后续视觉模型实用化的重要观察点。"
+    },
+    {
+      "title": "应用与产品",
+      "body": "Qwen Code v0.21.13 聚焦复杂开发场景的上下文与协作可靠性：支持拖放/粘贴文本文件作为多模态附件、基于持久检查点的对话分叉，以及分割视图继承 @ 提及配置。发布记录还包含 deny-by-default 足迹门控与 web-shell 修复，减少工作流中断并增强分支管理准确性。"
+    },
+    {
+      "title": "评估与基准",
+      "body": "围绕 Qwen Code v0.21.13 的弹性沙箱命令流部署，端到端冒烟测试覆盖 SWE-bench Verified 与 Terminal-Bench 2.0。结果显示 SWE-bench Verified 1/1 全部解决、得分 100%，且无执行错误或基础设施故障。尽管样本规模有限，但验证了该版本在软件工程基准与端到端任务上的稳定发布质量。"
+    }
+  ]
+}
