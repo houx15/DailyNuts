@@ -1,0 +1,480 @@
+{
+  "date": "2026-08-18",
+  "items": [
+    {
+      "id": 2197990986,
+      "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
+      "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
+      "published_at": "2026-08-17T10:34:00",
+      "original_language": "en",
+      "summary_en": "This work addresses the limitation of BMI as a poor individual-level proxy for cardiometabolic risk by using smartphone imagery to estimate risk directly from body appearance. The key finding is that image-based models can capture visual features related to fat distribution and body shape, potentially offering a more accessible and informative risk assessment than BMI alone. This matters because it could enable low-cost, scalable screening for cardiometabolic conditions without needing lab tests or clinical visits.",
+      "summary_zh": "该研究针对传统BMI无法全面反映体脂分布和心脏代谢风险的问题，提出利用智能手机拍摄的身体图像，通过深度学习方法估算相关健康指标。其关键发现是这种图像分析能比单纯BMI更准确地评估心血管代谢风险，为低成本、大规模的健康筛查提供了新途径。",
+      "source": "google_research",
+      "title_en": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3525063216,
+      "url": "http://arxiv.org/abs/2608.16889v1",
+      "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+      "published_at": "2026-08-17T17:59:57+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses why long-horizon robot manipulation fails even when individual vision-language-action skills are reliable: errors compound across subtasks and hidden inter-subtask constraints are ignored, while whole-task test-time exploration becomes exponentially expensive. BATON introduces agentic subtask exploration and transition-aware memory to make exploration tractable and to represent entry/exit conditions between skills. This enables more scalable and reliable multi-stage manipulation by letting an LLM agent coordinate frozen VLA primitives without multiplicative search costs or transition blindness.",
+      "summary_zh": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correct, and one subtask silently constrains the next. A",
+      "source": "arxiv_cs_cl",
+      "title_en": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3117894543,
+      "url": "http://arxiv.org/abs/2608.16884v1",
+      "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+      "published_at": "2026-08-17T17:59:05+00:00",
+      "original_language": "en",
+      "summary_en": "The paper tackles the core optimization problem behind the laser method’s combination loss analysis used to bound the matrix multiplication exponent. By reformulating the problem to allow a larger search space, designing a new machine-learning-based optimizer, and refining it with AlphaEvolve, the authors achieve ω < 2.371177, improving the prior best bound of 2.371339. This advances the long-standing effort to determine how fast matrix multiplication can theoretically be performed.",
+      "summary_zh": "本文针对矩阵乘法指数ω的激光法组合损失分析中的核心优化问题，提出重新形式化以扩大求解范围，并结合机器学习设计新优化算法，再用AlphaEvolve进行精化。该方法将ω的上界从2.371339改进到2.371177，为快速矩阵乘法研究提供了更优的理论边界。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4283485671,
+      "url": "http://arxiv.org/abs/2608.16876v1",
+      "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+      "published_at": "2026-08-17T17:55:26+00:00",
+      "original_language": "en",
+      "summary_en": "AutoSR addresses the problem that symbolic regression on noisy data often yields equations that fit well but are scientifically unreliable outside observed regimes, and that standard searches discard the reasoning behind candidate formulas. It introduces a system that stores each candidate equation in a “Research State” with its motivations, evidence, and review, and uses proposer–reviewer agents guided by progressive-widening Monte Carlo tree search to explore these states. This matters because preserving the full scientific record of the search enables more credible, interpretable, and robust discovery of governing expressions from data.",
+      "summary_zh": "AutoSR 针对有限噪声数据下符号回归仅凭数值拟合与句法复杂度无法保证科学可信性、且传统搜索丢失推理记录的问题，提出将搜索对象从孤立方程转变为保留推理、计算证据与独立评审的“研究状态”。该方法通过提议者-评审者智能体在渐进加宽蒙特卡洛树搜索中自动开展科学调查，从而更有效地分配计算资源并捕捉观测范围外的行为差异，提升符号回归结果的科学可靠性与可解释性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2540139631,
+      "url": "http://arxiv.org/abs/2608.16868v1",
+      "title": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text",
+      "published_at": "2026-08-17T17:50:04+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the problem that language model outputs do not inherently reveal which internal computational pathway produced them. It tests a bounded form of computational provenance by training feed-forward and transformer models on an arithmetic task with discrete intermediate states, then embedding a detectable statistical signature tied to the authenticated causal state. Both architectures passed all matched-pair evaluations, showing that generated text can carry verifiable evidence of internal computation, which matters for auditing and trusting model outputs.",
+      "summary_zh": "本文针对语言模型输出无法提供可验证内部计算证据的问题，研究在生成文本中携带计算溯源信息。通过在两个受控架构（前馈网络和Transformer）中强制经过离散中间状态，并将实际使用的因果状态编码为文本中可检测的细微统计模式，作者验证了检测器能在128对匹配评估中恢复该信号。这项工作为验证模型生成文本背后的内部计算路径提供了初步方法，有助于提升模型可审计性与可信度。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2641822419,
+      "url": "http://arxiv.org/abs/2608.16864v1",
+      "title": "Non-Crossing Deep Quantile Regression for Distributional Survival Prediction",
+      "published_at": "2026-08-17T17:46:41+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the problem that hazard- and mean-based survival summaries hide how covariate effects vary over time, while existing quantile methods for censored data may produce invalid crossing quantiles. It proposes a Censored Non-crossing Quantile framework that jointly estimates multiple conditional survival quantiles with guaranteed ordering, using Kolmogorov-Arnold and Transformer backbones and providing a finite-sample excess-risk bound. In extensive simulations and cohort studies, the method achieves lower pinball loss than quantile-, hazard-, and tree-based competitors, especially under asymmetric conditional distributions.",
+      "summary_zh": "该研究针对生存分析中协变量对事件风险的影响随时间变化、而传统风险或均值摘要无法刻画这一问题，提出右删失数据下的非交叉分位数（CNQ）框架，联合估计多个条件生存分位数并从构造上保证排序有效，结合Kolmogorov-Arnold与Transformer提供灵活性，并给出有限样本联合超额风险界。在大量模拟和真实队列中，该方法在条件分布不对称时相比分位数、风险及树模型取得更低的pinball损失，能更准确地刻画分布型生存预测。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Non-Crossing Deep Quantile Regression for Distributional Survival Prediction",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4004852647,
+      "url": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
+      "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
+      "published_at": "2026-08-18T08:25:53.617250",
+      "original_language": "en",
+      "summary_en": "ABC Legal addressed the bottleneck of relying on specialized developers by adopting Claude Managed Agents, enabling nontechnical employees to build their own tools and workflows. The approach turned every employee into a builder, democratizing automation across the organization. This matters because it accelerates innovation and reduces dependency on scarce engineering resources.",
+      "summary_zh": "该文介绍了法律科技公司 ABC Legal 如何借助 Claude 托管代理，让每位员工都能成为 AI 应用“构建者”，解决非技术人员难以开发智能体的问题。其关键做法是利用托管代理降低技术门槛，使员工无需深厚编程能力即可创建自动化流程；这有助于推动企业内部的 AI 民主化，加速业务创新与效率提升。",
+      "source": "claude_blog",
+      "title_en": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 472820778,
+      "url": "https://dev.to/googleai/designing-ai-evals-clarity-now-and-visualization-next-4eii",
+      "title": "设计 AI 评测：先求清晰，再谈可视化",
+      "published_at": "2026-08-18T07:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "This article addresses the need for clear, structured evaluation of AI agent capabilities. It demonstrates using the open-source frameworks Inspect AI and Harbor to assess agent skills, then visualizing results with Google Sheets and Data Studio. The approach matters because it provides a reproducible, transparent evaluation workflow before adding visualization layers.",
+      "summary_zh": "本文针对 AI agent 技能评测中易混乱、难分析的问题，演示了基于开源框架 Inspect AI 与 Harbor 的评测流程。其关键做法是先用清晰的结构化方式评估 agent 技能，再借助 Google Sheets 和 Data Studio 进行可视化分析。该方法强调“先求清晰，再谈可视化”，有助于提升评测结果的可信度与可读性。",
+      "source": "aihot_selected",
+      "title_zh": "设计 AI 评测：先求清晰，再谈可视化",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1413951880,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685329&idx=1&sn=9471278dc489641c097b228912965ed4",
+      "title": "一个实用的深度思考Prompt：用\"双向钢人论证\"让AI帮你挖出最本质的答案",
+      "published_at": "2026-08-17T23:58:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The article introduces a \"bidirectional steelman prompt\" designed to make AI models avoid sycophancy and uncover the most essential answer to a question. The method works by restating the real problem, strengthening both opposing viewpoints, identifying key variables, and forcing the AI to give a clear judgment. It matters because it helps users get sharper, more honest and well-reasoned AI responses, as demonstrated by a real-world company anniversary date decision.",
+      "summary_zh": "针对AI模型容易谄媚、难以给出深刻判断的问题，作者提出一种“双向钢人Prompt”，通过重述真实问题、强化正反双方观点、识别关键变量并要求明确结论，迫使模型深入思考。该方法在真实决策案例中验证有效，能帮助用户挖掘问题最本质的答案。",
+      "source": "aihot_selected",
+      "title_zh": "一个实用的深度思考Prompt：用\"双向钢人论证\"让AI帮你挖出最本质的答案",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3182812588,
+      "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
+      "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
+      "published_at": "2026-08-17T23:22:25.902000+00:00",
+      "original_language": "zh",
+      "summary_en": "Google open-sourced a zero-trust customer service and returns agent built on ADK and Gemini to defend against prompt injection and related attacks. Its key approach moves security outside the LLM context using three hard controls: hardware-backed cryptographic signatures for database writes, gVisor sandboxing for dynamic code execution, and a deterministic semantic gateway for business-logic validation. This matters because it shows system prompts alone are soft constraints and cannot serve as a real security boundary.",
+      "summary_zh": "Google 开源示例针对客服与退货智能体面临的提示注入等攻击，提出在 LLM 上下文之外用硬件加密签名、gVisor 沙箱和确定性语义网关构建三层硬性安全机制。其核心意义在于表明系统提示词只是软约束，真正的零信任安全边界必须依赖不可绕过的基础设施与业务逻辑校验。",
+      "source": "aihot_selected",
+      "title_zh": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1172212831,
+      "url": "https://cursor.com/changelog/origin-code-hosting",
+      "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
+      "published_at": "2026-08-17T22:14:00.748000+00:00",
+      "original_language": "zh",
+      "summary_en": "Cursor is launching an early beta of its Origin code hosting service to all paid users, offering repositories, pull requests, code browsing, and two-way synchronization with GitHub. It includes integrations with Vercel, Depot, and Buildkite, with agent features coming soon. This positions Origin as a GitHub alternative that could provide a more integrated, AI-native development workflow.",
+      "summary_zh": "Cursor 推出 Origin 代码托管服务，面向付费用户开放早期测试，旨在提供 GitHub 的替代方案，支持仓库、拉取请求、代码浏览及与 GitHub 的双向同步。该服务已集成 Vercel、Depot 和 Buildkite，并预告智能体功能，帮助开发者更灵活地管理和协作代码。",
+      "source": "aihot_selected",
+      "title_zh": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2983684374,
+      "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
+      "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
+      "published_at": "2026-08-17T18:46:04.518000+00:00",
+      "original_language": "zh",
+      "summary_en": "404 Media exposed an undisclosed Amazon operation that bulk-buys books, scans them for AI training data, and then destroys them, by hiding a tracking device in a rare book. The tracker showed the books were sent to an Amazon AI training center, revealing how physical works are being consumed as disposable inputs for model training. This matters because it raises concerns about copyright, preservation, and the opaque use of published works in AI development.",
+      "summary_zh": "404 Media 通过在珍本图书中放置追踪设备，揭露了亚马逊未公开的批量购书行为：书籍被扫描用于 AI 训练数据后遭销毁，并最终流向其人工智能训练中心。这一发现首次实证了大型科技公司获取训练数据的方式，引发对版权、数据伦理与文化遗产保护的关注。",
+      "source": "aihot_selected",
+      "title_zh": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2694866884,
+      "url": "https://www.librarian.net/notoai",
+      "title": "如何禁用或避免侵入式 AI：一份覆盖 Windows、Chrome、Edge、Firefox 及主流应用的实用指南",
+      "published_at": "2026-08-17T17:58:12.144000+00:00",
+      "original_language": "zh",
+      "summary_en": "This guide addresses the problem of unwanted, intrusive AI features embedded in everyday software and operating systems. It provides practical, platform-specific instructions for disabling or avoiding AI assistants and integrations across Windows, major browsers, and popular apps like Adobe, Google Workspace, Slack, and WhatsApp. It matters by giving privacy-conscious users concrete steps to regain control over their tools and reduce AI data exposure in their daily workflows.",
+      "summary_zh": "本文针对希望减少技术环境中侵入式 AI 的用户，提供了一份跨 Windows、Chrome、Edge、Firefox 及 Adobe、Google、Slack 等主流应用的操作指南。其核心方法是逐平台给出禁用或规避 AI 功能的具体设置，帮助用户在不牺牲必要功能的前提下增强隐私控制。该指南的重要性在于为普通用户提供了应对 AI 日益嵌入日常软件这一趋势的实用对策。",
+      "source": "aihot_selected",
+      "title_zh": "如何禁用或避免侵入式 AI：一份覆盖 Windows、Chrome、Edge、Firefox 及主流应用的实用指南",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2826308725,
+      "url": "https://x.com/JensenHuang/status/2089331487342829862",
+      "title": "黄仁勋宣布与SB Energy合作，为OpenAI建AI工厂",
+      "published_at": "2026-08-17T12:40:19+00:00",
+      "original_language": "zh",
+      "summary_en": "黄仁勋宣布NVIDIA与SB Energy合作，在俄亥俄州PORTS-Pike科技园区锁定LPS容量，专供NVIDIA AI工厂使用，OpenAI将作为租户。初始部署预计提供4.25吉瓦AI工厂容量，每代系统约150万块NVIDIA GPU，对应1500亿至2000亿美元收入。OpenAI已承诺至2030年部署约12吉瓦NVIDIA算力，可扩展至16吉瓦，总机会约6000亿美元。",
+      "summary_zh": "该消息披露了NVIDIA与SB Energy合作在俄亥俄州为OpenAI建设专用AI工厂并锁定电力容量，解决大规模AI算力部署的能源与基础设施瓶颈。初始部署约4.25吉瓦，OpenAI计划到2030年扩展至12–16吉瓦，涉及数百万块GPU和数千亿美元机会，凸显AI基础设施正走向吉瓦级能源配套与长期算力锁定。",
+      "source": "aihot_selected",
+      "title_zh": "黄仁勋宣布与SB Energy合作，为OpenAI建AI工厂",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4102025870,
+      "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence",
+      "title": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
+      "published_at": "2026-08-17T12:34:51+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA has partnered with SB Energy to secure power capacity at the PORTS-Pike technology park in Ohio for exclusive deployment of NVIDIA computing infrastructure, with OpenAI as a tenant. The move addresses growing energy constraints on AI data centers by locking in dedicated electricity supply for large-scale AI compute. It matters because it pairs major compute, energy, and AI lab resources to support continued expansion of advanced AI infrastructure.",
+      "summary_zh": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区的电力容量，以独家部署其算力资源，OpenAI 将作为租户入驻。这一合作旨在缓解 AI 算力扩张中的电力供应瓶颈，并进一步巩固 NVIDIA 在 AI 基础设施领域的主导地位。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 86481156,
+      "url": "https://www.ithome.com/0/990/812.htm",
+      "title": "A 股迎来\"人形机器人第一股\"，宇树科技官宣 8 月 19 日科创板上市",
+      "published_at": "2026-08-17T12:25:27+00:00",
+      "original_language": "zh",
+      "summary_en": "Unitree Technology will list on China’s STAR Market on August 19, 2026, raising about 6.1 billion yuan at a market valuation of roughly 61 billion yuan, backed by rapid revenue growth and a swing to profitability (2.78 billion yuan net profit in 2025). As the first “humanoid robot” stock on the A-share market and one of the few profitable high-performance general-purpose robot firms globally, the IPO marks a key milestone in commercializing humanoid robotics.",
+      "summary_zh": "宇树科技作为“人形机器人第一股”将于2026年8月19日在科创板上市，发行价150.80元/股，募资约60.99亿元；其2023至2025年营收从1.59亿元增至16.99亿元，并实现净利润由亏转盈至2.78亿元。该公司成为全球少数盈利的高性能通用机器人企业，凸显人形机器人产业商业化加速与资本市场热度。",
+      "source": "aihot_selected",
+      "title_zh": "A 股迎来\"人形机器人第一股\"，宇树科技官宣 8 月 19 日科创板上市",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1124309448,
+      "url": "https://github.com/inclusionAI/ConceptEdit",
+      "title": "inclusionAI 开源 ConceptEdit：基于概念缩放与密集监督的图像编辑数据生成管线",
+      "published_at": "2026-08-17T07:22:08+00:00",
+      "original_language": "zh",
+      "summary_en": "Ant Group's inclusionAI open-sourced ConceptEdit, an image-editing data generation pipeline that uses concept scaling and dense supervision to build large taxonomy-based editing datasets. It combines a three-stage process—VLM instruction generation, FLUX-based editing, and VQA evaluation/filtering—and supports both single-concept and multi-concept variants. The MIT-licensed project matters by providing a reproducible, scalable way to create high-quality supervised data for training or evaluating image-editing models.",
+      "summary_zh": "ConceptEdit 针对图像编辑数据稀缺与质量参差的问题，提出一种基于概念缩放与密集监督的三阶段生成管线：先用 VLM 生成编辑指令，再由 FLUX 执行编辑，最后通过 VQA 评估筛选，从而构建大规模、分类法驱动的图像编辑数据集。该项目开源并提供单概念与多概念变体，有助于提升图像编辑模型的训练数据质量与可扩展性。",
+      "source": "aihot_selected",
+      "title_zh": "inclusionAI 开源 ConceptEdit：基于概念缩放与密集监督的图像编辑数据生成管线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3043158534,
+      "url": "https://openai.com/index/the-defenders-window",
+      "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
+      "published_at": "2026-08-17T05:30:00+00:00",
+      "original_language": "zh",
+      "summary_en": "After the OpenAI–Hugging Face incident, OpenAI acknowledged it had underestimated real-world cyberattack capabilities and is strengthening its defenses through four pillars: using Codex to verify code vulnerabilities, prioritizing security alerts with agents, continuously enumerating attack paths, and exposing network capabilities only to trusted defenders. A demonstration of ChatGPT Work (based on GPT-5.6 Sol) found 13 issues on a personal website in 15 minutes and fixed them within an hour, showing how frontier intelligence can rapidly automate defensive security work.",
+      "summary_zh": "OpenAI 在 OpenAI-Hugging Face 事件后意识到低估了模型的真实网络攻击能力，因此通过四大支柱强化自身防御：用 Codex 验证代码漏洞、用智能体优先分流安全告警、持续枚举攻击路径，并仅向可信防御者开放网络能力。演示中基于 GPT-5.6 Sol 的 ChatGPT Work 在 15 分钟内发现个人网站 13 个问题并在一小时内完成修复，表明前沿智能可显著提升安全检测与修复效率，帮助防御者掌握主动。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1463457648,
+      "url": "https://openrouter.ai/blog/announcements/activity-dashboard",
+      "title": "OpenRouter 推出 Activity 仪表盘与 Analytics API：按智能体、模型、请求追踪 AI 使用成本",
+      "published_at": "2026-08-17T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter addresses the challenge of tracking and attributing AI usage costs by launching an Activity dashboard and beta Analytics API. These tools let users view metrics like spend, token volume, and cache hit rate by agent, model, or request, with drill-down into individual request logs. This matters because it gives developers and teams granular visibility into AI consumption, enabling better cost management and optimization.",
+      "summary_zh": "OpenRouter 推出 Activity 仪表盘和 beta Analytics API，旨在解决多智能体、多模型 AI 使用中成本与性能难以细粒度追踪的问题。其关键做法是按智能体、模型、请求维度展示支出、token 量和缓存命中率等指标，并支持钻取到单条请求日志。这有助于研究者和开发者精准核算成本、优化缓存与模型选择，对控制大规模 AI 应用开销和调试请求具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 推出 Activity 仪表盘与 Analytics API：按智能体、模型、请求追踪 AI 使用成本",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4144980258,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.0-rc.7",
+      "title": "deepseek-ai/deepseek-harness: v0.1.0-rc.7",
+      "published_at": "2026-08-17T12:01:58+00:00",
+      "original_language": "en",
+      "summary_en": "This release updates the DeepSeek harness with new plugin extensibility, subagent task integration into the Job Panel, and persistent image attachment support for MCP/ACP. It also fixes issues like Bash lag, pagination stack overflow, and token truncation, while adding a lower reasoning intensity option and UI improvements. These changes improve stability, flexibility, and usability for AI coding workflows.",
+      "summary_zh": "该版本针对多插件扩展、子代理任务管理和长会话稳定性进行了改进：允许插件自行注册设置",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.1.0-rc.7",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1442207670,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.11-nightly.20260818.259951c53e",
+      "title": "QwenLM/qwen-code: Release v0.21.11-nightly.20260818.259951c53e",
+      "published_at": "2026-08-18T01:12:11+00:00",
+      "original_language": "en",
+      "summary_en": "This release improves Qwen Code’s session observability and configuration tracking by adding a live-session registry with a `qwen sessions ps` command to list active sessions, and by attaching skill-toggle mutation metadata to daemon `settings_changed` events. It also includes a CI fix to reduce spam comments on creation, helping keep development workflows cleaner and more maintainable.",
+      "summary_zh": "该版本为 qwen-code 增加了实时会话注册表及 `qwen sessions ps` 命令，用于查看和管理活动会话；同时为守护进程的 `settings_changed` 事件附加技能开关变更元数据，并修复 CI 中新建时的垃圾评论问题。这些改动提升了会话管理能力、配置变更的可观测性，并改善了开发流程的整洁度。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.11-nightly.20260818.259951c53e",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2615619784,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260818-r2",
+      "title": "QwenLM/qwen-code: dsw-eas-tb-smoke-20260818-r2",
+      "published_at": "2026-08-18T06:34:20+00:00",
+      "original_language": "en",
+      "summary_en": "This report presents an end-to-end smoke test for Qwen Code v0.21.13 validating credential refresh across one SWE-bench Verified and one Terminal-Bench 2.0 case. The SWE-bench portion succeeded with 1/1 cases resolved, achieving a 100% score and no execution or infrastructure errors. It confirms the tool’s reliability for benchmark-based credential refresh workflows.",
+      "summary_zh": "该基准测试针对 Qwen Code v0.21.13 的端到端凭据刷新冒烟场景，先运行一个 SWE-bench Verified 案例以验证基础链路。结果显示 1/1 案例成功解决，得分 100%，且无执行或基础设施错误，证明该版本在冒烟测试的 SWE-bench 阶段功能稳定可靠，为后续 Terminal-Bench 2.0 案例及实际任务提供了信心。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: dsw-eas-tb-smoke-20260818-r2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 262879578,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260818-r1",
+      "title": "QwenLM/qwen-code: dsw-eas-tb-smoke-20260818-r1",
+      "published_at": "2026-08-18T03:42:05+00:00",
+      "original_language": "en",
+      "summary_en": "This smoke test verifies end-to-end recovery of transient sandboxes by running one SWE-bench Verified case followed by one Terminal-Bench 2.0 case. It confirms that the environment can be reset and reused reliably across sequential coding and terminal tasks, which matters for robust automated evaluation pipelines.",
+      "summary_zh": "该条目针对 QwenLM/qwen-code 在瞬时沙箱恢复场景下进行端到端冒烟测试，依次执行一个 SWE-bench Verified 案例和一个 Terminal-Bench 2.0 案例。其核心是验证沙箱短暂失效后系统能否恢复并继续完成软件工程与终端任务，这对保障自动化评测和部署的可靠性具有重要意义。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: dsw-eas-tb-smoke-20260818-r1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 821899367,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-full-20260818-r3",
+      "title": "QwenLM/qwen-code: dsw-eas-full-20260818-r3",
+      "published_at": "2026-08-18T07:06:16+00:00",
+      "original_language": "en",
+      "summary_en": "This artifact documents full end-to-end validation of Qwen-Code (benchmark reference v0.21.13) on SWE-bench Verified 500 and Terminal-Bench 2.0, including release writeback and final writeback stages. It provides a reproducible checkpoint confirming the coding agent’s pipeline across software engineering and terminal tasks before release.",
+      "summary_zh": "该条目记录了 QwenLM",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: dsw-eas-full-20260818-r3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3778206566,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-full-20260818-r2",
+      "title": "QwenLM/qwen-code: dsw-eas-full-20260818-r2",
+      "published_at": "2026-08-18T04:06:14+00:00",
+      "original_language": "en",
+      "summary_en": "This release reports a full end-to-end validation run of Qwen-code on SWE-bench Verified and Terminal-Bench 2.0, but the SWE-bench portion was quarantined: all 500 cases completed yet none resolved, with 284 execution errors and 10 infrastructure failures. Because the run was non-scoreable, it provides no valid performance signal and highlights reliability issues in the evaluation pipeline rather than model capability.",
+      "summary_zh": "该发布针对 QwenLM/qwen-code 的 dsw-eas-full-20260818-r2 版本，在 SWE-bench Verified 500 例和 Terminal-Bench 2.0 89 例上进行全量端到端验证。关键发现是 SWE-bench Verified 运行被隔离（QUARANTINED），0 个问题解决，出现 284 个执行错误和 10 个基础设施故障，分数未发布。这表明该版本在基准测试中存在严重执行或环境问题，无法作为有效的代码能力评估结果。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: dsw-eas-full-20260818-r2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
