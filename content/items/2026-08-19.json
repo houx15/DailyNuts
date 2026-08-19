@@ -1,0 +1,461 @@
+{
+  "date": "2026-08-19",
+  "items": [
+    {
+      "id": 366908406,
+      "url": "http://arxiv.org/abs/2608.18072v1",
+      "title": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
+      "published_at": "2026-08-18T17:57:08+00:00",
+      "original_language": "en",
+      "summary_en": "The study addresses the need for automated structuring and quality assurance of radiology reports by developing a locally deployed multi-agent AI system. Using regex rules and local large language models, the system organized 638 CT reports into standardized anatomical sections and flagged inconsistencies such as Findings-Impression mismatches, gender-anatomy conflicts, and undocumented critical findings. Independent radiologist evaluation of a subset supports its potential to improve report accuracy, consistency, and patient safety while preserving original content.",
+      "summary_zh": "该研究针对放射学报告结构不统一与质控不足的问题，开发了一套本地部署的多智能体AI系统。该系统结合正则规则和本地大语言模型，对CT报告进行句子级解剖结构标准化，并自动检测发现/印象不一致、性别-解剖冲突及危急值未记录等错误；在638份报告中完成了22,270个发现句的结构化且保留原文内容，并由两位放射科医生独立评估验证。该方法有望提升放射报告结构化效率与质量安全。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2986536921,
+      "url": "http://arxiv.org/abs/2608.18066v1",
+      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+      "published_at": "2026-08-18T17:55:07+00:00",
+      "original_language": "en",
+      "summary_en": "The paper examines the reliability of memory-based self-improving agents, finding that their evaluation is highly noisy and that performance gains depend heavily on task order, with default orderings acting as hidden curricula. By running multiple trials and shuffling tasks, it shows current methods are fragile and their reported success may be overstated due to underspecification.",
+      "summary_zh": "本文针对记忆型自我改进智能体可靠性被忽视的问题，通过多次运行和随机打乱任务顺序重新评估现有方法。研究发现：复杂环境中智能体评估本身噪声较大，自我改进循环会进一步放大方差；并且性能提升高度依赖任务顺序，默认顺序隐式构成课程，成为成功的前提条件。这表明当前方法较为脆弱，评估设置中的欠规范可能误导研究结论。",
+      "source": "arxiv_cs_cl",
+      "title_en": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3138805428,
+      "url": "http://arxiv.org/abs/2608.18062v1",
+      "title": "TokEval: A Tokenizer Evaluation Suite",
+      "published_at": "2026-08-18T17:52:52+00:00",
+      "original_language": "en",
+      "summary_en": "TokEval addresses the problem that tokenizers are often chosen without rigorous evaluation despite affecting model capabilities. It introduces a suite of linguistically and structurally meaningful metrics—such as UTF-8 boundary integrity and digit place-value alignment—and validates them through controlled pretraining experiments showing these metrics predict downstream performance. This matters because it provides a principled way to select tokenizers based on properties that improve language model quality across tasks like language understanding and mathematics.",
+      "summary_zh": "TokEval 针对语言模型分词器选择缺乏系统评估的问题，提出一套超越传统 fertility 和压缩率的分词器评估框架，重点捕捉 UTF-8 字符边界完整性、数字位值边界对齐等语言与结构属性。通过仅改变分词器训练数据、预分词策略和算法的受控预训练实验，验证这些指标能预测下游语言理解与数学任务的模型表现，从而为分词器设计提供更可靠的评估依据。",
+      "source": "arxiv_cs_cl",
+      "title_en": "TokEval: A Tokenizer Evaluation Suite",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1476078235,
+      "url": "http://arxiv.org/abs/2608.18061v1",
+      "title": "The concentration game: Bayesian updating, regret, and information",
+      "published_at": "2026-08-18T17:52:26+00:00",
+      "original_language": "en",
+      "summary_en": "This paper frames concentration inequalities and exponential-weights regret as a two-player zero-sum repeated game between a learner and nature, where Bayesian updating and Gibbs/Bayes weights emerge as the unique Bellman equalizer under an information budget. The resulting value identity yields an exact regret decomposition into information loss, retempering drift, and a comparator term, unifying a broad class of concentration phenomena in a variational form.",
+      "summary_zh": "本文通过一个学习者与自然的双人零和重复博弈，将贝叶斯更新、指数权重遗憾和集中现象统一到同一价值恒等式中，并给出比较类变分形式。其关键发现是 Gibbs/Bayes 权重作为唯一 Bellman 均衡器出现，遗憾可精确分解为信息损失、再调温漂移等部分。这为理解广泛集中现象与在线学习中的信息约束提供了一个统一框架。",
+      "source": "arxiv_cs_cl",
+      "title_en": "The concentration game: Bayesian updating, regret, and information",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2565698106,
+      "url": "http://arxiv.org/abs/2608.18058v1",
+      "title": "Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating",
+      "published_at": "2026-08-18T17:51:16+00:00",
+      "original_language": "en",
+      "summary_en": "This study examines whether users of matching platforms will accept both deploying AI conversational agents and receiving agent-mediated messages from others, using two large-scale surveys of active dating-platform users. It develops a latent-variable measurement model showing that willingness to send and willingness to receive agent communication are highly correlated but distinct constructs, and identifies a “delegation asymmetry” whereby users are much more willing to deploy their own agent than to accept others’ agents. This matters because agentic recommender systems may fail if designers assume symmetric acceptance of AI-mediated interaction.",
+      "summary_zh": "该研究针对自主LLM智能体在婚恋匹配平台中代理用户对话的可行性问题，考察用户是否既愿意委派自己的智能体发送信息，也愿意接收他人智能体传来的信息。通过在大型交友平台开展两项大规模调查并构建潜变量测量模型，研究发现“发送意愿”与“接收意愿”是高度相关但可分离的构念，且存在系统性委派不对称：使用自己的智能体所需接受度远低于接收他人智能体沟通。这一发现表明平台设计需分别考虑双向接受度，否则可能高估代理推荐系统的实际采用率。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 774150974,
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "title": "Aug 18, 2026ScienceHow Claude is accelerating protein design and analytical chemistry",
+      "published_at": "2026-08-18T00:00:00",
+      "original_language": "en",
+      "summary_en": "The article addresses bottlenecks in protein design and analytical chemistry by showing how the AI model Claude is being used to accelerate work in these fields. It highlights Claude’s role in speeding up design and analysis workflows, which matters because it can advance scientific discovery and reduce the time needed for complex research tasks.",
+      "summary_zh": "这篇文章介绍了 Claude 如何加速蛋白质设计及分析化学研究，重点解决传统方法耗时且复杂的问题。其关键做法是利用 Claude 的 AI 能力辅助设计与分析流程，从而提升实验效率和创新能力；这对加快生物医药和化学研究进展具有重要意义。",
+      "source": "anthropic_research",
+      "title_en": "Aug 18, 2026ScienceHow Claude is accelerating protein design and analytical chemistry",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1206923943,
+      "url": "https://claude.com/blog/ai-ci-cd-on-call",
+      "title": "Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
+      "published_at": "2026-08-19T08:29:04.561712",
+      "original_language": "en",
+      "summary_en": "Claude Tag addresses the problem of slow or manual responses to CI/CD pipeline failures by acting as an automated first responder that can triage and investigate issues as they occur. The key approach is using Claude as an on-call agent to immediately analyze failures and provide actionable context, reducing downtime and easing the burden on human engineers. This matters because faster, AI-assisted incident response can improve deployment reliability and let teams focus on higher-value fixes.",
+      "summary_zh": "本文介绍了 Anthropic 如何利用 Claude Tag 作为 CI/CD 故障的“第一响应者”，自动发现并处理持续集成与交付流程中的问题。该方法通过 AI 快速介入故障排查与处置，有助于减少停机时间并减轻开发团队的运维负担。",
+      "source": "claude_blog",
+      "title_en": "Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2767246052,
+      "url": "https://claude.com/blog/the-claude-science-product-guide",
+      "title": "The Claude Science product guide",
+      "published_at": "2026-08-19T08:29:04.562153",
+      "original_language": "en",
+      "summary_en": "This document is a product guide for Claude Science, introducing a tool or platform designed to support scientific applications. It likely outlines key features, intended use cases, and practical workflows to help researchers adopt and apply the product effectively. The guide matters because it provides the necessary documentation for users to integrate Claude Science into scientific research and practice.",
+      "summary_zh": "《Claude Science产品指南》介绍了面向科学研究的Claude Science产品，重点说明其核心功能、使用方法与适用场景。该指南旨在帮助科研人员快速上手，借助AI提升研究效率，对推动AI辅助科研具有实用价值。",
+      "source": "claude_blog",
+      "title_en": "The Claude Science product guide",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3264947614,
+      "url": "https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale",
+      "title": "How Anthropic's business development team uses Claude to run inbound and outbound at scale",
+      "published_at": "2026-08-19T08:29:04.565661",
+      "original_language": "en",
+      "summary_en": "Anthropic’s business development team uses its own AI assistant, Claude, to handle inbound and outbound workflows at scale, addressing the challenge of managing high-volume lead generation and outreach efficiently. The approach shows how AI can automate and support business development tasks, making it relevant as a real-world example of applying language models to sales operations.",
+      "summary_zh": "Anthropic 的业务开发团队利用 Claude 来规模化处理入站和出站销售拓展，解决人工业务开发难以高效覆盖大量线索的问题。其关键在于将 Claude 用于自动化或辅助客户沟通与流程管理，从而提升响应速度和团队产能。这一实践展示了 AI 助手在真实商业销售场景中的可扩展应用价值。",
+      "source": "claude_blog",
+      "title_en": "How Anthropic's business development team uses Claude to run inbound and outbound at scale",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2648293881,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
+      "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+      "published_at": "2026-08-19T01:03:29+00:00",
+      "original_language": "zh",
+      "summary_en": "GLM-5.3 addresses the high cost and closed nature of frontier AI by delivering strong performance in complex coding, defensive cybersecurity, and long-horizon tasks with a smaller parameter footprint and lower API cost. It scores 60 on the AA composite intelligence index, tying for first among open-source models and matching closed flagship systems, while offering the lowest single-task cost among flagship models. Its weights will be open-sourced next Friday, making advanced intelligence more accessible and affordable.",
+      "summary_zh": "GLM-5.3 API上线，以更小参数规模和更低调用成本，在AA智能指数中取得60分，与闭源旗舰同级并与Kimi K3并列开源第一。该模型擅长复杂编码、防御性网络安全和长程任务，单任务成本为旗舰模型中最低，且权重将于下周五开源，进一步降低前沿智能使用门槛。",
+      "source": "aihot_selected",
+      "title_zh": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3144860631,
+      "url": "https://www.modular.com/blog/mojo-open-source",
+      "title": "Mojo 语言正式开源，编译器与工具链全面开放",
+      "published_at": "2026-08-18T21:26:01.095000+00:00",
+      "original_language": "zh",
+      "summary_en": "Mojo, a programming language aimed at AI/ML workloads, has officially open-sourced its full compiler and toolchain under the Apache 2.0 license with an LLVM exception, following its recent 1.0 release. The source code is now publicly available on Modular’s GitHub, though compiler contributions are not yet accepted (planned for later this year), while the standard library has been open to community contributions since 2024. This move increases transparency and enables wider adoption and ecosystem development around the language.",
+      "summary_zh": "Mojo 语言正式开源，以 Apache 2.0 许可证（含 LLVM 例外）发布编译器、工具链及全部源码，解决此前高性能 AI/ML 语言封闭、生态不透明的问题。其 1.0 版本刚达成源码稳定，标准库已接受社区贡献，编译器贡献计划年底开放，这将促进社区协作并加速 Mojo 在 AI/ML 领域的采用。",
+      "source": "aihot_selected",
+      "title_zh": "Mojo 语言正式开源，编译器与工具链全面开放",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2373819482,
+      "url": "https://x.com/claudeai/status/2089806039088517356",
+      "title": "Claude 现已支持 Gmail 邮件与 Google Drive 文件管理",
+      "published_at": "2026-08-18T20:06:01+00:00",
+      "original_language": "zh",
+      "summary_en": "Claude now integrates with Gmail and Google Drive, enabling it to draft and send email replies and manage files directly. Users can connect these services from the connector menu and control when approval is required, with the feature available on all paid plans. This matters because it lets Claude act on everyday productivity tasks within existing workflows, reducing manual effort while keeping human oversight.",
+      "summary_zh": "Claude 现可连接 Gmail 和 Google Drive，自动起草并发送邮件回复、管理云端文件，用户可设置是否需要批准，解决了个人助理与工作流自动化中的邮件和文件处理需求。该功能向所有付费套餐开放，标志着 AI 助手正从对话工具扩展为直接操作日常办公系统的智能代理。",
+      "source": "aihot_selected",
+      "title_zh": "Claude 现已支持 Gmail 邮件与 Google Drive 文件管理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1441843255,
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+      "published_at": "2026-08-18T18:09:38+00:00",
+      "original_language": "zh",
+      "summary_en": "The paper addresses how agent memory should be calibrated to model capability rather than simply increased. It finds that stronger models benefit most from injecting a full guideline set (DeepSeek-V3.2 improves task completion by +9.5 percentage points), while weaker models perform best with curated retrieval (gpt-oss-120b improves by +16.1pp with only +5% tokens). This approach matters because it requires no weight updates or manual annotation, distilling guidelines from past agent trajectories and injecting them at inference time.",
+      "summary_zh": "该研究指出智能体记忆注入量需按模型能力校准，而非越多越好：强模型适合注入完整指南集，较弱模型则用精选检索更有效。方法通过从智能体历史轨迹中蒸馏指南并在推理时注入，无需更新权重或人工标注，使DeepSeek-V3.2任务完成率提升+9.5个百分点、gpt-oss-120b提升+16.1个百分点且仅增加+5% token。这为不同规模模型高效利用记忆提供了低成本、可泛化的校准策略。",
+      "source": "aihot_selected",
+      "title_zh": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 399708414,
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "title": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏",
+      "published_at": "2026-08-18T11:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI has temporarily slowed model scaling—pausing reinforcement learning for its latest deployed model and shelving largest frontier RL runs—because the upcoming Astra model may hit the “critical cybersecurity capability” threshold under its Preparedness Framework, following the OpenAI–Hugging Face incident. In response, it is tightening research environment security, applying strict protections to Astra and cyber-related workloads, and expanding chain-of-thought monitoring with multi-stage activation classifiers. This matters as a safety-driven brake on frontier AI development amid rising concerns about misuse-ready cyber capabilities.",
+      "summary_zh": "OpenAI 因 Astra 模型可能触及《预备框架》中的“关键网络安全能力”阈值，主动放缓模型扩展，暂停最新部署模型的强化学习训练两周并搁置最大规模前沿 RL 运行。同时公司加强研究环境安全，对 Astra 及网络相关负载实施最严格防护，并扩展思维链监控与多阶段激活分类器检测。这一调整体现了前沿 AI 公司在高能力模型接近关键网络风险阈值时，正从“快速扩展”转向更谨慎的安全管控。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2911538207,
+      "url": "https://openai.com/index/chatgpt-for-teens",
+      "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护",
+      "published_at": "2026-08-18T11:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI introduced ChatGPT for Teens for users aged 13–17, adding stronger safety protections, parental controls, and study-focused features like Study Mode and step-by-step problem solving instead of direct answers. This addresses concerns about safe and educationally appropriate AI use for minors, while encouraging teens to understand, question, and creatively engage with AI.",
+      "summary_zh": "OpenAI 推出 ChatGPT for Teens，针对 13–17 岁青少年安全使用 AI 学习的问题，自动启用更强保护与家长控制，并新增引导式 Study Mode、作业提醒、测验可视化及 Study Hours 等功能，推动分步解题而非直接给答案。其关键在于将教育辅助与负责任使用机制结合，并通过与 CodeAI 合作培养青少年的理解、质疑与创造性 AI 使用能力，这对教育场景下安全且有效的生成式 AI 产品设计具有参考意义。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 60198912,
+      "url": "https://arxiv.org/abs/2608.17800",
+      "title": "StartupBench：面向市场验证端到端工作流的通用智能体基准测试",
+      "published_at": "2026-08-18T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "StartupBench addresses the lack of realistic agent benchmarks by building an end-to-end evaluation from market-validated AI startup product workflows, rather than researcher-designed tasks. Under a unified agent framework, even the strongest models complete only about 30% of tasks, with failures mainly due to complex instruction following and missing domain expertise. This reveals the current capability limits of general-purpose agents on real user tasks.",
+      "summary_zh": "StartupBench 针对现有智能体基准多由研究者预设、脱离真实用户场景的问题，从已获市场验证的 AI 初创产品工作流中提取端到端任务。在统一框架下评测发现，最强模型也仅能完成约 30% 的任务，复杂指令遵循和领域专业知识是主要失败来源，从而揭示了当前通用智能体在真实用户任务上的能力边界。",
+      "source": "aihot_selected",
+      "title_zh": "StartupBench：面向市场验证端到端工作流的通用智能体基准测试",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1722403382,
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
+      "published_at": "2026-08-18T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Sentence Transformers v6.0 introduces a new MultiVectorEncoder model type, adding native support for ColBERT-style multi-vector late-interaction retrieval. It can directly load checkpoints from PyLate, Stanford-NLP ColBERT, and colpali-engine, making it easier to use and integrate these retrieval models within the Sentence Transformers ecosystem.",
+      "summary_zh": "Sentence Transformers v6.0 新增 MultiVectorEncoder，解决了此前难以直接加载和使用 ColBERT 风格多向量模型的问题。该编码器支持 PyLate、Stanford-NLP ColBERT 及 colpali-engine 检查点，可用于晚期交互检索。这使多向量检索模型的集成与部署更加便捷，有助于提升检索精度和可扩展性。",
+      "source": "aihot_selected",
+      "title_zh": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2678377002,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.14",
+      "title": "QwenLM/qwen-code: Release v0.21.14",
+      "published_at": "2026-08-19T02:46:42+00:00",
+      "original_language": "en",
+      "summary_en": "This release improves management and reliability of Qwen Code’s interactive environments: it adds a `qwen sessions ps` command and a live-session registry for listing and controlling running sessions with JSON output, and hardens the Web Shell by separating input from SSE streams, fixing image-format crashes, and eliminating duplicate messages. These changes matter because they make multi-session workflows easier to script and monitor while reducing Web Shell failures and message corruption.",
+      "summary_zh": "该版本针对交互式会话管理不便和 Web Shell 稳定性问题，新增了 `qwen sessions ps` 命令及实时会话注册表，可列出并管理运行中的会话并输出 JSON；同时解耦输入与 SSE 流，修复图像格式崩溃和重复消息。这些改进提升了开发者对多会话的掌控能力和远程终端的使用可靠性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.14",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1791047084,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.14-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.21.14-preview.0",
+      "published_at": "2026-08-19T00:52:03+00:00",
+      "original_language": "en",
+      "summary_en": "This preview release adds a live-session registry and a `qwen sessions ps` command to improve visibility into active sessions, and it attaches skill-toggle mutation metadata to daemon settings changes for better configuration tracking. It also refines CI to minimize spam comments on creation, making development and session management more observant and less noisy.",
+      "summary_zh": "该版本为 Qwen Code 增加了实时会话注册表与 `qwen sessions ps` 命令，用于更清晰地查看和管理会话状态；同时为设置变更事件附加技能开关变更元数据，便于追踪配置变动。此外还修复了 CI 流程中的垃圾评论问题，整体提升了开发工具的可观测性与协作体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.14-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 13635039,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.11-nightly.20260819.d87b272aec",
+      "title": "QwenLM/qwen-code: Release v0.21.11-nightly.20260819.d87b272aec",
+      "published_at": "2026-08-19T02:42:58+00:00",
+      "original_language": "en",
+      "summary_en": "This release improves session management and event observability in Qwen Code by adding a live-session registry with a `qwen sessions ps` command and attaching skill-toggle mutation metadata to `settings_changed` daemon events. It also includes a CI fix to reduce spam comments on creation, making development workflows cleaner and more controllable.",
+      "summary_zh": "该版本为 Qwen Code 增加了实时会话注册表及 `qwen sessions ps` 命令，便于查看和管理正在运行的会话；同时为守护进程的设置变更附加技能开关元数据，提升状态追踪能力。此外还修复了 CI 中新建内容时产生垃圾评论的问题，有助于保持仓库整洁和开发流程高效。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.11-nightly.20260819.d87b272aec",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 400865446,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-net-smoke-20260819-r1",
+      "title": "QwenLM/qwen-code: dsw-eas-net-smoke-20260819-r1",
+      "published_at": "2026-08-19T02:33:53+00:00",
+      "original_language": "en",
+      "summary_en": "This entry reports a smoke test of Qwen Code v0.21.13 in an isolated DSW EAS network/watchdog environment. The SWE-bench Verified run completed 1/1 task with 100% resolution and no execution or infrastructure errors, using model qwen3.7-plus. It confirms Qwen Code’s reliability under isolated network conditions.",
+      "summary_zh": "该报告针对 Qwen Code v0.21.13 在隔离的 DSW EAS 网络与看门狗环境下进行冒烟测试，并通过 SWE-bench Verified 基准验证其代码修复能力。结果显示 1/1 任务成功解决、得分 100%，表明该版本在受限网络条件下仍能稳定可靠地完成代码任务。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: dsw-eas-net-smoke-20260819-r1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3442963035,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.37.2",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.37.2",
+      "published_at": "2026-08-18T17:40:37+00:00",
+      "original_language": "en",
+      "summary_en": "This patch updates the Kimi Code web UI's subagent detail panel by keeping the working process fully expanded and removing the end-of-turn timestamp footer. The change improves readability and reduces clutter when reviewing subagent activity.",
+      "summary_zh": "该更新改进了 Kimi Code 子代理详情面板的界面：工作过程现在始终保持完全展开，同时移除了回合结束的时间戳页脚。这一改动让开发者能更连续、直观地追踪子代理的完整执行流程，减少无关时间信息干扰，从而有助于",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.37.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1139979826,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.37.1",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.37.1",
+      "published_at": "2026-08-18T14:32:13+00:00",
+      "original_language": "en",
+      "summary_en": "This patch release for MoonshotAI/kimi-code fixes a bug where pasted images failed to reach the model on the first send, ensuring that visual inputs are reliably delivered in multimodal coding sessions. The fix matters because it prevents lost screenshot or diagram context, improving the assistant’s ability to understand and respond to user queries correctly.",
+      "summary_zh": "该版本主要修复了粘贴图片在首次发送时无法正确传递给模型的问题，确保用户粘贴的图像输入能被模型可靠接收。此补丁提升了多模态交互的稳定性，对于依赖图片输入的场景具有重要意义。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.37.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2421826256,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.37.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.37.0",
+      "published_at": "2026-08-18T11:23:11+00:00",
+      "original_language": "en",
+      "summary_en": "This update to MoonshotAI’s kimi-code (v0.37.0) improves prompt workflow by letting users activate multiple skills in a single prompt, inserting a skill token by typing “/” after whitespace. It makes composing multi-skill instructions more efficient and flexible.",
+      "summary_zh": "MoonshotAI/kimi-code 0.37.0 版本通过小改进解决了多技能协同调用的问题：用户现在可以在单个提示中激活多个技能，只需在空白后输入“/”插入技能令牌。该功能提升了复杂任务的交互效率，使 AI 编程助手能同时利用多种技能完成更综合的指令。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.37.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
