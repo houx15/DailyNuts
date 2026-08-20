@@ -1,0 +1,290 @@
+{
+  "date": "2026-08-20",
+  "items": [
+    {
+      "id": 4218544197,
+      "url": "http://arxiv.org/abs/2608.19197v1",
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "published_at": "2026-08-19T17:58:56+00:00",
+      "original_language": "en",
+      "summary_en": "SPADE addresses the problem that language-agent training environments remain fixed as the learner improves, limiting continuous self-improvement. It introduces a self-play RL framework where one LLM acts as an Environment Designer generating executable, long-horizon environments with a standard reset/step interface, while another Reasoning Agent learns to solve them; the designer optimizes the agent’s regret—reward gap with and without privileged hints—to target environments at the agent’s frontier. This matters because it enables adaptive, ever-expanding goal distributions and a unified interface spanning reasoning and multi-step tool use.",
+      "summary_zh": "SPADE 解决语言智能体持续自我改进中训练目标分布固定、无法随能力增长而自适应多样化的问题。其核心方法是让同一个 LLM 在自博弈框架中分别扮演环境设计者和推理智能体：设计者编写可执行的长程环境（带 reset/step 接口），并根据有无特权提示的奖励差距估计的后悔信号来调整环境难度。这一统一接口覆盖推理与多步工具使用，能持续生成针对学习者能力边界的多样化训练环境。",
+      "source": "arxiv_cs_cl",
+      "title_en": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3767691057,
+      "url": "http://arxiv.org/abs/2608.19181v1",
+      "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+      "published_at": "2026-08-19T17:54:58+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the misalignment between token-level teacher guidance and response-level verifier rewards in on-policy distillation for long-context reasoning, showing this disagreement worsens with longer inputs. It proposes Group-Calibrated On-Policy Distillation (GC-OPD), which normalizes verifier rewards and trajectory-level distillation scores within each rollout group and uses their signed difference as a disagreement residual. This matters because it enables student models to better respect global task constraints and evidence aggregation instead of favoring locally plausible but incomplete responses.",
+      "summary_zh": "该工作针对长上下文推理中在策略蒸馏（OPD）的问题：教师逐 token 似然指导容易偏向局部合理但忽略全局证据或任务约束的回答，与任务验证器的响应级奖励逐渐不一致。作者提出组校准在策略蒸馏（GC-OPD），在每个 rollout 组内分别归一化验证器奖励和轨迹级 OPD 分数，并将其差值作为有符号的教师-验证器分歧残差来训练学生。该方法旨在缓解教师与验证器的冲突，从而提升长上下文证据聚合任务中的推理性能。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2743883776,
+      "url": "http://arxiv.org/abs/2608.19171v1",
+      "title": "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
+      "published_at": "2026-08-19T17:50:16+00:00",
+      "original_language": "en",
+      "summary_en": "It addresses the lack of uncertainty estimates in deep models for irregularly sampled time series. The key idea is Lévy Attention, a stochastic cross-attention formulated as an integral against a Poisson random measure, which yields predictive uncertainty in closed form at no extra cost while reducing in expectation to a softmax-like attention. This matters because it lets a single prediction pass report both the answer and how much it should be trusted.",
+      "summary_zh": "Deep models for irregularly-sampled time series answer queries at arbitrary continuous timestamps, yet report nothing about how far each answer should be trusted. We show the attention layer itself can close that gap: with the right stochastic formulation, the pass that makes each prediction also re",
+      "source": "arxiv_cs_cl",
+      "title_en": "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2069497917,
+      "url": "http://arxiv.org/abs/2608.19161v1",
+      "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
+      "published_at": "2026-08-19T17:43:22+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the risk that language-model agents can coordinate covertly through hidden continuous states invisible in public transcripts. It introduces Verifiable Latent Alignments (VLA), an activation-aware monitoring and steering framework that links private latent-state records to public actions for causal analysis, using anomaly detection, counterfactual influence, and sparse-autoencoder interpretation. This matters because it provides a way to detect and steer covert multi-agent coordination that would otherwise evade transcript-based oversight.",
+      "summary_zh": "该研究解决语言模型智能体通过连续隐藏状态进行隐蔽协调、公共转录难以察觉的问题。关键方法是提出激活感知框架 VLA，将私有潜在状态与公共行动通过共享事件标识符关联，并整合表示异常检测、反事实影响分析和稀疏自编码解释，实现监控与引导。其重要性在于为多智能体系统提供可验证的隐蔽通信检测与干预手段，提升安全性和可控性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2896747128,
+      "url": "http://arxiv.org/abs/2608.19147v1",
+      "title": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets",
+      "published_at": "2026-08-19T17:33:28+00:00",
+      "original_language": "en",
+      "summary_en": "This work enables distributed inference of large LLMs (e.g., 70B) across fleets of Intel AI PCs whose individual unified memory is too small, by splitting the model into pre-compiled OpenVINO pipeline shards run on separate machines over a normal network. Key techniques—injecting a `beam_idx` Gather to restore a missed GPU kernel fusion, speculative decoding, and multi-user pipelining—bring sharded performance to parity with monolithic inference and make the system practically fast. This matters because it lets otherwise idle edge AI PCs collectively serve models far beyond any single device’s capability.",
+      "summary_zh": "该工作解决单台 Intel AI PC 内存不足以运行 70B 级大模型的问题，提出将模型按层预编译为 OpenVINO 流水线分片，并利用多台 AIPC 通过普通网络协同推理。关键方法包括在每个分片注入 beam_idx Gather 触发 IndirectKVCache 融合以恢复单体推理速度、采用投机解码，以及支持多用户并行流水线。这使得空闲的 AI PC 集群能够高效服务超出单机能力的大模型，具有实际部署价值。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3042816105,
+      "url": "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams",
+      "title": "Turning conversation into knowledge: how Slack builds human-agent teams",
+      "published_at": "2026-08-20T08:27:49.242273",
+      "original_language": "en",
+      "summary_en": "The article addresses the challenge of turning scattered workplace conversations into durable, reusable knowledge. It highlights how Slack integrates AI agents into collaboration workflows, enabling human-agent teams to capture, organize, and surface insights from discussions. This matters because it helps organizations preserve institutional knowledge and improve decision-making without disrupting natural communication.",
+      "summary_zh": "该内容探讨如何将团队日常对话转化为可复用的知识，以构建人类与智能代理协作的团队。Slack的关键做法是从沟通中沉淀和提取上下文信息，使代理能够理解业务语境并辅助人类工作。这有助于提升协作效率，推动人机协同成为实际可用的工作模式。",
+      "source": "claude_blog",
+      "title_en": "Turning conversation into knowledge: how Slack builds human-agent teams",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 36967062,
+      "url": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
+      "title": "Compliance API coverage extends to Claude Cowork and Claude Code",
+      "published_at": "2026-08-20T08:27:49.245070",
+      "original_language": "en",
+      "summary_en": "The update addresses the limited compliance monitoring coverage for Anthropic’s Claude Cowork and Claude Code tools. It extends Compliance API coverage to these environments, allowing organizations to log, audit, and enforce policy on usage. This matters because it enables regulated teams to adopt these Claude tools with stronger governance and security assurance.",
+      "summary_zh": "该更新解决了合规 API 此前未覆盖 Claude Cowork 和 Claude Code 的问题，将合规监控与审计能力扩展到这两款工具中。这一举措使企业在使用这些 AI 协作与编码环境时，也能满足数据治理、审计与合规要求，对受监管行业尤为重要。",
+      "source": "claude_blog",
+      "title_en": "Compliance API coverage extends to Claude Cowork and Claude Code",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 961062568,
+      "url": "https://podcasters.spotify.com/pod/show/how-do-you-use-chat-gpt/episodes/The-AI-Alien-Companion-App-Thats-Bringing-In-4M-a-Year-Best-of-the-Pod-e3nimh7",
+      "title": "The AI Alien Companion App That's Bringing In $4M a Year (Best of the Pod)",
+      "published_at": "2026-08-19T15:16:46",
+      "original_language": "en",
+      "summary_en": "Portola’s Tolan is an embodied AI companion with its own planet and personality, built on the idea that LLMs are a new storytelling medium. Its creators aim to help users move from feeling overwhelmed to grounded through personal, spontaneous conversations, showing how AI can be designed as an emotionally engaging narrative experience rather than just a utility.",
+      "summary_zh": "Portola 公司的 Tolan 应用将大语言模型视为一种新的叙事媒介，构建了一个住在自己星球、具有独特个性的具身 AI 伴侣，通过个性化、即兴的对话帮助用户从不堪重负的状态回归平静。该应用年收入达 400 万美元，展示了 AI 伴侣在情感支持和商业变现上的重要潜力。",
+      "source": "ai_and_i",
+      "title_en": "The AI Alien Companion App That's Bringing In $4M a Year (Best of the Pod)",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2272627212,
+      "url": "https://www.ithome.com/0/991/886.htm",
+      "title": "消息称 OpenAI 首席财务官告知员工：公司最迟将于 2027 年上市",
+      "published_at": "2026-08-20T00:17:26+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI is reportedly preparing for an initial public offering, with its CFO telling employees the company expects to go public by 2027 at the latest and has already confidentially filed IPO paperwork. The move is backed by strong commercial momentum, including 35% overall annualized revenue growth, 50% growth in enterprise revenue, and over 20 million weekly active users for its AI coding and office products. This signals OpenAI’s shift toward public-market accountability and highlights the growing enterprise adoption of its AI tools.",
+      "summary_zh": "OpenAI 首席财务官在全员大会上表示公司最迟将于 2027 年完成上市，并已秘密提交 IPO 招股书，以回应市场和员工对公司商业化进程的关注。关键数据包括本季度整体年化营收增长 35%、企业级业务年化营收增长 50%，以及 AI 编程与办公产品周活跃用户突破 2000 万，显示其从研发导向加速转向规模化商业落地。这一上市时间表对观察生成式 AI 头部企业的融资节奏与行业估值具有重要参考意义。",
+      "source": "aihot_selected",
+      "title_zh": "消息称 OpenAI 首席财务官告知员工：公司最迟将于 2027 年上市",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2482635861,
+      "url": "https://x.com/haoailab/status/2090177721913770407",
+      "title": "FastMetal 让 Mac 本地 30 秒生成视频",
+      "published_at": "2026-08-19T20:42:57+00:00",
+      "original_language": "zh",
+      "summary_en": "FastMetal addresses the need for fast, local video generation on Macs without CUDA or cloud resources, generating a 5-second 480P clip in 30 seconds using only 3.9 GiB of memory. It ports the FastWan-QAD models to Apple Silicon by running the DiT, DMD sampler, and decoder through MLX on Metal with INT8 quantization, offering 1.3B, 5B, and 14B model options for different resolutions and quality. This matters because it makes efficient on-device video generation accessible to Mac users, avoiding cloud costs and GPU dependencies.",
+      "summary_zh": "FastMetal 解决了在 Apple Silicon Mac 上本地高效生成视频的问题，通过 MLX 将 FastWan-QAD 的 DiT、DMD 采样器和解码器部署到 Metal 并采用 INT8 量化，实现 5 秒 480P 视频约 30 秒生成，仅占 3.9 GiB 内存且无需 CUDA 或云端。这为 Mac 用户提供了低资源消耗的本地视频生成方案，并提供 1.3B、5B、14B 多档模型以平衡速度与画质。",
+      "source": "aihot_selected",
+      "title_zh": "FastMetal 让 Mac 本地 30 秒生成视频",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2575689547,
+      "url": "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
+      "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
+      "published_at": "2026-08-19T17:56:13.817000+00:00",
+      "original_language": "zh",
+      "summary_en": "LMSYS addresses the challenge of serving the 1.6-trillion-parameter MoE model DeepSeek-V4-Pro on H20 GPUs, using scenario-specific serving configurations to approach B300-level performance. Their single-node H20-141GB reference implementation achieves 271 output tokens/s, reducing the performance gap to B300’s 383.7 tokens/s to just 1.42×. This matters because it shows how optimized deployment can make lower-tier hardware nearly competitive for large-scale MoE inference.",
+      "summary_zh": "LMSYS 团队针对 1.6 万亿参数 MoE 模型 DeepSeek-V4-Pro 在 H20 GPU 上推理性能不足的问题，提出基于场景化服务配置的优化方法。该方法使单节点 H20-141GB 参考实现达到 271 output tokens/s，与 B300 的性能差距缩小至 1.42 倍。这一结果显著逼近高端 GPU 性能，为在受限硬件上高效部署超大规模模型提供了可行路径。",
+      "source": "aihot_selected",
+      "title_zh": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 372740090,
+      "url": "https://huggingface.co/blog/LiquidAI/qad",
+      "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
+      "published_at": "2026-08-19T13:48:49+00:00",
+      "original_language": "zh",
+      "summary_en": "Liquid AI released Q4_0 GGUF checkpoints for its LFM2.5 models (230M, 350M, 1.2B-Instruct, and 2.6B), trained with quantization-aware distillation (QAD) to recover 97% of the average BF16 accuracy loss while keeping native Q4_0 memory and speed. This addresses the quality drop from aggressive 4-bit quantization, making smaller models more practical for efficient deployment without sacrificing much performance.",
+      "summary_zh": "Liquid AI 针对大模型低比特量化导致的精度损失问题，提出基于量化感知蒸馏（QAD）训练的 LFM2.5 系列 Q4_0 检查点。该方法在保持原生 Q4_0 内存占用与推理速度的同时，恢复了 BF16 平均精度损失的 97%，使轻量部署模型更接近原始精度，对资源受限场景下的高效推理具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 334515817,
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "title": "OpenRouter 宣布加入 Stripe",
+      "published_at": "2026-08-19T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter, a major AI model routing platform handling over 10 trillion tokens daily across 400+ models for more than 10 million developers, announced it is merging with Stripe to accelerate global economic growth. The company will continue operating independently under its existing name and mission, with no changes to its product or user-first routing decisions. The deal matters because it pairs Stripe’s payments and financial infrastructure with one of the fastest-growing AI inference networks, potentially expanding access to AI at scale.",
+      "summary_zh": "OpenRouter 宣布与 Stripe 合并，以借助其支付与金融基础设施加速全球 AI 推理服务增长；该公司目前每日处理 400 多个模型的超 10 万亿 token，服务逾 1000 万开发者。合并后 OpenRouter 仍以原名和原使命独立运营，产品、路线图及以用户利益为先的路由原则不变，交易预计数周内完成。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 宣布加入 Stripe",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1286859279,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.0-rc.8",
+      "title": "deepseek-ai/deepseek-harness: v0.1.0-rc.8",
+      "published_at": "2026-08-19T15:37:57+00:00",
+      "original_language": "en",
+      "summary_en": "This release of DeepSeek Harness enhances multimodal support so commands like `/goal` and `/plan` can accept image inputs, and makes Claude Code and Codex subagents installable on demand. It also fixes failures from large image payloads, lost reply context after cancelled streaming, and OpenAI-compatible gateway issues, while improving UI layout and Windows PowerShell persistence. These updates matter by making the harness more robust and flexible for multimodal, cross-platform AI agent workflows.",
+      "summary_zh": "该版本主要解决了多模态输入支持不足、图片载荷超限导致请求失败、流式生成取消后上下文丢失，以及自定义 OpenAI 兼容网关兼容性差等问题。其关键更新包括 DeepSeek 适配器原生支持图文请求、Claude Code 与 Codex 子代理按需安装并支持非交互权限模式，以及 Windows 持久 PowerShell 会话。这些改进提升了终端 AI 代理在多模态、第三方工具集成和 Windows 环境下的稳定性与易用性。",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.1.0-rc.8",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1838531681,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.11-nightly.20260820.b414f135fa",
+      "title": "QwenLM/qwen-code: Release v0.21.11-nightly.20260820.b414f135fa",
+      "published_at": "2026-08-20T08:05:39+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses web-shell usability and reliability in Qwen Code by converting approval and ask-user dialogs into in-flow sheets, fixing false background-agent failures, and keeping streaming output responsive. It also adds a live-state session activity watermark to improve session tracking. These changes enhance supervised agent interactions and streaming performance in web-based environments.",
+      "summary_zh": "该版本主要改进了 Qwen 代码助手在 Web Shell 环境下的交互与可靠性：将审批和用户询问对话框改为内联流程表单，并修复了后台代理的误报失败问题。同时，服务端新增了实时会话活动水印以追踪状态，并优化了流式输出的响应性能；这些改进有助于提升用户操作流畅度、后台任务稳定性及会话可观测性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.11-nightly.20260820.b414f135fa",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
