@@ -1,0 +1,366 @@
+{
+  "date": "2026-08-21",
+  "items": [
+    {
+      "id": 1505027643,
+      "url": "http://arxiv.org/abs/2608.20338v1",
+      "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+      "published_at": "2026-08-20T17:59:57+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the problem that current LLM unlearning benchmarks only test removal of isolated facts via direct recall, failing to capture context-sensitive unlearning where harmful uses of a concept must be removed while benign uses are preserved. It introduces the notion of dual-use concepts and a benchmark called ConceptGuard to evaluate this capability. This matters because it enables more practical, conceptually complete unlearning that removes unsafe applications without destroying beneficial knowledge.",
+      "summary_zh": "现有大语言模型遗忘基准只关注独立事实的删除，忽略了对同一概念在有害与良性上下文中不同处理能力的评估。ConceptGuard 提出“双用概念”基准，用于衡量模型能否在消除不安全应用的同时保留有益用途，实现概念层面的完整遗忘。这一基准更贴近实际安全需求，为上下文敏感的遗忘方法提供了更全面的评价标准。",
+      "source": "arxiv_cs_cl",
+      "title_en": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1657280615,
+      "url": "http://arxiv.org/abs/2608.20320v1",
+      "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+      "published_at": "2026-08-20T17:57:42+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the gap between digital travel data collection and predictive modeling by proposing a three-agent workflow that integrates chatbot-based stated-preference surveys, structured data processing, and weather-sensitive travel demand prediction. Using student commuter mode choices across weather scenarios, it finds that locally deployed large language models (best zero-shot accuracy 69.9%) are competitive with a random forest benchmark (69.6%) for five-class prediction. This matters because it demonstrates a scalable, privacy-preserving agentic pipeline that can jointly collect and model travel behavior under varying weather conditions.",
+      "summary_zh": "该研究针对出行行为研究中数据收集与预测建模常相互割裂的问题，提出一个三智能体工作流，将对话式数据收集、结构化数据处理和行为预测整合起来，通过聊天机器人图像增强的意向调查收集了学生通勤方式选择数据。结果显示随机森林五分类准确率为69.6%，最优纯文本零样本大语言模型达到69.9%，表明本地部署大模型在天气敏感出行需求预测中具备接近传统机器学习的潜力。",
+      "source": "arxiv_cs_cl",
+      "title_en": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3868632102,
+      "url": "http://arxiv.org/abs/2608.20319v1",
+      "title": "Inducing Task Models from Computer-Use Traces",
+      "published_at": "2026-08-20T17:57:00+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the challenge of learning structured, auditable task models from naturalistic computer-use traces, where real work is interleaved and only low-level events are observed. It introduces Task Model Induction (TMI), which discovers latent tasks in unconstrained traces and induces, for each task, a hierarchical goal-decomposition model paired with a control-flow procedure model. This matters because it enables computer-use agents and organizations to capture, audit, and reuse how everyday work is actually performed.",
+      "summary_zh": "本文解决从自然计算机使用痕迹中归纳结构化任务模型的难题，现有方法多假设单一任务或工作流且只产出步骤摘要。提出的任务模型归纳（TMI）方法能在无约束痕迹中发现潜在任务并解开并发活动，为每个任务归纳出层次化目标模型与控制流程序模型。这对计算机使用智能体学习真实工作方式、支持组织审计与知识重用具有重要意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Inducing Task Models from Computer-Use Traces",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2931724949,
+      "url": "http://arxiv.org/abs/2608.20318v1",
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "published_at": "2026-08-20T17:56:59+00:00",
+      "original_language": "en",
+      "summary_en": "AI4AI-Bench addresses whether LLM agents can perform recursive self-improvement by designing better training algorithms, rather than just collecting data or tuning hyperparameters. It introduces 10 frozen repositories spanning diverse training algorithm families, where agents rewrite the algorithm under a fixed compute budget and are scored by a hidden evaluator against the original. This matters because it isolates algorithmic innovation as the core capability needed for RSI, directly testing an agent's ability to improve the training process itself.",
+      "summary_zh": "AI4AI-Bench 针对递归自我改进的核心问题——AI 能否设计更好的训练算法，指出现有基准无法区分数据/超参优化与真正的算法改进。该基准包含 10 个冻结的算法仓库，智能体需在 4 小时内重写训练算法，再从头重跑并交由隐藏评估器与原算法对比评分。其意义在于首次系统衡量 LLM 智能体改进训练过程本身的能力，为判断递归自我改进是否可行提供依据。",
+      "source": "arxiv_cs_cl",
+      "title_en": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2883630756,
+      "url": "http://arxiv.org/abs/2608.20316v1",
+      "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+      "published_at": "2026-08-20T17:54:37+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses efficient query routing in heterogeneous AI systems, where estimating each specialist model's value incurs a tradeoff between cheap-but-noisy and expensive-but-accurate estimators. It formalizes this as a Pandora's Box problem and, under a Gaussian signal model, derives closed-form value-of-information policies—Pandora's Router for centralized settings and Pandora's Bidder for decentralized ones—that decide when refining a specialist's value estimate is worth the cost. This matters because it enables optimal cost-quality allocation across multiple AI models without exhaustively evaluating every option.",
+      "summary_zh": "本文针对异构AI系统中多专家路由所面临的价值估计成本与精度权衡问题，将其形式化为经典的“潘多拉盒子”最优搜索问题；在高斯信号模型下推导出具有闭式价值信息表达的策略（集中式Pandora's Router与去中心化Pandora's Bidder），以判断何时值得为某专家细化估计。该方法为在保证回答质量的同时降低路由成本提供了理论依据和可操作的分配机制。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 484784381,
+      "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+      "title": "Anthropic’s approach to teaching and learning AI",
+      "published_at": "2026-08-21T08:29:31.613215",
+      "original_language": "en",
+      "summary_en": "The content addresses Anthropic’s framework for teaching and learning in AI, focusing on how models are trained to align with human values and safety goals. It outlines approaches such as constitutional AI and feedback-driven learning to guide model behavior. This matters because it aims to produce capable AI systems that remain interpretable, reliable, and aligned with human intentions.",
+      "summary_zh": "该内容聚焦于Anthropic在人工智能“教”与“学”方面的方法，旨在探讨如何更有效地训练AI系统并使其学习。虽然具体技术细节未展开，但这一方向对提升AI能力、实现与人类意图对齐具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "Anthropic’s approach to teaching and learning AI",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4273331189,
+      "url": "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate",
+      "title": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+      "published_at": "2026-08-21T08:29:31.613693",
+      "original_language": "en",
+      "summary_en": "The article addresses the challenge of integrating AI agents into everyday work management by detailing how monday.com redesigned its platform to be “agent-first,” enabling humans and autonomous agents to collaborate within shared workflows. The key approach centers on embedding agents directly into the platform’s core operating model rather than treating them as add-ons, which matters because it offers a practical blueprint for enterprise software to evolve from human-only tools to collaborative human-agent systems.",
+      "summary_zh": "该内容介绍了 monday.com 如何将平台转型为“智能体优先”的产品，使人类用户与 AI 智能体在同一工作环境中协同完成任务。其关键在于围绕智能体重新设计产品体验和协作流程，让智能体主动参与执行与决策支持。这一转型展示了企业级工作平台向人机协作模式演进的实际路径，对 AI 驱动的 SaaS 产品升级具有借鉴意义。",
+      "source": "claude_blog",
+      "title_en": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2516703885,
+      "url": "https://claude.com/blog/claude-code-guide-for-startups",
+      "title": "The Claude Code guide for startups",
+      "published_at": "2026-08-21T08:29:31.614114",
+      "original_language": "en",
+      "summary_en": "This guide addresses how early-stage companies can effectively adopt Claude Code as an AI coding assistant. It offers practical workflows, best practices, and integration strategies tailored to startup needs. It matters because it helps startups accelerate development and reduce technical overhead while building with AI tools.",
+      "summary_zh": "《Claude Code 创业公司指南》旨在帮助初创团队高效利用 Claude Code 进行 AI 辅助开发。该指南可能提供从接入、工作流设计到最佳实践的实操建议，帮助资源有限的创业公司快速构建产品。其价值在于降低技术门槛、提升开发效率，让初创企业能更专注于核心业务创新。",
+      "source": "claude_blog",
+      "title_en": "The Claude Code guide for startups",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4126560535,
+      "url": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "title": "Build production agents with computer use, the Skills API, and the Files API",
+      "published_at": "2026-08-21T08:29:31.614528",
+      "original_language": "en",
+      "summary_en": "This guide addresses the challenge of moving AI agents from prototypes to production by combining computer use for GUI interaction, the Skills API for reusable capabilities, and the Files API for data handling. It presents an architecture for building reliable agents that can operate real applications and manage files, showing how these APIs together enable scalable, production-ready automation.",
+      "summary_zh": "该内容解决生产级AI智能体难以可靠操作计算机、调用技能和管理文件的问题。其关键方法是结合计算机使用能力、Skills API与Files API，使智能体能够执行实际任务并处理技能与文件资源。这之所以重要，是因为它让AI智能体从演示走向可部署的生产环境，提升了在真实工作流中的实用性。",
+      "source": "claude_blog",
+      "title_en": "Build production agents with computer use, the Skills API, and the Files API",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1060047507,
+      "url": "https://claude.com/blog/cowork-chrome-side-panel",
+      "title": "The Claude in Chrome side panel is now Claude Cowork",
+      "published_at": "2026-08-21T08:29:31.617523",
+      "original_language": "en",
+      "summary_en": "The update rebrands the Claude Chrome side panel as “Claude Cowork,” addressing how users access AI assistance directly in the browser. The change signals a shift from a simple side-panel assistant toward a more collaborative “cowork” experience. This matters because it reframes the tool as an integrated teammate for browser-based tasks, likely aiming to improve workflow adoption and usability.",
+      "summary_zh": "该更新解决了原“Claude in Chrome”名称未能体现协作定位的问题，将浏览器侧边栏助手重新命名为“Claude Cowork”。其关键变化是把它从单纯的对话入口升级为强调人机共同完成任务的协同工作工具。这一调整表明 Anthropic 正推动 Claude 从问答助手向融入浏览器工作流的协作伙伴演进。",
+      "source": "claude_blog",
+      "title_en": "The Claude in Chrome side panel is now Claude Cowork",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2082916714,
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "title": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍",
+      "published_at": "2026-08-20T16:52:57+00:00",
+      "original_language": "zh",
+      "summary_en": "Hugging Face released DSpark draft model checkpoints for the LFM2.5 model series to accelerate inference via speculative decoding without degrading output quality. The ~300M-parameter draft models achieve up to 3.18x higher GPU throughput (2.87x on-device) and reduce function-calling latency for LFM2.5-2.6B by 57% on average. This matters because it provides open, drop-in efficiency gains for deployed LLMs, with support for llama.cpp and SGLang.",
+      "summary_zh": "Hugging Face 为 LFM2.5 系列发布约 300M 参数的 DSpark 草稿模型，利用投机解码在保持输出质量不变的前提下，将 GPU 吞吐最高提升 3.18 倍、端侧最高提升 2.87 倍。该方法使 LFM2.5-2.6B 的函数调用延迟平均降低 57%，并已开源支持 llama.cpp 和 SGLang，对高效部署大模型推理具有实用价值。",
+      "source": "aihot_selected",
+      "title_zh": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1543904829,
+      "url": "https://mistral.ai/news/agentic-search",
+      "title": "Mistral 推出 Agentic Search：多步检索提升 AI 系统复杂文档查询准确率",
+      "published_at": "2026-08-20T16:02:07.300000+00:00",
+      "original_language": "zh",
+      "summary_en": "Mistral’s Agentic Search addresses the challenge of accurately answering complex queries over long documents and multiple sources by using a multi-step retrieval loop with five tools—search, open, navigate, read, and grep—to find, locate, and verify information. This matters because it improves reliability and precision for AI systems handling large, distributed document collections.",
+      "summary_zh": "Mistral 推出 Agentic Search，旨在解决 AI 系统在长文档和多来源场景下复杂查询准确率不足的问题。其核心方法是让模型通过 search、open、navigate、read、grep 五种工具进行多步检索循环，自主查找、定位并验证信息。这有助于提升大模型在真实复杂文档中的信息检索与可信度，对构建可靠的智能助手和知识工作流具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Mistral 推出 Agentic Search：多步检索提升 AI 系统复杂文档查询准确率",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2294034884,
+      "url": "https://cloud.google.com/blog/products/databases/alloydb-scann-index-four-level-tree-improves-vector-search",
+      "title": "AlloyDB ScaNN 如何将向量搜索扩展到 100 亿向量",
+      "published_at": "2026-08-20T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "AlloyDB’s ScaNN index addresses large-scale vector search by introducing a four-layer tree architecture that lowers query complexity from O(N^1/2) to O(N^1/4), enabling support for over 10 billion vectors. In internal tests, it achieves 95% recall with p95 latency under 51 ms at that scale, making highly scalable, low-latency similarity search practical for very large AI/ML workloads.",
+      "summary_zh": "AlloyDB 的 ScaNN 索引通过全新的四层树架构，将向量搜索规模扩展到超过 100 亿向量，并把查询复杂度从 O(N^1/2) 降至 O(N^1/4)。在内部测试中，该方案在 100 亿向量下实现了 p95 延迟不超过 51 毫秒、召回率达 95%，为超大规模向量检索提供了高效且实用的解决方案。",
+      "source": "aihot_selected",
+      "title_zh": "AlloyDB ScaNN 如何将向量搜索扩展到 100 亿向量",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 374484378,
+      "url": "https://www.ithome.com/0/992/239.htm",
+      "title": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
+      "published_at": "2026-08-20T09:45:51+00:00",
+      "original_language": "zh",
+      "summary_en": "Alibaba released Qwen-UI-Agent, a GUI agent foundation model aimed at enabling models to actually operate real-world screens across mobile, desktop, web, and deep search environments. The key approach centers on building a real-world-focused GUI agent rather than a benchmark-only system, giving it broad cross-platform interaction capability. This matters because it moves toward practical AI assistants that can perceive and act on diverse digital interfaces, supporting more reliable automation and human-computer interaction.",
+      "summary_zh": "阿里巴巴推出 Qwen-UI-Agent，针对 GUI 智能体难以在真实多端界面中可靠操作的问题，构建了一个以真实世界为中心的基座模型。该模型统一覆盖移动端、电脑端、网页端及深度搜索环境，旨在让模型真正“会用”每一块屏幕，从而提升跨界面自动化交互能力。",
+      "source": "aihot_selected",
+      "title_zh": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 476035054,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.14-nightly.20260821.9f2342d323",
+      "title": "QwenLM/qwen-code: Release v0.21.14-nightly.20260821.9f2342d323",
+      "published_at": "2026-08-21T01:16:03+00:00",
+      "original_language": "en",
+      "summary_en": "This release improves QwenLM/qwen-code’s automated review workflow by adding feedback that explains to the author why a review loop is not settling, and by fixing CI behavior so a fallback comment no longer incorrectly denies a review it already posted. These changes reduce confusing review-loop stalls and make automated code review more transparent and reliable.",
+      "summary_zh": "该版本解决了代码审查循环不收敛时缺乏解释的问题，新增功能可告知作者原因，增强审查透明度；同时修复了CI回退评论逻辑，避免其否认已发布的审查。这些改动提升了自动化代码审查的可靠性和可解释性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.14-nightly.20260821.9f2342d323",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1777293054,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.15",
+      "title": "QwenLM/qwen-code: Release v0.21.15",
+      "published_at": "2026-08-20T17:38:51+00:00",
+      "original_language": "en",
+      "summary_en": "This release improves the Qwen Code Web Shell by adding file attachment insertion via the composer or @ selection, along with faster streaming and real-time sidebar syncing. It also introduces a simple Thinking toggle for Qwen hybrid models, giving users easier control over reasoning behavior. These changes enhance developer productivity and offer more flexible interaction with AI reasoning capabilities.",
+      "summary_zh": "本次发布针对Qwen代码助手在文件附件交互与流式响应上的体验问题，通过在Web Shell中支持文件附件插入并优化流式性能及",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.21.15",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2544715738,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-tb-smoke-20260821-r1",
+      "title": "QwenLM/qwen-code: DSW EAS SWE + TB smoke 2026-08-21 r1",
+      "published_at": "2026-08-21T02:38:07+00:00",
+      "original_language": "en",
+      "summary_en": "This release-trigger smoke test validates Qwen Code v0.21.15 end-to-end on one SWE-bench Verified task and one Terminal-Bench task through DSW Harbor execution and GitHub Release result writeback. The SWE-bench Verified run succeeded with 1/1 task resolved, a 100% score, and no execution or infrastructure errors, confirming the release pipeline works correctly.",
+      "summary_zh": "该发布冒烟测试针对 Qwen Code v0.21.15，在 DSW Harbor 执行与 GitHub Release 结果回写链路中，端到端验证了 1 个 SWE-bench 和 1 个 Terminal-Bench 任务。结果 SWE-bench Verified 以 1/1 解决、100% 得分通过，无执行错误或基础设施故障。这表明发布触发流程与基准测试集成运行正常，为后续版本发布提供了可靠的自动化验证依据。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW EAS SWE + TB smoke 2026-08-21 r1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2328422750,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/dsw-eas-full-20260821-r1",
+      "title": "QwenLM/qwen-code: DSW EAS SWE 500 + Terminal-Bench 89 full 2026-08-21 r1",
+      "published_at": "2026-08-21T03:47:18+00:00",
+      "original_language": "en",
+      "summary_en": "This benchmark evaluates the Qwen-code agent end-to-end on SWE-bench Verified (500 tasks) and Terminal-Bench 2.0 (89 tasks), using verifier-backed result checks and trajectory writeback for reproducibility. It provides a full, verifiable measure of software-engineering and terminal-task capabilities rather than isolated or partial evaluations. The run serves as a reference point at Benchmark-Qwen-Ref v0.21.15 for tracking progress and comparing future model versions.",
+      "summary_zh": "该工作针对代码智能体在软件工程与终端操作任务上的端到端评估，采用 SWE-bench Verified 500 与 Terminal-Bench 2.0 89 组合基准，并纳入验证器支持的结果与轨迹回写。其关键意义在于通过更大规模、可追溯的完整评测流程，更全面地衡量代码模型在真实开发与命令行场景中的综合能力。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: DSW EAS SWE 500 + Terminal-Bench 89 full 2026-08-21 r1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 582098354,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.38.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.38.0",
+      "published_at": "2026-08-20T13:13:44+00:00",
+      "original_language": "en",
+      "summary_en": "This update for Kimi Code v0.38.0 adds support for two OAuth login methods—kimi.ai and kimi.com—along with other minor changes. It improves authentication flexibility, letting users sign in through different Kimi account domains.",
+      "summary_zh": "该版本针对登录方式单一的问题，新增了对 kimi.ai 和 kimi.com 两种 OAuth 登录方式的支持。这一改动提升了不同账户体系用户的接入灵活性，属于小幅功能增强。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.38.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
