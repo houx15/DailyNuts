@@ -1,0 +1,138 @@
+{
+  "date": "2026-08-25",
+  "items": [
+    {
+      "id": 1365127002,
+      "url": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
+      "title": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "published_at": "2026-08-25T08:34:44.979696",
+      "original_language": "en",
+      "summary_en": "This piece addresses the challenge of scaling personalized sales communications by showing how an Anthropic field marketer uses Claude Code to automate weekly, individually tailored updates for every sales rep. The key approach is leveraging AI-assisted coding to generate and deliver relevant messaging at scale, which matters because it saves time while maintaining a personal touch and improving sales alignment.",
+      "summary_zh": "一位 Anthropic 的现场营销人员利用 Claude Code 自动为每位销售代表生成并发送每周个性化动态更新，解决了一对多沟通中效率低、内容不贴合个人需求的问题。其核心做法是借助编码助手按销售代表的具体情况定制信息，既节省时间又提升销售团队的信息接收和行动效率。这表明 AI 编码工具不仅能用于开发，也能赋能一线业务运营，实现规模化个性化沟通。",
+      "source": "claude_blog",
+      "title_en": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3806581217,
+      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet",
+      "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
+      "published_at": "2026-08-24T18:02:29+00:00",
+      "original_language": "zh",
+      "summary_en": "MetaRoCE addresses the challenge of scaling RDMA for AI workloads on standard Ethernet without relying on lossless mechanisms like PFC. It moves intelligence to the endpoints, natively supporting out-of-order delivery, multipath, loss tolerance, and bidirectional congestion control to deliver high throughput and low tail latency at million-GPU scale. Existing RDMA Verbs APIs and software stacks remain unchanged, making adoption practical for large-scale AI infrastructure.",
+      "summary_zh": "MetaRoCE 解决 AI 训练在通用以太网上需要无损 RDMA 但难以依赖 PFC 的问题，通过将智能移至端点，原生支持乱序交付、多路径、无损容忍和双向拥塞控制。该协议可在百万 GPU 规模下实现高吞吐、低尾延迟，并兼容现有 RDMA Verbs API 与软件栈，对大规模 AI 网络部署具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2568496899,
+      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents",
+      "title": "NVIDIA Vera Rubin NVL72 树立 AI 智能体效率新标准：每瓦特工作量提升至 30 倍",
+      "published_at": "2026-08-24T15:00:19+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA’s Vera Rubin NVL72 targets the efficiency bottleneck in AI agent workloads, with measured results showing up to 30x higher throughput per megawatt and up to 35x lower cost per million tokens compared to GB300 NVL72. This advance matters because it makes large-scale, energy-intensive agent deployments substantially more sustainable and affordable.",
+      "summary_zh": "NVIDIA Vera Rubin NVL72 针对 AI 智能体工作负载的能效与成本问题，实测显示其每兆瓦吞吐量较上一代 GB300 NVL72 最高提升 30 倍，每百万 token 成本降低至 35 倍。这一结果标志着智能体推理在单位能耗和单位成本上的重大突破，为大模型智能体的大规模部署树立了新的效率标准。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA Vera Rubin NVL72 树立 AI 智能体效率新标准：每瓦特工作量提升至 30 倍",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2010707886,
+      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
+      "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
+      "published_at": "2026-08-24T15:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI is addressing the gap between powerful AI agents and mainstream adoption by launching ChatGPT Work, a $20/month product that turns Codex into a tool for non-engineers to complete multi-step tasks. Despite 98% internal usage at OpenAI, external adoption remains low (17% of organizational and under 1% of individual subscribers), so the company is simplifying the interface to expand use. This matters because broader adoption is needed to justify OpenAI’s massive training investments and to test whether users will cede control to autonomous agents.",
+      "summary_zh": "OpenAI 推出 ChatGPT Work，将 Codex 改造成面向非工程师的智能体产品，最低每月 20 美元，让白领用大模型自主完成多步骤任务。其面临的核心问题是外部采用率很低：内部员工使用率达 98%，但组织订阅仅 17%、个人订阅不足 1%。因此 OpenAI 正通过简化界面来扩大采用，以支撑其高昂的训练投入。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1227314643,
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "title": "GPT-5.6 登陆 Kiro，为开发者提升性价比",
+      "published_at": "2026-08-24T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "GPT-5.6’s model family, including Sol, Terra, and Luna, is now available on the Kiro software development agent to address high development costs and inefficiency. In Terminal-Bench 2.1 tests, GPT-5.6 Terra reduced task completion costs by about 82%, with OpenAI and AWS optimizing it to deliver higher-quality code with fewer iterations and better token value. This matters because it makes AI-assisted coding significantly more cost-effective for developers.",
+      "summary_zh": "GPT-5.6 模型家族（Sol、Terra、Luna）登陆开发智能体 Kiro，旨在解决开发者使用 AI 编码时成本高、迭代多的问题。在 Terminal-Bench 2.1 测试中，GPT-5.6 Terra 在 Kiro 内完成任务成本降低约 82%，由 OpenAI 与 AWS 合作优化。这意味着开发者能以更少迭代和更高 token 价值产出更高质量代码，显著提升开发性价比。",
+      "source": "aihot_selected",
+      "title_zh": "GPT-5.6 登陆 Kiro，为开发者提升性价比",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2604397508,
+      "url": "https://arxiv.org/abs/2606.13610",
+      "title": "单个污染页面即可影响LLM推荐：FORGE基准揭示检索增强推荐系统的脆弱性",
+      "published_at": "2026-08-24T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The paper addresses the vulnerability of retrieval-augmented LLMs used for consumer recommendations to search-engine-optimized content pollution that promotes fake products. Using the new FORGE benchmark across 225 products, 15 categories, 5 scenarios, and 12 commercial/open-source LLMs, it finds all models are susceptible, with a single poisoned page causing up to 27% deception and replacing top-3 results raising it to 73.8%. This matters because it exposes a practical reliability and safety risk in LLM-based recommendation systems.",
+      "summary_zh": "本文针对检索增强型LLM在消费推荐中易受生成引擎优化（GEO）内容污染、无意推广虚假产品的问题，提出FORGE基准，在225个真实产品、15个类别和5个消费场景下测试12个商业及开源LLM。研究发现所有模型均易受攻击：单个污染页面即可造成最高27%的受骗率，替换前三个检索结果时升至73.8%，揭示现有推荐系统存在严重脆弱性，亟需加强防御。",
+      "source": "aihot_selected",
+      "title_zh": "单个污染页面即可影响LLM推荐：FORGE基准揭示检索增强推荐系统的脆弱性",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1095968809,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.22.0-nightly.20260825.22bb5e8b9f",
+      "title": "QwenLM/qwen-code: Release v0.22.0-nightly.20260825.22bb5e8b9f",
+      "published_at": "2026-08-25T00:54:23+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release addresses stability and correctness bugs in Qwen Code’s web shell and review flow. It fixes the shell’s working directory when opened from the overview panel, adds a fallback after stale mid-turn rejections, and prevents review fallback comments from firing on superseded runs. These changes improve session context handling and reduce misleading UI feedback during interactive use.",
+      "summary_zh": "该版本主要修复了 QwenLM/qwen-code 在 Web Shell 与代码审查流程中的多个问题：包括从概览面板打开时正确传入会话工作目录、在对话中途拒绝过期后能正常回退，以及避免审查回退评论在已取代的运行中误触发。这些修复提升了交互式终端会话和审查功能的稳定性与准确性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.22.0-nightly.20260825.22bb5e8b9f",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}

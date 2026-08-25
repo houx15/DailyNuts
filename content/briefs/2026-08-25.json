@@ -1,0 +1,34 @@
+{
+  "date": "2026-08-25",
+  "headline_en": "OpenAI's $20 ChatGPT Work Targets Mainstream Agent Adoption Amid Efficiency and Trust Gaps",
+  "lede_en": "Today's AI landscape is defined by a push to make autonomous agents practical beyond early adopters, alongside infrastructure upgrades that slash the cost of running them. OpenAI's ChatGPT Work repackages Codex for non-engineers in a bid to lift external usage from low single digits, while NVIDIA and MetaRoCE deliver efficiency and scale gains for agent and AI workloads. At the same time, a new benchmark shows recommendation LLMs remain vulnerable to SEO poisoning, underscoring trust gaps as agents reach consumers.",
+  "sections_en": [
+    {
+      "title": "Agent Engineering & Adoption",
+      "body": "The agent ecosystem is moving from raw capability toward usability, reliability, and cost. An Anthropic field marketer uses Claude Code to automate personalized weekly sales updates, showing coding agents expanding into non-developer business workflows. OpenAI's ChatGPT Work explicitly targets non-engineers after external Codex adoption stalled, while GPT-5.6 Terra on Kiro cuts terminal task costs by roughly 82% to improve developer economics. Qwen Code's nightly release fixes web shell working-directory and stale review-flow bugs, reflecting the incremental reliability work needed as these agents enter daily use."
+    },
+    {
+      "title": "Architecture & Infrastructure",
+      "body": "Under the hood, infrastructure is being redesigned for AI-scale efficiency. MetaRoCE brings loss-tolerant, out-of-order RDMA to standard Ethernet, preserving existing Verbs APIs while supporting million-GPU fabrics without PFC. NVIDIA's Vera Rubin NVL72 reports up to 30x higher throughput per megawatt and 35x lower cost per million tokens than GB300 NVL72, making energy-intensive agent deployments more sustainable. Together these advances lower the economic and networking barriers that would otherwise constrain large-scale agent and model adoption."
+    },
+    {
+      "title": "Evals & Benchmarks",
+      "body": "Reliability and safety remain open questions as LLMs move into consumer-facing recommendations. The FORGE benchmark finds retrieval-augmented recommendation models across 12 commercial and open-source LLMs are susceptible to SEO pollution, with a single poisoned page deceiving up to 27% of outputs and top-3 result replacement raising that to 73.8%. This highlights a practical attack surface that could undermine trust in LLM-driven product recommendations, reinforcing the need for robustness testing as deployment widens."
+    }
+  ],
+  "top_picks": [
+    1365127002,
+    3806581217,
+    2568496899
+  ],
+  "item_count": 7,
+  "source_breakdown": {
+    "claude_blog": 1,
+    "aihot_selected": 5,
+    "qwen_github": 1
+  },
+  "generated_at": "2026-08-25T08:40:01.745403Z",
+  "headline_zh": "今日共采集 7 项内容",
+  "lede_zh": "今日共采集 7 项内容。",
+  "sections_zh": []
+}
