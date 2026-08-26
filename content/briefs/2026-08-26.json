@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-26",
+  "headline_en": "19 items collected today",
+  "lede_en": "19 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    2583733141,
+    2816223276,
+    3409179367
+  ],
+  "item_count": 19,
+  "source_breakdown": {
+    "google_research": 1,
+    "arxiv_cs_cl": 5,
+    "anthropic_news": 1,
+    "claude_blog": 3,
+    "aihot_selected": 8,
+    "qwen_github": 1
+  },
+  "generated_at": "2026-08-26T08:43:59.240529Z",
+  "headline_zh": "今日共采集 19 项内容",
+  "lede_zh": "今日共采集 19 项内容。",
+  "sections_zh": []
+}

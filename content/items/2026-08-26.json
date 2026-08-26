@@ -1,0 +1,366 @@
+{
+  "date": "2026-08-26",
+  "items": [
+    {
+      "id": 2583733141,
+      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+      "published_at": "2026-08-25T19:10:59",
+      "original_language": "en",
+      "summary_en": "AgentHands addresses the challenge of making embodied conversational agents in extended reality (XR) more natural by generating interactive hand gestures that are spatially grounded in the conversation context. The work introduces a method or system called AgentHands that produces context-aware gestures tied to objects and space, enhancing nonverbal communication in XR. This matters because realistic, spatially relevant gestures can improve user engagement, comprehension, and the overall sense of presence in immersive agent interactions.",
+      "summary_zh": "针对XR环境中对话代理缺乏与空间情境匹配的交互手势这一问题，AgentHands提出了一种生成式方法，为空间锚定的代理对话合成手部手势。该方法有助于提升XR虚拟代理的非语言表达自然性，从而增强沉浸感和沟通效果。",
+      "source": "google_research",
+      "title_en": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2816223276,
+      "url": "http://arxiv.org/abs/2608.24876v1",
+      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+      "published_at": "2026-08-25T17:56:35+00:00",
+      "original_language": "en",
+      "summary_en": "Recuris addresses recursive self-improvement in long-horizon agents, where growing histories obscure task state and misalign skill use. It couples a Working Memory that tracks progress and guides skill selection with Experiential Memory, and uses a fixed Meta-Agent to make localized, validation-gated memory updates, forming a bounded recursive evolution loop. Across four benchmarks and ten models, it improves task success in 35 of 37 model-benchmark pairs, adding large gains to frontier models and reaching SOTA-level performance.",
+      "summary_zh": "针对长时任务中历史膨胀导致任务状态模糊、技能调用错位的问题，Recuris 采用工作记忆追踪进展并引导经验记忆中的技能选择，把执行转化为可定位失败的结构化证据，再由固定元代理进行局部、验证门控的技能记忆更新，形成有界递归演化循环。在四个长时基准和十个模型上，37 个模型-基准对中有 35 个取得提升，并在 tau-bench 上为 GPT-5.6 Sol 和 Claude Opus 分别带来 +17.8 和 +15.6 的收益，达到 SOTA 水平。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3409179367,
+      "url": "http://arxiv.org/abs/2608.24870v1",
+      "title": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL",
+      "published_at": "2026-08-25T17:52:19+00:00",
+      "original_language": "en",
+      "summary_en": "SPO++ addresses inefficient asynchronous reinforcement learning for agentic LLMs with long, variable tool-use trajectories, where group-relative methods wait for sibling rollouts and SPO’s per-trajectory advantage whitening is misaligned with the token-level actor objective. It fixes this by standardizing terminal-outcome advantages under the action-token measure and ordering prompt evidence by the policy event that generated it, rather than by learner receipt order. Across ALFWorld and Math-TIR, SPO++ improves online learning efficiency over SPO, with the action-token-measure normalization identified as the strongest component.",
+      "summary_zh": "SPO++ 解决了异步智能体强化学习中因等待同提示兄弟轨迹而导致的低效问题，提出在动作 token 度量下标准化终端结果优势，并按策略事件而非接收顺序组织提示证据，从而修复 SPO 中轨迹中心化与 token 加权量不匹配的缺陷。在 ALFWorld 和 Math-TIR 上的实验表明，该方法提升了在线学习效率，其中动作 token 度量归一化是最关键的改进组件。",
+      "source": "arxiv_cs_cl",
+      "title_en": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2756034348,
+      "url": "http://arxiv.org/abs/2608.24858v1",
+      "title": "Bellman Calibration for Marginalized Importance Weighting in Offline Reinforcement Learning",
+      "published_at": "2026-08-25T17:44:02+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses residual occupancy-balance violations in marginalized importance weighting for offline reinforcement learning, which are hard to diagnose and fix due to lacking a direct validation loss. It proposes isotonic Bellman calibration, a model-agnostic post-processing method that applies a monotone one-dimensional transformation to any initial occupancy-ratio estimate, reducing violations while preserving ranking information. This matters because it offers a simple, tuning-friendly way to improve the accuracy and reliability of offline policy evaluation.",
+      "summary_zh": "针对离线强化学习中边缘化重要性加权因函数近似或优化不完善而残留占用平衡违反、且缺乏直接验证损失的问题，本文提出一种一维、模型无关的“等渗贝尔曼校准”后处理方法。该方法在一维非递减变换类上应用拟合占用比评估（FORE），校正初始占用比估计的尺度与形状，在保留排序信息的同时减少平衡违反，从而提升估计的可靠性与可调优性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Bellman Calibration for Marginalized Importance Weighting in Offline Reinforcement Learning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3079934507,
+      "url": "http://arxiv.org/abs/2608.24848v1",
+      "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
+      "published_at": "2026-08-25T17:35:42+00:00",
+      "original_language": "en",
+      "summary_en": "BrowserForge addresses the lack of large, diverse interaction trajectory data for pixel-based web agents, whose existing datasets are small and limited to fixed website lists. It scales data generation by running hundreds of parallel browser sandboxes over the open web, combining open-web sourcing of many real websites, a high-utilization cluster manager, and a Proposer-Solver dual-agent loop. This matters because it greatly expands the number and variety of websites an agent can encounter, enabling more robust training of web agents at scale.",
+      "summary_zh": "BrowserForge 解决了基于像素的网页智能体训练缺乏大规模、多样化交互轨迹的问题，现有数据集通常局限于少量固定网站。其核心方案是结合开放网络站点采集、并行浏览器沙箱集群调度以及 Proposer-Solver 双智能体循环，在数十万真实网站上并行生成交互数据。这为大规模训练通用网页智能体提供了可扩展的数据生产框架，显著提升网站多样性与数据规模。",
+      "source": "arxiv_cs_cl",
+      "title_en": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 737764619,
+      "url": "http://arxiv.org/abs/2608.24846v1",
+      "title": "FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs",
+      "published_at": "2026-08-25T17:34:27+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses multi-hop question answering over knowledge graphs that are vertically partitioned across organizations, where entities are shared but relations are disjoint and cannot be centralized. FedV-KGQA combines local graph enrichment, knowledge graph embeddings, and topic entity anchoring to reason without sharing raw triples, relation parameters, or runtime inter-silo communication. Evaluations on three benchmarks show it performs strongly and remains close to centralized performance, demonstrating a practical privacy-preserving approach for distributed KGQA.",
+      "summary_zh": "FedV-KGQA 解决多跳知识图谱问答中数据垂直分区、不同组织仅共享实体而关系互不相交导致的跨孤岛推理难题。其关键方法是结合本地图谱增强与知识图谱嵌入，使原始三元组和关系参数不离开各孤岛，并引入主题实体锚定机制，在无需运行时孤岛间通信的情况下定位问题相关邻域。该框架在三个基准、12种配置上表现接近集中式性能，证明了在数据主权约束下实现高效多跳推理的可行性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2920446071,
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "published_at": "2026-08-25T00:00:00",
+      "original_language": "en",
+      "summary_en": "This piece addresses the need for more rigorous assessment of how AI systems affect human wellbeing, arguing that current evaluations are insufficient. Its key approach is to call for dedicated funding toward better evaluation methods and metrics. This matters because stronger evidence is essential to ensure AI development promotes, rather than undermines, individual and societal wellbeing.",
+      "summary_zh": "该议题针对当前缺乏严谨评估人工智能对人类福祉影响的问题，提出应投入资金支持更完善的评估研究与测量方法。其核心在于推动以证据为基础的政策制定与负责任的人工智能发展，从而确保技术进步真正增进社会福祉。",
+      "source": "anthropic_news",
+      "title_en": "Funding better evaluations of AI’s impact on wellbeing",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3699934429,
+      "url": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
+      "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "published_at": "2026-08-26T08:33:40.882507",
+      "original_language": "en",
+      "summary_en": "Bain & Company has joined Anthropic’s Claude Partner Network as a Global Premier partner, allowing the consulting firm to embed Claude AI into its client engagements. The partnership addresses rising enterprise demand for practical AI adoption by combining Bain’s strategic and industry expertise with Claude’s AI capabilities. It matters because it gives large organizations a clearer path to scale AI solutions responsibly and drive business transformation.",
+      "summary_zh": "贝恩公司（Bain & Company）加入Claude合作伙伴网络并成为全球高级合作伙伴，旨在将Anthropic的Claude AI能力引入战略咨询与企业转型服务。这一合作表明顶级咨询公司正加速整合生成式AI，以提升客户解决方案的智能化水平和落地价值。",
+      "source": "claude_blog",
+      "title_en": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3508163752,
+      "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "title": "Claude's memory works everywhere, and you decide what's in it",
+      "published_at": "2026-08-26T08:33:40.882901",
+      "original_language": "en",
+      "summary_en": "Claude now offers persistent memory across all contexts, letting users control exactly what is stored. This addresses the need for continuity and personalization without sacrificing privacy or user agency. It matters because it makes Claude more useful and consistent while keeping memory management transparent and user-directed.",
+      "summary_zh": "该功能解决了 Claude 在不同场景下缺乏持续记忆的问题，核心是让记忆能力随处可用。其关键做法是由用户决定记忆内容，从而在提供个性化体验的同时保留用户对隐私和数据的控制权。",
+      "source": "claude_blog",
+      "title_en": "Claude's memory works everywhere, and you decide what's in it",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2790163066,
+      "url": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
+      "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
+      "published_at": "2026-08-26T08:33:40.886948",
+      "original_language": "en",
+      "summary_en": "ABC Legal addressed the bottleneck of relying on specialized developers by using Claude Managed Agents to empower every employee, regardless of technical background, to build their own tools and automations. This approach democratizes software creation across the company, boosting productivity and innovation while reducing pressure on engineering teams.",
+      "summary_zh": "ABC Legal 通过引入 Claude 托管代理，解决了非技术员工难以参与自动化与工具开发的问题，让每位员工都能成为“构建者”。其关键做法是利用托管式 AI 代理降低开发门槛，使业务人员也能自行创建解决方案。这一实践的意义在于推动 AI 能力在组织内普及，从而加速创新并提升整体运营效率。",
+      "source": "claude_blog",
+      "title_en": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 560129863,
+      "url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
+      "title": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪",
+      "published_at": "2026-08-25T21:12:53+00:00",
+      "original_language": "zh",
+      "summary_en": "This integration addresses the challenge of scaling retrieval applications to production by combining LangChain with Airbyte to automate data ingestion. It uses scheduling, text splitting, and over 50 embedding models to build scalable, production-ready data pipelines, making it easier for developers to maintain reliable and extensible retrieval workflows.",
+      "summary_zh": "该方案解决检索应用从原型扩展到生产环境时数据摄取难以规模化的问题。通过集成 LangChain 与 Airbyte，利用调度、文本拆分和50多种嵌入模型实现数据摄取自动化，帮助开发者构建生产级数据管道。这让检索应用能够稳定、可扩展地处理真实生产数据。",
+      "source": "aihot_selected",
+      "title_zh": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3120525581,
+      "url": "https://x.com/AndrewYNg/status/2092315079576555806",
+      "title": "OpenWorker 新版发布，内置网络安全智能体",
+      "published_at": "2026-08-25T18:16:02+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenWorker’s new release addresses security workflow needs by embedding three cybersecurity agents for code vulnerability scanning, dependency supply-chain injection detection, and cloud security configuration checks. Its fully open-source harness is auditable for backdoors, and it supports running open-weight models locally to protect sensitive code. This matters because it gives security teams a transparent, customizable, and privacy-preserving agent platform for automated security tasks.",
+      "summary_zh": "OpenWorker 新版针对安全团队对可审计、无后门 AI 工具的需求，将其 harness 完全开源，并内置代码漏洞扫描、依赖供应链注入检测和云安全配置检查三类网络安全智能体。该版本支持本地运行开源权重模型，使敏感代码无需外传，从而在提升安全工作流自动化水平的同时增强信任与隐私保护。",
+      "source": "aihot_selected",
+      "title_zh": "OpenWorker 新版发布，内置网络安全智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 765757044,
+      "url": "https://x.com/GoogleAI/status/2092275116503707733",
+      "title": "WeatherNext 预测气旋：提前五天预警五级飓风",
+      "published_at": "2026-08-25T15:37:15+00:00",
+      "original_language": "zh",
+      "summary_en": "Google AI’s WeatherNext cyclone model tackles the challenge of early, accurate hurricane forecasting by jointly predicting storm track, intensity, and size with up to 1,000 simulations per storm, giving about one extra day of lead time over existing systems. In real-world testing during the 2025 hurricane season, it predicted Hurricane Melissa’s Category 5 landfall in Jamaica five days in advance—the first real-time use of an AI model by the U.S. National Hurricane Center. Its open-source code and weights make this forecasting advance broadly accessible for operational use.",
+      "summary_zh": "Google AI 发布 WeatherNext 气旋预测模型，解决传统系统在风暴路径、强度和规模综合预测及预警时效不足的问题。该模型在 2025 飓风季实战中提前五天预测飓风 Melissa 在牙买加的五级登陆，是美国国家飓风中心首次实时采用 AI 模型，比现有系统多提供一整天预警时间；其单场风暴可生成多达 1000 次模拟，且代码与权重已开源，有助于提升极端天气应对能力。",
+      "source": "aihot_selected",
+      "title_zh": "WeatherNext 预测气旋：提前五天预警五级飓风",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 931965545,
+      "url": "https://www.dwarkesh.com/p/dylan-patel-3",
+      "title": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力",
+      "published_at": "2026-08-25T15:32:57+00:00",
+      "original_language": "zh",
+      "summary_en": "Dylan Patel predicts that by 2028, Anthropic and OpenAI will control most of the world’s available compute (FLOPs) because their business models allow them to monetize computing power more effectively and outbid competitors. This concentration matters because it could give a small number of AI labs outsized influence over the infrastructure needed for advanced AI development.",
+      "summary_zh": "Dylan Patel 在播客中预测，到 2028 年 Anthropic 与 OpenAI 将控制全球大部分可用算力（FLOPs），原因是它们能更高效地将算力变现并出价高于其他竞争者。这一发现揭示了 AI 实验室经济中的资源集中趋势，对理解未来算力市场格局和竞争壁垒具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Dylan Patel：Anthropic 与 OpenAI 到 2028 年将控制全球大部分算力",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1714159407,
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra",
+      "title": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio",
+      "published_at": "2026-08-25T13:00:23.969000+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple’s new Mac Studio with M5 Max and M5 Ultra targets demanding AI workloads, delivering up to 4.3× faster AI performance and up to 512GB unified memory with 1.2TB/s bandwidth to run large LLMs fully on-device. Clustering four systems further boosts distributed AI inference by up to 3×, making high-performance local and distributed model serving more accessible for researchers and developers.",
+      "summary_zh": "苹果新款 Mac Studio 通过 M5 Max 和 M5 Ultra 芯片大幅提升 AI 算力与统一内存带宽，最高支持 512GB 内存和 1.2TB/s 带宽，解决在设备端运行大型 LLM 的显存与性能瓶颈。M5 Ultra 可完全本地运行大模型，并支持四台集群实现 3 倍分布式推理加速，这对降低云端依赖、提升 AI 推理效率具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2031866049,
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
+      "title": "Apple 发布 M6 与 M5 Ultra，性能与 AI 算力大幅跃升",
+      "published_at": "2026-08-25T12:58:13.056000+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple’s new M6 and M5 Ultra chips address the need for major performance and AI compute gains in Mac desktops. The M6 is Apple’s first 2nm chip with a 12-core CPU, 12-core GPU, dual 16-core Neural Engine, and 1.2x multithreaded performance over the M5, while the M5 Ultra uses a first-of-its-kind quad-chip package with up to 36 CPU cores, 80 GPU cores, and 1.2TB/s bandwidth. These advances matter because they deliver substantially higher CPU, GPU, and neural processing power for the new Mac mini and Mac Studio, enabling more demanding AI and professional workloads.",
+      "summary_zh": "苹果发布首款2nm芯片M6和四芯片封装的M5 Ultra，分别将多线程性能较M5提升1.2倍、带宽较M3 Ultra提升50%，并大幅增强神经引擎AI算力。两款芯片用于新款Mac mini与Mac Studio，标志着苹果在能效与端侧AI计算能力上的重要跃升。",
+      "source": "aihot_selected",
+      "title_zh": "Apple 发布 M6 与 M5 Ultra，性能与 AI 算力大幅跃升",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3209203915,
+      "url": "https://openrouter.ai/blog/tutorials/choose-best-ai-model",
+      "title": "如何在编辑器里实时挑选最佳 AI 模型",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "It addresses how to select the best AI model in real time inside coding editors. OpenRouter’s framework defines the task, screens candidates from live usage and benchmarks, compares pricing and latency, then tests with your own prompts, optimizing for cost per completed task rather than cost per token. Its MCP server enables real-time rankings, pricing, and benchmark queries in editors like Claude Code and Cursor, with per-request routing via openrouter/auto-beta.",
+      "summary_zh": "OpenRouter 针对在编辑器中实时选择最优 AI 模型的问题，提出一套选型框架：先定义任务，结合实时用量与第三方基准筛选候选，再比较定价和延迟，并以“每完成任务的成本”而非“每 token 成本”作为判断标准。其 MCP 服务器可在 Claude Code、Cursor 等编辑器中直接查询实时排名、价格和基准，并通过 openrouter/auto-beta 按请求自动路由，帮助开发者更高效、经济地调用模型。",
+      "source": "aihot_selected",
+      "title_zh": "如何在编辑器里实时挑选最佳 AI 模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1597921148,
+      "url": "https://openrouter.ai/blog/tutorials/video-generation-api",
+      "title": "OpenRouter 视频生成 API：一份代码优先的接入指南",
+      "published_at": "2026-08-25T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter addresses the fragmentation of video generation models by offering a single asynchronous API where users submit jobs via `POST /api/v1/videos`, poll status, and download MP4 output. It supports multiple models such as Seedance, Veo, and Wan, and switching between them requires only changing the model identifier. This matters because it simplifies code-first integration and lets developers access different video models without rewriting pipeline logic.",
+      "summary_zh": "本文介绍 OpenRouter 推出的统一异步视频生成 API，旨在解决不同视频生成模型接入方式不一致的问题。其核心做法是通过 POST `/api/v1/videos` 提交任务、轮询状态并下载 MP4，支持 Seedance、Veo、Wan 等多种模型；切换模型只需修改 model 标识符，显著降低了开发者的接入与切换成本。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 视频生成 API：一份代码优先的接入指南",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2924383769,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.22.2-preview.1",
+      "title": "QwenLM/qwen-code: Release v0.22.2-preview.1",
+      "published_at": "2026-08-26T06:12:32+00:00",
+      "original_language": "en",
+      "summary_en": "This Qwen Code preview release tightens safety and reliability controls in the AI coding assistant. It converges continuation prompts under a single guarded contract, requires explicit user opt-in before the model can launch workflows, and bans unverified mutation claims in coverage briefs. These changes improve user control and trust by preventing unauthorized actions and unsupported review statements.",
+      "summary_zh": "该预览版主要强化模型行为约束与安全审查：统一了三个续写提示的受保护契约，要求模型在启动工作流前必须获得用户显式同意，并禁止在覆盖率简报中声称未执行的变更。这些改动旨在防止模型擅自行动和虚假报告，从而提升代码生成与审查的可信度和安全性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.22.2-preview.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
