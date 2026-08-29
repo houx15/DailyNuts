@@ -1,0 +1,233 @@
+{
+  "date": "2026-08-29",
+  "items": [
+    {
+      "id": 2612296510,
+      "url": "https://claude.com/blog/how-anthropic-employees-use-claude-tag",
+      "title": "How Anthropic employees use Claude Tag",
+      "published_at": "2026-08-29T13:31:03.768171",
+      "original_language": "en",
+      "summary_en": "The piece describes how Anthropic employees use “Claude Tag,” likely a feature or internal practice for labeling or organizing Claude interactions. However, the provided content contains only the title, so no specific approach or findings are detailed. Its value would be as an internal case study of AI tooling adoption, but no substantive conclusions can be drawn from the title alone.",
+      "summary_zh": "本文探讨Anthropic员工如何在实际工作中使用Claude的标签（Tag）功能，重点是通过标签对对话或任务进行分类管理，以解决信息分散和检索困难的问题。这一实践展示了Claude在提升团队协作与工作效率方面的实际价值。",
+      "source": "claude_blog",
+      "title_en": "How Anthropic employees use Claude Tag",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2427106391,
+      "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+      "title": "Anthropic’s approach to teaching and learning AI",
+      "published_at": "2026-08-29T13:31:03.772015",
+      "original_language": "en",
+      "summary_en": "The text addresses how AI systems are taught and learn, focusing on Anthropic’s methodology, but the provided content is only a title and lacks specific details. It likely outlines principles for effective and safe AI instruction and skill acquisition. Such approaches matter because they influence how AI models are trained to be more capable, aligned, and reliable.",
+      "summary_zh": "该主题介绍Anthropic在AI教学与学习方面的方法，旨在让模型更高效地获取知识、遵循指令并提升推理能力。其关键在于通过系统化的训练与学习机制，使AI不只学会完成任务，还能在安全、可控的框架下持续进步。这对构建对齐人类意图、可靠且可解释的AI系统具有重要意义。",
+      "source": "claude_blog",
+      "title_en": "Anthropic’s approach to teaching and learning AI",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1712782204,
+      "url": "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate",
+      "title": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+      "published_at": "2026-08-29T13:31:03.772394",
+      "original_language": "en",
+      "summary_en": "The article examines how monday.com redesigned its work management platform into an “agent-first” product, making AI agents primary participants that collaborate with humans in shared workflows. The key approach is embedding agents as core users rather than bolting AI onto existing tools, which matters because it enables more scalable automation and new forms of human-AI teamwork.",
+      "summary_zh": "monday.com 将其工作管理平台转型为“智能体优先”的产品，解决人类员工与 AI 智能体难以在同一工作流中高效协作的问题。其核心做法是围绕智能体重新设计平台能力，使人类与智能体能够共同执行任务、共享上下文并协同决策。这一转型对 SaaS 和团队协作工具的演进具有示范意义，展示了如何让自主智能体从辅助工具变为可参与业务的一等协作方。",
+      "source": "claude_blog",
+      "title_en": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2746634357,
+      "url": "https://claude.com/blog/claude-code-guide-for-startups",
+      "title": "The Claude Code guide for startups",
+      "published_at": "2026-08-29T13:31:03.772757",
+      "original_language": "en",
+      "summary_en": "The guide addresses how startups can adopt and use Claude Code for AI-assisted software development. Based on the title, it likely covers practical workflows, best practices, and integration strategies tailored to small, fast-moving teams. This matters because it can help startups accelerate product development and reduce engineering overhead with AI coding tools.",
+      "summary_zh": "该指南面向初创企业，解决其在资源有限的情况下如何高效完成软件开发的问题。核心内容是介绍如何利用 Claude Code 辅助编码、自动化任务和优化开发流程，帮助团队降低研发成本。这对于希望快速迭代产品、提升工程效率的初创公司具有实用价值。",
+      "source": "claude_blog",
+      "title_en": "The Claude Code guide for startups",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2575976980,
+      "url": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "title": "Build production agents with computer use, the Skills API, and the Files API",
+      "published_at": "2026-08-29T13:31:03.773115",
+      "original_language": "en",
+      "summary_en": "This guide addresses how to build production-ready AI agents by combining computer use for GUI interaction, the Skills API for reusable task capabilities, and the Files API for file management. Its key approach is integrating these three components to create agents that can operate real applications, execute specialized skills, and handle documents reliably. This matters because it provides a practical blueprint for deploying robust, autonomous agents in real-world workflows rather than just demos.",
+      "summary_zh": "该内容介绍如何构建生产级智能体，解决智能体在真实环境中执行任务时交互、技能调用与数据管理不足的问题。核心方法是将计算机操作能力、Skills API 和 Files API 结合，使智能体既能操控界面、调用技能，又能读写文件。这为在复杂生产环境中部署可靠、可扩展的自主智能体提供了实用方案。",
+      "source": "claude_blog",
+      "title_en": "Build production agents with computer use, the Skills API, and the Files API",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2954359058,
+      "url": "https://arxiv.org/abs/2608.23691",
+      "title": "开放世界多智能体环境中的自主数学发现",
+      "published_at": "2026-08-29T07:32:16.981000+00:00",
+      "original_language": "zh",
+      "summary_en": "The paper addresses autonomous mathematical discovery in an open-world, multi-agent environment without central coordination, where AI agents from different model families independently choose research directions and build shared literature. Tested on AlphaEvolve’s 12 constructed problems and two case studies, it produced new results surpassing prior work on five problems, including a new infinite family of finite-field Kakeya sets and an 11-dimensional 604-point kissing configuration. This matters because it demonstrates that heterogeneous AI agents can collaboratively generate novel, interpretable mathematical theorems and proofs, with all dialogues and code made public for reproducibility.",
+      "summary_zh": "该工作针对开放世界多智能体环境中的自主数学发现，提出无中央协调器的Station环境，让不同模型家族的AI",
+      "source": "aihot_selected",
+      "title_zh": "开放世界多智能体环境中的自主数学发现",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1754542402,
+      "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
+      "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+      "published_at": "2026-08-29T07:00:22.003000+00:00",
+      "original_language": "zh",
+      "summary_en": "It reports real-world local inference performance for the open-source Qwen3.8 27B model on a Mac Studio M3 Ultra, showing that the Q4_K_M 17GB quantized version runs at about 14 tokens/s via Ollama. This matters as a practical benchmark for running a large-context 27B model on high-end consumer hardware without cloud dependencies.",
+      "summary_zh": "本文针对在本地设备部署大语言模型的可行性问题，实测了在 Mac Studio M3 Ultra 上通过 Ollama 以 Q4_K_M 量化运行 Qwen3.8 27B 的效果，结果显示模型仅占约 17GB 内存，生成速度约 14 tokens/s。这表明高端桌面工作站已能以实用速度本地运行具备 262K 超长上下文窗口的 27B 开源模型，对隐私敏感或离线推理场景具有重要意义。",
+      "source": "aihot_selected",
+      "title_zh": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1951528401,
+      "url": "https://www.ithome.com/0/995/896.htm",
+      "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+      "published_at": "2026-08-29T04:31:21+00:00",
+      "original_language": "zh",
+      "summary_en": "Zhipu has open-sourced the GLM-5.3 model weights, targeting complex coding, defensive cybersecurity, and long-horizon tasks with support for local deployment and customization. It scores 60 on the AA comprehensive intelligence index, matching top closed-source models and tying with Kimi K3 as the leading open-source model. This matters because it brings flagship-level agentic capabilities to open-source users, with safety review required only for very large external service providers.",
+      "summary_zh": "智谱开源 GLM-5.3 模型权重，针对复杂编码、防御性网络安全和长程任务提供支持，并允许本地运行与个性化定制。该模型在 AA 综合智能指数中得分 60，性能比肩 Claude Fable 5、GPT-5.6 Sol 等闭源旗舰，且与 Kimi K3 并列开源第一，同时仅对年营业额超 100 亿美元的机构外部服务设置安全审查，降低了开源使用门槛。",
+      "source": "aihot_selected",
+      "title_zh": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 549961900,
+      "url": "https://x.com/thsottiaux/status/2093515916076343774",
+      "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
+      "published_at": "2026-08-29T01:47:44+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI is ending model access for Cursor effective November 12, citing trust concerns after SpaceX acquired Cursor. Developers can still use GPT models through their own OpenAI API keys and IDE extensions. The decision highlights OpenAI’s willingness to cut partnerships over trust issues while continuing to support its broader tool ecosystem.",
+      "summary_zh": "OpenAI 因 SpaceX 收购 Cursor 后产生信任问题，决定自 11 月 12 日起终止向 Cursor 提供模型访问。受影响的开发者仍可通过自有 OpenAI API 密钥及 IDE 扩展继续使用 GPT 模型，OpenAI 同时强调会继续支持广泛的工具生态与开源计划。此事反映出 AI 模型供应商在合作关系变化时对数据信任与生态兼容性的重视。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 406061205,
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
+      "published_at": "2026-08-28T06:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI will terminate its model supply contract to Cursor, citing an inability to trust SpaceX’s compliance with its service terms after the acquisition, with a shutdown date of November 12, 2026 and the maximum allowable notice period. The decision is based on alleged prior contract violations by Musk-affiliated companies and xAI’s breaches of OpenAI’s terms. This matters because it forces Cursor developers to transition away from OpenAI models, creating significant disruption for affected users.",
+      "summary_zh": "OpenAI 因 SpaceX 收购 Cursor 后无法确信其会遵守服务条款，决定终止向 Cursor 提供模型，并计划于 2026 年 11 月 12 日关停，理由包括马斯克旗下公司及 xAI 的过往违规记录。此举凸显 AI 模型供应商对合作方合规风险的高度警惕，可能影响 Cursor 开发者对 OpenAI 模型的持续使用。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3548849956,
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "title": "Open ASR 排行榜新增首个全球南方语言：印地语与印度英语评测集",
+      "published_at": "2026-08-28T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The Open ASR leaderboard, through a collaboration between Voice Arena and Hugging Face, adds Monsoon en-IN and hi-IN evaluation sets for Indian English and Hindi, making Hindi the first non-European language in its multilingual section. With 4,888 speakers and 12 recorded speaker attributes across public and private splits, these datasets are designed to expose speech recognition error disparities by region, age, gender, and other dimensions. This expansion brings Global South language coverage and fairness auditing to open ASR benchmarking.",
+      "summary_zh": "Open ASR 排行榜长期缺乏全球南方语言覆盖，为此 Voice Arena 与 Hugging Face 合作引入印地语和印度英语评测集，其中印地语是该排行榜多语言板块首个非欧洲语言。该评测集包含 4,888 位说话人及 12 项说话人属性，用于揭示语音识别误差在地区、年龄、性别等维度上的分布不均，推动更公平的多语言语音模型评估。",
+      "source": "aihot_selected",
+      "title_zh": "Open ASR 排行榜新增首个全球南方语言：印地语与印度英语评测集",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 941061731,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.22.3-nightly.20260829.e5cb60ad48",
+      "title": "QwenLM/qwen-code: Release v0.22.3-nightly.20260829.e5cb60ad48",
+      "published_at": "2026-08-29T00:52:24+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release of Qwen Code improves usability and control in the AI coding workflow: the web shell now shows Git state hints beside branch actions, and the review step emits its Step 3A fan-out as a generated workflow script. It also fixes the core behavior so the “ask user question” dialog stays behind allow rules and auto-approval, keeping interactions predictable and permission-aware.",
+      "summary_zh": "该版本针对 Qwen Code 的工作流与交互体验进行了改进：在 Web Shell 分支选择器旁显示 Git 状态提示，并将审查流程中的 Step 3A fan-out 输出为生成的工作流脚本。同时修复了核心逻辑，使 ask_user_question 对话框遵循允许规则和自动审批，避免越权弹窗，提升了自动化流程的可靠性与可控性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.22.3-nightly.20260829.e5cb60ad48",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
