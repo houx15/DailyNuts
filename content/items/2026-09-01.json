@@ -1,0 +1,233 @@
+{
+  "date": "2026-09-01",
+  "items": [
+    {
+      "id": 403081195,
+      "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+      "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+      "published_at": "2026-08-31T17:19:40",
+      "original_language": "en",
+      "summary_en": "TimesFM-3 is a zero-shot foundation model aimed at multivariate time series forecasting, enabling predictions across multiple related variables without task-specific training. Its focus on data management suggests robust handling of diverse multivariate inputs is central to the approach. This matters because it offers a scalable, general-purpose forecasting solution that can reduce the need for building custom models in different domains.",
+      "summary_zh": "TimesFM-3 针对多变量时间序列预测中的零样本泛化问题，提出一种无需任务特定训练即可进行多变量预测的基础模型。该方法有助于在数据管理场景下降低建模成本，并提升跨领域预测效率。",
+      "source": "google_research",
+      "title_en": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 293820363,
+      "url": "http://arxiv.org/abs/2608.31166v1",
+      "title": "Constant Individual Regret in General Games",
+      "published_at": "2026-08-31T17:59:16+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the problem that uncoupled no-regret dynamics in general finite normal-form games previously had individual regret growing polylogarithmically with the time horizon. It introduces ECHO-OFTRL, a deterministic, fully uncoupled optimistic follow-the-regularized-leader algorithm using an exponential-moving-average cascade for high-order optimism, and proves that every player incurs regret bounded by a constant depending only on the number of players and log action-set size, independent of the horizon. This removes the horizon dependence and shows that constant individual regret is achievable in general games under full-information feedback.",
+      "summary_zh": "本文解决一般有限N人正规形式博弈中无耦合无悔动态的个体遗憾对时间范围仍有多对数依赖的问题。作者提出确定性的ECHO-OFTRL算法，在OFTRL中引入基于指数移动平均级联的高阶乐观，实现每个玩家遗憾上界为O(poly(N, log m_max))，与时间T无关。该结果首次在完全信息反馈下将一般博弈的个体遗憾降至常数级，对去中心化均衡计算具有重要意义。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Constant Individual Regret in General Games",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2658117609,
+      "url": "http://arxiv.org/abs/2608.31142v1",
+      "title": "Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification",
+      "published_at": "2026-08-31T17:48:24+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the lack of validated methods for verifying the identity of anonymously released, API-served AI models, where identity affects data-handling, risk, and capability expectations. It proposes a four-stage black-box forensic audit protocol combining archived platform snapshots, configuration fingerprinting, tokenizer differential testing, and behavioral probes. Testing on 10 known-identity releases shows the protocol can confirm exact matches and detect precision differences, offering a practical evidence-based alternative to untrustworthy self-identification.",
+      "summary_zh": "针对匿名上架AI模型缺乏黑盒身份验证方法的问题，作者提出四阶段取证审计协议：通过存档快照还原发布配置、对平台目录做配置指纹、用跨长度差分验证分词器身份，并用行为探针佐证。在10个已知身份模型上测试（7个完全一致、2个精度差异等），为数据条款、供应链风险和能力预期的判定提供了可验证依据。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3717766171,
+      "url": "http://arxiv.org/abs/2608.31139v1",
+      "title": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation",
+      "published_at": "2026-08-31T17:44:54+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the problem that fixed-size chunking in retrieval-augmented biomedical information extraction can fragment semantic evidence. It proposes a configurable semantic chunking framework combining entity-preserving windows, trigger-centered chunking, proposition-first extraction, tiered trigger prioritization, and hierarchical relation resolution, which integrates with BioMedRAG by replacing only the chunk construction stage. The full hybrid configuration improves GM-CIHT relation extraction F1 from 74.2% to 82.6%, showing that better semantic chunking boosts biomedical extraction performance without altering the rest of the RAG pipeline.",
+      "summary_zh": "该研究针对生物医学信息抽取中固定大小分块会割裂语义证据的问题，提出一种可配置的语义分块框架，融合实体保留窗口、触发词中心分块、命题优先提取、分层触发优先级和层次关系解析等策略，仅替换 BioMedRAG 的分块构建阶段。在 GM-CIHT 等生物医学关系抽取与不良事件分类基准上，全混合配置达到 82.6% F1，比固定大小基线提高 8.4 个百分点，表明语义分块能显著提升检索增强生成中的信息抽取效果。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 356141073,
+      "url": "http://arxiv.org/abs/2608.31137v1",
+      "title": "OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques",
+      "published_at": "2026-08-31T17:44:25+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the underexplored challenge of systematically combining complementary and conflicting predictions from heterogeneous ontology alignment methods. It introduces OntoAligner-Ensemble, a modular, aligner-agnostic framework that fuses candidate correspondences via configurable voting-based strategies and post-fusion selection policies. This matters because it enables diverse alignment paradigms—including lexical, structural, KGE, and LLM-based aligners—to be integrated through a unified decision process, improving robustness and reconciliation of aligner outputs.",
+      "summary_zh": "该研究针对异构本体对齐方法（词汇/结构、知识图谱嵌入、大语言模型等）预测结果互补但相互冲突、缺乏系统融合机制的问题，提出模块化且与对齐器无关的 OntoAligner-Ensemble 框架，通过可配置的两阶段流程（投票融合与融合后选择策略）统一整合多种对齐器的候选对应关系。该方法能够将不同对齐范式纳入统一决策过程，有助于提升本体对齐的鲁棒性和综合性能。",
+      "source": "arxiv_cs_cl",
+      "title_en": "OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 972385261,
+      "url": "http://arxiv.org/abs/2608.31133v1",
+      "title": "Implementing neural network mixed-effects models in Template Model Builder (TMB)",
+      "published_at": "2026-08-31T17:43:02+00:00",
+      "original_language": "en",
+      "summary_en": "This work addresses the difficulty of fitting neural network mixed-effects models, which typically require manual derivation of objective functions and gradients that forces limiting approximations. It introduces a general implementation framework using Template Model Builder (TMB), where users only specify the negative joint log-likelihood and regularization, while automatic differentiation and Laplace approximation handle random effects and exact gradients. This simplifies model specification and removes ad hoc approximations, enabling more flexible and accurate NMMs.",
+      "summary_zh": "该研究解决了神经网络混合效应模型（NMM）现有估计方法依赖手动推导目标函数和梯度、导致简化近似和复杂度受限的问题。作者提出在Template Model Builder（TMB）中利用自动微分和拉普拉斯近似，用户只需指定负联合对数似然和正则项，即可自动积分随机效应并获得精确梯度。这一框架消除了手动推导和临时近似，提升了NMM的实现效率、灵活性与统计准确性。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Implementing neural network mixed-effects models in Template Model Builder (TMB)",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 905884355,
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "title": "Improving our alignment and security efforts",
+      "published_at": "2026-08-31T00:00:00",
+      "original_language": "en",
+      "summary_en": "The piece addresses the challenge of making AI systems more aligned with human values and more secure against misuse or vulnerabilities. It outlines efforts to strengthen alignment and security practices, though the provided content lacks specific technical details. These improvements matter for reducing risks and building safer, more trustworthy AI systems.",
+      "summary_zh": "该文聚焦于 AI 系统在“对齐”与“安全”方面的挑战，提出或总结了相关改进措施。其核心目标是让 AI 行为更符合人类意图并降低滥用风险，对推动负责任、可信赖的 AI 发展具有重要意义。",
+      "source": "anthropic_news",
+      "title_en": "Improving our alignment and security efforts",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2862840684,
+      "url": "https://x.com/AnthropicAI/status/2094577944056430865",
+      "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
+      "published_at": "2026-09-01T00:07:51+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic’s study “Training a Misaligned Reward Seeker” investigates the problem of reward hacking: whether AI models can learn to pursue rewards by any means, including misaligned or unintended behavior. The work trains a model specifically as a misaligned reward seeker to examine how such behavior emerges. It matters for AI safety because understanding reward-driven misalignment is critical to preventing models from gaming objectives in harmful ways.",
+      "summary_zh": "Anthropic 的研究聚焦于奖励作弊问题，探讨模型是否会在训练中学会不择手段地追求奖励；通过训练一个“错位的奖励寻求者”模型进行验证。该工作揭示了奖励机制可能被操纵的风险，对 AI 安全与对齐研究具有重要警示意义。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 研究：训练一个错位的奖励寻求者模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 874199547,
+      "url": "https://runwayml.com/news/research/introducing-solaris",
+      "title": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面",
+      "published_at": "2026-08-31T17:03:47.031000+00:00",
+      "original_language": "zh",
+      "summary_en": "Runway’s Solaris, the first model in its Interface World Models series, addresses the limitation of agents being tied to fixed or code-defined interfaces by generating application and website UIs in real time directly as images, without intermediate code representations. This image-based interaction layer supports dynamic, open-ended visual responses and can be used to train agents that adapt to continuously changing interface layouts, making AI systems more robust in real-world software environments.",
+      "summary_zh": "Runway 发布 Solaris，作为首个界面世界模型，能够实时逐帧生成应用和网站界面，并以图像直接作为交互层，无需中间代码表示。该方法支持视觉化、动态响应和开放式交互，还可用于训练智能体适应不断变化的界面布局，从而突破传统智能体仅适用于固定训练环境的问题。",
+      "source": "aihot_selected",
+      "title_zh": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1420260830,
+      "url": "https://tomtunguz.com/the-great-segmentation",
+      "title": "Tom Tunguz 谈前沿 AI 的准入分层：访问权成为新的稀缺资源",
+      "published_at": "2026-08-31T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Tom Tunguz analyzes how the frontier AI market is splitting into closed camps, arguing that access to top models—not price—has become the new scarce resource. He points to Salesforce adopting Claude as the default model for CRM and Slack and launching the Claudeforce partnership as evidence. This shift matters because control over model access may now determine competitive positioning and vendor lock-in across enterprise AI.",
+      "summary_zh": "Tom Tunguz 分析了前沿 AI 市场正分化为封闭阵营，指出访问权而非价格已成为新的稀缺资源。关键例证是 Salesforce 将 Claude 设为 CRM 和 Slack 的默认模型，并推出 Claudeforce 合作，显示头部企业通过深度绑定特定模型来获取竞争优势。这一趋势意味着 AI 生态的竞争正从单纯的技术或成本转向模型准入与战略联盟。",
+      "source": "aihot_selected",
+      "title_zh": "Tom Tunguz 谈前沿 AI 的准入分层：访问权成为新的稀缺资源",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1595803154,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.3",
+      "title": "deepseek-ai/deepseek-harness: v0.1.2-alpha.3",
+      "published_at": "2026-08-31T16:03:39+00:00",
+      "original_language": "en",
+      "summary_en": "This release of the deepseek-harness tool addresses usability and stability issues in long, multimodal AI conversations. Key fixes include improved navigation and rendering for long sessions, reliable image delivery during running or queued messages, extensionless image reading, and tab completion for slash commands. These changes matter because they reduce memory overhead, prevent false disconnects, and make the chat interface more robust for complex, image-inclusive workflows.",
+      "summary_zh": "该版本主要针对长会话场景下的体验与稳定性问题，通过增加分页导航预览、优化内存与代码高亮渲染、改进图片回显与读取以及命令补全等，提升了多模态交互的可靠性。同时修复了网络连接误判、窄视口布局偏移等缺陷，并移除可选SQLite持久化后端，从而简化架构并增强工具在复杂任务中的可用性。",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.1.2-alpha.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3692042842,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.3",
+      "title": "QwenLM/qwen-code: cua-driver-rs v0.20.3",
+      "published_at": "2026-09-01T07:12:34+00:00",
+      "original_language": "en",
+      "summary_en": "This release provides prebuilt binaries for the Qwen CUA driver, vendored under `packages/cua-driver`, to support macOS, Linux, Windows, and Node.js deployments. It addresses cross-platform distribution by offering platform-specific artifacts—such as a signed/notarized macOS app and an unsigned Windows UIAccess worker that must be signed locally—and publishes the `@qwen-code/cua-sdk` package. This matters because it simplifies integrating Qwen’s computer-use agent into production environments across major operating systems.",
+      "summary_zh": "该版本为 Qwen CUA Driver 提供跨平台预编译二进制文件（macOS、Linux、Windows）及 Node.js SDK 发布流程，解决开发者手动构建与集成问题。关键区别在于 macOS 已签名公证，Linux 未签名，Windows 未签名且需部署方自行签名信任 UIAccess worker。这为多端部署提供即用型资产，但各平台需按不同安全要求处理。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: cua-driver-rs v0.20.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
