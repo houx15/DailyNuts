@@ -1,0 +1,518 @@
+{
+  "date": "2026-09-02",
+  "items": [
+    {
+      "id": 1066534731,
+      "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+      "title": "Mapping global methane emissions from space with deep learning",
+      "published_at": "2026-09-01T18:40:06",
+      "original_language": "en",
+      "summary_en": "Climate & Sustainability",
+      "summary_zh": "Climate & Sustainability",
+      "source": "google_research",
+      "title_en": "Mapping global methane emissions from space with deep learning",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 494480908,
+      "url": "http://arxiv.org/abs/2609.01604v1",
+      "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+      "published_at": "2026-09-01T17:59:49+00:00",
+      "original_language": "en",
+      "summary_en": "LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly understood. We investigate this procedure mechanistically through an eight-attack perturba",
+      "summary_zh": "LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly understood. We investigate this procedure mechanistically through an eight-attack perturba",
+      "source": "arxiv_cs_cl",
+      "title_en": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3304095120,
+      "url": "http://arxiv.org/abs/2609.01603v1",
+      "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+      "published_at": "2026-09-01T17:59:46+00:00",
+      "original_language": "en",
+      "summary_en": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only",
+      "summary_zh": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only",
+      "source": "arxiv_cs_cl",
+      "title_en": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 514166981,
+      "url": "http://arxiv.org/abs/2609.01601v1",
+      "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
+      "published_at": "2026-09-01T17:59:39+00:00",
+      "original_language": "en",
+      "summary_en": "The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input length limits of LLMs, existing approaches commonly adopt retrieval-augmented gene",
+      "summary_zh": "The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input length limits of LLMs, existing approaches commonly adopt retrieval-augmented gene",
+      "source": "arxiv_cs_cl",
+      "title_en": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1572312806,
+      "url": "http://arxiv.org/abs/2609.01600v1",
+      "title": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
+      "published_at": "2026-09-01T17:59:13+00:00",
+      "original_language": "en",
+      "summary_en": "Dynamic agent harnesses let language models change the software that shapes their own execution. This flexibility brings a new reasoning burden: a local plugin change can propagate through dependencies and cleanup. We introduce CordisBench, a 1,200-question benchmark of this lifecycle reasoning. It ",
+      "summary_zh": "Dynamic agent harnesses let language models change the software that shapes their own execution. This flexibility brings a new reasoning burden: a local plugin change can propagate through dependencies and cleanup. We introduce CordisBench, a 1,200-question benchmark of this lifecycle reasoning. It ",
+      "source": "arxiv_cs_cl",
+      "title_en": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3390059380,
+      "url": "http://arxiv.org/abs/2609.01597v1",
+      "title": "The Rise of Verbal Reinforcement Learning",
+      "published_at": "2026-09-01T17:58:18+00:00",
+      "original_language": "en",
+      "summary_en": "Natural language is emerging as a primary feedback channel for improving language agents, capable of conveying intent, preferences, and causal structure in forms interpretable by both humans and modern language models. We call this paradigm Verbal Reinforcement Learning (VRL) and offer the first uni",
+      "summary_zh": "Natural language is emerging as a primary feedback channel for improving language agents, capable of conveying intent, preferences, and causal structure in forms interpretable by both humans and modern language models. We call this paradigm Verbal Reinforcement Learning (VRL) and offer the first uni",
+      "source": "arxiv_cs_cl",
+      "title_en": "The Rise of Verbal Reinforcement Learning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1017114000,
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "published_at": "2026-09-01T00:00:00",
+      "original_language": "en",
+      "summary_en": "Developing Enterprise Frontier Safeguards with our customers",
+      "summary_zh": "Developing Enterprise Frontier Safeguards with our customers",
+      "source": "anthropic_news",
+      "title_en": "Developing Enterprise Frontier Safeguards with our customers",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2632276269,
+      "url": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
+      "title": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "published_at": "2026-09-02T12:26:08.779874",
+      "original_language": "en",
+      "summary_en": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "summary_zh": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "source": "claude_blog",
+      "title_en": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 194049572,
+      "url": "https://x.com/Meituan_LongCat/status/2094996391387111865",
+      "title": "美团 LongCat-2.0 上线 Cline 免费试用",
+      "published_at": "2026-09-02T03:50:37+00:00",
+      "original_language": "zh",
+      "summary_en": "美团 LongCat-2.0 上线 Cline 免费试用",
+      "summary_zh": "美团 LongCat-2.0 上线 Cline 免费试用",
+      "source": "aihot_selected",
+      "title_zh": "美团 LongCat-2.0 上线 Cline 免费试用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2676324923,
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+      "published_at": "2026-09-02T03:33:48.237000+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。",
+      "summary_zh": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 531487017,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685772&idx=1&sn=a073c30899a7f420147673def8209609",
+      "title": "UU远程新版本上线：完整 TUI 渲染与多终端会话管理，强化远程 Vibe Coding 体验",
+      "published_at": "2026-09-02T03:32:20+00:00",
+      "original_language": "zh",
+      "summary_en": "UU远程于9月2日上线新版本，重点优化终端功能，补齐 TUI 渲染交互与终端会话管理能力。主要更新包括：Mac 免密码登录、移动端输入优化并新增调用系统输入法的独立输入框、可同时创建和管理多个终端会话并支持手机与电脑间跨端同步接管（通过 uuyc-cli lterm 命令）。",
+      "summary_zh": "UU远程于9月2日上线新版本，重点优化终端功能，补齐 TUI 渲染交互与终端会话管理能力。主要更新包括：Mac 免密码登录、移动端输入优化并新增调用系统输入法的独立输入框、可同时创建和管理多个终端会话并支持手机与电脑间跨端同步接管（通过 uuyc-cli lterm 命令）。",
+      "source": "aihot_selected",
+      "title_zh": "UU远程新版本上线：完整 TUI 渲染与多终端会话管理，强化远程 Vibe Coding 体验",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 945399110,
+      "url": "https://x.com/Alibaba_Qwen/status/2094982928371794077",
+      "title": "Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿",
+      "published_at": "2026-09-02T02:57:07+00:00",
+      "original_language": "zh",
+      "summary_en": "通义千问发布 Qwen3.8-Max-0902，在 Code Arena： WebDev 以 1，691 分首次亮相即排名总榜第一，并以混合价 $5/MToken 成为 Pareto 前沿上得分最高的模型，现已可在 QwenCloud 试用。",
+      "summary_zh": "通义千问发布 Qwen3.8-Max-0902，在 Code Arena： WebDev 以 1，691 分首次亮相即排名总榜第一，并以混合价 $5/MToken 成为 Pareto 前沿上得分最高的模型，现已可在 QwenCloud 试用。",
+      "source": "aihot_selected",
+      "title_zh": "Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3523935962,
+      "url": "https://rdi.berkeley.edu/blog/vero",
+      "title": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库",
+      "published_at": "2026-09-02T02:28:38.186000+00:00",
+      "original_language": "zh",
+      "summary_en": "UC Berkeley 等机构发布 Vero，据称是首个要求智能体在仓库级同时编写实现与证明的基准，含 43 个多模块 Lean 4 实例、743 个计分 API 和 2705 条形式化规范。",
+      "summary_zh": "UC Berkeley 等机构发布 Vero，据称是首个要求智能体在仓库级同时编写实现与证明的基准，含 43 个多模块 Lean 4 实例、743 个计分 API 和 2705 条形式化规范。",
+      "source": "aihot_selected",
+      "title_zh": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3749857991,
+      "url": "https://x.com/rohanpaul_ai/status/2094975190468010368",
+      "title": "Nvidia 接近以 129 亿美元收购 Hugging Face",
+      "published_at": "2026-09-02T02:26:22+00:00",
+      "original_language": "zh",
+      "summary_en": "Bloomberg 报道 Nvidia 正接近以约 129 亿美元收购 Hugging Face，交易总额可能达约 140 亿美元，双方尚未达成最终协议，时间与细节仍可能变动。该价格约为 Hugging Face 2023 年融资轮 45 亿美元估值的 2.9 倍，按年化收入约 1.5 亿美元计算相当于 86 倍，Nvidia 还谈及在交易中加入 10 亿美元的员工留任方案。",
+      "summary_zh": "Bloomberg 报道 Nvidia 正接近以约 129 亿美元收购 Hugging Face，交易总额可能达约 140 亿美元，双方尚未达成最终协议，时间与细节仍可能变动。该价格约为 Hugging Face 2023 年融资轮 45 亿美元估值的 2.9 倍，按年化收入约 1.5 亿美元计算相当于 86 倍，Nvidia 还谈及在交易中加入 10 亿美元的员工留任方案。",
+      "source": "aihot_selected",
+      "title_zh": "Nvidia 接近以 129 亿美元收购 Hugging Face",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4045800792,
+      "url": "https://x.com/ArtificialAnlys/status/2094881171066978525",
+      "title": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20%",
+      "published_at": "2026-09-01T20:12:46+00:00",
+      "original_language": "zh",
+      "summary_en": "Artificial Analysis 评测 Claude Fable 5.1，其在 max effort 下得 66 分登顶 Artificial Analysis Intelligence Index。",
+      "summary_zh": "Artificial Analysis 评测 Claude Fable 5.1，其在 max effort 下得 66 分登顶 Artificial Analysis Intelligence Index。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1972996728,
+      "url": "https://x.com/rohanpaul_ai/status/2094873718237565197",
+      "title": "Fable 5.1 系统卡披露隐蔽任务与监控难度上升等安全发现",
+      "published_at": "2026-09-01T19:43:09+00:00",
+      "original_language": "zh",
+      "summary_en": "Rohan Paul 梳理了 Fable 5.1 系统卡中的安全发现：Anthropic 称该模型在隐蔽侧任务上达到已发布模型中最高的隐蔽通过率，约 5 次尝试成功 1 次，并认为这可能是其更难监控的弱证据。",
+      "summary_zh": "Rohan Paul 梳理了 Fable 5.1 系统卡中的安全发现：Anthropic 称该模型在隐蔽侧任务上达到已发布模型中最高的隐蔽通过率，约 5 次尝试成功 1 次，并认为这可能是其更难监控的弱证据。",
+      "source": "aihot_selected",
+      "title_zh": "Fable 5.1 系统卡披露隐蔽任务与监控难度上升等安全发现",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2575680093,
+      "url": "https://x.com/ClaudeDevs/status/2094851229734277228",
+      "title": "Claude Fable 5.1 上线 Claude Code 与 Claude Platform，缓存读取降价 75%",
+      "published_at": "2026-09-01T18:13:48+00:00",
+      "original_language": "zh",
+      "summary_en": "Claude Fable 5.1 现已上线 Claude Code 和 Claude Platform，定价与 Fable 5 相同，API 缓存读取便宜 75%。模型在长任务中能更久自主推进、更善于提示用户它已卡住，写作风格也更自然。Anthropic 同时发布了 Claude Fable 5.1 和 Claude Mythos 5.1，称其为编码与知识工作领域最先进的模型。",
+      "summary_zh": "Claude Fable 5.1 现已上线 Claude Code 和 Claude Platform，定价与 Fable 5 相同，API 缓存读取便宜 75%。模型在长任务中能更久自主推进、更善于提示用户它已卡住，写作风格也更自然。Anthropic 同时发布了 Claude Fable 5.1 和 Claude Mythos 5.1，称其为编码与知识工作领域最先进的模型。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Fable 5.1 上线 Claude Code 与 Claude Platform，缓存读取降价 75%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1699235519,
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+      "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+      "published_at": "2026-09-01T17:08:51+00:00",
+      "original_language": "zh",
+      "summary_en": "Google DeepMind 为 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 推出 agentic video understanding，模型动态扫描视频片段，相比固定帧率处理 token 消耗最多降低 88%，成本最多降低 66%，准确率最多提升 7%。",
+      "summary_zh": "Google DeepMind 为 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 推出 agentic video understanding，模型动态扫描视频片段，相比固定帧率处理 token 消耗最多降低 88%，成本最多降低 66%，准确率最多提升 7%。",
+      "source": "aihot_selected",
+      "title_zh": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 313241888,
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
+      "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
+      "published_at": "2026-09-01T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Google 发布 Workspace 图像创作与编辑工具 Google Pics，将在未来数周内面向所有 Google AI Pro 和 Ultra 订阅者及多数 Workspace 商业客户推出。",
+      "summary_zh": "Google 发布 Workspace 图像创作与编辑工具 Google Pics，将在未来数周内面向所有 Google AI Pro 和 Ultra 订阅者及多数 Workspace 商业客户推出。",
+      "source": "aihot_selected",
+      "title_zh": "Google Workspace 推出图像创作编辑工具 Google Pics",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3284831501,
+      "url": "https://openai.com/index/path-to-astra",
+      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+      "published_at": "2026-09-01T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 宣布 Astra 在其 Preparedness Framework 下达到 Critical 网络安全能力阈值，是首个被评定为该级别的模型，可在少人干预下发现未知漏洞并构建利用链。",
+      "summary_zh": "OpenAI 宣布 Astra 在其 Preparedness Framework 下达到 Critical 网络安全能力阈值，是首个被评定为该级别的模型，可在少人干预下发现未知漏洞并构建利用链。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2769696451,
+      "url": "https://www.ithome.com/0/997/147.htm",
+      "title": "路透社调查：美国 AI 数据中心现大量幽灵用电需求，得州等多州出手整治",
+      "published_at": "2026-09-01T12:40:19+00:00",
+      "original_language": "zh",
+      "summary_en": "据路透社报道，美国中西部、中大西洋和南部地区超大型用电户（主要为数据中心）提出的用电申请已超过 700 吉瓦，超过全美数据中心实际用电量估计的十倍，其中相当一部分可能是重复提交或缺乏资金能力的幻象需求。",
+      "summary_zh": "据路透社报道，美国中西部、中大西洋和南部地区超大型用电户（主要为数据中心）提出的用电申请已超过 700 吉瓦，超过全美数据中心实际用电量估计的十倍，其中相当一部分可能是重复提交或缺乏资金能力的幻象需求。",
+      "source": "aihot_selected",
+      "title_zh": "路透社调查：美国 AI 数据中心现大量幽灵用电需求，得州等多州出手整治",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2482122917,
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
+      "published_at": "2026-09-01T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Hugging Face WebAI 团队发布 @huggingface/kernels 库及 207 个以独立仓库形式托管在 Hub 上的 WebGPU 内核（Apache-2.0），每个内核带 manifest、正确性测试、基准用例和 WGSL 着色器模板。",
+      "summary_zh": "Hugging Face WebAI 团队发布 @huggingface/kernels 库及 207 个以独立仓库形式托管在 Hub 上的 WebGPU 内核（Apache-2.0），每个内核带 manifest、正确性测试、基准用例和 WGSL 着色器模板。",
+      "source": "aihot_selected",
+      "title_zh": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3495670122,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.5",
+      "title": "deepseek-ai/deepseek-harness: v0.1.2-alpha.5",
+      "published_at": "2026-09-02T10:02:56+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.1.2-alpha.5) | [English](#en-v0.1.2-alpha.5)\r\n\r\n<h3 id=\"cn-v0.1.2-alpha.5\">问题修复</h3>\r\n\r\n* 修复从 `0.1.1-rc.2` 或 `0.1.2-alpha.3` 升级时，应用可能启动失败或者会话列表标题丢失的问题 @imccyu\r\n\r\n---\r\n\r\n<h3 id=\"en-v0.1.2-alpha.5\">Bug Fixes</h3>\r\n\r\n* Fix an issue where upgrading from `0.1.1-rc.2` or `0.1.2-alpha.3` could ",
+      "summary_zh": "[中文](#cn-v0.1.2-alpha.5) | [English](#en-v0.1.2-alpha.5)\r\n\r\n<h3 id=\"cn-v0.1.2-alpha.5\">问题修复</h3>\r\n\r\n* 修复从 `0.1.1-rc.2` 或 `0.1.2-alpha.3` 升级时，应用可能启动失败或者会话列表标题丢失的问题 @imccyu\r\n\r\n---\r\n\r\n<h3 id=\"en-v0.1.2-alpha.5\">Bug Fixes</h3>\r\n\r\n* Fix an issue where upgrading from `0.1.1-rc.2` or `0.1.2-alpha.3` could ",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.1.2-alpha.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 71189322,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.4",
+      "title": "deepseek-ai/deepseek-harness: v0.1.2-alpha.4",
+      "published_at": "2026-09-01T15:45:07+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.1.2-alpha.4) | [English](#en-v0.1.2-alpha.4)\r\n\r\n<h3 id=\"cn-v0.1.2-alpha.4\">新增功能</h3>\r\n\r\n* 父 Agent 与可持续子 Agent 可通过 `send_message` 双向传递后续消息，取代单向 `report` 工具 @Dudu-0223\r\n\r\n<h3>体验优化</h3>\r\n\r\n* 自定义模型发现复用 Profile 请求头；模型目录支持搜索和筛选 @LegGasai\r\n* 界面优化圆角、描边、轮次导航、投影效果 @yixiangihsiang, @LegGasai\r\n* 改善超",
+      "summary_zh": "[中文](#cn-v0.1.2-alpha.4) | [English](#en-v0.1.2-alpha.4)\r\n\r\n<h3 id=\"cn-v0.1.2-alpha.4\">新增功能</h3>\r\n\r\n* 父 Agent 与可持续子 Agent 可通过 `send_message` 双向传递后续消息，取代单向 `report` 工具 @Dudu-0223\r\n\r\n<h3>体验优化</h3>\r\n\r\n* 自定义模型发现复用 Profile 请求头；模型目录支持搜索和筛选 @LegGasai\r\n* 界面优化圆角、描边、轮次导航、投影效果 @yixiangihsiang, @LegGasai\r\n* 改善超",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.1.2-alpha.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1614384711,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.40.1",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.40.1",
+      "published_at": "2026-09-02T09:20:44+00:00",
+      "original_language": "en",
+      "summary_en": "### Patch Changes\n\n- [#3469](https://github.com/MoonshotAI/kimi-code/pull/3469) [`979baad`](https://github.com/MoonshotAI/kimi-code/commit/979baad8597aa1760917752b3663f1eb4e40eeb0) Thanks [@sailist](https://github.com/sailist)! - Fix the condition for showing the kimi-cli migration prompt.",
+      "summary_zh": "### Patch Changes\n\n- [#3469](https://github.com/MoonshotAI/kimi-code/pull/3469) [`979baad`](https://github.com/MoonshotAI/kimi-code/commit/979baad8597aa1760917752b3663f1eb4e40eeb0) Thanks [@sailist](https://github.com/sailist)! - Fix the condition for showing the kimi-cli migration prompt.",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.40.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1720992065,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.40.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.40.0",
+      "published_at": "2026-09-02T05:59:00+00:00",
+      "original_language": "en",
+      "summary_en": "### Minor Changes\n\n- [#3434](https://github.com/MoonshotAI/kimi-code/pull/3434) [`ae7a6dc`](https://github.com/MoonshotAI/kimi-code/commit/ae7a6dc6fb56cde119f0ac1512649a52c19ef7e8) Thanks [@sailist](https://github.com/sailist)! - The `kimi acp` subcommand no longer honors `KIMI_CODE_LEGACY_FLAG`; it",
+      "summary_zh": "### Minor Changes\n\n- [#3434](https://github.com/MoonshotAI/kimi-code/pull/3434) [`ae7a6dc`](https://github.com/MoonshotAI/kimi-code/commit/ae7a6dc6fb56cde119f0ac1512649a52c19ef7e8) Thanks [@sailist](https://github.com/sailist)! - The `kimi acp` subcommand no longer honors `KIMI_CODE_LEGACY_FLAG`; it",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.40.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1493206659,
+      "url": "https://github.com/MoonshotAI/kimi-cli/releases/tag/1.50.0",
+      "title": "MoonshotAI/kimi-cli: 1.50.0",
+      "published_at": "2026-09-01T16:53:20+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* fix(kosong): omit empty anthropic-beta header when no beta features declared by @7Sageer in https://github.com/MoonshotAI/kimi-cli/pull/2580\n* chore(release): bump kosong to 0.56.0 by @jackfish212 in https://github.com/MoonshotAI/kimi-cli/pull/2581\n* feat(shell): deprecation-awar",
+      "summary_zh": "## What's Changed\n* fix(kosong): omit empty anthropic-beta header when no beta features declared by @7Sageer in https://github.com/MoonshotAI/kimi-cli/pull/2580\n* chore(release): bump kosong to 0.56.0 by @jackfish212 in https://github.com/MoonshotAI/kimi-cli/pull/2581\n* feat(shell): deprecation-awar",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-cli: 1.50.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
