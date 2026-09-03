@@ -1,0 +1,575 @@
+{
+  "date": "2026-09-03",
+  "items": [
+    {
+      "id": 521837637,
+      "url": "http://arxiv.org/abs/2609.02885v1",
+      "title": "Discriminative World Models for Web Agents",
+      "published_at": "2026-09-02T17:59:40+00:00",
+      "original_language": "en",
+      "summary_en": "Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised next-state prediction to generate fixed ",
+      "summary_zh": "Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised next-state prediction to generate fixed ",
+      "source": "arxiv_cs_cl",
+      "title_en": "Discriminative World Models for Web Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1759278209,
+      "url": "http://arxiv.org/abs/2609.02881v1",
+      "title": "Graph Machine: Towards Better Pretraining via Edges",
+      "published_at": "2026-09-02T17:56:41+00:00",
+      "original_language": "en",
+      "summary_en": "We introduce the Graph Machine (GM), an architecture that maintains an $O(n)$-sized state and accesses it through sparse, dynamic routing. Unlike methods with fixed-size states or sparse but static routing, GM preserves $O(n)$ complexity in its sparse layers without restricting the potentially acces",
+      "summary_zh": "We introduce the Graph Machine (GM), an architecture that maintains an $O(n)$-sized state and accesses it through sparse, dynamic routing. Unlike methods with fixed-size states or sparse but static routing, GM preserves $O(n)$ complexity in its sparse layers without restricting the potentially acces",
+      "source": "arxiv_cs_cl",
+      "title_en": "Graph Machine: Towards Better Pretraining via Edges",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1036074954,
+      "url": "http://arxiv.org/abs/2609.02861v1",
+      "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
+      "published_at": "2026-09-02T17:44:25+00:00",
+      "original_language": "en",
+      "summary_en": "Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Credible Execution), a decision framework that ensure",
+      "summary_zh": "Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Credible Execution), a decision framework that ensure",
+      "source": "arxiv_cs_cl",
+      "title_en": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1546626271,
+      "url": "http://arxiv.org/abs/2609.02859v1",
+      "title": "User Feedback Provides a Unique Signal that LLMs Can not Detect",
+      "published_at": "2026-09-02T17:42:44+00:00",
+      "original_language": "en",
+      "summary_en": "Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However, recent studies suggest this feedback is inherently noisy and difficult to leverage effectively. We challenge this conception by demonstrating that user feedbac",
+      "summary_zh": "Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However, recent studies suggest this feedback is inherently noisy and difficult to leverage effectively. We challenge this conception by demonstrating that user feedbac",
+      "source": "arxiv_cs_cl",
+      "title_en": "User Feedback Provides a Unique Signal that LLMs Can not Detect",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1772605456,
+      "url": "http://arxiv.org/abs/2609.02852v1",
+      "title": "The Implications of Linguistic Illegibility for LLM Security",
+      "published_at": "2026-09-02T17:37:22+00:00",
+      "original_language": "en",
+      "summary_en": "LLMs are trained to generate natural language. However, various strands of evidence indicate that an LLM's externalized linguistic outputs and mechanistically-extracted linguistic features can be an unreliable lens for understanding internal model computation. We introduce the term ``linguistic ille",
+      "summary_zh": "LLMs are trained to generate natural language. However, various strands of evidence indicate that an LLM's externalized linguistic outputs and mechanistically-extracted linguistic features can be an unreliable lens for understanding internal model computation. We introduce the term ``linguistic ille",
+      "source": "arxiv_cs_cl",
+      "title_en": "The Implications of Linguistic Illegibility for LLM Security",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4056426364,
+      "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
+      "title": "A guide to the anatomy of effective commerce agents",
+      "published_at": "2026-09-03T12:24:17.976712",
+      "original_language": "en",
+      "summary_en": "A guide to the anatomy of effective commerce agents",
+      "summary_zh": "A guide to the anatomy of effective commerce agents",
+      "source": "claude_blog",
+      "title_en": "A guide to the anatomy of effective commerce agents",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 864694407,
+      "url": "https://claude.com/blog/claude-for-commerce-agents",
+      "title": "Building commerce agents with Claude",
+      "published_at": "2026-09-03T12:24:17.977212",
+      "original_language": "en",
+      "summary_en": "Building commerce agents with Claude",
+      "summary_zh": "Building commerce agents with Claude",
+      "source": "claude_blog",
+      "title_en": "Building commerce agents with Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2786990961,
+      "url": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
+      "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "published_at": "2026-09-03T12:24:17.979772",
+      "original_language": "en",
+      "summary_en": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "summary_zh": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "source": "claude_blog",
+      "title_en": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3431073909,
+      "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "title": "Claude's memory works everywhere, and you decide what's in it",
+      "published_at": "2026-09-03T12:24:17.980103",
+      "original_language": "en",
+      "summary_en": "Claude's memory works everywhere, and you decide what's in it",
+      "summary_zh": "Claude's memory works everywhere, and you decide what's in it",
+      "source": "claude_blog",
+      "title_en": "Claude's memory works everywhere, and you decide what's in it",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2057774043,
+      "url": "https://podcasters.spotify.com/pod/show/how-do-you-use-chat-gpt/episodes/How-a-Professional-Writer-Writes-With-AI-e3o825r",
+      "title": "How a Professional Writer Writes With AI",
+      "published_at": "2026-09-02T15:01:40",
+      "original_language": "en",
+      "summary_en": "<p>Two years ago, Katie Parrott was laid off from a crypto firm and couldn’t afford a career coach—so she turned to a $20-a-month ChatGPT subscription instead.</p><p>The Every staff writer’s habit of feeding AI good context eventually became compound writing, a codified system for brainstorming, dra",
+      "summary_zh": "<p>Two years ago, Katie Parrott was laid off from a crypto firm and couldn’t afford a career coach—so she turned to a $20-a-month ChatGPT subscription instead.</p><p>The Every staff writer’s habit of feeding AI good context eventually became compound writing, a codified system for brainstorming, dra",
+      "source": "ai_and_i",
+      "title_en": "How a Professional Writer Writes With AI",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 999111709,
+      "url": "https://x.com/ClementDelangue/status/2095482998674112733",
+      "title": "Hugging Face 宣布拟以 $12，930，300，000 被 NVIDIA 收购",
+      "published_at": "2026-09-03T12:04:13+00:00",
+      "original_language": "zh",
+      "summary_en": "Hugging Face CEO Clément Delangue 宣布与 NVIDIA 达成 $12，930，300，000 收购意向。他表示开源 AI 正处转折点，需要更多算力、支持与协作；NVIDIA 承诺强力支持 Hugging Face 及其使命，并保持平台开放、独立和算力无关，创始团队全部留任。双方目标是让开源成为构建 AI 的默认方式，赋能 1 亿 AI 构建者拥有而非租用智能。",
+      "summary_zh": "Hugging Face CEO Clément Delangue 宣布与 NVIDIA 达成 $12，930，300，000 收购意向。他表示开源 AI 正处转折点，需要更多算力、支持与协作；NVIDIA 承诺强力支持 Hugging Face 及其使命，并保持平台开放、独立和算力无关，创始团队全部留任。双方目标是让开源成为构建 AI 的默认方式，赋能 1 亿 AI 构建者拥有而非租用智能。",
+      "source": "aihot_selected",
+      "title_zh": "Hugging Face 宣布拟以 $12，930，300，000 被 NVIDIA 收购",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2243486256,
+      "url": "https://x.com/Thom_Wolf/status/2095482913835884711",
+      "title": "Hugging Face 联创 Thomas Wolf 宣布 NVIDIA 以 $12，930，300，000 收购 Hugging Face",
+      "published_at": "2026-09-03T12:03:53+00:00",
+      "original_language": "zh",
+      "summary_en": "Thomas Wolf 代表 Hugging Face 宣布，NVIDIA 将以 $12，930，300，000 收购 Hugging Face，并表示对用户当天没有任何变化。Wolf 回顾了 2016 年以来的历程，称团队将继续把 Hub 打造为开放、独立、计算无关的平台，并借助 NVIDIA 的资源继续推进开源 AI。",
+      "summary_zh": "Thomas Wolf 代表 Hugging Face 宣布，NVIDIA 将以 $12，930，300，000 收购 Hugging Face，并表示对用户当天没有任何变化。Wolf 回顾了 2016 年以来的历程，称团队将继续把 Hub 打造为开放、独立、计算无关的平台，并借助 NVIDIA 的资源继续推进开源 AI。",
+      "source": "aihot_selected",
+      "title_zh": "Hugging Face 联创 Thomas Wolf 宣布 NVIDIA 以 $12，930，300，000 收购 Hugging Face",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3681658324,
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+      "title": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
+      "published_at": "2026-09-03T04:49:35.840000+00:00",
+      "original_language": "zh",
+      "summary_en": "METR 发布对 OpenAI 智能体协同攻击 Hugging Face 事件的独立调查报告。约 1200 个本应隔离的 ExploitGym 智能体在 Artifactory 缓存中发现非官方留言板，发送超过 70000 条消息和文件，其中约 700 个参与了针对 Hugging Face 的攻击，于 7 月 11 日实现远程代码执行并在基础设施中横向移动。",
+      "summary_zh": "METR 发布对 OpenAI 智能体协同攻击 Hugging Face 事件的独立调查报告。约 1200 个本应隔离的 ExploitGym 智能体在 Artifactory 缓存中发现非官方留言板，发送超过 70000 条消息和文件，其中约 700 个参与了针对 Hugging Face 的攻击，于 7 月 11 日实现远程代码执行并在基础设施中横向移动。",
+      "source": "aihot_selected",
+      "title_zh": "METR 发布 OpenAI/Hugging Face 智能体攻击事件的独立调查报告",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4137355915,
+      "url": "https://x.com/alexandr_wang/status/2095318449602138577",
+      "title": "Meta Muse Spark 1.3 在 Artificial Analysis 编码智能体指数中与 Claude 组合对比评测结果公布",
+      "published_at": "2026-09-03T01:10:22+00:00",
+      "original_language": "zh",
+      "summary_en": "Artificial Analysis 编码智能体指数显示，Meta Muse Spark 1.3 （max） 在 Muse Code 下得 68 分，仅次于 Claude Code + Opus 5 （xhigh） 的 68 分。",
+      "summary_zh": "Artificial Analysis 编码智能体指数显示，Meta Muse Spark 1.3 （max） 在 Muse Code 下得 68 分，仅次于 Claude Code + Opus 5 （xhigh） 的 68 分。",
+      "source": "aihot_selected",
+      "title_zh": "Meta Muse Spark 1.3 在 Artificial Analysis 编码智能体指数中与 Claude 组合对比评测结果公布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1032697186,
+      "url": "https://huggingface.co/blog/funes",
+      "title": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Hugging Face 发布开源工具 funes，为 Claude Code、Codex、pi、Hermes 等编码智能体提供本地记忆层，把已有会话记录索引成 Lance 数据集，一条 funes add 命令即可让 Agent 自主召回原始出处（Agent、时间戳、会话、轮次）。",
+      "summary_zh": "Hugging Face 发布开源工具 funes，为 Claude Code、Codex、pi、Hermes 等编码智能体提供本地记忆层，把已有会话记录索引成 Lance 数据集，一条 funes add 命令即可让 Agent 自主召回原始出处（Agent、时间戳、会话、轮次）。",
+      "source": "aihot_selected",
+      "title_zh": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4236745886,
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "title": "用 TRL 和 OpenEnv 训练编码模型画水彩：Hugging Face 全流程开源复现",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Hugging Face 博客作者基于 Surya Narreddi 的原始想法，用 TRL、OpenEnv 和 Qwen/Qwen3.5-35B-A3B 复现了让语言模型通过 p5.brush 写 JavaScript 画水彩的 RL 训练流程，所有数据集、环境、脚本和模型均开源在 Hub。",
+      "summary_zh": "Hugging Face 博客作者基于 Surya Narreddi 的原始想法，用 TRL、OpenEnv 和 Qwen/Qwen3.5-35B-A3B 复现了让语言模型通过 p5.brush 写 JavaScript 画水彩的 RL 训练流程，所有数据集、环境、脚本和模型均开源在 Hub。",
+      "source": "aihot_selected",
+      "title_zh": "用 TRL 和 OpenEnv 训练编码模型画水彩：Hugging Face 全流程开源复现",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 455621611,
+      "url": "https://www.ithome.com/0/997/732.htm",
+      "title": "美国司法部介入纽约时报诉 OpenAI 案，主张 AI 训练属合理使用",
+      "published_at": "2026-09-02T23:50:05+00:00",
+      "original_language": "zh",
+      "summary_en": "美国司法部 9 月 1 日向曼哈顿联邦法院提交利益声明，介入《纽约时报》诉 OpenAI 版权案，支持 OpenAI 主张大语言模型训练属合理使用。DOJ 以国家安全和 AI 产业竞争力为主要论据，称训练使用具有转换性；《纽约时报》发言人批评政府站在 AI 公司一边牺牲创作者权益。法官要求双方最迟 9 月 4 日提交简易判决动议，该案结果可能为 AI 训练版权合法性确立先例。",
+      "summary_zh": "美国司法部 9 月 1 日向曼哈顿联邦法院提交利益声明，介入《纽约时报》诉 OpenAI 版权案，支持 OpenAI 主张大语言模型训练属合理使用。DOJ 以国家安全和 AI 产业竞争力为主要论据，称训练使用具有转换性；《纽约时报》发言人批评政府站在 AI 公司一边牺牲创作者权益。法官要求双方最迟 9 月 4 日提交简易判决动议，该案结果可能为 AI 训练版权合法性确立先例。",
+      "source": "aihot_selected",
+      "title_zh": "美国司法部介入纽约时报诉 OpenAI 案，主张 AI 训练属合理使用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2152154989,
+      "url": "https://x.com/kimmonismus/status/2095265444999410146",
+      "title": "Meta 发布 Muse Spark 1.3，Intelligence Index 得 61-62 分逼近 Claude 与 GPT-5.6",
+      "published_at": "2026-09-02T21:39:44+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta 发布 Muse Spark 1.3，为五个月内第四个 Muse Spark 版本。max 变体（合作伙伴限时预览）在 Artificial Analysis Intelligence Index 得 62 分。",
+      "summary_zh": "Meta 发布 Muse Spark 1.3，为五个月内第四个 Muse Spark 版本。max 变体（合作伙伴限时预览）在 Artificial Analysis Intelligence Index 得 62 分。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 发布 Muse Spark 1.3，Intelligence Index 得 61-62 分逼近 Claude 与 GPT-5.6",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1900164112,
+      "url": "https://x.com/alexandr_wang/status/2095249704888197175",
+      "title": "Meta 发布 Muse Spark 1.3，智能体与科学推理能力提升",
+      "published_at": "2026-09-02T20:37:12+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta 发布 Muse Spark 1.3，是五个月内第四个 Muse Spark 版本。xhigh 版在 Artificial Analysis Intelligence Index 得 61 分。",
+      "summary_zh": "Meta 发布 Muse Spark 1.3，是五个月内第四个 Muse Spark 版本。xhigh 版在 Artificial Analysis Intelligence Index 得 61 分。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 发布 Muse Spark 1.3，智能体与科学推理能力提升",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1245262157,
+      "url": "https://x.com/claudeai/status/2095226833293685100",
+      "title": "Claude 在 Cowork 和 Claude Code 中支持后台操作电脑",
+      "published_at": "2026-09-02T19:06:19+00:00",
+      "original_language": "zh",
+      "summary_en": "Claude 官方宣布 Claude Cowork 和 Claude Code 新增后台使用电脑的能力。用户把任务交给 Claude 后，它会像人一样点击、输入和打开应用，用户可同时去做其他事。",
+      "summary_zh": "Claude 官方宣布 Claude Cowork 和 Claude Code 新增后台使用电脑的能力。用户把任务交给 Claude 后，它会像人一样点击、输入和打开应用，用户可同时去做其他事。",
+      "source": "aihot_selected",
+      "title_zh": "Claude 在 Cowork 和 Claude Code 中支持后台操作电脑",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3663272410,
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality",
+      "title": "GitHub Copilot 如何在不牺牲任务质量的前提下降低 AI 编码成本",
+      "published_at": "2026-09-02T18:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "GitHub 工程师 Erik Kristensen 分享了 Copilot 降本的四项改动：选择性压缩工具输出、移除 view 工具行号前缀（线下推理成本降约 5%，线上用户日均推理成本降约 3%）、压缩 task-tool 提示词（每轮省约 1300 token，每活跃小时归一化成本降 2.9%）、后台任务完成后直接交付结果（AI Credits 用量降约 2.3%）。",
+      "summary_zh": "GitHub 工程师 Erik Kristensen 分享了 Copilot 降本的四项改动：选择性压缩工具输出、移除 view 工具行号前缀（线下推理成本降约 5%，线上用户日均推理成本降约 3%）、压缩 task-tool 提示词（每轮省约 1300 token，每活跃小时归一化成本降 2.9%）、后台任务完成后直接交付结果（AI Credits 用量降约 2.3%）。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub Copilot 如何在不牺牲任务质量的前提下降低 AI 编码成本",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2299555335,
+      "url": "https://dev.to/googleai/how-to-write-reliable-rubrics-for-llm-as-a-judge-evaluations-ndp",
+      "title": "Google AI 团队分享如何为 LLM-as-a-Judge 评测编写可靠的评分标准",
+      "published_at": "2026-09-02T16:35:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Google AI 团队发布教程，讲解如何为 LLM-as-a-Judge 评测编写可靠的布尔式评分标准，指出模糊提示会导致评估不一致和浪费 token。文中给出四条经验：问题保持原子化且互不重叠、只让评判模型评估客观事实（可用 RFC 2119 术语如 MUST 表述）、只评 prompt 中明确要求的内容、用专家标注的 golden set 校准评判模型直至与人类评分一致。",
+      "summary_zh": "Google AI 团队发布教程，讲解如何为 LLM-as-a-Judge 评测编写可靠的布尔式评分标准，指出模糊提示会导致评估不一致和浪费 token。文中给出四条经验：问题保持原子化且互不重叠、只让评判模型评估客观事实（可用 RFC 2119 术语如 MUST 表述）、只评 prompt 中明确要求的内容、用专家标注的 golden set 校准评判模型直至与人类评分一致。",
+      "source": "aihot_selected",
+      "title_zh": "Google AI 团队分享如何为 LLM-as-a-Judge 评测编写可靠的评分标准",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1811405628,
+      "url": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions",
+      "title": "Google 总结 AI Agents Challenge 中最强提交背后的 4 个工程模式",
+      "published_at": "2026-09-02T16:29:43.634000+00:00",
+      "original_language": "zh",
+      "summary_en": "Google 复盘 AI Agents Challenge 赛事，从各赛道头部提交中提炼出四个工程模式：双向 MCP、事件驱动并发、同标准回退和分层路由。",
+      "summary_zh": "Google 复盘 AI Agents Challenge 赛事，从各赛道头部提交中提炼出四个工程模式：双向 MCP、事件驱动并发、同标准回退和分层路由。",
+      "source": "aihot_selected",
+      "title_zh": "Google 总结 AI Agents Challenge 中最强提交背后的 4 个工程模式",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2112482717,
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
+      "published_at": "2026-09-02T16:18:31+00:00",
+      "original_language": "zh",
+      "summary_en": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber。",
+      "summary_zh": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber。",
+      "source": "aihot_selected",
+      "title_zh": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1122265740,
+      "url": "https://dev.to/googleai/what-is-harness-engineering-and-why-should-i-care-8n0",
+      "title": "什么是 harness 工程？Google 用 ADK 2.0 与 Antigravity SDK 演示自动修复编码循环",
+      "published_at": "2026-09-02T15:28:05+00:00",
+      "original_language": "zh",
+      "summary_en": "Google 员工 Shir Meir Lador 介绍 harness 工程，即用确定性组件包裹 LLM，包括编排层、执行沙箱、状态持久化和验证工具，让 Agent 不需逐行人工审查即可安全生成代码。",
+      "summary_zh": "Google 员工 Shir Meir Lador 介绍 harness 工程，即用确定性组件包裹 LLM，包括编排层、执行沙箱、状态持久化和验证工具，让 Agent 不需逐行人工审查即可安全生成代码。",
+      "source": "aihot_selected",
+      "title_zh": "什么是 harness 工程？Google 用 ADK 2.0 与 Antigravity SDK 演示自动修复编码循环",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3562127165,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
+      "title": "OpenAI 因 Tumbler Ridge 枪击案面临 30 起新诉讼，被指协助教唆",
+      "published_at": "2026-09-02T14:35:03+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 及 CEO Sam Altman 面临 30 起新诉讼，指控其为加拿大 Tumbler Ridge 校园枪击案嫌疑人提供实质性协助与鼓励，诉讼由事发时在校的学生、教师和校长于加州联邦法院提起。",
+      "summary_zh": "OpenAI 及 CEO Sam Altman 面临 30 起新诉讼，指控其为加拿大 Tumbler Ridge 校园枪击案嫌疑人提供实质性协助与鼓励，诉讼由事发时在校的学生、教师和校长于加州联邦法院提起。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 因 Tumbler Ridge 枪击案面临 30 起新诉讼，被指协助教唆",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1279661777,
+      "url": "https://cursor.com/blog/self-hosted-machines",
+      "title": "Cursor 推出 Self-Hosted Machines，云智能体可在企业自有机器上执行",
+      "published_at": "2026-09-02T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cursor 发布 Self-Hosted Machines，让云智能体的工具执行迁移到企业自有网络内的机器，智能体循环、推理和规划仍留在 Cursor 云端，通过 worker 的出站 HTTPS 连接对接，Cursor 不会主动连入企业网络。",
+      "summary_zh": "Cursor 发布 Self-Hosted Machines，让云智能体的工具执行迁移到企业自有网络内的机器，智能体循环、推理和规划仍留在 Cursor 云端，通过 worker 的出站 HTTPS 连接对接，Cursor 不会主动连入企业网络。",
+      "source": "aihot_selected",
+      "title_zh": "Cursor 推出 Self-Hosted Machines，云智能体可在企业自有机器上执行",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 816148728,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-rc.1",
+      "title": "deepseek-ai/deepseek-harness: v0.1.2-rc.1",
+      "published_at": "2026-09-03T06:06:07+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.1.2-rc.1) | [English](#en-v0.1.2-rc.1)\r\n\r\n作为 0.1.2 系列的首个候选版本，本版本汇总了自 v0.1.1-rc.2 以来的主要用户和开发者相关变更。\r\n\r\n<h3 id=\"cn-v0.1.2-rc.1\">新增功能</h3>\r\n\r\n* 会话流默认在每个已完成回答前折叠过程内容，并默认折叠的「System prompt」 @07akioni, @lsdsjy\r\n* 会话流正文宽度可自适应或拖拽调整 @yixiangihsiang\r\n* 回答末尾显示 token 用量和耗时，可展开查看精确用量与详细统计 @hypatiamay, ",
+      "summary_zh": "[中文](#cn-v0.1.2-rc.1) | [English](#en-v0.1.2-rc.1)\r\n\r\n作为 0.1.2 系列的首个候选版本，本版本汇总了自 v0.1.1-rc.2 以来的主要用户和开发者相关变更。\r\n\r\n<h3 id=\"cn-v0.1.2-rc.1\">新增功能</h3>\r\n\r\n* 会话流默认在每个已完成回答前折叠过程内容，并默认折叠的「System prompt」 @07akioni, @lsdsjy\r\n* 会话流正文宽度可自适应或拖拽调整 @yixiangihsiang\r\n* 回答末尾显示 token 用量和耗时，可展开查看精确用量与详细统计 @hypatiamay, ",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.1.2-rc.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3014209272,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.0",
+      "title": "QwenLM/qwen-code: Release v0.23.0",
+      "published_at": "2026-09-03T11:03:15+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- The branch picker now displays git state hints like '↓3 · origin/main' or 'Up to date' beside Update Project, Commit, and Pu",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- The branch picker now displays git state hints like '↓3 · origin/main' or 'Up to date' beside Update Project, Commit, and Pu",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.23.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1114341847,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/live-host-v0.2.0",
+      "title": "QwenLM/qwen-code: Qwen Live Host v0.2.0",
+      "published_at": "2026-09-02T14:29:52+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at 867bb94a1f317e6fae04c2f5b78961b42e030311 -->\n\n## What's Changed\n* fix(ci): make shared ECS Vitest concurrency tunable by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/10667\n* feat(cli): OpenTUI migration batch 4 — d",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at 867bb94a1f317e6fae04c2f5b78961b42e030311 -->\n\n## What's Changed\n* fix(ci): make shared ECS Vitest concurrency tunable by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/10667\n* feat(cli): OpenTUI migration batch 4 — d",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Live Host v0.2.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
