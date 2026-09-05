@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-05",
+  "headline_en": "20 items collected today",
+  "lede_en": "20 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    3624913307,
+    2795332631,
+    3444736091
+  ],
+  "item_count": 20,
+  "source_breakdown": {
+    "anthropic_research": 1,
+    "claude_blog": 1,
+    "unsupervised_learning": 1,
+    "aihot_selected": 16,
+    "qwen_github": 1
+  },
+  "generated_at": "2026-09-05T11:35:33.206694Z",
+  "headline_zh": "今日共采集 20 项内容",
+  "lede_zh": "今日共采集 20 项内容。",
+  "sections_zh": []
+}
