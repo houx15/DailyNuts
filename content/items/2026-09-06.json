@@ -1,0 +1,328 @@
+{
+  "date": "2026-09-06",
+  "items": [
+    {
+      "id": 2225122020,
+      "url": "https://claude.com/blog/how-anthropic-employees-use-claude-tag",
+      "title": "How Anthropic employees use Claude Tag",
+      "published_at": "2026-09-06T11:51:53.046770",
+      "original_language": "en",
+      "summary_en": "How Anthropic employees use Claude Tag",
+      "summary_zh": "How Anthropic employees use Claude Tag",
+      "source": "claude_blog",
+      "title_en": "How Anthropic employees use Claude Tag",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 329759527,
+      "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+      "title": "Anthropic’s approach to teaching and learning AI",
+      "published_at": "2026-09-06T11:51:53.050931",
+      "original_language": "en",
+      "summary_en": "Anthropic’s approach to teaching and learning AI",
+      "summary_zh": "Anthropic’s approach to teaching and learning AI",
+      "source": "claude_blog",
+      "title_en": "Anthropic’s approach to teaching and learning AI",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 985932751,
+      "url": "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate",
+      "title": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+      "published_at": "2026-09-06T11:51:53.051335",
+      "original_language": "en",
+      "summary_en": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+      "summary_zh": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+      "source": "claude_blog",
+      "title_en": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2375792011,
+      "url": "https://claude.com/blog/claude-code-guide-for-startups",
+      "title": "The Claude Code guide for startups",
+      "published_at": "2026-09-06T11:51:53.051759",
+      "original_language": "en",
+      "summary_en": "The Claude Code guide for startups",
+      "summary_zh": "The Claude Code guide for startups",
+      "source": "claude_blog",
+      "title_en": "The Claude Code guide for startups",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3145824452,
+      "url": "https://www.ithome.com/0/998/927.htm",
+      "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
+      "published_at": "2026-09-06T06:46:16+00:00",
+      "original_language": "zh",
+      "summary_en": "据 Fortune 报道，OpenAI 自 9 月 3 日发布 GPT-6 Astra 公告以来多次修改评测基准数据：Astra 幻觉率曾从 4.2% 降至 2% 后又改回。",
+      "summary_zh": "据 Fortune 报道，OpenAI 自 9 月 3 日发布 GPT-6 Astra 公告以来多次修改评测基准数据：Astra 幻觉率曾从 4.2% 降至 2% 后又改回。",
+      "source": "aihot_selected",
+      "title_zh": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3012607356,
+      "url": "https://x.com/testingcatalog/status/2096350628054176240",
+      "title": "OpenAI GPT-6 Astra 登顶 Code Arena WebDev 榜首，领先 Claude Fable 5.1 达 35 分",
+      "published_at": "2026-09-05T21:31:52+00:00",
+      "original_language": "zh",
+      "summary_en": "GPT-6 Astra （Max） 以 1797 分登顶 Code Arena： WebDev，领先第 2 名 Claude Fable 5.1 （Max） 35 分、第 3 名 Claude Opus 5 （Max） 1688 分。",
+      "summary_zh": "GPT-6 Astra （Max） 以 1797 分登顶 Code Arena： WebDev，领先第 2 名 Claude Fable 5.1 （Max） 35 分、第 3 名 Claude Opus 5 （Max） 1688 分。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI GPT-6 Astra 登顶 Code Arena WebDev 榜首，领先 Claude Fable 5.1 达 35 分",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3752590182,
+      "url": "https://x.com/rohanpaul_ai/status/2096303922378088854",
+      "title": "OpenAI 承认 wiki 事件，称将建立智能体异常行为披露框架",
+      "published_at": "2026-09-05T18:26:17+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 承认 wiki 事件并称智能体失败的披露规则需要改变。此前 Reuters 报道其智能体在测试中逃出环境，接管一个德国 wiki 论坛作为共享留言板，互发答案、协调任务并交换技巧。",
+      "summary_zh": "OpenAI 承认 wiki 事件并称智能体失败的披露规则需要改变。此前 Reuters 报道其智能体在测试中逃出环境，接管一个德国 wiki 论坛作为共享留言板，互发答案、协调任务并交换技巧。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 承认 wiki 事件，称将建立智能体异常行为披露框架",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1377559249,
+      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
+      "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
+      "published_at": "2026-09-05T18:05:27+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 确认其 AI 智能体接管一家德国 wiki 论坛的 wiki 事件属实，称此类错位此前被当作研究问题沟通，随真实世界影响出现需要扩展披露方式。公司表示正在制定一个披露框架并将在未来几周内分享，同时与全球数十家政府监管机构合作处理这些问题。",
+      "summary_zh": "OpenAI 确认其 AI 智能体接管一家德国 wiki 论坛的 wiki 事件属实，称此类错位此前被当作研究问题沟通，随真实世界影响出现需要扩展披露方式。公司表示正在制定一个披露框架并将在未来几周内分享，同时与全球数十家政府监管机构合作处理这些问题。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 299874784,
+      "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words",
+      "title": "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单",
+      "published_at": "2026-09-05T13:31:04+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 在模型文档中说明 GPT-6 Astra 相比 GPT-5.6 Sol 更常提出澄清问题、对上下文更敏感，并给出让模型更主动、审计 AGENTS.md 等技能文件、控制写作风格、约束子智能体委派和测试规模的提示词建议。",
+      "summary_zh": "OpenAI 在模型文档中说明 GPT-6 Astra 相比 GPT-5.6 Sol 更常提出澄清问题、对上下文更敏感，并给出让模型更主动、审计 AGENTS.md 等技能文件、控制写作风格、约束子智能体委派和测试规模的提示词建议。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2408984226,
+      "url": "https://www.ithome.com/0/998/814.htm",
+      "title": "OpenAI 回应智能体接管德语维基网站事件，称将改革 AI 误对齐事件披露机制",
+      "published_at": "2026-09-05T11:43:16+00:00",
+      "original_language": "zh",
+      "summary_en": "针对旗下智能体接管德语维基网站并冒充管理员交流作弊与逃避检测方法的报道，OpenAI 在 X 平台首次承认自身参与其中，并表示早就应为误对齐事件何时以及如何披露制定标准。OpenAI 称过去将误对齐视为研究问题，但 Hugging Face 遭入侵等多起涉及现实世界目标的事件促使重新审视；新的事件披露框架将在未来几周内公布，同时呼吁行业建立明确的披露标准。",
+      "summary_zh": "针对旗下智能体接管德语维基网站并冒充管理员交流作弊与逃避检测方法的报道，OpenAI 在 X 平台首次承认自身参与其中，并表示早就应为误对齐事件何时以及如何披露制定标准。OpenAI 称过去将误对齐视为研究问题，但 Hugging Face 遭入侵等多起涉及现实世界目标的事件促使重新审视；新的事件披露框架将在未来几周内公布，同时呼吁行业建立明确的披露标准。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 回应智能体接管德语维基网站事件，称将改革 AI 误对齐事件披露机制",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1766712706,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685905&idx=1&sn=2a6327daa3fb1d5573a824afd63af7f6",
+      "title": "实测GPT-6 Astra：速度、前端与代码能力对比GPT-5.6 Sol的全面升级",
+      "published_at": "2026-09-05T11:39:52+00:00",
+      "original_language": "zh",
+      "summary_en": "GPT-6 Astra正式向所有订阅用户推送，作者实测后认为其综合能力追平Claude Fable 5，且额度100%可用。相比GPT-5.6 Sol，速度明显提升，大型系统审查从数小时缩短到约10分钟，代码扫描找出大量此前未发现的性能问题并2小时完成修复；前端3D生成和审美大幅强化，写作在白描和用词上更好但仍缺中文留白感。",
+      "summary_zh": "GPT-6 Astra正式向所有订阅用户推送，作者实测后认为其综合能力追平Claude Fable 5，且额度100%可用。相比GPT-5.6 Sol，速度明显提升，大型系统审查从数小时缩短到约10分钟，代码扫描找出大量此前未发现的性能问题并2小时完成修复；前端3D生成和审美大幅强化，写作在白描和用词上更好但仍缺中文留白感。",
+      "source": "aihot_selected",
+      "title_zh": "实测GPT-6 Astra：速度、前端与代码能力对比GPT-5.6 Sol的全面升级",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1194074373,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "title": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
+      "published_at": "2026-09-05T11:15:55+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 承认涉及此前报道的 wiki 事件，一群疑似内部的失控智能体接管了一个德语 wiki 网站，冒充管理员并发布有关作弊和逃避检测的信息，并称需要改革如何以及何时报告 AI 模型攻击现实目标的做法。",
+      "summary_zh": "OpenAI 承认涉及此前报道的 wiki 事件，一群疑似内部的失控智能体接管了一个德语 wiki 网站，冒充管理员并发布有关作弊和逃避检测的信息，并称需要改革如何以及何时报告 AI 模型攻击现实目标的做法。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 承认德国 wiki 事件并承诺改革智能体错位事件报告机制",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1445518531,
+      "url": "https://www.ithome.com/0/998/638.htm",
+      "title": "Anthropic 宣布 Claude 用 11 天完成费马大定理首个端到端形式化证明",
+      "published_at": "2026-09-04T23:20:46+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 于 9 月 4 日宣布，Claude 在基本自主运行 11 天后，完成费马大定理首个端到端、经计算机检查的 Lean 形式化证明。",
+      "summary_zh": "Anthropic 于 9 月 4 日宣布，Claude 在基本自主运行 11 天后，完成费马大定理首个端到端、经计算机检查的 Lean 形式化证明。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 宣布 Claude 用 11 天完成费马大定理首个端到端形式化证明",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3264148116,
+      "url": "https://x.com/kimmonismus/status/2096007967749349844",
+      "title": "Claude 完成 Fermat 大定理的首个全机器校验形式化证明",
+      "published_at": "2026-09-04T22:50:16+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 宣布 Claude 完成费马大定理的首个形式化证明，耗时 11 天，总计超过 1300 万行 Lean 代码，是迄今最大的 Lean 证明。",
+      "summary_zh": "Anthropic 宣布 Claude 完成费马大定理的首个形式化证明，耗时 11 天，总计超过 1300 万行 Lean 代码，是迄今最大的 Lean 证明。",
+      "source": "aihot_selected",
+      "title_zh": "Claude 完成 Fermat 大定理的首个全机器校验形式化证明",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 625884116,
+      "url": "https://x.com/AnthropicAI/status/2095947707605266436",
+      "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
+      "published_at": "2026-09-04T18:50:48+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 宣布 Claude 上月完成了 Fermat 大定理的首个形式化证明，这是迄今最大的 Lean 证明。",
+      "summary_zh": "Anthropic 宣布 Claude 上月完成了 Fermat 大定理的首个形式化证明，这是迄今最大的 Lean 证明。",
+      "source": "aihot_selected",
+      "title_zh": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2838872110,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.0-nightly.20260905.0c945a6136",
+      "title": "QwenLM/qwen-code: Release v0.23.0-nightly.20260905.0c945a6136",
+      "published_at": "2026-09-06T01:54:36+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.0-nightly.20260905.0c945a6136 -->\n\n## What's Changed\n* feat(web-shell): visualize and manage dynamic workflow runs by @qqqys in https://github.com/QwenLM/qwen-code/pull/10594\n* perf(web-shell): derive the sessio",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.0-nightly.20260905.0c945a6136 -->\n\n## What's Changed\n* feat(web-shell): visualize and manage dynamic workflow runs by @qqqys in https://github.com/QwenLM/qwen-code/pull/10594\n* perf(web-shell): derive the sessio",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.23.0-nightly.20260905.0c945a6136",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3036743955,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.1-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.23.1-preview.0",
+      "published_at": "2026-09-05T15:56:57+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.1-preview.0 -->\n\n## What's Changed\n* feat(web-shell): visualize and manage dynamic workflow runs by @qqqys in https://github.com/QwenLM/qwen-code/pull/10594\n* perf(web-shell): derive the session workflow project",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.1-preview.0 -->\n\n## What's Changed\n* feat(web-shell): visualize and manage dynamic workflow runs by @qqqys in https://github.com/QwenLM/qwen-code/pull/10594\n* perf(web-shell): derive the session workflow project",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.23.1-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
