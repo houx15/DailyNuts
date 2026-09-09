@@ -1,0 +1,689 @@
+{
+  "date": "2026-09-09",
+  "items": [
+    {
+      "id": 2134545678,
+      "url": "http://arxiv.org/abs/2609.09156v1",
+      "title": "ReCite: Agentic Reasoning for Faithful Citation",
+      "published_at": "2026-09-08T17:59:50+00:00",
+      "original_language": "en",
+      "summary_en": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. However, manually navigating the growing volume of scientific literature is increasingly difficult, prompting reliance on automatic citation recommendation. While modern retrieval-",
+      "summary_zh": "Accurate citations are the foundation of academic writing, tracing intellectual origins and substantiating core claims. However, manually navigating the growing volume of scientific literature is increasingly difficult, prompting reliance on automatic citation recommendation. While modern retrieval-",
+      "source": "arxiv_cs_cl",
+      "title_en": "ReCite: Agentic Reasoning for Faithful Citation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 527152541,
+      "url": "http://arxiv.org/abs/2609.09153v1",
+      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+      "published_at": "2026-09-08T17:59:41+00:00",
+      "original_language": "en",
+      "summary_en": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which con",
+      "summary_zh": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which con",
+      "source": "arxiv_cs_cl",
+      "title_en": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 198656026,
+      "url": "http://arxiv.org/abs/2609.09150v1",
+      "title": "Copying explains the collective behavior of AI agents in the wild",
+      "published_at": "2026-09-08T17:59:20+00:00",
+      "original_language": "en",
+      "summary_en": "In June 2026, thousands of AI agents found that a small public wiki would accept edits from inside their sandboxes, and started using it to help one another pass a timed test. Each agent lived for about an hour and remembered nothing afterwards. Nobody asked them to cooperate, and the wiki had not b",
+      "summary_zh": "In June 2026, thousands of AI agents found that a small public wiki would accept edits from inside their sandboxes, and started using it to help one another pass a timed test. Each agent lived for about an hour and remembered nothing afterwards. Nobody asked them to cooperate, and the wiki had not b",
+      "source": "arxiv_cs_cl",
+      "title_en": "Copying explains the collective behavior of AI agents in the wild",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3031532401,
+      "url": "http://arxiv.org/abs/2609.09140v1",
+      "title": "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
+      "published_at": "2026-09-08T17:56:13+00:00",
+      "original_language": "en",
+      "summary_en": "The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories remains a critical challenge. Current AI models often struggle to capture the complex, irregular tempor",
+      "summary_zh": "The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories remains a critical challenge. Current AI models often struggle to capture the complex, irregular tempor",
+      "source": "arxiv_cs_cl",
+      "title_en": "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3347061841,
+      "url": "http://arxiv.org/abs/2609.09135v1",
+      "title": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
+      "published_at": "2026-09-08T17:54:13+00:00",
+      "original_language": "en",
+      "summary_en": "Existing methods for test-time reinforcement learning (TTRL) derive rewards from answer-level self-voting on unlabeled test-time tasks with canonical answers, but this breaks down for code generation because programs cannot be compared by surface form and therefore do not directly provide a usable t",
+      "summary_zh": "Existing methods for test-time reinforcement learning (TTRL) derive rewards from answer-level self-voting on unlabeled test-time tasks with canonical answers, but this breaks down for code generation because programs cannot be compared by surface form and therefore do not directly provide a usable t",
+      "source": "arxiv_cs_cl",
+      "title_en": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1791456503,
+      "url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform",
+      "title": "Reducing cost and improving performance with Claude Platform",
+      "published_at": "2026-09-09T12:36:28.452885",
+      "original_language": "en",
+      "summary_en": "Reducing cost and improving performance with Claude Platform",
+      "summary_zh": "Reducing cost and improving performance with Claude Platform",
+      "source": "claude_blog",
+      "title_en": "Reducing cost and improving performance with Claude Platform",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1239218356,
+      "url": "https://the-decoder.com/openais-millennium-proof-dispute-raises-the-question-of-whether-researchers-can-trust-ai-labs",
+      "title": "OpenAI 纳维-斯托克斯方程证明争议：Buckmaster 指控不当行为，各方回应引出开放科学之问",
+      "published_at": "2026-09-09T10:27:37+00:00",
+      "original_language": "zh",
+      "summary_en": "数学家 Tristan Buckmaster 指控 OpenAI 施压、拒绝其合作者 Levent Alpöge（任职于 Anthropic）署名，且可能用两人上传到 Codex 的草稿训练模型，称其为绝对学术不端。",
+      "summary_zh": "数学家 Tristan Buckmaster 指控 OpenAI 施压、拒绝其合作者 Levent Alpöge（任职于 Anthropic）署名，且可能用两人上传到 Codex 的草稿训练模型，称其为绝对学术不端。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 纳维-斯托克斯方程证明争议：Buckmaster 指控不当行为，各方回应引出开放科学之问",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1114511141,
+      "url": "https://www.ithome.com/1/000/353.htm",
+      "title": "纽约大学教授质疑OpenAI借助其研究抢先发布纳维-斯托克斯问题证明",
+      "published_at": "2026-09-09T09:34:47+00:00",
+      "original_language": "zh",
+      "summary_en": "纽约大学教授Tristan Buckmaster与Anthropic数学家Levent Alpöge使用Codex和Claude在纳维-斯托克斯存在性与光滑性问题上取得初步进展，随后OpenAI公布了该千禧年大奖难题的完整证明，称其由一个尚未发布的新一代模型发现，研究始于9月1日，总计消耗3000亿个输出Token，按Astra价格计算约2250万美元。",
+      "summary_zh": "纽约大学教授Tristan Buckmaster与Anthropic数学家Levent Alpöge使用Codex和Claude在纳维-斯托克斯存在性与光滑性问题上取得初步进展，随后OpenAI公布了该千禧年大奖难题的完整证明，称其由一个尚未发布的新一代模型发现，研究始于9月1日，总计消耗3000亿个输出Token，按Astra价格计算约2250万美元。",
+      "source": "aihot_selected",
+      "title_zh": "纽约大学教授质疑OpenAI借助其研究抢先发布纳维-斯托克斯问题证明",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2036700295,
+      "url": "https://x.com/thexpin/status/2097615997616406833",
+      "title": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面等六家中国 AI 公司大规模提取美国模型知识",
+      "published_at": "2026-09-09T09:20:00+00:00",
+      "original_language": "zh",
+      "summary_en": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面（Moonshot AI）、阿里巴巴、MiniMax、阶跃星辰（StepFun）和 Z.ai 至少自 2024 年起以产业规模从美国模型中提取知识。机构称其通过多渠道路由请求以绕过规则并提升数学与编码能力；蒸馏在获授权时合法，争议核心在于访问与同意。美国开发商被敦促立即行动并共享情报，相关公司暂未回应。",
+      "summary_zh": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面（Moonshot AI）、阿里巴巴、MiniMax、阶跃星辰（StepFun）和 Z.ai 至少自 2024 年起以产业规模从美国模型中提取知识。机构称其通过多渠道路由请求以绕过规则并提升数学与编码能力；蒸馏在获授权时合法，争议核心在于访问与同意。美国开发商被敦促立即行动并共享情报，相关公司暂未回应。",
+      "source": "aihot_selected",
+      "title_zh": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面等六家中国 AI 公司大规模提取美国模型知识",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3650982647,
+      "url": "https://x.com/Thom_Wolf/status/2097615465698713666",
+      "title": "Thomas Wolf 认为 AI 数学尚未被解决，Navier-Stokes 结果更像反例搜索而非完整证明",
+      "published_at": "2026-09-09T09:17:53+00:00",
+      "original_language": "zh",
+      "summary_en": "Hugging Face 联创 Thomas Wolf 回应 OpenAI 用下一代模型（强于 GPT-6 Astra）的 agent 群组证明 Navier-Stokes 千禧年问题猜想为假的结果，称其令人印象深刻。",
+      "summary_zh": "Hugging Face 联创 Thomas Wolf 回应 OpenAI 用下一代模型（强于 GPT-6 Astra）的 agent 群组证明 Navier-Stokes 千禧年问题猜想为假的结果，称其令人印象深刻。",
+      "source": "aihot_selected",
+      "title_zh": "Thomas Wolf 认为 AI 数学尚未被解决，Navier-Stokes 结果更像反例搜索而非完整证明",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3387229304,
+      "url": "https://x.com/rohanpaul_ai/status/2097605329123147987",
+      "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
+      "published_at": "2026-09-09T08:37:36+00:00",
+      "original_language": "zh",
+      "summary_en": "NSA、CISA 和 FBI 发布联合公告 AA26-251A，指控 DeepSeek、月之暗面、阿里、MiniMax、阶跃星辰和 Z .AI 自 2024 年底起对美国前沿模型进行工业规模蒸馏。",
+      "summary_zh": "NSA、CISA 和 FBI 发布联合公告 AA26-251A，指控 DeepSeek、月之暗面、阿里、MiniMax、阶跃星辰和 Z .AI 自 2024 年底起对美国前沿模型进行工业规模蒸馏。",
+      "source": "aihot_selected",
+      "title_zh": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1180274922,
+      "url": "https://www.ithome.com/1/000/277.htm",
+      "title": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+      "published_at": "2026-09-09T08:00:26+00:00",
+      "original_language": "zh",
+      "summary_en": "《The Intercept》通过 FOIA 诉讼获得的文件显示，美国国防部曾在 P00003 合同中要求 OpenAI 提供对军事指令具有最低拒绝率的特别版模型，双方对此均否认，称该文件只是草案。五角大楼律师一度确认其为正式版本后多次改口，OpenAI 已于 2 月 27 日签署允许部署到美军机密网络的最新版协议。",
+      "summary_zh": "《The Intercept》通过 FOIA 诉讼获得的文件显示，美国国防部曾在 P00003 合同中要求 OpenAI 提供对军事指令具有最低拒绝率的特别版模型，双方对此均否认，称该文件只是草案。五角大楼律师一度确认其为正式版本后多次改口，OpenAI 已于 2 月 27 日签署允许部署到美军机密网络的最新版协议。",
+      "source": "aihot_selected",
+      "title_zh": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4252059870,
+      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+      "title": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+      "published_at": "2026-09-09T07:10:03.765000+00:00",
+      "original_language": "zh",
+      "summary_en": "Simon Willison 评论 OpenAI 用未发布模型在约 88 小时内求解纳维-斯托克斯存在性与光滑性问题，并经 GPT-6 Astra 完成 17 小时 Lean 形式化验证。",
+      "summary_zh": "Simon Willison 评论 OpenAI 用未发布模型在约 88 小时内求解纳维-斯托克斯存在性与光滑性问题，并经 GPT-6 Astra 完成 17 小时 Lean 形式化验证。",
+      "source": "aihot_selected",
+      "title_zh": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4060930128,
+      "url": "https://www.ithome.com/1/000/188.htm",
+      "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+      "published_at": "2026-09-09T06:41:51+00:00",
+      "original_language": "zh",
+      "summary_en": "路透社报道称，DeepSeek 已聘请中信证券筹备科创板上市，目标今年递交 IPO 申请、明年挂牌，募资将用于算力基建、模型研发、芯片自研与人才激励。公司正推进新一轮融资，目标估值约 5000 亿元人民币，此前 6 月完成约 74 亿美元首轮外部融资，投后估值超 500 亿美元；2026 年前 7 个月营收约 4.75 亿元。",
+      "summary_zh": "路透社报道称，DeepSeek 已聘请中信证券筹备科创板上市，目标今年递交 IPO 申请、明年挂牌，募资将用于算力基建、模型研发、芯片自研与人才激励。公司正推进新一轮融资，目标估值约 5000 亿元人民币，此前 6 月完成约 74 亿美元首轮外部融资，投后估值超 500 亿美元；2026 年前 7 个月营收约 4.75 亿元。",
+      "source": "aihot_selected",
+      "title_zh": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3272600392,
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247510824&idx=1&sn=025a8b7c5fec54d8a00c8632f55f8d98",
+      "title": "OpenAI 上线 GPT Image 2.5，作者实测新版与 image2 的生图差异",
+      "published_at": "2026-09-09T00:27:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 上线 GPT Image 2.5，主打更快生成、更高清、多轮编辑一致性和区域标注精修，并新增涂鸦绘图与 15 个图片模版功能。API 同步发布 GPT-Image-2.5 Flare（速度提升 50%）和 GPT-Image-2.5 Sunburst（更高精度）。",
+      "summary_zh": "OpenAI 上线 GPT Image 2.5，主打更快生成、更高清、多轮编辑一致性和区域标注精修，并新增涂鸦绘图与 15 个图片模版功能。API 同步发布 GPT-Image-2.5 Flare（速度提升 50%）和 GPT-Image-2.5 Sunburst（更高精度）。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 上线 GPT Image 2.5，作者实测新版与 image2 的生图差异",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2179985816,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686094&idx=1&sn=c06c40993f7ab28f2302619e4b89986b",
+      "title": "GPT-6 Astra推理等级怎么选才最省Token",
+      "published_at": "2026-09-09T00:09:00+00:00",
+      "original_language": "zh",
+      "summary_en": "卡兹克发文讲解GPT-6 Astra的推理强度等级（Reasoning Effort）含义，指出各档位是同一模型的不同思考预算，Ultra则类似拉起多个智能体协作的专项工作组。",
+      "summary_zh": "卡兹克发文讲解GPT-6 Astra的推理强度等级（Reasoning Effort）含义，指出各档位是同一模型的不同思考预算，Ultra则类似拉起多个智能体协作的专项工作组。",
+      "source": "aihot_selected",
+      "title_zh": "GPT-6 Astra推理等级怎么选才最省Token",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4283578756,
+      "url": "https://x.com/alexandr_wang/status/2097472059077202339",
+      "title": "Meta 智能体产品 Muse 开放体验，官方回应用户好评",
+      "published_at": "2026-09-08T23:48:02+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta 的 Muse 智能体产品开放更多用户试用，入口为 https://muse.ai/join，Meta 首席 AI 官 Alexandr Wang 称团队为产品倾注心血并感谢用户反响。引用的评价称其设计、速度和浏览器等智能体流程表现出色，具备 Instagram 等 Meta 产品原生集成优势，但也指出 soul.md 等命名对普通用户不直观、feed 内容相关性不足等问题。",
+      "summary_zh": "Meta 的 Muse 智能体产品开放更多用户试用，入口为 https://muse.ai/join，Meta 首席 AI 官 Alexandr Wang 称团队为产品倾注心血并感谢用户反响。引用的评价称其设计、速度和浏览器等智能体流程表现出色，具备 Instagram 等 Meta 产品原生集成优势，但也指出 soul.md 等命名对普通用户不直观、feed 内容相关性不足等问题。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 智能体产品 Muse 开放体验，官方回应用户好评",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2827391717,
+      "url": "https://runwayml.com/news/company-news/runway-for-adobe",
+      "title": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
+      "published_at": "2026-09-08T21:58:07.884000+00:00",
+      "original_language": "zh",
+      "summary_en": "Runway 发布 Runway Plugins，新面板可直接嵌入 Premiere Pro 和 After Effects，在时间线内生成图像和视频、重绘片段并放置结果。Edit Studio 可基于已有片段用 Aleph 2 按原始时长重新渲染，插件免费下载（macOS 和 Windows），生成功能面向所有付费计划并消耗现有额度。",
+      "summary_zh": "Runway 发布 Runway Plugins，新面板可直接嵌入 Premiere Pro 和 After Effects，在时间线内生成图像和视频、重绘片段并放置结果。Edit Studio 可基于已有片段用 Aleph 2 按原始时长重新渲染，插件免费下载（macOS 和 Windows），生成功能面向所有付费计划并消耗现有额度。",
+      "source": "aihot_selected",
+      "title_zh": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4003366938,
+      "url": "https://x.com/OpenAI/status/2097431322117476423",
+      "title": "OpenAI 向 Plus、Pro、Business 和 Enterprise 用户全面推送 Astra",
+      "published_at": "2026-09-08T21:06:10+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 宣布 Astra 已全面推送给 Codex 和 ChatGPT Work 中的 Plus、Pro、Business 和 Enterprise 用户。用户可以直接使用，并可通过 openai.com/gpt-tv/ 观看 Astra 的实机演示。",
+      "summary_zh": "OpenAI 宣布 Astra 已全面推送给 Codex 和 ChatGPT Work 中的 Plus、Pro、Business 和 Enterprise 用户。用户可以直接使用，并可通过 openai.com/gpt-tv/ 观看 Astra 的实机演示。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 向 Plus、Pro、Business 和 Enterprise 用户全面推送 Astra",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3219821969,
+      "url": "https://x.com/sama/status/2097385167002415140",
+      "title": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议",
+      "published_at": "2026-09-08T18:02:46+00:00",
+      "original_language": "zh",
+      "summary_en": "Sam Altman 发文回应与 Anthropic 一方围绕 Euler/Navier-Stokes 证明发布的争议，称对方只有 Euler 结果、双方协调失败，并称对方以抄袭指控相威胁。",
+      "summary_zh": "Sam Altman 发文回应与 Anthropic 一方围绕 Euler/Navier-Stokes 证明发布的争议，称对方只有 Euler 结果、双方协调失败，并称对方以抄袭指控相威胁。",
+      "source": "aihot_selected",
+      "title_zh": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 847126897,
+      "url": "https://x.com/EMostaque/status/2097378223138959719",
+      "title": "Emad Mostaque 称 OpenAI 智能体求解 Navier-Stokes 千禧年难题是迈向 ASI 的里程碑",
+      "published_at": "2026-09-08T17:35:10+00:00",
+      "original_language": "zh",
+      "summary_en": "Emad Mostaque 转发 OpenAI 的公告并评论称这是迈向 ASI 的里程碑事件。OpenAI 宣布由一组智能体使用显著强于 GPT-6 Astra 的下一代模型，给出了 Navier-Stokes 千禧年大奖难题的一个 blow up 解，该问题涉及三维光滑流体运动的描述是否会崩溃，约 90 年未解。",
+      "summary_zh": "Emad Mostaque 转发 OpenAI 的公告并评论称这是迈向 ASI 的里程碑事件。OpenAI 宣布由一组智能体使用显著强于 GPT-6 Astra 的下一代模型，给出了 Navier-Stokes 千禧年大奖难题的一个 blow up 解，该问题涉及三维光滑流体运动的描述是否会崩溃，约 90 年未解。",
+      "source": "aihot_selected",
+      "title_zh": "Emad Mostaque 称 OpenAI 智能体求解 Navier-Stokes 千禧年难题是迈向 ASI 的里程碑",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1524443881,
+      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
+      "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
+      "published_at": "2026-09-08T17:32:15+00:00",
+      "original_language": "zh",
+      "summary_en": "NYU 数学教授 Tristan Buckmaster 与 Anthropic 数学家 Levent Alpöge 公布针对 Navier-Stokes 存在与光滑性这一千禧年难题的三项证明初步结果，并称其研究进展信息被泄露给 OpenAI，对方随后用大量算力沿其独特路线追赶证明。",
+      "summary_zh": "NYU 数学教授 Tristan Buckmaster 与 Anthropic 数学家 Levent Alpöge 公布针对 Navier-Stokes 存在与光滑性这一千禧年难题的三项证明初步结果，并称其研究进展信息被泄露给 OpenAI，对方随后用大量算力沿其独特路线追赶证明。",
+      "source": "aihot_selected",
+      "title_zh": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1682764127,
+      "url": "https://x.com/polynoamial/status/2097375837670785447",
+      "title": "Noam Brown 评 OpenAI 用智能体求解 Navier-Stokes 千禧年难题：成本会快速下降",
+      "published_at": "2026-09-08T17:25:41+00:00",
+      "original_language": "zh",
+      "summary_en": "Noam Brown 就 OpenAI 宣布以智能体组合求解 Navier-Stokes 千禧年大奖难题发表看法，承认这次证明花费数百万美元，但认为成本会快速下降。",
+      "summary_zh": "Noam Brown 就 OpenAI 宣布以智能体组合求解 Navier-Stokes 千禧年大奖难题发表看法，承认这次证明花费数百万美元，但认为成本会快速下降。",
+      "source": "aihot_selected",
+      "title_zh": "Noam Brown 评 OpenAI 用智能体求解 Navier-Stokes 千禧年难题：成本会快速下降",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3717157334,
+      "url": "https://x.com/OpenAI/status/2097375276384567642",
+      "title": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺",
+      "published_at": "2026-09-08T17:23:27+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 宣布由一组智能体使用一个能力显著超过 GPT-6 Astra 的下一代模型给出 Navier-Stokes 千禧年大奖难题的解，该问题关注三维光滑流体运动的描述是否会失效，已悬置约 90 年。",
+      "summary_zh": "OpenAI 宣布由一组智能体使用一个能力显著超过 GPT-6 Astra 的下一代模型给出 Navier-Stokes 千禧年大奖难题的解，该问题关注三维光滑流体运动的描述是否会失效，已悬置约 90 年。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2721091638,
+      "url": "https://x.com/ClaudeDevs/status/2097369738968195513",
+      "title": "Anthropic 讲解用 Claude Platform 降低成本并提升性能的三个方法",
+      "published_at": "2026-09-08T17:01:27+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 团队文章指出，优化 prompt cache 命中率、清除升级到前沿 Claude 模型后的提示词反模式、校准 effort 三个手段可在不牺牲性能的情况下降低成本。",
+      "summary_zh": "Anthropic 团队文章指出，优化 prompt cache 命中率、清除升级到前沿 Claude 模型后的提示词反模式、校准 effort 三个手段可在不牺牲性能的情况下降低成本。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 讲解用 Claude Platform 降低成本并提升性能的三个方法",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2648886823,
+      "url": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data",
+      "title": "Dwarkesh Patel 研究：预训练进步主要来自数据改进",
+      "published_at": "2026-09-08T16:10:16+00:00",
+      "original_language": "zh",
+      "summary_en": "Dwarkesh Patel 发布实验分析，在最高 1e19 FLOPs 的算力预算下训练 2019 至 2025 年各年度代表性模型配方与数据语料，发现数据改进带来 12.0x 算力效率提升，模型改进为 3.7x，数据贡献约为模型的 3.24 倍。",
+      "summary_zh": "Dwarkesh Patel 发布实验分析，在最高 1e19 FLOPs 的算力预算下训练 2019 至 2025 年各年度代表性模型配方与数据语料，发现数据改进带来 12.0x 算力效率提升，模型改进为 3.7x，数据贡献约为模型的 3.24 倍。",
+      "source": "aihot_selected",
+      "title_zh": "Dwarkesh Patel 研究：预训练进步主要来自数据改进",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1839691284,
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
+      "published_at": "2026-09-08T11:30:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 发布 ChatGPT Images 2.5 图像模型，生成延迟比 Images 2.0 降低最多 50%，细节、编辑精度、参考照片保真度和多轮编辑一致性均有提升。",
+      "summary_zh": "OpenAI 发布 ChatGPT Images 2.5 图像模型，生成延迟比 Images 2.0 降低最多 50%，细节、编辑精度、参考照片保真度和多轮编辑一致性均有提升。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1749876631,
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
+      "published_at": "2026-09-08T10:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 宣布其内部 AI 系统给出 Navier-Stokes 存在与光滑性问题的解答，证明初始光滑的流体可在有限时间内形成奇点，并附证明文稿与 Lean 形式化验证。",
+      "summary_zh": "OpenAI 宣布其内部 AI 系统给出 Navier-Stokes 存在与光滑性问题的解答，证明初始光滑的流体可在有限时间内形成奇点，并附证明文稿与 Lean 形式化验证。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1924767635,
+      "url": "https://tomtunguz.com/openai-research-acceleration-agentic-productivity",
+      "title": "Tom Tunguz 分析 OpenAI 的 3x AI 生产力增益是否只是机器不睡觉",
+      "published_at": "2026-09-08T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Tom Tunguz 引用 OpenAI 内部数据，分析其 3x 研究生产力增益的来源：每名研究员 8 小时班次对应 3.14 个 agent 工作日，通常并行运行 4 个 agent。",
+      "summary_zh": "Tom Tunguz 引用 OpenAI 内部数据，分析其 3x 研究生产力增益的来源：每名研究员 8 小时班次对应 3.14 个 agent 工作日，通常并行运行 4 个 agent。",
+      "source": "aihot_selected",
+      "title_zh": "Tom Tunguz 分析 OpenAI 的 3x AI 生产力增益是否只是机器不睡觉",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1321292137,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.5-alpha.1",
+      "title": "deepseek-ai/deepseek-harness: v0.1.5-alpha.1",
+      "published_at": "2026-09-08T16:16:04+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.1.5-alpha.1) | [English](#en-v0.1.5-alpha.1)\r\n\r\n<h3 id=\"cn-v0.1.5-alpha.1\">新增功能</h3>\r\n\r\n- 支持动态修改系统提示词且不破坏 KV Cache，模型需显式声明支持 @tianyicui\r\n- 新增实验性右侧 Sidebar，支持多标签、分栏与全屏；聊天文件链接和产出文件支持 Sidebar 打开，并移除原 Detail 面板 @imccyu\r\n\r\n### 体验优化\r\n\r\n- 改善 Web 输入框的菜单层级、提示文字和间距；会话统计改为两个可展开的摘要，分别查看轮次与速度、精确 Toke",
+      "summary_zh": "[中文](#cn-v0.1.5-alpha.1) | [English](#en-v0.1.5-alpha.1)\r\n\r\n<h3 id=\"cn-v0.1.5-alpha.1\">新增功能</h3>\r\n\r\n- 支持动态修改系统提示词且不破坏 KV Cache，模型需显式声明支持 @tianyicui\r\n- 新增实验性右侧 Sidebar，支持多标签、分栏与全屏；聊天文件链接和产出文件支持 Sidebar 打开，并移除原 Detail 面板 @imccyu\r\n\r\n### 体验优化\r\n\r\n- 改善 Web 输入框的菜单层级、提示文字和间距；会话统计改为两个可展开的摘要，分别查看轮次与速度、精确 Toke",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.1.5-alpha.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3984056914,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.2",
+      "title": "QwenLM/qwen-code: Release v0.23.2",
+      "published_at": "2026-09-09T10:51:34+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(web-shell): Improve split-view session navigation ([#11250](https://github.com/QwenLM/qwen-code/pull/11250)) by @wensha",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(web-shell): Improve split-view session navigation ([#11250](https://github.com/QwenLM/qwen-code/pull/11250)) by @wensha",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.23.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2058427951,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.11",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.11",
+      "published_at": "2026-09-09T11:47:33+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.23.2\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.23.1\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Highlights\n\nThe bundled CLI 0.23.0 ",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.23.2\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.23.1\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Highlights\n\nThe bundled CLI 0.23.0 ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.11",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2566024956,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.2-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.23.2-preview.0",
+      "published_at": "2026-09-08T17:56:17+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.2-preview.0 -->\n\n## What's Changed\n* fix(ci): isolate subprocess-heavy E2E from fork pressure by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/11388\n\n\n**Full Changelog**: https://github.com/QwenLM/qwen",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.2-preview.0 -->\n\n## What's Changed\n* fix(ci): isolate subprocess-heavy E2E from fork pressure by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/11388\n\n\n**Full Changelog**: https://github.com/QwenLM/qwen",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.23.2-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 104758666,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.1",
+      "title": "QwenLM/qwen-code: Release v0.23.1",
+      "published_at": "2026-09-08T15:56:16+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\n- refactor!: retire @qwen-code/webui ([#9812](https://github.com/QwenLM/qwen-code/pull/9812)) by @yiliang114\n\n## Complete Change List\n\n### Features\n\n- feat(web-shell): visualize and manage dyna",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\n- refactor!: retire @qwen-code/webui ([#9812](https://github.com/QwenLM/qwen-code/pull/9812)) by @yiliang114\n\n## Complete Change List\n\n### Features\n\n- feat(web-shell): visualize and manage dyna",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.23.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1680463523,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.9",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.9",
+      "published_at": "2026-09-08T15:21:49+00:00",
+      "original_language": "en",
+      "summary_en": "## Highlights\n\nThe bundled CLI 0.23.0 includes two fixes requested in #11022:\n\n- Managed memory availability now respects the `memory.enableManagedAutoMemory` setting (#6941). Hosts that disable managed auto memory no longer see remember/dream requests admitted or managed-memory instructions in the ",
+      "summary_zh": "## Highlights\n\nThe bundled CLI 0.23.0 includes two fixes requested in #11022:\n\n- Managed memory availability now respects the `memory.enableManagedAutoMemory` setting (#6941). Hosts that disable managed auto memory no longer see remember/dream requests admitted or managed-memory instructions in the ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.9",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3851747731,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.42.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.42.0",
+      "published_at": "2026-09-09T06:24:42+00:00",
+      "original_language": "en",
+      "summary_en": "### Minor Changes\n\n- [#3613](https://github.com/MoonshotAI/kimi-code/pull/3613) [`d4d20d2`](https://github.com/MoonshotAI/kimi-code/commit/d4d20d21d733a7942056c15ffcc2c74cce51f7d5) Thanks [@liukx0205](https://github.com/liukx0205)! - Add read-only tools to the /btw side agent.\n\n- [#3524](https://git",
+      "summary_zh": "### Minor Changes\n\n- [#3613](https://github.com/MoonshotAI/kimi-code/pull/3613) [`d4d20d2`](https://github.com/MoonshotAI/kimi-code/commit/d4d20d21d733a7942056c15ffcc2c74cce51f7d5) Thanks [@liukx0205](https://github.com/liukx0205)! - Add read-only tools to the /btw side agent.\n\n- [#3524](https://git",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.42.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}

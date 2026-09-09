@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-09",
+  "headline_en": "36 items collected today",
+  "lede_en": "36 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    2134545678,
+    527152541,
+    198656026
+  ],
+  "item_count": 36,
+  "source_breakdown": {
+    "arxiv_cs_cl": 5,
+    "claude_blog": 1,
+    "aihot_selected": 23,
+    "deepseek_github": 1,
+    "qwen_github": 5,
+    "moonshot_github": 1
+  },
+  "generated_at": "2026-09-09T12:43:14.544736Z",
+  "headline_zh": "今日共采集 36 项内容",
+  "lede_zh": "今日共采集 36 项内容。",
+  "sections_zh": []
+}
