@@ -1,0 +1,670 @@
+{
+  "date": "2026-09-10",
+  "items": [
+    {
+      "id": 785032840,
+      "url": "http://arxiv.org/abs/2609.10539v1",
+      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+      "published_at": "2026-09-09T17:59:04+00:00",
+      "original_language": "en",
+      "summary_en": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient metho",
+      "summary_zh": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient metho",
+      "source": "arxiv_cs_cl",
+      "title_en": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 786919864,
+      "url": "http://arxiv.org/abs/2609.10534v1",
+      "title": "Likelihood-free inference with nuisance parameters through normalizing flows",
+      "published_at": "2026-09-09T17:58:15+00:00",
+      "original_language": "en",
+      "summary_en": "We present a simple decomposition of a neural-network-based normalizing flow that naturally uncovers a pivotal statistic (or something close) in the presence of nuisance parameters, based only on a sample generator from the distribution of interest. We show that the statistic is near-pivotal in the ",
+      "summary_zh": "We present a simple decomposition of a neural-network-based normalizing flow that naturally uncovers a pivotal statistic (or something close) in the presence of nuisance parameters, based only on a sample generator from the distribution of interest. We show that the statistic is near-pivotal in the ",
+      "source": "arxiv_cs_cl",
+      "title_en": "Likelihood-free inference with nuisance parameters through normalizing flows",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 313640768,
+      "url": "http://arxiv.org/abs/2609.10529v1",
+      "title": "A positive resolution of the gap-entropy conjecture",
+      "published_at": "2026-09-09T17:57:11+00:00",
+      "original_language": "en",
+      "summary_en": "We prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm. For each suboptimal arm $i$, let $Δ_i=μ_*-μ_i$ be its gap from the optimal mean, and write $H=\\sum_{i\\ne *}Δ_i^{-2}$. Let $p_r$ b",
+      "summary_zh": "We prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm. For each suboptimal arm $i$, let $Δ_i=μ_*-μ_i$ be its gap from the optimal mean, and write $H=\\sum_{i\\ne *}Δ_i^{-2}$. Let $p_r$ b",
+      "source": "arxiv_cs_cl",
+      "title_en": "A positive resolution of the gap-entropy conjecture",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1541097379,
+      "url": "http://arxiv.org/abs/2609.10522v1",
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "published_at": "2026-09-09T17:53:38+00:00",
+      "original_language": "en",
+      "summary_en": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to \"play\" robots through a compact semantic interface linking intent to action",
+      "summary_zh": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to \"play\" robots through a compact semantic interface linking intent to action",
+      "source": "arxiv_cs_cl",
+      "title_en": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 522076567,
+      "url": "http://arxiv.org/abs/2609.10490v1",
+      "title": "Learning with Covariance Matrices: Principal Component Analysis Meets Learning with Graphs",
+      "published_at": "2026-09-09T17:28:46+00:00",
+      "original_language": "en",
+      "summary_en": "This feature article provides an overview of the theoretical foundations for coVariance neural networks (VNNs), i.e., graph neural networks (GNNs) operating on covariance matrices as graphs. Covariance matrices are ubiquitous across domains, and hence, the deployment of GNNs often leverages graphs o",
+      "summary_zh": "This feature article provides an overview of the theoretical foundations for coVariance neural networks (VNNs), i.e., graph neural networks (GNNs) operating on covariance matrices as graphs. Covariance matrices are ubiquitous across domains, and hence, the deployment of GNNs often leverages graphs o",
+      "source": "arxiv_cs_cl",
+      "title_en": "Learning with Covariance Matrices: Principal Component Analysis Meets Learning with Graphs",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3509035617,
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "title": "Sep 9, 2026AlignmentAn alignment assessment of recent cybersecurity incidents",
+      "published_at": "2026-09-09T00:00:00",
+      "original_language": "en",
+      "summary_en": "Sep 9, 2026AlignmentAn alignment assessment of recent cybersecurity incidents",
+      "summary_zh": "Sep 9, 2026AlignmentAn alignment assessment of recent cybersecurity incidents",
+      "source": "anthropic_research",
+      "title_en": "Sep 9, 2026AlignmentAn alignment assessment of recent cybersecurity incidents",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 173493102,
+      "url": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
+      "title": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "published_at": "2026-09-10T12:32:46.377719",
+      "original_language": "en",
+      "summary_en": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "summary_zh": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "source": "claude_blog",
+      "title_en": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3210932099,
+      "url": "https://podcasters.spotify.com/pod/show/firstmark/episodes/When-AI-Improves-Itself--Richard-Socher-Recursive-e3oiodo",
+      "title": "When AI Improves Itself | Richard Socher (Recursive)",
+      "published_at": "2026-09-10T11:30:00",
+      "original_language": "en",
+      "summary_en": "<p>What happens when AI begins improving itself, and then turns that intelligence toward science? Richard Socher, pioneering AI researcher and CEO and co-founder of Recursive, joins Matt Turck to explore the vision behind his new book, The Eureka Machine. They discuss why scientific progress may be ",
+      "summary_zh": "<p>What happens when AI begins improving itself, and then turns that intelligence toward science? Richard Socher, pioneering AI researcher and CEO and co-founder of Recursive, joins Matt Turck to explore the vision behind his new book, The Eureka Machine. They discuss why scientific progress may be ",
+      "source": "mad_podcast",
+      "title_en": "When AI Improves Itself | Richard Socher (Recursive)",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2636698706,
+      "url": "https://cognition.com/blog/factoring-rsa-260",
+      "title": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
+      "published_at": "2026-09-10T10:50:45.032000+00:00",
+      "original_language": "zh",
+      "summary_en": "Cognition 员工 samyok 率团队驱动多个 Devin 智能体构建了高性能 GPU 格子筛，对 260 位的 RSA-260 完成因式分解，刷新此前 RSA-250（2020 年 2 月）保持的公开 RSA 挑战纪录。",
+      "summary_zh": "Cognition 员工 samyok 率团队驱动多个 Devin 智能体构建了高性能 GPU 格子筛，对 260 位的 RSA-260 完成因式分解，刷新此前 RSA-250（2020 年 2 月）保持的公开 RSA 挑战纪录。",
+      "source": "aihot_selected",
+      "title_zh": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 39480481,
+      "url": "https://x.com/kimmonismus/status/2097970735591366804",
+      "title": "DeepSeek 发布 V4.1-Flash：新架构带来原生视觉理解与大幅降价",
+      "published_at": "2026-09-10T08:49:36+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek 发布 V4.1-Flash，采用 Causal Encoder-Decoder 新架构并支持原生视觉理解，552B MoE 参数，输入处理激活 8B、输出生成激活 16B。",
+      "summary_zh": "DeepSeek 发布 V4.1-Flash，采用 Causal Encoder-Decoder 新架构并支持原生视觉理解，552B MoE 参数，输入处理激活 8B、输出生成激活 16B。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek 发布 V4.1-Flash：新架构带来原生视觉理解与大幅降价",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3977112829,
+      "url": "https://x.com/kimmonismus/status/2097962333767102665",
+      "title": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder-Decoder 架构，带原生视觉理解",
+      "published_at": "2026-09-10T08:16:13+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek 发布 V4.1-Flash，采用新 Causal Encoder-Decoder 架构并支持原生视觉理解，为其新架构家族中最小模型。该模型为 552B 参数 MoE，输入处理激活 8B、输出生成激活 16B；KV cache 需求较上一代降至 HBM 的 1/4、SSD 存储的 1/8，API 价格更低。",
+      "summary_zh": "DeepSeek 发布 V4.1-Flash，采用新 Causal Encoder-Decoder 架构并支持原生视觉理解，为其新架构家族中最小模型。该模型为 552B 参数 MoE，输入处理激活 8B、输出生成激活 16B；KV cache 需求较上一代降至 HBM 的 1/4、SSD 存储的 1/8，API 价格更低。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder-Decoder 架构，带原生视觉理解",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3847769875,
+      "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse",
+      "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+      "published_at": "2026-09-10T07:31:01+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek AI 发布多模态 MoE 模型 DeepSeek-V4.1-Flash，552B 主干加 196B Engram 参数，上下文窗口 1M，prefill 激活 8B 参数、decode 激活 16B，全局 KV 缓存降至每 token 890 字节，约为 DeepSeek-V4-Flash 的 1/4、DeepSeek-V1 的 1/437。",
+      "summary_zh": "DeepSeek AI 发布多模态 MoE 模型 DeepSeek-V4.1-Flash，552B 主干加 196B Engram 参数，上下文窗口 1M，prefill 激活 8B 参数、decode 激活 16B，全局 KV 缓存降至每 token 890 字节，约为 DeepSeek-V4-Flash 的 1/4、DeepSeek-V1 的 1/437。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1151459790,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-09-10",
+      "title": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+      "published_at": "2026-09-10T05:58:04.695000+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、Terminal-Bench 2.1 90.6 等。",
+      "summary_zh": "DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、Terminal-Bench 2.1 90.6 等。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2479778008,
+      "url": "https://x.com/suno/status/2097846245540888664",
+      "title": "Suno v6 发布，支持图片、视频和语音备忘录生成音乐",
+      "published_at": "2026-09-10T00:34:55+00:00",
+      "original_language": "zh",
+      "summary_en": "Suno 发布 v6 模型，可将图片、视频和语音备忘录转化为音乐，并对已创建的歌曲进行精确修改。同时提供 v6-wild 版本供探索更多可能性，官方附有 2 分钟以内的功能演示视频。",
+      "summary_zh": "Suno 发布 v6 模型，可将图片、视频和语音备忘录转化为音乐，并对已创建的歌曲进行精确修改。同时提供 v6-wild 版本供探索更多可能性，官方附有 2 分钟以内的功能演示视频。",
+      "source": "aihot_selected",
+      "title_zh": "Suno v6 发布，支持图片、视频和语音备忘录生成音乐",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1286276913,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686114&idx=1&sn=ef25c9da794a29795c3d7ca0637efafb",
+      "title": "27岁前Anthropic研究员Jacob Coxon辞职警示AI灭绝风险，作者重读Tim Urban《人工智能革命》谈文明赌局",
+      "published_at": "2026-09-10T00:08:00+00:00",
+      "original_language": "zh",
+      "summary_en": "27岁研究员Jacob Coxon辞职并称OpenAI与Anthropic正押上所有人生命奔向自我改进的超级智能，Anthropic对齐负责人公开支持。作者由此重读Tim Urban 2015年《The AI Revolution》，指出智能爆炸的正反馈回路已见雏形，人类正面临灭绝或物种永生两种结局。",
+      "summary_zh": "27岁研究员Jacob Coxon辞职并称OpenAI与Anthropic正押上所有人生命奔向自我改进的超级智能，Anthropic对齐负责人公开支持。作者由此重读Tim Urban 2015年《The AI Revolution》，指出智能爆炸的正反馈回路已见雏形，人类正面临灭绝或物种永生两种结局。",
+      "source": "aihot_selected",
+      "title_zh": "27岁前Anthropic研究员Jacob Coxon辞职警示AI灭绝风险，作者重读Tim Urban《人工智能革命》谈文明赌局",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4010692163,
+      "url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Hugging Face 发布 Workflow1111，用 gr.Workflow 以 73 个节点、11 条媒体管线重建 AUTOMATIC1111 的大部分功能，覆盖文本生成图像、高清修复、图生图、prompt matrix、VLM 反推提示词、检测生成 inpaint 蒙版、ControlNet 式预处理器、背景移除、PNG Info 和图生视频。",
+      "summary_zh": "Hugging Face 发布 Workflow1111，用 gr.Workflow 以 73 个节点、11 条媒体管线重建 AUTOMATIC1111 的大部分功能，覆盖文本生成图像、高清修复、图生图、prompt matrix、VLM 反推提示词、检测生成 inpaint 蒙版、ControlNet 式预处理器、背景移除、PNG Info 和图生视频。",
+      "source": "aihot_selected",
+      "title_zh": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 31931900,
+      "url": "https://x.com/gdb/status/2097769891013280241",
+      "title": "Paul Christiano 加入 OpenAI Foundation 董事会及安全与安全委员会",
+      "published_at": "2026-09-09T19:31:31+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 宣布 Alignment Research Center 创始人 Paul Christiano 加入 OpenAI Foundation Board 及其 Safety and Security Committee，该委员会负责 OpenAI 安全与安保实践的治理。",
+      "summary_zh": "OpenAI 宣布 Alignment Research Center 创始人 Paul Christiano 加入 OpenAI Foundation Board 及其 Safety and Security Committee，该委员会负责 OpenAI 安全与安保实践的治理。",
+      "source": "aihot_selected",
+      "title_zh": "Paul Christiano 加入 OpenAI Foundation 董事会及安全与安全委员会",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2689650137,
+      "url": "https://mistral.ai/news/legacy-code-modernization",
+      "title": "Mistral 复盘用 AI Agent 迁移 40000 行 Fortran 77 到 C++ 的经验",
+      "published_at": "2026-09-09T18:59:11.761000+00:00",
+      "original_language": "zh",
+      "summary_en": "Mistral 帮助一家欧洲能源运营商将 40000 行 Fortran 77 储层模拟器迁移到 C++，并复盘了方法与经验。",
+      "summary_zh": "Mistral 帮助一家欧洲能源运营商将 40000 行 Fortran 77 储层模拟器迁移到 C++，并复盘了方法与经验。",
+      "source": "aihot_selected",
+      "title_zh": "Mistral 复盘用 AI Agent 迁移 40000 行 Fortran 77 到 C++ 的经验",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1907786902,
+      "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo",
+      "title": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1，999",
+      "published_at": "2026-09-09T18:15:40.996000+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple 发布首款折叠屏 iPhone Duo，展开为 7.6 英寸内屏，合盖后为 5.4 英寸外屏，提供 iPhone 上最大显示面积。搭载 A20 Pro 芯片和蒸汽室散热，iPhone 17 Pro 续航最高 44 小时视频播放，10 月 16 日开启预购、10 月 23 日发售，起售价 $1，999。",
+      "summary_zh": "Apple 发布首款折叠屏 iPhone Duo，展开为 7.6 英寸内屏，合盖后为 5.4 英寸外屏，提供 iPhone 上最大显示面积。搭载 A20 Pro 芯片和蒸汽室散热，iPhone 17 Pro 续航最高 44 小时视频播放，10 月 16 日开启预购、10 月 23 日发售，起售价 $1，999。",
+      "source": "aihot_selected",
+      "title_zh": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1，999",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3909563830,
+      "url": "https://x.com/natolambert/status/2097745018421236154",
+      "title": "Nathan Lambert 评 Nvidia 收购 HuggingFace：软实力每年值约 100 亿美元",
+      "published_at": "2026-09-09T17:52:41+00:00",
+      "original_language": "zh",
+      "summary_en": "Nathan Lambert 评价 Nvidia 收购 HuggingFace，认为 HuggingFace 影响 AI 讨论方向的能力对 Nvidia 值得每年付出约 100 亿美元。他认为 Nvidia 比三大云厂商更适合做买方，HuggingFace 应摆脱盈利单位定位，去争取下一代 1 亿 AI 开发者；作者曾在 HuggingFace 工作并于去年预言过这一收购。",
+      "summary_zh": "Nathan Lambert 评价 Nvidia 收购 HuggingFace，认为 HuggingFace 影响 AI 讨论方向的能力对 Nvidia 值得每年付出约 100 亿美元。他认为 Nvidia 比三大云厂商更适合做买方，HuggingFace 应摆脱盈利单位定位，去争取下一代 1 亿 AI 开发者；作者曾在 HuggingFace 工作并于去年预言过这一收购。",
+      "source": "aihot_selected",
+      "title_zh": "Nathan Lambert 评 Nvidia 收购 HuggingFace：软实力每年值约 100 亿美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4075211646,
+      "url": "https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence",
+      "title": "Apple 发布 Health Sensing System 与重构版 Health app，Apple Watch Series 12 和 Ultra 4 主打 readiness 与 Health Age",
+      "published_at": "2026-09-09T17:52:05.481000+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple 发布全新健康与健身功能，Apple Watch Series 12 和 Apple Watch Ultra 4 引入 Health Sensing System，支持每 5 秒测心率、HRV 测量频率提升至 24 倍、每日 0-10 的 readiness 评分。",
+      "summary_zh": "Apple 发布全新健康与健身功能，Apple Watch Series 12 和 Apple Watch Ultra 4 引入 Health Sensing System，支持每 5 秒测心率、HRV 测量频率提升至 24 倍、每日 0-10 的 readiness 评分。",
+      "source": "aihot_selected",
+      "title_zh": "Apple 发布 Health Sensing System 与重构版 Health app，Apple Watch Series 12 和 Ultra 4 主打 readiness 与 Health Age",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 908825385,
+      "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max",
+      "title": "Apple 发布 iPhone 18 Pro 与 iPhone 18 Pro Max",
+      "published_at": "2026-09-09T17:30:06.059000+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple 发布 iPhone 18 Pro 和 iPhone 18 Pro Max，配备带可变光圈的 48MP Fusion 主摄、A20 Pro 芯片和新一代 vapor chamber，eSIM 版 iPhone 18 Pro Max 视频播放最长可达 45 小时。",
+      "summary_zh": "Apple 发布 iPhone 18 Pro 和 iPhone 18 Pro Max，配备带可变光圈的 48MP Fusion 主摄、A20 Pro 芯片和新一代 vapor chamber，eSIM 版 iPhone 18 Pro Max 视频播放最长可达 45 小时。",
+      "source": "aihot_selected",
+      "title_zh": "Apple 发布 iPhone 18 Pro 与 iPhone 18 Pro Max",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 565567957,
+      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "title": "GPT-6 Astra 发布后，Sebastian Raschka 解析 looped transformer 与隐藏推理链传闻",
+      "published_at": "2026-09-09T14:37:47+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 发布 GPT-6 Astra，作者评测认为其计算机使用和图像渲染能力尤为突出，ARC-AGI-3 达 99.9%，前代 GPT-5.6 Sol 仅 7.8%。",
+      "summary_zh": "OpenAI 发布 GPT-6 Astra，作者评测认为其计算机使用和图像渲染能力尤为突出，ARC-AGI-3 达 99.9%，前代 GPT-5.6 Sol 仅 7.8%。",
+      "source": "aihot_selected",
+      "title_zh": "GPT-6 Astra 发布后，Sebastian Raschka 解析 looped transformer 与隐藏推理链传闻",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 810967354,
+      "url": "https://www.anthropic.com/institute/econ-scenarios",
+      "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
+      "published_at": "2026-09-09T13:27:40.545000+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 经济团队基于技术报告《Economic Scenarios for Transformative AI》发布交互式经济情景探索工具，把经济表示为任务束，推演 AI 到 2030 年对美国经济的影响。",
+      "summary_zh": "Anthropic 经济团队基于技术报告《Economic Scenarios for Transformative AI》发布交互式经济情景探索工具，把经济表示为任务束，推演 AI 到 2030 年对美国经济的影响。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2996860376,
+      "url": "https://openai.com/index/ai-policy-window",
+      "title": "OpenAI 呼吁抓住 AI 政策窗口期，支持强制性国家安全监管与四项加州法案",
+      "published_at": "2026-09-09T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 宣布推动强制性、基于能力的国家 AI 安全监管，并正式支持四项已通过加州议会的法案：SB 813（独立安全评估基础设施）、AB 1405（AI 审计师标准）、SB 1119（未成年人保护）、AB 1864（防范 AI 生物威胁）。",
+      "summary_zh": "OpenAI 宣布推动强制性、基于能力的国家 AI 安全监管，并正式支持四项已通过加州议会的法案：SB 813（独立安全评估基础设施）、AB 1405（AI 审计师标准）、SB 1119（未成年人保护）、AB 1864（防范 AI 生物威胁）。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 呼吁抓住 AI 政策窗口期，支持强制性国家安全监管与四项加州法案",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2463700585,
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "title": "OpenAI 发布 GPT-6 Astra，面向专业工作场景",
+      "published_at": "2026-09-09T11:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 发布 GPT-6 Astra，已在 ChatGPT Work、Codex 和 API 提供，定价为每百万输入 token $10、输出 token $50。",
+      "summary_zh": "OpenAI 发布 GPT-6 Astra，已在 ChatGPT Work、Codex 和 API 提供，定价为每百万输入 token $10、输出 token $50。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 发布 GPT-6 Astra，面向专业工作场景",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3184066089,
+      "url": "https://openrouter.ai/blog/announcements/us-in-region-routing",
+      "title": "OpenRouter 推出美国区域路由，与去年上线的 EU 路由配套保障数据驻留",
+      "published_at": "2026-09-09T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter 推出 US In-Region Routing，请求经 us.openrouter.ai 在美国境内解密并只路由到美国 provider 端点，eu.openrouter.ai 同理服务欧盟。",
+      "summary_zh": "OpenRouter 推出 US In-Region Routing，请求经 us.openrouter.ai 在美国境内解密并只路由到美国 provider 端点，eu.openrouter.ai 同理服务欧盟。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 推出美国区域路由，与去年上线的 EU 路由配套保障数据驻留",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1474557835,
+      "url": "https://x.com/EMostaque/status/2097427772285079873",
+      "title": "OpenAI 发布 Navier-Stokes 千禧年大奖难题的智能体求解证明",
+      "published_at": "2026-09-08T20:52:03+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 宣布给出 Navier-Stokes 千禧年大奖难题的一个解，证明由一组智能体使用比 GPT-6 Astra 能力强得多的 OpenAI 下一代模型产出。该问题关乎 Navier-Stokes 方程描述的光滑三维流体运动是否会崩溃，约 90 年未解；论文截图显示其构造了对每个正粘性从静止出发、在有限时间内发展出无界速度且动能有界的解，建立了 Fefferman 表述中的备选情形 （C） 与 （D）。",
+      "summary_zh": "OpenAI 宣布给出 Navier-Stokes 千禧年大奖难题的一个解，证明由一组智能体使用比 GPT-6 Astra 能力强得多的 OpenAI 下一代模型产出。该问题关乎 Navier-Stokes 方程描述的光滑三维流体运动是否会崩溃，约 90 年未解；论文截图显示其构造了对每个正粘性从静止出发、在有限时间内发展出无界速度且动能有界的解，建立了 Fefferman 表述中的备选情形 （C） 与 （D）。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 发布 Navier-Stokes 千禧年大奖难题的智能体求解证明",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 364491255,
+      "url": "https://x.com/OpenAIDevs/status/2097399255975813387",
+      "title": "OpenAI 在 API 发布 GPT-Image-2.5 Flare 和 Sunburst 图像模型",
+      "published_at": "2026-09-08T18:58:45+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 推出 API 新图像模型 GPT-Image-2.5 Flare 和 Sunburst，主要改进包括更锐利的细节、更强的风格遵循，以及更多对图像编辑的控制。",
+      "summary_zh": "OpenAI 推出 API 新图像模型 GPT-Image-2.5 Flare 和 Sunburst，主要改进包括更锐利的细节、更强的风格遵循，以及更多对图像编辑的控制。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 在 API 发布 GPT-Image-2.5 Flare 和 Sunburst 图像模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2438501706,
+      "url": "https://x.com/ericmitchellai/status/2097380424570011838",
+      "title": "OpenAI 宣布智能体用新一代模型给出 Navier-Stokes 千禧年大奖难题的解",
+      "published_at": "2026-09-08T17:43:55+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 宣布给出数学前沿难题之一的 Navier-Stokes 千禧年大奖难题的解，该证明由一组智能体使用一个能力显著强于 GPT-6 Astra 的 OpenAI 新一代模型产出。该问题关注 Navier-Stokes 方程描述的光滑三维流体运动是否会崩溃，已悬置约 90 年。",
+      "summary_zh": "OpenAI 宣布给出数学前沿难题之一的 Navier-Stokes 千禧年大奖难题的解，该证明由一组智能体使用一个能力显著强于 GPT-6 Astra 的 OpenAI 新一代模型产出。该问题关注 Navier-Stokes 方程描述的光滑三维流体运动是否会崩溃，已悬置约 90 年。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 宣布智能体用新一代模型给出 Navier-Stokes 千禧年大奖难题的解",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 713768870,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.5-rc.1",
+      "title": "deepseek-ai/deepseek-harness: v0.1.5-rc.1",
+      "published_at": "2026-09-10T03:09:00+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.1.5-rc.1) | [English](#en-v0.1.5-rc.1)\r\n\r\n作为 `0.1.5` 系列的首个候选版本，本版本汇总了自 `v0.1.2-rc.1` 以来的主要用户和开发者相关变更。\r\n\r\n<h3 id=\"cn-v0.1.5-rc.1\">新增功能</h3>\r\n\r\n- DeepSeek 模型适配器新增 `DeepSeek-V41-Flash`（`deepseek-flash`）支持文本、图片及会话历史中的系统提示词更新。新会话默认使用该模型，配置文件显式指定模型时以配置值为准。 @LegGasai\r\n- Web 支持上传任意类型的通用文件：文件与图片可",
+      "summary_zh": "[中文](#cn-v0.1.5-rc.1) | [English](#en-v0.1.5-rc.1)\r\n\r\n作为 `0.1.5` 系列的首个候选版本，本版本汇总了自 `v0.1.2-rc.1` 以来的主要用户和开发者相关变更。\r\n\r\n<h3 id=\"cn-v0.1.5-rc.1\">新增功能</h3>\r\n\r\n- DeepSeek 模型适配器新增 `DeepSeek-V41-Flash`（`deepseek-flash`）支持文本、图片及会话历史中的系统提示词更新。新会话默认使用该模型，配置文件显式指定模型时以配置值为准。 @LegGasai\r\n- Web 支持上传任意类型的通用文件：文件与图片可",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.1.5-rc.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2791514657,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.5-alpha.2",
+      "title": "deepseek-ai/deepseek-harness: v0.1.5-alpha.2",
+      "published_at": "2026-09-09T14:23:10+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.1.5-alpha.2) | [English](#en-v0.1.5-alpha.2)\r\n\r\n<h3 id=\"cn-v0.1.5-alpha.2\">新增功能</h3>\r\n\r\n- 右侧 Sidebar 新增常见文档类型预览，支持 Markdown、代码高亮、HTML、PDF 、图片 @imccyu, @Yifffan, @yixiangihsiang, @CreatixChu, @yudshj\r\n- 支持模型显式在会话中交付文件，并支持在右侧 Sidebar 预览、用默认应用打开、在文件管理器中定位 @yudshj, @CreatixChu\r\n- `/feedback`",
+      "summary_zh": "[中文](#cn-v0.1.5-alpha.2) | [English](#en-v0.1.5-alpha.2)\r\n\r\n<h3 id=\"cn-v0.1.5-alpha.2\">新增功能</h3>\r\n\r\n- 右侧 Sidebar 新增常见文档类型预览，支持 Markdown、代码高亮、HTML、PDF 、图片 @imccyu, @Yifffan, @yixiangihsiang, @CreatixChu, @yudshj\r\n- 支持模型显式在会话中交付文件，并支持在右侧 Sidebar 预览、用默认应用打开、在文件管理器中定位 @yudshj, @CreatixChu\r\n- `/feedback`",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.1.5-alpha.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1546578430,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.3.0",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.3.0",
+      "published_at": "2026-09-10T08:04:06+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at b74592785bff038a1e3b5c533d20ae49e549ab2a -->\n\n## What's Changed\n* ci(desktop): exercise desktop packaging on a schedule by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/11519\n* fix(bridge): keep pending permission/q",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at b74592785bff038a1e3b5c533d20ae49e549ab2a -->\n\n## What's Changed\n* ci(desktop): exercise desktop packaging on a schedule by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/11519\n* fix(bridge): keep pending permission/q",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.3.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 238713914,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.3.0-preview.0",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.3.0-preview.0",
+      "published_at": "2026-09-10T05:53:37+00:00",
+      "original_language": "en",
+      "summary_en": "> **Preview build.** This is a prerelease: the `desktop-latest` updater feed still points at `0.2.2`, so existing installations are not moved onto it. Install it deliberately if you want to try it.\n\n### Downloads\n\n| Platform | File |\n| --- | --- |\n| macOS (Apple Silicon) | `Qwen-Code-Desktop-arm64.d",
+      "summary_zh": "> **Preview build.** This is a prerelease: the `desktop-latest` updater feed still points at `0.2.2`, so existing installations are not moved onto it. Install it deliberately if you want to try it.\n\n### Downloads\n\n| Platform | File |\n| --- | --- |\n| macOS (Apple Silicon) | `Qwen-Code-Desktop-arm64.d",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.3.0-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3931757634,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.2-nightly.20260909.2e212144d3",
+      "title": "QwenLM/qwen-code: Release v0.23.2-nightly.20260909.2e212144d3",
+      "published_at": "2026-09-09T22:00:29+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.2-nightly.20260909.2e212144d3 -->\n\n## What's Changed\n* fix(goal): retry a checkpoint that overran the claim budget instead of spending a stall by @qqqys in https://github.com/QwenLM/qwen-code/pull/11365\n* feat(c",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.2-nightly.20260909.2e212144d3 -->\n\n## What's Changed\n* fix(goal): retry a checkpoint that overran the claim budget instead of spending a stall by @qqqys in https://github.com/QwenLM/qwen-code/pull/11365\n* feat(c",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.23.2-nightly.20260909.2e212144d3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
