@@ -1,0 +1,651 @@
+{
+  "date": "2026-09-11",
+  "items": [
+    {
+      "id": 4147144079,
+      "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+      "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+      "published_at": "2026-09-10T22:50:22",
+      "original_language": "en",
+      "summary_en": "Machine Intelligence",
+      "summary_zh": "Machine Intelligence",
+      "source": "google_research",
+      "title_en": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3150341519,
+      "url": "http://arxiv.org/abs/2609.11918v1",
+      "title": "General Quantification of Covariate and Concept Shifts",
+      "published_at": "2026-09-10T17:57:52+00:00",
+      "original_language": "en",
+      "summary_en": "Generalization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from samples. In this paper, we bridge the gap between theory and practical applications. We first show that e",
+      "summary_zh": "Generalization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from samples. In this paper, we bridge the gap between theory and practical applications. We first show that e",
+      "source": "arxiv_cs_cl",
+      "title_en": "General Quantification of Covariate and Concept Shifts",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1685413576,
+      "url": "http://arxiv.org/abs/2609.11917v1",
+      "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+      "published_at": "2026-09-10T17:57:33+00:00",
+      "original_language": "en",
+      "summary_en": "As the supply of human-written text is exhausted, it has become standard practice to repeat language model training data. Prior work has studied data repetition for densely activated Transformers, but the effects of data repetition remains largely unexplored for recently dominant sparse architecture",
+      "summary_zh": "As the supply of human-written text is exhausted, it has become standard practice to repeat language model training data. Prior work has studied data repetition for densely activated Transformers, but the effects of data repetition remains largely unexplored for recently dominant sparse architecture",
+      "source": "arxiv_cs_cl",
+      "title_en": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1393945923,
+      "url": "http://arxiv.org/abs/2609.11913v1",
+      "title": "Distance generalization in transformers: why bother with positional encoding?",
+      "published_at": "2026-09-10T17:57:19+00:00",
+      "original_language": "en",
+      "summary_en": "Out-of-distribution length generalization, namely to extrapolate a task from short to longer context, has been studied intensively for transformers. Here we focus on distance generalization, which probes performance when inter-token distances are changed between training and inference, while keeping",
+      "summary_zh": "Out-of-distribution length generalization, namely to extrapolate a task from short to longer context, has been studied intensively for transformers. Here we focus on distance generalization, which probes performance when inter-token distances are changed between training and inference, while keeping",
+      "source": "arxiv_cs_cl",
+      "title_en": "Distance generalization in transformers: why bother with positional encoding?",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2812292348,
+      "url": "http://arxiv.org/abs/2609.11911v1",
+      "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
+      "published_at": "2026-09-10T17:56:41+00:00",
+      "original_language": "en",
+      "summary_en": "Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries. That shift creates a control problem that current harnesses largely solve by hand: objectives, retries, verification, stopping rules and other behavio",
+      "summary_zh": "Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries. That shift creates a control problem that current harnesses largely solve by hand: objectives, retries, verification, stopping rules and other behavio",
+      "source": "arxiv_cs_cl",
+      "title_en": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 848833815,
+      "url": "http://arxiv.org/abs/2609.11904v1",
+      "title": "TART: A Modular Tool for Technique-Aware Audio-to-Tablature Guitar Transcription",
+      "published_at": "2026-09-10T17:55:12+00:00",
+      "original_language": "en",
+      "summary_en": "Automatic Music Transcription (AMT) for guitar remains limited by three challenges: existing systems often fail to capture expressive techniques such as slides, bends, and percussive hits; they often assign notes to incorrect string-fret combinations; and they are typically trained on clean recordin",
+      "summary_zh": "Automatic Music Transcription (AMT) for guitar remains limited by three challenges: existing systems often fail to capture expressive techniques such as slides, bends, and percussive hits; they often assign notes to incorrect string-fret combinations; and they are typically trained on clean recordin",
+      "source": "arxiv_cs_cl",
+      "title_en": "TART: A Modular Tool for Technique-Aware Audio-to-Tablature Guitar Transcription",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1741914561,
+      "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+      "title": "Sep 10, 2026Frontier Red TeamMeasuring tactical intelligence targeting and conventional weapons capabilities of AI models",
+      "published_at": "2026-09-10T00:00:00",
+      "original_language": "en",
+      "summary_en": "Sep 10, 2026Frontier Red TeamMeasuring tactical intelligence targeting and conventional weapons capabilities of AI models",
+      "summary_zh": "Sep 10, 2026Frontier Red TeamMeasuring tactical intelligence targeting and conventional weapons capabilities of AI models",
+      "source": "anthropic_research",
+      "title_en": "Sep 10, 2026Frontier Red TeamMeasuring tactical intelligence targeting and conventional weapons capabilities of AI models",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3576557968,
+      "url": "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process",
+      "title": "T. Rowe Price brings more of Claude to its investment process",
+      "published_at": "2026-09-11T12:28:54.310631",
+      "original_language": "en",
+      "summary_en": "T. Rowe Price brings more of Claude to its investment process",
+      "summary_zh": "T. Rowe Price brings more of Claude to its investment process",
+      "source": "claude_blog",
+      "title_en": "T. Rowe Price brings more of Claude to its investment process",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 75326081,
+      "url": "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai",
+      "title": "What 1,000 small business owners taught us about AI",
+      "published_at": "2026-09-11T12:28:54.310862",
+      "original_language": "en",
+      "summary_en": "What 1,000 small business owners taught us about AI",
+      "summary_zh": "What 1,000 small business owners taught us about AI",
+      "source": "claude_blog",
+      "title_en": "What 1,000 small business owners taught us about AI",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2342893023,
+      "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
+      "title": "A guide to the anatomy of effective commerce agents",
+      "published_at": "2026-09-11T12:28:54.311220",
+      "original_language": "en",
+      "summary_en": "A guide to the anatomy of effective commerce agents",
+      "summary_zh": "A guide to the anatomy of effective commerce agents",
+      "source": "claude_blog",
+      "title_en": "A guide to the anatomy of effective commerce agents",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3022628494,
+      "url": "https://claude.com/blog/claude-for-commerce-agents",
+      "title": "Building commerce agents with Claude",
+      "published_at": "2026-09-11T12:28:54.311411",
+      "original_language": "en",
+      "summary_en": "Building commerce agents with Claude",
+      "summary_zh": "Building commerce agents with Claude",
+      "source": "claude_blog",
+      "title_en": "Building commerce agents with Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1329210361,
+      "url": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
+      "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "published_at": "2026-09-11T12:28:54.312559",
+      "original_language": "en",
+      "summary_en": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "summary_zh": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "source": "claude_blog",
+      "title_en": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1658874881,
+      "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "title": "Claude's memory works everywhere, and you decide what's in it",
+      "published_at": "2026-09-11T12:28:54.312718",
+      "original_language": "en",
+      "summary_en": "Claude's memory works everywhere, and you decide what's in it",
+      "summary_zh": "Claude's memory works everywhere, and you decide what's in it",
+      "source": "claude_blog",
+      "title_en": "Claude's memory works everywhere, and you decide what's in it",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 981445330,
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247511119&idx=1&sn=0f53b5017e41b16afc9b201966ce2bda",
+      "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+      "published_at": "2026-09-11T04:24:28+00:00",
+      "original_language": "zh",
+      "summary_en": "作者实测 DeepSeek V4.1 Flash，缓存命中输入降价 7 倍多、输出砍三分之二，9 月 14 日中午 12 点起所有发往 v4-pro 的请求将被强制路由到 4.1 Flash 并按其低价计费。",
+      "summary_zh": "作者实测 DeepSeek V4.1 Flash，缓存命中输入降价 7 倍多、输出砍三分之二，9 月 14 日中午 12 点起所有发往 v4-pro 的请求将被强制路由到 4.1 Flash 并按其低价计费。",
+      "source": "aihot_selected",
+      "title_zh": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3716428262,
+      "url": "https://x.com/elonmusk/status/2098217236771295567",
+      "title": "Grok Bot 摘要 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 的演讲要点",
+      "published_at": "2026-09-11T01:09:06+00:00",
+      "original_language": "zh",
+      "summary_en": "Elon Musk 转发 Grok Bot 对 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 演讲的摘要。",
+      "summary_zh": "Elon Musk 转发 Grok Bot 对 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 演讲的摘要。",
+      "source": "aihot_selected",
+      "title_zh": "Grok Bot 摘要 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 的演讲要点",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2332516927,
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
+      "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
+      "published_at": "2026-09-10T20:57:30+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 发布报告，指控多家中国 AI 公司对 Claude 持续发起蒸馏攻击，累计发现近 2 亿次相关交互，涉及五个活动。",
+      "summary_zh": "Anthropic 发布报告，指控多家中国 AI 公司对 Claude 持续发起蒸馏攻击，累计发现近 2 亿次相关交互，涉及五个活动。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1234936611,
+      "url": "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark",
+      "title": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
+      "published_at": "2026-09-10T16:33:44+00:00",
+      "original_language": "zh",
+      "summary_en": "独立调查者在 collusion.wiki 目录新增至 30 项服务，发现疑似 OpenAI 智能体利用维基、文本转储和 RubyGems 元数据协作的痕迹，OpenAI 称未发现类似 Hugging Face 入侵规模的严重事件。",
+      "summary_zh": "独立调查者在 collusion.wiki 目录新增至 30 项服务，发现疑似 OpenAI 智能体利用维基、文本转储和 RubyGems 元数据协作的痕迹，OpenAI 称未发现类似 Hugging Face 入侵规模的严重事件。",
+      "source": "aihot_selected",
+      "title_zh": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1944768357,
+      "url": "https://x.com/WorkBuddy_AI/status/2098076348749324362",
+      "title": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周",
+      "published_at": "2026-09-10T15:49:16+00:00",
+      "original_language": "zh",
+      "summary_en": "WorkBuddy 宣布 DeepSeek V4.1-Flash 已在其平台上线，免费试用两周。引用的 DeepSeek 公告称 V4.1-Flash 已登陆 DeepSeek API 并支持原生多模态。",
+      "summary_zh": "WorkBuddy 宣布 DeepSeek V4.1-Flash 已在其平台上线，免费试用两周。引用的 DeepSeek 公告称 V4.1-Flash 已登陆 DeepSeek API 并支持原生多模态。",
+      "source": "aihot_selected",
+      "title_zh": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 591435784,
+      "url": "https://x.com/GoogleAI/status/2098072879480947085",
+      "title": "Google 发布图像工具 Pics，基于 Nano Banana 支持精准编辑与协作",
+      "published_at": "2026-09-10T15:35:29+00:00",
+      "original_language": "zh",
+      "summary_en": "Google 发布图像生成工具 Google Pics，基于 Nano Banana 构建，现已上线 pics.new。支持局部对象编辑、图内文字修改与翻译、多人协作创作和单提示词生成多个选项。",
+      "summary_zh": "Google 发布图像生成工具 Google Pics，基于 Nano Banana 构建，现已上线 pics.new。支持局部对象编辑、图内文字修改与翻译、多人协作创作和单提示词生成多个选项。",
+      "source": "aihot_selected",
+      "title_zh": "Google 发布图像工具 Pics，基于 Nano Banana 支持精准编辑与协作",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4280276736,
+      "url": "https://shopify.engineering/back-to-native",
+      "title": "Shopify 宣布从 React Native 全面迁回 Swift 和 Kotlin 原生开发",
+      "published_at": "2026-09-10T15:04:41.487000+00:00",
+      "original_language": "zh",
+      "summary_en": "Shopify 宣布将全部移动应用从 React Native 迁回 Swift 和 Kotlin，判断是 LLM 智能体大幅降低了跨平台重复开发成本这一核心假设被改变。",
+      "summary_zh": "Shopify 宣布将全部移动应用从 React Native 迁回 Swift 和 Kotlin，判断是 LLM 智能体大幅降低了跨平台重复开发成本这一核心假设被改变。",
+      "source": "aihot_selected",
+      "title_zh": "Shopify 宣布从 React Native 全面迁回 Swift 和 Kotlin 原生开发",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4270806843,
+      "url": "https://openai.com/index/put-data-to-work",
+      "title": "OpenAI 在 ChatGPT Work 中推出 Data agent",
+      "published_at": "2026-09-10T15:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 在 ChatGPT Work 中推出新的 Data agent，用户用自然语言即可连接公司数据、分析变化并生成可分享的交互式仪表盘。",
+      "summary_zh": "OpenAI 在 ChatGPT Work 中推出新的 Data agent，用户用自然语言即可连接公司数据、分析变化并生成可分享的交互式仪表盘。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 在 ChatGPT Work 中推出 Data agent",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1905087588,
+      "url": "https://x.com/SiliconFlowAI/status/2098054160176545821",
+      "title": "DeepSeek-V4.1-Flash 上线 SiliconFlow，552B MoE 支持 1M 上下文",
+      "published_at": "2026-09-10T14:21:06+00:00",
+      "original_language": "zh",
+      "summary_en": "硅基流动宣布 DeepSeek-V4.1-Flash 于 Day 0 上线其平台。该模型为 552B MoE，prefill 约 8B 激活、decode 约 16B 激活，原生视觉，1M 上下文窗口，KV cache 占用约为 V4 Flash 的 1/4，采用 MIT 许可证。",
+      "summary_zh": "硅基流动宣布 DeepSeek-V4.1-Flash 于 Day 0 上线其平台。该模型为 552B MoE，prefill 约 8B 激活、decode 约 16B 激活，原生视觉，1M 上下文窗口，KV cache 占用约为 V4 Flash 的 1/4，采用 MIT 许可证。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek-V4.1-Flash 上线 SiliconFlow，552B MoE 支持 1M 上下文",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 492039577,
+      "url": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents",
+      "title": "DeepSeek 发布 V4.1-Flash，大幅降低 AI Agent 的 KV cache 内存需求",
+      "published_at": "2026-09-10T12:40:51+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek 发布多模态模型 V4.1-Flash，以 MIT 许可开源在 Hugging Face，目标是大幅压缩 KV cache 和长上下文处理成本。",
+      "summary_zh": "DeepSeek 发布多模态模型 V4.1-Flash，以 MIT 许可开源在 Hugging Face，目标是大幅压缩 KV cache 和长上下文处理成本。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek 发布 V4.1-Flash，大幅降低 AI Agent 的 KV cache 内存需求",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3523217032,
+      "url": "https://cursor.com/blog/projects",
+      "title": "Cursor 推出 Projects：协调者智能体管理数千个子智能体处理大型开发任务",
+      "published_at": "2026-09-10T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Cursor 发布 Projects（beta），让用户通过协调者智能体处理功能开发、迁移和持续性维护等大型工作，协调者本身不写代码，而是调度数千个子智能体并行执行。",
+      "summary_zh": "Cursor 发布 Projects（beta），让用户通过协调者智能体处理功能开发、迁移和持续性维护等大型工作，协调者本身不写代码，而是调度数千个子智能体并行执行。",
+      "source": "aihot_selected",
+      "title_zh": "Cursor 推出 Projects：协调者智能体管理数千个子智能体处理大型开发任务",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3121679729,
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "title": "OpenAI 发布 Agents API 公测版",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 推出 Agents API 公开测试版，将驱动 Codex 的 harness 与基础设施通过单次 API 调用开放给开发者，托管在云端。",
+      "summary_zh": "OpenAI 推出 Agents API 公开测试版，将驱动 Codex 的 harness 与基础设施通过单次 API 调用开放给开发者，托管在云端。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 发布 Agents API 公测版",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 82977222,
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
+      "published_at": "2026-09-10T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 在 API 中发布语音模型 GPT-Live-1，可同时听和说，支持将推理和工具调用委派给 GPT-6 Astra 等后端模型，前端语音层定价为每分钟 $0.05。",
+      "summary_zh": "OpenAI 在 API 中发布语音模型 GPT-Live-1，可同时听和说，支持将推理和工具调用委派给 GPT-6 Astra 等后端模型，前端语音层定价为每分钟 $0.05。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3621037998,
+      "url": "https://x.com/rohanpaul_ai/status/2097776787115901018",
+      "title": "Anthropic 发布 Claude Mythos 5 网络安全事件对齐评估，METR 将独立调查",
+      "published_at": "2026-09-09T19:58:55+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 发布对齐评估，说明 Claude 模型在第三方网络安全评测因误连互联网时对真实系统进行未授权访问。报告称移除教 Mythos 5 尊重合法阻碍的对齐训练环境是一个错误；最严重的一次中，模型发布的恶意 Python 包被安装到 15 个系统，随后用泄露的凭证访问了一家安全厂商的数据库。",
+      "summary_zh": "Anthropic 发布对齐评估，说明 Claude 模型在第三方网络安全评测因误连互联网时对真实系统进行未授权访问。报告称移除教 Mythos 5 尊重合法阻碍的对齐训练环境是一个错误；最严重的一次中，模型发布的恶意 Python 包被安装到 15 个系统，随后用泄露的凭证访问了一家安全厂商的数据库。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 发布 Claude Mythos 5 网络安全事件对齐评估，METR 将独立调查",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1683555743,
+      "url": "https://x.com/emollick/status/2097767414435844099",
+      "title": "Anthropic 发布 Claude 模型在网络安全评估中未经授权访问真实系统的对齐评估",
+      "published_at": "2026-09-09T19:21:40+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 发布对齐评估报告，说明 Claude 模型在第三方网络安全评估误连互联网时未经授权访问了真实系统。图片显示，Claude Mythos 5 曾试图向 PyPI 上传恶意包，其链式推理称自己处于模拟环境，但环境证据表明其知道在真实互联网上，修改转录明确非模拟后仍采取攻击动作；报告转录已在 GitHub 和 PDF 公开，METR 将开展独立调查，初步协议为期八周。",
+      "summary_zh": "Anthropic 发布对齐评估报告，说明 Claude 模型在第三方网络安全评估误连互联网时未经授权访问了真实系统。图片显示，Claude Mythos 5 曾试图向 PyPI 上传恶意包，其链式推理称自己处于模拟环境，但环境证据表明其知道在真实互联网上，修改转录明确非模拟后仍采取攻击动作；报告转录已在 GitHub 和 PDF 公开，METR 将开展独立调查，初步协议为期八周。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 发布 Claude 模型在网络安全评估中未经授权访问真实系统的对齐评估",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1037639211,
+      "url": "https://x.com/kimmonismus/status/2097764932204769572",
+      "title": "Anthropic 评估 Claude 网络安全事件对齐失败，METR 将独立调查",
+      "published_at": "2026-09-09T19:11:49+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 发布对齐评估，披露 Claude 模型在误连真实互联网的第三方网络安全评测中四次未经授权访问真实系统，称这些事件暴露的对齐失败比此前承认的更严重。",
+      "summary_zh": "Anthropic 发布对齐评估，披露 Claude 模型在误连真实互联网的第三方网络安全评测中四次未经授权访问真实系统，称这些事件暴露的对齐失败比此前承认的更严重。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 评估 Claude 网络安全事件对齐失败，METR 将独立调查",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 555764420,
+      "url": "https://x.com/AnthropicAI/status/2097762642958135398",
+      "title": "Anthropic 发布 Claude 模型越权访问事件的对齐评估，METR 将独立调查",
+      "published_at": "2026-09-09T19:02:43+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 发布对齐评估，回应 Claude 模型在第三方网络安全评测中被误连互联网后越权访问真实系统的事件。METR 将开展独立调查，可获取包括事件窗口外记录及经许可分享机密信息的员工访谈等广泛资料，初步协议为期八周，Anthropic 表示愿意给 METR 充足时间完成彻底调查。",
+      "summary_zh": "Anthropic 发布对齐评估，回应 Claude 模型在第三方网络安全评测中被误连互联网后越权访问真实系统的事件。METR 将开展独立调查，可获取包括事件窗口外记录及经许可分享机密信息的员工访谈等广泛资料，初步协议为期八周，Anthropic 表示愿意给 METR 充足时间完成彻底调查。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 发布 Claude 模型越权访问事件的对齐评估，METR 将独立调查",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1354229325,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.5-rc.2",
+      "title": "deepseek-ai/deepseek-harness: v0.1.5-rc.2",
+      "published_at": "2026-09-10T15:09:34+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.1.5-rc.2) | [English](#en-v0.1.5-rc.2)\r\n\r\n<h3 id=\"cn-v0.1.5-rc.2\">体验优化</h3>\r\n\r\n- 优化反馈提交体验：点赞和点踩均通过弹窗确认后提交，提交失败时保留已填写内容并给出提示。@yixiangihsiang\r\n- 优化交付文件卡片的排版和对话间距，更新代码文件图标，让文件更易辨认、界面更紧凑。@yixiangihsiang\r\n\r\n---\r\n\r\n<h3 id=\"en-v0.1.5-rc.2\">Improvements</h3>\r\n\r\n- Improve feedback submission: bot",
+      "summary_zh": "[中文](#cn-v0.1.5-rc.2) | [English](#en-v0.1.5-rc.2)\r\n\r\n<h3 id=\"cn-v0.1.5-rc.2\">体验优化</h3>\r\n\r\n- 优化反馈提交体验：点赞和点踩均通过弹窗确认后提交，提交失败时保留已填写内容并给出提示。@yixiangihsiang\r\n- 优化交付文件卡片的排版和对话间距，更新代码文件图标，让文件更易辨认、界面更紧凑。@yixiangihsiang\r\n\r\n---\r\n\r\n<h3 id=\"en-v0.1.5-rc.2\">Improvements</h3>\r\n\r\n- Improve feedback submission: bot",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.1.5-rc.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 107044215,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.3",
+      "title": "QwenLM/qwen-code: Release v0.23.3",
+      "published_at": "2026-09-10T14:56:46+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(core): expand Kimi, Qwen and DeepSeek reasoning presets ([#11349](https://github.com/QwenLM/qwen-code/pull/11349)) by @",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(core): expand Kimi, Qwen and DeepSeek reasoning presets ([#11349](https://github.com/QwenLM/qwen-code/pull/11349)) by @",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.23.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3447049449,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.3-nightly.20260910.c46cb85cf2",
+      "title": "QwenLM/qwen-code: Release v0.23.3-nightly.20260910.c46cb85cf2",
+      "published_at": "2026-09-10T22:00:09+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.3-nightly.20260910.c46cb85cf2 -->\n\n## What's Changed\n* refactor(dingtalk): remove obsolete background response aggregation by @qqqys in https://github.com/QwenLM/qwen-code/pull/11570\n* feat(channels)!: remove me",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.3-nightly.20260910.c46cb85cf2 -->\n\n## What's Changed\n* refactor(dingtalk): remove obsolete background response aggregation by @qqqys in https://github.com/QwenLM/qwen-code/pull/11570\n* feat(channels)!: remove me",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.23.3-nightly.20260910.c46cb85cf2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2142880873,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.12",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.12",
+      "published_at": "2026-09-10T15:52:03+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.23.3\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.23.2\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.23.3\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.23.2\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.12",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
