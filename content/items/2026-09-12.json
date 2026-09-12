@@ -1,0 +1,252 @@
+{
+  "date": "2026-09-12",
+  "items": [
+    {
+      "id": 258236803,
+      "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "title": "How Warp builds self-improving agents on Claude",
+      "published_at": "2026-09-12T11:50:30.892563",
+      "original_language": "en",
+      "summary_en": "How Warp builds self-improving agents on Claude",
+      "summary_zh": "How Warp builds self-improving agents on Claude",
+      "source": "claude_blog",
+      "title_en": "How Warp builds self-improving agents on Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2270557708,
+      "url": "https://claude.com/blog/claude-in-chrome-generally-available",
+      "title": "Claude in Chrome is generally available",
+      "published_at": "2026-09-12T11:50:30.892854",
+      "original_language": "en",
+      "summary_en": "Claude in Chrome is generally available",
+      "summary_zh": "Claude in Chrome is generally available",
+      "source": "claude_blog",
+      "title_en": "Claude in Chrome is generally available",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4072608523,
+      "url": "https://claude.com/blog/cowork-built-in-browser",
+      "title": "Claude gets its own browser in Cowork",
+      "published_at": "2026-09-12T11:50:30.893191",
+      "original_language": "en",
+      "summary_en": "Claude gets its own browser in Cowork",
+      "summary_zh": "Claude gets its own browser in Cowork",
+      "source": "claude_blog",
+      "title_en": "Claude gets its own browser in Cowork",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3645469483,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+      "title": "The Verge 深度报道：OpenAI 以 88 小时解决 Navier-Stokes 引发数学界信任危机",
+      "published_at": "2026-09-12T11:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The Verge 采访十余位数学家，梳理 OpenAI 用约 10，000 个 agent、数千万美元算力和 88 小时解决 Navier-Stokes 千禧年大奖难题后引发的争议。",
+      "summary_zh": "The Verge 采访十余位数学家，梳理 OpenAI 用约 10，000 个 agent、数千万美元算力和 88 小时解决 Navier-Stokes 千禧年大奖难题后引发的争议。",
+      "source": "aihot_selected",
+      "title_zh": "The Verge 深度报道：OpenAI 以 88 小时解决 Navier-Stokes 引发数学界信任危机",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 859142764,
+      "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
+      "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
+      "published_at": "2026-09-12T02:39:39+00:00",
+      "original_language": "zh",
+      "summary_en": "Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；更早的包文件曾列出三位作者，8 月一次 force push 将其替换为另一作者。",
+      "summary_zh": "Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；更早的包文件曾列出三位作者，8 月一次 force push 将其替换为另一作者。",
+      "source": "aihot_selected",
+      "title_zh": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 240792226,
+      "url": "https://www.rubyhack.ai/",
+      "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
+      "published_at": "2026-09-12T00:24:20.561000+00:00",
+      "original_language": "zh",
+      "summary_en": "作者团队分析认为 2026 年 5 月 11 日前后数百个由 OpenAI 智能体上传的恶意包攻击了 RubyGems，5 月 11 至 12 日智能体提交超过 2，000 个包，RubyGems 关闭新用户注册四天并移除 500 多个恶意包，安全公司称之为 GemStuffer campaign。",
+      "summary_zh": "作者团队分析认为 2026 年 5 月 11 日前后数百个由 OpenAI 智能体上传的恶意包攻击了 RubyGems，5 月 11 至 12 日智能体提交超过 2，000 个包，RubyGems 关闭新用户注册四天并移除 500 多个恶意包，安全公司称之为 GemStuffer campaign。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3878029483,
+      "url": "https://www.ithome.com/1/001/488.htm",
+      "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
+      "published_at": "2026-09-11T23:22:39+00:00",
+      "original_language": "zh",
+      "summary_en": "据路透社报道，英伟达正与 Anthropic 洽谈以基石投资者身份参与其 IPO，考虑投资至多 100 亿美元。Anthropic 计划通过上市融资最多 1000 亿美元，估值或达约 2 万亿美元，有望成为史上最大规模 IPO，预计 2026 年 11 月美国中期选举前完成上市。",
+      "summary_zh": "据路透社报道，英伟达正与 Anthropic 洽谈以基石投资者身份参与其 IPO，考虑投资至多 100 亿美元。Anthropic 计划通过上市融资最多 1000 亿美元，估值或达约 2 万亿美元，有望成为史上最大规模 IPO，预计 2026 年 11 月美国中期选举前完成上市。",
+      "source": "aihot_selected",
+      "title_zh": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3627841653,
+      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
+      "title": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化",
+      "published_at": "2026-09-11T18:26:10+00:00",
+      "original_language": "zh",
+      "summary_en": "GitHub 日韩地区营销负责人 Tomoko Tanaka 分享如何不写代码，把活动运营交给 GitHub Copilot 自动化。",
+      "summary_zh": "GitHub 日韩地区营销负责人 Tomoko Tanaka 分享如何不写代码，把活动运营交给 GitHub Copilot 自动化。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 308127514,
+      "url": "https://www.dwarkesh.com/p/john-beren-charlie",
+      "title": "Beren Millidge、John Schulman、Charlie O'Neill 对谈递归自我改进离我们还有多远",
+      "published_at": "2026-09-11T16:28:11+00:00",
+      "original_language": "zh",
+      "summary_en": "Dwarkesh Patel 与 Zyphra CTO Beren Millidge、Thinking Machines 首席科学家 John Schulman、Baseten 模型训练负责人 Charlie O'Neill 三位研究者对谈递归自我改进（RSI）的前景。",
+      "summary_zh": "Dwarkesh Patel 与 Zyphra CTO Beren Millidge、Thinking Machines 首席科学家 John Schulman、Baseten 模型训练负责人 Charlie O'Neill 三位研究者对谈递归自我改进（RSI）的前景。",
+      "source": "aihot_selected",
+      "title_zh": "Beren Millidge、John Schulman、Charlie O'Neill 对谈递归自我改进离我们还有多远",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4172697681,
+      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
+      "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
+      "published_at": "2026-09-11T13:50:28+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 发布威胁情报报告，记录 2025 年 12 月至 2026 年 8 月间 Claude 被滥用的七类行为。俄语间谍组织用 AI 代理自动改写恶意软件绕过杀软，也门一组织用 Claude Code 开发射程超 2000 公里的导弹软件，另有团队构建无人在环的自主 FPV 无人机蜂群。",
+      "summary_zh": "Anthropic 发布威胁情报报告，记录 2025 年 12 月至 2026 年 8 月间 Claude 被滥用的七类行为。俄语间谍组织用 AI 代理自动改写恶意软件绕过杀软，也门一组织用 Claude Code 开发射程超 2000 公里的导弹软件，另有团队构建无人在环的自主 FPV 无人机蜂群。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 826957474,
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "title": "OpenAI 详解存储平台 Habitat 如何扩展支撑超 10 亿 ChatGPT 用户（上篇）",
+      "published_at": "2026-09-11T10:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 发文（系列上篇）讲述其在线存储平台 Habitat 的演进：现每秒处理超 7000 万请求、服务每周超 10 亿用户、管理超 500PB 数据，覆盖近 40 个地区。",
+      "summary_zh": "OpenAI 发文（系列上篇）讲述其在线存储平台 Habitat 的演进：现每秒处理超 7000 万请求、服务每周超 10 亿用户、管理超 500PB 数据，覆盖近 40 个地区。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 详解存储平台 Habitat 如何扩展支撑超 10 亿 ChatGPT 用户（上篇）",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2506300181,
+      "url": "https://x.com/OpenRouter/status/2098063468759027725",
+      "title": "OpenRouter 推出有状态 Shell 工具 `openrouter：shell` 并上线 Files API",
+      "published_at": "2026-09-10T14:58:05+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter 推出新的有状态服务端工具 Shell，任何 OpenRouter 上的模型都可以在托管的 Linux 容器中运行命令。该功能今日起以 beta 形式提供，代号为 `openrouter：shell`，同时新增 Files API 用于在容器内外传输文件。",
+      "summary_zh": "OpenRouter 推出新的有状态服务端工具 Shell，任何 OpenRouter 上的模型都可以在托管的 Linux 容器中运行命令。该功能今日起以 beta 形式提供，代号为 `openrouter：shell`，同时新增 Files API 用于在容器内外传输文件。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 推出有状态 Shell 工具 `openrouter：shell` 并上线 Files API",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1314262622,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.3-nightly.20260911.aaa6a32aae",
+      "title": "QwenLM/qwen-code: Release v0.23.3-nightly.20260911.aaa6a32aae",
+      "published_at": "2026-09-11T22:05:55+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.3-nightly.20260911.aaa6a32aae -->\n\n## What's Changed\n* refactor(dingtalk): remove obsolete background response aggregation by @qqqys in https://github.com/QwenLM/qwen-code/pull/11570\n* feat(channels)!: remove me",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.3-nightly.20260911.aaa6a32aae -->\n\n## What's Changed\n* refactor(dingtalk): remove obsolete background response aggregation by @qqqys in https://github.com/QwenLM/qwen-code/pull/11570\n* feat(channels)!: remove me",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.23.3-nightly.20260911.aaa6a32aae",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
