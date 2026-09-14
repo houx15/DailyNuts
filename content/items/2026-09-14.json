@@ -1,0 +1,138 @@
+{
+  "date": "2026-09-14",
+  "items": [
+    {
+      "id": 721104796,
+      "url": "https://claude.com/blog/how-anthropic-employees-use-claude-tag",
+      "title": "How Anthropic employees use Claude Tag",
+      "published_at": "2026-09-14T14:36:54.017255",
+      "original_language": "en",
+      "summary_en": "How Anthropic employees use Claude Tag",
+      "summary_zh": "How Anthropic employees use Claude Tag",
+      "source": "claude_blog",
+      "title_en": "How Anthropic employees use Claude Tag",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 644578201,
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496383&idx=1&sn=2db8607f797615a3647d9fec7e54f448",
+      "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+      "published_at": "2026-09-14T09:59:00+00:00",
+      "original_language": "zh",
+      "summary_en": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
+      "summary_zh": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
+      "source": "aihot_selected",
+      "title_zh": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3982448155,
+      "url": "https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario",
+      "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
+      "published_at": "2026-09-13T18:34:31+00:00",
+      "original_language": "zh",
+      "summary_en": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。",
+      "summary_zh": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。",
+      "source": "aihot_selected",
+      "title_zh": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3247898812,
+      "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+      "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+      "published_at": "2026-09-13T14:15:40+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2，000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。",
+      "summary_zh": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2，000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2246481175,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.7",
+      "title": "QwenLM/qwen-code: cua-driver-rs v0.20.7",
+      "published_at": "2026-09-14T12:11:14+00:00",
+      "original_language": "en",
+      "summary_en": "Qwen CUA Driver prebuilt binaries\n(vendored under `packages/cua-driver`).\n\n- **macOS**: codesigned + notarized universal binary + `QwenCuaDriver.app`\n- **Linux**: unsigned (x86_64 + arm64, glibc 2.31 floor)\n- **Windows**: unsigned UIAccess worker + native SDK payload\n  (x86_64 + arm64); deployments ",
+      "summary_zh": "Qwen CUA Driver prebuilt binaries\n(vendored under `packages/cua-driver`).\n\n- **macOS**: codesigned + notarized universal binary + `QwenCuaDriver.app`\n- **Linux**: unsigned (x86_64 + arm64, glibc 2.31 floor)\n- **Windows**: unsigned UIAccess worker + native SDK payload\n  (x86_64 + arm64); deployments ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: cua-driver-rs v0.20.7",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1956927515,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.3-nightly.20260913.faa395885e",
+      "title": "QwenLM/qwen-code: Release v0.23.3-nightly.20260913.faa395885e",
+      "published_at": "2026-09-13T22:01:59+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.3-nightly.20260913.faa395885e -->\n\n## What's Changed\n* refactor(dingtalk): remove obsolete background response aggregation by @qqqys in https://github.com/QwenLM/qwen-code/pull/11570\n* feat(channels)!: remove me",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.3-nightly.20260913.faa395885e -->\n\n## What's Changed\n* refactor(dingtalk): remove obsolete background response aggregation by @qqqys in https://github.com/QwenLM/qwen-code/pull/11570\n* feat(channels)!: remove me",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.23.3-nightly.20260913.faa395885e",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 36031324,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.43.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.43.0",
+      "published_at": "2026-09-14T12:03:30+00:00",
+      "original_language": "en",
+      "summary_en": "### Minor Changes\n\n- [#3749](https://github.com/MoonshotAI/kimi-code/pull/3749) [`6126472`](https://github.com/MoonshotAI/kimi-code/commit/6126472c7af421070f09c470c5750455dd277657) Thanks [@liruifengv](https://github.com/liruifengv)! - web: AI session titles are now always on — a title is generated ",
+      "summary_zh": "### Minor Changes\n\n- [#3749](https://github.com/MoonshotAI/kimi-code/pull/3749) [`6126472`](https://github.com/MoonshotAI/kimi-code/commit/6126472c7af421070f09c470c5750455dd277657) Thanks [@liruifengv](https://github.com/liruifengv)! - web: AI session titles are now always on — a title is generated ",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.43.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
