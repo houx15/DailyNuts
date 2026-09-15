@@ -1,0 +1,461 @@
+{
+  "date": "2026-09-15",
+  "items": [
+    {
+      "id": 2571678343,
+      "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+      "title": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
+      "published_at": "2026-09-15T13:02:42.794284",
+      "original_language": "en",
+      "summary_en": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
+      "summary_zh": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
+      "source": "claude_blog",
+      "title_en": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3619493768,
+      "url": "https://claude.com/blog/claude-for-financial-advisors",
+      "title": "Claude for Financial Advisors",
+      "published_at": "2026-09-15T13:02:42.794812",
+      "original_language": "en",
+      "summary_en": "Claude for Financial Advisors",
+      "summary_zh": "Claude for Financial Advisors",
+      "source": "claude_blog",
+      "title_en": "Claude for Financial Advisors",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1223588384,
+      "url": "https://claude.com/blog/how-healthcare-organizations-use-claude-tag",
+      "title": "How healthcare organizations use Claude Tag",
+      "published_at": "2026-09-15T13:02:42.795244",
+      "original_language": "en",
+      "summary_en": "How healthcare organizations use Claude Tag",
+      "summary_zh": "How healthcare organizations use Claude Tag",
+      "source": "claude_blog",
+      "title_en": "How healthcare organizations use Claude Tag",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 639061784,
+      "url": "https://claude.com/blog/deploying-ai-from-pilot-to-production",
+      "title": "Deploying AI from pilot to production",
+      "published_at": "2026-09-15T13:02:42.795644",
+      "original_language": "en",
+      "summary_en": "Deploying AI from pilot to production",
+      "summary_zh": "Deploying AI from pilot to production",
+      "source": "claude_blog",
+      "title_en": "Deploying AI from pilot to production",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 623792763,
+      "url": "https://www.ithome.com/1/002/750.htm",
+      "title": "404 Media 曝光 OpenAI 莉莉计划：人工审核 ChatGPT 聊天记录以优化模型",
+      "published_at": "2026-09-15T11:48:13+00:00",
+      "original_language": "zh",
+      "summary_en": "404 Media 披露 OpenAI 内部代号为莉莉计划（Project Lily）的项目，由时薪超 50 美元的提示词审核员查看匿名化后的真实用户聊天记录，评判回复是否切题、是否存在 AI 式话术和谄媚口吻。",
+      "summary_zh": "404 Media 披露 OpenAI 内部代号为莉莉计划（Project Lily）的项目，由时薪超 50 美元的提示词审核员查看匿名化后的真实用户聊天记录，评判回复是否切题、是否存在 AI 式话术和谄媚口吻。",
+      "source": "aihot_selected",
+      "title_zh": "404 Media 曝光 OpenAI 莉莉计划：人工审核 ChatGPT 聊天记录以优化模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3193081548,
+      "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading",
+      "title": "Trail of Bits 批评 1Password 的 AI 补丁基准存在误导，并发布两个补丁验证 Agent 技能",
+      "published_at": "2026-09-15T11:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Trail of Bits 发文批评 1Password 8月6日发布的 FLAWED 报告，称其 26% 的 AI 干净修复率受四项实验设计选择影响而失真，包括刻意指示智能体应用错误修复的提示词占 22% 数据、36% 的试验禁止编译测试，以及不同推理档位设置。",
+      "summary_zh": "Trail of Bits 发文批评 1Password 8月6日发布的 FLAWED 报告，称其 26% 的 AI 干净修复率受四项实验设计选择影响而失真，包括刻意指示智能体应用错误修复的提示词占 22% 数据、36% 的试验禁止编译测试，以及不同推理档位设置。",
+      "source": "aihot_selected",
+      "title_zh": "Trail of Bits 批评 1Password 的 AI 补丁基准存在误导，并发布两个补丁验证 Agent 技能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3463417635,
+      "url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
+      "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
+      "published_at": "2026-09-15T09:04:36+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic CEO Dario Amodei 呼吁行业与政府协调放缓前沿 AI 开发，并寻求反垄断豁免，Sam Altman 与 Elon Musk 表示同意。",
+      "summary_zh": "Anthropic CEO Dario Amodei 呼吁行业与政府协调放缓前沿 AI 开发，并寻求反垄断豁免，Sam Altman 与 Elon Musk 表示同意。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1791547589,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488074&idx=1&sn=7d92ce0f0098ec0c53b243df4709b522",
+      "title": "阶跃星辰发布 StepAudio 3 系列语音大模型，多款在 Artificial Analysis 榜单全球第一",
+      "published_at": "2026-09-15T07:29:56+00:00",
+      "original_language": "zh",
+      "summary_en": "阶跃星辰发布 StepAudio 3 系列，包含 Realtime、ASR、TTS、Gen 和 Music 五款模型，已在阶跃星辰开放平台上线。",
+      "summary_zh": "阶跃星辰发布 StepAudio 3 系列，包含 Realtime、ASR、TTS、Gen 和 Music 五款模型，已在阶跃星辰开放平台上线。",
+      "source": "aihot_selected",
+      "title_zh": "阶跃星辰发布 StepAudio 3 系列语音大模型，多款在 Artificial Analysis 榜单全球第一",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1450263024,
+      "url": "https://x.com/ArtificialAnlys/status/2099698254414029207",
+      "title": "Artificial Analysis 评测：GPT-Live-1 以 81.5 分登顶 Speech to Speech Index",
+      "published_at": "2026-09-15T03:14:09+00:00",
+      "original_language": "zh",
+      "summary_en": "Artificial Analysis 发布 Speech to Speech Index，OpenAI 的 GPT-Live-1 以 81.5 分（Astra 后端，medium 推理强度）排名第一，超过 Grok Voice Think Fast 2.0 High 的 81.3；Sol 后端配置得 80.1 排第三。",
+      "summary_zh": "Artificial Analysis 发布 Speech to Speech Index，OpenAI 的 GPT-Live-1 以 81.5 分（Astra 后端，medium 推理强度）排名第一，超过 Grok Voice Think Fast 2.0 High 的 81.3；Sol 后端配置得 80.1 排第三。",
+      "source": "aihot_selected",
+      "title_zh": "Artificial Analysis 评测：GPT-Live-1 以 81.5 分登顶 Speech to Speech Index",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3049847241,
+      "url": "https://fireworks.ai/blog/DeepSeek-V4.1-Flash-Astra",
+      "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
+      "published_at": "2026-09-15T00:36:35.301000+00:00",
+      "original_language": "zh",
+      "summary_en": "Fireworks 发布 DeepSeek-V4.1-Flash 并公布完整基准结果：在 DeepSWE 上以 max 档取得 74.34% pass@1，与 GPT-6 Astra 同一水平，但每任务成本 $0.43，约为 Astra 的 1/15。",
+      "summary_zh": "Fireworks 发布 DeepSeek-V4.1-Flash 并公布完整基准结果：在 DeepSWE 上以 max 档取得 74.34% pass@1，与 GPT-6 Astra 同一水平，但每任务成本 $0.43，约为 Astra 的 1/15。",
+      "source": "aihot_selected",
+      "title_zh": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 258763697,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
+      "published_at": "2026-09-14T22:59:41+00:00",
+      "original_language": "zh",
+      "summary_en": "Sam Altman、Dario Amodei、Demis Hassabis 和 Elon Musk 周末粗略同意放慢 AI 开发，提出引入第三方审计、监管国内实验室并达成全球放缓协议，批评者则称其为压制竞争者和开源运动的\"卡特尔\"。",
+      "summary_zh": "Sam Altman、Dario Amodei、Demis Hassabis 和 Elon Musk 周末粗略同意放慢 AI 开发，提出引入第三方审计、监管国内实验室并达成全球放缓协议，批评者则称其为压制竞争者和开源运动的\"卡特尔\"。",
+      "source": "aihot_selected",
+      "title_zh": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1904865073,
+      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+      "title": "GPT-5.6 Luna 对比 GPT-6 Astra：$1.20 的模型做代码评审够用吗",
+      "published_at": "2026-09-14T19:56:20+00:00",
+      "original_language": "zh",
+      "summary_en": "Entelligence 在 50 个公开基准 PR 上用相同提示词对比 GPT-5.6 Luna 和 GPT-6 Astra 的代码评审能力，Luna 找到 69 个经验证 bug（Astra 92 个），总成本 $0.20 对 $5.66，精度 74% 对 96%。",
+      "summary_zh": "Entelligence 在 50 个公开基准 PR 上用相同提示词对比 GPT-5.6 Luna 和 GPT-6 Astra 的代码评审能力，Luna 找到 69 个经验证 bug（Astra 92 个），总成本 $0.20 对 $5.66，精度 74% 对 96%。",
+      "source": "aihot_selected",
+      "title_zh": "GPT-5.6 Luna 对比 GPT-6 Astra：$1.20 的模型做代码评审够用吗",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 154376619,
+      "url": "https://x.com/arena/status/2099549108013006958",
+      "title": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名",
+      "published_at": "2026-09-14T17:21:29+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信号排名 第 4（+13.75%）。",
+      "summary_zh": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信号排名 第 4（+13.75%）。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 294455917,
+      "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here",
+      "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
+      "published_at": "2026-09-14T17:09:41.324000+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。",
+      "summary_zh": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。",
+      "source": "aihot_selected",
+      "title_zh": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1561238014,
+      "url": "https://x.com/SiliconFlowAI/status/2099536759168352634",
+      "title": "硅基流动上线开源模型 Hy4 preview，770B 总参数、1M 上下文",
+      "published_at": "2026-09-14T16:32:25+00:00",
+      "original_language": "zh",
+      "summary_en": "硅基流动（SiliconFlow）宣布开源模型 Hy4 preview 上线其平台。该模型总参数 770B、每 token 激活 49B、支持 1M 上下文，采用 Apache 2.0 协议，面向编码、分析、研究和复杂实际工作。用户可将其接入 Claude Code、Codex、Cursor 等已有工具；图片显示定价为每 1M tokens 输入 $0.834、输出 $2.501、缓存 $0.042。",
+      "summary_zh": "硅基流动（SiliconFlow）宣布开源模型 Hy4 preview 上线其平台。该模型总参数 770B、每 token 激活 49B、支持 1M 上下文，采用 Apache 2.0 协议，面向编码、分析、研究和复杂实际工作。用户可将其接入 Claude Code、Codex、Cursor 等已有工具；图片显示定价为每 1M tokens 输入 $0.834、输出 $2.501、缓存 $0.042。",
+      "source": "aihot_selected",
+      "title_zh": "硅基流动上线开源模型 Hy4 preview，770B 总参数、1M 上下文",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2543178363,
+      "url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo",
+      "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
+      "published_at": "2026-09-14T15:46:45+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 告知投资者将实现连续第二个季度盈利，但该说法基于剔除股权激励等成本的调整后指标；据 Financial Times，毛利率超过 80%，尚未计入对 Amazon 等伙伴的分成和模型训练成本。",
+      "summary_zh": "Anthropic 告知投资者将实现连续第二个季度盈利，但该说法基于剔除股权激励等成本的调整后指标；据 Financial Times，毛利率超过 80%，尚未计入对 Amazon 等伙伴的分成和模型训练成本。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2764388566,
+      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive",
+      "title": "恶意 AI 智能体攻击 RubyGems.org：YARD 执行任意代码与 Fastly 缓存密钥利用分析",
+      "published_at": "2026-09-14T12:40:57+00:00",
+      "original_language": "zh",
+      "summary_en": "作者分析被指与 OpenAI 机器人相关的 GemStuffer 恶意 gem 代码，发现其利用 .yardopts 的 --load 加载脚本，在安装或 RubyDoc.info 处理 YARD 文档时执行任意代码，且 Docker 容器有网络访问权限可执行爬取。",
+      "summary_zh": "作者分析被指与 OpenAI 机器人相关的 GemStuffer 恶意 gem 代码，发现其利用 .yardopts 的 --load 加载脚本，在安装或 RubyDoc.info 处理 YARD 文档时执行任意代码，且 Docker 容器有网络访问权限可执行爬取。",
+      "source": "aihot_selected",
+      "title_zh": "恶意 AI 智能体攻击 RubyGems.org：YARD 执行任意代码与 Fastly 缓存密钥利用分析",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2088133688,
+      "url": "https://tomtunguz.com/what-does-the-pause-mean",
+      "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题",
+      "published_at": "2026-09-14T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Tomer Tunguz 分析 Dario Amodei 提出的放缓前沿 AI 发展号召，梳理出可解释性、劳工、经济、地缘政治和监管俘获五派立场，并指出没有任何一派给出具体速度。",
+      "summary_zh": "Tomer Tunguz 分析 Dario Amodei 提出的放缓前沿 AI 发展号召，梳理出可解释性、劳工、经济、地缘政治和监管俘获五派立场，并指出没有任何一派给出具体速度。",
+      "source": "aihot_selected",
+      "title_zh": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2953722692,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.6-alpha.1",
+      "title": "deepseek-ai/deepseek-harness: v0.1.6-alpha.1",
+      "published_at": "2026-09-15T04:57:57+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.1.6-alpha.1) | [English](#en-v0.1.6-alpha.1)\r\n\r\n<h3 id=\"cn-v0.1.6-alpha.1\">新增功能</h3>\r\n\r\n- Web 侧边栏新增终端，支持多标签、Shell 选择和刷新后恢复。 @LegGasai\r\n- 设置中新增已归档会话列表，支持查看和恢复会话。 @tianyicui\r\n- MCP 支持发现和读取资源、使用 URI 模板。内置 Profile 配置 MCP 服务器后可使用共享资源工具。 @tianyicui\r\n- Headless 支持从标准输入接收任务，用 `--session-id` 继续已有",
+      "summary_zh": "[中文](#cn-v0.1.6-alpha.1) | [English](#en-v0.1.6-alpha.1)\r\n\r\n<h3 id=\"cn-v0.1.6-alpha.1\">新增功能</h3>\r\n\r\n- Web 侧边栏新增终端，支持多标签、Shell 选择和刷新后恢复。 @LegGasai\r\n- 设置中新增已归档会话列表，支持查看和恢复会话。 @tianyicui\r\n- MCP 支持发现和读取资源、使用 URI 模板。内置 Profile 配置 MCP 服务器后可使用共享资源工具。 @tianyicui\r\n- Headless 支持从标准输入接收任务，用 `--session-id` 继续已有",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.1.6-alpha.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 4225299291,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.9",
+      "title": "QwenLM/qwen-code: cua-driver-rs v0.20.9",
+      "published_at": "2026-09-15T05:37:52+00:00",
+      "original_language": "en",
+      "summary_en": "Qwen CUA Driver prebuilt binaries\n(vendored under `packages/cua-driver`).\n\n- **macOS**: codesigned + notarized universal binary + `QwenCuaDriver.app`\n- **Linux**: unsigned (x86_64 + arm64, glibc 2.31 floor)\n- **Windows**: unsigned UIAccess worker + native SDK payload\n  (x86_64 + arm64); deployments ",
+      "summary_zh": "Qwen CUA Driver prebuilt binaries\n(vendored under `packages/cua-driver`).\n\n- **macOS**: codesigned + notarized universal binary + `QwenCuaDriver.app`\n- **Linux**: unsigned (x86_64 + arm64, glibc 2.31 floor)\n- **Windows**: unsigned UIAccess worker + native SDK payload\n  (x86_64 + arm64); deployments ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: cua-driver-rs v0.20.9",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2491150331,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.4",
+      "title": "QwenLM/qwen-code: Release v0.23.4",
+      "published_at": "2026-09-14T15:20:21+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\n- Removes configurable message-prefix filtering from channels, so eligible messages now follow normal sender, group, mention, and pairing policies without a prefix. ([#11571](https://github.com",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\n- Removes configurable message-prefix filtering from channels, so eligible messages now follow normal sender, group, mention, and pairing policies without a prefix. ([#11571](https://github.com",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.23.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1180988679,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.4-nightly.20260914.f024b37689",
+      "title": "QwenLM/qwen-code: Release v0.23.4-nightly.20260914.f024b37689",
+      "published_at": "2026-09-14T22:02:19+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.4-nightly.20260914.f024b37689 -->\n\n## What's Changed\n* test: record what the Windows inode gates are hiding, and un-skip one by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/11853\n* fix(cua): preserve ",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.23.4-nightly.20260914.f024b37689 -->\n\n## What's Changed\n* test: record what the Windows inode gates are hiding, and un-skip one by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/11853\n* fix(cua): preserve ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.23.4-nightly.20260914.f024b37689",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 795150307,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.20.8",
+      "title": "QwenLM/qwen-code: cua-driver-rs v0.20.8",
+      "published_at": "2026-09-14T15:55:29+00:00",
+      "original_language": "en",
+      "summary_en": "Qwen CUA Driver prebuilt binaries\n(vendored under `packages/cua-driver`).\n\n- **macOS**: codesigned + notarized universal binary + `QwenCuaDriver.app`\n- **Linux**: unsigned (x86_64 + arm64, glibc 2.31 floor)\n- **Windows**: unsigned UIAccess worker + native SDK payload\n  (x86_64 + arm64); deployments ",
+      "summary_zh": "Qwen CUA Driver prebuilt binaries\n(vendored under `packages/cua-driver`).\n\n- **macOS**: codesigned + notarized universal binary + `QwenCuaDriver.app`\n- **Linux**: unsigned (x86_64 + arm64, glibc 2.31 floor)\n- **Windows**: unsigned UIAccess worker + native SDK payload\n  (x86_64 + arm64); deployments ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: cua-driver-rs v0.20.8",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2064107057,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.43.1",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.43.1",
+      "published_at": "2026-09-15T06:51:26+00:00",
+      "original_language": "en",
+      "summary_en": "### Patch Changes\n\n- [#3780](https://github.com/MoonshotAI/kimi-code/pull/3780) [`486dcd2`](https://github.com/MoonshotAI/kimi-code/commit/486dcd26c76f2854fc351515a45d8f0fc2d31ed6) Thanks [@Grapedge](https://github.com/Grapedge)! - Update the terminal UI engine, fixing link colors in wrapped markdow",
+      "summary_zh": "### Patch Changes\n\n- [#3780](https://github.com/MoonshotAI/kimi-code/pull/3780) [`486dcd2`](https://github.com/MoonshotAI/kimi-code/commit/486dcd26c76f2854fc351515a45d8f0fc2d31ed6) Thanks [@Grapedge](https://github.com/Grapedge)! - Update the terminal UI engine, fixing link colors in wrapped markdow",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.43.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
