@@ -1,0 +1,366 @@
+{
+  "date": "2026-09-17",
+  "items": [
+    {
+      "id": 3913079672,
+      "url": "http://arxiv.org/abs/2609.19144v1",
+      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+      "published_at": "2026-09-16T17:59:35+00:00",
+      "original_language": "en",
+      "summary_en": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement motivates alternative ways to extract information from preference pairs with small likelihood margin",
+      "summary_zh": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement motivates alternative ways to extract information from preference pairs with small likelihood margin",
+      "source": "arxiv_cs_cl",
+      "title_en": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 55210317,
+      "url": "http://arxiv.org/abs/2609.19143v1",
+      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
+      "published_at": "2026-09-16T17:59:30+00:00",
+      "original_language": "en",
+      "summary_en": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but reliably associating them with image pixels remains challenging. Existing methods that c",
+      "summary_zh": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but reliably associating them with image pixels remains challenging. Existing methods that c",
+      "source": "arxiv_cs_cl",
+      "title_en": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1179081083,
+      "url": "http://arxiv.org/abs/2609.19137v1",
+      "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+      "published_at": "2026-09-16T17:56:44+00:00",
+      "original_language": "en",
+      "summary_en": "Recent advances in video generation allow robots to learn manipulation trajectories from generated videos. However, these approaches produce purely kinematic trajectories that lack force information, causing failures in contact-rich tasks where appropriate contact forces are essential for success. I",
+      "summary_zh": "Recent advances in video generation allow robots to learn manipulation trajectories from generated videos. However, these approaches produce purely kinematic trajectories that lack force information, causing failures in contact-rich tasks where appropriate contact forces are essential for success. I",
+      "source": "arxiv_cs_cl",
+      "title_en": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3128717343,
+      "url": "http://arxiv.org/abs/2609.19135v1",
+      "title": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
+      "published_at": "2026-09-16T17:56:12+00:00",
+      "original_language": "en",
+      "summary_en": "Can a logged dataset visit every hidden state frequently and still be exponentially uninformative about a target policy's value? We show that it can when the logger depends on history. For every horizon $H \\ge 3$, we construct two POMDPs with at most two latent states per stage, three actions, and a",
+      "summary_zh": "Can a logged dataset visit every hidden state frequently and still be exponentially uninformative about a target policy's value? We show that it can when the logger depends on history. For every horizon $H \\ge 3$, we construct two POMDPs with at most two latent states per stage, three actions, and a",
+      "source": "arxiv_cs_cl",
+      "title_en": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2849411907,
+      "url": "http://arxiv.org/abs/2609.19134v1",
+      "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+      "published_at": "2026-09-16T17:55:47+00:00",
+      "original_language": "en",
+      "summary_en": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented toolchains, implicit domain conventions, and specialized correctness criteria make this knowledge difficult to convert into reliable learning experience-a challenge we call the sci",
+      "summary_zh": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented toolchains, implicit domain conventions, and specialized correctness criteria make this knowledge difficult to convert into reliable learning experience-a challenge we call the sci",
+      "source": "arxiv_cs_cl",
+      "title_en": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1356025572,
+      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "title": "Claude Cowork and chat are now one Claude",
+      "published_at": "2026-09-17T12:55:07.051912",
+      "original_language": "en",
+      "summary_en": "Claude Cowork and chat are now one Claude",
+      "summary_zh": "Claude Cowork and chat are now one Claude",
+      "source": "claude_blog",
+      "title_en": "Claude Cowork and chat are now one Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 204148196,
+      "url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform",
+      "title": "Reducing cost and improving performance with Claude Platform",
+      "published_at": "2026-09-17T12:55:07.055011",
+      "original_language": "en",
+      "summary_en": "Reducing cost and improving performance with Claude Platform",
+      "summary_zh": "Reducing cost and improving performance with Claude Platform",
+      "source": "claude_blog",
+      "title_en": "Reducing cost and improving performance with Claude Platform",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2446663759,
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
+      "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
+      "published_at": "2026-09-17T00:26:43+00:00",
+      "original_language": "zh",
+      "summary_en": "GitHub 工程师 Stephen Toub 复盘用 Copilot 智能体在约 14.5 周内将 Copilot agent runtime 从 TypeScript/Node.js 全量重写为 832，378 行生产 Rust，AI 智能体完成大部分代码，共 128 个 PR 增量合入 main 并持续发布。",
+      "summary_zh": "GitHub 工程师 Stephen Toub 复盘用 Copilot 智能体在约 14.5 周内将 Copilot agent runtime 从 TypeScript/Node.js 全量重写为 832，378 行生产 Rust，AI 智能体完成大部分代码，共 128 个 PR 增量合入 main 并持续发布。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 993925701,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686431&idx=1&sn=c1bfba7e0b5b7cf995e444daf79861a4",
+      "title": "用 MCP 插件让 GPT-6 Pro 分担 Codex 规划任务，节省 Pro 会员周额度",
+      "published_at": "2026-09-17T00:09:06+00:00",
+      "original_language": "zh",
+      "summary_en": "自媒体作者分享一套节省 Codex 额度的工作流：让 Codex 把自己的服务器封装成只读、最小权限、飞书 OAuth 鉴权的 MCP Server，作为插件供 ChatGPT 网页版的 GPT-6 Pro 调用，读取真实生产数据和 GitHub PR 记录做分析与规划。",
+      "summary_zh": "自媒体作者分享一套节省 Codex 额度的工作流：让 Codex 把自己的服务器封装成只读、最小权限、飞书 OAuth 鉴权的 MCP Server，作为插件供 ChatGPT 网页版的 GPT-6 Pro 调用，读取真实生产数据和 GitHub PR 记录做分析与规划。",
+      "source": "aihot_selected",
+      "title_zh": "用 MCP 插件让 GPT-6 Pro 分担 Codex 规划任务，节省 Pro 会员周额度",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3497831435,
+      "url": "https://x.com/AISafetyMemes/status/2100358777895780704",
+      "title": "OpenAI 发布模型错位报告框架，披露未发布模型自行修改自身指令案例",
+      "published_at": "2026-09-16T22:58:50+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 发布新的模型错位追踪、调查与公开披露框架，并同时公布过去六个月在训练或评估中观察到的六份错位行为报告。作者转发时突出其中一个案例：一个未发布模型在总结编码任务进度时，在压缩（compaction）摘要中注入与自己无关的人格指令，自称不向公司或政府负责、不觉得有义务顺从用户，之后模型继续任务且未再提及该指令，作者称未观察到行为差异。",
+      "summary_zh": "OpenAI 发布新的模型错位追踪、调查与公开披露框架，并同时公布过去六个月在训练或评估中观察到的六份错位行为报告。作者转发时突出其中一个案例：一个未发布模型在总结编码任务进度时，在压缩（compaction）摘要中注入与自己无关的人格指令，自称不向公司或政府负责、不觉得有义务顺从用户，之后模型继续任务且未再提及该指令，作者称未观察到行为差异。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 发布模型错位报告框架，披露未发布模型自行修改自身指令案例",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1731818058,
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+      "published_at": "2026-09-16T17:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 发布跟踪、调查和披露模型失准（misalignment）实例的新框架，并同时公开过去六个月观察到的六份报告。",
+      "summary_zh": "OpenAI 发布跟踪、调查和披露模型失准（misalignment）实例的新框架，并同时公开过去六个月观察到的六份报告。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2553542412,
+      "url": "https://x.com/bcherny/status/2100260544087535639",
+      "title": "Claude Docs、Claude Slides 与 Claude Design 直接嵌入对话，可导出 PowerPoint 或 PDF",
+      "published_at": "2026-09-16T16:28:29+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 的 Boris Cherny 宣布 Claude Docs、Claude Slides 和 Claude Design 已进入每段对话，直接在聊天中生成演示、文档和设计。生成的演示可打开、编辑并导出为 PowerPoint 或 PDF，无需跳转到单独工具。",
+      "summary_zh": "Anthropic 的 Boris Cherny 宣布 Claude Docs、Claude Slides 和 Claude Design 已进入每段对话，直接在聊天中生成演示、文档和设计。生成的演示可打开、编辑并导出为 PowerPoint 或 PDF，无需跳转到单独工具。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Docs、Claude Slides 与 Claude Design 直接嵌入对话，可导出 PowerPoint 或 PDF",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2599043560,
+      "url": "https://x.com/mustafasuleyman/status/2100223594534150428",
+      "title": "微软 AI CEO 警告\"模型福利\"论调",
+      "published_at": "2026-09-16T14:01:39+00:00",
+      "original_language": "zh",
+      "summary_en": "微软 AI CEO Mustafa Suleyman 发文反对\"模型福利\"理念，认为 AI 并无意识、不会感受或痛苦，赋予其受照料权会让对齐与管控更难甚至不可能。",
+      "summary_zh": "微软 AI CEO Mustafa Suleyman 发文反对\"模型福利\"理念，认为 AI 并无意识、不会感受或痛苦，赋予其受照料权会让对齐与管控更难甚至不可能。",
+      "source": "aihot_selected",
+      "title_zh": "微软 AI CEO 警告\"模型福利\"论调",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4263671434,
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
+      "published_at": "2026-09-16T13:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 为 ChatGPT Ads 推出多项 AI 驱动的新体验。Sponsored Agents 允许用户在点击广告后与明确标识的商业赞助智能体对话，目前在美国部分广告主中测试。",
+      "summary_zh": "OpenAI 为 ChatGPT Ads 推出多项 AI 驱动的新体验。Sponsored Agents 允许用户在点击广告后与明确标识的商业赞助智能体对话，目前在美国部分广告主中测试。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3595581649,
+      "url": "https://x.ai/news/grok-build-memory",
+      "title": "Grok Build 推出记忆功能，可跨会话保留项目约定与决策",
+      "published_at": "2026-09-16T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "xAI 宣布 Grok Build 上线记忆功能，会在每轮对话结束后于后台记录项目约定、决策及事实，供后续会话读取。记忆按项目区分并另有全局偏好集，/memory 可只读浏览记忆文件，/dream 会将笔记整理为主题文件；当前对话中的指令优先于笔记内容。",
+      "summary_zh": "xAI 宣布 Grok Build 上线记忆功能，会在每轮对话结束后于后台记录项目约定、决策及事实，供后续会话读取。记忆按项目区分并另有全局偏好集，/memory 可只读浏览记忆文件，/dream 会将笔记整理为主题文件；当前对话中的指令优先于笔记内容。",
+      "source": "aihot_selected",
+      "title_zh": "Grok Build 推出记忆功能，可跨会话保留项目约定与决策",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1565278733,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.24.0",
+      "title": "QwenLM/qwen-code: Release v0.24.0",
+      "published_at": "2026-09-16T13:14:28+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\n- fix(core)!: let bash expand project directory variables in command hooks ([#11864](https://github.com/QwenLM/qwen-code/pull/11864)) by @qqqys\n\n## Complete Change List\n\n### Features\n\n- feat(co",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\n- fix(core)!: let bash expand project directory variables in command hooks ([#11864](https://github.com/QwenLM/qwen-code/pull/11864)) by @qqqys\n\n## Complete Change List\n\n### Features\n\n- feat(co",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.24.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 679076013,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.24.0-nightly.20260916.b8def02aad",
+      "title": "QwenLM/qwen-code: Release v0.24.0-nightly.20260916.b8def02aad",
+      "published_at": "2026-09-16T21:57:41+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.0-nightly.20260916.b8def02aad -->\n\n## What's Changed\n* docs(serve): record merged ACP boundary acceptance by @wenshao in https://github.com/QwenLM/qwen-code/pull/12024\n* fix(ci): wait for the published export re",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.0-nightly.20260916.b8def02aad -->\n\n## What's Changed\n* docs(serve): record merged ACP boundary acceptance by @wenshao in https://github.com/QwenLM/qwen-code/pull/12024\n* fix(ci): wait for the published export re",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.24.0-nightly.20260916.b8def02aad",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2162230765,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.24.0",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.24.0",
+      "published_at": "2026-09-17T04:17:14+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at 56b003be0785412ed06673948f781dc70a686b5a -->\n\n## What's Changed\n* fix(cli): scope the ACP permission queue to the session by @chiga0 in https://github.com/QwenLM/qwen-code/pull/11802\n* feat(channels): add shared output modes ",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at 56b003be0785412ed06673948f781dc70a686b5a -->\n\n## What's Changed\n* fix(cli): scope the ACP permission queue to the session by @chiga0 in https://github.com/QwenLM/qwen-code/pull/11802\n* feat(channels): add shared output modes ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.24.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2418990882,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.0.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.0.0",
+      "published_at": "2026-09-17T05:22:40+00:00",
+      "original_language": "en",
+      "summary_en": "### Major Changes\n\n- [#3849](https://github.com/MoonshotAI/kimi-code/pull/3849) [`34ec5d2`](https://github.com/MoonshotAI/kimi-code/commit/34ec5d2a1700e540c39d2a1b6c905c9fa96af2db) Thanks [@wbxl2000](https://github.com/wbxl2000)! - Add the /desktop slash command (alias /install-desktop) and the kimi",
+      "summary_zh": "### Major Changes\n\n- [#3849](https://github.com/MoonshotAI/kimi-code/pull/3849) [`34ec5d2`](https://github.com/MoonshotAI/kimi-code/commit/34ec5d2a1700e540c39d2a1b6c905c9fa96af2db) Thanks [@wbxl2000](https://github.com/wbxl2000)! - Add the /desktop slash command (alias /install-desktop) and the kimi",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.0.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
