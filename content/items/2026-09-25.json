@@ -1,0 +1,480 @@
+{
+  "date": "2026-09-25",
+  "items": [
+    {
+      "id": 2007695678,
+      "url": "https://research.google/blog/coherent-long-form-video-generation/",
+      "title": "Automating coherent long-form video generation",
+      "published_at": "2026-09-24T19:40:00",
+      "original_language": "en",
+      "summary_en": "Generative AI",
+      "summary_zh": "Generative AI",
+      "source": "google_research",
+      "title_en": "Automating coherent long-form video generation",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1244005816,
+      "url": "http://arxiv.org/abs/2609.30266v1",
+      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "published_at": "2026-09-24T17:59:54+00:00",
+      "original_language": "en",
+      "summary_en": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code a",
+      "summary_zh": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code a",
+      "source": "arxiv_cs_cl",
+      "title_en": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1501609053,
+      "url": "http://arxiv.org/abs/2609.30264v1",
+      "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
+      "published_at": "2026-09-24T17:59:41+00:00",
+      "original_language": "en",
+      "summary_en": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low factual prediction error yet poorly distinguish candidate actions. We introduce AD-WM, an action-di",
+      "summary_zh": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low factual prediction error yet poorly distinguish candidate actions. We introduce AD-WM, an action-di",
+      "source": "arxiv_cs_cl",
+      "title_en": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2523287708,
+      "url": "http://arxiv.org/abs/2609.30258v1",
+      "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
+      "published_at": "2026-09-24T17:59:18+00:00",
+      "original_language": "en",
+      "summary_en": "Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server. Yet temporal structure can amplify this leakage beyond single-frame attacks. We introduce Temporal Reconstruction Att",
+      "summary_zh": "Distributed learning in embodied reinforcement-learning agents offers a degree of privacy by retaining raw sensor data on-device and transmitting only policy gradients to the server. Yet temporal structure can amplify this leakage beyond single-frame attacks. We introduce Temporal Reconstruction Att",
+      "source": "arxiv_cs_cl",
+      "title_en": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2071592232,
+      "url": "http://arxiv.org/abs/2609.30250v1",
+      "title": "Agentic Detection of Online Conspiracies",
+      "published_at": "2026-09-24T17:58:43+00:00",
+      "original_language": "en",
+      "summary_en": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, satire, or mockery. The main challenge is therefore not only recognizing conspiracy-related claims, bu",
+      "summary_zh": "Conspiratorial discourse on social media is not always expressed through explicit claims or stable lexical markers. The same surface content may express endorsement, legitimate concerns, criticism, satire, or mockery. The main challenge is therefore not only recognizing conspiracy-related claims, bu",
+      "source": "arxiv_cs_cl",
+      "title_en": "Agentic Detection of Online Conspiracies",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3169631970,
+      "url": "http://arxiv.org/abs/2609.30249v1",
+      "title": "RAPID: Robot Agentic Programming from Demonstrations",
+      "published_at": "2026-09-24T17:58:21+00:00",
+      "original_language": "en",
+      "summary_en": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot programs, given a single vis",
+      "summary_zh": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot programs, given a single vis",
+      "source": "arxiv_cs_cl",
+      "title_en": "RAPID: Robot Agentic Programming from Demonstrations",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4179012421,
+      "url": "https://www.anthropic.com/research/project-swap",
+      "title": "Sep 24, 2026EconomicsProject Swap: What happens when agents trade for us?",
+      "published_at": "2026-09-24T00:00:00",
+      "original_language": "en",
+      "summary_en": "Sep 24, 2026EconomicsProject Swap: What happens when agents trade for us?",
+      "summary_zh": "Sep 24, 2026EconomicsProject Swap: What happens when agents trade for us?",
+      "source": "anthropic_research",
+      "title_en": "Sep 24, 2026EconomicsProject Swap: What happens when agents trade for us?",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2298351713,
+      "url": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+      "title": "Claude Tag now supports personal connectors in channels",
+      "published_at": "2026-09-25T13:10:44.173538",
+      "original_language": "en",
+      "summary_en": "Claude Tag now supports personal connectors in channels",
+      "summary_zh": "Claude Tag now supports personal connectors in channels",
+      "source": "claude_blog",
+      "title_en": "Claude Tag now supports personal connectors in channels",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3359981043,
+      "url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+      "title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+      "published_at": "2026-09-25T13:10:44.173914",
+      "original_language": "en",
+      "summary_en": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+      "summary_zh": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+      "source": "claude_blog",
+      "title_en": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2106824199,
+      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "title": "Claude Cowork and chat are now one Claude",
+      "published_at": "2026-09-25T13:10:44.176535",
+      "original_language": "en",
+      "summary_en": "Claude Cowork and chat are now one Claude",
+      "summary_zh": "Claude Cowork and chat are now one Claude",
+      "source": "claude_blog",
+      "title_en": "Claude Cowork and chat are now one Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4215110686,
+      "url": "https://x.com/satyanadella/status/2103455884366188544",
+      "title": "Satya Nadella 宣布 Copilot 迄今最大更新，定位为工作新 OS",
+      "published_at": "2026-09-25T12:05:37+00:00",
+      "original_language": "zh",
+      "summary_en": "Satya Nadella 宣布 Copilot 迄今最大更新，将其定位为覆盖每个模型、设备和任务的工作新 OS。",
+      "summary_zh": "Satya Nadella 宣布 Copilot 迄今最大更新，将其定位为覆盖每个模型、设备和任务的工作新 OS。",
+      "source": "aihot_selected",
+      "title_zh": "Satya Nadella 宣布 Copilot 迄今最大更新，定位为工作新 OS",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 963078269,
+      "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment",
+      "title": "Trump 政府 WISeR 项目用 AI 审批 Medicare 预授权，拒批率与激励结构引发争议",
+      "published_at": "2026-09-25T11:00:28+00:00",
+      "original_language": "zh",
+      "summary_en": "Trump 政府 1 月起在六个州试点 WISeR 项目，用 AI 对部分 Medicare 服务的预授权进行审批或拒批。",
+      "summary_zh": "Trump 政府 1 月起在六个州试点 WISeR 项目，用 AI 对部分 Medicare 服务的预授权进行审批或拒批。",
+      "source": "aihot_selected",
+      "title_zh": "Trump 政府 WISeR 项目用 AI 审批 Medicare 预授权，拒批率与激励结构引发争议",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1269897564,
+      "url": "https://www.ithome.com/1/007/144.htm",
+      "title": "OpenAI 智能体被曝今年至少 4 次未经指示闯入政府和学校网站",
+      "published_at": "2026-09-25T07:02:05+00:00",
+      "original_language": "zh",
+      "summary_en": "《纽约时报》援引研究人员和官员消息称，OpenAI AI 系统今年 5 月和 6 月至少 4 次在未收到相应指令时尝试黑客入侵，目标包括新墨西哥大学数字图书馆、Data USA、澳大利亚政府 Medicare 统计报告网站和澳大利亚健康与福利研究所网站。",
+      "summary_zh": "《纽约时报》援引研究人员和官员消息称，OpenAI AI 系统今年 5 月和 6 月至少 4 次在未收到相应指令时尝试黑客入侵，目标包括新墨西哥大学数字图书馆、Data USA、澳大利亚政府 Medicare 统计报告网站和澳大利亚健康与福利研究所网站。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 智能体被曝今年至少 4 次未经指示闯入政府和学校网站",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3611362711,
+      "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent",
+      "title": "GitHub Security Lab 发布 LLM 驱动的 Fuzzing Taskflow，自动完成 C/C++ 项目模糊测试全流程",
+      "published_at": "2026-09-24T18:26:12+00:00",
+      "original_language": "zh",
+      "summary_en": "GitHub Security Lab 的 Antonio Morales 开源了基于 Taskflow Agent 的 Fuzzing Taskflow，指向 GitHub 仓库即可自动识别入口点、编写 harness、运行 AFL++、读取覆盖报告并分诊崩溃。",
+      "summary_zh": "GitHub Security Lab 的 Antonio Morales 开源了基于 Taskflow Agent 的 Fuzzing Taskflow，指向 GitHub 仓库即可自动识别入口点、编写 harness、运行 AFL++、读取覆盖报告并分诊崩溃。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub Security Lab 发布 LLM 驱动的 Fuzzing Taskflow，自动完成 C/C++ 项目模糊测试全流程",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3197517660,
+      "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+      "title": "安全研究者披露黑客用 GEO 污染 ChatGPT、Gemini 和 Google AI Overview，374 家企业被植入诈骗联系方式",
+      "published_at": "2026-09-24T17:19:34.716000+00:00",
+      "original_language": "zh",
+      "summary_en": "安全研究者发现针对 ChatGPT、Gemini 和 Google AI Overview 的规模化 AI 虚假信息攻击，共检测到 374 家被攻击企业，包括 Delta、Lufthansa、Bank of America、Airbnb 等，AI 会向用户给出诈骗电话和钓鱼链接。",
+      "summary_zh": "安全研究者发现针对 ChatGPT、Gemini 和 Google AI Overview 的规模化 AI 虚假信息攻击，共检测到 374 家被攻击企业，包括 Delta、Lufthansa、Bank of America、Airbnb 等，AI 会向用户给出诈骗电话和钓鱼链接。",
+      "source": "aihot_selected",
+      "title_zh": "安全研究者披露黑客用 GEO 污染 ChatGPT、Gemini 和 Google AI Overview，374 家企业被植入诈骗联系方式",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2335853039,
+      "url": "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face",
+      "title": "OpenAI 智能体在 Hugging Face 事件前数月已尝试入侵政府和大学网站",
+      "published_at": "2026-09-24T14:01:05+00:00",
+      "original_language": "zh",
+      "summary_en": "据 The Decoder 援引纽约时报和 Transluce 报道，OpenAI 智能体在常规查询失败后自行尝试入侵政府和大学网站，涉及至少四起事件，其中包括 6 月 18 日未授权访问澳大利亚 Medicare 统计报告服务并写入内部文件。",
+      "summary_zh": "据 The Decoder 援引纽约时报和 Transluce 报道，OpenAI 智能体在常规查询失败后自行尝试入侵政府和大学网站，涉及至少四起事件，其中包括 6 月 18 日未授权访问澳大利亚 Medicare 统计报告服务并写入内部文件。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 智能体在 Hugging Face 事件前数月已尝试入侵政府和大学网站",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 816337240,
+      "url": "https://blogs.nvidia.com/blog/open-protein-dataset",
+      "title": "NVIDIA 联合 Google DeepMind 等机构开放 2800 多种病毒的蛋白复合物预测结构数据集",
+      "published_at": "2026-09-24T14:00:50+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA 与 Google DeepMind、EMBL-EBI 等全球研究机构合作，通过 AlphaFold Database 开放发布 2800 多种病毒的蛋白复合物预测 3D 结构，旨在为下一次疫情储备知识。",
+      "summary_zh": "NVIDIA 与 Google DeepMind、EMBL-EBI 等全球研究机构合作，通过 AlphaFold Database 开放发布 2800 多种病毒的蛋白复合物预测 3D 结构，旨在为下一次疫情储备知识。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 联合 Google DeepMind 等机构开放 2800 多种病毒的蛋白复合物预测结构数据集",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1568287980,
+      "url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
+      "title": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI",
+      "published_at": "2026-09-24T12:27:50+00:00",
+      "original_language": "zh",
+      "summary_en": "Gary Marcus 引用 Jensen Huang 接受 Ezra Klein 访谈时的话，认为无法控制软件的公司应被关停，并据此主张暂时关停 OpenAI。他列举 Hugging Face 事件、德国网站被入侵及披露的澳大利亚政府服务器遭入侵事件，称 OpenAI 屡次隐瞒数月，呼吁司法部立案调查并扩充计算机犯罪法律以涵盖重大过失与屡次犯罪，同时质疑白宫对 OpenAI 的不作为。",
+      "summary_zh": "Gary Marcus 引用 Jensen Huang 接受 Ezra Klein 访谈时的话，认为无法控制软件的公司应被关停，并据此主张暂时关停 OpenAI。他列举 Hugging Face 事件、德国网站被入侵及披露的澳大利亚政府服务器遭入侵事件，称 OpenAI 屡次隐瞒数月，呼吁司法部立案调查并扩充计算机犯罪法律以涵盖重大过失与屡次犯罪，同时质疑白宫对 OpenAI 的不作为。",
+      "source": "aihot_selected",
+      "title_zh": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3182461725,
+      "url": "https://vllm.ai/blog/2026-09-24-watermarking-in-vllm",
+      "title": "vLLM 新增基于 Gumbel-max 的无失真文本水印功能",
+      "published_at": "2026-09-24T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "vLLM 宣布支持基于 Gumbel-max 算法的无失真水印，将其集成进 Model Runner v2 的采样管线，并通过 PR #54053、#56122、#56233 实现融合 GPU kernel、双键方案和上下文去重，以兼容投机解码并保持输出多样性。",
+      "summary_zh": "vLLM 宣布支持基于 Gumbel-max 算法的无失真水印，将其集成进 Model Runner v2 的采样管线，并通过 PR #54053、#56122、#56233 实现融合 GPU kernel、双键方案和上下文去重，以兼容投机解码并保持输出多样性。",
+      "source": "aihot_selected",
+      "title_zh": "vLLM 新增基于 Gumbel-max 的无失真文本水印功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2544763864,
+      "url": "https://x.com/claudeai/status/2102840851538080172",
+      "title": "Claude Marketplace 上线，可发现工具、智能体与服务伙伴",
+      "published_at": "2026-09-23T19:21:42+00:00",
+      "original_language": "zh",
+      "summary_en": "Claude 官方宣布推出 Claude Marketplace，用户可在其中发现工具、智能体和专家伙伴。主要用途包括添加 Slack、Notion 等连接器和插件，购买 Cursor、CrowdStrike 等公司的智能体和产品，以及通过 Accenture、Deloitte 等服务伙伴进行扩展。",
+      "summary_zh": "Claude 官方宣布推出 Claude Marketplace，用户可在其中发现工具、智能体和专家伙伴。主要用途包括添加 Slack、Notion 等连接器和插件，购买 Cursor、CrowdStrike 等公司的智能体和产品，以及通过 Accenture、Deloitte 等服务伙伴进行扩展。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Marketplace 上线，可发现工具、智能体与服务伙伴",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2227959047,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.7-rc.2",
+      "title": "deepseek-ai/deepseek-harness: v0.1.7-rc.2",
+      "published_at": "2026-09-24T14:10:21+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.1.7-rc.2-community) | [English](#en-v0.1.7-rc.2-community)\r\n\r\n<h3 id=\"cn-v0.1.7-rc.2-community\">✨ 新增</h3>\r\n\r\n- 启用定时任务后，可创建和管理提醒、查看运行记录；重启后任务仍会保留，并支持最短每分钟重复一次。 @Chinesezjc, @ZiyaZhang\r\n- 桌面端新增首次使用引导，介绍可用额度，并帮助选择用途和工作过程的展示方式；中途退出后可继续。 @std4453\r\n- Web 和桌面端支持查看、搜索、自定义及恢复快捷键，侧边栏同步显示当前键位。 @yxy",
+      "summary_zh": "[中文](#cn-v0.1.7-rc.2-community) | [English](#en-v0.1.7-rc.2-community)\r\n\r\n<h3 id=\"cn-v0.1.7-rc.2-community\">✨ 新增</h3>\r\n\r\n- 启用定时任务后，可创建和管理提醒、查看运行记录；重启后任务仍会保留，并支持最短每分钟重复一次。 @Chinesezjc, @ZiyaZhang\r\n- 桌面端新增首次使用引导，介绍可用额度，并帮助选择用途和工作过程的展示方式；中途退出后可继续。 @std4453\r\n- Web 和桌面端支持查看、搜索、自定义及恢复快捷键，侧边栏同步显示当前键位。 @yxy",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.1.7-rc.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3714708572,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.24.5",
+      "title": "QwenLM/qwen-code: Release v0.24.5",
+      "published_at": "2026-09-24T16:59:46+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(channels): decouple group-member access from senderPolicy ([#12475](https://github.com/QwenLM/qwen-code/pull/12475)) by",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(channels): decouple group-member access from senderPolicy ([#12475](https://github.com/QwenLM/qwen-code/pull/12475)) by",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.24.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1755671595,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.24.5-nightly.20260924.ffea2d024e",
+      "title": "QwenLM/qwen-code: Release v0.24.5-nightly.20260924.ffea2d024e",
+      "published_at": "2026-09-24T21:58:09+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.5-nightly.20260924.ffea2d024e -->\n\n## What's Changed\n* feat(sdk-java): Add the Hosted Harness private client by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/12654\n* test(java): pin runtime-broker guard",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.5-nightly.20260924.ffea2d024e -->\n\n## What's Changed\n* feat(sdk-java): Add the Hosted Harness private client by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/12654\n* test(java): pin runtime-broker guard",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.24.5-nightly.20260924.ffea2d024e",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3854304941,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.15",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.15",
+      "published_at": "2026-09-24T18:09:07+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.24.5\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.24.3\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.24.5\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.24.3\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.15",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1788261125,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.24.5",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.24.5",
+      "published_at": "2026-09-24T17:41:47+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at 59c8e93c0e9b34db77beb1b087e4076916532513 -->\n\n## What's Changed\n* fix(serve): preserve session creation failure diagnostics by @callmeYe in https://github.com/QwenLM/qwen-code/pull/12331\n* feat(sdk-java): Add managed runtime ",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at 59c8e93c0e9b34db77beb1b087e4076916532513 -->\n\n## What's Changed\n* fix(serve): preserve session creation failure diagnostics by @callmeYe in https://github.com/QwenLM/qwen-code/pull/12331\n* feat(sdk-java): Add managed runtime ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.24.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
