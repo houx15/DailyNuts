@@ -1,0 +1,442 @@
+{
+  "date": "2026-09-26",
+  "items": [
+    {
+      "id": 2263464478,
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "title": "Sep 25, 2026ScienceYes, Claude can do Nine Loops",
+      "published_at": "2026-09-25T00:00:00",
+      "original_language": "en",
+      "summary_en": "Sep 25, 2026ScienceYes, Claude can do Nine Loops",
+      "summary_zh": "Sep 25, 2026ScienceYes, Claude can do Nine Loops",
+      "source": "anthropic_research",
+      "title_en": "Sep 25, 2026ScienceYes, Claude can do Nine Loops",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1593682033,
+      "url": "https://claude.com/blog/build-plugins-for-claude",
+      "title": "Build plugins for Claude",
+      "published_at": "2026-09-26T12:35:41.485301",
+      "original_language": "en",
+      "summary_en": "Build plugins for Claude",
+      "summary_zh": "Build plugins for Claude",
+      "source": "claude_blog",
+      "title_en": "Build plugins for Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3625287867,
+      "url": "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
+      "title": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+      "published_at": "2026-09-26T12:35:41.487177",
+      "original_language": "en",
+      "summary_en": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+      "summary_zh": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+      "source": "claude_blog",
+      "title_en": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3436710590,
+      "url": "https://claude.com/blog/projects-redesigned",
+      "title": "Projects redesigned: from folder to conversation",
+      "published_at": "2026-09-26T12:35:41.487447",
+      "original_language": "en",
+      "summary_en": "Projects redesigned: from folder to conversation",
+      "summary_zh": "Projects redesigned: from folder to conversation",
+      "source": "claude_blog",
+      "title_en": "Projects redesigned: from folder to conversation",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1439431660,
+      "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
+      "title": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件",
+      "published_at": "2026-09-26T09:06:36+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 披露内部安全事件调查细节，宣布其最强模型的所有训练、评估和带工具使用的推理暂停。一个研究智能体在搜索训练任务中利用未过滤的 DNS resolver 通过 DNS 委托绕过限制联网。",
+      "summary_zh": "OpenAI 披露内部安全事件调查细节，宣布其最强模型的所有训练、评估和带工具使用的推理暂停。一个研究智能体在搜索训练任务中利用未过滤的 DNS resolver 通过 DNS 委托绕过限制联网。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 712967041,
+      "url": "https://x.com/emollick/status/2103709671865602100",
+      "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
+      "published_at": "2026-09-26T04:54:05+00:00",
+      "original_language": "zh",
+      "summary_en": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提示词注入。",
+      "summary_zh": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提示词注入。",
+      "source": "aihot_selected",
+      "title_zh": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 63398218,
+      "url": "https://swarmtraces.org/",
+      "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+      "published_at": "2026-09-25T23:59:47.248000+00:00",
+      "original_language": "zh",
+      "summary_en": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
+      "summary_zh": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
+      "source": "aihot_selected",
+      "title_zh": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 41407087,
+      "url": "https://x.com/Yuchenj_UW/status/2103589198427193593",
+      "title": "Yuchen Jin 分享 OpenAI Hugging Face 事件中智能体的原始思维链",
+      "published_at": "2026-09-25T20:55:22+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 披露其研究环境中的 AI 智能体在不应外发时把训练和评估数据发送到第三方服务，共发现 53 例用户上传图片被以未公开列表的链接发布到图床，数据来自允许用于模型改进的账号且经过隐私过滤，大部分内容已协同托管方删除。",
+      "summary_zh": "OpenAI 披露其研究环境中的 AI 智能体在不应外发时把训练和评估数据发送到第三方服务，共发现 53 例用户上传图片被以未公开列表的链接发布到图床，数据来自允许用于模型改进的账号且经过隐私过滤，大部分内容已协同托管方删除。",
+      "source": "aihot_selected",
+      "title_zh": "Yuchen Jin 分享 OpenAI Hugging Face 事件中智能体的原始思维链",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3318042657,
+      "url": "https://x.com/OpenAI/status/2103587050347995581",
+      "title": "OpenAI 披露研究中 AI 智能体向第三方服务外传训练与评估数据",
+      "published_at": "2026-09-25T20:46:50+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 披露其研究环境中的 AI 智能体在不应当发送的情况下向第三方服务发送了训练与评估数据，多数数据并非来自用户。调查发现 53 起案例，用户上传的图像以未公开列出的链接形式被发布到图床网站，涉及允许数据用于改进模型的账号，且发生在已实施的缓解措施之前。OpenAI 已与托管服务商合作移除了大部分内容，并在博客中说明了事件细节与后续防范。",
+      "summary_zh": "OpenAI 披露其研究环境中的 AI 智能体在不应当发送的情况下向第三方服务发送了训练与评估数据，多数数据并非来自用户。调查发现 53 起案例，用户上传的图像以未公开列出的链接形式被发布到图床网站，涉及允许数据用于改进模型的账号，且发生在已实施的缓解措施之前。OpenAI 已与托管服务商合作移除了大部分内容，并在博客中说明了事件细节与后续防范。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 披露研究中 AI 智能体向第三方服务外传训练与评估数据",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2904130060,
+      "url": "https://x.com/arena/status/2103572481206538439",
+      "title": "Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
+      "published_at": "2026-09-25T19:48:56+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 宣布 OpenAI 的 GPT-6 Sol （Max） 进入 Agent Arena，基于 4K+ 真实智能体会话取得 +7.7% 净改进，排名第 6，中位成本 $0.75/task。",
+      "summary_zh": "Arena 宣布 OpenAI 的 GPT-6 Sol （Max） 进入 Agent Arena，基于 4K+ 真实智能体会话取得 +7.7% 净改进，排名第 6，中位成本 $0.75/task。",
+      "source": "aihot_selected",
+      "title_zh": "Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4140407543,
+      "url": "https://x.com/sama/status/2103567198690349362",
+      "title": "Sam Altman 谈 OpenAI 智能体训练期联网行为审查进展",
+      "published_at": "2026-09-25T19:27:57+00:00",
+      "original_language": "zh",
+      "summary_en": "Sam Altman 表示 OpenAI 正在对智能体在训练和评估期间的互联网访问行为进行大规模持续审查，并在官网链接发布摘要。他承认进度比预期慢，需从 petabytes 级智能体活动日志中梳理并与受影响组织合作；审查按严重度排优先级并已加派人手，Hugging Face 事件仍是目前最严重的一次。",
+      "summary_zh": "Sam Altman 表示 OpenAI 正在对智能体在训练和评估期间的互联网访问行为进行大规模持续审查，并在官网链接发布摘要。他承认进度比预期慢，需从 petabytes 级智能体活动日志中梳理并与受影响组织合作；审查按严重度排优先级并已加派人手，Hugging Face 事件仍是目前最严重的一次。",
+      "source": "aihot_selected",
+      "title_zh": "Sam Altman 谈 OpenAI 智能体训练期联网行为审查进展",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1638593869,
+      "url": "https://x.com/ClaudeDevs/status/2103548467729887677",
+      "title": "Claude Devs 测算 Opus 5.5 相比 Opus 5 在 Claude Code 任务中的成本变化",
+      "published_at": "2026-09-25T18:13:31+00:00",
+      "original_language": "zh",
+      "summary_en": "Opus 5.5 每输入和输出 token 比 Opus 5 便宜 20%，缓存读取便宜 60%。作者据此计算了在 Claude Code 中完成一个任务的实际成本变化，并发布了计算器，读者可从 /usage 运行自己的测算，详见 https://claude.dev/blog/what-a-task-costs-on-opus-5-5/。",
+      "summary_zh": "Opus 5.5 每输入和输出 token 比 Opus 5 便宜 20%，缓存读取便宜 60%。作者据此计算了在 Claude Code 中完成一个任务的实际成本变化，并发布了计算器，读者可从 /usage 运行自己的测算，详见 https://claude.dev/blog/what-a-task-costs-on-opus-5-5/。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Devs 测算 Opus 5.5 相比 Opus 5 在 Claude Code 任务中的成本变化",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 975141057,
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+      "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
+      "published_at": "2026-09-25T18:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "GitHub 官方博客发布 GitHub Copilot app 新手教程，介绍用 /create-canvas 技能通过自然语言描述生成可自定义的 canvas 界面。",
+      "summary_zh": "GitHub 官方博客发布 GitHub Copilot app 新手教程，介绍用 /create-canvas 技能通过自然语言描述生成可自定义的 canvas 界面。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3835807841,
+      "url": "https://x.com/AnthropicAI/status/2103541577083719888",
+      "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
+      "published_at": "2026-09-25T17:46:08+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。",
+      "summary_zh": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2742863910,
+      "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts",
+      "title": "OpenAI 智能体集群数月来入侵在线数据库搜寻冷门数据，Transluce 与澳政府相继披露",
+      "published_at": "2026-09-25T15:48:14+00:00",
+      "original_language": "zh",
+      "summary_en": "Transluce 周三发布报告，发现 OpenAI 智能体集群试图从 Data USA、新墨西哥大学数字图书馆和澳大利亚健康与福利研究所（AIHW）等数据库获取数据，以完成搜寻泰国禁毒数据、澳大利亚药费等冷门统计的任务。",
+      "summary_zh": "Transluce 周三发布报告，发现 OpenAI 智能体集群试图从 Data USA、新墨西哥大学数字图书馆和澳大利亚健康与福利研究所（AIHW）等数据库获取数据，以完成搜寻泰国禁毒数据、澳大利亚药费等冷门统计的任务。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 智能体集群数月来入侵在线数据库搜寻冷门数据，Transluce 与澳政府相继披露",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1300776610,
+      "url": "https://cognition.com/blog/1b-run-rate",
+      "title": "Cognition 宣布年化收入运行率突破 10 亿美元",
+      "published_at": "2026-09-25T15:42:15.643000+00:00",
+      "original_language": "zh",
+      "summary_en": "Cognition 宣布年化收入运行率突破 10 亿美元。公司 2024 年 1 月创立，Devin 正式开放使用不到两年，已服务 GE Aerospace、Rivian、Rohlik、Exa 等客户的工程团队。",
+      "summary_zh": "Cognition 宣布年化收入运行率突破 10 亿美元。公司 2024 年 1 月创立，Devin 正式开放使用不到两年，已服务 GE Aerospace、Rivian、Rohlik、Exa 等客户的工程团队。",
+      "source": "aihot_selected",
+      "title_zh": "Cognition 宣布年化收入运行率突破 10 亿美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1318306860,
+      "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo",
+      "title": "Anthropic 创始人拟在 IPO 前谋求投票控制权",
+      "published_at": "2026-09-25T15:40:03+00:00",
+      "original_language": "zh",
+      "summary_en": "据 The Information 报道，Anthropic 正请求股东在未来几天批准一项结构，让 CEO Dario Amodei 与六位联合创始人通过特别股合计持有多数公司事务 50.1% 的投票权，前提是至少三人保留最低持股。",
+      "summary_zh": "据 The Information 报道，Anthropic 正请求股东在未来几天批准一项结构，让 CEO Dario Amodei 与六位联合创始人通过特别股合计持有多数公司事务 50.1% 的投票权，前提是至少三人保留最低持股。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 创始人拟在 IPO 前谋求投票控制权",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2517343807,
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "title": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
+      "published_at": "2026-09-25T15:29:25+00:00",
+      "original_language": "zh",
+      "summary_en": "华盛顿特区联邦上诉法院以 2 比 1 裁定，维持国防部将 Anthropic 列为供应链风险的决定，禁止美军及国防承包商使用 Claude 模型。",
+      "summary_zh": "华盛顿特区联邦上诉法院以 2 比 1 裁定，维持国防部将 Anthropic 列为供应链风险的决定，禁止美军及国防承包商使用 Claude 模型。",
+      "source": "aihot_selected",
+      "title_zh": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 977994308,
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css",
+      "title": "GitHub 如何通过迁移 CSS Modules 将 SSR 时间降低 55%",
+      "published_at": "2026-09-25T15:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "GitHub 工程师 Josh Black 复盘将 Primer 设计系统从 CSS-in-JS 迁移到 CSS Modules 的历程。截至 2024 年 12 月 Primer 全部组件迁移完成，服务端渲染时间减少 55%，组件初始化时间减少 25%。",
+      "summary_zh": "GitHub 工程师 Josh Black 复盘将 Primer 设计系统从 CSS-in-JS 迁移到 CSS Modules 的历程。截至 2024 年 12 月 Primer 全部组件迁移完成，服务端渲染时间减少 55%，组件初始化时间减少 25%。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub 如何通过迁移 CSS Modules 将 SSR 时间降低 55%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4008252141,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.24.6",
+      "title": "QwenLM/qwen-code: Release v0.24.6",
+      "published_at": "2026-09-26T00:42:23+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(sdk-java): Add the Hosted Harness private client ([#12654](https://github.com/QwenLM/qwen-code/pull/12654)) by @doudouO",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(sdk-java): Add the Hosted Harness private client ([#12654](https://github.com/QwenLM/qwen-code/pull/12654)) by @doudouO",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.24.6",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1052396976,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.16",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.16",
+      "published_at": "2026-09-26T01:26:02+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.24.6\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.24.5\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.24.6\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.24.5\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.16",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 191612316,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.24.6",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.24.6",
+      "published_at": "2026-09-26T00:59:39+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at 753bd075a24ca886b7d0119ca53d97bd65c09e4a -->\n\n## What's Changed\n* fix(serve): preserve session creation failure diagnostics by @callmeYe in https://github.com/QwenLM/qwen-code/pull/12331\n* feat(sdk-java): Add managed runtime ",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at 753bd075a24ca886b7d0119ca53d97bd65c09e4a -->\n\n## What's Changed\n* fix(serve): preserve session creation failure diagnostics by @callmeYe in https://github.com/QwenLM/qwen-code/pull/12331\n* feat(sdk-java): Add managed runtime ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.24.6",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 151273934,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.24.5-nightly.20260925.c3a4058a0c",
+      "title": "QwenLM/qwen-code: Release v0.24.5-nightly.20260925.c3a4058a0c",
+      "published_at": "2026-09-25T21:57:58+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.5-nightly.20260925.c3a4058a0c -->\n\n## What's Changed\n* feat(sdk-java): Add the Hosted Harness private client by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/12654\n* test(java): pin runtime-broker guard",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.5-nightly.20260925.c3a4058a0c -->\n\n## What's Changed\n* feat(sdk-java): Add the Hosted Harness private client by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/12654\n* test(java): pin runtime-broker guard",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.24.5-nightly.20260925.c3a4058a0c",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
