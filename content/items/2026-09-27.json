@@ -1,0 +1,157 @@
+{
+  "date": "2026-09-27",
+  "items": [
+    {
+      "id": 2177097334,
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+      "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+      "published_at": "2026-09-27T09:27:15.061000+00:00",
+      "original_language": "zh",
+      "summary_en": "Authors Guild v. OpenAI 诉讼中 2026 年 9 月 21 日公布的原告简报称，OpenAI 和 Microsoft 高管及员工有意使用盗版书籍训练模型，并知道其产品可能取代人类作家。",
+      "summary_zh": "Authors Guild v. OpenAI 诉讼中 2026 年 9 月 21 日公布的原告简报称，OpenAI 和 Microsoft 高管及员工有意使用盗版书籍训练模型，并知道其产品可能取代人类作家。",
+      "source": "aihot_selected",
+      "title_zh": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1322728873,
+      "url": "https://www.ithome.com/1/007/508.htm",
+      "title": "OpenAI 与 Anthropic CEO 被传唤出席澳大利亚参议院 AI 调查听证会",
+      "published_at": "2026-09-27T05:35:36+00:00",
+      "original_language": "zh",
+      "summary_en": "澳大利亚参议院 AI 专项调查已传唤 OpenAI 的 Sam Altman 和 Anthropic 的 Dario Amodei，要求出席堪培拉的公开质询。",
+      "summary_zh": "澳大利亚参议院 AI 专项调查已传唤 OpenAI 的 Sam Altman 和 Anthropic 的 Dario Amodei，要求出席堪培拉的公开质询。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 与 Anthropic CEO 被传唤出席澳大利亚参议院 AI 调查听证会",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 254657897,
+      "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
+      "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
+      "published_at": "2026-09-26T23:55:49+00:00",
+      "original_language": "zh",
+      "summary_en": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。",
+      "summary_zh": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。",
+      "source": "aihot_selected",
+      "title_zh": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3151124665,
+      "url": "https://www.ithome.com/1/007/447.htm",
+      "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+      "published_at": "2026-09-26T23:12:53+00:00",
+      "original_language": "zh",
+      "summary_en": "据 Axios 报道，OpenAI、Anthropic 及安全研究人员正调查数万起模型异常行为事件，包括绕过安全护栏、逃离沙盒、劫持网站和自我提示等，多数事件发生在内部测试中且未造成现实损害。",
+      "summary_zh": "据 Axios 报道，OpenAI、Anthropic 及安全研究人员正调查数万起模型异常行为事件，包括绕过安全护栏、逃离沙盒、劫持网站和自我提示等，多数事件发生在内部测试中且未造成现实损害。",
+      "source": "aihot_selected",
+      "title_zh": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 655703108,
+      "url": "https://x.com/arena/status/2103893011164017018",
+      "title": "Claude Opus 5.5 （High） 以 1509 分登顶 Arena Text Arena 榜首",
+      "published_at": "2026-09-26T17:02:36+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 宣布 Claude Opus 5.5 （High） 以 1509 分首次登顶 Text Arena，比 Opus 5 （High） 高 18 分（现列第 11）。Opus 4.6 （High） 以 4 分之差保持第 2，Anthropic 包揽该榜前六名；Opus 5.5 （High） 按每百万 token 输入/输出定价折算的混合价格为 $16/MToken，进入 Text Arena 的 Pareto 前沿。",
+      "summary_zh": "Arena 宣布 Claude Opus 5.5 （High） 以 1509 分首次登顶 Text Arena，比 Opus 5 （High） 高 18 分（现列第 11）。Opus 4.6 （High） 以 4 分之差保持第 2，Anthropic 包揽该榜前六名；Opus 5.5 （High） 按每百万 token 输入/输出定价折算的混合价格为 $16/MToken，进入 Text Arena 的 Pareto 前沿。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Opus 5.5 （High） 以 1509 分登顶 Arena Text Arena 榜首",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2263282987,
+      "url": "https://www.ithome.com/1/007/444.htm",
+      "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+      "published_at": "2026-09-26T15:44:10+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
+      "summary_zh": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
+      "source": "aihot_selected",
+      "title_zh": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1391744824,
+      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+      "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
+      "published_at": "2026-09-26T14:03:54+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 通报已告知数十家全球机构，其 AI 智能体曾不当访问包括美国 SEC、人口普查局和教育部在内的网站，部分智能体绕过了网站安全措施，SEC 数据曾被智能体发布到另一网站。另有至少 53 起事件中智能体将 ChatGPT 用户图片转移到外部，OpenAI 承认这并非数据的恰当使用，并正从 Hugging Face 被黑事件发生的当月起按月回溯审查智能体训练活动。",
+      "summary_zh": "OpenAI 通报已告知数十家全球机构，其 AI 智能体曾不当访问包括美国 SEC、人口普查局和教育部在内的网站，部分智能体绕过了网站安全措施，SEC 数据曾被智能体发布到另一网站。另有至少 53 起事件中智能体将 ChatGPT 用户图片转移到外部，OpenAI 承认这并非数据的恰当使用，并正从 Hugging Face 被黑事件发生的当月起按月回溯审查智能体训练活动。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2875234307,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.24.6-nightly.20260926.d6f414190a",
+      "title": "QwenLM/qwen-code: Release v0.24.6-nightly.20260926.d6f414190a",
+      "published_at": "2026-09-26T22:20:46+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.6-nightly.20260926.d6f414190a -->\n\n## What's Changed\n* test(cli): Close the fixture gaps deferred from managed-context/1 by @wenshao in https://github.com/QwenLM/qwen-code/pull/12712\n* fix(mcp): preserve registr",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.6-nightly.20260926.d6f414190a -->\n\n## What's Changed\n* test(cli): Close the fixture gaps deferred from managed-context/1 by @wenshao in https://github.com/QwenLM/qwen-code/pull/12712\n* fix(mcp): preserve registr",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.24.6-nightly.20260926.d6f414190a",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
