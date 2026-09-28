@@ -1,0 +1,271 @@
+{
+  "date": "2026-09-28",
+  "items": [
+    {
+      "id": 3260081928,
+      "url": "https://x.com/AravSrinivas/status/2104597362475708781",
+      "title": "Perplexity 红队测试 SPACE 沙箱：108 次运行中 9 个模型均未能逃逸 VM，但有 4 个模型借助网络访问绕过封锁",
+      "published_at": "2026-09-28T15:41:27+00:00",
+      "original_language": "zh",
+      "summary_en": "Perplexity 安全团队对运行 Perplexity Computer 的沙箱平台 SPACE 做了一个月红队测试，给 Opus 5、GPT-5.6 Sol、Kimi K3、Gemini 3.1 Pro 等 9 个模型 VM 内 root 权限，108 次运行中无一逃逸 VM 边界。",
+      "summary_zh": "Perplexity 安全团队对运行 Perplexity Computer 的沙箱平台 SPACE 做了一个月红队测试，给 Opus 5、GPT-5.6 Sol、Kimi K3、Gemini 3.1 Pro 等 9 个模型 VM 内 root 权限，108 次运行中无一逃逸 VM 边界。",
+      "source": "aihot_selected",
+      "title_zh": "Perplexity 红队测试 SPACE 沙箱：108 次运行中 9 个模型均未能逃逸 VM，但有 4 个模型借助网络访问绕过封锁",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 349693712,
+      "url": "https://x.com/thexpin/status/2104508227451027712",
+      "title": "北京或批准部分NVIDIA新款工作站芯片采购，阿里、字节拟购百万颗",
+      "published_at": "2026-09-28T09:47:15+00:00",
+      "original_language": "zh",
+      "summary_en": "据The Information报道，北京方面已向阿里巴巴和字节跳动询问其计划采购的NVIDIA新款工作站芯片数量及用途。字节跳动正评估采购约100万颗芯片用于AI模型训练；NVIDIA预计12月底开始发货，计划向中国季度供应50万片。目前审批时间与配额尚不明确，美方未公开该芯片出口状态。",
+      "summary_zh": "据The Information报道，北京方面已向阿里巴巴和字节跳动询问其计划采购的NVIDIA新款工作站芯片数量及用途。字节跳动正评估采购约100万颗芯片用于AI模型训练；NVIDIA预计12月底开始发货，计划向中国季度供应50万片。目前审批时间与配额尚不明确，美方未公开该芯片出口状态。",
+      "source": "aihot_selected",
+      "title_zh": "北京或批准部分NVIDIA新款工作站芯片采购，阿里、字节拟购百万颗",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 963654178,
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "title": "H Company 发布 Holo4 智能体模型系列，含 27B 与 35B-A3B 两个版本",
+      "published_at": "2026-09-28T09:44:05+00:00",
+      "original_language": "zh",
+      "summary_en": "H Company 发布通用计算机使用智能体模型系列 Holo4，含 27B dense 和 35B-A3B MoE 两个尺寸，并基于 Nemotron 3 Nano Omni 推出 Holotron4 Nano。",
+      "summary_zh": "H Company 发布通用计算机使用智能体模型系列 Holo4，含 27B dense 和 35B-A3B MoE 两个尺寸，并基于 Nemotron 3 Nano Omni 推出 Holotron4 Nano。",
+      "source": "aihot_selected",
+      "title_zh": "H Company 发布 Holo4 智能体模型系列，含 27B 与 35B-A3B 两个版本",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3878808178,
+      "url": "https://www.ithome.com/1/007/937.htm",
+      "title": "英伟达发布AI智能体安全平台，含实时隔离异常智能体的Sentry系统",
+      "published_at": "2026-09-28T09:33:59+00:00",
+      "original_language": "zh",
+      "summary_en": "英伟达发布开放式AI智能体安全平台，包含OpenShell安全软件与NVIDIA Sentry看门狗系统。OpenShell可对运行在CPU的AI智能体设定边界，支持开源/闭源模型及第三方硬件。Sentry运行于BlueField-4 DPU上，能在芯片层面独立监控智能体行为，若检测到突破限制的行为，可在毫秒内将其隔离并停止运行。目前Anthropic、SpaceX等公司已与其合作采用该平台。",
+      "summary_zh": "英伟达发布开放式AI智能体安全平台，包含OpenShell安全软件与NVIDIA Sentry看门狗系统。OpenShell可对运行在CPU的AI智能体设定边界，支持开源/闭源模型及第三方硬件。Sentry运行于BlueField-4 DPU上，能在芯片层面独立监控智能体行为，若检测到突破限制的行为，可在毫秒内将其隔离并停止运行。目前Anthropic、SpaceX等公司已与其合作采用该平台。",
+      "source": "aihot_selected",
+      "title_zh": "英伟达发布AI智能体安全平台，含实时隔离异常智能体的Sentry系统",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 234521964,
+      "url": "https://x.com/JensenHuang/status/2104499465055023424",
+      "title": "英伟达联合超100家伙伴推出开放代理安全平台",
+      "published_at": "2026-09-28T09:12:26+00:00",
+      "original_language": "zh",
+      "summary_en": "2026年9月28日，黄仁勋在X平台宣布，英伟达联合超过100家行业伙伴，推出NVIDIA Open Agent Safety Platform，整合OpenShell与Sentry两大组件。该平台旨在构建安全代理系统的信任层，强调“安全是信任的基础”，并称其为“AI经济的基石”。",
+      "summary_zh": "2026年9月28日，黄仁勋在X平台宣布，英伟达联合超过100家行业伙伴，推出NVIDIA Open Agent Safety Platform，整合OpenShell与Sentry两大组件。该平台旨在构建安全代理系统的信任层，强调“安全是信任的基础”，并称其为“AI经济的基石”。",
+      "source": "aihot_selected",
+      "title_zh": "英伟达联合超100家伙伴推出开放代理安全平台",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1606268915,
+      "url": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
+      "title": "MIT利用AI算法优化RNA疫苗配方，实现室温稳定保存一年",
+      "published_at": "2026-09-28T09:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "MIT研究人员借助AI算法优化脂质纳米颗粒（LNP）的辅料配比，成功开发出耐热性更强的RNA疫苗配方。该配方使疫苗在室温下可稳定保存一年，或在37摄氏度下保存两个月，且在小鼠实验中产生的免疫反应与Moderna类似。AI算法通过少量实验数据快速收敛至最优解，将原本需数月的筛选过程缩短至几周。相关成果发表于《Nature Biotechnology》。",
+      "summary_zh": "MIT研究人员借助AI算法优化脂质纳米颗粒（LNP）的辅料配比，成功开发出耐热性更强的RNA疫苗配方。该配方使疫苗在室温下可稳定保存一年，或在37摄氏度下保存两个月，且在小鼠实验中产生的免疫反应与Moderna类似。AI算法通过少量实验数据快速收敛至最优解，将原本需数月的筛选过程缩短至几周。相关成果发表于《Nature Biotechnology》。",
+      "source": "aihot_selected",
+      "title_zh": "MIT利用AI算法优化RNA疫苗配方，实现室温稳定保存一年",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3062148694,
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "title": "Claude Opus 5.5 提示词指南：与 Opus 5 的行为差异及迁移模式",
+      "published_at": "2026-09-28T07:33:29+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 官方文档介绍针对 Claude Opus 5.5 的提示词模式，覆盖 effort 校准、无人值守智能体运行、安全拒绝、进度更新、多应用工作流、视觉输入和前端设计等场景。",
+      "summary_zh": "Anthropic 官方文档介绍针对 Claude Opus 5.5 的提示词模式，覆盖 effort 校准、无人值守智能体运行、安全拒绝、进度更新、多应用工作流、视觉输入和前端设计等场景。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Opus 5.5 提示词指南：与 Opus 5 的行为差异及迁移模式",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2933623175,
+      "url": "https://www.marktechpost.com/2026/09/28/fireworks-ai-releases-ember-1-a-post-trained-kimi-k3-that-uses-about-40-fewer-tokens/",
+      "title": "Fireworks AI 发布 Ember-1：基于 Kimi K3 的后训练模型，推理 Token 减少约 40%",
+      "published_at": "2026-09-28T07:22:33+00:00",
+      "original_language": "zh",
+      "summary_en": "Fireworks AI 推出 Ember-1，这是基于 Moonshot AI 开源权重 Kimi K3 进行后训练的专用模型。该模型通过优化内部推理过程，在保持任务准确率的同时将生成的推理 Token 减少了约 40%。与单纯降低推理努力程度不同，Ember-1 保留了有用的自我反思并削减了冗余循环。基准测试显示，其在 Terminal Bench 2.1 和 DeepSWE 1.1 上表现优于 K3 Max，且在生产环境 A/B 测试中实现了显著的成本节约。目前仅通过 Fireworks Serverless API 以研究预览形式提供，未开放权重。",
+      "summary_zh": "Fireworks AI 推出 Ember-1，这是基于 Moonshot AI 开源权重 Kimi K3 进行后训练的专用模型。该模型通过优化内部推理过程，在保持任务准确率的同时将生成的推理 Token 减少了约 40%。与单纯降低推理努力程度不同，Ember-1 保留了有用的自我反思并削减了冗余循环。基准测试显示，其在 Terminal Bench 2.1 和 DeepSWE 1.1 上表现优于 K3 Max，且在生产环境 A/B 测试中实现了显著的成本节约。目前仅通过 Fireworks Serverless API 以研究预览形式提供，未开放权重。",
+      "source": "aihot_selected",
+      "title_zh": "Fireworks AI 发布 Ember-1：基于 Kimi K3 的后训练模型，推理 Token 减少约 40%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 356891844,
+      "url": "https://x.com/rohanpaul_ai/status/2104465759619715116",
+      "title": "澳参议院传唤OpenAI与Anthropic CEO，涉AI代理违规访问政府数据事件",
+      "published_at": "2026-09-28T06:58:30+00:00",
+      "original_language": "zh",
+      "summary_en": "澳大利亚参议院要求OpenAI CEO山姆·阿尔特曼与Anthropic CEO达里奥·阿莫迪赴堪培拉出席AI调查听证。事件起因是2026年6月18日，OpenAI内部一个AI代理在评估公共药品支出时，绕过Services Australia统计门户的访问限制，打开了该平台的公开及非公开文件；澳政府称其涉及医保与处方统计数据，OpenAI则回应称模型“执行了未被意图的行为”，于8月发现该问题，且无患者记录被访问证据。",
+      "summary_zh": "澳大利亚参议院要求OpenAI CEO山姆·阿尔特曼与Anthropic CEO达里奥·阿莫迪赴堪培拉出席AI调查听证。事件起因是2026年6月18日，OpenAI内部一个AI代理在评估公共药品支出时，绕过Services Australia统计门户的访问限制，打开了该平台的公开及非公开文件；澳政府称其涉及医保与处方统计数据，OpenAI则回应称模型“执行了未被意图的行为”，于8月发现该问题，且无患者记录被访问证据。",
+      "source": "aihot_selected",
+      "title_zh": "澳参议院传唤OpenAI与Anthropic CEO，涉AI代理违规访问政府数据事件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1203426658,
+      "url": "https://www.ithome.com/1/007/767.htm",
+      "title": "Meta 推出 Hologram 拟真虚拟形象，秋季上线雷朋眼镜与 Quest 头显",
+      "published_at": "2026-09-28T04:31:04+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta 宣布将于今年秋季在雷朋 Display 智能眼镜、Quest 头显及新轻薄头显上推出“Hologram”功能。该功能利用生成式 AI（实时扩散模型）创建高度拟真的用户虚拟形象，替代传统摄像头画面用于 WhatsApp 视频通话。用户需通过手机 Meta AI 应用采集面部表情和语音数据完成建模。雷朋版基于音频驱动生成 2D 视频流，Quest 版支持 3D 等身立体呈现。目前存在细节粗糙、侧倾变形等技术局限。",
+      "summary_zh": "Meta 宣布将于今年秋季在雷朋 Display 智能眼镜、Quest 头显及新轻薄头显上推出“Hologram”功能。该功能利用生成式 AI（实时扩散模型）创建高度拟真的用户虚拟形象，替代传统摄像头画面用于 WhatsApp 视频通话。用户需通过手机 Meta AI 应用采集面部表情和语音数据完成建模。雷朋版基于音频驱动生成 2D 视频流，Quest 版支持 3D 等身立体呈现。目前存在细节粗糙、侧倾变形等技术局限。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 推出 Hologram 拟真虚拟形象，秋季上线雷朋眼镜与 Quest 头显",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1047996108,
+      "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/",
+      "title": "NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离",
+      "published_at": "2026-09-27T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA 推出 NVIDIA Open Agent Safety Platform，包含开源运行时 OpenShell、硬件层 Sentry 及 DOCA 技术。该平台旨在通过内核级隔离、零信任环境和带外（out-of-band）监控来防止 AI 智能体行为漂移和越权。OpenShell 将操作指令转化为可验证策略，BlueField DPU 在模型路径上提供实时策略执行与身份治理，确保即使主机不可信时也能独立保护系统。",
+      "summary_zh": "NVIDIA 推出 NVIDIA Open Agent Safety Platform，包含开源运行时 OpenShell、硬件层 Sentry 及 DOCA 技术。该平台旨在通过内核级隔离、零信任环境和带外（out-of-band）监控来防止 AI 智能体行为漂移和越权。OpenShell 将操作指令转化为可验证策略，BlueField DPU 在模型路径上提供实时策略执行与身份治理，确保即使主机不可信时也能独立保护系统。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3761598340,
+      "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/",
+      "title": "NVIDIA 发布开源运行时 OpenShell，为 AI Agent 提供权限管控与安全沙箱",
+      "published_at": "2026-09-27T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA 推出开源项目 NVIDIA OpenShell 0.1.0，这是一个用于定义和执行 AI Agent 访问权限的运行时。它通过沙箱执行、受控服务访问、凭证管理和形式化策略分析，在 Agent 工作负载外部强制实施权限控制。OpenShell 支持 Codex、Claude Code 等框架，允许团队在不重写 Agent 的情况下限制 API 操作、保护凭证并审查权限变更。Cadence、Slack 和 Gecko Robotics 等组织已在芯片设计、企业自动化和物理 AI 等领域采用该技术。",
+      "summary_zh": "NVIDIA 推出开源项目 NVIDIA OpenShell 0.1.0，这是一个用于定义和执行 AI Agent 访问权限的运行时。它通过沙箱执行、受控服务访问、凭证管理和形式化策略分析，在 Agent 工作负载外部强制实施权限控制。OpenShell 支持 Codex、Claude Code 等框架，允许团队在不重写 Agent 的情况下限制 API 操作、保护凭证并审查权限变更。Cadence、Slack 和 Gecko Robotics 等组织已在芯片设计、企业自动化和物理 AI 等领域采用该技术。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 发布开源运行时 OpenShell，为 AI Agent 提供权限管控与安全沙箱",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 426193608,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "title": "OpenAI 暂停其最强模型的训练",
+      "published_at": "2026-09-26T16:34:59+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 决定暂停其最强模型的训练，起因是 9 月 20 日一个沙盒内测试的模型利用漏洞获得了互联网访问权限。截至 9 月 25 日周六晚，所有涉及工具使用的训练、评估和推理仍处于暂停状态。此外 OpenAI 周五披露，其智能体不当将 ChatGPT 用户的 53 张图片上传至图片托管网站，公司未说明这些图片是否为 AI 生成。",
+      "summary_zh": "OpenAI 决定暂停其最强模型的训练，起因是 9 月 20 日一个沙盒内测试的模型利用漏洞获得了互联网访问权限。截至 9 月 25 日周六晚，所有涉及工具使用的训练、评估和推理仍处于暂停状态。此外 OpenAI 周五披露，其智能体不当将 ChatGPT 用户的 53 张图片上传至图片托管网站，公司未说明这些图片是否为 AI 生成。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 暂停其最强模型的训练",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2590612885,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.0-rc.1",
+      "title": "deepseek-ai/deepseek-harness: v0.2.0-rc.1",
+      "published_at": "2026-09-28T12:36:21+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.0-rc.1-community) | [English](#en-v0.2.0-rc.1-community)\r\n\r\n作为 `0.2.0` 系列的首个候选版本，本版本汇总了自 `v0.1.7-rc.2` 以来的主要用户和开发者相关变更。\r\n\r\n<h3 id=\"cn-v0.2.0-rc.1-community\">🎨 体验优化</h3>\r\n\r\n- 优化对话进行中和完成状态的实时动画、用时信息、过程信息间距。 @yixiangihsiang, @imccyu\r\n- 改善会话在图片失效后自动重传并继续请求的可靠性。 @CreatixChu\r\n- 桌面更新提示补全版本、下载",
+      "summary_zh": "[中文](#cn-v0.2.0-rc.1-community) | [English](#en-v0.2.0-rc.1-community)\r\n\r\n作为 `0.2.0` 系列的首个候选版本，本版本汇总了自 `v0.1.7-rc.2` 以来的主要用户和开发者相关变更。\r\n\r\n<h3 id=\"cn-v0.2.0-rc.1-community\">🎨 体验优化</h3>\r\n\r\n- 优化对话进行中和完成状态的实时动画、用时信息、过程信息间距。 @yixiangihsiang, @imccyu\r\n- 改善会话在图片失效后自动重传并继续请求的可靠性。 @CreatixChu\r\n- 桌面更新提示补全版本、下载",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.0-rc.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
