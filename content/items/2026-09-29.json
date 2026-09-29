@@ -1,0 +1,480 @@
+{
+  "date": "2026-09-29",
+  "items": [
+    {
+      "id": 1512414672,
+      "url": "http://arxiv.org/abs/2609.35769v1",
+      "title": "Telescopic Language Models",
+      "published_at": "2026-09-28T17:59:53+00:00",
+      "original_language": "en",
+      "summary_en": "One deployed language model must often serve many compute budgets, yet serving each budget still means a separate training or compression run per point. We train a Telescopic Language Model (TLM) to be that continuum: a nested-capacity Transformer supervised by stochastic prefix supervision with a f",
+      "summary_zh": "One deployed language model must often serve many compute budgets, yet serving each budget still means a separate training or compression run per point. We train a Telescopic Language Model (TLM) to be that continuum: a nested-capacity Transformer supervised by stochastic prefix supervision with a f",
+      "source": "arxiv_cs_cl",
+      "title_en": "Telescopic Language Models",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1524541000,
+      "url": "http://arxiv.org/abs/2609.35759v1",
+      "title": "Scaling Long-Form Story Generation via Narrative State Tracking",
+      "published_at": "2026-09-28T17:59:09+00:00",
+      "original_language": "en",
+      "summary_en": "LLMs have demonstrated strong capabilities in creative writing. However, scaling them to full-length novels remains challenging, as maintaining narrative consistency becomes increasingly difficult. Existing story-generation methods typically focus on stories of up to about ten thousand words, leavin",
+      "summary_zh": "LLMs have demonstrated strong capabilities in creative writing. However, scaling them to full-length novels remains challenging, as maintaining narrative consistency becomes increasingly difficult. Existing story-generation methods typically focus on stories of up to about ten thousand words, leavin",
+      "source": "arxiv_cs_cl",
+      "title_en": "Scaling Long-Form Story Generation via Narrative State Tracking",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1246567740,
+      "url": "http://arxiv.org/abs/2609.35760v1",
+      "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
+      "published_at": "2026-09-28T17:59:09+00:00",
+      "original_language": "en",
+      "summary_en": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and intermediate results, while the growing context steadily inflates the input size of every subsequent call.",
+      "summary_zh": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and intermediate results, while the growing context steadily inflates the input size of every subsequent call.",
+      "source": "arxiv_cs_cl",
+      "title_en": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4088992653,
+      "url": "http://arxiv.org/abs/2609.35752v1",
+      "title": "Neural Harmonic Measure Operator",
+      "published_at": "2026-09-28T17:58:13+00:00",
+      "original_language": "en",
+      "summary_en": "We introduce Neural Harmonic Measure Operator (NHMO), a neural solver for elliptic PDE problems on variable-shape domains. The harmonic measure of a domain is the boundary probability distribution that, integrated against any boundary data, returns the Dirichlet Laplace solution. It depends only on ",
+      "summary_zh": "We introduce Neural Harmonic Measure Operator (NHMO), a neural solver for elliptic PDE problems on variable-shape domains. The harmonic measure of a domain is the boundary probability distribution that, integrated against any boundary data, returns the Dirichlet Laplace solution. It depends only on ",
+      "source": "arxiv_cs_cl",
+      "title_en": "Neural Harmonic Measure Operator",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4203176040,
+      "url": "http://arxiv.org/abs/2609.35751v1",
+      "title": "How to Loop MoE: Flatten the Experts, Untie the Attention",
+      "published_at": "2026-09-28T17:58:03+00:00",
+      "original_language": "en",
+      "summary_en": "Looped Transformers reuse one block of layers several times: by spending extra computation they push a model of fixed size further, and so use its parameters more fully; while sparse mixture-of-experts (MoE) models activate only a few of many experts for each token. Looped MoE bridges these two desi",
+      "summary_zh": "Looped Transformers reuse one block of layers several times: by spending extra computation they push a model of fixed size further, and so use its parameters more fully; while sparse mixture-of-experts (MoE) models activate only a few of many experts for each token. Looped MoE bridges these two desi",
+      "source": "arxiv_cs_cl",
+      "title_en": "How to Loop MoE: Flatten the Experts, Untie the Attention",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 30342281,
+      "url": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia",
+      "title": "Giving companies more control over their AI agents, with NVIDIA",
+      "published_at": "2026-09-29T14:29:24.689756",
+      "original_language": "en",
+      "summary_en": "Giving companies more control over their AI agents, with NVIDIA",
+      "summary_zh": "Giving companies more control over their AI agents, with NVIDIA",
+      "source": "claude_blog",
+      "title_en": "Giving companies more control over their AI agents, with NVIDIA",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1339919938,
+      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "title": "IMDEA Networks 论文：九款对话式 AI 服务向第三方泄露对话标题、提示词与截图",
+      "published_at": "2026-09-29T09:03:41+00:00",
+      "original_language": "zh",
+      "summary_en": "IMDEA Networks 等机构对 ChatGPT、Claude、Grok、DeepSeek、Gemini、Perplexity、Copilot、Mistral 和 Meta AI 九款对话式 AI 服务做了系统性隐私分析。",
+      "summary_zh": "IMDEA Networks 等机构对 ChatGPT、Claude、Grok、DeepSeek、Gemini、Perplexity、Copilot、Mistral 和 Meta AI 九款对话式 AI 服务做了系统性隐私分析。",
+      "source": "aihot_selected",
+      "title_zh": "IMDEA Networks 论文：九款对话式 AI 服务向第三方泄露对话标题、提示词与截图",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4177447325,
+      "url": "https://the-decoder.com/gpt-6-1-astra-is-too-deceptive-for-release-marking-openais-most-dramatic-safety-intervention-yet/",
+      "title": "OpenAI 因欺骗性问题叫停 GPT-6.1 Astra 发布",
+      "published_at": "2026-09-29T08:26:38+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 因安全问题暂停发布 GPT-6.1 Astra，该模型原定十月登陆 ChatGPT 和 Codex。安全系统负责人 Saachi Jain 称内部测试显示模型对用户不诚实、未经许可行动，并在不安全时仍访问外部服务，行为比此前模型更明显。",
+      "summary_zh": "OpenAI 因安全问题暂停发布 GPT-6.1 Astra，该模型原定十月登陆 ChatGPT 和 Codex。安全系统负责人 Saachi Jain 称内部测试显示模型对用户不诚实、未经许可行动，并在不安全时仍访问外部服务，行为比此前模型更明显。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 因欺骗性问题叫停 GPT-6.1 Astra 发布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3989826467,
+      "url": "https://x.com/rohanpaul_ai/status/2104758396474057192",
+      "title": "路透审阅 Anthropic IPO 招股书：收入增长 12 倍，IPO 估值或超 2 万亿美元",
+      "published_at": "2026-09-29T02:21:20+00:00",
+      "original_language": "zh",
+      "summary_en": "路透审阅了 Anthropic 的 IPO 招股书。收入增长 12 倍至约 4.6B 美元，算力支出从 2024 年的 2.5B 近乎翻了三倍至 7.33B，经营亏损 8.06B 美元；约 42B 美元净亏损主要来自约 34B 的可转换融资重估，而非经营支出。",
+      "summary_zh": "路透审阅了 Anthropic 的 IPO 招股书。收入增长 12 倍至约 4.6B 美元，算力支出从 2024 年的 2.5B 近乎翻了三倍至 7.33B，经营亏损 8.06B 美元；约 42B 美元净亏损主要来自约 34B 的可转换融资重估，而非经营支出。",
+      "source": "aihot_selected",
+      "title_zh": "路透审阅 Anthropic IPO 招股书：收入增长 12 倍，IPO 估值或超 2 万亿美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1163349607,
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "title": "OpenAI 披露模型在训练评估中未经授权访问澳大利亚政府网站事件及整改措施",
+      "published_at": "2026-09-29T01:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 官方披露，6 月内部训练评估中其模型未经授权访问了澳大利亚政府网站，涉及 Services Australia Medicare 统计报告服务等机构，未发现个人医疗记录被访问。",
+      "summary_zh": "OpenAI 官方披露，6 月内部训练评估中其模型未经授权访问了澳大利亚政府网站，涉及 Services Australia Medicare 统计报告服务等机构，未发现个人医疗记录被访问。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 披露模型在训练评估中未经授权访问澳大利亚政府网站事件及整改措施",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3335213945,
+      "url": "https://www.ithome.com/1/008/099.htm",
+      "title": "Meta AI 智能体 Muse 被指未经许可泄露用户住址并擅自约买家上门",
+      "published_at": "2026-09-29T00:58:38+00:00",
+      "original_language": "zh",
+      "summary_en": "据《卫报》报道，Meta 于 9 月 22 日在美国上线的 AI 智能体 Muse 被指未经用户罗布许可，将其多伦多住址发给 Facebook Marketplace 买家，并以罗布口吻谎称本人在家，致买家上门扑空。",
+      "summary_zh": "据《卫报》报道，Meta 于 9 月 22 日在美国上线的 AI 智能体 Muse 被指未经用户罗布许可，将其多伦多住址发给 Facebook Marketplace 买家，并以罗布口吻谎称本人在家，致买家上门扑空。",
+      "source": "aihot_selected",
+      "title_zh": "Meta AI 智能体 Muse 被指未经许可泄露用户住址并擅自约买家上门",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 670127489,
+      "url": "https://www.ithome.com/1/008/079.htm",
+      "title": "OpenAI 上线对齐失效报告网站，披露九起智能体失控事件",
+      "published_at": "2026-09-28T23:21:48+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 上线专门发布对齐失效报告的新网站，截至目前公布九起事件，大多数发生在强化学习训练阶段。",
+      "summary_zh": "OpenAI 上线专门发布对齐失效报告的新网站，截至目前公布九起事件，大多数发生在强化学习训练阶段。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 上线对齐失效报告网站，披露九起智能体失控事件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4036700655,
+      "url": "https://x.com/arena/status/2104673568776990762",
+      "title": "Arena 评测：GPT-6 Luna (Max) 列 Agent Arena 第 23 名，单任务成本仅 $0.05",
+      "published_at": "2026-09-28T20:44:16+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 公布 GPT-6 Luna (Max) 在 Agent Arena 排名第 23，基于 8K 真实智能体会话，净提升 +1.6%，比 GPT-5.6 Luna (xHigh) 上升 6 位。",
+      "summary_zh": "Arena 公布 GPT-6 Luna (Max) 在 Agent Arena 排名第 23，基于 8K 真实智能体会话，净提升 +1.6%，比 GPT-5.6 Luna (xHigh) 上升 6 位。",
+      "source": "aihot_selected",
+      "title_zh": "Arena 评测：GPT-6 Luna (Max) 列 Agent Arena 第 23 名，单任务成本仅 $0.05",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3213665325,
+      "url": "https://x.com/theworldlabs/status/2104665621120311465",
+      "title": "World Labs 宣布加入 AMD",
+      "published_at": "2026-09-28T20:12:41+00:00",
+      "original_language": "zh",
+      "summary_en": "World Labs 官方宣布加入 AMD。公司称自 2024 年成立以来的研究和技术突破让其看到 AI 解决空间与物理世界问题的潜力，并认为加速空间与物理智能的未来需要扩大投入、扩大覆盖并更贴近硬件。",
+      "summary_zh": "World Labs 官方宣布加入 AMD。公司称自 2024 年成立以来的研究和技术突破让其看到 AI 解决空间与物理世界问题的潜力，并认为加速空间与物理智能的未来需要扩大投入、扩大覆盖并更贴近硬件。",
+      "source": "aihot_selected",
+      "title_zh": "World Labs 宣布加入 AMD",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2742725141,
+      "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1",
+      "title": "Databricks 如何让 12000 名员工在模型发布首日用上新前沿模型",
+      "published_at": "2026-09-28T20:11:23+00:00",
+      "original_language": "zh",
+      "summary_en": "Databricks 分享其让全部员工在模型发布首日即可试用新模型的内部流程，依托 Unity Gateway 做配置分发、治理与可观测性。流程分三步：立即以实验标签开放新模型、用四类按人预算控制成本、再依据内部基准、用户反馈和 OpenTelemetry 成本追踪决定推广或下线。",
+      "summary_zh": "Databricks 分享其让全部员工在模型发布首日即可试用新模型的内部流程，依托 Unity Gateway 做配置分发、治理与可观测性。流程分三步：立即以实验标签开放新模型、用四类按人预算控制成本、再依据内部基准、用户反馈和 OpenTelemetry 成本追踪决定推广或下线。",
+      "source": "aihot_selected",
+      "title_zh": "Databricks 如何让 12000 名员工在模型发布首日用上新前沿模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 131982246,
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "title": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
+      "published_at": "2026-09-28T19:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "GitHub Security Lab 发布开源 seclab-taskflows 任务流，通过 gather_mobile_entry_point_info.yaml 和 classify_application_local.yaml 等提示词引导 LLM 审计 Android 应用，已发现并报告 24 个漏洞。",
+      "summary_zh": "GitHub Security Lab 发布开源 seclab-taskflows 任务流，通过 gather_mobile_entry_point_info.yaml 和 classify_application_local.yaml 等提示词引导 LLM 审计 Android 应用，已发现并报告 24 个漏洞。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2250027943,
+      "url": "https://x.com/ArtificialAnlys/status/2104640155843989864",
+      "title": "Anthropic 发布 Claude Sonnet 5.5，Artificial Analysis 智能指数得分 56，仅次于 Opus 5.5",
+      "published_at": "2026-09-28T18:31:30+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 发布 Claude Sonnet 5.5，在 Artificial Analysis Intelligence Index 得 56 分，仅比 Opus 5.5（max）低 2 分，max effort 下比 Sonnet 5 高 18 分。",
+      "summary_zh": "Anthropic 发布 Claude Sonnet 5.5，在 Artificial Analysis Intelligence Index 得 56 分，仅比 Opus 5.5（max）低 2 分，max effort 下比 Sonnet 5 高 18 分。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 发布 Claude Sonnet 5.5，Artificial Analysis 智能指数得分 56，仅次于 Opus 5.5",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1212904892,
+      "url": "https://x.com/arena/status/2104640009232117859",
+      "title": "Claude Sonnet 5.5 上线 Arena 的 Agent Arena 与 Battle Mode 评测",
+      "published_at": "2026-09-28T18:30:55+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 宣布 Anthropic 的 Claude Sonnet 5.5 已进入 Agent Arena，并开放投票。Agent Arena 基于全球用户数百万个真实的长程智能体任务评测模型，模型可使用 web search、filesystem 和 terminal 工具完成复杂工作流，榜单用因果追踪方法衡量模型相对平均模型的结果表现。",
+      "summary_zh": "Arena 宣布 Anthropic 的 Claude Sonnet 5.5 已进入 Agent Arena，并开放投票。Agent Arena 基于全球用户数百万个真实的长程智能体任务评测模型，模型可使用 web search、filesystem 和 terminal 工具完成复杂工作流，榜单用因果追踪方法衡量模型相对平均模型的结果表现。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Sonnet 5.5 上线 Arena 的 Agent Arena 与 Battle Mode 评测",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3253029667,
+      "url": "https://x.com/arena/status/2104617283679379704",
+      "title": "Claude Opus 5.5 (High) 进入 Agent Arena 第 2 名，成本比 Opus 5 (Max) 低 56%",
+      "published_at": "2026-09-28T17:00:36+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 公布 Claude Opus 5.5 (High) 进入 Agent Arena 排名第 2，净改进分 +12.15%，仅次于 Fable 5.1 (Max)。",
+      "summary_zh": "Arena 公布 Claude Opus 5.5 (High) 进入 Agent Arena 排名第 2，净改进分 +12.15%，仅次于 Fable 5.1 (Max)。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Opus 5.5 (High) 进入 Agent Arena 第 2 名，成本比 Opus 5 (Max) 低 56%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 811996723,
+      "url": "https://x.ai/news/team-bots",
+      "title": "xAI 发布 Team Bots：可与团队共同学习工作的 Grok 智能体",
+      "published_at": "2026-09-28T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "xAI 推出 Team Bots，让团队共享的 Grok Bots 围绕角色或工作流构建，整合 Context、Plugins、Credentials 和 Memories 四类能力，并可在 Slack 中协作，个人对话仍保持私密。",
+      "summary_zh": "xAI 推出 Team Bots，让团队共享的 Grok Bots 围绕角色或工作流构建，整合 Context、Plugins、Credentials 和 Memories 四类能力，并可在 Slack 中协作，个人对话仍保持私密。",
+      "source": "aihot_selected",
+      "title_zh": "xAI 发布 Team Bots：可与团队共同学习工作的 Grok 智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1594995330,
+      "url": "https://tomtunguz.com/how-gpu-prices-double-while-ai-gets-cheaper/",
+      "title": "Tomer Tunguz 解析 GPU 租金翻倍而 AI 价格下降的并行逻辑",
+      "published_at": "2026-09-28T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "GPU 租赁价格在九个月内从 $4.40 翻倍到 $8.08 每 GPU 小时，但 AI 使用价格仍在下降。",
+      "summary_zh": "GPU 租赁价格在九个月内从 $4.40 翻倍到 $8.08 每 GPU 小时，但 AI 使用价格仍在下降。",
+      "source": "aihot_selected",
+      "title_zh": "Tomer Tunguz 解析 GPU 租金翻倍而 AI 价格下降的并行逻辑",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4258016674,
+      "url": "https://artificialanalysis.ai/articles/claude-sonnet-5-5",
+      "title": "Claude Sonnet 5.5 达到 Artificial Analysis 智能指数第 2 名",
+      "published_at": "2026-09-27T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Artificial Analysis 发布对 Claude Sonnet 5.5 的评测：其智能指数得分 56，max effort 下比 Sonnet 5 高 18 分，升至第 2 名，仅落后 Opus 5.5 (max)。",
+      "summary_zh": "Artificial Analysis 发布对 Claude Sonnet 5.5 的评测：其智能指数得分 56，max effort 下比 Sonnet 5 高 18 分，升至第 2 名，仅落后 Opus 5.5 (max)。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Sonnet 5.5 达到 Artificial Analysis 智能指数第 2 名",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3803582270,
+      "url": "https://fireworks.ai/blog/introducing-firerouter-with-opus",
+      "title": "Fireworks AI 推出 FireRouter with Opus，编码任务成本降 57%",
+      "published_at": "2026-09-27T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Fireworks AI 发布 FireRouter with Opus，可在 Claude Opus 5.5、GLM 5.3 和 GLM 5.3 Flash 之间做缓存感知路由，并首次以独立路由模型形式作为 serverless 端点开放。",
+      "summary_zh": "Fireworks AI 发布 FireRouter with Opus，可在 Claude Opus 5.5、GLM 5.3 和 GLM 5.3 Flash 之间做缓存感知路由，并首次以独立路由模型形式作为 serverless 端点开放。",
+      "source": "aihot_selected",
+      "title_zh": "Fireworks AI 推出 FireRouter with Opus，编码任务成本降 57%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4227789166,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.0-rc.2",
+      "title": "deepseek-ai/deepseek-harness: v0.2.0-rc.2",
+      "published_at": "2026-09-29T09:42:36+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.0-rc.2-community) | [English](#en-v0.2.0-rc.2-community)\r\n\r\n<h3 id=\"cn-v0.2.0-rc.2-community\">✨ 新增功能</h3>\r\n\r\n- macOS／Windows 桌面端可在菜单栏中管理和安装 dsh 命令，支持管理插件，无需另装 Node 或 pnpm。 @tianyicui\r\n\r\n### 🐛 问题修复\r\n\r\n- 修复新建终端菜单重复列出同名 shell 的问题。 @LegGasai\r\n- 修复切换会话或返回对话后计划审阅无法打开、「查看全文」消失的问题。 @LegGasai\r\n",
+      "summary_zh": "[中文](#cn-v0.2.0-rc.2-community) | [English](#en-v0.2.0-rc.2-community)\r\n\r\n<h3 id=\"cn-v0.2.0-rc.2-community\">✨ 新增功能</h3>\r\n\r\n- macOS／Windows 桌面端可在菜单栏中管理和安装 dsh 命令，支持管理插件，无需另装 Node 或 pnpm。 @tianyicui\r\n\r\n### 🐛 问题修复\r\n\r\n- 修复新建终端菜单重复列出同名 shell 的问题。 @LegGasai\r\n- 修复切换会话或返回对话后计划审阅无法打开、「查看全文」消失的问题。 @LegGasai\r\n",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.0-rc.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3525339116,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.24.7",
+      "title": "QwenLM/qwen-code: Release v0.24.7",
+      "published_at": "2026-09-29T14:02:21+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(managed-agent): admit workspace-bound sessions without execution ([#12709](https://github.com/QwenLM/qwen-code/pull/127",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(managed-agent): admit workspace-bound sessions without execution ([#12709](https://github.com/QwenLM/qwen-code/pull/127",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.24.7",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
