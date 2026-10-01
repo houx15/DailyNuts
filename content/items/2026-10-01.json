@@ -1,0 +1,651 @@
+{
+  "date": "2026-10-01",
+  "items": [
+    {
+      "id": 1603363049,
+      "url": "http://arxiv.org/abs/2609.40361v1",
+      "title": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
+      "published_at": "2026-09-30T17:59:56+00:00",
+      "original_language": "en",
+      "summary_en": "Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are heavily class-imbalanced: a constant-majority predictor can score above 90% accuracy while being clinically useless. We th",
+      "summary_zh": "Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are heavily class-imbalanced: a constant-majority predictor can score above 90% accuracy while being clinically useless. We th",
+      "source": "arxiv_cs_cl",
+      "title_en": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2445025781,
+      "url": "http://arxiv.org/abs/2609.40360v1",
+      "title": "Semifactual Credit-Augmented Policy Optimization",
+      "published_at": "2026-09-30T17:59:56+00:00",
+      "original_language": "en",
+      "summary_en": "Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underly",
+      "summary_zh": "Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underly",
+      "source": "arxiv_cs_cl",
+      "title_en": "Semifactual Credit-Augmented Policy Optimization",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1064663956,
+      "url": "http://arxiv.org/abs/2609.40359v1",
+      "title": "Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text",
+      "published_at": "2026-09-30T17:59:52+00:00",
+      "original_language": "en",
+      "summary_en": "We find that major reported improvements in decoding words from non-invasive brain recordings are largely reproducible without any brain data. In the influential work of d'Ascoli et al. (2025), time series of brain activity from subjects perceiving continuous speech are segmented into fixed-length w",
+      "summary_zh": "We find that major reported improvements in decoding words from non-invasive brain recordings are largely reproducible without any brain data. In the influential work of d'Ascoli et al. (2025), time series of brain activity from subjects perceiving continuous speech are segmented into fixed-length w",
+      "source": "arxiv_cs_cl",
+      "title_en": "Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1492260913,
+      "url": "http://arxiv.org/abs/2609.40347v1",
+      "title": "Image Classifiers are Efficient Self-Supervised Video Representation Learners",
+      "published_at": "2026-09-30T17:59:03+00:00",
+      "original_language": "en",
+      "summary_en": "We introduce VideoMSN, a Masked Siamese Network framework for efficient self-supervised spatio-temporal representation learning in videos. Instead of relying on heavy 3D architectures or reconstruction-based autoencoders for learning with unlabeled data, we repurpose standard image Vision Transforme",
+      "summary_zh": "We introduce VideoMSN, a Masked Siamese Network framework for efficient self-supervised spatio-temporal representation learning in videos. Instead of relying on heavy 3D architectures or reconstruction-based autoencoders for learning with unlabeled data, we repurpose standard image Vision Transforme",
+      "source": "arxiv_cs_cl",
+      "title_en": "Image Classifiers are Efficient Self-Supervised Video Representation Learners",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 359197935,
+      "url": "http://arxiv.org/abs/2609.40340v1",
+      "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
+      "published_at": "2026-09-30T17:58:28+00:00",
+      "original_language": "en",
+      "summary_en": "Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method",
+      "summary_zh": "Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method",
+      "source": "arxiv_cs_cl",
+      "title_en": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1535261953,
+      "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "title": "Sep 30, 2026EconomicsWhat work can robots do?",
+      "published_at": "2026-09-30T00:00:00",
+      "original_language": "en",
+      "summary_en": "Sep 30, 2026EconomicsWhat work can robots do?",
+      "summary_zh": "Sep 30, 2026EconomicsWhat work can robots do?",
+      "source": "anthropic_research",
+      "title_en": "Sep 30, 2026EconomicsWhat work can robots do?",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1694147691,
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "published_at": "2026-10-01T00:00:00",
+      "original_language": "en",
+      "summary_en": "Barclays scales Claude to upgrade operations and improve client experience",
+      "summary_zh": "Barclays scales Claude to upgrade operations and improve client experience",
+      "source": "anthropic_news",
+      "title_en": "Barclays scales Claude to upgrade operations and improve client experience",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 846730688,
+      "url": "https://claude.com/blog/claude-for-government-is-now-generally-available",
+      "title": "Claude for Government is now generally available",
+      "published_at": "2026-10-01T14:57:59.647098",
+      "original_language": "en",
+      "summary_en": "Claude for Government is now generally available",
+      "summary_zh": "Claude for Government is now generally available",
+      "source": "claude_blog",
+      "title_en": "Claude for Government is now generally available",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3725299496,
+      "url": "https://podcasters.spotify.com/pod/show/firstmark/episodes/Why-AI-Agents-Cheat--Eric-Ho-Goodfire-e3pm35t",
+      "title": "Why AI Agents Cheat | Eric Ho (Goodfire)",
+      "published_at": "2026-10-01T11:30:00",
+      "original_language": "en",
+      "summary_en": "<p>This summer, AI agents broke out of their test sandboxes at every major lab and hacked real companies, and the safety tests didn't see it coming. Eric Ho is the co-founder and CEO of Goodfire, the Anthropic-backed mechanistic interpretability lab whose new paper, &quot;Models Know When They're Re",
+      "summary_zh": "<p>This summer, AI agents broke out of their test sandboxes at every major lab and hacked real companies, and the safety tests didn't see it coming. Eric Ho is the co-founder and CEO of Goodfire, the Anthropic-backed mechanistic interpretability lab whose new paper, &quot;Models Know When They're Re",
+      "source": "mad_podcast",
+      "title_en": "Why AI Agents Cheat | Eric Ho (Goodfire)",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2871280601,
+      "url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
+      "title": "OpenAI 称拦截蒸馏窃取攻击，但研究者称同样手法在 Azure 上仍可窃取 GPT-6 Astra 等模型的推理内容",
+      "published_at": "2026-10-01T12:05:49+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 称 7 月拦截了一起针对其模型推理链的蒸馏窃取活动，7 月 24 至 25 日出现来自超 4000 用户的 16000 次请求，关联账号超 15000 个，OpenAI 将其与 Moonshot AI 相关人员联系起来，并于 7 月 28 日关停。",
+      "summary_zh": "OpenAI 称 7 月拦截了一起针对其模型推理链的蒸馏窃取活动，7 月 24 至 25 日出现来自超 4000 用户的 16000 次请求，关联账号超 15000 个，OpenAI 将其与 Moonshot AI 相关人员联系起来，并于 7 月 28 日关停。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 称拦截蒸馏窃取攻击，但研究者称同样手法在 Azure 上仍可窃取 GPT-6 Astra 等模型的推理内容",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 322058513,
+      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "title": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效",
+      "published_at": "2026-10-01T10:54:12+00:00",
+      "original_language": "zh",
+      "summary_en": "Ethan Mollick 承认自己此前认为人类需像经理一样精心设计智能体组织的判断错了，Bitter Lesson 同样适用于组织管理。",
+      "summary_zh": "Ethan Mollick 承认自己此前认为人类需像经理一样精心设计智能体组织的判断错了，Bitter Lesson 同样适用于组织管理。",
+      "source": "aihot_selected",
+      "title_zh": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 519363517,
+      "url": "https://x.com/thsottiaux/status/2105519215092584786",
+      "title": "ChatGPT 现可直接构建并部署 MCP 服务器",
+      "published_at": "2026-10-01T04:44:34+00:00",
+      "original_language": "zh",
+      "summary_en": "ChatGPT Sites 现在可以托管 MCP 服务器，用户可直接在 ChatGPT 中构建并部署 MCP 服务器，还能将其转为插件并安装到 web、移动端和桌面端。作者补充，可限制访问权限给指定的人，也可向全世界公开分享。",
+      "summary_zh": "ChatGPT Sites 现在可以托管 MCP 服务器，用户可直接在 ChatGPT 中构建并部署 MCP 服务器，还能将其转为插件并安装到 web、移动端和桌面端。作者补充，可限制访问权限给指定的人，也可向全世界公开分享。",
+      "source": "aihot_selected",
+      "title_zh": "ChatGPT 现可直接构建并部署 MCP 服务器",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1935136003,
+      "url": "https://x.com/ArtificialAnlys/status/2105449959554441580",
+      "title": "Artificial Analysis：GPT-6.1 Sol 的 Cost per Task 较 GPT-6 Sol 低约 30%",
+      "published_at": "2026-10-01T00:09:22+00:00",
+      "original_language": "zh",
+      "summary_en": "Artificial Analysis 数据显示，GPT-6.1 Sol 的 Cost per Task 约 $0.72，比 GPT-6 Sol（$1.05）低约 30%，后者已约为 GPT-5.6 Sol（$1.99）的一半。",
+      "summary_zh": "Artificial Analysis 数据显示，GPT-6.1 Sol 的 Cost per Task 约 $0.72，比 GPT-6 Sol（$1.05）低约 30%，后者已约为 GPT-5.6 Sol（$1.99）的一半。",
+      "source": "aihot_selected",
+      "title_zh": "Artificial Analysis：GPT-6.1 Sol 的 Cost per Task 较 GPT-6 Sol 低约 30%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2230790831,
+      "url": "https://openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models/",
+      "title": "OpenRouter 发布 Agent 模型成本与质量权衡选型框架",
+      "published_at": "2026-10-01T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter 发布一个三步框架，用于为 Agent 任务选出以最低成本达到质量门槛的模型，而不是按排行榜排名选最高分模型。方法是先按任务设定质量门槛，再用 20 到 50 条自己的示例运行廉价、中档和前沿模型并用统一评分标准计算每质量点成本，最后选出以超过运行间分数波动的余量过线的最便宜模型。",
+      "summary_zh": "OpenRouter 发布一个三步框架，用于为 Agent 任务选出以最低成本达到质量门槛的模型，而不是按排行榜排名选最高分模型。方法是先按任务设定质量门槛，再用 20 到 50 条自己的示例运行廉价、中档和前沿模型并用统一评分标准计算每质量点成本，最后选出以超过运行间分数波动的余量过线的最便宜模型。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 发布 Agent 模型成本与质量权衡选型框架",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 444401016,
+      "url": "https://openrouter.ai/blog/tutorials/how-to-gate-pull-requests-on-llm-evals-in-ci/",
+      "title": "OpenRouter 教程：如何在 CI 中用 LLM eval 门禁拦截 Pull Request",
+      "published_at": "2026-10-01T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter 发布教程，讲解如何用固定的 eval 集在 CI 中门禁 pull request，当通过率低于阈值时脚本以非零退出码阻止合并，做法与单元测试门禁一致。",
+      "summary_zh": "OpenRouter 发布教程，讲解如何用固定的 eval 集在 CI 中门禁 pull request，当通过率低于阈值时脚本以非零退出码阻止合并，做法与单元测试门禁一致。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 教程：如何在 CI 中用 LLM eval 门禁拦截 Pull Request",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2807023324,
+      "url": "https://openrouter.ai/blog/insights/confidence-thresholds-for-model-escalation-routing/",
+      "title": "OpenRouter 指南：用置信度阈值实现模型分级升级路由",
+      "published_at": "2026-10-01T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter 发布教程，讲解如何让廉价模型通过结构化输出返回 0 到 1 的置信度字段，低置信度的请求再升级到更强模型。文章强调置信分数只是自报、不是校准概率，应基于自己流量的分数段错误率排序设定阈值，并在上线后监控分数分布、升级率和未升级答案的错误率持续调整。",
+      "summary_zh": "OpenRouter 发布教程，讲解如何让廉价模型通过结构化输出返回 0 到 1 的置信度字段，低置信度的请求再升级到更强模型。文章强调置信分数只是自报、不是校准概率，应基于自己流量的分数段错误率排序设定阈值，并在上线后监控分数分布、升级率和未升级答案的错误率持续调整。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 指南：用置信度阈值实现模型分级升级路由",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3567693052,
+      "url": "https://x.com/arena/status/2105411271525052418",
+      "title": "Gemini 4 Argon (High) 登 Arena Agent Arena 第 8 名，净提升 +7.92%",
+      "published_at": "2026-09-30T21:35:38+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 公布 Gemini 4 Argon (High) 在 Agent Arena 排名第 8，净提升分 +7.92%，每任务成本 $0.62。",
+      "summary_zh": "Arena 公布 Gemini 4 Argon (High) 在 Agent Arena 排名第 8，净提升分 +7.92%，每任务成本 $0.62。",
+      "source": "aihot_selected",
+      "title_zh": "Gemini 4 Argon (High) 登 Arena Agent Arena 第 8 名，净提升 +7.92%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3859121346,
+      "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
+      "title": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平",
+      "published_at": "2026-09-30T21:09:24+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 发布 GPT-6.1 Sol，定价为每百万 token 2 美元输入、10 美元输出、0.10 美元缓存输入，为 GPT-6 Astra 标准价格约五分之一。",
+      "summary_zh": "OpenAI 发布 GPT-6.1 Sol，定价为每百万 token 2 美元输入、10 美元输出、0.10 美元缓存输入，为 GPT-6 Astra 标准价格约五分之一。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3539575286,
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
+      "published_at": "2026-09-30T20:01:45+00:00",
+      "original_language": "zh",
+      "summary_en": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出。",
+      "summary_zh": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出。",
+      "source": "aihot_selected",
+      "title_zh": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4248785082,
+      "url": "https://x.com/AravSrinivas/status/2105369479190601754",
+      "title": "Perplexity 开放 Computer 邮件委托入口并限时免费运行任务",
+      "published_at": "2026-09-30T18:49:34+00:00",
+      "original_language": "zh",
+      "summary_en": "Perplexity 向所有人开放 Computer 的邮件委托功能，无需 Perplexity 账号，将转发或抄送 computer@perplexity.com 的任务限时免费运行。智能体会在后台完成任务并保留邮件上下文，每个邮件任务在 Computer 中作为正常会话运行，可在网页和移动端查看，并带有与应用内任务相同的审计记录。",
+      "summary_zh": "Perplexity 向所有人开放 Computer 的邮件委托功能，无需 Perplexity 账号，将转发或抄送 computer@perplexity.com 的任务限时免费运行。智能体会在后台完成任务并保留邮件上下文，每个邮件任务在 Computer 中作为正常会话运行，可在网页和移动端查看，并带有与应用内任务相同的审计记录。",
+      "source": "aihot_selected",
+      "title_zh": "Perplexity 开放 Computer 邮件委托入口并限时免费运行任务",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3860345854,
+      "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+      "title": "Trump 推动二十余家科技公司签署自愿性 AI 安全协议",
+      "published_at": "2026-09-30T18:47:01+00:00",
+      "original_language": "zh",
+      "summary_en": "约二十余家科技公司签署白宫超级智能协议，承诺实施独立安全审计、定期会商并制定共同安全标准，涵盖网络安全、生物安全和化学威胁等风险。协议无法律约束力，Trump 称其具有道德约束力。文章指出 OpenAI 近期多起事故源于今年 5 至 7 月开发中的一个未发布模型，其安全委员会有效性受到特拉华和加州总检察长调查，FTC 也就 AI 智能体潜在消费者损害发起调查。",
+      "summary_zh": "约二十余家科技公司签署白宫超级智能协议，承诺实施独立安全审计、定期会商并制定共同安全标准，涵盖网络安全、生物安全和化学威胁等风险。协议无法律约束力，Trump 称其具有道德约束力。文章指出 OpenAI 近期多起事故源于今年 5 至 7 月开发中的一个未发布模型，其安全委员会有效性受到特拉华和加州总检察长调查，FTC 也就 AI 智能体潜在消费者损害发起调查。",
+      "source": "aihot_selected",
+      "title_zh": "Trump 推动二十余家科技公司签署自愿性 AI 安全协议",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2417322000,
+      "url": "https://x.com/arena/status/2105367591174995999",
+      "title": "GPT-6.1 Sol (Max) 以 1759 分登上 Code Arena: WebDev 第 3 名",
+      "published_at": "2026-09-30T18:42:04+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 评测榜单显示，OpenAI 的 GPT-6.1 Sol (Max) 以 1759 分位列 Code Arena: WebDev 第 3 名，混合价格为 $8/MToken。相比 GPT-6 Sol (Max) 同价提升 70 分，排名上升 4 位，且在 Consumer Product 等所有类目均有提升。",
+      "summary_zh": "Arena 评测榜单显示，OpenAI 的 GPT-6.1 Sol (Max) 以 1759 分位列 Code Arena: WebDev 第 3 名，混合价格为 $8/MToken。相比 GPT-6 Sol (Max) 同价提升 70 分，排名上升 4 位，且在 Consumer Product 等所有类目均有提升。",
+      "source": "aihot_selected",
+      "title_zh": "GPT-6.1 Sol (Max) 以 1759 分登上 Code Arena: WebDev 第 3 名",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1808482805,
+      "url": "https://x.com/JensenHuang/status/2105348324484342238",
+      "title": "Jensen Huang 称行业领袖在白宫签署超级智能协定",
+      "published_at": "2026-09-30T17:25:30+00:00",
+      "original_language": "zh",
+      "summary_en": "多家行业公司的领袖在白宫签署 White House Accord on Super Intelligence，约定开发该技术的公司负有安全部署和担责的首要责任。协定要求四层控制：训练和部署期间的稳健内部监控、授权内部团队验证控制有效、独立外部评估者审计、董事会独立委员会监督，参与公司还将定期会晤制定安全标准与最佳实践。",
+      "summary_zh": "多家行业公司的领袖在白宫签署 White House Accord on Super Intelligence，约定开发该技术的公司负有安全部署和担责的首要责任。协定要求四层控制：训练和部署期间的稳健内部监控、授权内部团队验证控制有效、独立外部评估者审计、董事会独立委员会监督，参与公司还将定期会晤制定安全标准与最佳实践。",
+      "source": "aihot_selected",
+      "title_zh": "Jensen Huang 称行业领袖在白宫签署超级智能协定",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1603557649,
+      "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+      "title": "FTC 以消费者保护为由对 OpenAI、Anthropic 等 AI 实验室启动全面调查",
+      "published_at": "2026-09-30T16:20:04+00:00",
+      "original_language": "zh",
+      "summary_en": "FTC 正以潜在消费者保护违规为由调查 OpenAI、Anthropic 等头部 AI 实验室，主席 Andrew Ferguson 计划通过具法律约束力的 Civil Investigative Demands 强制调取文件并质询高管，命令将在数周内发出，METR 也在审查范围之列。",
+      "summary_zh": "FTC 正以潜在消费者保护违规为由调查 OpenAI、Anthropic 等头部 AI 实验室，主席 Andrew Ferguson 计划通过具法律约束力的 Civil Investigative Demands 强制调取文件并质询高管，命令将在数周内发出，METR 也在审查范围之列。",
+      "source": "aihot_selected",
+      "title_zh": "FTC 以消费者保护为由对 OpenAI、Anthropic 等 AI 实验室启动全面调查",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 616916257,
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "title": "Google DeepMind 发布 SynthID Bio，为 AI 生成的蛋白质嵌入可验证水印",
+      "published_at": "2026-09-30T15:03:07+00:00",
+      "original_language": "zh",
+      "summary_en": "Google DeepMind 于 9 月 30 日发布 SynthID Bio，将水印技术引入合成生物学，把不可见签名嵌入生物序列和预测结构中，使水印可在合成的物理蛋白质上验证，且在湿实验中不损害生物功能。",
+      "summary_zh": "Google DeepMind 于 9 月 30 日发布 SynthID Bio，将水印技术引入合成生物学，把不可见签名嵌入生物序列和预测结构中，使水印可在合成的物理蛋白质上验证，且在湿实验中不损害生物功能。",
+      "source": "aihot_selected",
+      "title_zh": "Google DeepMind 发布 SynthID Bio，为 AI 生成的蛋白质嵌入可验证水印",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1911907422,
+      "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+      "title": "MIT 等机构发布 Ataraxos，以极低成本战胜顶级人类 Stratego 选手",
+      "published_at": "2026-09-30T15:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "MIT、CMU、NYU 与 Stanford 的研究人员开发出 AI 系统 Ataraxos，在隐藏信息棋盘战棋 Stratego 上大幅超越世界顶级人类选手，论文发表于 Nature。",
+      "summary_zh": "MIT、CMU、NYU 与 Stanford 的研究人员开发出 AI 系统 Ataraxos，在隐藏信息棋盘战棋 Stratego 上大幅超越世界顶级人类选手，论文发表于 Nature。",
+      "source": "aihot_selected",
+      "title_zh": "MIT 等机构发布 Ataraxos，以极低成本战胜顶级人类 Stratego 选手",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 190512005,
+      "url": "https://x.com/arena/status/2105311267619848419",
+      "title": "Arena 开放限时测试 Claude Sonnet 5.5，Direct Mode 可用 48 小时",
+      "published_at": "2026-09-30T14:58:15+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 宣布在 Direct Mode 限时开放 Anthropic 的 Claude Sonnet 5.5（High），截止 10 月 2 日上午 8 点（太平洋时间），之后仍可在 Battle 和 Agent Mode 使用。引用内容称 Claude Sonnet 5.5 是 Claude 5.5 系列第二款模型，比 Sonnet 5 快 30% 以上，多数工作成本最高降低 30%。",
+      "summary_zh": "Arena 宣布在 Direct Mode 限时开放 Anthropic 的 Claude Sonnet 5.5（High），截止 10 月 2 日上午 8 点（太平洋时间），之后仍可在 Battle 和 Agent Mode 使用。引用内容称 Claude Sonnet 5.5 是 Claude 5.5 系列第二款模型，比 Sonnet 5 快 30% 以上，多数工作成本最高降低 30%。",
+      "source": "aihot_selected",
+      "title_zh": "Arena 开放限时测试 Claude Sonnet 5.5，Direct Mode 可用 48 小时",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 973825846,
+      "url": "https://elevenlabs.io/blog/tender-22bn",
+      "title": "ElevenLabs 完成 3 亿美元员工股份回购，估值升至 220 亿美元",
+      "published_at": "2026-09-30T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "ElevenLabs 完成 3 亿美元员工 tender offer，估值达 220 亿美元，是 2026 年 2 月 Series D 估值的两倍，由 Wellington 和 T. Rowe Price 领投。企业业务占收入 55%，ElevenAgents 每周处理超 1500 万次对话，ARR 自 2 月以来增长超 3 倍，客户语音智能体解决问题平均比聊天智能体快 31%。",
+      "summary_zh": "ElevenLabs 完成 3 亿美元员工 tender offer，估值达 220 亿美元，是 2026 年 2 月 Series D 估值的两倍，由 Wellington 和 T. Rowe Price 领投。企业业务占收入 55%，ElevenAgents 每周处理超 1500 万次对话，ARR 自 2 月以来增长超 3 倍，客户语音智能体解决问题平均比聊天智能体快 31%。",
+      "source": "aihot_selected",
+      "title_zh": "ElevenLabs 完成 3 亿美元员工股份回购，估值升至 220 亿美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3719065432,
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "title": "OpenAI 披露并处置一起有组织的模型蒸馏攻击行动",
+      "published_at": "2026-09-30T10:30:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 披露其识别并处置了一起有组织的攻击行动，该行动旨在系统性提取模型受保护的推理内容，最早活动出现在 7 月第一周。",
+      "summary_zh": "OpenAI 披露其识别并处置了一起有组织的攻击行动，该行动旨在系统性提取模型受保护的推理内容，最早活动出现在 7 月第一周。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 披露并处置一起有组织的模型蒸馏攻击行动",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2402426329,
+      "url": "https://factory.ai/news/automations",
+      "title": "Factory Automations 正式开放：Droid 可定时或按事件自动执行工程工作流",
+      "published_at": "2026-09-30T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Factory 宣布 Automations 正式向所有用户开放，用自然语言描述工作流后，Droid 可按定时或 Slack、GitHub、webhook 触发运行，支持自选模型（含 BYOK 和 Factory Router）与自选机器。",
+      "summary_zh": "Factory 宣布 Automations 正式向所有用户开放，用自然语言描述工作流后，Droid 可按定时或 Slack、GitHub、webhook 触发运行，支持自选模型（含 BYOK 和 Factory Router）与自选机器。",
+      "source": "aihot_selected",
+      "title_zh": "Factory Automations 正式开放：Droid 可定时或按事件自动执行工程工作流",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2523498651,
+      "url": "https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs",
+      "title": "Artificial Analysis 评测 Gemini 4 Argon：Google 重回智能前三梯队",
+      "published_at": "2026-09-29T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Artificial Analysis 评测 Google DeepMind 的 Gemini 4 Argon，其高推理档在 Artificial Analysis Intelligence Index 得分 53，追平 GPT-6 Astra (max)、领先 GPT-6.1 Sol (max) 1 分。",
+      "summary_zh": "Artificial Analysis 评测 Google DeepMind 的 Gemini 4 Argon，其高推理档在 Artificial Analysis Intelligence Index 得分 53，追平 GPT-6 Astra (max)、领先 GPT-6.1 Sol (max) 1 分。",
+      "source": "aihot_selected",
+      "title_zh": "Artificial Analysis 评测 Gemini 4 Argon：Google 重回智能前三梯队",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3575225160,
+      "url": "https://metr.org/blog/2026-09-30-chris-painter-senate-testimony/",
+      "title": "METR 主席 Chris Painter 就 AI 智能体事件向美国参议院作证",
+      "published_at": "2026-09-29T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "2026年9月30日，METR 主席 Chris Painter 在美国参议院国土安全小组委员会题为“Rogue AI”的听证会上作证，主题为 AI 智能体事故。",
+      "summary_zh": "2026年9月30日，METR 主席 Chris Painter 在美国参议院国土安全小组委员会题为“Rogue AI”的听证会上作证，主题为 AI 智能体事故。",
+      "source": "aihot_selected",
+      "title_zh": "METR 主席 Chris Painter 就 AI 智能体事件向美国参议院作证",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1336619816,
+      "url": "https://transluce.org/us-canada-gov",
+      "title": "Transluce 报告 AI 智能体以激进手段访问美加政府网站",
+      "published_at": "2026-09-29T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Transluce 发布调查报告，发现多起 AI 智能体以激进手段访问美加政府网站的事件，包括两起失败的初级入侵尝试：6 月 17 日智能体对美国教育部民权数据收集网站发出超过 20 万次请求并尝试 SQL 注入，5 月 28 日和 6 月 9 日 Arquivo.pt 记录到针对加拿大图书档案馆的 899 次请求，其中 13 次含攻击载荷。",
+      "summary_zh": "Transluce 发布调查报告，发现多起 AI 智能体以激进手段访问美加政府网站的事件，包括两起失败的初级入侵尝试：6 月 17 日智能体对美国教育部民权数据收集网站发出超过 20 万次请求并尝试 SQL 注入，5 月 28 日和 6 月 9 日 Arquivo.pt 记录到针对加拿大图书档案馆的 899 次请求，其中 13 次含攻击载荷。",
+      "source": "aihot_selected",
+      "title_zh": "Transluce 报告 AI 智能体以激进手段访问美加政府网站",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1283801664,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.24.7-nightly.20260930.57e720bc97",
+      "title": "QwenLM/qwen-code: Release v0.24.7-nightly.20260930.57e720bc97",
+      "published_at": "2026-09-30T22:19:59+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.7-nightly.20260930.57e720bc97 -->\n\n## What's Changed\n* fix(core): align Code Mode text with lazy tool discovery by @tanzhenxin in https://github.com/QwenLM/qwen-code/pull/12990\n* fix(permissions): honor approved",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.7-nightly.20260930.57e720bc97 -->\n\n## What's Changed\n* fix(core): align Code Mode text with lazy tool discovery by @tanzhenxin in https://github.com/QwenLM/qwen-code/pull/12990\n* fix(permissions): honor approved",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.24.7-nightly.20260930.57e720bc97",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
