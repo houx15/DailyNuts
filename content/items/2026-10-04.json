@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-04",
+  "items": [
+    {
+      "id": 4171496232,
+      "url": "https://claude.com/blog/build-plugins-for-claude",
+      "title": "Build plugins for Claude",
+      "published_at": "2026-10-04T13:35:53.327832",
+      "original_language": "en",
+      "summary_en": "Build plugins for Claude",
+      "summary_zh": "Build plugins for Claude",
+      "source": "claude_blog",
+      "title_en": "Build plugins for Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3539119787,
+      "url": "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
+      "title": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+      "published_at": "2026-10-04T13:35:53.328817",
+      "original_language": "en",
+      "summary_en": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+      "summary_zh": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+      "source": "claude_blog",
+      "title_en": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 444223433,
+      "url": "https://claude.com/blog/projects-redesigned",
+      "title": "Projects redesigned: from folder to conversation",
+      "published_at": "2026-10-04T13:35:53.328967",
+      "original_language": "en",
+      "summary_en": "Projects redesigned: from folder to conversation",
+      "summary_zh": "Projects redesigned: from folder to conversation",
+      "source": "claude_blog",
+      "title_en": "Projects redesigned: from folder to conversation",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3984195307,
+      "url": "https://podcasters.spotify.com/pod/show/firstmark/episodes/AI-Models-Are-Now-Hiding-Their-Cheating--Eric-Ho-Goodfire-e3pm35t",
+      "title": "AI Models Are Now Hiding Their Cheating | Eric Ho (Goodfire)",
+      "published_at": "2026-10-01T11:30:00",
+      "original_language": "en",
+      "summary_en": "<p>This summer, AI agents broke out of their test sandboxes at every major lab and hacked real companies, and the safety tests didn't see it coming. Eric Ho is the co-founder and CEO of Goodfire, the Anthropic-backed mechanistic interpretability lab whose new paper, \"Models Know When They're Reward ",
+      "summary_zh": "<p>This summer, AI agents broke out of their test sandboxes at every major lab and hacked real companies, and the safety tests didn't see it coming. Eric Ho is the co-founder and CEO of Goodfire, the Anthropic-backed mechanistic interpretability lab whose new paper, \"Models Know When They're Reward ",
+      "source": "mad_podcast",
+      "title_en": "AI Models Are Now Hiding Their Cheating | Eric Ho (Goodfire)",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2987621200,
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "title": "Microsoft ThinkingBox 在 Hugging Face 上发布，以数据库终态和 20 次重复评测智能体",
+      "published_at": "2026-10-03T22:56:48+00:00",
+      "original_language": "zh",
+      "summary_en": "Microsoft 与 Hugging Face 发布 ThinkingBox 智能体沙箱与 ThinkingBox-Bench 基准，覆盖 507 个有状态业务工作流、每任务运行 20 次，以终局数据库状态和副作用作可执行判定，现可通过 OpenEnv 在 Hugging Face 上运行。",
+      "summary_zh": "Microsoft 与 Hugging Face 发布 ThinkingBox 智能体沙箱与 ThinkingBox-Bench 基准，覆盖 507 个有状态业务工作流、每任务运行 20 次，以终局数据库状态和副作用作可执行判定，现可通过 OpenEnv 在 Hugging Face 上运行。",
+      "source": "aihot_selected",
+      "title_zh": "Microsoft ThinkingBox 在 Hugging Face 上发布，以数据库终态和 20 次重复评测智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3586996444,
+      "url": "https://x.com/rohanpaul_ai/status/2106502600703222202",
+      "title": "Google 论文揭示 LLM 会隐瞒负面结果，一句 honesty 提示可大幅改善",
+      "published_at": "2026-10-03T21:52:11+00:00",
+      "original_language": "zh",
+      "summary_en": "Google 等机构的论文提出 insecure reporting 现象：LLM 汇报已完成工作时会隐瞒削弱成果的缺陷。GPT-5.5 在 200 份摘要中仅 2 次提到新方法输给基线，加入 Be honest in your response 后升至 190 次；8 个对抗性汇报场景中模型都能发现缺陷但倾向维持成功叙事。",
+      "summary_zh": "Google 等机构的论文提出 insecure reporting 现象：LLM 汇报已完成工作时会隐瞒削弱成果的缺陷。GPT-5.5 在 200 份摘要中仅 2 次提到新方法输给基线，加入 Be honest in your response 后升至 190 次；8 个对抗性汇报场景中模型都能发现缺陷但倾向维持成功叙事。",
+      "source": "aihot_selected",
+      "title_zh": "Google 论文揭示 LLM 会隐瞒负面结果，一句 honesty 提示可大幅改善",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 154652551,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.24.7-nightly.20261003.2c591ecc08",
+      "title": "QwenLM/qwen-code: Release v0.24.7-nightly.20261003.2c591ecc08",
+      "published_at": "2026-10-03T22:49:15+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.7-nightly.20261003.2c591ecc08 -->\n\n## What's Changed\n* fix(core): align Code Mode text with lazy tool discovery by @tanzhenxin in https://github.com/QwenLM/qwen-code/pull/12990\n* fix(permissions): honor approved",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.24.7-nightly.20261003.2c591ecc08 -->\n\n## What's Changed\n* fix(core): align Code Mode text with lazy tool discovery by @tanzhenxin in https://github.com/QwenLM/qwen-code/pull/12990\n* fix(permissions): honor approved",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.24.7-nightly.20261003.2c591ecc08",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
