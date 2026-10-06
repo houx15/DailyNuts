@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-06",
+  "headline_en": "18 items collected today",
+  "lede_en": "18 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    2701720993,
+    946633563,
+    762480395
+  ],
+  "item_count": 18,
+  "source_breakdown": {
+    "google_research": 1,
+    "arxiv_cs_cl": 5,
+    "unsupervised_learning": 1,
+    "aihot_selected": 11
+  },
+  "generated_at": "2026-10-06T14:41:28.427864Z",
+  "headline_zh": "今日共采集 18 项内容",
+  "lede_zh": "今日共采集 18 项内容。",
+  "sections_zh": []
+}

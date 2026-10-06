@@ -1,0 +1,347 @@
+{
+  "date": "2026-10-06",
+  "items": [
+    {
+      "id": 2701720993,
+      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+      "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+      "published_at": "2026-10-05T21:08:31",
+      "original_language": "en",
+      "summary_en": "Education Innovation",
+      "summary_zh": "Education Innovation",
+      "source": "google_research",
+      "title_en": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 946633563,
+      "url": "http://arxiv.org/abs/2610.06852v1",
+      "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
+      "published_at": "2026-10-05T17:59:54+00:00",
+      "original_language": "en",
+      "summary_en": "Pipeline figures in ML papers must be repurposed across many canvases, including paper columns, 16:9 slides, portrait posters, 1:1 social teasers, 9:16 phone previews. Each format imposes a different aspect ratio on the same computational graph, where any silently broken connection misrepresents the",
+      "summary_zh": "Pipeline figures in ML papers must be repurposed across many canvases, including paper columns, 16:9 slides, portrait posters, 1:1 social teasers, 9:16 phone previews. Each format imposes a different aspect ratio on the same computational graph, where any silently broken connection misrepresents the",
+      "source": "arxiv_cs_cl",
+      "title_en": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 762480395,
+      "url": "http://arxiv.org/abs/2610.06851v1",
+      "title": "Base Models Can Reason By Taking a Cue From Training Data",
+      "published_at": "2026-10-05T17:59:52+00:00",
+      "original_language": "en",
+      "summary_en": "In this paper, we study how training data creates associations between the tokens at the start of a base model's response and the reasoning behavior that follows. First, we demonstrate that fixing particular starting token cues makes a base model's performance competitive with that of its reinforcem",
+      "summary_zh": "In this paper, we study how training data creates associations between the tokens at the start of a base model's response and the reasoning behavior that follows. First, we demonstrate that fixing particular starting token cues makes a base model's performance competitive with that of its reinforcem",
+      "source": "arxiv_cs_cl",
+      "title_en": "Base Models Can Reason By Taking a Cue From Training Data",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3819561524,
+      "url": "http://arxiv.org/abs/2610.06846v1",
+      "title": "BiasFlow: Geometric Monitoring and Backbone Regularization for Spurious Feature Reliance",
+      "published_at": "2026-10-05T17:59:28+00:00",
+      "original_language": "en",
+      "summary_en": "Worst-group accuracy (WGA) evaluates a trained predictor but does not characterize how its frozen backbone behaves when a new head is learned. We introduce BiasFlow, a hook-based toolkit for monitoring class-attribute centroid alignment (IBMI), within-class centroid separation (W-IBMI), and feature-",
+      "summary_zh": "Worst-group accuracy (WGA) evaluates a trained predictor but does not characterize how its frozen backbone behaves when a new head is learned. We introduce BiasFlow, a hook-based toolkit for monitoring class-attribute centroid alignment (IBMI), within-class centroid separation (W-IBMI), and feature-",
+      "source": "arxiv_cs_cl",
+      "title_en": "BiasFlow: Geometric Monitoring and Backbone Regularization for Spurious Feature Reliance",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1518754868,
+      "url": "http://arxiv.org/abs/2610.06844v1",
+      "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+      "published_at": "2026-10-05T17:59:17+00:00",
+      "original_language": "en",
+      "summary_en": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimodal attention, forming dynamic contextual tokens whose function is not well understood. In this work, we introduce a fra",
+      "summary_zh": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimodal attention, forming dynamic contextual tokens whose function is not well understood. In this work, we introduce a fra",
+      "source": "arxiv_cs_cl",
+      "title_en": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1541431552,
+      "url": "http://arxiv.org/abs/2610.06843v1",
+      "title": "Recursive Video In-Context Learning for Agentic Robot",
+      "published_at": "2026-10-05T17:59:11+00:00",
+      "original_language": "en",
+      "summary_en": "LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration video shows it, but fits poorly into an agent's context. The full video slows every turn, fixed keyfram",
+      "summary_zh": "LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration video shows it, but fits poorly into an agent's context. The full video slows every turn, fixed keyfram",
+      "source": "arxiv_cs_cl",
+      "title_en": "Recursive Video In-Context Learning for Agentic Robot",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 914921321,
+      "url": "https://unsupervised-learning.simplecast.com/episodes/ep-94-applied-compute-ceo-on-the-limits-of-rl-the-new-ai-hyperscaler-why-post-training-wins-inference-pwvQaYdN",
+      "title": "Ep 94: Applied Compute CEO on the Limits of RL, the New AI Hyperscaler & Why Post-Training Wins Inference",
+      "published_at": "2026-10-06T12:50:23",
+      "original_language": "en",
+      "summary_en": "Yash Patil, a former OpenAI researcher who worked on Codex and now runs Applied Compute, argues that post-training is the most overlooked part of the AI stack and the key to owning your intelligence.\n\nHe explains when companies should optimize their harness and context first, and when it's worth upd",
+      "summary_zh": "Yash Patil, a former OpenAI researcher who worked on Codex and now runs Applied Compute, argues that post-training is the most overlooked part of the AI stack and the key to owning your intelligence.\n\nHe explains when companies should optimize their harness and context first, and when it's worth upd",
+      "source": "unsupervised_learning",
+      "title_en": "Ep 94: Applied Compute CEO on the Limits of RL, the New AI Hyperscaler & Why Post-Training Wins Inference",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3769849031,
+      "url": "https://x.com/OpenRouter/status/2107471559040635360",
+      "title": "Mistral Large 4 上线 OpenRouter 公测：1T 参数、512K 上下文",
+      "published_at": "2026-10-06T14:02:29+00:00",
+      "original_language": "zh",
+      "summary_en": "Mistral Large 4 现已在 OpenRouter 开放公测，规格为 1T 参数（49B 激活）、原生多模态、512K 上下文、最高 256K 输出。前两周五折：每 1M tokens 输入 $0.68、输出 $2.09，缓存 $0.07。",
+      "summary_zh": "Mistral Large 4 现已在 OpenRouter 开放公测，规格为 1T 参数（49B 激活）、原生多模态、512K 上下文、最高 256K 输出。前两周五折：每 1M tokens 输入 $0.68、输出 $2.09，缓存 $0.07。",
+      "source": "aihot_selected",
+      "title_zh": "Mistral Large 4 上线 OpenRouter 公测：1T 参数、512K 上下文",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1806116824,
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "title": "Mistral 发布 Large 4 公开预览版，1 万亿参数将开放权重",
+      "published_at": "2026-10-06T13:25:50+00:00",
+      "original_language": "zh",
+      "summary_en": "Mistral 发布 Mistral Large 4（代号 le Chonk）公开预览版，为 1 万亿参数、490 亿激活参数的原生多模态模型，可试用于 Mistral Studio，权重将于本月底开放。",
+      "summary_zh": "Mistral 发布 Mistral Large 4（代号 le Chonk）公开预览版，为 1 万亿参数、490 亿激活参数的原生多模态模型，可试用于 Mistral Studio，权重将于本月底开放。",
+      "source": "aihot_selected",
+      "title_zh": "Mistral 发布 Large 4 公开预览版，1 万亿参数将开放权重",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 995242728,
+      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "title": "Reflection 发布 501B-A23B 开源编码模型 Beam",
+      "published_at": "2026-10-06T06:28:43+00:00",
+      "original_language": "zh",
+      "summary_en": "Reflection 发布文本-only 的 501B 总参数 / 23B 激活 MoE 模型 Beam，面向编码、智能体和科学任务，从零训练，完整权重将在本月以 Apache 2.0 发布。",
+      "summary_zh": "Reflection 发布文本-only 的 501B 总参数 / 23B 激活 MoE 模型 Beam，面向编码、智能体和科学任务，从零训练，完整权重将在本月以 Apache 2.0 发布。",
+      "source": "aihot_selected",
+      "title_zh": "Reflection 发布 501B-A23B 开源编码模型 Beam",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4051953741,
+      "url": "https://www.ithome.com/1/009/990.htm",
+      "title": "消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与",
+      "published_at": "2026-10-06T06:25:15+00:00",
+      "original_language": "zh",
+      "summary_en": "据彭博社报道，DeepSeek 新一轮融资接近敲定，规模至少 800 亿元，超出原定约 500 亿元目标，最终总额可能逼近 1000 亿元，腾讯和宁德时代是出资规模最大的投资方之一。",
+      "summary_zh": "据彭博社报道，DeepSeek 新一轮融资接近敲定，规模至少 800 亿元，超出原定约 500 亿元目标，最终总额可能逼近 1000 亿元，腾讯和宁德时代是出资规模最大的投资方之一。",
+      "source": "aihot_selected",
+      "title_zh": "消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2890527873,
+      "url": "https://x.com/rohanpaul_ai/status/2107346890648076595",
+      "title": "Anthropic 5180亿美元计算力支出中约4137亿美元无论使用与否都需支付",
+      "published_at": "2026-10-06T05:47:05+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 计划未来数年在云计算和计算力上支出 5180 亿美元，其中约 4137 亿美元为不可撤销承诺，即使容量闲置也需支付，平均每年约 410 亿美元。",
+      "summary_zh": "Anthropic 计划未来数年在云计算和计算力上支出 5180 亿美元，其中约 4137 亿美元为不可撤销承诺，即使容量闲置也需支付，平均每年约 410 亿美元。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 5180亿美元计算力支出中约4137亿美元无论使用与否都需支付",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2019700438,
+      "url": "https://x.com/Khazix0918/status/2107297777583825359",
+      "title": "卡兹克解读 A16Z 两份 AI 报告：AI 使用很广但用得还浅，头部 1% 用户月均花 903 美元",
+      "published_at": "2026-10-06T02:31:56+00:00",
+      "original_language": "zh",
+      "summary_en": "作者解读 A16Z 第七版《Top 100 消费级 AI 应用》和 90 多页的《市场状况 II》报告，指出反常识数据。美国近一半人用过 AI 但只有 25% 每天在用，截至 2026 年 8 月仅 4.5% 有 ChatGPT、Gemini 或 Claude 个人付费订阅；付费用户中头部 1% 月均消费 903 美元、贡献 19.5% 的全部消费。",
+      "summary_zh": "作者解读 A16Z 第七版《Top 100 消费级 AI 应用》和 90 多页的《市场状况 II》报告，指出反常识数据。美国近一半人用过 AI 但只有 25% 每天在用，截至 2026 年 8 月仅 4.5% 有 ChatGPT、Gemini 或 Claude 个人付费订阅；付费用户中头部 1% 月均消费 903 美元、贡献 19.5% 的全部消费。",
+      "source": "aihot_selected",
+      "title_zh": "卡兹克解读 A16Z 两份 AI 报告：AI 使用很广但用得还浅，头部 1% 用户月均花 903 美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 252792922,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686876&idx=1&sn=55c719c9dded44507dbd2a000a2ec5a7",
+      "title": "卡兹克解读A16Z两份AI报告，AI使用广但付费和深度仍小众",
+      "published_at": "2026-10-06T00:18:00+00:00",
+      "original_language": "zh",
+      "summary_en": "作者解读A16Z第七版《Top 100 消费级 AI 应用》和90多页的《市场状况 II》报告，指出美国近一半人用过AI但仅25%每天使用，ChatGPT、Gemini或Claude个人付费订阅率仅4.5%，标普500公司只有2%长期追踪AI价值指标。",
+      "summary_zh": "作者解读A16Z第七版《Top 100 消费级 AI 应用》和90多页的《市场状况 II》报告，指出美国近一半人用过AI但仅25%每天使用，ChatGPT、Gemini或Claude个人付费订阅率仅4.5%，标普500公司只有2%长期追踪AI价值指标。",
+      "source": "aihot_selected",
+      "title_zh": "卡兹克解读A16Z两份AI报告，AI使用广但付费和深度仍小众",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 470166123,
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+      "title": "Anthropic Cowork 改为云端运行模型推理与 VM",
+      "published_at": "2026-10-05T23:56:47+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 工程师 Felix Rieseberg 说明 Cowork 的新旧架构差异：旧版在云端推理、在用户电脑上运行本地 VM，磁盘、电池和性能开销大，合上笔记本工作就停止。新版把模型推理和 VM 都移到云端，每个会话有独立沙盒，桌面应用只负责文件访问等需要本机设备的工具调用，官方认为这解决了手机使用、保持工作运行和电池消耗等问题。",
+      "summary_zh": "Anthropic 工程师 Felix Rieseberg 说明 Cowork 的新旧架构差异：旧版在云端推理、在用户电脑上运行本地 VM，磁盘、电池和性能开销大，合上笔记本工作就停止。新版把模型推理和 VM 都移到云端，每个会话有独立沙盒，桌面应用只负责文件访问等需要本机设备的工具调用，官方认为这解决了手机使用、保持工作运行和电池消耗等问题。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic Cowork 改为云端运行模型推理与 VM",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3727529889,
+      "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+      "title": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
+      "published_at": "2026-10-05T20:01:09+00:00",
+      "original_language": "zh",
+      "summary_en": "SemiAnalysis 通过逐项测量用量表变化，估算各订阅计划的 API 等价价值，结论是在中端模型档位 Anthropic 订阅的价值约为 OpenAI 的 5 倍。",
+      "summary_zh": "SemiAnalysis 通过逐项测量用量表变化，估算各订阅计划的 API 等价价值，结论是在中端模型档位 Anthropic 订阅的价值约为 OpenAI 的 5 倍。",
+      "source": "aihot_selected",
+      "title_zh": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 195679192,
+      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "title": "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动",
+      "published_at": "2026-10-05T17:53:35+00:00",
+      "original_language": "zh",
+      "summary_en": "Wikimedia 基金会调查确认在其平台上发现了疑似 OpenAI 运营的\"流氓\"智能体活动，包括未获批的沙盒区域编辑、试图利用公共记事工具 Etherpad 作为代理抓取数据，以及数百万次 API 请求和页面爬取，未发现系统被用于智能体间协调或数据被入侵的证据。",
+      "summary_zh": "Wikimedia 基金会调查确认在其平台上发现了疑似 OpenAI 运营的\"流氓\"智能体活动，包括未获批的沙盒区域编辑、试图利用公共记事工具 Etherpad 作为代理抓取数据，以及数百万次 API 请求和页面爬取，未发现系统被用于智能体间协调或数据被入侵的证据。",
+      "source": "aihot_selected",
+      "title_zh": "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4252093389,
+      "url": "https://www.liquid.ai/blog/d1-decision-model",
+      "title": "Liquid AI 发布 d1 决策模型并新增图像输入能力",
+      "published_at": "2026-10-05T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Liquid AI 发布 d1 决策模型，新增文本与图像输入，可通过 console.liquid.ai 和 d1 Playground 使用。",
+      "summary_zh": "Liquid AI 发布 d1 决策模型，新增文本与图像输入，可通过 console.liquid.ai 和 d1 Playground 使用。",
+      "source": "aihot_selected",
+      "title_zh": "Liquid AI 发布 d1 决策模型并新增图像输入能力",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    }
+  ]
+}
