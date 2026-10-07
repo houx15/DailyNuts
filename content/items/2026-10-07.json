@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-07",
+  "items": [
+    {
+      "id": 3488283691,
+      "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+      "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+      "published_at": "2026-10-06T15:05:11",
+      "original_language": "en",
+      "summary_en": "Earth AI",
+      "summary_zh": "Earth AI",
+      "source": "google_research",
+      "title_en": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3453422169,
+      "url": "http://arxiv.org/abs/2610.08785v1",
+      "title": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
+      "published_at": "2026-10-06T17:59:11+00:00",
+      "original_language": "en",
+      "summary_en": "Conformal prediction is a popular tool for uncertainty quantification that outputs prediction sets with finite-sample coverage guarantees. While prediction set size is commonly used as a heuristic measure of uncertainty, the information-theoretic basis for this interpretation remains poorly understo",
+      "summary_zh": "Conformal prediction is a popular tool for uncertainty quantification that outputs prediction sets with finite-sample coverage guarantees. While prediction set size is commonly used as a heuristic measure of uncertainty, the information-theoretic basis for this interpretation remains poorly understo",
+      "source": "arxiv_cs_cl",
+      "title_en": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4166673658,
+      "url": "http://arxiv.org/abs/2610.08782v1",
+      "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
+      "published_at": "2026-10-06T17:59:02+00:00",
+      "original_language": "en",
+      "summary_en": "Existing methods for 4D hand-object reconstruction often rely on costly per-sequence optimization, while generative approaches typically synthesize interactions from random noise, which can lead to unstable interaction prediction. We introduce 4D-HOF, a feed-forward framework that reconstructs 4D ha",
+      "summary_zh": "Existing methods for 4D hand-object reconstruction often rely on costly per-sequence optimization, while generative approaches typically synthesize interactions from random noise, which can lead to unstable interaction prediction. We introduce 4D-HOF, a feed-forward framework that reconstructs 4D ha",
+      "source": "arxiv_cs_cl",
+      "title_en": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3290295778,
+      "url": "http://arxiv.org/abs/2610.08781v1",
+      "title": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
+      "published_at": "2026-10-06T17:59:01+00:00",
+      "original_language": "en",
+      "summary_en": "Scientific research often begins by synthesizing ideas from a set of related papers to identify gaps and formulate new directions. However, training language models to perform this form of literature-grounded ideation remains challenging, as existing approaches based on prompting or feedback lack st",
+      "summary_zh": "Scientific research often begins by synthesizing ideas from a set of related papers to identify gaps and formulate new directions. However, training language models to perform this form of literature-grounded ideation remains challenging, as existing approaches based on prompting or feedback lack st",
+      "source": "arxiv_cs_cl",
+      "title_en": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4242204373,
+      "url": "http://arxiv.org/abs/2610.08778v1",
+      "title": "Sherpa: Teaching LLMs to Teach Adaptively",
+      "published_at": "2026-10-06T17:58:18+00:00",
+      "original_language": "en",
+      "summary_en": "Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it. Existing approaches to training LLMs as teachers rely on demonstrations, preference data, or predefined pedagogical criteria that specify what g",
+      "summary_zh": "Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it. Existing approaches to training LLMs as teachers rely on demonstrations, preference data, or predefined pedagogical criteria that specify what g",
+      "source": "arxiv_cs_cl",
+      "title_en": "Sherpa: Teaching LLMs to Teach Adaptively",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 794746265,
+      "url": "http://arxiv.org/abs/2610.08775v1",
+      "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+      "published_at": "2026-10-06T17:57:19+00:00",
+      "original_language": "en",
+      "summary_en": "Large language models (LLMs) can solve many narrow tasks, but querying them separately for millions of related instances can be prohibitively expensive. Can LLM agents autonomously create cheaper solutions for such workloads? We call this ability \"bottling\": the ability to turn general capabilities ",
+      "summary_zh": "Large language models (LLMs) can solve many narrow tasks, but querying them separately for millions of related instances can be prohibitively expensive. Can LLM agents autonomously create cheaper solutions for such workloads? We call this ability \"bottling\": the ability to turn general capabilities ",
+      "source": "arxiv_cs_cl",
+      "title_en": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 511994790,
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "title": "Expanding the Cyber Verification Program",
+      "published_at": "2026-10-06T00:00:00",
+      "original_language": "en",
+      "summary_en": "Expanding the Cyber Verification Program",
+      "summary_zh": "Expanding the Cyber Verification Program",
+      "source": "anthropic_news",
+      "title_en": "Expanding the Cyber Verification Program",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2714808850,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.1-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.25.1-preview.0",
+      "published_at": "2026-10-06T18:45:47+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.1-preview.0 -->\n\n## What's Changed\n* fix(agents): replace selected remote Hosts without losing bindings by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/13430\n* test(core): close #12693 post-merge revi",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.1-preview.0 -->\n\n## What's Changed\n* fix(agents): replace selected remote Hosts without losing bindings by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/13430\n* test(core): close #12693 post-merge revi",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.1-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3151919882,
+      "url": "https://github.com/Tencent-Hunyuan/UniRL/releases/tag/v0.1.0",
+      "title": "Tencent-Hunyuan/UniRL: UniRL v0.1.0",
+      "published_at": "2026-10-07T03:47:51+00:00",
+      "original_language": "en",
+      "summary_en": "Initial public release of UniRL, a reinforcement learning framework for unified multimodal models. Install with `pip install unirl==0.1.0`.\n\n### What's included\n- **Training entrypoints**: diffusion RL (`train_diffusion`), AR RL for LLM / VLM (`train_ar`), prompt enhancement (`train_pe`), and unifie",
+      "summary_zh": "Initial public release of UniRL, a reinforcement learning framework for unified multimodal models. Install with `pip install unirl==0.1.0`.\n\n### What's included\n- **Training entrypoints**: diffusion RL (`train_diffusion`), AR RL for LLM / VLM (`train_ar`), prompt enhancement (`train_pe`), and unifie",
+      "source": "hunyuan_github",
+      "title_en": "Tencent-Hunyuan/UniRL: UniRL v0.1.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}

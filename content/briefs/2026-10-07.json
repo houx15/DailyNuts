@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-07",
+  "headline_en": "9 items collected today",
+  "lede_en": "9 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    3488283691,
+    3453422169,
+    4166673658
+  ],
+  "item_count": 9,
+  "source_breakdown": {
+    "google_research": 1,
+    "arxiv_cs_cl": 5,
+    "anthropic_news": 1,
+    "qwen_github": 1,
+    "hunyuan_github": 1
+  },
+  "generated_at": "2026-10-07T14:59:57.000510Z",
+  "headline_zh": "今日共采集 9 项内容",
+  "lede_zh": "今日共采集 9 项内容。",
+  "sections_zh": []
+}
