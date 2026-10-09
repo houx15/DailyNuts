@@ -1,0 +1,689 @@
+{
+  "date": "2026-10-09",
+  "items": [
+    {
+      "id": 964472780,
+      "url": "http://arxiv.org/abs/2610.12463v1",
+      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+      "published_at": "2026-10-08T17:59:49+00:00",
+      "original_language": "en",
+      "summary_en": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environme",
+      "summary_zh": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environme",
+      "source": "arxiv_cs_cl",
+      "title_en": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1206434586,
+      "url": "http://arxiv.org/abs/2610.12452v1",
+      "title": "BrickBench: Evaluating Agentic Brick Design",
+      "published_at": "2026-10-08T17:58:56+00:00",
+      "original_language": "en",
+      "summary_en": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reaso",
+      "summary_zh": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reaso",
+      "source": "arxiv_cs_cl",
+      "title_en": "BrickBench: Evaluating Agentic Brick Design",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3049258043,
+      "url": "http://arxiv.org/abs/2610.12448v1",
+      "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
+      "published_at": "2026-10-08T17:58:36+00:00",
+      "original_language": "en",
+      "summary_en": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as ",
+      "summary_zh": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as ",
+      "source": "arxiv_cs_cl",
+      "title_en": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3522617350,
+      "url": "http://arxiv.org/abs/2610.12445v1",
+      "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+      "published_at": "2026-10-08T17:58:13+00:00",
+      "original_language": "en",
+      "summary_en": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier monitoring settings by collecting the largest deception dataset to date for training probes and intro",
+      "summary_zh": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier monitoring settings by collecting the largest deception dataset to date for training probes and intro",
+      "source": "arxiv_cs_cl",
+      "title_en": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1842347438,
+      "url": "http://arxiv.org/abs/2610.12444v1",
+      "title": "Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Quantization",
+      "published_at": "2026-10-08T17:58:09+00:00",
+      "original_language": "en",
+      "summary_en": "Quantizing AdamW's optimizer states reduces persistent storage, but quantization errors propagate through the moment recurrences and perturb subsequent adaptive updates. We redesign 4-bit optimizer-state quantization for AdamW from the perspective of \\emph{rounding space}: the coordinate in which a ",
+      "summary_zh": "Quantizing AdamW's optimizer states reduces persistent storage, but quantization errors propagate through the moment recurrences and perturb subsequent adaptive updates. We redesign 4-bit optimizer-state quantization for AdamW from the perspective of \\emph{rounding space}: the coordinate in which a ",
+      "source": "arxiv_cs_cl",
+      "title_en": "Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Quantization",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1667730561,
+      "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+      "title": "The missing map of the sky",
+      "published_at": "2026-10-08T00:00:00",
+      "original_language": "en",
+      "summary_en": "The missing map of the sky",
+      "summary_zh": "The missing map of the sky",
+      "source": "anthropic_research",
+      "title_en": "The missing map of the sky",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 743251872,
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "title": "Launching an opt-in vulnerability-finding service for open-source software",
+      "published_at": "2026-10-08T00:00:00",
+      "original_language": "en",
+      "summary_en": "Launching an opt-in vulnerability-finding service for open-source software",
+      "summary_zh": "Launching an opt-in vulnerability-finding service for open-source software",
+      "source": "anthropic_research",
+      "title_en": "Launching an opt-in vulnerability-finding service for open-source software",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4253350293,
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "title": "Building on our commitment to American scientific discovery",
+      "published_at": "2026-10-08T00:00:00",
+      "original_language": "en",
+      "summary_en": "Building on our commitment to American scientific discovery",
+      "summary_zh": "Building on our commitment to American scientific discovery",
+      "source": "anthropic_news",
+      "title_en": "Building on our commitment to American scientific discovery",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 971847984,
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "title": "Introducing the Anthropic Cyber Mission",
+      "published_at": "2026-10-08T00:00:00",
+      "original_language": "en",
+      "summary_en": "Introducing the Anthropic Cyber Mission",
+      "summary_zh": "Introducing the Anthropic Cyber Mission",
+      "source": "anthropic_news",
+      "title_en": "Introducing the Anthropic Cyber Mission",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1057586000,
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "title": "2026 Usage Policy update",
+      "published_at": "2026-10-08T00:00:00",
+      "original_language": "en",
+      "summary_en": "2026 Usage Policy update",
+      "summary_zh": "2026 Usage Policy update",
+      "source": "anthropic_news",
+      "title_en": "2026 Usage Policy update",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4260897993,
+      "url": "https://x.com/OpenAINewsroom/status/2108441580806025712",
+      "title": "OpenAI 研究负责人发声明回应三名员工离职争议",
+      "published_at": "2026-10-09T06:17:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 研究负责人发声明，称上周在调查发现 Jasmine、Mikita 和 Tomek 违反敏感信息处理政策后终止其雇佣，并表示内部调查发现超出三人公开信所述的重大信任违规。声明强调解雇与提出安全担忧无关，称正在敲定与第三方安全评估机构的合同并将在数周内公布详情，同时认同保持前沿模型可监测性需要全行业承诺。",
+      "summary_zh": "OpenAI 研究负责人发声明，称上周在调查发现 Jasmine、Mikita 和 Tomek 违反敏感信息处理政策后终止其雇佣，并表示内部调查发现超出三人公开信所述的重大信任违规。声明强调解雇与提出安全担忧无关，称正在敲定与第三方安全评估机构的合同并将在数周内公布详情，同时认同保持前沿模型可监测性需要全行业承诺。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 研究负责人发声明回应三名员工离职争议",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2552635436,
+      "url": "https://x.com/arena/status/2108405474391728357",
+      "title": "Mistral Large 4 进入 Agent Arena 前十五实验室，排名第 43",
+      "published_at": "2026-10-09T03:53:32+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 宣布 Mistral Large 4 进入 Agent Arena 前十五实验室，基于超 5000 个真实智能体会话，该预览版净改进分为 -6.6%，总排名第 43，比前代 Mistral Medium 3.5（-12.60%）高出 11 位。",
+      "summary_zh": "Arena 宣布 Mistral Large 4 进入 Agent Arena 前十五实验室，基于超 5000 个真实智能体会话，该预览版净改进分为 -6.6%，总排名第 43，比前代 Mistral Medium 3.5（-12.60%）高出 11 位。",
+      "source": "aihot_selected",
+      "title_zh": "Mistral Large 4 进入 Agent Arena 前十五实验室，排名第 43",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1428538469,
+      "url": "https://www.ithome.com/1/010/751.htm",
+      "title": "OpenAI 年化营收被曝接近 500 亿美元，与此前预期差距约 200 亿美元",
+      "published_at": "2026-10-08T23:02:44.683000+00:00",
+      "original_language": "zh",
+      "summary_en": "据金融时报报道，OpenAI 向投资者披露截至 9 月底年化营收逼近 500 亿美元，大幅低于此前外界估算的 700 亿美元，缺口约 200 亿美元。差异源于统计口径不同，Anthropic 计入 AWS 和谷歌云等合作方销售收入，而 OpenAI 剔除该部分。报道发布后美股科技股下跌，纳斯达克 100 指数收跌 1.4%，英伟达跌 2.9%，甲骨文跌 5.5%。",
+      "summary_zh": "据金融时报报道，OpenAI 向投资者披露截至 9 月底年化营收逼近 500 亿美元，大幅低于此前外界估算的 700 亿美元，缺口约 200 亿美元。差异源于统计口径不同，Anthropic 计入 AWS 和谷歌云等合作方销售收入，而 OpenAI 剔除该部分。报道发布后美股科技股下跌，纳斯达克 100 指数收跌 1.4%，英伟达跌 2.9%，甲骨文跌 5.5%。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 年化营收被曝接近 500 亿美元，与此前预期差距约 200 亿美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3839763401,
+      "url": "https://x.com/arena/status/2108310714423423254",
+      "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
+      "published_at": "2026-10-08T21:36:59+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元，由 Lightspeed 和 Khosla Ventures 联合领投，a16z、Felicis、Salesforce Ventures、The House Fund 等参投。自 A 轮以来，Arena 年化收入超 1 亿美元，平台累计 3.5 亿场次会话，约 5 个月内产生 700 万次 Agent Arena 会话，覆盖文本、视觉、代码、搜索、图像和视频的投票达 6200 万，用户遍布 150 多个国家。融资同时，Arena 发布基于真实智能体轨迹构建的 Alignment Index，对 20 多个前沿模型从 Unauthor",
+      "summary_zh": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元，由 Lightspeed 和 Khosla Ventures 联合领投，a16z、Felicis、Salesforce Ventures、The House Fund 等参投。自 A 轮以来，Arena 年化收入超 1 亿美元，平台累计 3.5 亿场次会话，约 5 个月内产生 700 万次 Agent Arena 会话，覆盖文本、视觉、代码、搜索、图像和视频的投票达 6200 万，用户遍布 150 多个国家。融资同时，Arena 发布基于真实智能体轨迹构建的 Alignment Index，对 20 多个前沿模型从 Unauthor",
+      "source": "aihot_selected",
+      "title_zh": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3407153220,
+      "url": "https://x.com/arena/status/2108286973119230096",
+      "title": "Arena 公布 Claude Haiku 5.5 (High) 真实评测结果：Code Arena 1587 分首秀第 30 名",
+      "published_at": "2026-10-08T20:02:39+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 公布 Anthropic Claude Haiku 5.5 (High) 的真实评测结果，在 Code Arena: WebDev 以 1587 分首秀排名第 30，略在 Pareto 前沿之外。",
+      "summary_zh": "Arena 公布 Anthropic Claude Haiku 5.5 (High) 的真实评测结果，在 Code Arena: WebDev 以 1587 分首秀排名第 30，略在 Pareto 前沿之外。",
+      "source": "aihot_selected",
+      "title_zh": "Arena 公布 Claude Haiku 5.5 (High) 真实评测结果：Code Arena 1587 分首秀第 30 名",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3124447282,
+      "url": "https://blog.comfy.org/p/how-i-generated-live-video-with-minimax",
+      "title": "如何在单张 RTX 5090 上用 MiniMax H3 生成实时视频",
+      "published_at": "2026-10-08T19:01:22+00:00",
+      "original_language": "zh",
+      "summary_en": "ComfyUI 博客作者用智能体搜集各类优化，把 MiniMax H3 实时视频生成压缩到单张 RTX 5090（32 GB 显存）上运行，生成 30 秒视频耗时 23.51 秒，达 1.28 倍实时吞吐。",
+      "summary_zh": "ComfyUI 博客作者用智能体搜集各类优化，把 MiniMax H3 实时视频生成压缩到单张 RTX 5090（32 GB 显存）上运行，生成 30 秒视频耗时 23.51 秒，达 1.28 倍实时吞吐。",
+      "source": "aihot_selected",
+      "title_zh": "如何在单张 RTX 5090 上用 MiniMax H3 生成实时视频",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1320519591,
+      "url": "https://x.com/arena/status/2108269048467513429",
+      "title": "Arena 获 Lightspeed 领投 2 亿美元 B 轮融资，估值 31 亿美元并推出 Alignment Index",
+      "published_at": "2026-10-08T18:51:25+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 宣布完成由 Lightspeed 领投的 2 亿美元 B 轮融资，估值 31 亿美元。引用内容称其年化收入已超 1 亿美元，数百万用户通过真实使用帮助评估前沿模型；Arena 同时推出 Alignment Index，衡量 AI 行为在真实场景中与人类价值的契合程度。",
+      "summary_zh": "Arena 宣布完成由 Lightspeed 领投的 2 亿美元 B 轮融资，估值 31 亿美元。引用内容称其年化收入已超 1 亿美元，数百万用户通过真实使用帮助评估前沿模型；Arena 同时推出 Alignment Index，衡量 AI 行为在真实场景中与人类价值的契合程度。",
+      "source": "aihot_selected",
+      "title_zh": "Arena 获 Lightspeed 领投 2 亿美元 B 轮融资，估值 31 亿美元并推出 Alignment Index",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2457494375,
+      "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
+      "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
+      "published_at": "2026-10-08T18:17:07+00:00",
+      "original_language": "zh",
+      "summary_en": "AHM 组织在 Terence Tao 主持下发表声明，呼吁抵制 OpenAI，称其一次性发布 700 多个 AI 生成证明文件是展示力量而非学术行为。此前 OpenAI 宣称内部模型一个月内解决逾 100 个开放数学问题，约 8000 个测试问题成功率约 5%，平均每个耗时 3 小时 GPT-Pro 级算力。",
+      "summary_zh": "AHM 组织在 Terence Tao 主持下发表声明，呼吁抵制 OpenAI，称其一次性发布 700 多个 AI 生成证明文件是展示力量而非学术行为。此前 OpenAI 宣称内部模型一个月内解决逾 100 个开放数学问题，约 8000 个测试问题成功率约 5%，平均每个耗时 3 小时 GPT-Pro 级算力。",
+      "source": "aihot_selected",
+      "title_zh": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2191603875,
+      "url": "https://x.com/arena/status/2108243026741248348",
+      "title": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index",
+      "published_at": "2026-10-08T17:08:01+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 宣布完成 2 亿美元 B 轮融资，估值 31 亿美元，同时推出衡量 AI 智能体是否安全、真实且在用户要求范围内行动的 Alignment Index。引用 Felicis 的内容称 Arena 年化收入已超 1 亿美元，累计促成 3.5 亿次会话和 6200 万次投票。",
+      "summary_zh": "Arena 宣布完成 2 亿美元 B 轮融资，估值 31 亿美元，同时推出衡量 AI 智能体是否安全、真实且在用户要求范围内行动的 Alignment Index。引用 Felicis 的内容称 Arena 年化收入已超 1 亿美元，累计促成 3.5 亿次会话和 6200 万次投票。",
+      "source": "aihot_selected",
+      "title_zh": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 592107350,
+      "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
+      "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
+      "published_at": "2026-10-08T16:42:42+00:00",
+      "original_language": "zh",
+      "summary_en": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。",
+      "summary_zh": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。",
+      "source": "aihot_selected",
+      "title_zh": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 586272954,
+      "url": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link",
+      "title": "LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Restock",
+      "published_at": "2026-10-08T16:21:08+00:00",
+      "original_language": "zh",
+      "summary_en": "LangChain 发布示例项目 Restock，一个在 Slack 上通过 Managed Deep Agents 运行的办公用品购买智能体，演示智能体如何安全完成支付。",
+      "summary_zh": "LangChain 发布示例项目 Restock，一个在 Slack 上通过 Managed Deep Agents 运行的办公用品购买智能体，演示智能体如何安全完成支付。",
+      "source": "aihot_selected",
+      "title_zh": "LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Restock",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1595362814,
+      "url": "https://www.youtube.com/shorts/n9WfoNW2XnE",
+      "title": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线",
+      "published_at": "2026-10-08T15:53:13+00:00",
+      "original_language": "zh",
+      "summary_en": "Claude 发布九月更新回顾，Chat 与 Cowork 合并为一个 Claude，工作流可在云端运行，合上笔记本后继续进行。Claude Docs 支持团队与 Claude 在同一文档中协作编辑，新推出的 Claude 5.5 系列提供 Opus 5.5 处理重任务、Sonnet 5.5 用于快速修改，并可通过 /slides、/docs、/designs 直接生成对应格式。",
+      "summary_zh": "Claude 发布九月更新回顾，Chat 与 Cowork 合并为一个 Claude，工作流可在云端运行，合上笔记本后继续进行。Claude Docs 支持团队与 Claude 在同一文档中协作编辑，新推出的 Claude 5.5 系列提供 Opus 5.5 处理重任务、Sonnet 5.5 用于快速修改，并可通过 /slides、/docs、/designs 直接生成对应格式。",
+      "source": "aihot_selected",
+      "title_zh": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4269803259,
+      "url": "https://claude.dev/blog/building-effective-agent-automations/",
+      "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
+      "published_at": "2026-10-08T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
+      "summary_zh": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1958975405,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686908&idx=1&sn=29a97b5ff695871a7bf219d3d6bd6487",
+      "title": "OpenAI 在 GitHub 发布 openai/math 仓库，722 份数学手稿引发数学界震荡",
+      "published_at": "2026-10-08T00:36:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 于10月7日在 GitHub 发布 openai/math 仓库，收录其未公开内部模型产出的722份数学手稿，归为372个成果组，覆盖数论、代数几何、偏微分方程等方向，每个结果平均花费约3小时 ChatGPT Pro 级别思考算力。",
+      "summary_zh": "OpenAI 于10月7日在 GitHub 发布 openai/math 仓库，收录其未公开内部模型产出的722份数学手稿，归为372个成果组，覆盖数论、代数几何、偏微分方程等方向，每个结果平均花费约3小时 ChatGPT Pro 级别思考算力。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 在 GitHub 发布 openai/math 仓库，722 份数学手稿引发数学界震荡",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2659088420,
+      "url": "https://huggingface.co/blog/building-with-ml-intern",
+      "title": "Hugging Face 工程师用 ML Intern 以约 103 美元自制 7 个小模型",
+      "published_at": "2026-10-08T00:00:00.751000+00:00",
+      "original_language": "zh",
+      "summary_en": "Hugging Face 工程师 yuvraj sharma 用 HuggingChat 的 ML Intern 模式在几天内做出 7 个模型，包括可在 CPU 运行、99.7% 有效输出的 0.8B 提示词重写器，以及将柑橘病害识别准确率从 14.9% 提升到 52.8% 的 Qwen3.5-2B 微调模型等，全部计算成本约 103 美元。",
+      "summary_zh": "Hugging Face 工程师 yuvraj sharma 用 HuggingChat 的 ML Intern 模式在几天内做出 7 个模型，包括可在 CPU 运行、99.7% 有效输出的 0.8B 提示词重写器，以及将柑橘病害识别准确率从 14.9% 提升到 52.8% 的 Qwen3.5-2B 微调模型等，全部计算成本约 103 美元。",
+      "source": "aihot_selected",
+      "title_zh": "Hugging Face 工程师用 ML Intern 以约 103 美元自制 7 个小模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 308636051,
+      "url": "https://claude.com/blog/dashboards-and-motion",
+      "title": "Claude 推出 Dashboards 实时仪表盘与 Motion 动画讲解功能",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 发布 Claude Dashboards 和 Claude Motion 两项 beta 功能。",
+      "summary_zh": "Anthropic 发布 Claude Dashboards 和 Claude Motion 两项 beta 功能。",
+      "source": "aihot_selected",
+      "title_zh": "Claude 推出 Dashboards 实时仪表盘与 Motion 动画讲解功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 512869858,
+      "url": "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/",
+      "title": "Google 开源 ML Drift 端侧 GPU 推理引擎，接替 TFLite GPU delegate",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Google AI Edge 团队以 Apache 2.0 许可开源 ML Drift，一个跨平台端侧 GPU 推理计算引擎，作为 LiteRT 的核心 GPU 加速层。",
+      "summary_zh": "Google AI Edge 团队以 Apache 2.0 许可开源 ML Drift，一个跨平台端侧 GPU 推理计算引擎，作为 LiteRT 的核心 GPU 加速层。",
+      "source": "aihot_selected",
+      "title_zh": "Google 开源 ML Drift 端侧 GPU 推理引擎，接替 TFLite GPU delegate",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3919702438,
+      "url": "https://claude.com/blog/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests",
+      "title": "Block 如何用 Claude Fable 编排数千个 pull request 的代码迁移",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 发表对 Block AI capabilities 负责人 Bradley Axen 的访谈，介绍 Block 用 Claude Fable 5 编排大规模代码迁移：Fable 做数据模型、API 规格等高层设计，再调度数十个更小的 Opus 或 Sonnet 模型执行文件修改和测试，一次迁移可能合并上千个 pull request。",
+      "summary_zh": "Anthropic 发表对 Block AI capabilities 负责人 Bradley Axen 的访谈，介绍 Block 用 Claude Fable 5 编排大规模代码迁移：Fable 做数据模型、API 规格等高层设计，再调度数十个更小的 Opus 或 Sonnet 模型执行文件修改和测试，一次迁移可能合并上千个 pull request。",
+      "source": "aihot_selected",
+      "title_zh": "Block 如何用 Claude Fable 编排数千个 pull request 的代码迁移",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2909741522,
+      "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/",
+      "title": "Google 开源 AQuA 环境质量智能体，自动诊断生产环境中的 Agent 故障",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Google 发布并开源 AQuA（Ambient Quality Agent），在 Google Cloud 项目中定时从 Cloud Trace、Cloud Logging 或 BigQuery 抽取生产会话，经抽样、评审、聚类、验证、跟踪五阶段流水线诊断 Agent 失败。",
+      "summary_zh": "Google 发布并开源 AQuA（Ambient Quality Agent），在 Google Cloud 项目中定时从 Cloud Trace、Cloud Logging 或 BigQuery 抽取生产会话，经抽样、评审、聚类、验证、跟踪五阶段流水线诊断 Agent 失败。",
+      "source": "aihot_selected",
+      "title_zh": "Google 开源 AQuA 环境质量智能体，自动诊断生产环境中的 Agent 故障",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 675549085,
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 封禁了两个隐蔽影响行动，俄罗斯来源的 Dark Clark 通过假 persona Mia Clark 控制拉美智库 Social Research Center，评分达 Category 5，是报告以来首个 Category 5；伊朗来源的 Bogus Bylines 用 7 个假记者身份在全球十几家中小媒体投放近 100 篇长文，评分 Category 4。",
+      "summary_zh": "OpenAI 封禁了两个隐蔽影响行动，俄罗斯来源的 Dark Clark 通过假 persona Mia Clark 控制拉美智库 Social Research Center，评分达 Category 5，是报告以来首个 Category 5；伊朗来源的 Bogus Bylines 用 7 个假记者身份在全球十几家中小媒体投放近 100 篇长文，评分 Category 4。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4040142041,
+      "url": "https://tessl.io/blog/your-ai-isnt-stupid-its-blind",
+      "title": "Tessl 工程博客：AI 不是笨，是瞎——企业级 Agent 记忆的三个关键设计决策",
+      "published_at": "2026-10-07T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "作者基于为跨公司工作的 Agent 构建记忆系统一年的经验指出，AI 失败的常见原因不是模型推理差，而是它看不到关键决策上下文，多数 agent memory 只是给瞎子更大的档案柜。",
+      "summary_zh": "作者基于为跨公司工作的 Agent 构建记忆系统一年的经验指出，AI 失败的常见原因不是模型推理差，而是它看不到关键决策上下文，多数 agent memory 只是给瞎子更大的档案柜。",
+      "source": "aihot_selected",
+      "title_zh": "Tessl 工程博客：AI 不是笨，是瞎——企业级 Agent 记忆的三个关键设计决策",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1826330347,
+      "url": "https://www.goodfire.com/research/production-cyber-monitors-on-kimi-k3",
+      "title": "Goodfire 为 Kimi K3 和 GLM 5.3 训练并部署生产级网络安全监控器",
+      "published_at": "2026-10-07T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Goodfire Research 为 Kimi K3 和 GLM 5.3 构建基于激活探针加 LLM judge 的监控级联，并部署到生产推理栈。",
+      "summary_zh": "Goodfire Research 为 Kimi K3 和 GLM 5.3 构建基于激活探针加 LLM judge 的监控级联，并部署到生产推理栈。",
+      "source": "aihot_selected",
+      "title_zh": "Goodfire 为 Kimi K3 和 GLM 5.3 训练并部署生产级网络安全监控器",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1116147597,
+      "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+      "title": "NVIDIA KGMON 团队分享 KDD Cup 2026 数据分析智能体的构建经验",
+      "published_at": "2026-10-07T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA KGMON 团队在 KDD Cup 2026 Data Agents 竞赛获得第二名，并发布构建可靠数据分析智能体的方法复盘。",
+      "summary_zh": "NVIDIA KGMON 团队在 KDD Cup 2026 Data Agents 竞赛获得第二名，并发布构建可靠数据分析智能体的方法复盘。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA KGMON 团队分享 KDD Cup 2026 数据分析智能体的构建经验",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2534067872,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-alpha.2",
+      "title": "deepseek-ai/deepseek-harness: v0.2.1-alpha.2",
+      "published_at": "2026-10-09T11:09:26+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.1-alpha.2-community) | [English](#en-v0.2.1-alpha.2-community)\r\n\r\n<h3 id=\"cn-v0.2.1-alpha.2-community\">新增功能</h3>\r\n\r\n- 新增思考过程机器翻译实验插件，可在插件页启用，选择 Bing、Google 或付费 DeepSeek Flash。 @tianyicui\r\n- 全局指令支持读取共享 agents 目录中的 AGENTS.md，可通过 DSH_AGENTS_HOME 指定目录。 @tianyicui\r\n- 新增 working_directory 工具",
+      "summary_zh": "[中文](#cn-v0.2.1-alpha.2-community) | [English](#en-v0.2.1-alpha.2-community)\r\n\r\n<h3 id=\"cn-v0.2.1-alpha.2-community\">新增功能</h3>\r\n\r\n- 新增思考过程机器翻译实验插件，可在插件页启用，选择 Bing、Google 或付费 DeepSeek Flash。 @tianyicui\r\n- 全局指令支持读取共享 agents 目录中的 AGENTS.md，可通过 DSH_AGENTS_HOME 指定目录。 @tianyicui\r\n- 新增 working_directory 工具",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.1-alpha.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3119407221,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.1-preview.1",
+      "title": "QwenLM/qwen-code: Release v0.25.1-preview.1",
+      "published_at": "2026-10-09T05:35:14+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.1-preview.1 -->\n\n## What's Changed\n* fix(agents): replace selected remote Hosts without losing bindings by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/13430\n* test(core): close #12693 post-merge revi",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.1-preview.1 -->\n\n## What's Changed\n* fix(agents): replace selected remote Hosts without losing bindings by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/13430\n* test(core): close #12693 post-merge revi",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.1-preview.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 4082311255,
+      "url": "https://github.com/THUDM/slime/releases/tag/v0.4.0",
+      "title": "THUDM/slime: v0.4.0: A First Step Toward Greater Scale",
+      "published_at": "2026-10-09T03:04:12+00:00",
+      "original_language": "en",
+      "summary_en": "OpenAI's [Navier–Stokes research effort](https://openai.com/index/navier-stokes-solution/) involved a group of roughly 10,000 concurrent agents and used approximately 130 billion output tokens during problem-solving. For us, it offered a concrete glimpse of how large agent workloads can become—and p",
+      "summary_zh": "OpenAI's [Navier–Stokes research effort](https://openai.com/index/navier-stokes-solution/) involved a group of roughly 10,000 concurrent agents and used approximately 130 billion output tokens during problem-solving. For us, it offered a concrete glimpse of how large agent workloads can become—and p",
+      "source": "thudm_github",
+      "title_en": "THUDM/slime: v0.4.0: A First Step Toward Greater Scale",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
