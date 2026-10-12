@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "id": 3282292631,
+      "url": "https://x.com/satyanadella/status/2109631106404487523",
+      "title": "微软发布自研芯片 Maia 300 并将大规模扩展 Maia 推理部署",
+      "published_at": "2026-10-12T13:03:45+00:00",
+      "original_language": "zh",
+      "summary_en": "微软宣布明年起将 Maia 芯片家族扩展到多吉瓦级部署，作为自家产品和服务的首选推理系统，并发布 Maia 300，每瓦 token 产出比主流 GPU 系统高 40%。Maia 200 已在美国、欧洲和澳大利亚部署，在 Teams 和 Copilot 场景中每瓦 token 产出提升最高 1.7x。",
+      "summary_zh": "微软宣布明年起将 Maia 芯片家族扩展到多吉瓦级部署，作为自家产品和服务的首选推理系统，并发布 Maia 300，每瓦 token 产出比主流 GPU 系统高 40%。Maia 200 已在美国、欧洲和澳大利亚部署，在 Teams 和 Copilot 场景中每瓦 token 产出提升最高 1.7x。",
+      "source": "aihot_selected",
+      "title_zh": "微软发布自研芯片 Maia 300 并将大规模扩展 Maia 推理部署",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1636113283,
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
+      "published_at": "2026-10-12T11:22:24+00:00",
+      "original_language": "zh",
+      "summary_en": "QGIS 通过 QEP428 提案，将 AI 政策改为严格的 NOT ALLOWED，由 nyalldawson 提交并于 2026 年 10 月 7 日合并进 QGIS-Enhancement-Proposals 仓库。",
+      "summary_zh": "QGIS 通过 QEP428 提案，将 AI 政策改为严格的 NOT ALLOWED，由 nyalldawson 提交并于 2026 年 10 月 7 日合并进 QGIS-Enhancement-Proposals 仓库。",
+      "source": "aihot_selected",
+      "title_zh": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3995082329,
+      "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+      "title": "AlphaProof Nexus 攻克 9 个未解 Erdős 问题并经同行评审",
+      "published_at": "2026-10-12T09:35:54+00:00",
+      "original_language": "zh",
+      "summary_en": "Science 新研究显示，Google DeepMind 的 AlphaProof Nexus 独立解决了 353 个开放 Erdős 问题中的 9 个，其中 2 个悬置 56 年。",
+      "summary_zh": "Science 新研究显示，Google DeepMind 的 AlphaProof Nexus 独立解决了 353 个开放 Erdős 问题中的 9 个，其中 2 个悬置 56 年。",
+      "source": "aihot_selected",
+      "title_zh": "AlphaProof Nexus 攻克 9 个未解 Erdős 问题并经同行评审",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2731133344,
+      "url": "https://x.com/MeshyAI/status/2109550836934471864",
+      "title": "用 Claude Opus 5.5、Blender、Unreal Engine 和 Meshy 构建游戏的七步教程",
+      "published_at": "2026-10-12T07:44:47+00:00",
+      "original_language": "zh",
+      "summary_en": "一篇教程介绍用 Claude Opus 5.5 配合 Claude Code、Blender、Unreal Engine 5 和 Meshy 构建游戏的方法。核心思路是给每个工具分配单一职责：通过 MCP 连接 Blender 和 Meshy，由 Meshy 生成道具和角色、Blender 清理和放置、Unreal 负责光照物理和游戏本身、Opus 在一个对话里调度三者。流程为先让 Opus 头脑风暴 5 个游戏点子再展开，告知 GPU 以便压满画面性能，首个完整构建约花 4 小时和约 19% 的每周 Max plan 用量，之后因素材复用会快很多。",
+      "summary_zh": "一篇教程介绍用 Claude Opus 5.5 配合 Claude Code、Blender、Unreal Engine 5 和 Meshy 构建游戏的方法。核心思路是给每个工具分配单一职责：通过 MCP 连接 Blender 和 Meshy，由 Meshy 生成道具和角色、Blender 清理和放置、Unreal 负责光照物理和游戏本身、Opus 在一个对话里调度三者。流程为先让 Opus 头脑风暴 5 个游戏点子再展开，告知 GPU 以便压满画面性能，首个完整构建约花 4 小时和约 19% 的每周 Max plan 用量，之后因素材复用会快很多。",
+      "source": "aihot_selected",
+      "title_zh": "用 Claude Opus 5.5、Blender、Unreal Engine 和 Meshy 构建游戏的七步教程",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3735334687,
+      "url": "https://x.com/Khazix0918/status/2109501787736813663",
+      "title": "从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势",
+      "published_at": "2026-10-12T04:29:53+00:00",
+      "original_language": "zh",
+      "summary_en": "数字生命卡兹克撰文分析AI驱动逆向工程热潮：开发者Brandon Thomas因不满Adobe订阅规则，用Claude Opus 5.5以Rust逆向重写了Photoshop、Illustrator等7款软件的开源替代品PhotoCraft、VectorCraft等，不到10天单PS项目获4.6万Star。",
+      "summary_zh": "数字生命卡兹克撰文分析AI驱动逆向工程热潮：开发者Brandon Thomas因不满Adobe订阅规则，用Claude Opus 5.5以Rust逆向重写了Photoshop、Illustrator等7款软件的开源替代品PhotoCraft、VectorCraft等，不到10天单PS项目获4.6万Star。",
+      "source": "aihot_selected",
+      "title_zh": "从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1867084403,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686995&idx=1&sn=cc40a3488a2ea7652d2ab589056f40b4",
+      "title": "AI逆向一切：Brandon Thomas用Claude Opus 5.5重写Adobe七款软件开源，REA项目逼近10万Star",
+      "published_at": "2026-10-12T00:26:00+00:00",
+      "original_language": "zh",
+      "summary_en": "开发者Brandon Thomas因不满Adobe订阅违约金，用Claude Opus 5.5以Rust逆向重写了Photoshop等7款Adobe软件并开源，其中PS项目不到10天获4.6万Star。",
+      "summary_zh": "开发者Brandon Thomas因不满Adobe订阅违约金，用Claude Opus 5.5以Rust逆向重写了Photoshop等7款Adobe软件并开源，其中PS项目不到10天获4.6万Star。",
+      "source": "aihot_selected",
+      "title_zh": "AI逆向一切：Brandon Thomas用Claude Opus 5.5重写Adobe七款软件开源，REA项目逼近10万Star",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 462374728,
+      "url": "https://x.com/thsottiaux/status/2109430343346581527",
+      "title": "GPT-6.1 Sol 在 Codex 与 Work 中默认上下文长度提升至 500k",
+      "published_at": "2026-10-11T23:45:59+00:00",
+      "original_language": "zh",
+      "summary_en": "Tibo 宣布 GPT-6.1 Sol 在 Codex 与 Work 中的默认上下文长度从 272k 提升到 500k，约增加 80%。此举可减少压缩（compaction）发生，帮助需要长期保留大量上下文和细节的任务；用户仍可自行覆盖设置，模型最大上下文长度为 1M。",
+      "summary_zh": "Tibo 宣布 GPT-6.1 Sol 在 Codex 与 Work 中的默认上下文长度从 272k 提升到 500k，约增加 80%。此举可减少压缩（compaction）发生，帮助需要长期保留大量上下文和细节的任务；用户仍可自行覆盖设置，模型最大上下文长度为 1M。",
+      "source": "aihot_selected",
+      "title_zh": "GPT-6.1 Sol 在 Codex 与 Work 中默认上下文长度提升至 500k",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2829836147,
+      "url": "https://tessl.io/blog/how-to-constrain-a-coding-agent-using-only-files-you-own",
+      "title": "如何只用自己拥有的文件约束编码智能体",
+      "published_at": "2026-10-11T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Tessl 博客文章介绍用四个可拥有的文件杠杆约束编码智能体：CLAUDE.md 指令、.claude/rules/ 路径级规则、.claude/ 下的能力配置和 .claude/hooks/ 钩子。",
+      "summary_zh": "Tessl 博客文章介绍用四个可拥有的文件杠杆约束编码智能体：CLAUDE.md 指令、.claude/rules/ 路径级规则、.claude/ 下的能力配置和 .claude/hooks/ 钩子。",
+      "source": "aihot_selected",
+      "title_zh": "如何只用自己拥有的文件约束编码智能体",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2239719632,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.1-nightly.20261011.01d3e6d81a",
+      "title": "QwenLM/qwen-code: Release v0.25.1-nightly.20261011.01d3e6d81a",
+      "published_at": "2026-10-11T22:01:32+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.1-nightly.20261011.01d3e6d81a -->\n\n## What's Changed\n* fix(managed-agent): connector and broker robustness from the #12692 R2 review by @wenshao in https://github.com/QwenLM/qwen-code/pull/13330\n* feat(managed-a",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.1-nightly.20261011.01d3e6d81a -->\n\n## What's Changed\n* fix(managed-agent): connector and broker robustness from the #12692 R2 review by @wenshao in https://github.com/QwenLM/qwen-code/pull/13330\n* feat(managed-a",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.1-nightly.20261011.01d3e6d81a",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
