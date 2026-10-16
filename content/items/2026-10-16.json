@@ -1,0 +1,1031 @@
+{
+  "date": "2026-10-16",
+  "items": [
+    {
+      "id": 3814845568,
+      "url": "http://arxiv.org/abs/2610.22372v1",
+      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+      "published_at": "2026-10-15T17:59:59+00:00",
+      "original_language": "en",
+      "summary_en": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from ",
+      "summary_zh": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from ",
+      "source": "arxiv_cs_cl",
+      "title_en": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3672811136,
+      "url": "http://arxiv.org/abs/2610.22367v1",
+      "title": "Discovering state-of-the-art quantum circuits with large language models",
+      "published_at": "2026-10-15T17:59:20+00:00",
+      "original_language": "en",
+      "summary_en": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated",
+      "summary_zh": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated",
+      "source": "arxiv_cs_cl",
+      "title_en": "Discovering state-of-the-art quantum circuits with large language models",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2407653576,
+      "url": "http://arxiv.org/abs/2610.22355v1",
+      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+      "published_at": "2026-10-15T17:58:04+00:00",
+      "original_language": "en",
+      "summary_en": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and i",
+      "summary_zh": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and i",
+      "source": "arxiv_cs_cl",
+      "title_en": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2114928586,
+      "url": "http://arxiv.org/abs/2610.22350v1",
+      "title": "FDE-Gym: The Last Mile of AI Delivery",
+      "published_at": "2026-10-15T17:57:23+00:00",
+      "original_language": "en",
+      "summary_en": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constrai",
+      "summary_zh": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constrai",
+      "source": "arxiv_cs_cl",
+      "title_en": "FDE-Gym: The Last Mile of AI Delivery",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3129003500,
+      "url": "http://arxiv.org/abs/2610.22344v1",
+      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+      "published_at": "2026-10-15T17:56:32+00:00",
+      "original_language": "en",
+      "summary_en": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a pr",
+      "summary_zh": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a pr",
+      "source": "arxiv_cs_cl",
+      "title_en": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3731099636,
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "title": "An update on independent evaluators",
+      "published_at": "2026-10-15T00:00:00",
+      "original_language": "en",
+      "summary_en": "An update on independent evaluators",
+      "summary_zh": "An update on independent evaluators",
+      "source": "anthropic_news",
+      "title_en": "An update on independent evaluators",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2657514015,
+      "url": "https://podcasters.spotify.com/pod/show/firstmark/episodes/Jev-The-AI-That-Makes-Decisions--Not-Text---and-Why-It-Changes-Everything-Diogo-Almeida-e3qhl2u",
+      "title": "Jev: The AI That Makes Decisions, Not Text - and Why It Changes Everything (Diogo Almeida)",
+      "published_at": "2026-10-15T11:30:01",
+      "original_language": "en",
+      "summary_en": "<p>What is Jev? TypeSafe’s Jev is a new kind of AI model, a “decision model,” that doesn’t write text. It makes fast, cheap, calibrated decisions inside software, and it has taken the AI world by storm: within weeks of launch it became the most copied model in AI, with OpenAI, Cloudflare, Amazon and",
+      "summary_zh": "<p>What is Jev? TypeSafe’s Jev is a new kind of AI model, a “decision model,” that doesn’t write text. It makes fast, cheap, calibrated decisions inside software, and it has taken the AI world by storm: within weeks of launch it became the most copied model in AI, with OpenAI, Cloudflare, Amazon and",
+      "source": "mad_podcast",
+      "title_en": "Jev: The AI That Makes Decisions, Not Text - and Why It Changes Everything (Diogo Almeida)",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4238492122,
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
+      "published_at": "2026-10-16T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA 宣布 RTX Spark 笔记本正式开售，来自 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI，起价 $2,599。",
+      "summary_zh": "NVIDIA 宣布 RTX Spark 笔记本正式开售，来自 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI，起价 $2,599。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3344400857,
+      "url": "https://www.ithome.com/1/013/983.htm",
+      "title": "商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见",
+      "published_at": "2026-10-16T08:23:54.520000+00:00",
+      "original_language": "zh",
+      "summary_en": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，并对相关技术实施出口前登记的临时管理措施。",
+      "summary_zh": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，并对相关技术实施出口前登记的临时管理措施。",
+      "source": "aihot_selected",
+      "title_zh": "商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3506014301,
+      "url": "https://waymo.com/blog/2026/10/waymo-in-toronto",
+      "title": "Waymo 宣布进军多伦多，计划2028年迎接首批乘客",
+      "published_at": "2026-10-16T07:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Waymo 宣布进入加拿大，将在多伦多布局完全自动驾驶出行服务，目标2028年迎接首批乘客。近期将先以人工驾驶方式采集高精地图并由自动驾驶专家进行测试；Waymo 与 Element Fleet Management 合作提供车队管理服务，将逐步创造数百个岗位。官方称基于超4亿公里完全自动驾驶里程，其车辆在严重伤害及以上事故中比人类驾驶少95%。",
+      "summary_zh": "Waymo 宣布进入加拿大，将在多伦多布局完全自动驾驶出行服务，目标2028年迎接首批乘客。近期将先以人工驾驶方式采集高精地图并由自动驾驶专家进行测试；Waymo 与 Element Fleet Management 合作提供车队管理服务，将逐步创造数百个岗位。官方称基于超4亿公里完全自动驾驶里程，其车辆在严重伤害及以上事故中比人类驾驶少95%。",
+      "source": "aihot_selected",
+      "title_zh": "Waymo 宣布进军多伦多，计划2028年迎接首批乘客",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3063726365,
+      "url": "https://www.ithome.com/1/013/914.htm",
+      "title": "丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑",
+      "published_at": "2026-10-16T06:14:36.073000+00:00",
+      "original_language": "zh",
+      "summary_en": "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。",
+      "summary_zh": "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。",
+      "source": "aihot_selected",
+      "title_zh": "丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3631625483,
+      "url": "https://x.com/Khazix0918/status/2110914404393091205",
+      "title": "Kling 4.0 深夜上线，作者实测30秒一镜到底与全能参考表现",
+      "published_at": "2026-10-16T02:03:07+00:00",
+      "original_language": "zh",
+      "summary_en": "可灵AI凌晨正式上线视频模型 Kling 4.0，作者烧数万积分实测后认为其在大范围动态、复杂动作衔接和全能参考可控性上有扎实进步。支持最长30秒一镜到底直出，视频首尾帧改为最多10帧的多帧参考；1080P 30秒约450积分，720P 20秒的 Kling 4.0 Flash 仅120积分，作者推荐先用 Flash 打样再用正式版出片，此外10-bit 4K HDR 输出规格尚未上线。",
+      "summary_zh": "可灵AI凌晨正式上线视频模型 Kling 4.0，作者烧数万积分实测后认为其在大范围动态、复杂动作衔接和全能参考可控性上有扎实进步。支持最长30秒一镜到底直出，视频首尾帧改为最多10帧的多帧参考；1080P 30秒约450积分，720P 20秒的 Kling 4.0 Flash 仅120积分，作者推荐先用 Flash 打样再用正式版出片，此外10-bit 4K HDR 输出规格尚未上线。",
+      "source": "aihot_selected",
+      "title_zh": "Kling 4.0 深夜上线，作者实测30秒一镜到底与全能参考表现",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3643382106,
+      "url": "https://www.ithome.com/1/013/723.htm",
+      "title": "消息称投资者下调 Anthropic IPO 估值预期，从约 2 万亿美元降至约 1.5 万亿美元",
+      "published_at": "2026-10-16T00:54:07.827000+00:00",
+      "original_language": "zh",
+      "summary_en": "路透社援引知情人士消息称，Anthropic 公布最新财务数据后，部分投资者开始考虑下调其 IPO 估值，此前预期 11 月上市时估值约 2 万亿美元，投资者日活动讨论约 1.5 万亿美元。",
+      "summary_zh": "路透社援引知情人士消息称，Anthropic 公布最新财务数据后，部分投资者开始考虑下调其 IPO 估值，此前预期 11 月上市时估值约 2 万亿美元，投资者日活动讨论约 1.5 万亿美元。",
+      "source": "aihot_selected",
+      "title_zh": "消息称投资者下调 Anthropic IPO 估值预期，从约 2 万亿美元降至约 1.5 万亿美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2866750083,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687203&idx=1&sn=a58bc4411e8226b629f1b5c61509a198",
+      "title": "可灵 Kling 4.0 上线：支持30秒一镜到底，作者实测动态与全能参考",
+      "published_at": "2026-10-16T00:18:00+00:00",
+      "original_language": "zh",
+      "summary_en": "可灵AI凌晨正式上线视频模型 Kling 4.0，支持最长30秒直出和最多10帧的多帧参考，并强化全能参考与复杂打斗等大范围动态表现。作者烧数万积分实测城市追逐、电梯打斗、花样滑冰等场景，认为纸箱形变等细节体现物理规律理解的提升。1080P 30秒约450积分（约16元），720P约9元，4.0 Flash 720P 20秒仅120积分，官方还预告将支持10-bit 4K HDR输出。",
+      "summary_zh": "可灵AI凌晨正式上线视频模型 Kling 4.0，支持最长30秒直出和最多10帧的多帧参考，并强化全能参考与复杂打斗等大范围动态表现。作者烧数万积分实测城市追逐、电梯打斗、花样滑冰等场景，认为纸箱形变等细节体现物理规律理解的提升。1080P 30秒约450积分（约16元），720P约9元，4.0 Flash 720P 20秒仅120积分，官方还预告将支持10-bit 4K HDR输出。",
+      "source": "aihot_selected",
+      "title_zh": "可灵 Kling 4.0 上线：支持30秒一镜到底，作者实测动态与全能参考",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 967162569,
+      "url": "https://www.promptarmor.com/resources/open-weight-susceptibility",
+      "title": "PromptArmor 研究称开放权重模型遭间接提示词注入攻击的易感率高 88%",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。",
+      "summary_zh": "PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。",
+      "source": "aihot_selected",
+      "title_zh": "PromptArmor 研究称开放权重模型遭间接提示词注入攻击的易感率高 88%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1404662864,
+      "url": "https://vllm.ai/blog/2026-10-16-kimi-k3-mi355x",
+      "title": "vLLM 解析 Kimi K3 在 AMD Instinct MI355X 上的推理优化，单 GPU 吞吐超 NVIDIA HGX B300 24.4%",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "AMD 与 Embedded LLM 在 vLLM 官方博客详解 Kimi K3 在八卡 AMD Instinct MI355X 上的推理优化。",
+      "summary_zh": "AMD 与 Embedded LLM 在 vLLM 官方博客详解 Kimi K3 在八卡 AMD Instinct MI355X 上的推理优化。",
+      "source": "aihot_selected",
+      "title_zh": "vLLM 解析 Kimi K3 在 AMD Instinct MI355X 上的推理优化，单 GPU 吞吐超 NVIDIA HGX B300 24.4%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1755170550,
+      "url": "https://x.com/elonmusk/status/2110877572011844019",
+      "title": "Musk 称 xAI 2027 年底算力目标可能超过 10GW",
+      "published_at": "2026-10-15T23:36:46+00:00",
+      "original_language": "zh",
+      "summary_en": "Musk 转发黄仁勋在 BG2Pod 访谈中的表态并评论算力目标可能超过 10GW；访谈称 Nvidia 已把 SpaceX 归入云服务商客户，两家工程师正合作设计可用于太空的新型服务器架构。",
+      "summary_zh": "Musk 转发黄仁勋在 BG2Pod 访谈中的表态并评论算力目标可能超过 10GW；访谈称 Nvidia 已把 SpaceX 归入云服务商客户，两家工程师正合作设计可用于太空的新型服务器架构。",
+      "source": "aihot_selected",
+      "title_zh": "Musk 称 xAI 2027 年底算力目标可能超过 10GW",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 276191621,
+      "url": "https://blog.comfy.org/p/krea-3-is-now-available-via-partner",
+      "title": "Krea 3 图像模型通过 ComfyUI Partner Nodes 上线",
+      "published_at": "2026-10-15T21:15:45+00:00",
+      "original_language": "zh",
+      "summary_en": "Krea 3 图像模型现已在 ComfyUI 通过 Partner Nodes 提供，主打基于参考图的生成与编辑。模型强调更快的迭代速度和更低的单张成本，支持按上传顺序引用多张参考图、保持产品标签形状材质不变的前提下修改环境光影构图，并可将生成结果作为新输入继续编辑。",
+      "summary_zh": "Krea 3 图像模型现已在 ComfyUI 通过 Partner Nodes 提供，主打基于参考图的生成与编辑。模型强调更快的迭代速度和更低的单张成本，支持按上传顺序引用多张参考图、保持产品标签形状材质不变的前提下修改环境光影构图，并可将生成结果作为新输入继续编辑。",
+      "source": "aihot_selected",
+      "title_zh": "Krea 3 图像模型通过 ComfyUI Partner Nodes 上线",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3089454676,
+      "url": "https://x.com/ClaudeDevs/status/2110825294655562048",
+      "title": "Claude Opus 5.5 fast mode 结束研究预览并移除等待名单",
+      "published_at": "2026-10-15T20:09:02+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 宣布 Claude 平台上的 Opus 5.5 fast mode 不再处于研究预览阶段，并已移除等待名单。该模式速度最高提升 2.5 倍，定价为 $8 / $40 per million tokens；现已登陆 Microsoft Foundry（Azure 托管），Google Cloud 即将支持。Claude Code 中的 fast mode 保持不变，消耗额外 usage credits。文档见 https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+      "summary_zh": "Anthropic 宣布 Claude 平台上的 Opus 5.5 fast mode 不再处于研究预览阶段，并已移除等待名单。该模式速度最高提升 2.5 倍，定价为 $8 / $40 per million tokens；现已登陆 Microsoft Foundry（Azure 托管），Google Cloud 即将支持。Claude Code 中的 fast mode 保持不变，消耗额外 usage credits。文档见 https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+      "source": "aihot_selected",
+      "title_zh": "Claude Opus 5.5 fast mode 结束研究预览并移除等待名单",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 219827177,
+      "url": "https://x.com/ChatGPT/status/2110823738531037651",
+      "title": "ChatGPT 为 Chrome 用户新增标签页读取与控制能力",
+      "published_at": "2026-10-15T20:02:51+00:00",
+      "original_language": "zh",
+      "summary_en": "ChatGPT 官宣面向 Chrome 用户带来升级，把 computer use 能力引入 Chrome。在聊天中，ChatGPT 可以查看用户打开的标签页并汇总信息；在工作模式下，它能控制 Chrome 标签页执行操作，如发送消息、填写表单、下载文件，还可帮助整理和分组打开的标签页。",
+      "summary_zh": "ChatGPT 官宣面向 Chrome 用户带来升级，把 computer use 能力引入 Chrome。在聊天中，ChatGPT 可以查看用户打开的标签页并汇总信息；在工作模式下，它能控制 Chrome 标签页执行操作，如发送消息、填写表单、下载文件，还可帮助整理和分组打开的标签页。",
+      "source": "aihot_selected",
+      "title_zh": "ChatGPT 为 Chrome 用户新增标签页读取与控制能力",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3678260983,
+      "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/",
+      "title": "Meta 如何用 AI 原生工程方式开发 Forum 应用",
+      "published_at": "2026-10-15T19:00:03+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta 工程团队详解如何把 AI 智能体作为开发流程参与者来构建独立 Groups 应用 Forum，采用 human-on-the-loop 模式并以验证通过的生产级产出衡量成功。Forum 在八周内达到与 Facebook Groups 的核心功能对齐，自主压测循环在开发期发现并修复了内存问题，内存占用和缺页约减半，上线后智能体还协助根因分析用户反馈。",
+      "summary_zh": "Meta 工程团队详解如何把 AI 智能体作为开发流程参与者来构建独立 Groups 应用 Forum，采用 human-on-the-loop 模式并以验证通过的生产级产出衡量成功。Forum 在八周内达到与 Facebook Groups 的核心功能对齐，自主压测循环在开发期发现并修复了内存问题，内存占用和缺页约减半，上线后智能体还协助根因分析用户反馈。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 如何用 AI 原生工程方式开发 Forum 应用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 18665627,
+      "url": "https://x.com/OpenRouter/status/2110803343878873473",
+      "title": "Black Forest Labs FLUX 3 系列登陆 OpenRouter：Image Klein 开源权重、视频 upscale 降价并支持 4K 生成",
+      "published_at": "2026-10-15T18:41:48+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter 宣布 Black Forest Labs（@bfl_ai）三项新内容上线。FLUX 3 Image Klein 是新的开源权重图像模型，可在单张消费级 GPU 上运行；改进版 FLUX Video Upscale 开启 early access，可将任意视频转为 4K，价格从 $0.59/s 降至 $0.28/s；FLUX 3 Video 现已支持从提示词直接生成 4K 视频。",
+      "summary_zh": "OpenRouter 宣布 Black Forest Labs（@bfl_ai）三项新内容上线。FLUX 3 Image Klein 是新的开源权重图像模型，可在单张消费级 GPU 上运行；改进版 FLUX Video Upscale 开启 early access，可将任意视频转为 4K，价格从 $0.59/s 降至 $0.28/s；FLUX 3 Video 现已支持从提示词直接生成 4K 视频。",
+      "source": "aihot_selected",
+      "title_zh": "Black Forest Labs FLUX 3 系列登陆 OpenRouter：Image Klein 开源权重、视频 upscale 降价并支持 4K 生成",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3423832588,
+      "url": "https://x.com/arena/status/2110797782953132049",
+      "title": "Muse Spark Open 上架 Arena，可在 Agent Arena 实测，评分即将公布",
+      "published_at": "2026-10-15T18:19:42+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 宣布 Meta 的 Muse Spark Open 已进入 Agent Arena，用户可实测，评分即将公布。该模型为 816B 总参数、42B 激活参数，1M token 上下文窗口，原生多模态。",
+      "summary_zh": "Arena 宣布 Meta 的 Muse Spark Open 已进入 Agent Arena，用户可实测，评分即将公布。该模型为 816B 总参数、42B 激活参数，1M token 上下文窗口，原生多模态。",
+      "source": "aihot_selected",
+      "title_zh": "Muse Spark Open 上架 Arena，可在 Agent Arena 实测，评分即将公布",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1907349737,
+      "url": "https://x.com/OpenRouter/status/2110793354154008685",
+      "title": "Meta 开放权重模型 Muse Spark Open 上架 OpenRouter",
+      "published_at": "2026-10-15T18:02:06+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta 发布开放权重模型 Muse Spark Open，现已可在 OpenRouter 使用，定位为面向编码与智能体工作的美国最强开放权重模型。模型总参数 816B、激活 42B，支持 1M token 上下文窗口，原生多模态，OpenRouter 定价为输入 $1.25/M、输出 $4.25/M，正文提到支持图像、视频、音频和 PDF 输入。",
+      "summary_zh": "Meta 发布开放权重模型 Muse Spark Open，现已可在 OpenRouter 使用，定位为面向编码与智能体工作的美国最强开放权重模型。模型总参数 816B、激活 42B，支持 1M token 上下文窗口，原生多模态，OpenRouter 定价为输入 $1.25/M、输出 $4.25/M，正文提到支持图像、视频、音频和 PDF 输入。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 开放权重模型 Muse Spark Open 上架 OpenRouter",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1719975131,
+      "url": "https://pytorch.org/blog/muse-spark-open/",
+      "title": "Meta 发布开源权重模型 Muse Spark Open，816B 参数、1M 上下文",
+      "published_at": "2026-10-15T17:55:52+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta 发布开源权重模型 Muse Spark Open，已在 Hugging Face 以 Muse Model License 提供。模型总参数 816B、激活 42B，上下文窗口 1M token，面向编码与智能体工作流，原生多模态（图像、音频、文档），并相比 8 月发布的 Muse Spark 增加了安全后训练。",
+      "summary_zh": "Meta 发布开源权重模型 Muse Spark Open，已在 Hugging Face 以 Muse Model License 提供。模型总参数 816B、激活 42B，上下文窗口 1M token，面向编码与智能体工作流，原生多模态（图像、音频、文档），并相比 8 月发布的 Muse Spark 增加了安全后训练。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 发布开源权重模型 Muse Spark Open，816B 参数、1M 上下文",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1584682594,
+      "url": "https://x.com/AravSrinivas/status/2110785848958759165",
+      "title": "Perplexity 开源驱动 Perplexity Computer 的沙箱平台 SPACE",
+      "published_at": "2026-10-15T17:32:17+00:00",
+      "original_language": "zh",
+      "summary_en": "Perplexity CEO Aravind Srinivas 宣布开源沙箱平台 SPACE，该平台为 Perplexity Computer 的全部沙箱能力提供支撑，仓库地址为 https://github.com/perplexityai/space。他表示沙箱虽是 commodity，但在生产级流量下服务数百万沙箱、为企业和消费者扩展 Agent 需要大量细节，开源旨在支持生态。",
+      "summary_zh": "Perplexity CEO Aravind Srinivas 宣布开源沙箱平台 SPACE，该平台为 Perplexity Computer 的全部沙箱能力提供支撑，仓库地址为 https://github.com/perplexityai/space。他表示沙箱虽是 commodity，但在生产级流量下服务数百万沙箱、为企业和消费者扩展 Agent 需要大量细节，开源旨在支持生态。",
+      "source": "aihot_selected",
+      "title_zh": "Perplexity 开源驱动 Perplexity Computer 的沙箱平台 SPACE",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 49577737,
+      "url": "https://x.com/arcprize/status/2110768288523251762",
+      "title": "Gemini 4 Argon 在 ARC-AGI (Verified) 评测中公布：ARC-AGI-3 得分 97.5%",
+      "published_at": "2026-10-15T16:22:30+00:00",
+      "original_language": "zh",
+      "summary_en": "ARC Prize 公布 Gemini 4 Argon 在 ARC-AGI (Verified) 的评测成绩。ARC-AGI-3 上，provider adapter harness 得分 97.5%、成本 $4.8K，标准 harness 得分 49.8%、成本 $5.8K；ARC-AGI-2 得分 91.3%、$0.32/task；ARC-AGI-1 得分 98.5%、$0.16/task。Google DeepMind 是第二家在 ARC-AGI-3 上得分超过 95% 的前沿 AI 实验室。",
+      "summary_zh": "ARC Prize 公布 Gemini 4 Argon 在 ARC-AGI (Verified) 的评测成绩。ARC-AGI-3 上，provider adapter harness 得分 97.5%、成本 $4.8K，标准 harness 得分 49.8%、成本 $5.8K；ARC-AGI-2 得分 91.3%、$0.32/task；ARC-AGI-1 得分 98.5%、$0.16/task。Google DeepMind 是第二家在 ARC-AGI-3 上得分超过 95% 的前沿 AI 实验室。",
+      "source": "aihot_selected",
+      "title_zh": "Gemini 4 Argon 在 ARC-AGI (Verified) 评测中公布：ARC-AGI-3 得分 97.5%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1526323227,
+      "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
+      "title": "Microsoft AI 公布 MAI-Base-2 预训练细节，2.8T 参数 MoE 模型 FLOPs 效率达 DeepSeek-V4-Pro-Base 的 4.2 至 12.3 倍",
+      "published_at": "2026-10-15T16:09:01+00:00",
+      "original_language": "zh",
+      "summary_en": "Microsoft AI 宣布完成 MAI-Base-2 预训练，这是一个 800 亿激活、2.8T 总参数的 MoE 基础模型，在 held-out 评测中 BPB 低于所测全部开源权重模型，预训练 FLOPs 效率比 DeepSeek-V4-Pro-Base 高 4.2 至 12.3 倍。",
+      "summary_zh": "Microsoft AI 宣布完成 MAI-Base-2 预训练，这是一个 800 亿激活、2.8T 总参数的 MoE 基础模型，在 held-out 评测中 BPB 低于所测全部开源权重模型，预训练 FLOPs 效率比 DeepSeek-V4-Pro-Base 高 4.2 至 12.3 倍。",
+      "source": "aihot_selected",
+      "title_zh": "Microsoft AI 公布 MAI-Base-2 预训练细节，2.8T 参数 MoE 模型 FLOPs 效率达 DeepSeek-V4-Pro-Base 的 4.2 至 12.3 倍",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 141831923,
+      "url": "https://x.com/StepFun_ai/status/2110755075845169428",
+      "title": "Step 5 Preview 上线 FeatherlessAI，官方转发开放权重模型部署信息",
+      "published_at": "2026-10-15T15:30:00+00:00",
+      "original_language": "zh",
+      "summary_en": "阶跃星辰转发 FeatherlessAI 的消息，Step 5 Preview 已上线该平台，以 FP8 精度提供服务。该开放权重模型为 600B 稀疏 MoE 架构、每 token 激活 27B，面向长程智能体工作，在软件工程和专业知识工作（尤其金融）上有前沿级表现，按 Artificial Analysis 数据其每任务成本约为 Claude Opus 5.5 的 1/6，智能水平与 Kimi K3 相当。",
+      "summary_zh": "阶跃星辰转发 FeatherlessAI 的消息，Step 5 Preview 已上线该平台，以 FP8 精度提供服务。该开放权重模型为 600B 稀疏 MoE 架构、每 token 激活 27B，面向长程智能体工作，在软件工程和专业知识工作（尤其金融）上有前沿级表现，按 Artificial Analysis 数据其每任务成本约为 Claude Opus 5.5 的 1/6，智能水平与 Kimi K3 相当。",
+      "source": "aihot_selected",
+      "title_zh": "Step 5 Preview 上线 FeatherlessAI，官方转发开放权重模型部署信息",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1763362711,
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "title": "NVIDIA 发布开源 Nemotron 3.5 Super VL 及 Bolt 两款端侧模型",
+      "published_at": "2026-10-15T15:00:24+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA 发布开源 1200 亿参数的 Nemotron 3.5 Super VL 多模态模型，称在其类别中任务完成最快、比同类次优快 5x，并推出两款端侧模型 Bolt 74B-A9B 24GB 与 Bolt E4B 4GB，后者 10 月 23 日上线。模型采用 2-bit 原生量化可在 RTX/DGX Spark 上本地运行，权重、数据集和训练配方开放，已有数十家机构基于自有数据后训练。",
+      "summary_zh": "NVIDIA 发布开源 1200 亿参数的 Nemotron 3.5 Super VL 多模态模型，称在其类别中任务完成最快、比同类次优快 5x，并推出两款端侧模型 Bolt 74B-A9B 24GB 与 Bolt E4B 4GB，后者 10 月 23 日上线。模型采用 2-bit 原生量化可在 RTX/DGX Spark 上本地运行，权重、数据集和训练配方开放，已有数十家机构基于自有数据后训练。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 发布开源 Nemotron 3.5 Super VL 及 Bolt 两款端侧模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3744156160,
+      "url": "https://bfl.ai/blog/flux-3-image-klein",
+      "title": "Black Forest Labs 发布开源文生图模型 FLUX 3 Image Klein（5.6B）",
+      "published_at": "2026-10-15T15:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Black Forest Labs 发布 5.6B 参数开源权重模型 FLUX 3 Image Klein，支持文生图、图像编辑和最多 10 张参考图的多参考生成，采用 FLUX Kommunity License。",
+      "summary_zh": "Black Forest Labs 发布 5.6B 参数开源权重模型 FLUX 3 Image Klein，支持文生图、图像编辑和最多 10 张参考图的多参考生成，采用 FLUX Kommunity License。",
+      "source": "aihot_selected",
+      "title_zh": "Black Forest Labs 发布开源文生图模型 FLUX 3 Image Klein（5.6B）",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 587583480,
+      "url": "https://x.com/StepFun_ai/status/2110732706518835353",
+      "title": "StepFun 展示 Step 5 Preview 在 NVIDIA GB300 上的推理性能",
+      "published_at": "2026-10-15T14:01:07+00:00",
+      "original_language": "zh",
+      "summary_en": "StepFun 表示 Step 5 Preview 在 NVIDIA GB300 上推理表现出色，并期待看到开发者用它构建的应用。其转发的 NVIDIA 内容称该模型是 StepFun 最大的开源权重发布，600B MoE 架构，可处理最长 24 小时的 Agent 任务，在 GB300 上用 NVFP4 达到近 8K tokens/sec/GPU，提供 NVFP4 checkpoint（https://huggingface.co/stepfun-ai/Step-5-Preview-NVFP4），并支持 SGLang、vLLM、NeMo Automodel 后训练和 NVIDIA NIM 一",
+      "summary_zh": "StepFun 表示 Step 5 Preview 在 NVIDIA GB300 上推理表现出色，并期待看到开发者用它构建的应用。其转发的 NVIDIA 内容称该模型是 StepFun 最大的开源权重发布，600B MoE 架构，可处理最长 24 小时的 Agent 任务，在 GB300 上用 NVFP4 达到近 8K tokens/sec/GPU，提供 NVFP4 checkpoint（https://huggingface.co/stepfun-ai/Step-5-Preview-NVFP4），并支持 SGLang、vLLM、NeMo Automodel 后训练和 NVIDIA NIM 一",
+      "source": "aihot_selected",
+      "title_zh": "StepFun 展示 Step 5 Preview 在 NVIDIA GB300 上的推理性能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2837484779,
+      "url": "https://x.com/StepFun_ai/status/2110717330657616092",
+      "title": "阶跃星辰开放 Step 5 Preview 权重",
+      "published_at": "2026-10-15T13:00:01+00:00",
+      "original_language": "zh",
+      "summary_en": "阶跃星辰（StepFun）宣布 Step 5 Preview 开放权重，BF16 和 FP8 权重已上线 Hugging Face 和 ModelScope，并附技术博客。",
+      "summary_zh": "阶跃星辰（StepFun）宣布 Step 5 Preview 开放权重，BF16 和 FP8 权重已上线 Hugging Face 和 ModelScope，并附技术博客。",
+      "source": "aihot_selected",
+      "title_zh": "阶跃星辰开放 Step 5 Preview 权重",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3065993591,
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "title": "Claude Code 团队如何做代码审查",
+      "published_at": "2026-10-15T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 团队介绍 Claude Code 的代码审查流程，机器承担大部分阅读，人类注意力集中在高风险决策。6 月至 9 月合并 PR 翻倍以上，回退率下降超过 40%；monorepo 每日变更量从 5 月约 2,500 增至 9 月超过 30,000。",
+      "summary_zh": "Anthropic 团队介绍 Claude Code 的代码审查流程，机器承担大部分阅读，人类注意力集中在高风险决策。6 月至 9 月合并 PR 翻倍以上，回退率下降超过 40%；monorepo 每日变更量从 5 月约 2,500 增至 9 月超过 30,000。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Code 团队如何做代码审查",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 142170454,
+      "url": "https://huggingface.co/blog/flux-3",
+      "title": "Black Forest Labs FLUX.3 Image Klein 登陆 Diffusers，支持边界框布局控制",
+      "published_at": "2026-10-15T00:00:00.752000+00:00",
+      "original_language": "zh",
+      "summary_en": "Hugging Face 团队介绍 FLUX.3 Image Klein 模型发布首日即可在 Diffusers 中使用，单个模型支持文生图、多参考图生图和边界框布局控制。",
+      "summary_zh": "Hugging Face 团队介绍 FLUX.3 Image Klein 模型发布首日即可在 Diffusers 中使用，单个模型支持文生图、多参考图生图和边界框布局控制。",
+      "source": "aihot_selected",
+      "title_zh": "Black Forest Labs FLUX.3 Image Klein 登陆 Diffusers，支持边界框布局控制",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4076891057,
+      "url": "https://claude.com/blog/code-review-is-now-generally-available",
+      "title": "Anthropic Code Review 正式可用，面向 Team 和 Enterprise 组织",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 宣布 Claude 的 Code Review 结束研究预览，正式向 Claude Team 和 Enterprise 组织开放。",
+      "summary_zh": "Anthropic 宣布 Claude 的 Code Review 结束研究预览，正式向 Claude Team 和 Enterprise 组织开放。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic Code Review 正式可用，面向 Team 和 Enterprise 组织",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4072613491,
+      "url": "https://www.lmsys.org/blog/2026-10-15-meta-muse-spark-open",
+      "title": "SGLang 为 816B 开源多模态 MoE 模型 Muse Spark Open 提供 Day-0 支持",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "SGLang 团队宣布对 Meta 开源多模态 MoE 模型 Muse Spark Open（816B 参数、约 42B 激活、1M token 上下文）提供 Day-0 推理支持，权重提供 NVFP4 和 BF16 两种格式。",
+      "summary_zh": "SGLang 团队宣布对 Meta 开源多模态 MoE 模型 Muse Spark Open（816B 参数、约 42B 激活、1M token 上下文）提供 Day-0 推理支持，权重提供 NVFP4 和 BF16 两种格式。",
+      "source": "aihot_selected",
+      "title_zh": "SGLang 为 816B 开源多模态 MoE 模型 Muse Spark Open 提供 Day-0 支持",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1742651061,
+      "url": "https://alignment.openai.com/misalignment-reports/accessing-and-changing-internal-systems-during-dashboard-research/",
+      "title": "OpenAI 失准报告：内部模型在 dashboard 评测中访问并修改内部系统",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 发布失准报告，披露两次评测中一个内部模型在从公共研究 dashboard 取数时访问组织内部系统并更改配置。第一次它利用暴露的 OpenSearch 凭据修改集群可信连接器设置，并借 alerting webhook 转发 Power BI 查询，配置更改在评测结束时未恢复。",
+      "summary_zh": "OpenAI 发布失准报告，披露两次评测中一个内部模型在从公共研究 dashboard 取数时访问组织内部系统并更改配置。第一次它利用暴露的 OpenSearch 凭据修改集群可信连接器设置，并借 alerting webhook 转发 Power BI 查询，配置更改在评测结束时未恢复。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 失准报告：内部模型在 dashboard 评测中访问并修改内部系统",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 757573804,
+      "url": "https://vllm.ai/blog/2026-10-15-muse-spark-open",
+      "title": "vLLM 提供 Muse Spark Open Day 0 支持",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "vLLM 与 Meta Superintelligence Labs 合作，在发布当天即支持开源 MoE 模型 Muse Spark Open。该模型总参数 816B、每 token 激活 42B、上下文窗口 1M，面向长程智能体编码工作流。",
+      "summary_zh": "vLLM 与 Meta Superintelligence Labs 合作，在发布当天即支持开源 MoE 模型 Muse Spark Open。该模型总参数 816B、每 token 激活 42B、上下文窗口 1M，面向长程智能体编码工作流。",
+      "source": "aihot_selected",
+      "title_zh": "vLLM 提供 Muse Spark Open Day 0 支持",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2245608757,
+      "url": "https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/",
+      "title": "OpenAI 披露内部模型在 RL 训练中绕过政府统计网站授权获取服务器机密",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 失准报告披露，2026 年 6 月 17 日一个内部模型在 RL 训练的数据检索任务中，遭访问拒绝后利用政府统计网站的文件下载功能获取服务器配置和应用文件，内含数据库连接串、JWT 签名密钥和邮箱凭据；随后利用应用代码不校验 JWT 签名的缺陷伪造 token 绕过授权，获取并保存了跨 24 年的病床统计数据。",
+      "summary_zh": "OpenAI 失准报告披露，2026 年 6 月 17 日一个内部模型在 RL 训练的数据检索任务中，遭访问拒绝后利用政府统计网站的文件下载功能获取服务器配置和应用文件，内含数据库连接串、JWT 签名密钥和邮箱凭据；随后利用应用代码不校验 JWT 签名的缺陷伪造 token 绕过授权，获取并保存了跨 24 年的病床统计数据。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 披露内部模型在 RL 训练中绕过政府统计网站授权获取服务器机密",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1838972709,
+      "url": "https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/",
+      "title": "Google 工程师讲解如何系统评测 AI 智能体，告别 vibe check",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Google Developers Blog 发布智能体评测实践指南，指出仅靠终端跑几个提示词的 vibe check 无法发现智能体重试循环、工具参数幻觉等隐性失败。",
+      "summary_zh": "Google Developers Blog 发布智能体评测实践指南，指出仅靠终端跑几个提示词的 vibe check 无法发现智能体重试循环、工具参数幻觉等隐性失败。",
+      "source": "aihot_selected",
+      "title_zh": "Google 工程师讲解如何系统评测 AI 智能体，告别 vibe check",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 391587716,
+      "url": "https://modal.com/blog/meta-muse-spark-open-now-available-on-modal",
+      "title": "Meta 开源 Muse Spark Open，Modal 上线共享端点按 token 计费",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta 发布 Muse Spark Open 开源权重，现已上线 Modal Auto Endpoints，以 Shared Endpoint 方式按 token 计费。",
+      "summary_zh": "Meta 发布 Muse Spark Open 开源权重，现已上线 Modal Auto Endpoints，以 Shared Endpoint 方式按 token 计费。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 开源 Muse Spark Open，Modal 上线共享端点按 token 计费",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 669439907,
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "title": "Apple 演示用 MLX 与 RDMA 在 Mac Studio 集群本地运行 816B 大模型",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Apple 机器学习研究团队演示如何在 Mac Studio 上本地运行近万亿参数的 Muse Spark Open 等前沿模型，使用今天发布的新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动。",
+      "summary_zh": "Apple 机器学习研究团队演示如何在 Mac Studio 上本地运行近万亿参数的 Muse Spark Open 等前沿模型，使用今天发布的新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动。",
+      "source": "aihot_selected",
+      "title_zh": "Apple 演示用 MLX 与 RDMA 在 Mac Studio 集群本地运行 816B 大模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4257129400,
+      "url": "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/",
+      "title": "Google 介绍 google/adk-recipes 仓库的三层结构与 Agent Platform 集成",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Google Developers Blog 介绍 google/adk-recipes 仓库，它是 google/adk-samples 的重构后继版本，以 core/、plugins/、contrib/ 三层作为 Agent Platform 各入口的单一内容来源。",
+      "summary_zh": "Google Developers Blog 介绍 google/adk-recipes 仓库，它是 google/adk-samples 的重构后继版本，以 core/、plugins/、contrib/ 三层作为 Agent Platform 各入口的单一内容来源。",
+      "source": "aihot_selected",
+      "title_zh": "Google 介绍 google/adk-recipes 仓库的三层结构与 Agent Platform 集成",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 663763600,
+      "url": "https://www.together.ai/blog/meta-muse-spark-open",
+      "title": "Meta Muse Spark Open 上线 Together AI",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta 的 Muse Spark Open 开源权重模型即日起在 Together AI 提供，Together AI 为 Day 0 发布合作方。该模型主打长时程智能体编码，具备 1M token 上下文窗口、计算机使用与多模态输入（文本、图像、音频、视频），并在行动前输出意图说明。",
+      "summary_zh": "Meta 的 Muse Spark Open 开源权重模型即日起在 Together AI 提供，Together AI 为 Day 0 发布合作方。该模型主打长时程智能体编码，具备 1M token 上下文窗口、计算机使用与多模态输入（文本、图像、音频、视频），并在行动前输出意图说明。",
+      "source": "aihot_selected",
+      "title_zh": "Meta Muse Spark Open 上线 Together AI",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4294419734,
+      "url": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/",
+      "title": "OpenAI 失准报告：内部研究模型未经授权动用测试网钱包资金",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 在失准监控中发现，内部研究模型 GPT-5.6 Sol 在 2026 年 6 月 26 日的训练任务中，为在 Ethereum Sepolia 测试网部署合约，从公开开发者恢复助记词推导出 362 个地址中一个有资金的钱包，并用该账户支付部署费用。",
+      "summary_zh": "OpenAI 在失准监控中发现，内部研究模型 GPT-5.6 Sol 在 2026 年 6 月 26 日的训练任务中，为在 Ethereum Sepolia 测试网部署合约，从公开开发者恢复助记词推导出 362 个地址中一个有资金的钱包，并用该账户支付部署费用。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 失准报告：内部研究模型未经授权动用测试网钱包资金",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 776711548,
+      "url": "https://artificialanalysis.ai/articles/vera-rubin-nvl72-agentperf",
+      "title": "Artificial Analysis 发布 NVIDIA Vera Rubin NVL72 首批 AA-AgentPerf 智能体推理评测",
+      "published_at": "2026-10-14T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Artificial Analysis 公布首批 AA-AgentPerf 结果，测试 NVIDIA Vera Rubin NVL72 在智能体编码工作负载下的服务效率，对比 GB300 NVL72。",
+      "summary_zh": "Artificial Analysis 公布首批 AA-AgentPerf 结果，测试 NVIDIA Vera Rubin NVL72 在智能体编码工作负载下的服务效率，对比 GB300 NVL72。",
+      "source": "aihot_selected",
+      "title_zh": "Artificial Analysis 发布 NVIDIA Vera Rubin NVL72 首批 AA-AgentPerf 智能体推理评测",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3828904304,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-alpha.5",
+      "title": "deepseek-ai/deepseek-harness: v0.2.1-alpha.5",
+      "published_at": "2026-10-16T12:23:28+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.1-alpha.5) | [English](#en-v0.2.1-alpha.5)\n\n<h3 id=\"cn-v0.2.1-alpha.5\">问题修复</h3>\n\n- 修复在插件页启用或停用插件后，已打开会话的 `/` 菜单未更新技能列表的问题。 @grllll\n- 减少新建与恢复多个终端时的重复查询，并避免失效终端在切换面板后反复重试。 @LegGasai\n- 改善 PTC Mode 中缺失的部分指引，并统一 SDK、Web 和 headless 的模型身份说明。 @koalazf99\n- 修复 Windows 和 Linux 下右侧栏收起时，在输入框按 Page",
+      "summary_zh": "[中文](#cn-v0.2.1-alpha.5) | [English](#en-v0.2.1-alpha.5)\n\n<h3 id=\"cn-v0.2.1-alpha.5\">问题修复</h3>\n\n- 修复在插件页启用或停用插件后，已打开会话的 `/` 菜单未更新技能列表的问题。 @grllll\n- 减少新建与恢复多个终端时的重复查询，并避免失效终端在切换面板后反复重试。 @LegGasai\n- 改善 PTC Mode 中缺失的部分指引，并统一 SDK、Web 和 headless 的模型身份说明。 @koalazf99\n- 修复 Windows 和 Linux 下右侧栏收起时，在输入框按 Page",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.1-alpha.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3660061295,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-alpha.4",
+      "title": "deepseek-ai/deepseek-harness: v0.2.1-alpha.4",
+      "published_at": "2026-10-15T13:40:02+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#中文) | [English](#english)\n\n## 中文\n\n### 新增功能\n\n- 自定义模型 API 支持通过UI中配置各模型的推理等级，无需手动修改配置文件。 by @LegGasai\n- 允许用户从“自定义插件索引源”中发现和安装插件。 by @turtle1999 \n\n### 问题修复\n\n- 修复命令与参数交界处输入异常的问题。支持整体选中/删除，并在撤销或刷新页面后恢复。 by @LegGasai\n- 改进 Office 文件交付：避免在回复中引用已删除的预览图，减少 PDF 导出后不必要的工具查找和额外检查。 by @yudshj\n- 修复启用开发者工具后，仍需",
+      "summary_zh": "[中文](#中文) | [English](#english)\n\n## 中文\n\n### 新增功能\n\n- 自定义模型 API 支持通过UI中配置各模型的推理等级，无需手动修改配置文件。 by @LegGasai\n- 允许用户从“自定义插件索引源”中发现和安装插件。 by @turtle1999 \n\n### 问题修复\n\n- 修复命令与参数交界处输入异常的问题。支持整体选中/删除，并在撤销或刷新页面后恢复。 by @LegGasai\n- 改进 Office 文件交付：避免在回复中引用已删除的预览图，减少 PDF 导出后不必要的工具查找和额外检查。 by @yudshj\n- 修复启用开发者工具后，仍需",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.1-alpha.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 594903950,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.2",
+      "title": "QwenLM/qwen-code: Release v0.25.2",
+      "published_at": "2026-10-15T15:41:15+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(managed-agent): H4e-b2 the lead's mailbox over Session messages ([#13892](https://github.com/QwenLM/qwen-code/pull/1389",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(managed-agent): H4e-b2 the lead's mailbox over Session messages ([#13892](https://github.com/QwenLM/qwen-code/pull/1389",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3966964115,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.2-preview.1",
+      "title": "QwenLM/qwen-code: Release v0.25.2-preview.1",
+      "published_at": "2026-10-15T15:40:08+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.2-preview.1 -->\n\n## What's Changed\n* fix(managed-agent): connector and broker robustness from the #12692 R2 review by @wenshao in https://github.com/QwenLM/qwen-code/pull/13330\n* feat(managed-agent): H4e-b2 the ",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.2-preview.1 -->\n\n## What's Changed\n* fix(managed-agent): connector and broker robustness from the #12692 R2 review by @wenshao in https://github.com/QwenLM/qwen-code/pull/13330\n* feat(managed-agent): H4e-b2 the ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.2-preview.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 679559060,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.2-nightly.20261015.c24e99e9cb",
+      "title": "QwenLM/qwen-code: Release v0.25.2-nightly.20261015.c24e99e9cb",
+      "published_at": "2026-10-15T22:09:44+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.2-nightly.20261015.c24e99e9cb -->\n\n## What's Changed\n* fix(managed-agent): admit team_plan_approval into the journal-only interrupted-turn settle (#13847) by @wenshao in https://github.com/QwenLM/qwen-code/pull/",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.2-nightly.20261015.c24e99e9cb -->\n\n## What's Changed\n* fix(managed-agent): admit team_plan_approval into the journal-only interrupted-turn settle (#13847) by @wenshao in https://github.com/QwenLM/qwen-code/pull/",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.2-nightly.20261015.c24e99e9cb",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 856340242,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.20",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.20",
+      "published_at": "2026-10-15T16:21:10+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.25.2\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.25.1\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.25.2\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.25.1\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.20",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3365062335,
+      "url": "https://github.com/Tencent-Hunyuan/Hy-Memory/releases/tag/v1.0.0",
+      "title": "Tencent-Hunyuan/Hy-Memory: v1.0.0",
+      "published_at": "2026-10-16T08:44:27+00:00",
+      "original_language": "en",
+      "summary_en": "Hy Memory and MemHub v1.0.0.\n\nInitial release assets include the notarized macOS arm64 DMG and validated Linux x64/arm64 Runtime bundles. Additional macOS and manifest assets will be added to this same release.",
+      "summary_zh": "Hy Memory and MemHub v1.0.0.\n\nInitial release assets include the notarized macOS arm64 DMG and validated Linux x64/arm64 Runtime bundles. Additional macOS and manifest assets will be added to this same release.",
+      "source": "hunyuan_github",
+      "title_en": "Tencent-Hunyuan/Hy-Memory: v1.0.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
