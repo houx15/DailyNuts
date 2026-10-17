@@ -1,0 +1,442 @@
+{
+  "date": "2026-10-17",
+  "items": [
+    {
+      "id": 3769009559,
+      "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+      "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+      "published_at": "2026-10-16T18:11:34",
+      "original_language": "en",
+      "summary_en": "General Science",
+      "summary_zh": "General Science",
+      "source": "google_research",
+      "title_en": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3424742198,
+      "url": "https://www.anthropic.com/research/expectations-for-the-future",
+      "title": "Working at the frontier shapes expectations for the future",
+      "published_at": "2026-10-16T00:00:00",
+      "original_language": "en",
+      "summary_en": "Working at the frontier shapes expectations for the future",
+      "summary_zh": "Working at the frontier shapes expectations for the future",
+      "source": "anthropic_research",
+      "title_en": "Working at the frontier shapes expectations for the future",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3172939020,
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "title": "How employment is changing at Anthropic",
+      "published_at": "2026-10-16T00:00:00",
+      "original_language": "en",
+      "summary_en": "How employment is changing at Anthropic",
+      "summary_zh": "How employment is changing at Anthropic",
+      "source": "anthropic_research",
+      "title_en": "How employment is changing at Anthropic",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2152842566,
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "title": "Claude reveals ECDSA curve origins",
+      "published_at": "2026-10-16T00:00:00",
+      "original_language": "en",
+      "summary_en": "Claude reveals ECDSA curve origins",
+      "summary_zh": "Claude reveals ECDSA curve origins",
+      "source": "anthropic_research",
+      "title_en": "Claude reveals ECDSA curve origins",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4114907662,
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "published_at": "2026-10-16T00:00:00",
+      "original_language": "en",
+      "summary_en": "Designing more efficient quantum circuits with Claude",
+      "summary_zh": "Designing more efficient quantum circuits with Claude",
+      "source": "anthropic_research",
+      "title_en": "Designing more efficient quantum circuits with Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3788311866,
+      "url": "https://www.anthropic.com/research/ai-expectations-gap",
+      "title": "The AI expectations gap",
+      "published_at": "2026-10-16T00:00:00",
+      "original_language": "en",
+      "summary_en": "The AI expectations gap",
+      "summary_zh": "The AI expectations gap",
+      "source": "anthropic_research",
+      "title_en": "The AI expectations gap",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1077027389,
+      "url": "https://x.com/WorkBuddy_AI/status/2111404103402430558",
+      "title": "WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费",
+      "published_at": "2026-10-17T10:29:00+00:00",
+      "original_language": "zh",
+      "summary_en": "WorkBuddy Intl 已更新至最新的 DeepSeek-V4.1-Flash-1017 模型，10 月 31 日前免费开放。引用的 DeepSeek 官方内容称该模型相比上一版性能更强、任务完成更快、输出更短，已上线网站、App 和 API，并针对 DeepSeek Harness、Tencent CodeBuddy、WorkBuddy 等做了优化。",
+      "summary_zh": "WorkBuddy Intl 已更新至最新的 DeepSeek-V4.1-Flash-1017 模型，10 月 31 日前免费开放。引用的 DeepSeek 官方内容称该模型相比上一版性能更强、任务完成更快、输出更短，已上线网站、App 和 API，并针对 DeepSeek Harness、Tencent CodeBuddy、WorkBuddy 等做了优化。",
+      "source": "aihot_selected",
+      "title_zh": "WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 662812711,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687354&idx=1&sn=dea0d54dc3b71b361e36199db6cf4a86",
+      "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
+      "published_at": "2026-10-17T10:19:04+00:00",
+      "original_language": "zh",
+      "summary_en": "数字生命卡兹克分享华硕ProArt创16（RTX Spark N1X芯片、128G统一内存、37999元）的一周深度使用体验，该机全球开售时128G版本在京东几分钟内被抢空。",
+      "summary_zh": "数字生命卡兹克分享华硕ProArt创16（RTX Spark N1X芯片、128G统一内存、37999元）的一周深度使用体验，该机全球开售时128G版本在京东几分钟内被抢空。",
+      "source": "aihot_selected",
+      "title_zh": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 863078020,
+      "url": "https://x.com/shao__meng/status/2111274173192638932",
+      "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
+      "published_at": "2026-10-17T01:52:43+00:00",
+      "original_language": "zh",
+      "summary_en": "作者解读 Anthropic 关于 Claude Code 代码评审重构的博客：Claude 写了约 90% 的代码，2026 年 6 月到 9 月合并 PR 翻倍以上而 revert 率下降超 40%。",
+      "summary_zh": "作者解读 Anthropic 关于 Claude Code 代码评审重构的博客：Claude 写了约 90% 的代码，2026 年 6 月到 9 月合并 PR 翻倍以上而 revert 率下降超 40%。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 142771384,
+      "url": "https://x.com/arena/status/2111221323217412318",
+      "title": "Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一",
+      "published_at": "2026-10-16T22:22:42+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 公布 Meta 发布的 Muse Spark Open (Max) 在 Code Arena: WebDev 以 1511 分位居美国开源模型第一、开源模型总榜第 13。",
+      "summary_zh": "Arena 公布 Meta 发布的 Muse Spark Open (Max) 在 Code Arena: WebDev 以 1511 分位居美国开源模型第一、开源模型总榜第 13。",
+      "source": "aihot_selected",
+      "title_zh": "Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2356245819,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api",
+      "title": "DeepSeek 开放自研搜索 API",
+      "published_at": "2026-10-16T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求。该引擎索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC，使用方式见网页搜索与抓取指南。",
+      "summary_zh": "DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求。该引擎索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC，使用方式见网页搜索与抓取指南。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek 开放自研搜索 API",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4241970982,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
+      "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
+      "published_at": "2026-10-16T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。",
+      "summary_zh": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2969554327,
+      "url": "https://www.a16z.news/p/this-week-in-charts-agents-denied",
+      "title": "a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后",
+      "published_at": "2026-10-16T14:00:39+00:00",
+      "original_language": "zh",
+      "summary_en": "a16z 图表周报指出智能体商务遇阻，Cloudflare 数据显示智能体与爬虫收到的 403 拒绝响应自夏季起明显增多，约为原先两倍。文章引用 NRF 数据称退货率与退货成本自 2019 年以来分别翻倍和增至三倍，并引用调查指 42% 消费者完全不信任 AI 代购，Similarweb 数据显示 AI 购物多发生在发现与购买之间的中间阶段，而非下单环节。",
+      "summary_zh": "a16z 图表周报指出智能体商务遇阻，Cloudflare 数据显示智能体与爬虫收到的 403 拒绝响应自夏季起明显增多，约为原先两倍。文章引用 NRF 数据称退货率与退货成本自 2019 年以来分别翻倍和增至三倍，并引用调查指 42% 消费者完全不信任 AI 代购，Similarweb 数据显示 AI 购物多发生在发现与购买之间的中间阶段，而非下单环节。",
+      "source": "aihot_selected",
+      "title_zh": "a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2196247915,
+      "url": "https://www.lmsys.org/blog/2026-10-16-beam",
+      "title": "SGLang 原生支持 Reflection 的 Beam 并驱动其生产 API",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "SGLang 团队宣布原生支持 Reflection 的 Beam 1.0（501B 参数 MoE、每 token 激活 23B），并以其驱动 Reflection 的生产 API。",
+      "summary_zh": "SGLang 团队宣布原生支持 Reflection 的 Beam 1.0（501B 参数 MoE、每 token 激活 23B），并以其驱动 Reflection 的生产 API。",
+      "source": "aihot_selected",
+      "title_zh": "SGLang 原生支持 Reflection 的 Beam 并驱动其生产 API",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2026319831,
+      "url": "https://ollama.com/blog/reflection-beam",
+      "title": "Reflection 开源权重模型 Beam 上架 Ollama，限时免费可用",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Reflection 首个开源权重模型 Beam 发布，Ollama 作为 day-zero 合作方在 Ollama Cloud 上限时免费提供，且全程零数据保留（ZDR）。",
+      "summary_zh": "Reflection 首个开源权重模型 Beam 发布，Ollama 作为 day-zero 合作方在 Ollama Cloud 上限时免费提供，且全程零数据保留（ZDR）。",
+      "source": "aihot_selected",
+      "title_zh": "Reflection 开源权重模型 Beam 上架 Ollama，限时免费可用",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3659019055,
+      "url": "https://vllm.ai/blog/2026-10-16-reflection-beam",
+      "title": "vLLM 实现 Reflection Beam 501B MoE 模型 Day 0 支持",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "vLLM 宣布从 Day 0 支持 Reflection 的 Beam 模型，这是一个 501B 参数、每 token 激活 23B 的 MoE 模型，在 NVIDIA Blackwell 上完成优化。",
+      "summary_zh": "vLLM 宣布从 Day 0 支持 Reflection 的 Beam 模型，这是一个 501B 参数、每 token 激活 23B 的 MoE 模型，在 NVIDIA Blackwell 上完成优化。",
+      "source": "aihot_selected",
+      "title_zh": "vLLM 实现 Reflection Beam 501B MoE 模型 Day 0 支持",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2137928488,
+      "url": "https://artificialanalysis.ai/articles/reflection-beam",
+      "title": "Reflection 发布首个开源权重模型 Beam，Artificial Analysis 评测得分 30 居美国开源模型第二",
+      "published_at": "2026-10-15T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Artificial Analysis 评测 Reflection 首个模型 Beam，其在 Artificial Analysis Intelligence Index 得 30 分，在美国开源权重模型中排第二，仅次于 Meta 的 Muse Spark Open（39）。",
+      "summary_zh": "Artificial Analysis 评测 Reflection 首个模型 Beam，其在 Artificial Analysis Intelligence Index 得 30 分，在美国开源权重模型中排第二，仅次于 Meta 的 Muse Spark Open（39）。",
+      "source": "aihot_selected",
+      "title_zh": "Reflection 发布首个开源权重模型 Beam，Artificial Analysis 评测得分 30 居美国开源模型第二",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3375875685,
+      "url": "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/",
+      "title": "404 Media 实测 ChatGPT 广告如何基于提示词、手机号和邮箱定向投放",
+      "published_at": "2026-10-15T13:25:19+00:00",
+      "original_language": "zh",
+      "summary_en": "404 Media 通过自行测试发现，OpenAI 允许广告主向 ChatGPT 用户投放广告，并可基于邮箱地址、手机号或手机上的唯一标识符定向特定人群。ChatGPT 的广告定向还基于用户输入的提示词，这些提示词用户可能以为是私密的，但可能被人工审查，或被用于广告定向。ChatGPT 拥有约 10 亿月活跃用户，他们多数可能不知道自己正因广告主上传给 OpenAI 的个人数据而被精准定向。",
+      "summary_zh": "404 Media 通过自行测试发现，OpenAI 允许广告主向 ChatGPT 用户投放广告，并可基于邮箱地址、手机号或手机上的唯一标识符定向特定人群。ChatGPT 的广告定向还基于用户输入的提示词，这些提示词用户可能以为是私密的，但可能被人工审查，或被用于广告定向。ChatGPT 拥有约 10 亿月活跃用户，他们多数可能不知道自己正因广告主上传给 OpenAI 的个人数据而被精准定向。",
+      "source": "aihot_selected",
+      "title_zh": "404 Media 实测 ChatGPT 广告如何基于提示词、手机号和邮箱定向投放",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3241487693,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-rc.2",
+      "title": "deepseek-ai/deepseek-harness: v0.2.1-rc.2",
+      "published_at": "2026-10-17T08:16:33+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.1-rc.2-community) | [English](#en-v0.2.1-rc.2-community)\r\n\r\n<h3 id=\"cn-v0.2.1-rc.2-community\">新增功能</h3>\r\n\r\n- 适配 DeepSeek-V4.1-Flash-1017 上线 @LegGasai\r\n- 适配 DeepSeek Search 与 Fetch API，可在网页搜索设置中开启 @yudshj, @LegGasai\r\n\r\n<h3 id=\"en-v0.2.1-rc.2-community\">New Features</h3>\r\n\r\n- Add support",
+      "summary_zh": "[中文](#cn-v0.2.1-rc.2-community) | [English](#en-v0.2.1-rc.2-community)\r\n\r\n<h3 id=\"cn-v0.2.1-rc.2-community\">新增功能</h3>\r\n\r\n- 适配 DeepSeek-V4.1-Flash-1017 上线 @LegGasai\r\n- 适配 DeepSeek Search 与 Fetch API，可在网页搜索设置中开启 @yudshj, @LegGasai\r\n\r\n<h3 id=\"en-v0.2.1-rc.2-community\">New Features</h3>\r\n\r\n- Add support",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.1-rc.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2726261151,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-rc.1",
+      "title": "deepseek-ai/deepseek-harness: v0.2.1-rc.1",
+      "published_at": "2026-10-17T05:22:10+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.1-rc.1-community) | [English](#en-v0.2.1-rc.1-community)\r\n\r\n作为 `0.2.1` 系列的首个候选版本，本版本汇总了自 `v0.2.0-rc.2` 以来的主要用户和开发者相关变更。\r\n\r\n<h3 id=\"cn-v0.2.1-rc.1-community\">新增功能</h3>\r\n\r\n- 允许用户从“自定义插件索引源”中发现和安装插件。 @turtle1999\r\n- 插件管理页新增「让 Agent 创建插件」入口，可保留草稿进入创造模式；发送需求后才开始执行。 @ZiyaZhang\r\n- 支持插件启用、停用、卸载",
+      "summary_zh": "[中文](#cn-v0.2.1-rc.1-community) | [English](#en-v0.2.1-rc.1-community)\r\n\r\n作为 `0.2.1` 系列的首个候选版本，本版本汇总了自 `v0.2.0-rc.2` 以来的主要用户和开发者相关变更。\r\n\r\n<h3 id=\"cn-v0.2.1-rc.1-community\">新增功能</h3>\r\n\r\n- 允许用户从“自定义插件索引源”中发现和安装插件。 @turtle1999\r\n- 插件管理页新增「让 Agent 创建插件」入口，可保留草稿进入创造模式；发送需求后才开始执行。 @ZiyaZhang\r\n- 支持插件启用、停用、卸载",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.1-rc.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3528260093,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.3-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.25.3-preview.0",
+      "published_at": "2026-10-16T18:28:53+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.3-preview.0 -->\n\n## What's Changed\n* fix(managed-agent): admit team_plan_approval into the journal-only interrupted-turn settle (#13847) by @wenshao in https://github.com/QwenLM/qwen-code/pull/14160\n* test(manag",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.3-preview.0 -->\n\n## What's Changed\n* fix(managed-agent): admit team_plan_approval into the journal-only interrupted-turn settle (#13847) by @wenshao in https://github.com/QwenLM/qwen-code/pull/14160\n* test(manag",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.3-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3187607553,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.2-nightly.20261016.b4614845f0",
+      "title": "QwenLM/qwen-code: Release v0.25.2-nightly.20261016.b4614845f0",
+      "published_at": "2026-10-16T22:01:44+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.2-nightly.20261016.b4614845f0 -->\n\n## What's Changed\n* fix(managed-agent): admit team_plan_approval into the journal-only interrupted-turn settle (#13847) by @wenshao in https://github.com/QwenLM/qwen-code/pull/",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.2-nightly.20261016.b4614845f0 -->\n\n## What's Changed\n* fix(managed-agent): admit team_plan_approval into the journal-only interrupted-turn settle (#13847) by @wenshao in https://github.com/QwenLM/qwen-code/pull/",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.2-nightly.20261016.b4614845f0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2960632628,
+      "url": "https://github.com/Tencent-Hunyuan/Hy-Memory/releases/tag/v1.0.2",
+      "title": "Tencent-Hunyuan/Hy-Memory: v1.0.2",
+      "published_at": "2026-10-16T18:49:00+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* fix(memhub): relaunch safely with existing runtimes by @txfei in https://github.com/Tencent-Hunyuan/Hy-Memory/pull/18\n* ci: upload tagged Linux runtimes to draft releases by @txfei in https://github.com/Tencent-Hunyuan/Hy-Memory/pull/16\n* release: prepare MemHub 1.0.2 by @txfei i",
+      "summary_zh": "## What's Changed\n* fix(memhub): relaunch safely with existing runtimes by @txfei in https://github.com/Tencent-Hunyuan/Hy-Memory/pull/18\n* ci: upload tagged Linux runtimes to draft releases by @txfei in https://github.com/Tencent-Hunyuan/Hy-Memory/pull/16\n* release: prepare MemHub 1.0.2 by @txfei i",
+      "source": "hunyuan_github",
+      "title_en": "Tencent-Hunyuan/Hy-Memory: v1.0.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
