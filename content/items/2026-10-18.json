@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-18",
+  "items": [
+    {
+      "id": 3675982645,
+      "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+      "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
+      "published_at": "2026-10-18T10:52:39+00:00",
+      "original_language": "zh",
+      "summary_en": "慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。",
+      "summary_zh": "慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。",
+      "source": "aihot_selected",
+      "title_zh": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1372190410,
+      "url": "https://x.com/Khazix0918/status/2111639562720329976",
+      "title": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
+      "published_at": "2026-10-18T02:04:38+00:00",
+      "original_language": "zh",
+      "summary_en": "作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。",
+      "summary_zh": "作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。",
+      "source": "aihot_selected",
+      "title_zh": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2992806758,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.2-nightly.20261017.39c237af3b",
+      "title": "QwenLM/qwen-code: Release v0.25.2-nightly.20261017.39c237af3b",
+      "published_at": "2026-10-17T22:05:50+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.2-nightly.20261017.39c237af3b -->\n\n## What's Changed\n* fix(managed-agent): admit team_plan_approval into the journal-only interrupted-turn settle (#13847) by @wenshao in https://github.com/QwenLM/qwen-code/pull/",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.2-nightly.20261017.39c237af3b -->\n\n## What's Changed\n* fix(managed-agent): admit team_plan_approval into the journal-only interrupted-turn settle (#13847) by @wenshao in https://github.com/QwenLM/qwen-code/pull/",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.2-nightly.20261017.39c237af3b",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 114552440,
+      "url": "https://github.com/Tencent-Hunyuan/Hy-Memory/releases/tag/v1.0.4",
+      "title": "Tencent-Hunyuan/Hy-Memory: v1.0.4",
+      "published_at": "2026-10-18T11:14:04+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* feat(memhub): restore the one-click log export entry in settings by @kristinhe1111 in https://github.com/Tencent-Hunyuan/Hy-Memory/pull/38\n* Revise README for clarity and installation instructions by @kristinhe1111 in https://github.com/Tencent-Hunyuan/Hy-Memory/pull/43\n* release",
+      "summary_zh": "## What's Changed\n* feat(memhub): restore the one-click log export entry in settings by @kristinhe1111 in https://github.com/Tencent-Hunyuan/Hy-Memory/pull/38\n* Revise README for clarity and installation instructions by @kristinhe1111 in https://github.com/Tencent-Hunyuan/Hy-Memory/pull/43\n* release",
+      "source": "hunyuan_github",
+      "title_en": "Tencent-Hunyuan/Hy-Memory: v1.0.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
