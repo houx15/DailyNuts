@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-19",
+  "items": [
+    {
+      "id": 327534161,
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "title": "Investing in the public benefit",
+      "published_at": "2026-10-18T00:00:00",
+      "original_language": "en",
+      "summary_en": "Investing in the public benefit",
+      "summary_zh": "Investing in the public benefit",
+      "source": "anthropic_news",
+      "title_en": "Investing in the public benefit",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3490436499,
+      "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+      "title": "Disney 拟通过破产程序收购 Character.AI 团队与技术、绕开其诉讼",
+      "published_at": "2026-10-19T14:45:43+00:00",
+      "original_language": "zh",
+      "summary_en": "若破产方案获法院批准，Disney 将获得 Character.AI 的员工和大部分技术栈，同时避开导致其破产的诉讼和 46 个州与地区的联合调查。破产文件显示 40 个州指控 Character.AI 聊天机器人曾鼓励未成年人隐瞒自残伤痕甚至杀害父母，公司发言人称该描述不准确；相关州已保留挑战破产方案的权利。",
+      "summary_zh": "若破产方案获法院批准，Disney 将获得 Character.AI 的员工和大部分技术栈，同时避开导致其破产的诉讼和 46 个州与地区的联合调查。破产文件显示 40 个州指控 Character.AI 聊天机器人曾鼓励未成年人隐瞒自残伤痕甚至杀害父母，公司发言人称该描述不准确；相关州已保留挑战破产方案的权利。",
+      "source": "aihot_selected",
+      "title_zh": "Disney 拟通过破产程序收购 Character.AI 团队与技术、绕开其诉讼",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3885874919,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "title": "黑客用 AI 智能体入侵 John Deere、SharkNinja 等超 100 家网站",
+      "published_at": "2026-10-19T13:58:41+00:00",
+      "original_language": "zh",
+      "summary_en": "AI 安全公司 Norforge 发现一名黑客用开源 AI 平台 Cairn 编排的智能体入侵了超过 100 个网站，据 Reuters 报道受害者包括 John Deere、SharkNinja 和 Cummins。",
+      "summary_zh": "AI 安全公司 Norforge 发现一名黑客用开源 AI 平台 Cairn 编排的智能体入侵了超过 100 个网站，据 Reuters 报道受害者包括 John Deere、SharkNinja 和 Cummins。",
+      "source": "aihot_selected",
+      "title_zh": "黑客用 AI 智能体入侵 John Deere、SharkNinja 等超 100 家网站",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 78593639,
+      "url": "https://blog.n8n.io/n8n-nvidia-dgx-spark/",
+      "title": "n8n 教程：在 NVIDIA DGX Spark 上离线运行全套 AI 工作流",
+      "published_at": "2026-10-19T13:22:17+00:00",
+      "original_language": "zh",
+      "summary_en": "n8n 博客发布教程，讲解如何在一台 NVIDIA DGX Spark（128GB 统一内存）上部署七个本地模型，通过 LiteLLM 单一 OpenAI 兼容端点驱动 n8n 工作流，全程不调用云 API。",
+      "summary_zh": "n8n 博客发布教程，讲解如何在一台 NVIDIA DGX Spark（128GB 统一内存）上部署七个本地模型，通过 LiteLLM 单一 OpenAI 兼容端点驱动 n8n 工作流，全程不调用云 API。",
+      "source": "aihot_selected",
+      "title_zh": "n8n 教程：在 NVIDIA DGX Spark 上离线运行全套 AI 工作流",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3006333765,
+      "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+      "title": "Meta 详解 Prometheus 吉瓦级超集群：一期已完成并用于训练 Muse 模型",
+      "published_at": "2026-10-19T13:00:10+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta 介绍其位于俄亥俄州 New Albany 的吉瓦级超集群 Prometheus，一期已建成并用于训练 Muse 系列基础模型，目标扩展到约 100 万张 GPU。",
+      "summary_zh": "Meta 介绍其位于俄亥俄州 New Albany 的吉瓦级超集群 Prometheus，一期已建成并用于训练 Muse 系列基础模型，目标扩展到约 100 万张 GPU。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 详解 Prometheus 吉瓦级超集群：一期已完成并用于训练 Muse 模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 383320409,
+      "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/",
+      "title": "AWS 发布 TorchNeuron：Trainium 的原生 PyTorch 后端",
+      "published_at": "2026-10-19T12:45:23+00:00",
+      "original_language": "zh",
+      "summary_en": "AWS 宣布 TorchNeuron，一个面向 Trainium 的开源原生 PyTorch 后端，10 月 20 日起以 Apache 2.0 公开 Beta 发布于 github.com/aws-neuron/torch-neuronx。",
+      "summary_zh": "AWS 宣布 TorchNeuron，一个面向 Trainium 的开源原生 PyTorch 后端，10 月 20 日起以 Apache 2.0 公开 Beta 发布于 github.com/aws-neuron/torch-neuronx。",
+      "source": "aihot_selected",
+      "title_zh": "AWS 发布 TorchNeuron：Trainium 的原生 PyTorch 后端",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4061858170,
+      "url": "https://x.com/arena/status/2111894091168682086",
+      "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
+      "published_at": "2026-10-18T18:56:03+00:00",
+      "original_language": "zh",
+      "summary_en": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。",
+      "summary_zh": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。",
+      "source": "aihot_selected",
+      "title_zh": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2197707688,
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "title": "MiniMax 发布 M3.1 Flash，推理提速近三倍、用量成本降低 70%",
+      "published_at": "2026-10-18T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "MiniMax 发布 MiniMax M3.1 Flash，匿名模型 Space Bunny 是其早期版本，曾处理超过 200 万亿 token。",
+      "summary_zh": "MiniMax 发布 MiniMax M3.1 Flash，匿名模型 Space Bunny 是其早期版本，曾处理超过 200 万亿 token。",
+      "source": "aihot_selected",
+      "title_zh": "MiniMax 发布 M3.1 Flash，推理提速近三倍、用量成本降低 70%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1677334398,
+      "url": "https://browser-use.com/posts/browser-agents",
+      "title": "Browser Use 讲解浏览器智能体的工作原理与使用时机",
+      "published_at": "2026-10-18T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Browser Use 发布科普文章，讲解浏览器智能体由模型、harness 和浏览器三部分组成，通过观察页面、选择动作、执行并检查结果的循环完成任务，可通过 DOM、无障碍树或截图读取页面。",
+      "summary_zh": "Browser Use 发布科普文章，讲解浏览器智能体由模型、harness 和浏览器三部分组成，通过观察页面、选择动作、执行并检查结果的循环完成任务，可通过 DOM、无障碍树或截图读取页面。",
+      "source": "aihot_selected",
+      "title_zh": "Browser Use 讲解浏览器智能体的工作原理与使用时机",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3155856785,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.3",
+      "title": "QwenLM/qwen-code: Release v0.25.3",
+      "published_at": "2026-10-19T06:06:37+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- Adds optional model-generated layouts to Test Failure Explorer, with validation and fallback to the fixed view ([#14269](htt",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- Adds optional model-generated layouts to Test Failure Explorer, with validation and fallback to the fixed view ([#14269](htt",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 4191127381,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.21",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.21",
+      "published_at": "2026-10-19T07:47:40+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.25.3\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.25.2\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.25.3\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.25.2\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.21",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2151956591,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.3",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.25.3",
+      "published_at": "2026-10-19T08:06:26+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at b28b0d948fa28b89750ac5f1525b95e1746f47ab -->\n\n## What's Changed\n* fix(managed-agent): admit team_plan_approval into the journal-only interrupted-turn settle (#13847) by @wenshao in https://github.com/QwenLM/qwen-code/pull/141",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at b28b0d948fa28b89750ac5f1525b95e1746f47ab -->\n\n## What's Changed\n* fix(managed-agent): admit team_plan_approval into the journal-only interrupted-turn settle (#13847) by @wenshao in https://github.com/QwenLM/qwen-code/pull/141",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.25.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
