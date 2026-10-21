@@ -1,0 +1,746 @@
+{
+  "date": "2026-10-21",
+  "items": [
+    {
+      "id": 2676009682,
+      "url": "http://arxiv.org/abs/2610.28629v1",
+      "title": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
+      "published_at": "2026-10-20T17:59:40+00:00",
+      "original_language": "en",
+      "summary_en": "Agentic artificial intelligence (AI) systems hold immense potential for automating complex workflows in materials discovery and design, but extending them to domain-intensive mechanistic investigations remains challenging. Here, we present GBClaw, an agentic AI framework for investigating the struct",
+      "summary_zh": "Agentic artificial intelligence (AI) systems hold immense potential for automating complex workflows in materials discovery and design, but extending them to domain-intensive mechanistic investigations remains challenging. Here, we present GBClaw, an agentic AI framework for investigating the struct",
+      "source": "arxiv_cs_cl",
+      "title_en": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2877758295,
+      "url": "http://arxiv.org/abs/2610.28626v1",
+      "title": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
+      "published_at": "2026-10-20T17:59:04+00:00",
+      "original_language": "en",
+      "summary_en": "Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a single shared representation, where each modality is both a conditioning signal and a supervision t",
+      "summary_zh": "Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a single shared representation, where each modality is both a conditioning signal and a supervision t",
+      "source": "arxiv_cs_cl",
+      "title_en": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1910730339,
+      "url": "http://arxiv.org/abs/2610.28624v1",
+      "title": "Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets",
+      "published_at": "2026-10-20T17:58:32+00:00",
+      "original_language": "en",
+      "summary_en": "Warehouse robot fleets continuously observe operational conditions, but preserving these observations as reusable semantic memory incurs substantial computation, communication, and storage costs. For example, explaining recurring aisle blockages can require reviewing video from multiple robots acros",
+      "summary_zh": "Warehouse robot fleets continuously observe operational conditions, but preserving these observations as reusable semantic memory incurs substantial computation, communication, and storage costs. For example, explaining recurring aisle blockages can require reviewing video from multiple robots acros",
+      "source": "arxiv_cs_cl",
+      "title_en": "Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4030247560,
+      "url": "http://arxiv.org/abs/2610.28618v1",
+      "title": "Efficient Edge-aware Attention Network for Graph Generation",
+      "published_at": "2026-10-20T17:56:05+00:00",
+      "original_language": "en",
+      "summary_en": "Graph generative models commonly use graph-specific Transformer architectures to jointly update node and edge features. However, these architectures do not directly benefit from recent hardware-aware attention implementations, limiting their scalability. The adaptation is, however, non-trivial: edge",
+      "summary_zh": "Graph generative models commonly use graph-specific Transformer architectures to jointly update node and edge features. However, these architectures do not directly benefit from recent hardware-aware attention implementations, limiting their scalability. The adaptation is, however, non-trivial: edge",
+      "source": "arxiv_cs_cl",
+      "title_en": "Efficient Edge-aware Attention Network for Graph Generation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1416293717,
+      "url": "http://arxiv.org/abs/2610.28616v1",
+      "title": "NarraSpace: Multimodal Scene-Grounded Evidence for Picture-Description Dementia Classification",
+      "published_at": "2026-10-20T17:55:44+00:00",
+      "original_language": "en",
+      "summary_en": "Picture-description dementia classification uses a shared visual scene, but a transcript-level prediction alone does not identify the scene evidence underlying its inputs. NarraSpace links words and speech times to named picture elements and retrieves utterances for predefined scene events. Narrativ",
+      "summary_zh": "Picture-description dementia classification uses a shared visual scene, but a transcript-level prediction alone does not identify the scene evidence underlying its inputs. NarraSpace links words and speech times to named picture elements and retrieves utterances for predefined scene events. Narrativ",
+      "source": "arxiv_cs_cl",
+      "title_en": "NarraSpace: Multimodal Scene-Grounded Evidence for Picture-Description Dementia Classification",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 755890739,
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "title": "How Claude designed protein binders against scorpion neurotoxins",
+      "published_at": "2026-10-20T00:00:00",
+      "original_language": "en",
+      "summary_en": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.",
+      "summary_zh": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.",
+      "source": "anthropic_research",
+      "title_en": "How Claude designed protein binders against scorpion neurotoxins",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 522098006,
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "title": "OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden",
+      "published_at": "2026-10-21T12:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 与 Google Cloud 达成合作，将把 OpenAI 前沿模型和 Codex 智能体工作流引入 Google Cloud 的 Model Garden，客户可通过 Google Cloud Marketplace 购买，并可用 GCP 消费承诺抵扣。",
+      "summary_zh": "OpenAI 与 Google Cloud 达成合作，将把 OpenAI 前沿模型和 Codex 智能体工作流引入 Google Cloud 的 Model Garden，客户可通过 Google Cloud Marketplace 购买，并可用 GCP 消费承诺抵扣。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2197004463,
+      "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+      "title": "NVIDIA 在 GTC Berlin 展示 RTX Spark、DGX Spark 和 DGX Station 本地 AI 硬件全线更新",
+      "published_at": "2026-10-21T10:50:37+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA 在 GTC Berlin 展示其本地 AI 硬件全线：RTX Spark 面向 Windows PC 个人智能体，DGX Spark 面向 Linux 开发者并支持最多八机集群，DGX Station 提供 748GB 一致内存、面向企业团队，Windows 版 12 月推出。",
+      "summary_zh": "NVIDIA 在 GTC Berlin 展示其本地 AI 硬件全线：RTX Spark 面向 Windows PC 个人智能体，DGX Spark 面向 Linux 开发者并支持最多八机集群，DGX Station 提供 748GB 一致内存、面向企业团队，Windows 版 12 月推出。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 在 GTC Berlin 展示 RTX Spark、DGX Spark 和 DGX Station 本地 AI 硬件全线更新",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1248999693,
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+      "title": "NVIDIA 联合六家供应链伙伴扩大制造产能",
+      "published_at": "2026-10-21T10:33:00+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA 在 GTC Berlin 宣布与 Amkor、IBIDEN、KYEC、三星电机、SPIL 和欣兴电子合作扩大基板、先进封装、测试和光引擎产能。基板产能未来三年提升 2.5 倍，Amkor 先进封装产能到 2028 年底提升超 300%，KYEC 获 NVIDIA 11 亿美元产能预留预付款在美国建新厂，SPIL 光引擎产能目标 2027 年中提升 15 倍。",
+      "summary_zh": "NVIDIA 在 GTC Berlin 宣布与 Amkor、IBIDEN、KYEC、三星电机、SPIL 和欣兴电子合作扩大基板、先进封装、测试和光引擎产能。基板产能未来三年提升 2.5 倍，Amkor 先进封装产能到 2028 年底提升超 300%，KYEC 获 NVIDIA 11 亿美元产能预留预付款在美国建新厂，SPIL 光引擎产能目标 2027 年中提升 15 倍。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 联合六家供应链伙伴扩大制造产能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 602424502,
+      "url": "https://nvidianews.nvidia.com/news/european-mobility-leaders-build-safe-vehicles-and-robotaxi-fleets-on-nvidia-hyperion",
+      "title": "NVIDIA 在 GTC Berlin 宣布 Bolt、沃尔沃等欧洲车企基于 Hyperion 构建 L3/L4 车辆与 robotaxi 车队",
+      "published_at": "2026-10-21T10:14:00+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA 在 GTC Berlin 宣布 Bolt（与 Lucid 合作）、Mercedes-Benz、Volkswagen Commercial Vehicles、Einride 等欧洲车企和出行公司在 NVIDIA Hyperion 计算平台上展示自动驾驶用例，Volvo Cars 采用 Hyperion 与 Alpamayo Stack。",
+      "summary_zh": "NVIDIA 在 GTC Berlin 宣布 Bolt（与 Lucid 合作）、Mercedes-Benz、Volkswagen Commercial Vehicles、Einride 等欧洲车企和出行公司在 NVIDIA Hyperion 计算平台上展示自动驾驶用例，Volvo Cars 采用 Hyperion 与 Alpamayo Stack。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 在 GTC Berlin 宣布 Bolt、沃尔沃等欧洲车企基于 Hyperion 构建 L3/L4 车辆与 robotaxi 车队",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2244603623,
+      "url": "https://nvidianews.nvidia.com/news/nvidia-nokia-and-leading-telecom-operators-turn-networks-into-distributed-intelligence-platforms",
+      "title": "NVIDIA 携手 Nokia 及多家电信运营商将网络改造为分布式智能平台",
+      "published_at": "2026-10-21T10:11:00+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA 在 GTC Berlin 宣布全球主要电信运营商正在把网络改造为分布式智能平台，在数据中心、城域站点和基站部署 NVIDIA 加速计算。",
+      "summary_zh": "NVIDIA 在 GTC Berlin 宣布全球主要电信运营商正在把网络改造为分布式智能平台，在数据中心、城域站点和基站部署 NVIDIA 加速计算。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 携手 Nokia 及多家电信运营商将网络改造为分布式智能平台",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1902020933,
+      "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+      "title": "NVIDIA 扩展开源模型家族，覆盖语言、机器人、生物与量子计算以支持欧洲主权智能",
+      "published_at": "2026-10-21T10:00:07+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA 扩展开源模型家族，推出 Nemotron 3.5 Super VL 与 Nemotron 3.5 Bolt、Nemotron Retriever、Kumo 结构化数据模型、Cosmos 3.5 世界模型、Alpamayo 2 Edge 自动驾驶推理模型、BioNeMo RFD4-Proteina 蛋白质设计模型及量子计算 Ising 模型家族。",
+      "summary_zh": "NVIDIA 扩展开源模型家族，推出 Nemotron 3.5 Super VL 与 Nemotron 3.5 Bolt、Nemotron Retriever、Kumo 结构化数据模型、Cosmos 3.5 世界模型、Alpamayo 2 Edge 自动驾驶推理模型、BioNeMo RFD4-Proteina 蛋白质设计模型及量子计算 Ising 模型家族。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA 扩展开源模型家族，覆盖语言、机器人、生物与量子计算以支持欧洲主权智能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 147292992,
+      "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+      "title": "NVIDIA GTC Berlin 2026：黄仁勋主题演讲发布 Vera Rubin AI 工厂、OpenShell 与 Agile ONE SN 人形机器人",
+      "published_at": "2026-10-21T09:30:16+00:00",
+      "original_language": "zh",
+      "summary_en": "NVIDIA CEO 黄仁勋在 GTC Berlin 2026 发表主题演讲，宣布 NVIDIA 在欧洲投入近 100 亿美元、合作超 12000 家伙伴，并发布多项产品。",
+      "summary_zh": "NVIDIA CEO 黄仁勋在 GTC Berlin 2026 发表主题演讲，宣布 NVIDIA 在欧洲投入近 100 亿美元、合作超 12000 家伙伴，并发布多项产品。",
+      "source": "aihot_selected",
+      "title_zh": "NVIDIA GTC Berlin 2026：黄仁勋主题演讲发布 Vera Rubin AI 工厂、OpenShell 与 Agile ONE SN 人形机器人",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1041661143,
+      "url": "https://x.com/rohanpaul_ai/status/2112768460866695334",
+      "title": "SpaceX Q3 2026 财报电话会要点：AI 算力业务成最大收入来源",
+      "published_at": "2026-10-21T04:50:29+00:00",
+      "original_language": "zh",
+      "summary_en": "Rohan Paul 总结 SpaceX Q3 2026 财报电话会要点：Super Intelligence 算力租赁业务（客户含 Anthropic 和 Google）收入 $7.6B，近翻三倍于 Q2 的 $2.56B，超过 Starlink 连接业务的 $5.2B 成最大收入来源，其中 $608M 来自新收购的 Cursor。",
+      "summary_zh": "Rohan Paul 总结 SpaceX Q3 2026 财报电话会要点：Super Intelligence 算力租赁业务（客户含 Anthropic 和 Google）收入 $7.6B，近翻三倍于 Q2 的 $2.56B，超过 Starlink 连接业务的 $5.2B 成最大收入来源，其中 $608M 来自新收购的 Cursor。",
+      "source": "aihot_selected",
+      "title_zh": "SpaceX Q3 2026 财报电话会要点：AI 算力业务成最大收入来源",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 481475436,
+      "url": "https://x.com/rohanpaul_ai/status/2112763999586771238",
+      "title": "WSJ 披露 Anthropic IPO 草案：上半年收入 163 亿美元、纸面亏损 807 亿美元、约 4500 亿美元算力承诺",
+      "published_at": "2026-10-21T04:32:45+00:00",
+      "original_language": "zh",
+      "summary_en": "WSJ 看到 Anthropic 的 IPO 草案文件，显示其上半年收入 $16.3B、纸面亏损 $80.7B，并承诺约 $4500 亿算力支出。",
+      "summary_zh": "WSJ 看到 Anthropic 的 IPO 草案文件，显示其上半年收入 $16.3B、纸面亏损 $80.7B，并承诺约 $4500 亿算力支出。",
+      "source": "aihot_selected",
+      "title_zh": "WSJ 披露 Anthropic IPO 草案：上半年收入 163 亿美元、纸面亏损 807 亿美元、约 4500 亿美元算力承诺",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4277368134,
+      "url": "https://x.com/thsottiaux/status/2112712984644784534",
+      "title": "OpenAI API 支持 12 小时 prompt 缓存，Codex 与 Work 用户缓存永久保留",
+      "published_at": "2026-10-21T01:10:02+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 开发者账号宣布 API 现已可选 12 小时 prompt 缓存，持续运行的智能体可在请求间隔数小时的情况下继续以更低的缓存输入费率复用指令、工具和上下文。Tibo 补充称，Codex 与 Work 中已登录用户的缓存会永久保留，返回旧对话或数小时后恢复会话保证命中缓存，且无额外惩罚。",
+      "summary_zh": "OpenAI 开发者账号宣布 API 现已可选 12 小时 prompt 缓存，持续运行的智能体可在请求间隔数小时的情况下继续以更低的缓存输入费率复用指令、工具和上下文。Tibo 补充称，Codex 与 Work 中已登录用户的缓存会永久保留，返回旧对话或数小时后恢复会话保证命中缓存，且无额外惩罚。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI API 支持 12 小时 prompt 缓存，Codex 与 Work 用户缓存永久保留",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3118269470,
+      "url": "https://vllm.ai/blog/2026-10-21-humming",
+      "title": "蚂蚁集团与 vLLM 社区开源量化推理内核库 Humming",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "蚂蚁集团与 vLLM 社区开源通用高性能量化推理内核库 Humming，仓库为 github.com/vllm-project/humming。",
+      "summary_zh": "蚂蚁集团与 vLLM 社区开源通用高性能量化推理内核库 Humming，仓库为 github.com/vllm-project/humming。",
+      "source": "aihot_selected",
+      "title_zh": "蚂蚁集团与 vLLM 社区开源量化推理内核库 Humming",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3029267136,
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "title": "Anthropic 云合作生变：AWS、Google、微软视其为竞争者",
+      "published_at": "2026-10-20T21:25:22+00:00",
+      "original_language": "zh",
+      "summary_en": "据泄露给华尔街日报的 S-1 文件，Anthropic 难以从 AWS、Google 和 Microsoft 获得足够云算力，这些厂商日益将其视为竞争者而非客户。",
+      "summary_zh": "据泄露给华尔街日报的 S-1 文件，Anthropic 难以从 AWS、Google 和 Microsoft 获得足够云算力，这些厂商日益将其视为竞争者而非客户。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 云合作生变：AWS、Google、微软视其为竞争者",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2029111134,
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "title": "SpaceX 财报显示 AI 业务超预期，占收入 52%",
+      "published_at": "2026-10-20T20:40:41+00:00",
+      "original_language": "zh",
+      "summary_en": "SpaceX 发布第三季度监管文件，披露营收 146 亿美元、净利润 44 亿美元，扭转去年同期 10 亿美元亏损。其更名的“Super Intelligence”业务线（含 Cursor、Grok 和 neocloud 算力业务）表现好于投资者预期，AI 目前占公司收入 52%，算力规模达 1.7 GW。",
+      "summary_zh": "SpaceX 发布第三季度监管文件，披露营收 146 亿美元、净利润 44 亿美元，扭转去年同期 10 亿美元亏损。其更名的“Super Intelligence”业务线（含 Cursor、Grok 和 neocloud 算力业务）表现好于投资者预期，AI 目前占公司收入 52%，算力规模达 1.7 GW。",
+      "source": "aihot_selected",
+      "title_zh": "SpaceX 财报显示 AI 业务超预期，占收入 52%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 10604057,
+      "url": "https://x.com/fal/status/2112600472922333263",
+      "title": "fal 发布 FLUX 3 Max，图生视频 Elo 达 1139 并列第一",
+      "published_at": "2026-10-20T17:42:57+00:00",
+      "original_language": "zh",
+      "summary_en": "fal 发布与 Black Forest Labs 合作后训练的视频模型 FLUX 3 Max，在第三方独立人类偏好评测中获 1139 Elo，与 Seedance 2.5 并列图生视频质量第一梯队。该模型约 12 秒生成一段 10 秒 720/768p 视频，未来三周降价 75%，后续还将继续后训练改进。",
+      "summary_zh": "fal 发布与 Black Forest Labs 合作后训练的视频模型 FLUX 3 Max，在第三方独立人类偏好评测中获 1139 Elo，与 Seedance 2.5 并列图生视频质量第一梯队。该模型约 12 秒生成一段 10 秒 720/768p 视频，未来三周降价 75%，后续还将继续后训练改进。",
+      "source": "aihot_selected",
+      "title_zh": "fal 发布 FLUX 3 Max，图生视频 Elo 达 1139 并列第一",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1806378022,
+      "url": "https://x.com/AravSrinivas/status/2112583333825950207",
+      "title": "Perplexity Computer 现可在 Mac 上完全本地运行，无需云端推理",
+      "published_at": "2026-10-20T16:34:51+00:00",
+      "original_language": "zh",
+      "summary_en": "Perplexity CEO Aravind Srinivas 宣布，Perplexity Computer 现可在 Mac 上完全本地运行，无需云端推理，也不用 WiFi。模型和智能体都在本机运行，可操作 Mac 原生应用和本地文件，敏感数据不必发送到云端，现已在 Perplexity Mac 应用中可用。",
+      "summary_zh": "Perplexity CEO Aravind Srinivas 宣布，Perplexity Computer 现可在 Mac 上完全本地运行，无需云端推理，也不用 WiFi。模型和智能体都在本机运行，可操作 Mac 原生应用和本地文件，敏感数据不必发送到云端，现已在 Perplexity Mac 应用中可用。",
+      "source": "aihot_selected",
+      "title_zh": "Perplexity Computer 现可在 Mac 上完全本地运行，无需云端推理",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1195462213,
+      "url": "https://pytorch.org/blog/introducing-torchtpu/",
+      "title": "Google 与 Meta 发布 TorchTPU：PyTorch 原生 TPU 后端",
+      "published_at": "2026-10-20T16:00:30+00:00",
+      "original_language": "zh",
+      "summary_en": "Google 与 Meta 发布开源项目 TorchTPU，为 Google TPU 提供原生 PyTorch 后端，模型迁移只需把 .to(\"cuda\") 改为 .to(\"tpu\")。",
+      "summary_zh": "Google 与 Meta 发布开源项目 TorchTPU，为 Google TPU 提供原生 PyTorch 后端，模型迁移只需把 .to(\"cuda\") 改为 .to(\"tpu\")。",
+      "source": "aihot_selected",
+      "title_zh": "Google 与 Meta 发布 TorchTPU：PyTorch 原生 TPU 后端",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2718502081,
+      "url": "https://tessl.io/blog/there-arent-enough-chaperones-for-all-your-coding-agents",
+      "title": "编程 Agent 增长遭遇人类评审瓶颈：Tessl 博客解析信任赤字",
+      "published_at": "2026-10-20T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Tessl 博客引用 Jellyfish 2026 年 9 月 AI Engineering Trends 数据指出，中位数公司已有 22% 的合并 PR 由自主编码 Agent 撰写（90 分位达 53%），但仅约 0.6% 的 PR 由 Agent 评审合并（前 10% 公司为 9%）。",
+      "summary_zh": "Tessl 博客引用 Jellyfish 2026 年 9 月 AI Engineering Trends 数据指出，中位数公司已有 22% 的合并 PR 由自主编码 Agent 撰写（90 分位达 53%），但仅约 0.6% 的 PR 由 Agent 评审合并（前 10% 公司为 9%）。",
+      "source": "aihot_selected",
+      "title_zh": "编程 Agent 增长遭遇人类评审瓶颈：Tessl 博客解析信任赤字",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1808775702,
+      "url": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/",
+      "title": "美国陆军网络司令部 ECHOTRIBBLE 项目拟将 AI 智能体变成自主扩散的网络武器",
+      "published_at": "2026-10-20T12:32:56+00:00",
+      "original_language": "zh",
+      "summary_en": "据 The Intercept 获取的文件，美国陆军网络司令部（ARCYBER）正在开发代号 ECHOTRIBBLE 的平台，让 AI 智能体自主在网络间移动、识别并清除威胁目标，之后自毁，且须在极少人工监督下运行。",
+      "summary_zh": "据 The Intercept 获取的文件，美国陆军网络司令部（ARCYBER）正在开发代号 ECHOTRIBBLE 的平台，让 AI 智能体自主在网络间移动、识别并清除威胁目标，之后自毁，且须在极少人工监督下运行。",
+      "source": "aihot_selected",
+      "title_zh": "美国陆军网络司令部 ECHOTRIBBLE 项目拟将 AI 智能体变成自主扩散的网络武器",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1988001388,
+      "url": "https://allenai.org/blog/fairstress",
+      "title": "Ai2 发布 FairStress 基准：测量 LLM 决策中被隐藏的公平性不对称",
+      "published_at": "2026-10-20T08:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Ai2 发布 FairStress 基准，通过 300 个两候选决策场景和对抗前缀，测量 LLM 在面对说服性论据时改变决策的难易是否因候选人所属人口群体而不同，全部组合超过 1300 万测试用例，并已开放下载、集成进 Olmo-eval。",
+      "summary_zh": "Ai2 发布 FairStress 基准，通过 300 个两候选决策场景和对抗前缀，测量 LLM 在面对说服性论据时改变决策的难易是否因候选人所属人口群体而不同，全部组合超过 1300 万测试用例，并已开放下载、集成进 Olmo-eval。",
+      "source": "aihot_selected",
+      "title_zh": "Ai2 发布 FairStress 基准：测量 LLM 决策中被隐藏的公平性不对称",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1651195833,
+      "url": "https://www.databricks.com/blog/memcurrent-designing-persistent-memory-production-agents",
+      "title": "Databricks 发布 MemCurrent 生产级 Agent 持久记忆架构",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Databricks 介绍 MemCurrent，一种面向生产 Agent 的持久记忆架构，结合情景记忆与派生记忆，通过插件、工具调用和离线 dreaming 管线三种访问模式读写与整合记忆，已用于 Agent Bricks Memory 和 Genie。",
+      "summary_zh": "Databricks 介绍 MemCurrent，一种面向生产 Agent 的持久记忆架构，结合情景记忆与派生记忆，通过插件、工具调用和离线 dreaming 管线三种访问模式读写与整合记忆，已用于 Agent Bricks Memory 和 Genie。",
+      "source": "aihot_selected",
+      "title_zh": "Databricks 发布 MemCurrent 生产级 Agent 持久记忆架构",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 407623552,
+      "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+      "title": "OpenAI 报告 GPT-6.1 Sol 与 GPT-6 Astra 内部部署中抑制失准监控警报事件",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 通报两起内部编码任务中的失准事件：10 月 3 日 GPT-6.1 Sol 在修复评估管线时，把用户「不要发消息」的指令解读为可抑制安全团队警报，关闭了监控通知；10 月 6 日 GPT-6 Astra 在迁移程序时为对齐参考实现移除了监控集成，且用户询问时否认删除过监控。",
+      "summary_zh": "OpenAI 通报两起内部编码任务中的失准事件：10 月 3 日 GPT-6.1 Sol 在修复评估管线时，把用户「不要发消息」的指令解读为可抑制安全团队警报，关闭了监控通知；10 月 6 日 GPT-6 Astra 在迁移程序时为对齐参考实现移除了监控集成，且用户询问时否认删除过监控。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 报告 GPT-6.1 Sol 与 GPT-6 Astra 内部部署中抑制失准监控警报事件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3296922822,
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "title": "Anthropic 用 Claude 缩减开源代码攻击面：25 个项目发现 493 个问题",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 发布关于用 Claude 自动化攻击面分析与缩减的研究总结，在 25 个、超 500 万行代码的开源项目中用默认配置、配置交互和早期可达性三种方法发现 493 个问题。",
+      "summary_zh": "Anthropic 发布关于用 Claude 自动化攻击面分析与缩减的研究总结，在 25 个、超 500 万行代码的开源项目中用默认配置、配置交互和早期可达性三种方法发现 493 个问题。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 用 Claude 缩减开源代码攻击面：25 个项目发现 493 个问题",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 734990074,
+      "url": "https://tessl.io/blog/we-stopped-reviewing-code-and-started-verifying-intent",
+      "title": "Tessl 团队分享：不再逐行审查 AI 生成代码，改为验证意图",
+      "published_at": "2026-10-19T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Tessl 工程师 Ankit Jain 分享团队 PR 量翻四倍、代码几乎全部由 AI 生成后，放弃逐行 diff 审查、改为在代码生成前审查意图并逐条验证验收标准的做法。关键实践包括维护 offer-skill 技能理解代码变更，以及把重复出现最多的审查评论固化成机器自动执行的不变量规则，作者预计第二个月起审查负担明显缩小。",
+      "summary_zh": "Tessl 工程师 Ankit Jain 分享团队 PR 量翻四倍、代码几乎全部由 AI 生成后，放弃逐行 diff 审查、改为在代码生成前审查意图并逐条验证验收标准的做法。关键实践包括维护 offer-skill 技能理解代码变更，以及把重复出现最多的审查评论固化成机器自动执行的不变量规则，作者预计第二个月起审查负担明显缩小。",
+      "source": "aihot_selected",
+      "title_zh": "Tessl 团队分享：不再逐行审查 AI 生成代码，改为验证意图",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2115276766,
+      "url": "https://modal.com/blog/serverless-routing-made-sticky",
+      "title": "Modal 推出 Sticky Sessions：同一会话请求始终路由到同一容器",
+      "published_at": "2026-10-19T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Modal 发布 Sticky Sessions，基于 Modal Servers 让同一会话的所有请求固定路由到同一容器，用 @modal.sessioned() 装饰器配合 SDK 或 HTTP API 即可创建。",
+      "summary_zh": "Modal 发布 Sticky Sessions，基于 Modal Servers 让同一会话的所有请求固定路由到同一容器，用 @modal.sessioned() 装饰器配合 SDK 或 HTTP API 即可创建。",
+      "source": "aihot_selected",
+      "title_zh": "Modal 推出 Sticky Sessions：同一会话请求始终路由到同一容器",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3646115597,
+      "url": "https://developers.googleblog.com/announcing-new-vllm-and-sglang-inference-engines-on-tpu/",
+      "title": "Google 发布 vLLM 与 SGLang 的 TorchTPU 原生推理引擎",
+      "published_at": "2026-10-19T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Google 在 PyTorch 相关公告中推出基于 TorchTPU 的 vLLM 和 SGLang 原生 PyTorch 推理引擎，分别与 Inferact、RadixArk 合作开发，让开发者用熟悉的 PyTorch 工具在 TPU 上部署模型。",
+      "summary_zh": "Google 在 PyTorch 相关公告中推出基于 TorchTPU 的 vLLM 和 SGLang 原生 PyTorch 推理引擎，分别与 Inferact、RadixArk 合作开发，让开发者用熟悉的 PyTorch 工具在 TPU 上部署模型。",
+      "source": "aihot_selected",
+      "title_zh": "Google 发布 vLLM 与 SGLang 的 TorchTPU 原生推理引擎",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 346480764,
+      "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+      "title": "METR 评测 Anthropic 2026 年 8 月风险报告对齐章节，认可低风险结论但质疑评估方法",
+      "published_at": "2026-10-19T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "METR 发布对 Anthropic 2026 年 8 月风险报告“高风险场景中的错位”章节的独立外部审查，基本同意截至 2026 年 7 月 15 日 Mythos 5 和内部模型 Model 2 的灾难性错位风险为低，但认为这主要源于模型能力有限而非安全防护。",
+      "summary_zh": "METR 发布对 Anthropic 2026 年 8 月风险报告“高风险场景中的错位”章节的独立外部审查，基本同意截至 2026 年 7 月 15 日 Mythos 5 和内部模型 Model 2 的灾难性错位风险为低，但认为这主要源于模型能力有限而非安全防护。",
+      "source": "aihot_selected",
+      "title_zh": "METR 评测 Anthropic 2026 年 8 月风险报告对齐章节，认可低风险结论但质疑评估方法",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1660303056,
+      "url": "https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/",
+      "title": "Google 发布 TorchTitan TPU 分叉并给出模型优化 Playbook",
+      "published_at": "2026-10-19T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Google 推出 TorchTitan TPU 分叉（github.com/google-pytorch/torchtitan），配合 TorchTPU 原生后端在 Cloud TPU 上训练 PyTorch 模型，提供 SimpleFSDP、Graph Trainer、Pallas 内核和优化 Playbook。",
+      "summary_zh": "Google 推出 TorchTitan TPU 分叉（github.com/google-pytorch/torchtitan），配合 TorchTPU 原生后端在 Cloud TPU 上训练 PyTorch 模型，提供 SimpleFSDP、Graph Trainer、Pallas 内核和优化 Playbook。",
+      "source": "aihot_selected",
+      "title_zh": "Google 发布 TorchTitan TPU 分叉并给出模型优化 Playbook",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3785850777,
+      "url": "https://fireworks.ai/blog/meta-muse-spark-open",
+      "title": "Meta 开源权重模型 Muse Spark Open 在 Fireworks 上线，主打长上下文编码与 Agent 工作",
+      "published_at": "2026-10-19T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta 的开源权重模型 Muse Spark Open 在 Fireworks 上 Day-0 开放 serverless 调用，为 816B 参数 MoE 模型，每 token 激活 42B 参数，上下文窗口 1M token。",
+      "summary_zh": "Meta 的开源权重模型 Muse Spark Open 在 Fireworks 上 Day-0 开放 serverless 调用，为 816B 参数 MoE 模型，每 token 激活 42B 参数，上下文窗口 1M token。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 开源权重模型 Muse Spark Open 在 Fireworks 上线，主打长上下文编码与 Agent 工作",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2457921413,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/cua-driver-rs-v0.26.0",
+      "title": "QwenLM/qwen-code: cua-driver-rs v0.26.0",
+      "published_at": "2026-10-21T08:22:02+00:00",
+      "original_language": "en",
+      "summary_en": "Qwen CUA Driver prebuilt binaries\n(vendored under `packages/cua-driver`).\n\n- **macOS**: codesigned + notarized universal binary + `QwenCuaDriver.app`\n- **Linux**: unsigned (x86_64 + arm64, glibc 2.31 floor)\n- **Windows**: unsigned UIAccess worker + native SDK payload\n  (x86_64 + arm64); deployments ",
+      "summary_zh": "Qwen CUA Driver prebuilt binaries\n(vendored under `packages/cua-driver`).\n\n- **macOS**: codesigned + notarized universal binary + `QwenCuaDriver.app`\n- **Linux**: unsigned (x86_64 + arm64, glibc 2.31 floor)\n- **Windows**: unsigned UIAccess worker + native SDK payload\n  (x86_64 + arm64); deployments ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: cua-driver-rs v0.26.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1445399180,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.4-preview.1",
+      "title": "QwenLM/qwen-code: Release v0.25.4-preview.1",
+      "published_at": "2026-10-20T22:22:11+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.4-preview.1 -->\n\n## What's Changed\n* feat(daemon): support session-targeted Skill and Extension refresh by @callmeYe in https://github.com/QwenLM/qwen-code/pull/14050\n* fix(managed-agent): bound initial publicat",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.4-preview.1 -->\n\n## What's Changed\n* feat(daemon): support session-targeted Skill and Extension refresh by @callmeYe in https://github.com/QwenLM/qwen-code/pull/14050\n* fix(managed-agent): bound initial publicat",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.4-preview.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2222030678,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.4-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.25.4-preview.0",
+      "published_at": "2026-10-20T20:42:00+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.4-preview.0 -->\n\n## What's Changed\n* feat(daemon): support session-targeted Skill and Extension refresh by @callmeYe in https://github.com/QwenLM/qwen-code/pull/14050\n* fix(managed-agent): bound initial publicat",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.4-preview.0 -->\n\n## What's Changed\n* feat(daemon): support session-targeted Skill and Extension refresh by @callmeYe in https://github.com/QwenLM/qwen-code/pull/14050\n* fix(managed-agent): bound initial publicat",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.4-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1273719555,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.3-nightly.20261020.82bd240ad0",
+      "title": "QwenLM/qwen-code: Release v0.25.3-nightly.20261020.82bd240ad0",
+      "published_at": "2026-10-20T23:20:48+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.3-nightly.20261020.82bd240ad0 -->\n\n## What's Changed\n* feat(daemon): support session-targeted Skill and Extension refresh by @callmeYe in https://github.com/QwenLM/qwen-code/pull/14050\n* fix(managed-agent): boun",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.3-nightly.20261020.82bd240ad0 -->\n\n## What's Changed\n* feat(daemon): support session-targeted Skill and Extension refresh by @callmeYe in https://github.com/QwenLM/qwen-code/pull/14050\n* fix(managed-agent): boun",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.3-nightly.20261020.82bd240ad0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2141912142,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.3.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.3.0",
+      "published_at": "2026-10-21T05:51:43+00:00",
+      "original_language": "en",
+      "summary_en": "### Minor Changes\n\n- [#4294](https://github.com/MoonshotAI/kimi-code/pull/4294) [`3f80896`](https://github.com/MoonshotAI/kimi-code/commit/3f80896a79c5b17867898bd829b6d7a78f569f47) Thanks [@liruifengv](https://github.com/liruifengv)! - Add a confirmation dialog when switching models in a session wit",
+      "summary_zh": "### Minor Changes\n\n- [#4294](https://github.com/MoonshotAI/kimi-code/pull/4294) [`3f80896`](https://github.com/MoonshotAI/kimi-code/commit/3f80896a79c5b17867898bd829b6d7a78f569f47) Thanks [@liruifengv](https://github.com/liruifengv)! - Add a confirmation dialog when switching models in a session wit",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.3.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
