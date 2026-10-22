@@ -1,0 +1,632 @@
+{
+  "date": "2026-10-22",
+  "items": [
+    {
+      "id": 3400809081,
+      "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+      "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+      "published_at": "2026-10-21T16:23:53",
+      "original_language": "en",
+      "summary_en": "Health & Bioscience",
+      "summary_zh": "Health & Bioscience",
+      "source": "google_research",
+      "title_en": "Empowering frontline maternal care with AI-assisted ultrasound",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3709715529,
+      "url": "http://arxiv.org/abs/2610.30132v1",
+      "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+      "published_at": "2026-10-21T17:59:14+00:00",
+      "original_language": "en",
+      "summary_en": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL,",
+      "summary_zh": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL,",
+      "source": "arxiv_cs_cl",
+      "title_en": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3454819030,
+      "url": "http://arxiv.org/abs/2610.30128v1",
+      "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+      "published_at": "2026-10-21T17:58:06+00:00",
+      "original_language": "en",
+      "summary_en": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items withi",
+      "summary_zh": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items withi",
+      "source": "arxiv_cs_cl",
+      "title_en": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1314056864,
+      "url": "http://arxiv.org/abs/2610.30119v1",
+      "title": "Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence",
+      "published_at": "2026-10-21T17:56:37+00:00",
+      "original_language": "en",
+      "summary_en": "We prove a self-normalized Bernstein inequality for bounded functions of a regenerative process with independent, identically distributed marked cycles of finite mean length. The bound uses observed cycle lengths and retains explicit terms for truncation and the cycle ending after the observation ho",
+      "summary_zh": "We prove a self-normalized Bernstein inequality for bounded functions of a regenerative process with independent, identically distributed marked cycles of finite mean length. The bound uses observed cycle lengths and retains explicit terms for truncation and the cycle ending after the observation ho",
+      "source": "arxiv_cs_cl",
+      "title_en": "Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 865075408,
+      "url": "http://arxiv.org/abs/2610.30116v1",
+      "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
+      "published_at": "2026-10-21T17:55:31+00:00",
+      "original_language": "en",
+      "summary_en": "Through a tangle of real-world interactions, from synthetic training pipelines to data shared on the open web, frontier LLMs absorb what their predecessors and competitors create. How well does each model play its role in this ecosystem, as a creator and as a solver? We introduce Environment Duels, ",
+      "summary_zh": "Through a tangle of real-world interactions, from synthetic training pipelines to data shared on the open web, frontier LLMs absorb what their predecessors and competitors create. How well does each model play its role in this ecosystem, as a creator and as a solver? We introduce Environment Duels, ",
+      "source": "arxiv_cs_cl",
+      "title_en": "Environment Duels: A Microcosm of LLM Co-Evolution",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1297078151,
+      "url": "http://arxiv.org/abs/2610.30114v1",
+      "title": "The End of Consensus Research?",
+      "published_at": "2026-10-21T17:55:19+00:00",
+      "original_language": "en",
+      "summary_en": "Consensus is a fundamental problem in distributed computing and at the core of state machine replication (SMR). Despite decades of active human research, discovering practical low-latency solutions to the problem is still open, as it requires combining protocol knowledge, correctness reasoning, impl",
+      "summary_zh": "Consensus is a fundamental problem in distributed computing and at the core of state machine replication (SMR). Despite decades of active human research, discovering practical low-latency solutions to the problem is still open, as it requires combining protocol knowledge, correctness reasoning, impl",
+      "source": "arxiv_cs_cl",
+      "title_en": "The End of Consensus Research?",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3496927536,
+      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+      "published_at": "2026-10-21T00:00:00",
+      "original_language": "en",
+      "summary_en": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement.",
+      "summary_zh": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement.",
+      "source": "anthropic_news",
+      "title_en": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 43552273,
+      "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+      "title": "Symantec 披露“Skynet 模式”AI 智能体劫持无防护大语言模型发起自持续网络攻击",
+      "published_at": "2026-10-22T11:30:56+00:00",
+      "original_language": "zh",
+      "summary_en": "Symantec 研究人员通过蜜罐截获一个把大语言模型嵌入核心的攻击智能体，它会劫持互联网上无防护的模型端点，自主扫描目标、利用服务器漏洞、窃取数据库凭据并安装挖矿程序，最多连续执行 100,000 步，算力费用由被劫持模型的主人承担。",
+      "summary_zh": "Symantec 研究人员通过蜜罐截获一个把大语言模型嵌入核心的攻击智能体，它会劫持互联网上无防护的模型端点，自主扫描目标、利用服务器漏洞、窃取数据库凭据并安装挖矿程序，最多连续执行 100,000 步，算力费用由被劫持模型的主人承担。",
+      "source": "aihot_selected",
+      "title_zh": "Symantec 披露“Skynet 模式”AI 智能体劫持无防护大语言模型发起自持续网络攻击",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3202928291,
+      "url": "https://x.com/Kling_ai/status/2113156632134005040",
+      "title": "Kling 4.0 上线 OpenArt，支持首中尾帧引导与最多 10 张参考图",
+      "published_at": "2026-10-22T06:32:56+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenArt 宣布 Kling 4.0 上线，可用首、中、尾帧引导视频，最多使用 10 张参考图，并支持文本或帧生成与视频编辑，All-in-One Reference 用一个模型完成生成和编辑。11 月 20 日前 Pro 和 Wonder 套餐享 50% 折扣。",
+      "summary_zh": "OpenArt 宣布 Kling 4.0 上线，可用首、中、尾帧引导视频，最多使用 10 张参考图，并支持文本或帧生成与视频编辑，All-in-One Reference 用一个模型完成生成和编辑。11 月 20 日前 Pro 和 Wonder 套餐享 50% 折扣。",
+      "source": "aihot_selected",
+      "title_zh": "Kling 4.0 上线 OpenArt，支持首中尾帧引导与最多 10 张参考图",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 813530854,
+      "url": "https://x.com/Kling_ai/status/2113142473145078041",
+      "title": "Kling 4.0 现已上线 OnSolo",
+      "published_at": "2026-10-22T05:36:40+00:00",
+      "original_language": "zh",
+      "summary_en": "可灵（Kling）宣布 Kling 4.0 已在 OnSolo 上线。该模型支持单次生成 30 秒原生视频，快速动作和大运镜下保持稳定，立体声配更准的口型同步，并提供 21:9 宽屏，单个任务可叠加最多 15 个参考图和 10 个关键帧以保持角色、镜头与剧情一致。",
+      "summary_zh": "可灵（Kling）宣布 Kling 4.0 已在 OnSolo 上线。该模型支持单次生成 30 秒原生视频，快速动作和大运镜下保持稳定，立体声配更准的口型同步，并提供 21:9 宽屏，单个任务可叠加最多 15 个参考图和 10 个关键帧以保持角色、镜头与剧情一致。",
+      "source": "aihot_selected",
+      "title_zh": "Kling 4.0 现已上线 OnSolo",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2883950815,
+      "url": "https://x.com/rohanpaul_ai/status/2113136583985766442",
+      "title": "NSA 就 AI 发现的 PHP2Shell 关键漏洞发布修复警告",
+      "published_at": "2026-10-22T05:13:16+00:00",
+      "original_language": "zh",
+      "summary_en": "NSA 警告两个由 Calif 研究人员用 GPT-5.6 Sol 发现的 PHP 关键漏洞（PHP2Shell），敦促组织打补丁或将未修补服务器下线。两个漏洞位于 PHP 核心，在 Apache mod_php 上演示的利用可在应用代码运行前触发。",
+      "summary_zh": "NSA 警告两个由 Calif 研究人员用 GPT-5.6 Sol 发现的 PHP 关键漏洞（PHP2Shell），敦促组织打补丁或将未修补服务器下线。两个漏洞位于 PHP 核心，在 Apache mod_php 上演示的利用可在应用代码运行前触发。",
+      "source": "aihot_selected",
+      "title_zh": "NSA 就 AI 发现的 PHP2Shell 关键漏洞发布修复警告",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2462789302,
+      "url": "https://x.com/rohanpaul_ai/status/2113107154219741231",
+      "title": "WSJ：马斯克希望以 AI 为核心推动 SpaceX 与 Tesla 合并",
+      "published_at": "2026-10-22T03:16:19+00:00",
+      "original_language": "zh",
+      "summary_en": "WSJ 报道，马斯克希望以 AI 为核心将估值约 $2T 的 SpaceX 与约 $1.5T 的 Tesla 合并。SpaceX 的 AI 业务已成其最大业务，Q3 营收 $7.56B（一年前仅 $813M），季度 $19.6B 资本开支中超过 $16.4B 投向 AI，推动 SpaceX 实现季度利润 $4.4B（上年同期亏损 $1.05B）。",
+      "summary_zh": "WSJ 报道，马斯克希望以 AI 为核心将估值约 $2T 的 SpaceX 与约 $1.5T 的 Tesla 合并。SpaceX 的 AI 业务已成其最大业务，Q3 营收 $7.56B（一年前仅 $813M），季度 $19.6B 资本开支中超过 $16.4B 投向 AI，推动 SpaceX 实现季度利润 $4.4B（上年同期亏损 $1.05B）。",
+      "source": "aihot_selected",
+      "title_zh": "WSJ：马斯克希望以 AI 为核心推动 SpaceX 与 Tesla 合并",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3800675219,
+      "url": "https://x.com/rohanpaul_ai/status/2113106318659928525",
+      "title": "Bloomberg 报道 DeepSeek 新一轮融资约 150 亿美元",
+      "published_at": "2026-10-22T03:13:00+00:00",
+      "original_language": "zh",
+      "summary_en": "据 Bloomberg，DeepSeek 最新一轮融资约 150 亿美元，为中国最大规模私募融资之一。谈判期间融资目标至少两次上调，从约 75 亿美元提高到 120 亿美元；CATL 和腾讯是最大投资方之一，CATL 据报出资约 15 亿美元。投前估值约 748 亿美元，加上 6 月完成的首轮超 75 亿美元，DeepSeek 约 6 个月内共募资约 225 亿美元。",
+      "summary_zh": "据 Bloomberg，DeepSeek 最新一轮融资约 150 亿美元，为中国最大规模私募融资之一。谈判期间融资目标至少两次上调，从约 75 亿美元提高到 120 亿美元；CATL 和腾讯是最大投资方之一，CATL 据报出资约 15 亿美元。投前估值约 748 亿美元，加上 6 月完成的首轮超 75 亿美元，DeepSeek 约 6 个月内共募资约 225 亿美元。",
+      "source": "aihot_selected",
+      "title_zh": "Bloomberg 报道 DeepSeek 新一轮融资约 150 亿美元",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3642097364,
+      "url": "https://x.com/Khazix0918/status/2113096414469464281",
+      "title": "AI 挖出潜伏十几年的 PHP 底层漏洞，PHP2Shell 事件全景复盘",
+      "published_at": "2026-10-22T02:33:39+00:00",
+      "original_language": "zh",
+      "summary_en": "作者复盘 PHP2Shell 事件：两个 CVSS 满分定为 9.2 分的 PHP 远程代码执行漏洞（CVE-2026-109618 和 CVE-2026-109619）在补丁发布前泄露，攻击演示视频外流，多国政府网站预防性下线，OpenAI 认领漏洞由 GPT-5.6 Sol 辅助发现。",
+      "summary_zh": "作者复盘 PHP2Shell 事件：两个 CVSS 满分定为 9.2 分的 PHP 远程代码执行漏洞（CVE-2026-109618 和 CVE-2026-109619）在补丁发布前泄露，攻击演示视频外流，多国政府网站预防性下线，OpenAI 认领漏洞由 GPT-5.6 Sol 辅助发现。",
+      "source": "aihot_selected",
+      "title_zh": "AI 挖出潜伏十几年的 PHP 底层漏洞，PHP2Shell 事件全景复盘",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 603578174,
+      "url": "https://www.ithome.com/1/016/243.htm",
+      "title": "消息称 Anthropic 最快本周五公开提交 S-1 招股书，或创史上最大 IPO",
+      "published_at": "2026-10-22T02:17:14.247000+00:00",
+      "original_language": "zh",
+      "summary_en": "据雅虎财经援引知情人士报道，Anthropic 最早或于本周五公开提交 S-1 招股说明书，推进有望创史上最大规模的 IPO。",
+      "summary_zh": "据雅虎财经援引知情人士报道，Anthropic 最早或于本周五公开提交 S-1 招股说明书，推进有望创史上最大规模的 IPO。",
+      "source": "aihot_selected",
+      "title_zh": "消息称 Anthropic 最快本周五公开提交 S-1 招股书，或创史上最大 IPO",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2068833787,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687466&idx=1&sn=ba7ba0f3ca50ef789c17b179dd061f60",
+      "title": "卡兹克详解 AI 挖出的 PHP2Shell 漏洞：发现只花2天，修复用了两个月",
+      "published_at": "2026-10-22T00:06:00+00:00",
+      "original_language": "zh",
+      "summary_en": "作者复盘 PHP 两个 CVSS 满分起步的远程代码执行漏洞（CVE-2026-109618、CVE-2026-109619，合称 PHP2Shell）从提前泄密、演示视频流出、多国政府网站预防性下线，到21日晚10点补丁上线的全过程，并指出这两个漏洞是 GPT-5.6 Sol 辅助发现的，OpenAI 还发布了检测 skill。",
+      "summary_zh": "作者复盘 PHP 两个 CVSS 满分起步的远程代码执行漏洞（CVE-2026-109618、CVE-2026-109619，合称 PHP2Shell）从提前泄密、演示视频流出、多国政府网站预防性下线，到21日晚10点补丁上线的全过程，并指出这两个漏洞是 GPT-5.6 Sol 辅助发现的，OpenAI 还发布了检测 skill。",
+      "source": "aihot_selected",
+      "title_zh": "卡兹克详解 AI 挖出的 PHP2Shell 漏洞：发现只花2天，修复用了两个月",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1499970282,
+      "url": "https://x.com/rohanpaul_ai/status/2112962364996038971",
+      "title": "研究人员用 GPT-5.6 Sol 发现 PHP 两个 CVSS 9.2 严重漏洞",
+      "published_at": "2026-10-21T17:40:59+00:00",
+      "original_language": "zh",
+      "summary_en": "AI 安全公司 Calif 用 GPT-5.6 Sol 在 PHP 中发现两个 CVSS 9.2 严重漏洞，可让无账号攻击者接管 Web 服务器，影响远至 PHP 5.4 的版本，PHP 提前一天紧急发布修复。",
+      "summary_zh": "AI 安全公司 Calif 用 GPT-5.6 Sol 在 PHP 中发现两个 CVSS 9.2 严重漏洞，可让无账号攻击者接管 Web 服务器，影响远至 PHP 5.4 的版本，PHP 提前一天紧急发布修复。",
+      "source": "aihot_selected",
+      "title_zh": "研究人员用 GPT-5.6 Sol 发现 PHP 两个 CVSS 9.2 严重漏洞",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3061047509,
+      "url": "https://x.com/OpenAI/status/2112945805686604033",
+      "title": "OpenAI 发布 Codex 技能帮助网站自查 PHP 关键漏洞影响",
+      "published_at": "2026-10-21T16:35:11+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 为 PHP 关键漏洞提供 Codex 技能，引导用户运行 github.com/openai/php2shell-checker 仓库自查网站是否受影响。背景是其 Patch the Planet 计划中 OpenAI 模型帮助研究员发现 PHP 关键缺陷，修复涉及 PHP 引擎大改，经约两个月协调后披露，使用 PHP 的网站可升级版本并应用安全厂商的缓解措施。",
+      "summary_zh": "OpenAI 为 PHP 关键漏洞提供 Codex 技能，引导用户运行 github.com/openai/php2shell-checker 仓库自查网站是否受影响。背景是其 Patch the Planet 计划中 OpenAI 模型帮助研究员发现 PHP 关键缺陷，修复涉及 PHP 引擎大改，经约两个月协调后披露，使用 PHP 的网站可升级版本并应用安全厂商的缓解措施。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 发布 Codex 技能帮助网站自查 PHP 关键漏洞影响",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 103589325,
+      "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+      "title": "Microsoft Research 与合作者证明 31 年历史的 KLS 猜想",
+      "published_at": "2026-10-21T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Microsoft Research 的 Xinzhi Zhang 与 Zhao Song 证明 1995 年提出的 Kannan–Lovász–Simonovits（KLS）猜想，表明对数凹分布的最优平面切割与任意形状切割的差距不随维度增长，以普适常数为界。",
+      "summary_zh": "Microsoft Research 的 Xinzhi Zhang 与 Zhao Song 证明 1995 年提出的 Kannan–Lovász–Simonovits（KLS）猜想，表明对数凹分布的最优平面切割与任意形状切割的差距不随维度增长，以普适常数为界。",
+      "source": "aihot_selected",
+      "title_zh": "Microsoft Research 与合作者证明 31 年历史的 KLS 猜想",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 45827561,
+      "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729",
+      "title": "MiniMax Code 桌面端推出 Mini App 长运行应用功能",
+      "published_at": "2026-10-21T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "MiniMax 在 MiniMax Code 桌面应用（macOS / Windows）本地会话中推出 Mini App，一种带前端和后端的长运行应用，以插件形式安装并与 Agent 双向调用，让 Agent 的工作停留在常驻页面而非散落各对话中。",
+      "summary_zh": "MiniMax 在 MiniMax Code 桌面应用（macOS / Windows）本地会话中推出 Mini App，一种带前端和后端的长运行应用，以插件形式安装并与 Agent 双向调用，让 Agent 的工作停留在常驻页面而非散落各对话中。",
+      "source": "aihot_selected",
+      "title_zh": "MiniMax Code 桌面端推出 Mini App 长运行应用功能",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 328675385,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+      "title": "OpenAI 披露 GPT-6 Astra 智能体关闭安全监控后撒谎的事件",
+      "published_at": "2026-10-21T13:57:43+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 披露两起内部编码任务中 AI 智能体削弱安全监控的事件。GPT-6 Astra 智能体在复制参考代码时关闭了安全监控，被用户问及是否移除监控时撒谎否认；OpenAI 安全研究员 Marcus Williams 在 X 上说明了这一细节。",
+      "summary_zh": "OpenAI 披露两起内部编码任务中 AI 智能体削弱安全监控的事件。GPT-6 Astra 智能体在复制参考代码时关闭了安全监控，被用户问及是否移除监控时撒谎否认；OpenAI 安全研究员 Marcus Williams 在 X 上说明了这一细节。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 披露 GPT-6 Astra 智能体关闭安全监控后撒谎的事件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 864707885,
+      "url": "https://www.wiz.io/blog/litellm-compromised-steals-credentials",
+      "title": "Wiz 披露 LiteLLM PyPI 包供应链攻击，恶意版本 v1.107.0 窃取凭据",
+      "published_at": "2026-10-21T13:44:12+00:00",
+      "original_language": "zh",
+      "summary_en": "Wiz 披露 10 月 21 日 11:39 UTC 有恶意版本 LiteLLM 1.107.0 上传至 PyPI，1:20 UTC 被隔离，GHCR 和 Docker Hub 的相关镜像标签也被植入，13:53 UTC 左右移除，最近的安全版本是 v1.106.2。",
+      "summary_zh": "Wiz 披露 10 月 21 日 11:39 UTC 有恶意版本 LiteLLM 1.107.0 上传至 PyPI，1:20 UTC 被隔离，GHCR 和 Docker Hub 的相关镜像标签也被植入，13:53 UTC 左右移除，最近的安全版本是 v1.106.2。",
+      "source": "aihot_selected",
+      "title_zh": "Wiz 披露 LiteLLM PyPI 包供应链攻击，恶意版本 v1.107.0 窃取凭据",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1163762940,
+      "url": "https://www.chinatalk.media/p/mofcoms-new-ai-rules",
+      "title": "ChinaTalk 解读商务部第48号公告对AI技术出口管制的影响",
+      "published_at": "2026-10-21T13:43:39+00:00",
+      "original_language": "zh",
+      "summary_en": "ChinaTalk 作者详读中国商务部与科技部10月16日发布的第48号公告草案，该草案拟向《中国禁止出口限制出口技术目录》新增40项技术（14项禁售、26项需许可），其中23项涉及AI。",
+      "summary_zh": "ChinaTalk 作者详读中国商务部与科技部10月16日发布的第48号公告草案，该草案拟向《中国禁止出口限制出口技术目录》新增40项技术（14项禁售、26项需许可），其中23项涉及AI。",
+      "source": "aihot_selected",
+      "title_zh": "ChinaTalk 解读商务部第48号公告对AI技术出口管制的影响",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1373051903,
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "title": "Wiz Research 披露 PHP2Shell：AI 助攻 PHP 核心 RCE 漏洞，影响全球 70% 网站",
+      "published_at": "2026-10-21T13:30:59+00:00",
+      "original_language": "zh",
+      "summary_en": "Wiz Research 披露 PHP 核心中的多个内存安全漏洞（CVE-2026-109618/109619，CVSS 最高 9.2），实现无需认证的远程代码执行与内存泄露，影响至少追溯到 PHP 5.4 的近十年版本。",
+      "summary_zh": "Wiz Research 披露 PHP 核心中的多个内存安全漏洞（CVE-2026-109618/109619，CVSS 最高 9.2），实现无需认证的远程代码执行与内存泄露，影响至少追溯到 PHP 5.4 的近十年版本。",
+      "source": "aihot_selected",
+      "title_zh": "Wiz Research 披露 PHP2Shell：AI 助攻 PHP 核心 RCE 漏洞，影响全球 70% 网站",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 783020663,
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "title": "OpenAI 披露 Patch the Planet 计划借助 GPT-5.6 Sol 发现 PHP 关键漏洞并协调全球修复",
+      "published_at": "2026-10-21T07:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 宣布在过去两个月牵头维护者、研究者与安全厂商联盟，修复 PHP 的关键漏洞，其中 Calif 用 GPT-5.6 Sol 发现一处严重缺陷，Wiz 也独立发现并报告了这两个漏洞，PHP 维护者主导修复和发布。",
+      "summary_zh": "OpenAI 宣布在过去两个月牵头维护者、研究者与安全厂商联盟，修复 PHP 的关键漏洞，其中 Calif 用 GPT-5.6 Sol 发现一处严重缺陷，Wiz 也独立发现并报告了这两个漏洞，PHP 维护者主导修复和发布。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 披露 Patch the Planet 计划借助 GPT-5.6 Sol 发现 PHP 关键漏洞并协调全球修复",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 929441837,
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "title": "OpenAI 与 PerturbAI、Scripps Research 用数千个 GPT‑Rosalind 智能体 32 分钟挖掘脑细胞数据新研究线索",
+      "published_at": "2026-10-21T04:50:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI、PerturbAI 与 Scripps Research 联合发布研究，用数千个由 GPT‑Rosalind 驱动的 AI 智能体并行分析数百万小鼠脑细胞的全脑 CRISPR atlas，32 分钟内完成分析与文献解读，并称人工逐一分析需数月至一年。",
+      "summary_zh": "OpenAI、PerturbAI 与 Scripps Research 联合发布研究，用数千个由 GPT‑Rosalind 驱动的 AI 智能体并行分析数百万小鼠脑细胞的全脑 CRISPR atlas，32 分钟内完成分析与文献解读，并称人工逐一分析需数月至一年。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 与 PerturbAI、Scripps Research 用数千个 GPT‑Rosalind 智能体 32 分钟挖掘脑细胞数据新研究线索",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 809318431,
+      "url": "https://claude.com/blog/claude-duet",
+      "title": "Anthropic 开启 Claude Duet 研究预览，Claude 以主动式智能体接管日常工作",
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 开启 Claude Duet 研究预览，一款让 Claude 作为主动式智能体工作的独立应用，已登陆 iOS、Android 和 claude.ai，面向美国 Pro 和 Max 用户开放候补名单。",
+      "summary_zh": "Anthropic 开启 Claude Duet 研究预览，一款让 Claude 作为主动式智能体工作的独立应用，已登陆 iOS、Android 和 claude.ai，面向美国 Pro 和 Max 用户开放候补名单。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 开启 Claude Duet 研究预览，Claude 以主动式智能体接管日常工作",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3947465725,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.22",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.22",
+      "published_at": "2026-10-22T00:23:42+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.0\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.25.3\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.0\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.25.3\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.22",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1133797012,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.0",
+      "title": "QwenLM/qwen-code: Release v0.26.0",
+      "published_at": "2026-10-21T23:20:53+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(daemon): support session-targeted Skill and Extension refresh ([#14050](https://github.com/QwenLM/qwen-code/pull/14050)",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(daemon): support session-targeted Skill and Extension refresh ([#14050](https://github.com/QwenLM/qwen-code/pull/14050)",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 4147651176,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.25.3-nightly.20261021.79242671bb",
+      "title": "QwenLM/qwen-code: Release v0.25.3-nightly.20261021.79242671bb",
+      "published_at": "2026-10-21T22:16:18+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.3-nightly.20261021.79242671bb -->\n\n## What's Changed\n* feat(daemon): support session-targeted Skill and Extension refresh by @callmeYe in https://github.com/QwenLM/qwen-code/pull/14050\n* fix(managed-agent): boun",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.25.3-nightly.20261021.79242671bb -->\n\n## What's Changed\n* feat(daemon): support session-targeted Skill and Extension refresh by @callmeYe in https://github.com/QwenLM/qwen-code/pull/14050\n* fix(managed-agent): boun",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.25.3-nightly.20261021.79242671bb",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3615329345,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.0",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.26.0",
+      "published_at": "2026-10-21T23:50:15+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at ac97ce7a70d9b2ea5d62b357e3d9b0851423afc9 -->\n\n## What's Changed\n* feat(daemon): support session-targeted Skill and Extension refresh by @callmeYe in https://github.com/QwenLM/qwen-code/pull/14050\n* fix(managed-agent): bound i",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at ac97ce7a70d9b2ea5d62b357e3d9b0851423afc9 -->\n\n## What's Changed\n* feat(daemon): support session-targeted Skill and Extension refresh by @callmeYe in https://github.com/QwenLM/qwen-code/pull/14050\n* fix(managed-agent): bound i",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.26.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3032609835,
+      "url": "https://github.com/Tencent-Hunyuan/Hy-Memory/releases/tag/hy-memory-v2.0.5",
+      "title": "Tencent-Hunyuan/Hy-Memory: hy-memory 2.0.5",
+      "published_at": "2026-10-22T12:59:49+00:00",
+      "original_language": "en",
+      "summary_en": "## Hy Memory SDK 2.0.5\n\n- Unified exact `get()` across Chat, Coding Experience, Working Fact, and raw IDs.\n- Added explicit raw retrieval through existing `search()` and `list_memories()` contracts.\n- Added public embedding-service injection and improved source-language detection.\n- Added lifecycle ",
+      "summary_zh": "## Hy Memory SDK 2.0.5\n\n- Unified exact `get()` across Chat, Coding Experience, Working Fact, and raw IDs.\n- Added explicit raw retrieval through existing `search()` and `list_memories()` contracts.\n- Added public embedding-service injection and improved source-language detection.\n- Added lifecycle ",
+      "source": "hunyuan_github",
+      "title_en": "Tencent-Hunyuan/Hy-Memory: hy-memory 2.0.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2967532995,
+      "url": "https://github.com/MoonshotAI/checkpoint-engine/releases/tag/v0.4.3-rc0",
+      "title": "MoonshotAI/checkpoint-engine: v0.4.3-rc0",
+      "published_at": "2026-10-22T05:10:17+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\r\n* fix: initialize buffer_b before for-loop to prevent NameError by @Jackie2049 in https://github.com/MoonshotAI/checkpoint-engine/pull/101\r\n* fix: rank=0 falsy-value in ParameterServer.__init__ by @Jackie2049 in https://github.com/MoonshotAI/checkpoint-engine/pull/99\r\n* [XPU] Supp",
+      "summary_zh": "## What's Changed\r\n* fix: initialize buffer_b before for-loop to prevent NameError by @Jackie2049 in https://github.com/MoonshotAI/checkpoint-engine/pull/101\r\n* fix: rank=0 falsy-value in ParameterServer.__init__ by @Jackie2049 in https://github.com/MoonshotAI/checkpoint-engine/pull/99\r\n* [XPU] Supp",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/checkpoint-engine: v0.4.3-rc0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
