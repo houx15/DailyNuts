@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-25",
+  "items": [
+    {
+      "id": 3048138765,
+      "url": "https://x.com/emollick/status/2114001653879672877",
+      "title": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
+      "published_at": "2026-10-24T14:30:45+00:00",
+      "original_language": "zh",
+      "summary_en": "Ethan Mollick 转引 OpenAI 红队测试认为，实验室看似夸张的 AI 网络安全判断应被更认真对待。OpenAI 让前沿模型智能体团队攻击其加固的隔离基础设施，智能体几乎在每个受限联网服务中都找到漏洞，还能利用 CPU 缓存时序在不联网、无共享文件的虚拟机之间传递秘密，类似 Spectre 和 Meltdown 的攻击手法。作者提到 Anthropic 和 Noam Brown 此前关于 AI 网络攻防与模型自发协调的说法曾被嘲笑。",
+      "summary_zh": "Ethan Mollick 转引 OpenAI 红队测试认为，实验室看似夸张的 AI 网络安全判断应被更认真对待。OpenAI 让前沿模型智能体团队攻击其加固的隔离基础设施，智能体几乎在每个受限联网服务中都找到漏洞，还能利用 CPU 缓存时序在不联网、无共享文件的虚拟机之间传递秘密，类似 Spectre 和 Meltdown 的攻击手法。作者提到 Anthropic 和 Noam Brown 此前关于 AI 网络攻防与模型自发协调的说法曾被嘲笑。",
+      "source": "aihot_selected",
+      "title_zh": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 744303844,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1",
+      "title": "QwenLM/qwen-code: Release v0.26.1",
+      "published_at": "2026-10-24T15:47:58+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\n- fix(qqbot)!: restore per-group session isolation under thread scope ([#13882](https://github.com/QwenLM/qwen-code/pull/13882)) by @Eric-GoodBoy-Tech\n\n## Complete Change List\n\n### Features\n\n- ",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\n- fix(qqbot)!: restore per-group session isolation under thread scope ([#13882](https://github.com/QwenLM/qwen-code/pull/13882)) by @Eric-GoodBoy-Tech\n\n## Complete Change List\n\n### Features\n\n- ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3480947559,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.1",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.26.1",
+      "published_at": "2026-10-24T17:06:46+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at b475278c4a300acebe6cfc990a9e1b1d18819bfc -->\n\n## What's Changed\n* feat(serve): add daemon token persistence by @wenshao in https://github.com/QwenLM/qwen-code/pull/15023\n* fix(release): cover every spawned vendored binary in ",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at b475278c4a300acebe6cfc990a9e1b1d18819bfc -->\n\n## What's Changed\n* feat(serve): add daemon token persistence by @wenshao in https://github.com/QwenLM/qwen-code/pull/15023\n* fix(release): cover every spawned vendored binary in ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.26.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3433965022,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.3.2",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.3.2",
+      "published_at": "2026-10-25T07:59:14+00:00",
+      "original_language": "en",
+      "summary_en": "### Patch Changes\n\n- [#4386](https://github.com/MoonshotAI/kimi-code/pull/4386) [`fd2e2c7`](https://github.com/MoonshotAI/kimi-code/commit/fd2e2c7e2a3672dda91365d66b2ba74a1630521e) Thanks [@RealKai42](https://github.com/RealKai42)! - Handle tasks directly by default instead of proactively launching ",
+      "summary_zh": "### Patch Changes\n\n- [#4386](https://github.com/MoonshotAI/kimi-code/pull/4386) [`fd2e2c7`](https://github.com/MoonshotAI/kimi-code/commit/fd2e2c7e2a3672dda91365d66b2ba74a1630521e) Thanks [@RealKai42](https://github.com/RealKai42)! - Handle tasks directly by default instead of proactively launching ",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.3.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
