@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-26",
+  "items": [
+    {
+      "id": 3651968036,
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "published_at": "2026-10-26T00:00:00",
+      "original_language": "en",
+      "summary_en": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "summary_zh": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "source": "anthropic_news",
+      "title_en": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2303428047,
+      "url": "https://x.com/ClementDelangue/status/2114713576296300604",
+      "title": "Hugging Face CEO 转评前 DOGE 研究人员用 AI 智能体渗透 Anthropic 系统事件",
+      "published_at": "2026-10-26T13:39:40+00:00",
+      "original_language": "zh",
+      "summary_en": "Hugging Face CEO Clément Delangue 转引《华盛顿邮报》独家报道并评论称，认为把 AI 集中在封闭大门后就是安全的想法需要更新认知。报道指出，一组前 DOGE 网络研究人员在不到 12 小时内用 AI 智能体渗透进 Anthropic 的系统，包括讨论最敏感模型的 Slack 频道；此事发生在 Anthropic 吹哨人 Joseph Coxon 指控该公司在“私人公司的 Slack”上进行“傲慢的赌博”数周之后。",
+      "summary_zh": "Hugging Face CEO Clément Delangue 转引《华盛顿邮报》独家报道并评论称，认为把 AI 集中在封闭大门后就是安全的想法需要更新认知。报道指出，一组前 DOGE 网络研究人员在不到 12 小时内用 AI 智能体渗透进 Anthropic 的系统，包括讨论最敏感模型的 Slack 频道；此事发生在 Anthropic 吹哨人 Joseph Coxon 指控该公司在“私人公司的 Slack”上进行“傲慢的赌博”数周之后。",
+      "source": "aihot_selected",
+      "title_zh": "Hugging Face CEO 转评前 DOGE 研究人员用 AI 智能体渗透 Anthropic 系统事件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1889632215,
+      "url": "https://x.com/testingcatalog/status/2114696424021451174",
+      "title": "Anthropic 计划今日 9AM EST 提交 S-1 IPO 申请文件",
+      "published_at": "2026-10-26T12:31:31+00:00",
+      "original_language": "zh",
+      "summary_en": "据 Bloomberg 报道，Anthropic 计划周一上午 9 点（美东时间）公开提交 S-1 IPO 申请，此次上市规模可能创纪录。公司预计最快在 11 月 9 日当周开始正式路演，并期望 IPO 规模达到或超过 SpaceX。作者还猜测 Anthropic 可能会伴随一次大模型发布。",
+      "summary_zh": "据 Bloomberg 报道，Anthropic 计划周一上午 9 点（美东时间）公开提交 S-1 IPO 申请，此次上市规模可能创纪录。公司预计最快在 11 月 9 日当周开始正式路演，并期望 IPO 规模达到或超过 SpaceX。作者还猜测 Anthropic 可能会伴随一次大模型发布。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 计划今日 9AM EST 提交 S-1 IPO 申请文件",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1632489094,
+      "url": "https://www.ithome.com/1/018/144.htm",
+      "title": "Meta 宣布至多 950 亿美元融资计划，为 AI 等业务筹集资金",
+      "published_at": "2026-10-26T12:26:21.940000+00:00",
+      "original_language": "zh",
+      "summary_en": "Meta 宣布总额至多 950 亿美元的融资计划，为企业核心业务和新兴 AI 领域提供资金，包括 225 亿美元 A 类普通股远期出售、125 亿美元强制可转换优先股，以及后续至多 600 亿美元的潜在 C 类普通股按市价发行。",
+      "summary_zh": "Meta 宣布总额至多 950 亿美元的融资计划，为企业核心业务和新兴 AI 领域提供资金，包括 225 亿美元 A 类普通股远期出售、125 亿美元强制可转换优先股，以及后续至多 600 亿美元的潜在 C 类普通股按市价发行。",
+      "source": "aihot_selected",
+      "title_zh": "Meta 宣布至多 950 亿美元融资计划，为 AI 等业务筹集资金",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 597809181,
+      "url": "https://x.com/Khazix0918/status/2114579883527655853",
+      "title": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+      "published_at": "2026-10-26T04:48:25+00:00",
+      "original_language": "zh",
+      "summary_en": "数字生命卡兹克分享用 AI 逆向改造现实设备的实操教程，以公司 4 台会议室电视为例，通过 Codex 开启 ADB 调试连接电视，清理开机广告、重做简洁桌面和粒子动态屏保，并复刻到其余 3 台。",
+      "summary_zh": "数字生命卡兹克分享用 AI 逆向改造现实设备的实操教程，以公司 4 台会议室电视为例，通过 Codex 开启 ADB 调试连接电视，清理开机广告、重做简洁桌面和粒子动态屏保，并复刻到其余 3 台。",
+      "source": "aihot_selected",
+      "title_zh": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 226418199,
+      "url": "https://x.com/Kling_ai/status/2114574035468386746",
+      "title": "Kling 4.0 上线 Runware API，支持 30 秒 1080p 原生音频视频",
+      "published_at": "2026-10-26T04:25:11+00:00",
+      "original_language": "zh",
+      "summary_en": "Runware 宣布 Kling 4.0 发布首日上线其 API，可生成最长 30 秒的 1080p 视频，并支持原生音频。功能包括多关键帧（首、中、尾帧）、单请求最多 15 个输入（关键帧、参考图、参考视频与元素）以及基于提示词的已有片段编辑。价格自 $0.133 每秒起，未来 7 天常规定价享 15% 折扣；已有用户可将模型 ID 切换为 klingai:kling-video@4.0。Runware API 已有 19 个 Kling 模型，覆盖视频、图像、虚拟人和对口型。Kling AI 官方转发并提醒查看评论区中的创作者指南。",
+      "summary_zh": "Runware 宣布 Kling 4.0 发布首日上线其 API，可生成最长 30 秒的 1080p 视频，并支持原生音频。功能包括多关键帧（首、中、尾帧）、单请求最多 15 个输入（关键帧、参考图、参考视频与元素）以及基于提示词的已有片段编辑。价格自 $0.133 每秒起，未来 7 天常规定价享 15% 折扣；已有用户可将模型 ID 切换为 klingai:kling-video@4.0。Runware API 已有 19 个 Kling 模型，覆盖视频、图像、虚拟人和对口型。Kling AI 官方转发并提醒查看评论区中的创作者指南。",
+      "source": "aihot_selected",
+      "title_zh": "Kling 4.0 上线 Runware API，支持 30 秒 1080p 原生音频视频",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3788229691,
+      "url": "https://browser-use.com/posts/coding-agent-logged-in-chrome",
+      "title": "让编程智能体使用已登录 Chrome 的六种方案实操指南",
+      "published_at": "2026-10-25T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Browser Use 作者整理了让 Claude Code、Codex、Gemini CLI、Cursor 等编程智能体使用已登录 Chrome 的方法：Claude 订阅用户可用 claude --chrome 的 Claude in Chrome 扩展。",
+      "summary_zh": "Browser Use 作者整理了让 Claude Code、Codex、Gemini CLI、Cursor 等编程智能体使用已登录 Chrome 的方法：Claude 订阅用户可用 claude --chrome 的 Claude in Chrome 扩展。",
+      "source": "aihot_selected",
+      "title_zh": "让编程智能体使用已登录 Chrome 的六种方案实操指南",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 467340627,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.23",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.23",
+      "published_at": "2026-10-26T04:43:39+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.1\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.0\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.1\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.0\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.23",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1895091689,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.1-nightly.20261025.8e28d5380c",
+      "title": "QwenLM/qwen-code: Release v0.26.1-nightly.20261025.8e28d5380c",
+      "published_at": "2026-10-25T23:20:17+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.1-nightly.20261025.8e28d5380c -->\n\n## What's Changed\n* feat(managed): add session permission rules and Auto approval by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/15448\n* fix(cli): harden serve token",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.1-nightly.20261025.8e28d5380c -->\n\n## What's Changed\n* feat(managed): add session permission rules and Auto approval by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/15448\n* fix(cli): harden serve token",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.1-nightly.20261025.8e28d5380c",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2361360358,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.3.3",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.3.3",
+      "published_at": "2026-10-26T13:22:15+00:00",
+      "original_language": "en",
+      "summary_en": "### Patch Changes\n\n- [#4414](https://github.com/MoonshotAI/kimi-code/pull/4414) [`f36c127`](https://github.com/MoonshotAI/kimi-code/commit/f36c127ae10feb9cfd4cd2a44ddd9ddf585f9775) Thanks [@RealKai42](https://github.com/RealKai42)! - Stop showing a failed swarm for `AgentSwarm` calls rejected before",
+      "summary_zh": "### Patch Changes\n\n- [#4414](https://github.com/MoonshotAI/kimi-code/pull/4414) [`f36c127`](https://github.com/MoonshotAI/kimi-code/commit/f36c127ae10feb9cfd4cd2a44ddd9ddf585f9775) Thanks [@RealKai42](https://github.com/RealKai42)! - Stop showing a failed swarm for `AgentSwarm` calls rejected before",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.3.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
