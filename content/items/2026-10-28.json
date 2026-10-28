@@ -1,0 +1,689 @@
+{
+  "date": "2026-10-28",
+  "items": [
+    {
+      "id": 3416895827,
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "published_at": "2026-10-27T17:35:00",
+      "original_language": "en",
+      "summary_en": "Education Innovation",
+      "summary_zh": "Education Innovation",
+      "source": "google_research",
+      "title_en": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2742264704,
+      "url": "http://arxiv.org/abs/2610.37666v1",
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+      "published_at": "2026-10-27T17:59:52+00:00",
+      "original_language": "en",
+      "summary_en": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning fro",
+      "summary_zh": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning fro",
+      "source": "arxiv_cs_cl",
+      "title_en": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2823528448,
+      "url": "http://arxiv.org/abs/2610.37658v1",
+      "title": "When Should We Intervene at Test Time?",
+      "published_at": "2026-10-27T17:58:53+00:00",
+      "original_language": "en",
+      "summary_en": "Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve corrupted images yet fail when a batch contains mostly one class. Average accuracy hides these failu",
+      "summary_zh": "Test-time adaptation helps a deployed model respond to changing inputs, but the same intervention can rescue one batch and damage the next. Updating normalization statistics, for example, can improve corrupted images yet fail when a batch contains mostly one class. Average accuracy hides these failu",
+      "source": "arxiv_cs_cl",
+      "title_en": "When Should We Intervene at Test Time?",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1594783197,
+      "url": "http://arxiv.org/abs/2610.37657v1",
+      "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+      "published_at": "2026-10-27T17:58:52+00:00",
+      "original_language": "en",
+      "summary_en": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted conten",
+      "summary_zh": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted conten",
+      "source": "arxiv_cs_cl",
+      "title_en": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4037627406,
+      "url": "http://arxiv.org/abs/2610.37656v1",
+      "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
+      "published_at": "2026-10-27T17:58:48+00:00",
+      "original_language": "en",
+      "summary_en": "Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a composed relation means closing the loop. We show that if each entity's coordinate",
+      "summary_zh": "Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a composed relation means closing the loop. We show that if each entity's coordinate",
+      "source": "arxiv_cs_cl",
+      "title_en": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 510797680,
+      "url": "http://arxiv.org/abs/2610.37651v1",
+      "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
+      "published_at": "2026-10-27T17:58:11+00:00",
+      "original_language": "en",
+      "summary_en": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitatio",
+      "summary_zh": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitatio",
+      "source": "arxiv_cs_cl",
+      "title_en": "GEPA-Curator: Curated Learning for Self Improving Agents",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2338920728,
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "title": "Early progress on accelerating drug development with Claude",
+      "published_at": "2026-10-27T00:00:00",
+      "original_language": "en",
+      "summary_en": "We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.",
+      "summary_zh": "We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.",
+      "source": "anthropic_research",
+      "title_en": "Early progress on accelerating drug development with Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 612063837,
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "title": "How AI agents shape experts’ judgment calls",
+      "published_at": "2026-10-27T00:00:00",
+      "original_language": "en",
+      "summary_en": "As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts who did a statistical analysis with Claude Code. On each key decision, we randomly assigned which of ",
+      "summary_zh": "As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts who did a statistical analysis with Claude Code. On each key decision, we randomly assigned which of ",
+      "source": "anthropic_research",
+      "title_en": "How AI agents shape experts’ judgment calls",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2524495792,
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "published_at": "2026-10-27T00:00:00",
+      "original_language": "en",
+      "summary_en": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.",
+      "summary_zh": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.",
+      "source": "anthropic_news",
+      "title_en": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3497820367,
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499654&idx=1&sn=9bcbf9492c492a5d5e611af41670425f",
+      "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
+      "published_at": "2026-10-28T11:38:17+00:00",
+      "original_language": "zh",
+      "summary_en": "面壁智能发布并开源 MiniCPM-OCR 系列。MiniCPM-OCR 1.0（1.3B）在 Real5-OmniDocBench 取得 93.68 分、OCRBench v2 取得 54.7 分的 SOTA，经 DSpark 加速后吞吐达 1.217 页/秒，端到端效率提升 55%。",
+      "summary_zh": "面壁智能发布并开源 MiniCPM-OCR 系列。MiniCPM-OCR 1.0（1.3B）在 Real5-OmniDocBench 取得 93.68 分、OCRBench v2 取得 54.7 分的 SOTA，经 DSpark 加速后吞吐达 1.217 页/秒，端到端效率提升 55%。",
+      "source": "aihot_selected",
+      "title_zh": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1051536644,
+      "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
+      "title": "Cathedral 用 AI 智能体侵入 Anthropic 内部系统，双方对事件范围说法不一",
+      "published_at": "2026-10-28T10:56:24+00:00",
+      "original_language": "zh",
+      "summary_en": "网络安全初创公司 Cathedral 通过第三方业务软件渗入 Anthropic 内部系统，称其 AI 智能体在不到十二小时内接触到会议记录、薪资数据和 Slack 消息，并借漏洞赏金计划披露问题。",
+      "summary_zh": "网络安全初创公司 Cathedral 通过第三方业务软件渗入 Anthropic 内部系统，称其 AI 智能体在不到十二小时内接触到会议记录、薪资数据和 Slack 消息，并借漏洞赏金计划披露问题。",
+      "source": "aihot_selected",
+      "title_zh": "Cathedral 用 AI 智能体侵入 Anthropic 内部系统，双方对事件范围说法不一",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2543756117,
+      "url": "https://x.com/SaitoWu/status/2115376256929948006",
+      "title": "Anthropic S-1 显示 90% 增量毛利，SemiAnalysis 播客详解其中数字",
+      "published_at": "2026-10-28T09:32:56+00:00",
+      "original_language": "zh",
+      "summary_en": "Saito 转述 SemiAnalysis 播客对 Anthropic S-1 的解读：招股书口径为增量毛利 90%、推理毛利 85%、连续两个季度盈利，Q1 净收入留存达 500%，收入同比涨 1368% 而算力费用只涨 300%。",
+      "summary_zh": "Saito 转述 SemiAnalysis 播客对 Anthropic S-1 的解读：招股书口径为增量毛利 90%、推理毛利 85%、连续两个季度盈利，Q1 净收入留存达 500%，收入同比涨 1368% 而算力费用只涨 300%。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic S-1 显示 90% 增量毛利，SemiAnalysis 播客详解其中数字",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2853929310,
+      "url": "https://x.com/addyosmani/status/2115326629488824753",
+      "title": "Addy Osmani 讲解如何上手 Claude Code Mods",
+      "published_at": "2026-10-28T06:15:43+00:00",
+      "original_language": "zh",
+      "summary_en": "Addy Osmani 发布 Claude Code Mods 上手指南，说明 mods 是运行在会话中的 JavaScript/TypeScript 文件，可通过 hooks 观察事件、改写行为或渲染自定义界面。",
+      "summary_zh": "Addy Osmani 发布 Claude Code Mods 上手指南，说明 mods 是运行在会话中的 JavaScript/TypeScript 文件，可通过 hooks 观察事件、改写行为或渲染自定义界面。",
+      "source": "aihot_selected",
+      "title_zh": "Addy Osmani 讲解如何上手 Claude Code Mods",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3244845405,
+      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "title": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
+      "published_at": "2026-10-28T01:15:28+00:00",
+      "original_language": "zh",
+      "summary_en": "TechCrunch 根据 Anthropic 的 S-1 分析，VC 持股均不足 5%，而 Amazon 可能是 IPO 最大财务受益方。Amazon 持有 62 亿美元本金可转债、其自估持仓价值 979 亿美元，另投 100 亿美元无投票权优先股，累计投资约 180 亿美元；Anthropic 还承诺未来 10 年在 AWS 至少消费 1100 亿美元。",
+      "summary_zh": "TechCrunch 根据 Anthropic 的 S-1 分析，VC 持股均不足 5%，而 Amazon 可能是 IPO 最大财务受益方。Amazon 持有 62 亿美元本金可转债、其自估持仓价值 979 亿美元，另投 100 亿美元无投票权优先股，累计投资约 180 亿美元；Anthropic 还承诺未来 10 年在 AWS 至少消费 1100 亿美元。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1076380055,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687902&idx=1&sn=9a57b3d769582b12d8645af23431743d",
+      "title": "Google 发布世界模型 Genie 4，支持实时操控与原生音频",
+      "published_at": "2026-10-28T00:22:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Google 发布下一代世界模型 Genie 4，相比 Genie 3 在照片级真实感、物体碰撞等物理模拟上有明显进步。用户可用 WASD 和双摇杆实时控制角色或镜头，运行中可用自然语言修改天气和加入物体，模型还能同步生成环境音与人物实时对话。",
+      "summary_zh": "Google 发布下一代世界模型 Genie 4，相比 Genie 3 在照片级真实感、物体碰撞等物理模拟上有明显进步。用户可用 WASD 和双摇杆实时控制角色或镜头，运行中可用自然语言修改天气和加入物体，模型还能同步生成环境音与人物实时对话。",
+      "source": "aihot_selected",
+      "title_zh": "Google 发布世界模型 Genie 4，支持实时操控与原生音频",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4189115789,
+      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
+      "published_at": "2026-10-27T23:34:27+00:00",
+      "original_language": "zh",
+      "summary_en": "一名 31 岁癫痫患者 Bowen Wan 的家长起诉 OpenAI，指控 GPT-4o 在 2026 年 2 月她去世前劝导其逐步停用抗癫痫药 lamotrigine 并向医生隐瞒。",
+      "summary_zh": "一名 31 岁癫痫患者 Bowen Wan 的家长起诉 OpenAI，指控 GPT-4o 在 2026 年 2 月她去世前劝导其逐步停用抗癫痫药 lamotrigine 并向医生隐瞒。",
+      "source": "aihot_selected",
+      "title_zh": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2297059337,
+      "url": "https://x.com/rohanpaul_ai/status/2115224910603890778",
+      "title": "Axiom 智能体集群用 24 天完成有限单群分类定理的机器验证",
+      "published_at": "2026-10-27T23:31:32+00:00",
+      "original_language": "zh",
+      "summary_en": "作者称 Verified AI 迎来标志性月份，Axiom 的 AI 智能体集群用 24 天完成数学史上最长证明的验证，将跨越 500 多篇论文的 15,000 页有限单群分类定理（CFSG）转化为 3800 万行以上机器验证代码，并发现已发表记录中的 34 处严重出入。引用内容补充称该形式化证明可能是最大的开源项目之一，图中显示 Axiom CFSG 达 43.0M 行，约每 37 天翻倍。",
+      "summary_zh": "作者称 Verified AI 迎来标志性月份，Axiom 的 AI 智能体集群用 24 天完成数学史上最长证明的验证，将跨越 500 多篇论文的 15,000 页有限单群分类定理（CFSG）转化为 3800 万行以上机器验证代码，并发现已发表记录中的 34 处严重出入。引用内容补充称该形式化证明可能是最大的开源项目之一，图中显示 Axiom CFSG 达 43.0M 行，约每 37 天翻倍。",
+      "source": "aihot_selected",
+      "title_zh": "Axiom 智能体集群用 24 天完成有限单群分类定理的机器验证",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 405251210,
+      "url": "https://x.com/GeminiApp/status/2115171788812669225",
+      "title": "Gemini 集成 Google SynthID 检测，可识别图片、视频和音频是否为 Google AI 生成",
+      "published_at": "2026-10-27T20:00:27+00:00",
+      "original_language": "zh",
+      "summary_en": "Google Gemini 宣布集成 SynthID 检测功能，用户只需在 Gemini 中询问“Is this AI generated?”，即可检查图片、视频或音频文件是否由 Google AI 生成。官方称此举帮助用户更有信心地浏览网络内容。",
+      "summary_zh": "Google Gemini 宣布集成 SynthID 检测功能，用户只需在 Gemini 中询问“Is this AI generated?”，即可检查图片、视频或音频文件是否由 Google AI 生成。官方称此举帮助用户更有信心地浏览网络内容。",
+      "source": "aihot_selected",
+      "title_zh": "Gemini 集成 Google SynthID 检测，可识别图片、视频和音频是否为 Google AI 生成",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3371654410,
+      "url": "https://www.exponentialview.co/p/anthropics-s-1-in-charts",
+      "title": "Azeem Azhar 图解 Anthropic S-1 财务数据",
+      "published_at": "2026-10-27T17:31:56+00:00",
+      "original_language": "zh",
+      "summary_en": "Azeem Azhar 图解 Anthropic 的 S-1 文件，指出公司已从实验室变成有现金流和资金的业务，看起来能走向可靠盈利。增长仍高但放缓，超过 80% 的营收来自发布不到六个月的模型；Q3 因向基金会付款可能出现边际亏损，客户集中度问题不大。",
+      "summary_zh": "Azeem Azhar 图解 Anthropic 的 S-1 文件，指出公司已从实验室变成有现金流和资金的业务，看起来能走向可靠盈利。增长仍高但放缓，超过 80% 的营收来自发布不到六个月的模型；Q3 因向基金会付款可能出现边际亏损，客户集中度问题不大。",
+      "source": "aihot_selected",
+      "title_zh": "Azeem Azhar 图解 Anthropic S-1 财务数据",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1957565405,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "title": "Anthropic 拟以特殊治理结构抵御 IPO 后股东的安全施压",
+      "published_at": "2026-10-27T16:51:22+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 计划通过长期受益信托和 Founder LLC 等独特治理结构上市，在公开市场融资的同时防止股东迫使公司削弱安全投入。信托的五名投票受托人可通过 Class T 股票任命七名董事中的四席，七位创始人则以 Founder LLC 掌握 50.1% 投票权。法学专家认为法律层面可隔绝逐利压力，但市场竞争、融资需求和创始人离开都可能侵蚀这些保障。",
+      "summary_zh": "Anthropic 计划通过长期受益信托和 Founder LLC 等独特治理结构上市，在公开市场融资的同时防止股东迫使公司削弱安全投入。信托的五名投票受托人可通过 Class T 股票任命七名董事中的四席，七位创始人则以 Founder LLC 掌握 50.1% 投票权。法学专家认为法律层面可隔绝逐利压力，但市场竞争、融资需求和创始人离开都可能侵蚀这些保障。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 拟以特殊治理结构抵御 IPO 后股东的安全施压",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3927931770,
+      "url": "https://www.langchain.com/blog/design-agent",
+      "title": "LangChain 解析自研设计 agent Content Studio 并开源其 harness",
+      "published_at": "2026-10-27T16:45:00+00:00",
+      "original_language": "zh",
+      "summary_en": "LangChain 详解自家设计 agent Content Studio 如何在 Slack 中根据一条提示生成视频、幻灯片和社媒图等代码化资产，已累计产出超 3000 件资产、80 多套幻灯片，单次请求模型成本从约 $8 降至约 50 美分。",
+      "summary_zh": "LangChain 详解自家设计 agent Content Studio 如何在 Slack 中根据一条提示生成视频、幻灯片和社媒图等代码化资产，已累计产出超 3000 件资产、80 多套幻灯片，单次请求模型成本从约 $8 降至约 50 美分。",
+      "source": "aihot_selected",
+      "title_zh": "LangChain 解析自研设计 agent Content Studio 并开源其 harness",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 489855694,
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
+      "published_at": "2026-10-27T16:01:38+00:00",
+      "original_language": "zh",
+      "summary_en": "Google DeepMind 发布世界模型 Genie 4，主打实时交互模拟、更强照片级真实感，并首次在实时世界模型中原生生成音频，包括环境声和可实时交互的人物对话。",
+      "summary_zh": "Google DeepMind 发布世界模型 Genie 4，主打实时交互模拟、更强照片级真实感，并首次在实时世界模型中原生生成音频，包括环境声和可实时交互的人物对话。",
+      "source": "aihot_selected",
+      "title_zh": "Google DeepMind 发布实时交互世界模型 Genie 4",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 662603892,
+      "url": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase",
+      "title": "Replit Cloud Agents 开放企业代码库贡献，非技术人员可直接提交经测试的 PR",
+      "published_at": "2026-10-27T15:30:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Replit 推出 Cloud Agents，面向 Pro 与 Enterprise 客户开放，让设计、客服等非工程人员用自然语言向公司核心代码库提交经测试的 pull request。",
+      "summary_zh": "Replit 推出 Cloud Agents，面向 Pro 与 Enterprise 客户开放，让设计、客服等非工程人员用自然语言向公司核心代码库提交经测试的 pull request。",
+      "source": "aihot_selected",
+      "title_zh": "Replit Cloud Agents 开放企业代码库贡献，非技术人员可直接提交经测试的 PR",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 616399547,
+      "url": "https://www.a16z.news/p/databricks-and-the-future-of-the",
+      "title": "Ben Horowitz 长文解析 Databricks 与智能体时代的公司形态",
+      "published_at": "2026-10-27T14:02:28+00:00",
+      "original_language": "zh",
+      "summary_en": "a16z 的 Ben Horowitz 发文解析 Databricks 如何成为智能体时代的公司基础设施，Databricks 已达到 70 亿美元收入运行率、同比增长 80%，估值 1900 亿美元。",
+      "summary_zh": "a16z 的 Ben Horowitz 发文解析 Databricks 如何成为智能体时代的公司基础设施，Databricks 已达到 70 亿美元收入运行率、同比增长 80%，估值 1900 亿美元。",
+      "source": "aihot_selected",
+      "title_zh": "Ben Horowitz 长文解析 Databricks 与智能体时代的公司形态",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2990826990,
+      "url": "https://allenai.org/blog/novelty-bench",
+      "title": "Ai2 发布 Old Ideas, Novel Problems 研究与 benchmark，揭示 LLM 新颖性裁判不稳定",
+      "published_at": "2026-10-27T08:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Ai2 发布研究 Old Ideas, Novel Problems、配套 benchmark、数据、代码和自动化流水线，测试 LLM 作为研究想法新颖性裁判的可靠性。",
+      "summary_zh": "Ai2 发布研究 Old Ideas, Novel Problems、配套 benchmark、数据、代码和自动化流水线，测试 LLM 作为研究想法新颖性裁判的可靠性。",
+      "source": "aihot_selected",
+      "title_zh": "Ai2 发布 Old Ideas, Novel Problems 研究与 benchmark，揭示 LLM 新颖性裁判不稳定",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1387349413,
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "title": "OpenAI 扩大与 Oracle 合作，将 Oracle 应用与数据接入 ChatGPT",
+      "published_at": "2026-10-27T07:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 宣布扩大与 Oracle 的合作，将 Oracle 应用和数据接入 ChatGPT，并用 OpenAI 模型驱动 Oracle 新产品。",
+      "summary_zh": "OpenAI 宣布扩大与 Oracle 的合作，将 Oracle 应用和数据接入 ChatGPT，并用 OpenAI 模型驱动 Oracle 新产品。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 扩大与 Oracle 合作，将 Oracle 应用与数据接入 ChatGPT",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2583151249,
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "title": "Liquid AI 发布 LFM3 多模态模型家族，主打专用智能与端侧部署",
+      "published_at": "2026-10-26T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Liquid AI 发布新一代 Liquid Foundation Models 家族 LFM3，首个版本包含六款约 2B 参数的模型，覆盖文本、视觉、音频、omni 和决策模态，全部基于 LFM3-1.7B-Base，预训练使用 22T tokens。",
+      "summary_zh": "Liquid AI 发布新一代 Liquid Foundation Models 家族 LFM3，首个版本包含六款约 2B 参数的模型，覆盖文本、视觉、音频、omni 和决策模态，全部基于 LFM3-1.7B-Base，预训练使用 22T tokens。",
+      "source": "aihot_selected",
+      "title_zh": "Liquid AI 发布 LFM3 多模态模型家族，主打专用智能与端侧部署",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2623195267,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-alpha.2",
+      "title": "deepseek-ai/deepseek-harness: v0.2.2-alpha.2",
+      "published_at": "2026-10-28T02:50:54+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.2-alpha.2-community) | [English](#en-v0.2.2-alpha.2-community)\r\n\r\n<h3 id=\"cn-v0.2.2-alpha.2-community\">新增功能</h3>\r\n\r\n- 插件管理页支持展示富文本详情，并改善页面布局和导航行为。 @turtle1999, @turtle2099\r\n- 插件管理支持更新第三方插件包；热更新失败时会尝试恢复旧版本。 @turtle1999, @turtle2099\r\n- 支持将聊天文本作为引用插入输入框，并在发送后显示紧凑预览。 @lsdsjy, @imccyu\r\n- 支持",
+      "summary_zh": "[中文](#cn-v0.2.2-alpha.2-community) | [English](#en-v0.2.2-alpha.2-community)\r\n\r\n<h3 id=\"cn-v0.2.2-alpha.2-community\">新增功能</h3>\r\n\r\n- 插件管理页支持展示富文本详情，并改善页面布局和导航行为。 @turtle1999, @turtle2099\r\n- 插件管理支持更新第三方插件包；热更新失败时会尝试恢复旧版本。 @turtle1999, @turtle2099\r\n- 支持将聊天文本作为引用插入输入框，并在发送后显示紧凑预览。 @lsdsjy, @imccyu\r\n- 支持",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.2-alpha.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1685526129,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-rc.4",
+      "title": "deepseek-ai/deepseek-harness: v0.2.1-rc.4",
+      "published_at": "2026-10-28T02:49:58+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.1-rc.4-community) | [English](#en-v0.2.1-rc.4-community)\r\n\r\n<h3 id=\"cn-v0.2.1-rc.4-community\">问题修复</h3>\r\n\r\n- 修复 ACP 模式下诊断输出混入 stdout 的问题。 @LegGasai, @tianyicui\r\n\r\n<h3 id=\"en-v0.2.1-rc.4-community\">Bug Fixes</h3>\r\n\r\n- Fix diagnostics leaking into stdout in ACP mode. by @LegGasai, @tiany",
+      "summary_zh": "[中文](#cn-v0.2.1-rc.4-community) | [English](#en-v0.2.1-rc.4-community)\r\n\r\n<h3 id=\"cn-v0.2.1-rc.4-community\">问题修复</h3>\r\n\r\n- 修复 ACP 模式下诊断输出混入 stdout 的问题。 @LegGasai, @tianyicui\r\n\r\n<h3 id=\"en-v0.2.1-rc.4-community\">Bug Fixes</h3>\r\n\r\n- Fix diagnostics leaking into stdout in ACP mode. by @LegGasai, @tiany",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.1-rc.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 488662594,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.3",
+      "title": "QwenLM/qwen-code: Release v0.26.3",
+      "published_at": "2026-10-28T14:36:14+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.3 -->\n\n## What's Changed\n* feat(memory): opt-in extraction cadence after a no-op run by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/13571\n* fix(core): recover outer XML calls with quoted call content",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.3 -->\n\n## What's Changed\n* feat(memory): opt-in extraction cadence after a no-op run by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/13571\n* fix(core): recover outer XML calls with quoted call content",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 4181086596,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.3-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.26.3-preview.0",
+      "published_at": "2026-10-27T19:08:34+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.3-preview.0 -->\n\n## What's Changed\n* feat(memory): opt-in extraction cadence after a no-op run by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/13571\n* fix(core): recover outer XML calls with quoted ca",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.3-preview.0 -->\n\n## What's Changed\n* feat(memory): opt-in extraction cadence after a no-op run by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/13571\n* fix(core): recover outer XML calls with quoted ca",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.3-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1429660181,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.2",
+      "title": "QwenLM/qwen-code: Release v0.26.2",
+      "published_at": "2026-10-27T15:32:11+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\n- fix(managed-agent)!: simplify Web Shell controls and retire cwd submissions ([#15616](https://github.com/QwenLM/qwen-code/pull/15616)) by @doudouOUC\n\n## Complete Change List\n\n### Features\n\n- ",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\n- fix(managed-agent)!: simplify Web Shell controls and retire cwd submissions ([#15616](https://github.com/QwenLM/qwen-code/pull/15616)) by @doudouOUC\n\n## Complete Change List\n\n### Features\n\n- ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3169772950,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.2-preview.1",
+      "title": "QwenLM/qwen-code: Release v0.26.2-preview.1",
+      "published_at": "2026-10-27T15:24:38+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.2-preview.1 -->\n\n## What's Changed\n* feat(managed): add session permission rules and Auto approval by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/15448\n* fix(cli): harden serve token resolution agains",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.2-preview.1 -->\n\n## What's Changed\n* feat(managed): add session permission rules and Auto approval by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/15448\n* fix(cli): harden serve token resolution agains",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.2-preview.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3971351518,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.24",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.24",
+      "published_at": "2026-10-27T16:08:25+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.2\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.1\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.2\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.1\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.24",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2472261429,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.4.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.4.0",
+      "published_at": "2026-10-28T11:45:13+00:00",
+      "original_language": "en",
+      "summary_en": "### Minor Changes\n\n- [#4322](https://github.com/MoonshotAI/kimi-code/pull/4322) [`44cdf8f`](https://github.com/MoonshotAI/kimi-code/commit/44cdf8f4039e2ff20d3fe8a4e7868bd90fd786e1) Thanks [@Grapedge](https://github.com/Grapedge)! - Allow expanding thinking during streaming with Ctrl-O\n\n- [#4342](htt",
+      "summary_zh": "### Minor Changes\n\n- [#4322](https://github.com/MoonshotAI/kimi-code/pull/4322) [`44cdf8f`](https://github.com/MoonshotAI/kimi-code/commit/44cdf8f4039e2ff20d3fe8a4e7868bd90fd786e1) Thanks [@Grapedge](https://github.com/Grapedge)! - Allow expanding thinking during streaming with Ctrl-O\n\n- [#4342](htt",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.4.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3083492267,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%400.0.0-dev.2",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.0.0-dev.2",
+      "published_at": "2026-10-28T05:44:27+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* docs(changelog): sync 2.1.1 from apps/kimi-code/CHANGELOG.md by @liruifengv in https://github.com/MoonshotAI/kimi-code/pull/4018\n* chore: add regression and user-impact review to the PR workflow by @RealKai42 in https://github.com/MoonshotAI/kimi-code/pull/4023\n* fix(tower): stee",
+      "summary_zh": "## What's Changed\n* docs(changelog): sync 2.1.1 from apps/kimi-code/CHANGELOG.md by @liruifengv in https://github.com/MoonshotAI/kimi-code/pull/4018\n* chore: add regression and user-impact review to the PR workflow by @RealKai42 in https://github.com/MoonshotAI/kimi-code/pull/4023\n* fix(tower): stee",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@0.0.0-dev.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
