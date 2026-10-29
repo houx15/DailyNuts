@@ -1,0 +1,632 @@
+{
+  "date": "2026-10-29",
+  "items": [
+    {
+      "id": 3091267416,
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "title": "AI for Science expands to foundations and research institutions",
+      "published_at": "2026-10-28T00:00:00",
+      "original_language": "en",
+      "summary_en": "We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.",
+      "summary_zh": "We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.",
+      "source": "anthropic_news",
+      "title_en": "AI for Science expands to foundations and research institutions",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1746448760,
+      "url": "https://unsupervised-learning.simplecast.com/episodes/ep-95-modal-ceo-on-the-future-of-inference-the-chaos-of-the-gpu-market-origins-of-the-sandbox-bet-7BVMndlI",
+      "title": "Ep 95: Modal CEO on the Future of Inference, the Chaos of the GPU Market & Origins of the Sandbox Bet",
+      "published_at": "2026-10-28T13:03:16",
+      "original_language": "en",
+      "summary_en": "Jacob Effron and Pat Chase sit down with Erik Bernhardsson, co-founder and CEO of Modal, for his second appearance on Unsupervised Learning, now with the company past a $1B run rate. They dig into how the AI compute market actually works behind the scenes, why Modal’s early bets on sandboxes and low",
+      "summary_zh": "Jacob Effron and Pat Chase sit down with Erik Bernhardsson, co-founder and CEO of Modal, for his second appearance on Unsupervised Learning, now with the company past a $1B run rate. They dig into how the AI compute market actually works behind the scenes, why Modal’s early bets on sandboxes and low",
+      "source": "unsupervised_learning",
+      "title_en": "Ep 95: Modal CEO on the Future of Inference, the Chaos of the GPU Market & Origins of the Sandbox Bet",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3699348826,
+      "url": "https://podcasters.spotify.com/pod/show/firstmark/episodes/State-of-AI-2026-The-Biggest-Stories-of-the-Year-and-AGI-in-2027---Nathan-Benaich-e3rbhc9",
+      "title": "State of AI 2026: The Biggest Stories of the Year (and AGI in 2027?) | Nathan Benaich",
+      "published_at": "2026-10-29T14:11:54",
+      "original_language": "en",
+      "summary_en": "<p>AGI in 2027. That’s the last line of this year’s State of AI Report, and its author Nathan Benaich (Air Street Capital) is back for the third year to defend it. AI is now building AI: Claude leads 26% of Anthropic’s own model R&amp;D, up from under 1% in February, but Nathan thinks “research tast",
+      "summary_zh": "<p>AGI in 2027. That’s the last line of this year’s State of AI Report, and its author Nathan Benaich (Air Street Capital) is back for the third year to defend it. AI is now building AI: Claude leads 26% of Anthropic’s own model R&amp;D, up from under 1% in February, but Nathan thinks “research tast",
+      "source": "mad_podcast",
+      "title_en": "State of AI 2026: The Biggest Stories of the Year (and AGI in 2027?) | Nathan Benaich",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3926894614,
+      "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+      "title": "404 Media 调查 Proton 内部 AI 转型：CEO Andy Yen 强推全面用 AI 并重面试员工",
+      "published_at": "2026-10-29T14:21:49+00:00",
+      "original_language": "zh",
+      "summary_en": "404 Media 采访八名在职和一名前 Proton 员工，并查阅 Slack 记录、会议录音和 CTO 的 AI 宣言，披露 CEO Andy Yen 强推 AI 导致的恐惧文化。",
+      "summary_zh": "404 Media 采访八名在职和一名前 Proton 员工，并查阅 Slack 记录、会议录音和 CTO 的 AI 宣言，披露 CEO Andy Yen 强推 AI 导致的恐惧文化。",
+      "source": "aihot_selected",
+      "title_zh": "404 Media 调查 Proton 内部 AI 转型：CEO Andy Yen 强推全面用 AI 并重面试员工",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1924084297,
+      "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+      "title": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账",
+      "published_at": "2026-10-29T14:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The Verge Decoder 节目邀请 SemiAnalysis 分析师 Joey Brookhart 解读 Anthropic 提交的 S-1 招股书，公司拟在纳斯达克上市，估值区间 1.5 万亿至 2 万亿美元。",
+      "summary_zh": "The Verge Decoder 节目邀请 SemiAnalysis 分析师 Joey Brookhart 解读 Anthropic 提交的 S-1 招股书，公司拟在纳斯达克上市，估值区间 1.5 万亿至 2 万亿美元。",
+      "source": "aihot_selected",
+      "title_zh": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2911806623,
+      "url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
+      "title": "纽约时报称中国情报人员瞄准英伟达 CEO 黄仁勋",
+      "published_at": "2026-10-29T13:42:38+00:00",
+      "original_language": "zh",
+      "summary_en": "据《纽约时报》报道，美国情报机构认为英伟达 CEO 黄仁勋身边一名高管为中国提供情报，此人是新加坡数据中心运营商 Megaspeed 的 Alice Huang（黄乐）。",
+      "summary_zh": "据《纽约时报》报道，美国情报机构认为英伟达 CEO 黄仁勋身边一名高管为中国提供情报，此人是新加坡数据中心运营商 Megaspeed 的 Alice Huang（黄乐）。",
+      "source": "aihot_selected",
+      "title_zh": "纽约时报称中国情报人员瞄准英伟达 CEO 黄仁勋",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 401030588,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "title": "The Verge 解读 Anthropic S-1：约 8500 亿美元 compute 承诺押注递归自我改进",
+      "published_at": "2026-10-29T13:30:00+00:00",
+      "original_language": "zh",
+      "summary_en": "The Verge 作者分析 Anthropic S-1，认为其商业模式依赖高速增长：2026 上半年营收同比增长 14 倍至 $16.3 billion，净收入留存率 900%，但不可撤销采购承诺合计 $265.6 billion，加上未开始的租赁协议 $321.4 billion 及其他协议，未来 20 年承诺至少约 $850 billion。",
+      "summary_zh": "The Verge 作者分析 Anthropic S-1，认为其商业模式依赖高速增长：2026 上半年营收同比增长 14 倍至 $16.3 billion，净收入留存率 900%，但不可撤销采购承诺合计 $265.6 billion，加上未开始的租赁协议 $321.4 billion 及其他协议，未来 20 年承诺至少约 $850 billion。",
+      "source": "aihot_selected",
+      "title_zh": "The Verge 解读 Anthropic S-1：约 8500 亿美元 compute 承诺押注递归自我改进",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1918499279,
+      "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/",
+      "title": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
+      "published_at": "2026-10-29T10:16:34+00:00",
+      "original_language": "zh",
+      "summary_en": "Google 三季度搜索收入增长约 12%，低于分析师预期的 15%，市值一度缩水最多 10%。高管 Philipp Schindler 承认 AI mode 查询的强劲增长因变现率较低产生了影响，同时公司称搜索查询年增速达五年来最高，并计划在美国及国际市场扩大聊天机器人广告项目。",
+      "summary_zh": "Google 三季度搜索收入增长约 12%，低于分析师预期的 15%，市值一度缩水最多 10%。高管 Philipp Schindler 承认 AI mode 查询的强劲增长因变现率较低产生了影响，同时公司称搜索查询年增速达五年来最高，并计划在美国及国际市场扩大聊天机器人广告项目。",
+      "source": "aihot_selected",
+      "title_zh": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 911921729,
+      "url": "https://x.com/addyosmani/status/2115688494865465370",
+      "title": "Addy Osmani 谈你可能对 Claude 过度提示了",
+      "published_at": "2026-10-29T06:13:39+00:00",
+      "original_language": "zh",
+      "summary_en": "Addy Osmani 撰文称新版 Claude 模型所需提示词比多数人习惯的更少，针对 Opus 5.5 建议用单一明确目标加验证条件让 Claude 自主工作，从 /effort medium 起步按需调整。",
+      "summary_zh": "Addy Osmani 撰文称新版 Claude 模型所需提示词比多数人习惯的更少，针对 Opus 5.5 建议用单一明确目标加验证条件让 Claude 自主工作，从 /effort medium 起步按需调整。",
+      "source": "aihot_selected",
+      "title_zh": "Addy Osmani 谈你可能对 Claude 过度提示了",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2855381930,
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "title": "Mistral Large 4（Le Chonk）登陆 Hugging Face：1T 参数 MoE 多模态开源权重模型",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Hugging Face 发布 Mistral Large 4（Le Chonk）的上线博客，模型为多模态多语言 MoE 架构，总参数约 1T、激活 49B、上下文窗口 1M token。",
+      "summary_zh": "Hugging Face 发布 Mistral Large 4（Le Chonk）的上线博客，模型为多模态多语言 MoE 架构，总参数约 1T、激活 49B、上下文窗口 1M token。",
+      "source": "aihot_selected",
+      "title_zh": "Mistral Large 4（Le Chonk）登陆 Hugging Face：1T 参数 MoE 多模态开源权重模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2664903389,
+      "url": "https://openrouter.ai/blog/tutorials/extract-tables-from-pdf-llm/",
+      "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
+      "summary_zh": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3271636058,
+      "url": "https://www.ithome.com/1/019/268.htm",
+      "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
+      "published_at": "2026-10-28T22:35:25.040000+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。",
+      "summary_zh": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3948896485,
+      "url": "https://x.com/sundarpichai/status/2115535455156642066",
+      "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
+      "published_at": "2026-10-28T20:05:31+00:00",
+      "original_language": "zh",
+      "summary_en": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。",
+      "summary_zh": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。",
+      "source": "aihot_selected",
+      "title_zh": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2466550656,
+      "url": "https://www.wheresyoured.at/exit-liquidity/",
+      "title": "Ed Zitron 长文解析 Anthropic S-1：称其把散户当作退出流动性",
+      "published_at": "2026-10-28T17:51:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Ed Zitron 撰文批评 Anthropic 的 S-1 招股书，指其仅披露 Q2 盈利数据、省略 Q3 现金状况和付款明细，是在公司基本面变化前误导投资者。",
+      "summary_zh": "Ed Zitron 撰文批评 Anthropic 的 S-1 招股书，指其仅披露 Q2 盈利数据、省略 Q3 现金状况和付款明细，是在公司基本面变化前误导投资者。",
+      "source": "aihot_selected",
+      "title_zh": "Ed Zitron 长文解析 Anthropic S-1：称其把散户当作退出流动性",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3798026103,
+      "url": "https://x.com/rohanpaul_ai/status/2115491649543635378",
+      "title": "Anthropic IPO 文件披露现金及短期投资达 131.7B 美元，超过 Amazon 和 Microsoft",
+      "published_at": "2026-10-28T17:11:27+00:00",
+      "original_language": "zh",
+      "summary_en": "Anthropic 的 IPO 文件显示其现金及短期投资达 $131.7B，超过 Amazon 和 Microsoft，在美国非银行公司中仅次于 Berkshire Hathaway 和 Alphabet。",
+      "summary_zh": "Anthropic 的 IPO 文件显示其现金及短期投资达 $131.7B，超过 Amazon 和 Microsoft，在美国非银行公司中仅次于 Berkshire Hathaway 和 Alphabet。",
+      "source": "aihot_selected",
+      "title_zh": "Anthropic IPO 文件披露现金及短期投资达 131.7B 美元，超过 Amazon 和 Microsoft",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2719688272,
+      "url": "https://x.com/bcherny/status/2115491259381072269",
+      "title": "犹他州 10 个州政府部门 34 名开发者试点使用 Claude Code",
+      "published_at": "2026-10-28T17:09:54+00:00",
+      "original_language": "zh",
+      "summary_en": "Boris Cherny 介绍犹他州向 10 个州政府部门的 34 名开发者提供了 Claude Code。试点显示 80% 的开发者在 30 分钟内搭好可用环境，71% 的开发者在为期四周的试点结束前报告节省了 20 小时以上时间。该推文引用了 Anthropic 与 GSA 合作将 Claude 以 40% 折扣提供给联邦及各级政府的公告作为背景。",
+      "summary_zh": "Boris Cherny 介绍犹他州向 10 个州政府部门的 34 名开发者提供了 Claude Code。试点显示 80% 的开发者在 30 分钟内搭好可用环境，71% 的开发者在为期四周的试点结束前报告节省了 20 小时以上时间。该推文引用了 Anthropic 与 GSA 合作将 Claude 以 40% 折扣提供给联邦及各级政府的公告作为背景。",
+      "source": "aihot_selected",
+      "title_zh": "犹他州 10 个州政府部门 34 名开发者试点使用 Claude Code",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3386378903,
+      "url": "https://x.com/sundarpichai/status/2115489219804352921",
+      "title": "Google 发布 Gemini 4 Carbon：AA Index v5.0 登顶，网络安全基准领先",
+      "published_at": "2026-10-28T17:01:48+00:00",
+      "original_language": "zh",
+      "summary_en": "Sundar Pichai 宣布 Google 推出 Gemini 4 Carbon，称其在更新后的 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一。",
+      "summary_zh": "Sundar Pichai 宣布 Google 推出 Gemini 4 Carbon，称其在更新后的 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一。",
+      "source": "aihot_selected",
+      "title_zh": "Google 发布 Gemini 4 Carbon：AA Index v5.0 登顶，网络安全基准领先",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 301449105,
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+      "published_at": "2026-10-28T17:00:58+00:00",
+      "original_language": "zh",
+      "summary_en": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
+      "summary_zh": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
+      "source": "aihot_selected",
+      "title_zh": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1821062952,
+      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+      "title": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
+      "published_at": "2026-10-28T16:51:35+00:00",
+      "original_language": "zh",
+      "summary_en": "Microsoft 宣布将 GitHub 团队打造的 Copilot harness 通过 Microsoft Foundry 向开发者和企业开放，该 harness 已驱动 Copilot Code、Copilot Studio、GitHub Copilot app 和 CLI 等产品。",
+      "summary_zh": "Microsoft 宣布将 GitHub 团队打造的 Copilot harness 通过 Microsoft Foundry 向开发者和企业开放，该 harness 已驱动 Copilot Code、Copilot Studio、GitHub Copilot app 和 CLI 等产品。",
+      "source": "aihot_selected",
+      "title_zh": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3750318781,
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
+      "published_at": "2026-10-28T16:09:28+00:00",
+      "original_language": "zh",
+      "summary_en": "GitHub 在 GitHub Universe 2026 上提出把 GitHub 打造为完整软件交付系统的愿景，并发布多项产品：GitHub Copilot app 面向智能体交付。",
+      "summary_zh": "GitHub 在 GitHub Universe 2026 上提出把 GitHub 打造为完整软件交付系统的愿景，并发布多项产品：GitHub Copilot app 面向智能体交付。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1187752207,
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
+      "published_at": "2026-10-28T16:07:40+00:00",
+      "original_language": "zh",
+      "summary_en": "GitHub 发布 2026 年度 Octoverse 报告：过去 12 个月开发者推送代码 179 亿次，超过 2024 和 2025 年之和，合并 PR 达 13 亿次。",
+      "summary_zh": "GitHub 发布 2026 年度 Octoverse 报告：过去 12 个月开发者推送代码 179 亿次，超过 2024 和 2025 年之和，合并 PR 达 13 亿次。",
+      "source": "aihot_selected",
+      "title_zh": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2338836154,
+      "url": "https://www.a16z.news/p/the-new-security-agenda",
+      "title": "a16z 调研 100 位 CISO：AI 如何改写 2027 年安全议程",
+      "published_at": "2026-10-28T16:00:31+00:00",
+      "original_language": "zh",
+      "summary_en": "a16z 发布对 100 名千人员以上企业 CISO 的调研，87% 预期 2027 年安全支出增长，主要受 AI 威胁和自身 AI 部署扩大攻击面驱动。2027 年最受关注的七项安全举措全部与 AI 相关，其中 SOC 自动化获最多首选票，内部 AI agent 安全、SOC 自动化和进攻性安全升幅最大，但 AI SOC 工具生产环境使用率仅 18%。",
+      "summary_zh": "a16z 发布对 100 名千人员以上企业 CISO 的调研，87% 预期 2027 年安全支出增长，主要受 AI 威胁和自身 AI 部署扩大攻击面驱动。2027 年最受关注的七项安全举措全部与 AI 相关，其中 SOC 自动化获最多首选票，内部 AI agent 安全、SOC 自动化和进攻性安全升幅最大，但 AI SOC 工具生产环境使用率仅 18%。",
+      "source": "aihot_selected",
+      "title_zh": "a16z 调研 100 位 CISO：AI 如何改写 2027 年安全议程",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1880831542,
+      "url": "https://openmoss.ai/blog/cn/moss-image/",
+      "title": "OpenMOSS 发布开源图像生成模型 MOSS-Image，主打长文本渲染与可编辑布局",
+      "published_at": "2026-10-28T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenMOSS 发布开放权重图像生成模型 MOSS-Image，采用 5B 参数单流 DiT 从零预训练，支持最长 4K token 提示词、中英文长文本渲染和可编辑的 JSON Layout。",
+      "summary_zh": "OpenMOSS 发布开放权重图像生成模型 MOSS-Image，采用 5B 参数单流 DiT 从零预训练，支持最长 4K token 提示词、中英文长文本渲染和可编辑的 JSON Layout。",
+      "source": "aihot_selected",
+      "title_zh": "OpenMOSS 发布开源图像生成模型 MOSS-Image，主打长文本渲染与可编辑布局",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 442106094,
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "title": "OpenAI 员工撰文探讨 AI 进入企业组织架构的三种方式",
+      "published_at": "2026-10-28T10:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenAI 员工 Hemanth Asirvatham 和 Elliott Mokski 发表下一篇经济系列文章，探讨 AI 进入企业组织架构的三种情形：在每位员工之下形成 AI 劳动力 basement、作为同事穿插在现有组织图中、以及夹在人类之间充当协调层。",
+      "summary_zh": "OpenAI 员工 Hemanth Asirvatham 和 Elliott Mokski 发表下一篇经济系列文章，探讨 AI 进入企业组织架构的三种情形：在每位员工之下形成 AI 劳动力 basement、作为同事穿插在现有组织图中、以及夹在人类之间充当协调层。",
+      "source": "aihot_selected",
+      "title_zh": "OpenAI 员工撰文探讨 AI 进入企业组织架构的三种方式",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 660648347,
+      "url": "https://openrouter.ai/blog/tutorials/claude-code-usage-limit/",
+      "title": "Claude Code 触发用量上限后如何用 OpenRouter 继续编码",
+      "published_at": "2026-10-28T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter 介绍 Claude Code 触发用量上限时改用 OpenRouter API key 继续编码的方法：设置三个环境变量或用 Ori Harness 的 ori claude 命令，即可按 token 付费使用同样的 Claude 模型，没有五小时和每周限制。",
+      "summary_zh": "OpenRouter 介绍 Claude Code 触发用量上限时改用 OpenRouter API key 继续编码的方法：设置三个环境变量或用 Ori Harness 的 ori claude 命令，即可按 token 付费使用同样的 Claude 模型，没有五小时和每周限制。",
+      "source": "aihot_selected",
+      "title_zh": "Claude Code 触发用量上限后如何用 OpenRouter 继续编码",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 990111230,
+      "url": "https://openrouter.ai/blog/announcements/how-we-rebuilt-provider-routing/",
+      "title": "OpenRouter 重建默认路由算法：TTFT 降 16.9%、429 错误减少 67%",
+      "published_at": "2026-10-28T00:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "OpenRouter 宣布重建默认 provider 路由算法，从只按价格排序改为按 Routing Cost 综合 effective price、TTFT、吞吐、错误率和输出质量选路。",
+      "summary_zh": "OpenRouter 宣布重建默认 provider 路由算法，从只按价格排序改为按 Routing Cost 综合 effective price、TTFT、吞吐、错误率和输出质量选路。",
+      "source": "aihot_selected",
+      "title_zh": "OpenRouter 重建默认路由算法：TTFT 降 16.9%、429 错误减少 67%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 635898045,
+      "url": "https://every.to/context-window/every-model-has-a-six-month-shelf-life-now",
+      "title": "Every 解读 Anthropic S-1：上线超过六个月的模型贡献收入不足 20%",
+      "published_at": "2026-10-27T16:00:00+00:00",
+      "original_language": "zh",
+      "summary_en": "Every 的 Context Window 通讯解读 Anthropic 周一提交的上市 S-1 文件，指出其重度依赖最新模型，发布超过六个月的模型收入占比不足 20%。",
+      "summary_zh": "Every 的 Context Window 通讯解读 Anthropic 周一提交的上市 S-1 文件，指出其重度依赖最新模型，发布超过六个月的模型收入占比不足 20%。",
+      "source": "aihot_selected",
+      "title_zh": "Every 解读 Anthropic S-1：上线超过六个月的模型贡献收入不足 20%",
+      "title_en": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3427551032,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.4",
+      "title": "QwenLM/qwen-code: Release v0.26.4",
+      "published_at": "2026-10-29T14:29:11+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(generated-ui): follow the host theme in generated views ([#15798](https://github.com/QwenLM/qwen-code/pull/15798)) by @",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(generated-ui): follow the host theme in generated views ([#15798](https://github.com/QwenLM/qwen-code/pull/15798)) by @",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2318053928,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.3-nightly.20261028.ca204559a7",
+      "title": "QwenLM/qwen-code: Release v0.26.3-nightly.20261028.ca204559a7",
+      "published_at": "2026-10-28T22:29:36+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.3-nightly.20261028.ca204559a7 -->\n\n## What's Changed\n* fix(config): report controls that were silently dropped by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/15794\n* docs(managed): cite the shared-Se",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.3-nightly.20261028.ca204559a7 -->\n\n## What's Changed\n* fix(config): report controls that were silently dropped by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/15794\n* docs(managed): cite the shared-Se",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.3-nightly.20261028.ca204559a7",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3196212550,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.25",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.25",
+      "published_at": "2026-10-28T16:16:39+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.3\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.2\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.3\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.2\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.25",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1443212520,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.3",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.26.3",
+      "published_at": "2026-10-28T16:51:11+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at eeee1443a7e36ab22b2f1dcded8dec64b621a7ee -->\n\n## What's Changed\n* feat(managed): add session permission rules and Auto approval by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/15448\n* fix(cli): harden serve token re",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at eeee1443a7e36ab22b2f1dcded8dec64b621a7ee -->\n\n## What's Changed\n* feat(managed): add session permission rules and Auto approval by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/15448\n* fix(cli): harden serve token re",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.26.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 285607307,
+      "url": "https://github.com/Tencent-Hunyuan/Hy-Memory/releases/tag/v1.0.5",
+      "title": "Tencent-Hunyuan/Hy-Memory: v1.0.5",
+      "published_at": "2026-10-28T15:09:19+00:00",
+      "original_language": "en",
+      "summary_en": "## What’s New / 本次更新\n\n- **Multi-language support / 多语言支持**  \n  MemHub now supports Chinese, English, and Spanish interfaces.  \n  MemHub 现已支持中文、英文和西班牙语界面。\n\n- **More custom Harness connections / 支持更多 Harness 自定义连接**  \n  Connect more custom Harnesses using a simple one-time pairing code.  \n  通过简单的一次性配对",
+      "summary_zh": "## What’s New / 本次更新\n\n- **Multi-language support / 多语言支持**  \n  MemHub now supports Chinese, English, and Spanish interfaces.  \n  MemHub 现已支持中文、英文和西班牙语界面。\n\n- **More custom Harness connections / 支持更多 Harness 自定义连接**  \n  Connect more custom Harnesses using a simple one-time pairing code.  \n  通过简单的一次性配对",
+      "source": "hunyuan_github",
+      "title_en": "Tencent-Hunyuan/Hy-Memory: v1.0.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1558854968,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.4.1-canary.20261029045033-ebe14e1",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.4.1-canary.20261029045033-ebe14e1",
+      "published_at": "2026-10-29T05:05:35+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* feat(agent-core-v2): limit subagents to the configured model pool by @7Sageer in https://github.com/MoonshotAI/kimi-code/pull/4418\n* feat: multi-root workspace registry and source-folder management by @liruifengv in https://github.com/MoonshotAI/kimi-code/pull/4336\n* refactor(age",
+      "summary_zh": "## What's Changed\n* feat(agent-core-v2): limit subagents to the configured model pool by @7Sageer in https://github.com/MoonshotAI/kimi-code/pull/4418\n* feat: multi-root workspace registry and source-folder management by @liruifengv in https://github.com/MoonshotAI/kimi-code/pull/4336\n* refactor(age",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.4.1-canary.20261029045033-ebe14e1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
