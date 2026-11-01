@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-01",
+  "items": [
+    {
+      "id": 2578982484,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.5",
+      "title": "QwenLM/qwen-code: Release v0.26.5",
+      "published_at": "2026-11-01T03:22:50+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- Adds bounded SQL history queries for Managed local H2 and Hosted MySQL, enabling paged recent messages, journal transactions",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- Adds bounded SQL history queries for Managed local H2 and Hosted MySQL, enabling paged recent messages, journal transactions",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 904203460,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.5",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.26.5",
+      "published_at": "2026-11-01T03:59:58+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at db0e4e24a0d89b211b2a15f4af2be22adac71dfc -->\n\n## What's Changed\n* feat(managed): Add bounded SQL history queries by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/15839\n* feat(generated-ui): keep chatting with a card'",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at db0e4e24a0d89b211b2a15f4af2be22adac71dfc -->\n\n## What's Changed\n* feat(managed): Add bounded SQL history queries by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/15839\n* feat(generated-ui): keep chatting with a card'",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.26.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
