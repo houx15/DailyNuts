@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-02",
+  "items": [
+    {
+      "id": 3796280767,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.5-nightly.20261101.7b4b353750",
+      "title": "QwenLM/qwen-code: Release v0.26.5-nightly.20261101.7b4b353750",
+      "published_at": "2026-11-01T22:43:08+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.5-nightly.20261101.7b4b353750 -->\n\n## What's Changed\n* refactor(managed-agent): Share the session event delivery loop by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/15952\n* ci: route the classify_pr g",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.5-nightly.20261101.7b4b353750 -->\n\n## What's Changed\n* refactor(managed-agent): Share the session event delivery loop by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/15952\n* ci: route the classify_pr g",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.5-nightly.20261101.7b4b353750",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 677061217,
+      "url": "https://github.com/Tencent-Hunyuan/Hyra-results/releases/tag/hyplm-flash-weights",
+      "title": "Tencent-Hunyuan/Hyra-results: HyPLM-Flash weights",
+      "published_at": "2026-11-02T08:50:59+00:00",
+      "original_language": "en",
+      "summary_en": "FP32 weights of HyPLM-Flash (2.61 GB), split into two shards.\n\nDownload and merge:\n\n```bash\nfor p in part0 part1; do\n  curl -fL -o model.safetensors.$p https://github.com/Tencent-Hunyuan/Hyra-results/releases/download/hyplm-flash-weights/model.safetensors.$p\ndone\ncat model.safetensors.part0 model.sa",
+      "summary_zh": "FP32 weights of HyPLM-Flash (2.61 GB), split into two shards.\n\nDownload and merge:\n\n```bash\nfor p in part0 part1; do\n  curl -fL -o model.safetensors.$p https://github.com/Tencent-Hunyuan/Hyra-results/releases/download/hyplm-flash-weights/model.safetensors.$p\ndone\ncat model.safetensors.part0 model.sa",
+      "source": "hunyuan_github",
+      "title_en": "Tencent-Hunyuan/Hyra-results: HyPLM-Flash weights",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 635179983,
+      "url": "https://github.com/Tencent-Hunyuan/Hyra-results/releases/tag/hyff-v0.2.0",
+      "title": "Tencent-Hunyuan/Hyra-results: HyFF 0.2.0",
+      "published_at": "2026-11-02T14:30:56+00:00",
+      "original_language": "en",
+      "summary_en": "# HyFF 0.2.0 model weights\n\nWeights of the five HyFF models (package: `AI4Science/hyff` in this repository). The `hyff` package\ndownloads them into its cache on first use (`$HYFF_HOME/checkpoints`, default\n`~/.cache/hyff/checkpoints`); `hyff download all` fetches all of them ahead of time. Every fil",
+      "summary_zh": "# HyFF 0.2.0 model weights\n\nWeights of the five HyFF models (package: `AI4Science/hyff` in this repository). The `hyff` package\ndownloads them into its cache on first use (`$HYFF_HOME/checkpoints`, default\n`~/.cache/hyff/checkpoints`); `hyff download all` fetches all of them ahead of time. Every fil",
+      "source": "hunyuan_github",
+      "title_en": "Tencent-Hunyuan/Hyra-results: HyFF 0.2.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3918881917,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.5.0-canary.20261102033430-40590f6",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.5.0-canary.20261102033430-40590f6",
+      "published_at": "2026-11-02T03:57:26+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* fix: queue ACP requests until startup completes by @7Sageer in https://github.com/MoonshotAI/kimi-code/pull/4541\n* feat: merge skills across workspace directories by @liruifengv in https://github.com/MoonshotAI/kimi-code/pull/4520\n* fix(agent-core-v2): keep archived sessions out ",
+      "summary_zh": "## What's Changed\n* fix: queue ACP requests until startup completes by @7Sageer in https://github.com/MoonshotAI/kimi-code/pull/4541\n* feat: merge skills across workspace directories by @liruifengv in https://github.com/MoonshotAI/kimi-code/pull/4520\n* fix(agent-core-v2): keep archived sessions out ",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.5.0-canary.20261102033430-40590f6",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
