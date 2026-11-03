@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-03",
+  "items": [
+    {
+      "id": 3577291852,
+      "url": "http://arxiv.org/abs/2611.03641v1",
+      "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
+      "published_at": "2026-11-02T18:58:21+00:00",
+      "original_language": "en",
+      "summary_en": "Chain-of-Thought (CoT) generation has substantially improved the performance of Large Language Models (LLMs) on complex reasoning tasks, including code generation, data analysis, and exam-style question answering. Despite these advances, purely neural LLMs continue to struggle with elementary logica",
+      "summary_zh": "Chain-of-Thought (CoT) generation has substantially improved the performance of Large Language Models (LLMs) on complex reasoning tasks, including code generation, data analysis, and exam-style question answering. Despite these advances, purely neural LLMs continue to struggle with elementary logica",
+      "source": "arxiv_cs_cl",
+      "title_en": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 742433619,
+      "url": "http://arxiv.org/abs/2611.03634v1",
+      "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+      "published_at": "2026-11-02T18:57:36+00:00",
+      "original_language": "en",
+      "summary_en": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often ",
+      "summary_zh": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often ",
+      "source": "arxiv_cs_cl",
+      "title_en": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 362552808,
+      "url": "http://arxiv.org/abs/2611.03633v1",
+      "title": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap",
+      "published_at": "2026-11-02T18:56:43+00:00",
+      "original_language": "en",
+      "summary_en": "Muon has recently emerged as a promising optimizer for pretraining large language models, offering a speedup over AdamW in minimizing pretraining loss. However, it remains unclear whether Muon's advantage persists after fine-tuning. In this paper, we study the downstream behavior of Muon and AdamW a",
+      "summary_zh": "Muon has recently emerged as a promising optimizer for pretraining large language models, offering a speedup over AdamW in minimizing pretraining loss. However, it remains unclear whether Muon's advantage persists after fine-tuning. In this paper, we study the downstream behavior of Muon and AdamW a",
+      "source": "arxiv_cs_cl",
+      "title_en": "Pretraining Data Scale Reverses the Muon-AdamW Fine-Tuning Gap",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4160553258,
+      "url": "http://arxiv.org/abs/2611.03627v1",
+      "title": "Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reasoning Strategies in RLVR",
+      "published_at": "2026-11-02T18:53:54+00:00",
+      "original_language": "en",
+      "summary_en": "Reinforcement learning with verifiable rewards (RLVR) can enable generalizable improvement for large language model (LLM) reasoning. This paper studies how to incentivize such generalization via reasoning strategies. We study this question with a controllable equation-solving framework: finding mult",
+      "summary_zh": "Reinforcement learning with verifiable rewards (RLVR) can enable generalizable improvement for large language model (LLM) reasoning. This paper studies how to incentivize such generalization via reasoning strategies. We study this question with a controllable equation-solving framework: finding mult",
+      "source": "arxiv_cs_cl",
+      "title_en": "Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reasoning Strategies in RLVR",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3114167838,
+      "url": "http://arxiv.org/abs/2611.03625v1",
+      "title": "FADE: Factored Ability--Difficulty Filtering for Online RLVR Scheduling",
+      "published_at": "2026-11-02T18:53:23+00:00",
+      "original_language": "en",
+      "summary_en": "Group-based reinforcement learning with verifiable rewards (RLVR) learns only from prompts whose sampled completions disagree: all-pass and all-fail groups produce zero relative advantage and burn generation budget without moving the policy. Adaptive schedulers try to steer rollouts toward informati",
+      "summary_zh": "Group-based reinforcement learning with verifiable rewards (RLVR) learns only from prompts whose sampled completions disagree: all-pass and all-fail groups produce zero relative advantage and burn generation budget without moving the policy. Adaptive schedulers try to steer rollouts toward informati",
+      "source": "arxiv_cs_cl",
+      "title_en": "FADE: Factored Ability--Difficulty Filtering for Online RLVR Scheduling",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1884585177,
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "title": "Progress on provable inference for large language models",
+      "published_at": "2026-11-02T00:00:00",
+      "original_language": "en",
+      "summary_en": "We have made progress on a type of cryptographic proof known as a “zkSNARK.” In this post, we share some of that progress, primarily through a system we call FlashProve.",
+      "summary_zh": "We have made progress on a type of cryptographic proof known as a “zkSNARK.” In this post, we share some of that progress, primarily through a system we call FlashProve.",
+      "source": "anthropic_research",
+      "title_en": "Progress on provable inference for large language models",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1618657381,
+      "url": "https://unsupervised-learning.simplecast.com/episodes/ep-96-nebius-cto-on-racing-the-hyperscalers-before-aws-wakes-up-AZ_eCjjr",
+      "title": "Ep 96: Nebius CTO on Racing the Hyperscalers Before AWS Wakes Up",
+      "published_at": "2026-11-02T13:54:35",
+      "original_language": "en",
+      "summary_en": "Nebius CTO Danila Shtan joins Jacob Effron to talk about what it takes to run an AI cloud at the frontier, and why he thinks the hyperscalers haven’t won this market yet.\n\nToday Nebius is a Nasdaq-listed AI cloud with infrastructure deals with Microsoft and Meta.\n\nDanila and Jacob discuss why open-m",
+      "summary_zh": "Nebius CTO Danila Shtan joins Jacob Effron to talk about what it takes to run an AI cloud at the frontier, and why he thinks the hyperscalers haven’t won this market yet.\n\nToday Nebius is a Nasdaq-listed AI cloud with infrastructure deals with Microsoft and Meta.\n\nDanila and Jacob discuss why open-m",
+      "source": "unsupervised_learning",
+      "title_en": "Ep 96: Nebius CTO on Racing the Hyperscalers Before AWS Wakes Up",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1857635375,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-alpha.3",
+      "title": "deepseek-ai/deepseek-harness: v0.2.2-alpha.3",
+      "published_at": "2026-11-03T07:56:48+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.2-alpha.3-5) | [English](#en-v0.2.2-alpha.3-5)\r\n\r\n<h3 id=\"cn-v0.2.2-alpha.3-5\">新增功能</h3>\r\n\r\n- 支持统一右键与键盘菜单，覆盖会话、工作区和侧边栏，并支持开发者扩展 @std4453\r\n- 文件预览支持常驻目录树和文件定位功能。 @yudshj\r\n- 实验性「变更请求与工作树」统一代码审查与工作树入口，支持通过可搜索文件树和逐文件导航查看本地及 PR 差异，将选中代码和评论交给 Agent，并跟踪检查与评审状态。 @LegGasai\r\n\r\n### 体验优化\r\n\r\n- 改善手机端",
+      "summary_zh": "[中文](#cn-v0.2.2-alpha.3-5) | [English](#en-v0.2.2-alpha.3-5)\r\n\r\n<h3 id=\"cn-v0.2.2-alpha.3-5\">新增功能</h3>\r\n\r\n- 支持统一右键与键盘菜单，覆盖会话、工作区和侧边栏，并支持开发者扩展 @std4453\r\n- 文件预览支持常驻目录树和文件定位功能。 @yudshj\r\n- 实验性「变更请求与工作树」统一代码审查与工作树入口，支持通过可搜索文件树和逐文件导航查看本地及 PR 差异，将选中代码和评论交给 Agent，并跟踪检查与评审状态。 @LegGasai\r\n\r\n### 体验优化\r\n\r\n- 改善手机端",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.2-alpha.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 4135029986,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.6",
+      "title": "QwenLM/qwen-code: Release v0.26.6",
+      "published_at": "2026-11-02T18:22:40+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- Adds a Web Shell sidebar activity view for trusted workspace conversations, showing approval/input/error states, unread comp",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- Adds a Web Shell sidebar activity view for trusted workspace conversations, showing approval/input/error states, unread comp",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.6",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1919645164,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.5-nightly.20261102.0441faff21",
+      "title": "QwenLM/qwen-code: Release v0.26.5-nightly.20261102.0441faff21",
+      "published_at": "2026-11-02T22:31:13+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.5-nightly.20261102.0441faff21 -->\n\n\n\n**Full Changelog**: https://github.com/QwenLM/qwen-code/compare/v0.26.6...v0.26.5-nightly.20261102.0441faff21",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.5-nightly.20261102.0441faff21 -->\n\n\n\n**Full Changelog**: https://github.com/QwenLM/qwen-code/compare/v0.26.6...v0.26.5-nightly.20261102.0441faff21",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.5-nightly.20261102.0441faff21",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2782739717,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.27",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.27",
+      "published_at": "2026-11-02T19:09:07+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.6\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.4\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.6\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.4\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.27",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
