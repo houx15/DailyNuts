@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-04",
+  "items": [
+    {
+      "id": 1797955927,
+      "url": "http://arxiv.org/abs/2611.05377v1",
+      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "published_at": "2026-11-03T18:59:56+00:00",
+      "original_language": "en",
+      "summary_en": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations of",
+      "summary_zh": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations of",
+      "source": "arxiv_cs_cl",
+      "title_en": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4225406812,
+      "url": "http://arxiv.org/abs/2611.05376v1",
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "published_at": "2026-11-03T18:59:52+00:00",
+      "original_language": "en",
+      "summary_en": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, f",
+      "summary_zh": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, f",
+      "source": "arxiv_cs_cl",
+      "title_en": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3947826834,
+      "url": "http://arxiv.org/abs/2611.05373v1",
+      "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+      "published_at": "2026-11-03T18:59:15+00:00",
+      "original_language": "en",
+      "summary_en": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's gold response, large-",
+      "summary_zh": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's gold response, large-",
+      "source": "arxiv_cs_cl",
+      "title_en": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 422994749,
+      "url": "http://arxiv.org/abs/2611.05368v1",
+      "title": "GUILD: Guided Iterative Data Collection for Imitation Learning",
+      "published_at": "2026-11-03T18:57:35+00:00",
+      "original_language": "en",
+      "summary_en": "Imitation learning policies in robotics are trained on datasets collected through costly real-world teleoperation. Often, the data-collection process is unguided, relying on the teleoperator's intuition, resulting in data that contributes little to overall policy performance. Recent work has shown t",
+      "summary_zh": "Imitation learning policies in robotics are trained on datasets collected through costly real-world teleoperation. Often, the data-collection process is unguided, relying on the teleoperator's intuition, resulting in data that contributes little to overall policy performance. Recent work has shown t",
+      "source": "arxiv_cs_cl",
+      "title_en": "GUILD: Guided Iterative Data Collection for Imitation Learning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3080350251,
+      "url": "http://arxiv.org/abs/2611.05358v1",
+      "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+      "published_at": "2026-11-03T18:54:08+00:00",
+      "original_language": "en",
+      "summary_en": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalignment--that differ in what triggers the b",
+      "summary_zh": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalignment--that differ in what triggers the b",
+      "source": "arxiv_cs_cl",
+      "title_en": "Suppressing Misaligned Behaviors in Language Models, Durably",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 781192462,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.1",
+      "title": "deepseek-ai/deepseek-harness: v0.2.2-rc.1",
+      "published_at": "2026-11-04T13:07:14+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.2-rc.1-5) | [English](#en-v0.2.2-rc.1-5)\r\n\r\n作为 0.2.2 系列的首个候选版本，本版本汇总了自 v0.2.1-rc.5 以来的主要用户和开发者相关变更。\r\n\r\n<h3 id=\"cn-v0.2.2-rc.1-5\">新增功能</h3>\r\n\r\n- 完善手机和平板适配，优化软键盘交互、导航与窄屏布局，保持菜单和操作入口可用。 @Stevring, @turtle2099, @LegGasai, @EricMoin, @Saafo\r\n- 支持将聊天文本作为引用插入输入框，并在发送后显示紧凑预览。 @lsdsjy, @imccyu\r",
+      "summary_zh": "[中文](#cn-v0.2.2-rc.1-5) | [English](#en-v0.2.2-rc.1-5)\r\n\r\n作为 0.2.2 系列的首个候选版本，本版本汇总了自 v0.2.1-rc.5 以来的主要用户和开发者相关变更。\r\n\r\n<h3 id=\"cn-v0.2.2-rc.1-5\">新增功能</h3>\r\n\r\n- 完善手机和平板适配，优化软键盘交互、导航与窄屏布局，保持菜单和操作入口可用。 @Stevring, @turtle2099, @LegGasai, @EricMoin, @Saafo\r\n- 支持将聊天文本作为引用插入输入框，并在发送后显示紧凑预览。 @lsdsjy, @imccyu\r",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.2-rc.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2567835319,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7",
+      "title": "QwenLM/qwen-code: Release v0.26.7",
+      "published_at": "2026-11-04T04:03:01+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- Adds an operator-scoped model.catalogRefresh setting and lets privacy.usageStatisticsEnabled: false stop background catalog ",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- Adds an operator-scoped model.catalogRefresh setting and lets privacy.usageStatisticsEnabled: false stop background catalog ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.7",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3606651170,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.5.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.5.0",
+      "published_at": "2026-11-04T11:52:02+00:00",
+      "original_language": "en",
+      "summary_en": "### Minor Changes\n\n- [#4621](https://github.com/MoonshotAI/kimi-code/pull/4621) [`1b13934`](https://github.com/MoonshotAI/kimi-code/commit/1b13934ff83112ff7bb85f9afcfd1ab90fb0464a) Thanks [@Grapedge](https://github.com/Grapedge)! - Allow /model and /effort while the agent is working; a turn that has",
+      "summary_zh": "### Minor Changes\n\n- [#4621](https://github.com/MoonshotAI/kimi-code/pull/4621) [`1b13934`](https://github.com/MoonshotAI/kimi-code/commit/1b13934ff83112ff7bb85f9afcfd1ab90fb0464a) Thanks [@Grapedge](https://github.com/Grapedge)! - Allow /model and /effort while the agent is working; a turn that has",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.5.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 300989696,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.5.0-canary.20261104024245-8fc5e22",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.5.0-canary.20261104024245-8fc5e22",
+      "published_at": "2026-11-04T02:57:42+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* feat: sync running tasks over WebSocket and drop the REST task API by @wbxl2000 in https://github.com/MoonshotAI/kimi-code/pull/4535\n* feat(agent-core-v2): support running session forks by turn by @sailist in https://github.com/MoonshotAI/kimi-code/pull/4544\n* feat(agent-core-v2)",
+      "summary_zh": "## What's Changed\n* feat: sync running tasks over WebSocket and drop the REST task API by @wbxl2000 in https://github.com/MoonshotAI/kimi-code/pull/4535\n* feat(agent-core-v2): support running session forks by turn by @sailist in https://github.com/MoonshotAI/kimi-code/pull/4544\n* feat(agent-core-v2)",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.5.0-canary.20261104024245-8fc5e22",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
