@@ -1,0 +1,366 @@
+{
+  "date": "2026-11-06",
+  "items": [
+    {
+      "id": 4024244301,
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+      "title": "Detecting signs of hypertension using wearable sensors",
+      "published_at": "2026-11-05T16:01:08",
+      "original_language": "en",
+      "summary_en": "Health & Bioscience",
+      "summary_zh": "Health & Bioscience",
+      "source": "google_research",
+      "title_en": "Detecting signs of hypertension using wearable sensors",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 71438248,
+      "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+      "title": "Agile Deliberation: How AI helps humans define the gray areas",
+      "published_at": "2026-11-04T18:07:05",
+      "original_language": "en",
+      "summary_en": "Data Mining & Modeling",
+      "summary_zh": "Data Mining & Modeling",
+      "source": "google_research",
+      "title_en": "Agile Deliberation: How AI helps humans define the gray areas",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 122391621,
+      "url": "http://arxiv.org/abs/2611.08487v1",
+      "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+      "published_at": "2026-11-05T18:59:42+00:00",
+      "original_language": "en",
+      "summary_en": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embedd",
+      "summary_zh": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embedd",
+      "source": "arxiv_cs_cl",
+      "title_en": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1985694383,
+      "url": "http://arxiv.org/abs/2611.08483v1",
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "published_at": "2026-11-05T18:59:29+00:00",
+      "original_language": "en",
+      "summary_en": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must rep",
+      "summary_zh": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must rep",
+      "source": "arxiv_cs_cl",
+      "title_en": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 50840488,
+      "url": "http://arxiv.org/abs/2611.08472v1",
+      "title": "XStack: A Benchmark for ML Repo Migration",
+      "published_at": "2026-11-05T18:55:54+00:00",
+      "original_language": "en",
+      "summary_en": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware. This migration is (1",
+      "summary_zh": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware. This migration is (1",
+      "source": "arxiv_cs_cl",
+      "title_en": "XStack: A Benchmark for ML Repo Migration",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4156389946,
+      "url": "http://arxiv.org/abs/2611.08452v1",
+      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+      "published_at": "2026-11-05T18:45:36+00:00",
+      "original_language": "en",
+      "summary_en": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifac",
+      "summary_zh": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifac",
+      "source": "arxiv_cs_cl",
+      "title_en": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3393483230,
+      "url": "http://arxiv.org/abs/2611.08433v1",
+      "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+      "published_at": "2026-11-05T18:27:20+00:00",
+      "original_language": "en",
+      "summary_en": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated state,",
+      "summary_zh": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated state,",
+      "source": "arxiv_cs_cl",
+      "title_en": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 4024059076,
+      "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "title": "AI for scientific discovery: How researchers use Claude",
+      "published_at": "2026-11-05T00:00:00",
+      "original_language": "en",
+      "summary_en": "In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate re",
+      "summary_zh": "In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate re",
+      "source": "anthropic_research",
+      "title_en": "AI for scientific discovery: How researchers use Claude",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3995816696,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.8",
+      "title": "QwenLM/qwen-code: Release v0.26.8",
+      "published_at": "2026-11-05T16:23:57+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(mods): run prompt.submit hooks in the OpenTUI terminal ([#16195](https://github.com/QwenLM/qwen-code/pull/16195)) by @q",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(mods): run prompt.submit hooks in the OpenTUI terminal ([#16195](https://github.com/QwenLM/qwen-code/pull/16195)) by @q",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.8",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2052103074,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.8-nightly.20261105.7bd78683e6",
+      "title": "QwenLM/qwen-code: Release v0.26.8-nightly.20261105.7bd78683e6",
+      "published_at": "2026-11-05T22:47:13+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.8-nightly.20261105.7bd78683e6 -->\n\n## What's Changed\n* fix(channels): keep GitHub inbound recovery armed after a failed read by @wenshao in https://github.com/QwenLM/qwen-code/pull/16402\n* test(core): harden ren",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.8-nightly.20261105.7bd78683e6 -->\n\n## What's Changed\n* fix(channels): keep GitHub inbound recovery armed after a failed read by @wenshao in https://github.com/QwenLM/qwen-code/pull/16402\n* test(core): harden ren",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.8-nightly.20261105.7bd78683e6",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1899771653,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.28",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.28",
+      "published_at": "2026-11-05T17:33:49+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.8\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.6\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.8\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.26.6\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.28",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2819543033,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.26.8",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.26.8",
+      "published_at": "2026-11-05T18:48:55+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at 21ed8f1efbb351b973d96e2bc9efa78f278df99c -->\n\n## What's Changed\n* refactor(managed-agent): Share the session event delivery loop by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/15952\n* ci: route the classify_pr gate",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at 21ed8f1efbb351b973d96e2bc9efa78f278df99c -->\n\n## What's Changed\n* refactor(managed-agent): Share the session event delivery loop by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/15952\n* ci: route the classify_pr gate",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.26.8",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3200285310,
+      "url": "https://github.com/Tencent-Hunyuan/Hyra-results/releases/tag/hypde-weights",
+      "title": "Tencent-Hunyuan/Hyra-results: HyPDE weights",
+      "published_at": "2026-11-05T06:45:47+00:00",
+      "original_language": "en",
+      "summary_en": "Model weights for HyPDE.\n\n- File: `model.safetensors`\n- Format: Safetensors\n- Size: 1,293,902,212 bytes (1.29 GB)\n- SHA-256: `67f67339b501dd5bcaddccb233437d4f4dcc24189ecb79d4ff8f5a1fa3600e54`\n\nDownload and verify:\n\n```bash\ncurl -fL --retry 3 -o model.safetensors https://github.com/Tencent-Hunyuan/Hy",
+      "summary_zh": "Model weights for HyPDE.\n\n- File: `model.safetensors`\n- Format: Safetensors\n- Size: 1,293,902,212 bytes (1.29 GB)\n- SHA-256: `67f67339b501dd5bcaddccb233437d4f4dcc24189ecb79d4ff8f5a1fa3600e54`\n\nDownload and verify:\n\n```bash\ncurl -fL --retry 3 -o model.safetensors https://github.com/Tencent-Hunyuan/Hy",
+      "source": "hunyuan_github",
+      "title_en": "Tencent-Hunyuan/Hyra-results: HyPDE weights",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2095556406,
+      "url": "https://github.com/Tencent-Hunyuan/Hy-Memory/releases/tag/v1.0.6",
+      "title": "Tencent-Hunyuan/Hy-Memory: MemHub v1.0.6",
+      "published_at": "2026-11-06T09:40:25+00:00",
+      "original_language": "en",
+      "summary_en": "## What’s New / 本次更新\n\n- **Memory modes / 记忆模式**  \n  lite (no LLM; keeps raw conversations and searches them directly), pro (LLM extraction) and ultra (adds a knowledge graph and nightly consolidation). Choose one during onboarding or switch any time in Settings.  \n  lite（不需要大模型，保存原始对话并直接检索原文）、pro（大模",
+      "summary_zh": "## What’s New / 本次更新\n\n- **Memory modes / 记忆模式**  \n  lite (no LLM; keeps raw conversations and searches them directly), pro (LLM extraction) and ultra (adds a knowledge graph and nightly consolidation). Choose one during onboarding or switch any time in Settings.  \n  lite（不需要大模型，保存原始对话并直接检索原文）、pro（大模",
+      "source": "hunyuan_github",
+      "title_en": "Tencent-Hunyuan/Hy-Memory: MemHub v1.0.6",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3630376182,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.5.2",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.5.2",
+      "published_at": "2026-11-06T07:48:19+00:00",
+      "original_language": "en",
+      "summary_en": "### Patch Changes\n\n- [#4728](https://github.com/MoonshotAI/kimi-code/pull/4728) [`7b906ea`](https://github.com/MoonshotAI/kimi-code/commit/7b906ea345f40ed44aae3e759f5204d420e58482) Thanks [@sailist](https://github.com/sailist)! - Fix duplicate tool declaration errors in select_tools when MCP tool de",
+      "summary_zh": "### Patch Changes\n\n- [#4728](https://github.com/MoonshotAI/kimi-code/pull/4728) [`7b906ea`](https://github.com/MoonshotAI/kimi-code/commit/7b906ea345f40ed44aae3e759f5204d420e58482) Thanks [@sailist](https://github.com/sailist)! - Fix duplicate tool declaration errors in select_tools when MCP tool de",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.5.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 480962587,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.6.0-canary.20261106122412-eb2035f",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0-canary.20261106122412-eb2035f",
+      "published_at": "2026-11-06T12:54:00+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* chore: sync web dist from code-app by @kimi-agent-bot in https://github.com/MoonshotAI/kimi-code/pull/4741\n\n\n**Full Changelog**: https://github.com/MoonshotAI/kimi-code/compare/@moonshot-ai/kimi-code@2.6.0-canary.20261106115820-bc6fa89...@moonshot-ai/kimi-code@2.6.0-canary.202611",
+      "summary_zh": "## What's Changed\n* chore: sync web dist from code-app by @kimi-agent-bot in https://github.com/MoonshotAI/kimi-code/pull/4741\n\n\n**Full Changelog**: https://github.com/MoonshotAI/kimi-code/compare/@moonshot-ai/kimi-code@2.6.0-canary.20261106115820-bc6fa89...@moonshot-ai/kimi-code@2.6.0-canary.202611",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0-canary.20261106122412-eb2035f",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 71878323,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.6.0-canary.20261106115820-bc6fa89",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0-canary.20261106115820-bc6fa89",
+      "published_at": "2026-11-06T12:12:41+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* feat(kap-server): stream agent conversations as turns and items by @wbxl2000 in https://github.com/MoonshotAI/kimi-code/pull/4663\n* fix(kap-server): end streamed items once from the recorded step by @wbxl2000 in https://github.com/MoonshotAI/kimi-code/pull/4730\n* docs(changelog):",
+      "summary_zh": "## What's Changed\n* feat(kap-server): stream agent conversations as turns and items by @wbxl2000 in https://github.com/MoonshotAI/kimi-code/pull/4663\n* fix(kap-server): end streamed items once from the recorded step by @wbxl2000 in https://github.com/MoonshotAI/kimi-code/pull/4730\n* docs(changelog):",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0-canary.20261106115820-bc6fa89",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 369071434,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.6.0-canary.20261106040415-d37c9d2",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0-canary.20261106040415-d37c9d2",
+      "published_at": "2026-11-06T04:21:11+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* feat: add session title generation telemetry by @7Sageer in https://github.com/MoonshotAI/kimi-code/pull/4699\n* refactor: require explicit retryability for requester errors by @sailist in https://github.com/MoonshotAI/kimi-code/pull/4703\n* refactor(agent-core-v2): remove unwired ",
+      "summary_zh": "## What's Changed\n* feat: add session title generation telemetry by @7Sageer in https://github.com/MoonshotAI/kimi-code/pull/4699\n* refactor: require explicit retryability for requester errors by @sailist in https://github.com/MoonshotAI/kimi-code/pull/4703\n* refactor(agent-core-v2): remove unwired ",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0-canary.20261106040415-d37c9d2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1742282210,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.5.1",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.5.1",
+      "published_at": "2026-11-05T09:53:44+00:00",
+      "original_language": "en",
+      "summary_en": "### Patch Changes\n\n- [#4687](https://github.com/MoonshotAI/kimi-code/pull/4687) [`2af56d2`](https://github.com/MoonshotAI/kimi-code/commit/2af56d29aec857778705c33d80f23e0eddd63ec5) Thanks [@sailist](https://github.com/sailist)! - Fix repeated HTTP 400 errors in sessions caused by empty system messag",
+      "summary_zh": "### Patch Changes\n\n- [#4687](https://github.com/MoonshotAI/kimi-code/pull/4687) [`2af56d2`](https://github.com/MoonshotAI/kimi-code/commit/2af56d29aec857778705c33d80f23e0eddd63ec5) Thanks [@sailist](https://github.com/sailist)! - Fix repeated HTTP 400 errors in sessions caused by empty system messag",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.5.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
