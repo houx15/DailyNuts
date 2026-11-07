@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-07",
+  "items": [
+    {
+      "id": 3435698378,
+      "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+      "title": "Teaching AI to build scientific models",
+      "published_at": "2026-11-06T00:00:00",
+      "original_language": "en",
+      "summary_en": "In this guest post, Jakob Macke, Daniel Gedon, and Stefan Wahl discuss how AI is starting to change the scientific modeling process, from construction to interpretation.",
+      "summary_zh": "In this guest post, Jakob Macke, Daniel Gedon, and Stefan Wahl discuss how AI is starting to change the scientific modeling process, from construction to interpretation.",
+      "source": "anthropic_research",
+      "title_en": "Teaching AI to build scientific models",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 671580321,
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "title": "The components of agent memory",
+      "published_at": "2026-11-06T00:00:00",
+      "original_language": "en",
+      "summary_en": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
+      "summary_zh": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
+      "source": "anthropic_research",
+      "title_en": "The components of agent memory",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2616063147,
+      "url": "https://unsupervised-learning.simplecast.com/episodes/ep-97-jev-creator-on-decision-models-benchmark-fatigue-why-the-labs-missed-it-lw9nHzNX",
+      "title": "Ep 97: Jev Creator on Decision Models, Benchmark Fatigue & Why the Labs Missed It",
+      "published_at": "2026-11-05T14:05:50",
+      "original_language": "en",
+      "summary_en": "Jev creator and TypeSafe AI co-founder, Diogo Almeida, joins Jacob Effron to talk about why AI still isn't automating the easy work it's been smart enough to do for years, and why he built a new class of model around reliability.\n\nDiogo coauthored OpenAI's InstructGPT paper and spent two years in st",
+      "summary_zh": "Jev creator and TypeSafe AI co-founder, Diogo Almeida, joins Jacob Effron to talk about why AI still isn't automating the easy work it's been smart enough to do for years, and why he built a new class of model around reliability.\n\nDiogo coauthored OpenAI's InstructGPT paper and spent two years in st",
+      "source": "unsupervised_learning",
+      "title_en": "Ep 97: Jev Creator on Decision Models, Benchmark Fatigue & Why the Labs Missed It",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3124986562,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9-nightly.20261106.80fd7c3353",
+      "title": "QwenLM/qwen-code: Release v0.26.9-nightly.20261106.80fd7c3353",
+      "published_at": "2026-11-07T00:19:54+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.9-nightly.20261106.80fd7c3353 -->\n\n## What's Changed\n* test(interactive): poll the foreground-shell frame instead of snapshotting it by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/16455\n* test(manage",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.9-nightly.20261106.80fd7c3353 -->\n\n## What's Changed\n* test(interactive): poll the foreground-shell frame instead of snapshotting it by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/16455\n* test(manage",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.9-nightly.20261106.80fd7c3353",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2985884747,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9",
+      "title": "QwenLM/qwen-code: Release v0.26.9",
+      "published_at": "2026-11-06T16:07:57+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v2 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Skill installation and activation\n\nSkill ZIP uploads, daemon APIs, TypeScript SDK support, bulk activation, and recovery protections make installing and managing ",
+      "summary_zh": "<!-- qwen-release-notes:v2 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Skill installation and activation\n\nSkill ZIP uploads, daemon APIs, TypeScript SDK support, bulk activation, and recovery protections make installing and managing ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.9",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
