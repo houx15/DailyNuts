@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-08",
+  "items": [
+    {
+      "id": 2983064460,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9-nightly.20261107.65e1f1aeaa",
+      "title": "QwenLM/qwen-code: Release v0.26.9-nightly.20261107.65e1f1aeaa",
+      "published_at": "2026-11-08T01:39:29+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.9-nightly.20261107.65e1f1aeaa -->\n\n## What's Changed\n* docs(providers): document Wally under OpenAI-compatible providers by @sanchitmonga22 in https://github.com/QwenLM/qwen-code/pull/16529\n* fix(core): share on",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.26.9-nightly.20261107.65e1f1aeaa -->\n\n## What's Changed\n* docs(providers): document Wally under OpenAI-compatible providers by @sanchitmonga22 in https://github.com/QwenLM/qwen-code/pull/16529\n* fix(core): share on",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.26.9-nightly.20261107.65e1f1aeaa",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3695725811,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.30",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.30",
+      "published_at": "2026-11-08T00:55:56+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.27.0\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\nSee commit history for changes.",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.27.0\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\nSee commit history for changes.",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.30",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 730270882,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.0",
+      "title": "QwenLM/qwen-code: Release v0.27.0",
+      "published_at": "2026-11-07T20:45:25+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n- Managed-agent sessions can hold multiple child questions at once, answer them in any order, and keep drafts and errors separated per child. ([#16484](https://github.com/QwenLM/qwen-code/pull/16484))\n- Web Shell adds a task Q&A heatmap and an Ask for d",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n- Managed-agent sessions can hold multiple child questions at once, answer them in any order, and keep drafts and errors separated per child. ([#16484](https://github.com/QwenLM/qwen-code/pull/16484))\n- Web Shell adds a task Q&A heatmap and an Ask for d",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.27.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3270032188,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.0",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.27.0",
+      "published_at": "2026-11-08T01:06:39+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at 03b0c2435be1890a21b117860eaf389076787275 -->\n\n## What's Changed\n* fix(channels): keep GitHub inbound recovery armed after a failed read by @wenshao in https://github.com/QwenLM/qwen-code/pull/16402\n* test(core): harden renewa",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at 03b0c2435be1890a21b117860eaf389076787275 -->\n\n## What's Changed\n* fix(channels): keep GitHub inbound recovery armed after a failed read by @wenshao in https://github.com/QwenLM/qwen-code/pull/16402\n* test(core): harden renewa",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.27.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
