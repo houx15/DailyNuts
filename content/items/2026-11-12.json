@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-12",
+  "items": [
+    {
+      "id": 838357757,
+      "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+      "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+      "published_at": "2026-11-11T19:54:00",
+      "original_language": "en",
+      "summary_en": "This work addresses the challenge of identifying individuals at risk for cardiovascular-kidney-metabolic (CKM) syndrome using wearable device data. It proposes integrating continuous physiological signals from wearables to build personalized CKM risk profiles that inform tailored health coaching. This matters because it shifts prevention toward proactive, individualized intervention, potentially reducing disease progression and healthcare burden.",
+      "summary_zh": "该研究针对心血管-肾脏-代谢（CKM）综合征风险难以实时分层和个性化干预的问题，提出利用可穿戴设备持续采集多模态生理数据来构建 CKM 风险画像，并据此提供个性化健康指导。这一方法使早期、动态的风险识别与精准干预成为可能，有助于提升慢性病预防和管理效果。",
+      "source": "google_research",
+      "title_en": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1020234097,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.2",
+      "title": "deepseek-ai/deepseek-harness: v0.2.2-rc.2",
+      "published_at": "2026-11-11T11:33:06+00:00",
+      "original_language": "en",
+      "summary_en": "This release candidate improves the DeepSeek harness for code review and multi-agent collaboration. It adds Git Worktree support for reviewing changes by branch, commit, and file type with GitHub review syncing, plus named multi-layer SubAgents and session-based AgentTeams. Usability improvements reduce lag on large diffs, refine sub-agent navigation, and streamline plugin and personalization settings, making large-scale review and team coordination more efficient.",
+      "summary_zh": "DeepSeek-Harness v0.2.2-rc.2 主要解决代码审阅与多代理协作中的效率和体验问题，通过新增 Git Worktree 分支/提交审阅、具名多层 SubAgent 与 AgentTeam 会话协作，以及桌面端更新渠道切换等功能来改进工作流。其体验优化重点在于降低大型改动审阅卡顿、提升子代理任务协调与插件入口管理，从而增强开发者协作灵活",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.2-rc.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2811096420,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview.1",
+      "title": "QwenLM/qwen-code: Release v1.0.0-preview.1",
+      "published_at": "2026-11-12T14:25:49+00:00",
+      "original_language": "en",
+      "summary_en": "This release fixes an issue where Qwen subscription users couldn't access subscription models after sign-in by automatically syncing the model catalog with sign-in state and aligning it with Qwen Code 0.27.x. It also enables Qoder models to run tool calls in parallel, speeding up multi-tool tasks, and improves error messages. These changes streamline setup and improve both usability and performance for Qwen Code users.",
+      "summary_zh": "该版本修复了Qwen订阅账号登录后无法使用订阅模型的问题，使模型目录自动跟随登录状态，免去手动配置。同时同步了订阅模型目录与thinking-budget映射，并让Qoder模型支持并行工具调用，从而减少多工具任务的串行等待。这些改进降低了使用门槛并提升了多工具任务的执行效率。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v1.0.0-preview.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 677767043,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview",
+      "title": "QwenLM/qwen-code: Release v1.0.0-preview",
+      "published_at": "2026-11-11T03:55:44+00:00",
+      "original_language": "en",
+      "summary_en": "Qwen Code 1.0 Preview addresses the need for an integrated AI coding assistant by combining the agent capabilities of Qoder and Qwen Code for code understanding, implementation, debugging, and testing. It supports multiple accounts, model providers, and custom endpoints, and ships as native packages for macOS, Linux, and Windows without requiring a separate Node.js installation. This matters because it offers a more accessible, cross-platform environment for AI-assisted software development while consolidating previously separate agent features.",
+      "summary_zh": "Qwen Code 1.0 Preview 旨在解决代码理解、实现、调试和测试等开发任务，它整合了 Qoder 与 Qwen Code 的智能体能力，并支持多模型提供商和自定义兼容端点。该版本为 macOS、Linux 和 Windows 提供原生包，无需单独安装 Node.js，同时支持会话恢复，从而简化部署并提升开发工作流的连续性。目前处于预览阶段，接口和配置可能变动。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v1.0.0-preview",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1929398310,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.2",
+      "title": "QwenLM/qwen-code: Release v0.27.2",
+      "published_at": "2026-11-10T19:22:00+00:00",
+      "original_language": "en",
+      "summary_en": "Qwen Code v0.27.2 expands its Web Shell to support configuring WeChat, QQ, and Email notification channels, including QR login, scan progress, identity display, and logout. It also enhances Mods with one-off `$.model.complete` calls, `ui.render` rewriting of displayed AssistantMessage text, and persistent plugin value storage via `$.stor`. These updates improve integration flexibility and developer control over the coding assistant’s interface and messaging.",
+      "summary_zh": "该版本主要解决 Qwen Code 在外部通讯渠道接入和插件扩展能力上的不足。通过 Web Shell 新增微信、QQ、邮件等渠道配置（支持二维码登录、扫码进度、身份显示和退出），并为 Mods 提供一次性模型调用、界面文本重写和插件值持久化等能力。这使开发者能更灵活地集成常用通讯工具、构建功能更丰富的插件，提升交互体验与可扩展性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.27.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3302312161,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.2-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.27.2-preview.0",
+      "published_at": "2026-11-10T18:58:10+00:00",
+      "original_language": "en",
+      "summary_en": "This release addresses reliability and correctness issues in the Qwen code tooling: it fixes CI configuration to correctly read Prettier’s ignore set, allows an Agent Host to retry an enrollment when the previous answer was lost, and adds shape validation for `authorExclude` on inbound task records. These changes improve build consistency, enrollment robustness, and input validation in agent workflows.",
+      "summary_zh": "本次预览版主要修复了若干稳定性问题：包括 CI 中正确读取 prettier 忽略规则、允许 Agent Host 在注册应答丢失时重试，以及对入站任务记录中的 authorExclude 进行形状校验。这些修复旨在提升编码代理在通道通信、自动化流程和任务注册中的可靠性，减少因消息丢失或参数格式错误导致的故障。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.27.2-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3121238755,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.32",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.32",
+      "published_at": "2026-11-10T20:18:32+00:00",
+      "original_language": "en",
+      "summary_en": "This release covers the QwenLM/qwen-code TypeScript SDK v0.1.32, which bundles CLI versions 0.27.0, 0.27.1, and 0.27.2 built from the same source branch/ref as the SDK. It ensures the SDK stays aligned with recent CLI updates, though specific changes are available only in the commit history.",
+      "summary_zh": "该发布说明记录了 QwenLM/qwen-code TypeScript SDK v0.1.32 内置的 CLI 版本为 0.27.2，并回顾了此前内置的 0.27.1 和 0.27.0，所有 CLI 均从与 SDK 相同的分支/引用源码构建。这有助于开发者明确 SDK 与 CLI 的版本对应关系和构建来源，保障集成一致性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.32",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1873985377,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.6.0",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0",
+      "published_at": "2026-11-12T09:56:17+00:00",
+      "original_language": "en",
+      "summary_en": "This update improves the `fs:suggest` feature in kimi-code by aligning it with local `fd` completion behavior. It uses bounded scans and returns at most 20 results with optional streamed previews, includes hidden and gitignored paths by default, and ranks regular files first when match quality is equal. This makes filesystem suggestions more predictable, efficient, and consistent with local tooling.",
+      "summary_zh": "本次更新优化了 `fs:suggest` 文件建议功能，使其与本地 `fd` 补全行为对齐：采用有界扫描、最多返回 20 个结果并支持流式预览，同时默认包含隐藏和被 gitignore 的路径，在同等匹配质量下优先显示常规文件。这一改进提升了文件检索的效率和一致性，使代码辅助更符合开发者的实际使用预期。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1279211910,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.6.0-canary.20261112033252-d729f91",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0-canary.20261112033252-d729f91",
+      "published_at": "2026-11-12T03:48:45+00:00",
+      "original_language": "en",
+      "summary_en": "This release updates the Kimi Code agent framework to fix tool inheritance when forking agents, attach request metadata, preserve retry/background task behavior, and expose plugin hooks for refreshing agent profiles. These changes improve agent extensibility, observability, and reliability for downstream users.",
+      "summary_zh": "该版本主要修复并增强了 MoonshotAI kimi-code 的 agent-core-v2 与桌面端行为：包括分叉代理时继承基线工具、保留重试和后台任务行为，并新增 Kimi 请求元数据附加及插件代理配置刷新钩子。这些改动提升了多代理与插件场景下的稳定性和可扩展性，使开发者在使用代码代理时更可靠、更易集成。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0-canary.20261112033252-d729f91",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2116723717,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.6.0-canary.20261111095258-5518d54",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0-canary.20261111095258-5518d54",
+      "published_at": "2026-11-11T10:08:16+00:00",
+      "original_language": "en",
+      "summary_en": "This release of kimi-code addresses several stability and context-management bugs: it prevents compaction from being cancelled when reminders arrive mid-compaction, preserves Gemini context across turns, fixes Windows long-path startup crashes and file-search failures, and cleans up a redundant `turn_id` alias in file-history queries. These fixes improve the reliability of multi-turn agent behavior and cross-platform usability for the coding agent.",
+      "summary_zh": "## What's Changed\n* fix(agent-core-v2): stop cancelling compaction when reminders arrive mid-compaction by @liruifengv in https://github.com/MoonshotAI/kimi-code/pull/4822\n* fix(windows): 修复长路径启动崩溃与文件搜索失败 by @pvzheroes125 in https://github.com/MoonshotAI/kimi-code/pull/4825\n* refactor(kap-server): d",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0-canary.20261111095258-5518d54",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1590954136,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.6.0-canary.20261111052659-f26481d",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0-canary.20261111052659-f26481d",
+      "published_at": "2026-11-11T05:38:42+00:00",
+      "original_language": "en",
+      "summary_en": "This canary release of Kimi Code addresses reliability and flexibility in agentic coding workflows: it removes WebSocket handshake/ack overhead in kap-server, fixes direct Skill tool invocation and unstable primary workspace changes, and adds support for same-named skills across different workspace directories. These updates make skill execution more robust and improve multi-directory workspace usability for developers.",
+      "summary_zh": "该版本主要改进了 kimi-code 的通信与技能管理：重构 kap-server 移除了 WebSocket 握手和确认机制，简化了连接流程；同时修复了 Skill 工具直接调用和工作区变更稳定性问题，并支持跨工作区目录的同名技能。这些更新提升了编码代理的可靠性、扩展性和多工作区场景下的易用性。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.0-canary.20261111052659-f26481d",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}

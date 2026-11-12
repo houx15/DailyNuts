@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-12",
+  "headline_en": "Coding Agent Platforms Consolidate as Wearable AI Targets Chronic Disease Risk",
+  "lede_en": "Today's brief is dominated by a wave of coding-agent releases from Qwen, DeepSeek, and Kimi, signaling a shift from single assistants to orchestrated, multi-agent developer platforms. Qwen Code 1.0 Preview merges Qoder and Qwen Code into a native cross-platform package, while DeepSeek Harness adds team-based review and Kimi Code ships reliability fixes. In applied AI, Google Research uses wearable data to build personalized cardiovascular-kidney-metabolic risk profiles for coaching.",
+  "sections_en": [
+    {
+      "title": "Agent Engineering: Coding Assistants Grow into Collaborative Teams",
+      "body": "DeepSeek Harness v0.2.2-rc.2 introduces Git Worktree-based code review and named multi-layer SubAgents plus session-based AgentTeams, enabling large-scale, coordinated review workflows. Qwen Code 1.0 Preview consolidates Qoder and Qwen Code into a single integrated assistant with support for multiple accounts, custom endpoints, and native macOS, Linux, and Windows packages. Kimi Code canary releases fix tool inheritance when forking agents, attach request metadata, preserve retry/background task behavior, and expose plugin hooks for refreshing agent profiles. Together these updates show coding agents evolving beyond single-turn help toward reusable, extensible, team-oriented agent systems."
+    },
+    {
+      "title": "Platform Stability and Developer Experience",
+      "body": "Qwen Code 0.27.2 expands Web Shell notifications to WeChat, QQ, and Email, and adds one-off model calls, UI text rewriting, and persistent plugin storage. Qwen's TypeScript SDK v0.1.32 aligns with the latest CLI releases to keep SDK users current. Kimi Code 2.6.0 makes filesystem suggestions more predictable with bounded scans and ranked results, while canary patches fix Windows long-path crashes, Gemini context handling, and compaction cancellations. These incremental but critical fixes reduce friction for production use across platforms."
+    },
+    {
+      "title": "Applied AI: Wearables Enable Personalized CKM Risk Profiling",
+      "body": "Google Research addresses identifying cardiovascular-kidney-metabolic (CKM) syndrome risk by integrating continuous physiological signals from wearables into personalized risk profiles. The approach informs tailored health coaching, shifting prevention toward proactive, individualized intervention. In a day otherwise dominated by coding tools, this work is a reminder of AI's potential to reduce chronic disease progression and healthcare burden through continuous monitoring."
+    }
+  ],
+  "top_picks": [
+    838357757,
+    1020234097,
+    677767043,
+    1590954136
+  ],
+  "item_count": 11,
+  "source_breakdown": {
+    "google_research": 1,
+    "deepseek_github": 1,
+    "qwen_github": 5,
+    "moonshot_github": 4
+  },
+  "generated_at": "2026-11-12T16:35:10.188585Z",
+  "headline_zh": "编码 Agent 密集迭代：Qwen Code 预览发布与 Kimi 通信重构",
+  "lede_zh": "今日 AI 领域关注度集中在编码 Agent 的开发工具生态：Qwen Code 1.0 预览版上线并快速迭代通信渠道与稳定性，Kimi Code 重构内部通信并优化多代理行为，DeepSeek-Harness 则聚焦代码审阅与 SubAgent 协作。与此同时，Google Research 提出利用可穿戴设备构建心血管-肾脏-代谢综合征风险画像，将多模态健康数据用于动态、个性化干预。",
+  "sections_zh": [
+    {
+      "title": "Agent 工程：Qwen Code 生态密集发布",
+      "body": "Qwen Code 1.0 Preview 整合 Qoder 与 Qwen Code 智能体能力，原生支持多平台且无需单独安装 Node.js，并支持会话恢复，显著简化部署。围绕该预览版，团队快速修复订阅账号登录与模型目录同步问题，通过 Web Shell 新增微信、QQ、邮件渠道，并为 Mods 提供模型调用与界面改写能力，同时修复注册应答丢失与形状校验等稳定性问题。这些迭代降低了使用门槛，并提升了多工具任务的执行效率与外部通讯集成的灵活性。"
+    },
+    {
+      "title": "Agent 工程：多代理协作与通信重构",
+      "body": "DeepSeek-Harness v0.2.2-rc.2 引入 Git Worktree 分支/提交审阅、具名多层 SubAgent 与 AgentTeam 会话协作，缓解大型改动审阅卡顿并提升子代理任务协调。Kimi Code 则从底层重构 kap-server，移除 WebSocket 握手与确认机制以简化连接流程，并修复分叉代理的工具继承、长路径启动崩溃及 Skill 工具调用稳定性。两者共同显示，编码 Agent 的竞争焦点正从单模型能力转向多代理协作的可靠性与通信架构。"
+    },
+    {
+      "title": "应用与产品：可穿戴设备推动 CKM 风险动态管理",
+      "body": "Google Research 提出利用可穿戴设备持续采集多模态生理数据，构建心血管-肾脏-代谢（CKM）综合征风险画像，并据此提供个性化健康指导。这一方法将早期、动态的风险识别与精准干预结合起来，使慢性病预防从静态评估转向实时分层管理，为可穿戴设备在医疗健康场景中开辟了更落地的应用路径。"
+    }
+  ]
+}
