@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-13",
+  "headline_en": "ArchSpace, Agent Memory, and Diffusion Verifiers Lead Today's AI Research",
+  "lede_en": "Today's research agenda centers on making model development more transparent, evaluable, and agentic. ArchSpace offers a public platform for recording and scaling architecture experiments, while new work on diffusion regeneration and cost-aware memory pushes autonomous systems toward better reasoning and efficiency. Meanwhile, coding assistant vendors shipped incremental reliability and usability fixes rather than new capabilities.",
+  "sections_en": [
+    {
+      "title": "Architecture & Evaluation Infrastructure",
+      "body": "ArchSpace tackles the opacity of LLM architecture research by providing a public record where proposals can be reviewed and evaluated with scaling-law predictions, lowering the cost of identifying ideas that truly scale. In a complementary move, DiVR addresses decoding-time uncertainty in diffusion language models by training a verifier to predict when a partial sequence will succeed, lifting LLaDA-8B-Base accuracy from 35.3% to 43.4% on reasoning benchmarks without retraining the generator. Together these projects signal a maturing evaluation culture: cheaper, more systematic testing of both architectural and decoding hypotheses."
+    },
+    {
+      "title": "Agent Engineering",
+      "body": "AgentSSL recasts semi-supervised learning as a program search problem for MLE agents, showing agents can combine established techniques to beat human baselines but exposing a 47% performance drop when selection relies on noisy agent feedback. CoReMem gives coding agents a cost-aware memory that estimates the value of stored segments against future tasks, improving long-horizon repository work without ignoring read/write overhead. Internalizing investment mandates extends this agent autonomy to finance by embedding regulatory constraints into continuous-action RL through reparameterized sampling. The common thread is agents that learn their own constraints—data, memory, or compliance—rather than relying on post-hoc fixes."
+    },
+    {
+      "title": "Model Releases & Developer Tooling",
+      "body": "Today's release notes from DeepSeek, Qwen, and Moonshot emphasize workflow continuity and reliability. DeepSeek Harness v0.2.2-rc.3 adds an experimental plugin to import past conversations and fixes a Windows auto-reopen bug; qwen-code improves visibility of background tasks and hardens CI, enrollment, and channel handling across desktop and SDK; kimi-code speeds session restoration and improves terminal transcript grouping. These are incremental patches, but they reflect how much of the current coding-agent race is being fought on usability and robustness."
+    }
+  ],
+  "top_picks": [
+    3866272011,
+    988178347,
+    1060407424
+  ],
+  "item_count": 12,
+  "source_breakdown": {
+    "arxiv_cs_cl": 5,
+    "deepseek_github": 1,
+    "qwen_github": 4,
+    "moonshot_github": 2
+  },
+  "generated_at": "2026-11-13T15:54:02.931724Z",
+  "headline_zh": "今日共采集 12 项内容",
+  "lede_zh": "今日共采集 12 项内容。",
+  "sections_zh": []
+}

@@ -1,0 +1,233 @@
+{
+  "date": "2026-11-13",
+  "items": [
+    {
+      "id": 3866272011,
+      "url": "http://arxiv.org/abs/2611.17332v1",
+      "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "published_at": "2026-11-12T18:59:52+00:00",
+      "original_language": "en",
+      "summary_en": "ArchSpace addresses the lack of transparent documentation for LLM architecture research—where industry ideas often go unreported and academic evaluations are limited by compute and inconsistent baselines—by providing a public platform to record, review, and reference architecture proposals. It uses scaling laws to predict larger-scale model loss from smaller experiments, enabling cheaper, more reliable evaluation of architectural ideas before costly training. This matters because it helps the community identify which innovations scale and translate into broader impact.",
+      "summary_zh": "ArchSpace 旨在解决 LLM 架构研究中业界创新经验不透明、学术界评估规模有限且基线不一致的问题。该平台通过记录、社区评审和引用架构提案，并利用缩放定律从小规模实验预测大规模模型损失，从而在昂贵训练前评估想法。这有助于筛选真正可扩展的架构创新，推动产学研更高效、可信地迭代。",
+      "source": "arxiv_cs_cl",
+      "title_en": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 988178347,
+      "url": "http://arxiv.org/abs/2611.17329v1",
+      "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+      "published_at": "2026-11-12T18:59:37+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses making deep RL portfolio allocation comply with institutional investment mandates, which existing neurosymbolic methods can’t handle due to continuous action spaces. It introduces a PLPG-inspired approach that estimates constraint satisfaction of the policy’s own actions via reparameterized Monte Carlo sampling and adds this to the training objective, so compliance is learned without post-hoc correction. This matters because it enables autonomous portfolio agents to satisfy real-world regulatory constraints while retaining performance.",
+      "summary_zh": "本文解决深度强化学习在机构投资组合配置中不满足投资政策约束、且现有神经符号方法仅支持离散动作空间的问题。作者提出一种受PLPG启发的连续分配方法，通过重参数化蒙特卡洛采样估计策略自身动作满足投资委托的概率并加入训练目标，使智能体无需事后强制干预即可学习合规。该方法将合规约束内化于连续动作空间的强化学习，有助于在真实机构场景中部署。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1060407424,
+      "url": "http://arxiv.org/abs/2611.17323v1",
+      "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+      "published_at": "2026-11-12T18:59:06+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the challenge of applying machine learning to new domains with scarce labeled data by introducing Agentic Semi-Supervised Learning (AgentSSL), which frames semi-supervised learning as a program search problem for MLE agents. It finds that agents can synthesize code combining and adapting established SSL techniques to beat strong human baselines in most tested settings, but also identifies program selection as a critical bottleneck, with performance dropping up to 47% when relying on the agent’s feedback metric. This matters because it shows both the promise and key failure mode of automating SSL pipeline design under realistic limited-supervision conditions.",
+      "summary_zh": "本文针对机器学习系统在新领域中标签数据稀缺但无标签数据丰富时，MLE智能体能否利用未标记数据的问题，提出了AgentSSL框架，将半监督学习建模为程序搜索任务。研究发现，即使在弱反馈和相同算力下，智能体也能自动合成并组合现有SSL技术，在12个设置中的8个上超越最强人工基线，最高提升21.8%；但程序选择成为关键瓶颈，基于智能体自身反馈指标选择时性能最多下降47%，表明MLE智能体具备利用无标签数据的潜力，但可靠的选择机制仍亟待解决。",
+      "source": "arxiv_cs_cl",
+      "title_en": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 315931218,
+      "url": "http://arxiv.org/abs/2611.17320v1",
+      "title": "Learning When Diffusion Language Models Should Regenerate",
+      "published_at": "2026-11-12T18:58:50+00:00",
+      "original_language": "en",
+      "summary_en": "The paper addresses the problem of knowing when and what to revise in diffusion language models that use remasking, since token confidence is unreliable and isolated error remasking often reproduces mistakes. It introduces DiVR, a verifier trained on the model’s own trajectories to predict whether a partial sequence will lead to a correct answer, thereby deciding when to regenerate a block and which alternative to keep without changing the generator. On reasoning benchmarks with LLaDA-8B-Base, DiVR improves accuracy from 35.3% to 43.4% at lower cost than search baselines, showing it is an effective and efficient complement to existing post-training methods.",
+      "summary_zh": "该工作解决扩散语言模型在重掩码修正时“何时改、改哪里”不明确的问题，诊断发现隐藏状态含错误信息但 token 置信度不可靠，且孤立重掩码常复现原错误。为此提出验证器 DiVR，在不改动生成器的前提下预测部分生成序列能否最终正确，并据此决定是否重生成块及保留哪个候选；在多个推理基准上以更低搜索成本显著提升 LLaDA-8B 的准确率，并能与微调、强化学习等后训练方法互补。",
+      "source": "arxiv_cs_cl",
+      "title_en": "Learning When Diffusion Language Models Should Regenerate",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1098996156,
+      "url": "http://arxiv.org/abs/2611.17316v1",
+      "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+      "published_at": "2026-11-12T18:58:22+00:00",
+      "original_language": "en",
+      "summary_en": "CoReMem addresses the challenge of coding agents retaining useful memory across successive tasks on evolving repositories while accounting for the costs of writing and reading that memory. It introduces prospective segment valuation and on-policy actor adaptation to estimate memory value against the next task, building compact, anchored memory and rewarding efficient resolution. This matters because it enables cost-aware, task-agnostic memory selection that improves performance and efficiency for long-horizon coding agents.",
+      "summary_zh": "针对编码智能体在连续任务中需为未知下一任务选择记忆、平衡未来效用与读写成本的问题，CoReMem 框架通过前瞻性片段估值比较有无特定轨迹片段时的下一任务表现，围绕仓库位置和可执行检查构建紧凑记忆，并用来源门控价值分配与奖励设计（优先解决、惩罚步数）来适应智能体策略。其关键在于将记忆成本内化到价值评估中，从而提升编码智能体在演化仓库上连续任务间的效率与泛化能力。",
+      "source": "arxiv_cs_cl",
+      "title_en": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3212858811,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.3",
+      "title": "deepseek-ai/deepseek-harness: v0.2.2-rc.3",
+      "published_at": "2026-11-13T07:56:55+00:00",
+      "original_language": "en",
+      "summary_en": "This release of DeepSeek Harness v0.2.2-rc.3 addresses workflow continuity and desktop reliability by adding an experimental plugin that imports past DeepSeek App or web conversations into a workspace so users can continue chatting. It also fixes a Windows desktop bug where in-app updates could fail and prevent automatic reopening. These changes improve cross-platform usability and preserve conversational context for continued work.",
+      "summary_zh": "该版本主要解决 DeepSeek 用户无法将 App 或网页版历史会话迁移到工作区继续对话的问题，通过新增实验性会话导入插件实现跨端会话续接。同时修复了 Windows 桌面版应用内更新失败且无法自动重启的缺陷，从而提升使用连续性与桌面端更新稳定性。",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.2-rc.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 943600181,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.3",
+      "title": "QwenLM/qwen-code: Release v0.27.3",
+      "published_at": "2026-11-13T00:24:34+00:00",
+      "original_language": "en",
+      "summary_en": "This release improves qwen-code’s interface by replacing the status-bar task pill with chips above the Web Shell composer, making unfinished background workflows, shells, monitors, and local agents more visible and accessible. It also adds Chinese localization for GitHub channel event prompts in PR-bound sessions, enhancing usability for Chinese-speaking users, with no known breaking changes.",
+      "summary_zh": "QwenLM/qwen-code v0.27.3 主要解决了后台任务可见性不足和中文用户本地化体验不佳的问题：通过在 Web Shell 输入框上方新增 chips 组件，集中展示未完成的后台工作流、shell、监控和本地代理，替代原先的状态栏任务小图标。该版本还增加了 PR 关联会话中 GitHub 渠道事件提示的中文本地化。这些改进提升了多任务并行时的可管理性，并改善了中文开发者的交互体验。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.27.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 133414320,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.33",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.33",
+      "published_at": "2026-11-13T01:14:28+00:00",
+      "original_language": "en",
+      "summary_en": "This release notes document for the QwenLM/qwen-code TypeScript SDK v0.1.33 specifies that it bundles CLI versions 0.27.0 through 0.27.3, each built from the same source branch/ref as the SDK. The key purpose is to keep the SDK and CLI aligned, ensuring developers receive a compatible command-line interface directly within the SDK package. This matters because it simplifies installation and guarantees consistency between programmatic and CLI-based usage.",
+      "summary_zh": "该版本说明 QwenLM/qwen-code 的 TypeScript SDK v0.1.33 与其内置 CLI 版本（0.27.0 至 0.27.3）保持同源构建，确保 SDK 与命令行工具行为一致。这对开发者集成和调试很重要，能避免版本不匹配导致的兼容性问题。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.33",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1486199784,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.3",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.27.3",
+      "published_at": "2026-11-13T01:18:29+00:00",
+      "original_language": "en",
+      "summary_en": "This patch release for Qwen Code Desktop v0.27.3 fixes reliability issues in CI, agent enrollment, and channel handling. It corrects Prettier ignore detection at the base commit, lets an Agent Host retry enrollments when a response is lost, and shape-checks `authorExclude` on inbound task records, improving workflow and communication robustness.",
+      "summary_zh": "Qwen Code Desktop v0.27.3 主要修复了若干可靠性问题：CI 中完整读取 prettier 忽略规则，Agent Host 在注册响应丢失时自动重试，以及对入站任务记录中的 authorExclude 字段进行结构校验。这些修复提升了自动化流程和任务分发的健壮性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.27.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 417058261,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.2-nightly.20261112.70a487be84",
+      "title": "QwenLM/qwen-code: Release v0.27.2-nightly.20261112.70a487be84",
+      "published_at": "2026-11-12T22:27:16+00:00",
+      "original_language": "en",
+      "summary_en": "This nightly release of Qwen Code addresses stability issues in managed agents by releasing MCP owner resources when sessions close and hardening Harness error-code parsing, host reading, and exception handling. It also adds documentation for Wiro AI as an OpenAI-compatible provider. These fixes improve reliability for agent-based workflows and expand provider configuration guidance.",
+      "summary_zh": "该版本是 Qwen Code 的夜间发布，主要修复 managed-agent 在会话关闭时释放 MCP 所有者资源，并增强 Harness 的错误码解析、主机读取与异常原因处理，以提升代理运行稳定性。同时补充了 Wiro AI 作为 OpenAI 兼容提供方的文档，有助于用户更可靠地集成和使用该服务。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.27.2-nightly.20261112.70a487be84",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3987679874,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.6.1",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.1",
+      "published_at": "2026-11-13T07:11:15+00:00",
+      "original_language": "en",
+      "summary_en": "This patch release for MoonshotAI/kimi-code addresses a performance bug that caused multi-second loading delays when reopening long sessions. The fix improves session restore speed, making continued work in lengthy conversations more responsive and efficient.",
+      "summary_zh": "该版本主要修复了重新打开较长会话时出现数秒加载延迟的问题（PR #4888），并包含其他补丁改动。此修复有助于提升长时间会话恢复的响应速度和整体用户体验。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1127843202,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.7.0-canary.20261113055733-391d9e7",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.7.0-canary.20261113055733-391d9e7",
+      "published_at": "2026-11-13T06:14:12+00:00",
+      "original_language": "en",
+      "summary_en": "This canary release of MoonshotAI/kimi-code improves terminal UI transcript handling by keeping cron and MCP authorization calls out of compact transcript groups, so background or authorization activity does not get collapsed with normal conversation turns. It also fixes agent-core-v2 so a configured timeout of 0 disables the subagent deadline instead of imposing an immediate limit. These changes make context grouping and subagent timeout behavior more reliable for AI coding workflows.",
+      "summary_zh": "该版本主要改进了 Kimi Code 的终端界面与代理调度：将 cron 任务和 MCP 授权调用移出紧凑对话分组，以提升交互记录的可读性；同时修复在 `timeoutMs` 为 0 时仍为子代理设置截止时间的问题，确保长时任务不会被意外中断。这些改动有助于提升终端会话的清晰度和多代理执行的稳定性。",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.7.0-canary.20261113055733-391d9e7",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
