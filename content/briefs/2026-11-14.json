@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-14",
+  "headline_en": "Safety Evaluation Guidance Matures as Coding Agents Add Filesystem and Feedback Flexibility",
+  "lede_en": "Today's AI/ML landscape spans responsible deployment and agent infrastructure. Anthropic offers practical guidance for stronger safety evaluations, while Qwen and Kimi ship coding agent updates that improve filesystem-aware sessions and configurable search/feedback endpoints. Google Research also spotlights Antigravity's /teamwork for collaborative science and engineering education, underscoring AI's broadening role in technical work.",
+  "sections_en": [
+    {
+      "title": "Safety & Evaluation",
+      "body": "Anthropic's 'Building strong safety evaluations' provides practical recommendations for designing, running, and reporting safety assessments based on firsthand deployment experience. The guidance is timely as coding agents become more filesystem-aware and autonomous, raising the stakes for reliable pre-deployment risk identification. Robust evaluations remain essential for catching failure modes before they reach users."
+    },
+    {
+      "title": "Coding Agents & Infrastructure",
+      "body": "Qwen Code and Kimi Code releases reflect incremental but meaningful maturation of coding agent infrastructure. Qwen Code registers client filesystems into managed sessions and plans long channel replies as ordered multi-segment deliveries, improving access and reliability for extended interactions. Kimi Code adds optional search_url and feedback_url fields for custom registry providers, giving users more control over WebSearch and /feedback integrations. Together, these updates point toward more configurable, long-running, filesystem-aware agent workflows."
+    },
+    {
+      "title": "Collaborative Tools for Science & Engineering",
+      "body": "Google Research highlights Antigravity's /teamwork feature as a collaborative tool aimed at advancing science and engineering education. By enabling integrated teamwork functionality, it supports better coordination and collective problem-solving in technical learning environments. This development illustrates AI's growing application beyond model releases and evals, into education innovation and team-based technical work."
+    }
+  ],
+  "top_picks": [
+    1402273207,
+    3213080047,
+    3287491530
+  ],
+  "item_count": 4,
+  "source_breakdown": {
+    "google_research": 1,
+    "anthropic_research": 1,
+    "qwen_github": 1,
+    "moonshot_github": 1
+  },
+  "generated_at": "2026-11-14T14:43:29.475004Z",
+  "headline_zh": "安全评估立新规，Agent 工程强长任务，教育协作引关注",
+  "lede_zh": "今日AI领域呈现三条主线：Anthropic 提出系统性的安全评估设计与报告建议，推动安全测试从经验走向规范；Qwen 与 Moonshot 在 Agent 工程侧提升长会话、多文件场景下的可靠性；谷歌研究则将 Antigravity 的协作功能带入科学与工程教育。",
+  "sections_zh": [
+    {
+      "title": "评估与对齐：安全测试呼唤规范化",
+      "body": "Anthropic 团队基于自身经验，提出安全评估在设计、运行和报告环节的系统性建议，旨在提升安全测试的可靠性与可复现性。这一倡议回应了当前 AI 安全评估缺乏统一规范的问题，使安全决策能够建立在更可信的证据之上。对行业而言，这意味着安全评估正在从零散实践走向方法论沉淀。"
+    },
+    {
+      "title": "Agent 工程：长任务与多文件场景的可靠性升级",
+      "body": "Qwen 的托管代理更新将客户端文件系统注册到会话中，并把长通道回复规划为有序的多段投递，显著增强了编码助手在复杂会话中的上下文访问与消息传输能力。Moonshot 的 Kimi Code 则补充了自定义 registry 上的 search_url 与 feedback_url 可选字段，进一步提升外部集成的灵活性。两项发布共同指向一个趋势：Agent 工程正在从单轮问答走向长周期、多文件、可观测的复杂任务执行。"
+    },
+    {
+      "title": "应用与产品：AI 协作进入科学与工程教育",
+      "body": "谷歌研究团队将 Antigravity 的 /teamwork 功能用于科学与工程教育，以促进团队合作与跨学科交流。其核心逻辑是通过教育创新推动科研协作，解决传统教学中协作与创新不足的问题。这一案例说明，AI 协作工具的边界正在从代码与办公场景扩展到专业教育与科研训练。"
+    }
+  ]
+}

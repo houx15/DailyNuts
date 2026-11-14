@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-14",
+  "items": [
+    {
+      "id": 3287491530,
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "title": "Advancing science & engineering with Antigravity’s /teamwork",
+      "published_at": "2026-11-13T20:47:18",
+      "original_language": "en",
+      "summary_en": "This item highlights how Antigravity’s /teamwork feature addresses the need for collaborative tools in science and engineering education. Its key approach is using integrated teamwork functionality to advance technical learning and innovation. It matters because it supports education innovation by enabling better coordination and collective problem-solving.",
+      "summary_zh": "该内容针对科学与工程教育中协作与创新不足的问题，提出利用 Antigravity 的 /teamwork 功能促进团队合作与跨学科交流。其核心在于通过教育创新推动科学与工程领域的进步，对提升教学效果和科研协作具有重要意义。",
+      "source": "google_research",
+      "title_en": "Advancing science & engineering with Antigravity’s /teamwork",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1402273207,
+      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "title": "Building strong safety evaluations",
+      "published_at": "2026-11-13T00:00:00",
+      "original_language": "en",
+      "summary_en": "This work addresses the challenge of rigorously evaluating AI safety by offering practical recommendations for designing, running, and reporting safety evaluations based on the authors’ own experiences. Its key contribution is a set of guidelines aimed at making safety assessments more reliable and informative. This matters because robust evaluations are essential for identifying risks and ensuring AI systems are safe before deployment.",
+      "summary_zh": "该文针对安全评估在设计与执行中缺乏规范的问题，基于作者自身经验提出系统性的设计、运行和报告建议。其核心是通过更严谨的评估流程提升安全测试的可靠性与可复现性，从而为AI系统的安全决策提供更可信的依据。",
+      "source": "anthropic_research",
+      "title_en": "Building strong safety evaluations",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3213080047,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.2-nightly.20261113.6f754be654",
+      "title": "QwenLM/qwen-code: Release v0.27.2-nightly.20261113.6f754be654",
+      "published_at": "2026-11-14T11:31:46+00:00",
+      "original_language": "en",
+      "summary_en": "This release improves Qwen Code’s managed agent by registering client filesystems into managed sessions and planning long channel replies as ordered multi-segment deliveries, addressing access and reliability for extended interactions. It also adds a web-shell test for opening the shadow overview from its footer entry. These changes matter for more robust, filesystem-aware agent sessions and better delivery of lengthy responses.",
+      "summary_zh": "该版本主要改进了托管代理（managed-agent）的功能：将客户端文件系统注册到托管会话中，并将长通道回复规划为有序的多段投递，从而增强代理在复杂会话中的上下文访问与消息传输能力。此外还补充了 web-shell 相关测试。这些改动有助于提升 AI 编码助手在长任务和多文件场景下的可靠性与可控性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.27.2-nightly.20261113.6f754be654",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2394553279,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.6.2",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.2",
+      "published_at": "2026-11-13T17:20:51+00:00",
+      "original_language": "en",
+      "summary_en": "This update to Kimi Code v2.6.2 adds support for optional `search_url` and `feedback_url` fields on custom registry providers, allowing customized `WebSearch` and `/feedback` integrations. The change improves flexibility for users configuring external search and feedback endpoints through custom API registries.",
+      "summary_zh": "### Patch Changes\n\n- [#4875](https://github.com/MoonshotAI/kimi-code/pull/4875) [`4c72e1d`](https://github.com/MoonshotAI/kimi-code/commit/4c72e1d53b33c69c5f3e2bd293cb117577becbd7) Thanks [@7Sageer](https://github.com/7Sageer)! - Support optional `search_url` and `feedback_url` fields on custom regi",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.6.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
