@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-15",
+  "headline_en": "Qwen Code Release Tightens Secure Managed Agent Workflows and SDK-CLI Alignment",
+  "lede_en": "QwenLM's qwen-code ecosystem shipped a coordinated release wave today, with CLI and desktop v0.27.4 tightening managed-agent security and long-reply delivery. The updates let managed sessions access approved local directories without persisting credentials, deliver Feishu/WeCom webhook replies as ordered segments instead of truncations, and align the TypeScript SDK with its bundled CLI for reproducibility.",
+  "sections_en": [
+    {
+      "title": "Agent Engineering",
+      "body": "The CLI and Desktop v0.27.4 updates both target managed agent reliability. Managed sessions can now register client filesystems and access approved local directories, and an interactive Managed Web Terminal can be opened without persisting credentials or paths, reducing the risk of secret or path leakage in secure local tool use. Long replies destined for Feishu and WeCom webhooks are planned as ordered multi-segment deliveries rather than being truncated, which matters for enterprise notification and collaboration workflows. The Desktop release adds a web-shell test for the shadow overview footer, reflecting the same managed-agent focus."
+    },
+    {
+      "title": "Other: SDK-CLI Version Alignment",
+      "body": "The TypeScript SDK v0.1.34 is a reproducibility play: it bundles a CLI built from the same source branch and ref as the SDK, and lists the successive CLI versions included, 0.27.1 through 0.27.4. This makes it explicit which command-line interface ships with the SDK, so developers can debug and reproduce behavior without guessing about version mismatch. It complements the managed-agent changes by ensuring SDK-driven workflows are tied to the exact CLI that implements the new filesystem and webhook features."
+    }
+  ],
+  "top_picks": [
+    4185126249,
+    3791873470,
+    347304048
+  ],
+  "item_count": 3,
+  "source_breakdown": {
+    "qwen_github": 3
+  },
+  "generated_at": "2026-11-15T15:10:15.653703Z",
+  "headline_zh": "Qwen Code 托管代理打通本地资源与消息推送，SDK 对齐 CLI 版本",
+  "lede_zh": "今日 AI/ML 动态聚焦 QwenLM/qwen-code 的工程化更新：桌面端 v0.27.4 让托管代理可访问授权本地目录与交互式终端，并将长回复有序分段推送至飞书和企业微信。TypeScript SDK v0.1.34 则捆绑同一源码构建的 CLI 0.27.1–0.27.4，保证 SDK 与命令行功能一致。这些变化降低了远程编码代理的使用门槛，并提升企业消息通知的完整性与可靠性。",
+  "sections_zh": [
+    {
+      "title": "Agent 工程：托管代理的本地操作与长消息可靠性",
+      "body": "Qwen Code Desktop v0.27.4 与相关托管代理更新共同解决了两个关键痛点：一是允许托管代理将客户端文件系统注册到会话，访问已授权本地目录并打开交互式终端，且不持久化凭据或路径，兼顾能力与安全；二是将长通道回复规划为有序多段传递，输出到飞书和企业微信 webhook，避免消息截断。这意味着编码代理在远程或复杂交互中的本地操作能力和通知完整性均得到增强。"
+    },
+    {
+      "title": "应用与产品：TypeScript SDK 与 CLI 版本对齐",
+      "body": "QwenLM/qwen-code 的 TypeScript SDK v0.1.34 重点解决 SDK 与 CLI 版本一致性问题，捆绑由相同分支/引用源码构建的 CLI 0.27.1 至 0.27.4。开发者可在 TypeScript 项目中获得与命令行工具匹配的功能，减少版本错配带来的集成障碍。这一更新与桌面端发布形成连贯的工程节奏，进一步巩固 Qwen Code 作为编码代理产品的开发者体验。"
+    }
+  ]
+}

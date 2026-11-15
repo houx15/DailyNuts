@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-15",
+  "items": [
+    {
+      "id": 4185126249,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.4",
+      "title": "QwenLM/qwen-code: Release v0.27.4",
+      "published_at": "2026-11-15T07:04:40+00:00",
+      "original_language": "en",
+      "summary_en": "Release v0.27.4 of QwenLM/qwen-code improves managed agent deployments by letting sessions access approved local directories and open an interactive Managed Web Terminal without persisting credentials or paths, addressing secure local tool use. It also adds Feishu and WeCom webhook output support, delivering long managed-channel replies as ordered segments instead of truncating them, which matters for reliable enterprise collaboration and notification workflows.",
+      "summary_zh": "该版本解决了托管代理会话访问本地资源与消息推送截断的问题：允许托管代理访问已授权的本地目录并打开交互式终端，同时不持久化凭据或路径，并将输出发送到飞书和企业微信 webhook，长回复按有序分段投递。此举提升了托管代理的本地操作能力和企业消息通知的完整性与可靠性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.27.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3791873470,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.34",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release v0.1.34",
+      "published_at": "2026-11-15T08:54:48+00:00",
+      "original_language": "en",
+      "summary_en": "This release note documents QwenLM/qwen-code TypeScript SDK v0.1.34, which bundles the CLI built from the same source branch/ref as the SDK, listing successive CLI versions (0.27.1 through 0.27.4). It addresses version alignment between the SDK and its bundled CLI, ensuring users know which CLI is included and that it matches the SDK source. This matters for reproducibility and debugging when using the SDK with its command-line interface.",
+      "summary_zh": "该发布说明涉及 QwenLM/qwen-code 的 TypeScript SDK v0.1.34，主要解决 SDK 与命令行工具（CLI）版本一致性问题；该版本捆绑了从 0.27.1 到 0.27.4 的 CLI，均由与 SDK 相同的分支/引用源码构建，确保二者功能匹配，便于开发者在 TypeScript 项目中集成与调用。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release v0.1.34",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 347304048,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.4",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.27.4",
+      "published_at": "2026-11-15T08:43:29+00:00",
+      "original_language": "en",
+      "summary_en": "Qwen Code Desktop v0.27.4 improves managed agent workflows by registering client filesystems into managed sessions and planning long channel replies as ordered multi-segment deliveries. It also adds a web-shell test for opening the shadow overview from its footer. These changes enhance file access and reliable delivery of long responses in managed agent environments.",
+      "summary_zh": "Qwen Code Desktop v0.27.4 主要针对托管代理场景，新增将客户端文件系统注册到托管会话的功能，使代理能直接访问本地文件，并将长通道回复规划为有序多段传递，同时完善了 Web Shell 的 shadow overview 测试。这些改进解决了托管代理访问受限及长响应管理问题，提升了编码代理在远程或复杂交互中的可靠性与实用性。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.27.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
