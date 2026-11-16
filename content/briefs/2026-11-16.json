@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-16",
+  "headline_en": "Anthropic Shortens Vulnerability Disclosure to 30 Days; Qwen Code Bolsters Agent Reliability",
+  "lede_en": "Today’s updates focus on forcing faster security fixes and making autonomous coding agents more dependable. Anthropic has cut its coordinated vulnerability disclosure window from 90 days to 30 days for high- and critical-severity issues, reducing user exposure. Qwen Code’s nightly release adds workspace navigation improvements and fixes stale-process recovery to prevent hangs in managed agent channels.",
+  "sections_en": [
+    {
+      "title": "Other",
+      "body": "Anthropic’s updated vulnerability disclosure policy is a governance shift with direct security implications for AI applications. By shortening coordinated disclosure from 90 days to 30 days for high- and critical-severity flaws—and to 45 days for everything else—the company is pressing vendors to remediate serious issues faster. This tighter deadline reduces the period during which users may be exposed to known vulnerabilities."
+    },
+    {
+      "title": "Agent Engineering",
+      "body": "Qwen Code’s latest nightly release targets reliability and navigation in managed coding agents. A new sidebar workspace filter improves web shell navigation, and a DingTalk adapter extends managed channel support. Critically, a recovery fix now terminates stale public-child processes instead of retrying them indefinitely, preventing resource waste and hangs in agent workflows."
+    }
+  ],
+  "top_picks": [
+    4014476702,
+    4144297692
+  ],
+  "item_count": 2,
+  "source_breakdown": {
+    "anthropic_research": 1,
+    "qwen_github": 1
+  },
+  "generated_at": "2026-11-16T17:44:47.124292Z",
+  "headline_zh": "谷歌缩短漏洞披露时限，Qwen Code 强化托管代理稳定性",
+  "lede_zh": "今日 AI/ML 领域的两项进展共同指向生产环境的安全与稳定性：谷歌将协调漏洞披露政策的高危漏洞时限从 90 天压缩至 30 天，以缩短暴露窗口；Qwen Code 则通过工作区过滤器和托管代理恢复策略修复，提升企业级代理的可靠性。两者虽分属安全治理与工程工具，却都反映出 AI 生态从功能竞赛转向运维韧性的趋势。",
+  "sections_zh": [
+    {
+      "title": "其他：安全与披露治理",
+      "body": "谷歌调整协调漏洞披露政策的时间线，将高危和严重漏洞的披露窗口从统一的 90 天缩短至 30 天，其他问题为 45 天。这一变化迫使供应商更快响应，降低用户在漏洞公开前面临的风险。在 AI 供应链日益复杂、开源组件广泛复用的背景下，更短的披露周期有助于压缩攻击者利用窗口，但也对厂商的修复能力提出更高要求。"
+    },
+    {
+      "title": "Agent 工程：工作区与托管代理稳定性",
+      "body": "Qwen Code 的 v0.27.3-nightly 版本聚焦托管代理的工程细节：为 Web Shell 增加侧边栏工作区过滤器，并在托管通道接入钉钉适配器，方便企业沟通集成。更重要的是，它修复了托管代理对过期公共子进程的恢复策略，从无限重试改为终止，避免资源浪费和系统卡死。这类底层稳定性改进虽不张扬，却是 Agent 从演示走向生产部署的关键。"
+    }
+  ]
+}

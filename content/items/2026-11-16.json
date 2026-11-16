@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-16",
+  "items": [
+    {
+      "id": 4014476702,
+      "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+      "title": "Updating our coordinated vulnerability disclosure policy timelines",
+      "published_at": "2026-11-16T00:00:00",
+      "original_language": "en",
+      "summary_en": "The update addresses overly long vulnerability disclosure timelines by shortening the coordinated disclosure window from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all others. This faster deadline aims to pressure vendors to remediate serious flaws more quickly and reduce the window of exposure for users.",
+      "summary_zh": "谷歌将协调漏洞披露政策的时间线从统一90天缩短为：高危和严重漏洞30天、其他问题45天，以加快修复和披露节奏。这一调整旨在减少高危漏洞的暴露窗口，促使供应商更快响应，从而降低用户和生态系统的安全风险。",
+      "source": "anthropic_research",
+      "title_en": "Updating our coordinated vulnerability disclosure policy timelines",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4144297692,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.3-nightly.20261115.6e3b2dcc19",
+      "title": "QwenLM/qwen-code: Release v0.27.3-nightly.20261115.6e3b2dcc19",
+      "published_at": "2026-11-15T22:29:59+00:00",
+      "original_language": "en",
+      "summary_en": "This release for Qwen Code improves workspace navigation and managed agent reliability by adding a sidebar workspace filter to the web shell and a DingTalk adapter for managed channels. It also fixes a recovery issue so stale public-child processes are terminated instead of retried indefinitely, preventing resource waste and hangs.",
+      "summary_zh": "Qwen Code 的 v0.27.3-nightly 版本主要改进了工作区管理与托管代理的稳定性：为 Web Shell 增加侧边栏工作区过滤器，并在托管通道中接入钉钉适配器，便于企业沟通集成。同时修复了托管代理对过期公共子进程的恢复策略，将其改为终止而非无限重试，从而避免资源浪费和系统卡死。",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.27.3-nightly.20261115.6e3b2dcc19",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
