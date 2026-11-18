@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-18",
+  "items": [
+    {
+      "id": 3662316255,
+      "url": "http://arxiv.org/abs/2611.23229v1",
+      "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
+      "published_at": "2026-11-17T18:59:37+00:00",
+      "original_language": "en",
+      "summary_en": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used for pre-training, which leads to overfitting and the catastrop",
+      "summary_zh": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used for pre-training, which leads to overfitting and the catastrop",
+      "source": "arxiv_cs_cl",
+      "title_en": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2226317912,
+      "url": "http://arxiv.org/abs/2611.23228v1",
+      "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
+      "published_at": "2026-11-17T18:59:27+00:00",
+      "original_language": "en",
+      "summary_en": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gate",
+      "summary_zh": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gate",
+      "source": "arxiv_cs_cl",
+      "title_en": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2527753850,
+      "url": "http://arxiv.org/abs/2611.23225v1",
+      "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
+      "published_at": "2026-11-17T18:58:40+00:00",
+      "original_language": "en",
+      "summary_en": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory construction",
+      "summary_zh": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory construction",
+      "source": "arxiv_cs_cl",
+      "title_en": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2339279090,
+      "url": "http://arxiv.org/abs/2611.23219v1",
+      "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+      "published_at": "2026-11-17T18:57:10+00:00",
+      "original_language": "en",
+      "summary_en": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-im",
+      "summary_zh": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-im",
+      "source": "arxiv_cs_cl",
+      "title_en": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3835792241,
+      "url": "http://arxiv.org/abs/2611.23218v1",
+      "title": "What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution",
+      "published_at": "2026-11-17T18:57:08+00:00",
+      "original_language": "en",
+      "summary_en": "Methods that localise social bias in large language models to individual attention heads and remove it by ablation are validated by their effect on a fairness metric, never by evidence that the statistic selecting the heads measures bias. We audit this on Qwen-2.5-7B-Instruct and Llama-3.1-8B-Instru",
+      "summary_zh": "Methods that localise social bias in large language models to individual attention heads and remove it by ablation are validated by their effect on a fairness metric, never by evidence that the statistic selecting the heads measures bias. We audit this on Qwen-2.5-7B-Instruct and Llama-3.1-8B-Instru",
+      "source": "arxiv_cs_cl",
+      "title_en": "What Does a Bias Head Measure? Non-Identifiability in Head-Level Bias Attribution",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2090879232,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.5",
+      "title": "deepseek-ai/deepseek-harness: v0.2.2-rc.5",
+      "published_at": "2026-11-18T12:51:39+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.2-rc.5) | [English](#en-v0.2.2-rc.5)\r\n\r\n<h3 id=\"cn-v0.2.2-rc.5\">体验优化</h3>\r\n\r\n- DeepSeek 模型使用 DeepSeek 服务端搜索，搜索不按次收费；其他模型默认使用 DeepSeek Search API。 @LegGasai\r\n\r\n<h3 id=\"en-v0.2.2-rc.5\">Improvements</h3>\r\n\r\n- DeepSeek models use DeepSeek server-side search with no per-search charge; other",
+      "summary_zh": "[中文](#cn-v0.2.2-rc.5) | [English](#en-v0.2.2-rc.5)\r\n\r\n<h3 id=\"cn-v0.2.2-rc.5\">体验优化</h3>\r\n\r\n- DeepSeek 模型使用 DeepSeek 服务端搜索，搜索不按次收费；其他模型默认使用 DeepSeek Search API。 @LegGasai\r\n\r\n<h3 id=\"en-v0.2.2-rc.5\">Improvements</h3>\r\n\r\n- DeepSeek models use DeepSeek server-side search with no per-search charge; other",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.2-rc.5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3598744589,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.2-rc.4",
+      "title": "deepseek-ai/deepseek-harness: v0.2.2-rc.4",
+      "published_at": "2026-11-17T17:53:41+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.2-rc.4) | [English](#en-v0.2.2-rc.4)\r\n\r\n<h3 id=\"cn-v0.2.2-rc.4\">问题修复</h3>\r\n\r\n- 优化模型请求收到异常消息响应时的表现。 @turtle2099\r\n- 修复 LiveShare 在桌面端无法创建分享的问题。 @mektpoy\r\n\r\n<h3 id=\"en-v0.2.2-rc.4\">Bug Fixes</h3>\r\n\r\n- Improve handling of unexpected model responses. by @turtle2099\r\n- Fix LiveShare failing ",
+      "summary_zh": "[中文](#cn-v0.2.2-rc.4) | [English](#en-v0.2.2-rc.4)\r\n\r\n<h3 id=\"cn-v0.2.2-rc.4\">问题修复</h3>\r\n\r\n- 优化模型请求收到异常消息响应时的表现。 @turtle2099\r\n- 修复 LiveShare 在桌面端无法创建分享的问题。 @mektpoy\r\n\r\n<h3 id=\"en-v0.2.2-rc.4\">Bug Fixes</h3>\r\n\r\n- Improve handling of unexpected model responses. by @turtle2099\r\n- Fix LiveShare failing ",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.2-rc.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3246415310,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.1-preview.0",
+      "title": "QwenLM/qwen-code: Release v0.28.1-preview.0",
+      "published_at": "2026-11-17T18:36:36+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.28.1-preview.0 -->\n\n## What's Changed\n* test(managed-agent): observe a real scheduled /loop fire in the full-stack E2E by @wenshao in https://github.com/QwenLM/qwen-code/pull/17506\n* fix(verify-pr): harden the watc",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.28.1-preview.0 -->\n\n## What's Changed\n* test(managed-agent): observe a real scheduled /loop fire in the full-stack E2E by @wenshao in https://github.com/QwenLM/qwen-code/pull/17506\n* fix(verify-pr): harden the watc",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.28.1-preview.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1874017140,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.7.0-canary.20261118115856-50ec3c3",
+      "title": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.7.0-canary.20261118115856-50ec3c3",
+      "published_at": "2026-11-18T12:13:27+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* test(kap-server): wait for search index readiness in route tests by @kimi-agent-bot in https://github.com/MoonshotAI/kimi-code/pull/4909\n* fix(sdk): allow resuming occupied sessions by @7Sageer in https://github.com/MoonshotAI/kimi-code/pull/4910\n* test(kap-server): stabilize rem",
+      "summary_zh": "## What's Changed\n* test(kap-server): wait for search index readiness in route tests by @kimi-agent-bot in https://github.com/MoonshotAI/kimi-code/pull/4909\n* fix(sdk): allow resuming occupied sessions by @7Sageer in https://github.com/MoonshotAI/kimi-code/pull/4910\n* test(kap-server): stabilize rem",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: @moonshot-ai/kimi-code@2.7.0-canary.20261118115856-50ec3c3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
