@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-20",
+  "items": [
+    {
+      "id": 779829318,
+      "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+      "title": "A game you cannot win unless you have a quantum computer",
+      "published_at": "2026-11-19T20:03:00",
+      "original_language": "en",
+      "summary_en": "Quantum",
+      "summary_zh": "Quantum",
+      "source": "google_research",
+      "title_en": "A game you cannot win unless you have a quantum computer",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 4242976815,
+      "url": "http://arxiv.org/abs/2611.26627v1",
+      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "published_at": "2026-11-19T18:59:53+00:00",
+      "original_language": "en",
+      "summary_en": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that",
+      "summary_zh": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that",
+      "source": "arxiv_cs_cl",
+      "title_en": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2346222857,
+      "url": "http://arxiv.org/abs/2611.26624v1",
+      "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+      "published_at": "2026-11-19T18:59:34+00:00",
+      "original_language": "en",
+      "summary_en": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its",
+      "summary_zh": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its",
+      "source": "arxiv_cs_cl",
+      "title_en": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 388937157,
+      "url": "http://arxiv.org/abs/2611.26619v1",
+      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+      "published_at": "2026-11-19T18:58:31+00:00",
+      "original_language": "en",
+      "summary_en": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for",
+      "summary_zh": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for",
+      "source": "arxiv_cs_cl",
+      "title_en": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1952064082,
+      "url": "http://arxiv.org/abs/2611.26617v1",
+      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+      "published_at": "2026-11-19T18:58:14+00:00",
+      "original_language": "en",
+      "summary_en": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for",
+      "summary_zh": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for",
+      "source": "arxiv_cs_cl",
+      "title_en": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1830573178,
+      "url": "http://arxiv.org/abs/2611.26613v1",
+      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "published_at": "2026-11-19T18:57:25+00:00",
+      "original_language": "en",
+      "summary_en": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succee",
+      "summary_zh": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succee",
+      "source": "arxiv_cs_cl",
+      "title_en": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2115902712,
+      "url": "https://www.anthropic.com/news/ipo-close",
+      "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+      "published_at": "2026-11-20T00:00:00",
+      "original_language": "en",
+      "summary_en": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares o",
+      "summary_zh": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares o",
+      "source": "anthropic_news",
+      "title_en": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3435353711,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.4.2",
+      "title": "MoonshotAI/kimi-code: Kimi Code Desktop 1.4.2",
+      "published_at": "2026-11-20T09:19:47+00:00",
+      "original_language": "en",
+      "summary_en": "## 1.4.2\n\n### Patch Changes\n\n- [#5191](https://github.com/MoonshotAI/kimi-code/pull/5191) [`7baee3c`](https://github.com/MoonshotAI/kimi-code/commit/7baee3cd9d74ac07efdf4a8587c19c1574fffbd2) Thanks [@chengluyu](https://github.com/chengluyu)! - Fix the draft thinking effort inherited from the global ",
+      "summary_zh": "## 1.4.2\n\n### Patch Changes\n\n- [#5191](https://github.com/MoonshotAI/kimi-code/pull/5191) [`7baee3c`](https://github.com/MoonshotAI/kimi-code/commit/7baee3cd9d74ac07efdf4a8587c19c1574fffbd2) Thanks [@chengluyu](https://github.com/chengluyu)! - Fix the draft thinking effort inherited from the global ",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: Kimi Code Desktop 1.4.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 759417774,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.4.1",
+      "title": "MoonshotAI/kimi-code: Kimi Code Desktop 1.4.1",
+      "published_at": "2026-11-20T06:57:10+00:00",
+      "original_language": "en",
+      "summary_en": "## 1.4.1\n\n### Patch Changes\n\n- [#5161](https://github.com/MoonshotAI/kimi-code/pull/5161) [`55c7c7b`](https://github.com/MoonshotAI/kimi-code/commit/55c7c7befda7d907ad1cee3650d407415f78652e) Thanks [@kimi-agent-bot](https://github.com/kimi-agent-bot)! - Preserve the first prompt through project crea",
+      "summary_zh": "## 1.4.1\n\n### Patch Changes\n\n- [#5161](https://github.com/MoonshotAI/kimi-code/pull/5161) [`55c7c7b`](https://github.com/MoonshotAI/kimi-code/commit/55c7c7befda7d907ad1cee3650d407415f78652e) Thanks [@kimi-agent-bot](https://github.com/kimi-agent-bot)! - Preserve the first prompt through project crea",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: Kimi Code Desktop 1.4.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 694056033,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.7.2",
+      "title": "MoonshotAI/kimi-code: Kimi Code CLI 2.7.2",
+      "published_at": "2026-11-20T09:06:54+00:00",
+      "original_language": "en",
+      "summary_en": "### Patch Changes\n\n- [#5191](https://github.com/MoonshotAI/kimi-code/pull/5191) [`7baee3c`](https://github.com/MoonshotAI/kimi-code/commit/7baee3cd9d74ac07efdf4a8587c19c1574fffbd2) Thanks [@chengluyu](https://github.com/chengluyu)! - Web: Fix the draft thinking effort inherited from the global think",
+      "summary_zh": "### Patch Changes\n\n- [#5191](https://github.com/MoonshotAI/kimi-code/pull/5191) [`7baee3c`](https://github.com/MoonshotAI/kimi-code/commit/7baee3cd9d74ac07efdf4a8587c19c1574fffbd2) Thanks [@chengluyu](https://github.com/chengluyu)! - Web: Fix the draft thinking effort inherited from the global think",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: Kimi Code CLI 2.7.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2275701006,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.7.1",
+      "title": "MoonshotAI/kimi-code: Kimi Code CLI 2.7.1",
+      "published_at": "2026-11-20T06:35:34+00:00",
+      "original_language": "en",
+      "summary_en": "### Patch Changes\n\n- [#5170](https://github.com/MoonshotAI/kimi-code/pull/5170) [`c2bec3f`](https://github.com/MoonshotAI/kimi-code/commit/c2bec3fb8e42aca9a7f7b3b80eff9dc1230d332c) Thanks [@liruifengv](https://github.com/liruifengv)! - Web: Fix draft thinking effort selections reverting to the model",
+      "summary_zh": "### Patch Changes\n\n- [#5170](https://github.com/MoonshotAI/kimi-code/pull/5170) [`c2bec3f`](https://github.com/MoonshotAI/kimi-code/commit/c2bec3fb8e42aca9a7f7b3b80eff9dc1230d332c) Thanks [@liruifengv](https://github.com/liruifengv)! - Web: Fix draft thinking effort selections reverting to the model",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: Kimi Code CLI 2.7.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
