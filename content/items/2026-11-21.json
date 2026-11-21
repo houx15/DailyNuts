@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-21",
+  "items": [
+    {
+      "id": 2321657975,
+      "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+      "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+      "published_at": "2026-11-20T23:30:30",
+      "original_language": "en",
+      "summary_en": "Generative AI",
+      "summary_zh": "Generative AI",
+      "source": "google_research",
+      "title_en": "How Google Duplex evolved to also call businesses for you in Gemini",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 3113215860,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.3",
+      "title": "QwenLM/qwen-code: Release v0.28.3",
+      "published_at": "2026-11-21T01:45:48+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(web-shell): explain background tasks from the composer chips ([#17398](https://github.com/QwenLM/qwen-code/pull/17398))",
+      "summary_zh": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(web-shell): explain background tasks from the composer chips ([#17398](https://github.com/QwenLM/qwen-code/pull/17398))",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.28.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3707980142,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.1-preview.1",
+      "title": "QwenLM/qwen-code: Release v0.28.1-preview.1",
+      "published_at": "2026-11-20T19:20:36+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.28.1-preview.1 -->\n\n## What's Changed\n* test(managed-agent): observe a real scheduled /loop fire in the full-stack E2E by @wenshao in https://github.com/QwenLM/qwen-code/pull/17506\n* fix(verify-pr): harden the watc",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.28.1-preview.1 -->\n\n## What's Changed\n* test(managed-agent): observe a real scheduled /loop fire in the full-stack E2E by @wenshao in https://github.com/QwenLM/qwen-code/pull/17506\n* fix(verify-pr): harden the watc",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.28.1-preview.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 489825807,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.0-nightly.20261120.19b31401f5",
+      "title": "QwenLM/qwen-code: Release v0.28.0-nightly.20261120.19b31401f5",
+      "published_at": "2026-11-20T22:34:18+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.28.0-nightly.20261120.19b31401f5 -->\n\n## What's Changed\n* test(managed-agent): observe a real scheduled /loop fire in the full-stack E2E by @wenshao in https://github.com/QwenLM/qwen-code/pull/17506\n* fix(verify-pr",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.28.0-nightly.20261120.19b31401f5 -->\n\n## What's Changed\n* test(managed-agent): observe a real scheduled /loop fire in the full-stack E2E by @wenshao in https://github.com/QwenLM/qwen-code/pull/17506\n* fix(verify-pr",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.28.0-nightly.20261120.19b31401f5",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 731419475,
+      "url": "https://github.com/Tencent-Hunyuan/Hy-Memory/releases/tag/v1.0.8",
+      "title": "Tencent-Hunyuan/Hy-Memory: MemHub v1.0.8",
+      "published_at": "2026-11-21T07:54:20+00:00",
+      "original_language": "en",
+      "summary_en": "## MemHub 1.0.8 (build 49)\n\nPins [`hy-memory==2.0.17`](https://pypi.org/project/hy-memory/2.0.17/) with offline Qdrant/bm25 FastEmbed assets in the frozen Core, plus an explicit stopped-writer `bm25-maintenance` CLI.\n\n### Platforms\n- Linux x64 / arm64 Runtime\n- macOS arm64 App (DMG) and Runtime\n\n###",
+      "summary_zh": "## MemHub 1.0.8 (build 49)\n\nPins [`hy-memory==2.0.17`](https://pypi.org/project/hy-memory/2.0.17/) with offline Qdrant/bm25 FastEmbed assets in the frozen Core, plus an explicit stopped-writer `bm25-maintenance` CLI.\n\n### Platforms\n- Linux x64 / arm64 Runtime\n- macOS arm64 App (DMG) and Runtime\n\n###",
+      "source": "hunyuan_github",
+      "title_en": "Tencent-Hunyuan/Hy-Memory: MemHub v1.0.8",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
