@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-22",
+  "headline_en": "5 items collected today",
+  "lede_en": "5 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    891800424,
+    2060413537,
+    6404430
+  ],
+  "item_count": 5,
+  "source_breakdown": {
+    "deepseek_github": 2,
+    "qwen_github": 3
+  },
+  "generated_at": "2026-11-22T15:50:14.397288Z",
+  "headline_zh": "今日共采集 5 项内容",
+  "lede_zh": "今日共采集 5 项内容。",
+  "sections_zh": []
+}

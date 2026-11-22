@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-22",
+  "items": [
+    {
+      "id": 891800424,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.3-alpha.2",
+      "title": "deepseek-ai/deepseek-harness: v0.2.3-alpha.2",
+      "published_at": "2026-11-22T11:00:39+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.3-alpha.2) | [English](#en-v0.2.3-alpha.2)\r\n\r\n<h3 id=\"cn-v0.2.3-alpha.2\">其他变更</h3>\r\n\r\n- 调整 Node.js 版本要求为 24.22.3，26.13.1 及以上版本。 @imccyu\r\n\r\n<h3 id=\"en-v0.2.3-alpha.2\">Chores</h3>\r\n\r\n- DSH now requires Node.js 24.22.3 or later in the 24.x series, or 26.13.1 or later. by @imccyu\r\n\r\nFull C",
+      "summary_zh": "[中文](#cn-v0.2.3-alpha.2) | [English](#en-v0.2.3-alpha.2)\r\n\r\n<h3 id=\"cn-v0.2.3-alpha.2\">其他变更</h3>\r\n\r\n- 调整 Node.js 版本要求为 24.22.3，26.13.1 及以上版本。 @imccyu\r\n\r\n<h3 id=\"en-v0.2.3-alpha.2\">Chores</h3>\r\n\r\n- DSH now requires Node.js 24.22.3 or later in the 24.x series, or 26.13.1 or later. by @imccyu\r\n\r\nFull C",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.3-alpha.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2060413537,
+      "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.3-alpha.1",
+      "title": "deepseek-ai/deepseek-harness: v0.2.3-alpha.1",
+      "published_at": "2026-11-22T03:19:36+00:00",
+      "original_language": "en",
+      "summary_en": "[中文](#cn-v0.2.3-alpha.1) | [English](#en-v0.2.3-alpha.1)\n\n<h3 id=\"cn-v0.2.3-alpha.1\">新增功能</h3>\n\n- 插件市场支持添加 Git 仓库作为插件来源，私有仓库中的插件也能浏览和安装。 @acehinnnqru\n- 新增实验性时间线插件，可查看智能体任务树、阻塞事项和进展报告，点击进度条可展开任务树，任务与报告语言可选跟随对话。 @Magolor\n- 新增代码审阅页面，可集中查看本人相关的 GitHub PR，浏览描述和变更，并在页内与智能体协作审阅。 @LegGasai\n- 代码审阅插件新增扩展机制，插件",
+      "summary_zh": "[中文](#cn-v0.2.3-alpha.1) | [English](#en-v0.2.3-alpha.1)\n\n<h3 id=\"cn-v0.2.3-alpha.1\">新增功能</h3>\n\n- 插件市场支持添加 Git 仓库作为插件来源，私有仓库中的插件也能浏览和安装。 @acehinnnqru\n- 新增实验性时间线插件，可查看智能体任务树、阻塞事项和进展报告，点击进度条可展开任务树，任务与报告语言可选跟随对话。 @Magolor\n- 新增代码审阅页面，可集中查看本人相关的 GitHub PR，浏览描述和变更，并在页内与智能体协作审阅。 @LegGasai\n- 代码审阅插件新增扩展机制，插件",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/deepseek-harness: v0.2.3-alpha.1",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 6404430,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.4",
+      "title": "QwenLM/qwen-code: Release v0.28.4",
+      "published_at": "2026-11-22T12:04:21+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v2 -->\n\n## Highlights\n\n- Web Shell local daemon mode adds a workspace artifact library page with progressive scanning and streaming updates. ([#18071](https://github.com/QwenLM/qwen-code/pull/18071))\n- Web Shell chat adds a shared ChatSurface, Continue badges, suggestion chip",
+      "summary_zh": "<!-- qwen-release-notes:v2 -->\n\n## Highlights\n\n- Web Shell local daemon mode adds a workspace artifact library page with progressive scanning and streaming updates. ([#18071](https://github.com/QwenLM/qwen-code/pull/18071))\n- Web Shell chat adds a shared ChatSurface, Continue badges, suggestion chip",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.28.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 998936006,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.4",
+      "title": "QwenLM/qwen-code: Qwen Code Desktop v0.28.4",
+      "published_at": "2026-11-22T12:52:42+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at e8424c88ddd463c56602063efde57c328b917cd4 -->\n\n## What's Changed\n* test(managed-agent): observe a real scheduled /loop fire in the full-stack E2E by @wenshao in https://github.com/QwenLM/qwen-code/pull/17506\n* fix(verify-pr): ",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at e8424c88ddd463c56602063efde57c328b917cd4 -->\n\n## What's Changed\n* test(managed-agent): observe a real scheduled /loop fire in the full-stack E2E by @wenshao in https://github.com/QwenLM/qwen-code/pull/17506\n* fix(verify-pr): ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Qwen Code Desktop v0.28.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2358664855,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.3-nightly.20261121.56ef346859",
+      "title": "QwenLM/qwen-code: Release v0.28.3-nightly.20261121.56ef346859",
+      "published_at": "2026-11-21T22:28:14+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.28.3-nightly.20261121.56ef346859 -->\n\n## What's Changed\n* fix(ci): use live review bot for manual re-review by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/17848\n* ci(managed-agent): stabilize required g",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.28.3-nightly.20261121.56ef346859 -->\n\n## What's Changed\n* fix(ci): use live review bot for manual re-review by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/17848\n* ci(managed-agent): stabilize required g",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.28.3-nightly.20261121.56ef346859",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
