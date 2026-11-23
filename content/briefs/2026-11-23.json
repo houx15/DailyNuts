@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-23",
+  "headline_en": "4 items collected today",
+  "lede_en": "4 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    2080506658,
+    337298163,
+    1983329439
+  ],
+  "item_count": 4,
+  "source_breakdown": {
+    "google_research": 1,
+    "moonshot_github": 3
+  },
+  "generated_at": "2026-11-23T19:43:08.266809Z",
+  "headline_zh": "今日共采集 4 项内容",
+  "lede_zh": "今日共采集 4 项内容。",
+  "sections_zh": []
+}

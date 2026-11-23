@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-23",
+  "items": [
+    {
+      "id": 2080506658,
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "title": "Supercharging transformer residual connections",
+      "published_at": "2026-11-23T17:21:12",
+      "original_language": "en",
+      "summary_en": "Algorithms & Theory",
+      "summary_zh": "Algorithms & Theory",
+      "source": "google_research",
+      "title_en": "Supercharging transformer residual connections",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 337298163,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.4.3",
+      "title": "MoonshotAI/kimi-code: Kimi Code Desktop 1.4.3",
+      "published_at": "2026-11-23T16:56:55+00:00",
+      "original_language": "en",
+      "summary_en": "## 1.4.3\n\n### Patch Changes\n\n- [#5246](https://github.com/MoonshotAI/kimi-code/pull/5246) [`f81c924`](https://github.com/MoonshotAI/kimi-code/commit/f81c924b1d70f963b0dc094bcb6859e446c37a49) Thanks [@liruifengv](https://github.com/liruifengv)! - Show an authorization button in chat when an MCP conne",
+      "summary_zh": "## 1.4.3\n\n### Patch Changes\n\n- [#5246](https://github.com/MoonshotAI/kimi-code/pull/5246) [`f81c924`](https://github.com/MoonshotAI/kimi-code/commit/f81c924b1d70f963b0dc094bcb6859e446c37a49) Thanks [@liruifengv](https://github.com/liruifengv)! - Show an authorization button in chat when an MCP conne",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: Kimi Code Desktop 1.4.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1983329439,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.7.3",
+      "title": "MoonshotAI/kimi-code: Kimi Code CLI 2.7.3",
+      "published_at": "2026-11-23T16:30:42+00:00",
+      "original_language": "en",
+      "summary_en": "### Patch Changes\n\n- [#5300](https://github.com/MoonshotAI/kimi-code/pull/5300) [`fce3af9`](https://github.com/MoonshotAI/kimi-code/commit/fce3af9e694a5a572699546ebe8e28ccf004ed88) Thanks [@Grapedge](https://github.com/Grapedge)! - Rate individual replies or send feedback from the account menu or wi",
+      "summary_zh": "### Patch Changes\n\n- [#5300](https://github.com/MoonshotAI/kimi-code/pull/5300) [`fce3af9`](https://github.com/MoonshotAI/kimi-code/commit/fce3af9e694a5a572699546ebe8e28ccf004ed88) Thanks [@Grapedge](https://github.com/Grapedge)! - Rate individual replies or send feedback from the account menu or wi",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: Kimi Code CLI 2.7.3",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 826531395,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.8.0-canary.20261123144244-c0e9faf",
+      "title": "MoonshotAI/kimi-code: Kimi Code CLI 2.8.0-canary.20261123144244-c0e9faf",
+      "published_at": "2026-11-23T15:06:51+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* refactor(core): run loop turns on an independent state machine by @sailist in https://github.com/MoonshotAI/kimi-code/pull/5236\n* refactor(llm): legalize deferred tools in the resolver by @sailist in https://github.com/MoonshotAI/kimi-code/pull/5237\n* fix(core): recover compactio",
+      "summary_zh": "## What's Changed\n* refactor(core): run loop turns on an independent state machine by @sailist in https://github.com/MoonshotAI/kimi-code/pull/5236\n* refactor(llm): legalize deferred tools in the resolver by @sailist in https://github.com/MoonshotAI/kimi-code/pull/5237\n* fix(core): recover compactio",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: Kimi Code CLI 2.8.0-canary.20261123144244-c0e9faf",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
