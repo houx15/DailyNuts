@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-24",
+  "items": [
+    {
+      "id": 1765822838,
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "title": "Working with AI",
+      "published_at": "2026-11-23T00:00:00",
+      "original_language": "en",
+      "summary_en": "We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.",
+      "summary_zh": "We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.",
+      "source": "anthropic_research",
+      "title_en": "Working with AI",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2506985500,
+      "url": "https://github.com/deepseek-ai/chat-demo/releases/tag/v0.1.4",
+      "title": "deepseek-ai/chat-demo: v0.1.4",
+      "published_at": "2026-11-24T11:20:38+00:00",
+      "original_language": "en",
+      "summary_en": "优化了历史记录 ZIP 的导入速度。导入时，设置页会显示已处理的会话数，关闭后重新打开仍可查看进度。图片附件会随所属会话一起导入。\n\n改善了旧版浏览器对历史记录导入、取消上传和移动端页面高度的兼容性。",
+      "summary_zh": "优化了历史记录 ZIP 的导入速度。导入时，设置页会显示已处理的会话数，关闭后重新打开仍可查看进度。图片附件会随所属会话一起导入。\n\n改善了旧版浏览器对历史记录导入、取消上传和移动端页面高度的兼容性。",
+      "source": "deepseek_github",
+      "title_en": "deepseek-ai/chat-demo: v0.1.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}

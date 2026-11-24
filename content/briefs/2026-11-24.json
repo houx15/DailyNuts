@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-24",
+  "headline_en": "2 items collected today",
+  "lede_en": "2 items collected today.",
+  "sections_en": [],
+  "top_picks": [
+    1765822838,
+    2506985500
+  ],
+  "item_count": 2,
+  "source_breakdown": {
+    "anthropic_research": 1,
+    "deepseek_github": 1
+  },
+  "generated_at": "2026-11-24T19:16:08.362189Z",
+  "headline_zh": "今日共采集 2 项内容",
+  "lede_zh": "今日共采集 2 项内容。",
+  "sections_zh": []
+}
