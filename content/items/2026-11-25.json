@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-25",
+  "items": [
+    {
+      "id": 2116005683,
+      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "published_at": "2026-11-25T17:10:27",
+      "original_language": "en",
+      "summary_en": "Generative AI",
+      "summary_zh": "Generative AI",
+      "source": "google_research",
+      "title_en": "Verifiable Social Reasoning for LLM Assistants",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 2799463322,
+      "url": "http://arxiv.org/abs/2611.33153v1",
+      "title": "DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning",
+      "published_at": "2026-11-24T18:59:08+00:00",
+      "original_language": "en",
+      "summary_en": "We present DiaCap, an audiovisual LLM for comprehensive dialogue captioning, which produces the transcript, timestamps, and a visual description of the speaker for every utterance in a video. Considering that utterance timing and audiovisual diarization are tightly coupled, DiaCap unifies the tasks ",
+      "summary_zh": "We present DiaCap, an audiovisual LLM for comprehensive dialogue captioning, which produces the transcript, timestamps, and a visual description of the speaker for every utterance in a video. Considering that utterance timing and audiovisual diarization are tightly coupled, DiaCap unifies the tasks ",
+      "source": "arxiv_cs_cl",
+      "title_en": "DiaCap: Jointly Learning Who Speaks When for Audiovisual Dialogue Captioning",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 794785603,
+      "url": "http://arxiv.org/abs/2611.33151v1",
+      "title": "BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles",
+      "published_at": "2026-11-24T18:59:04+00:00",
+      "original_language": "en",
+      "summary_en": "The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing data. We hypothesize that",
+      "summary_zh": "The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing data. We hypothesize that",
+      "source": "arxiv_cs_cl",
+      "title_en": "BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 3994632030,
+      "url": "http://arxiv.org/abs/2611.33148v1",
+      "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
+      "published_at": "2026-11-24T18:58:53+00:00",
+      "original_language": "en",
+      "summary_en": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions. The standard fine-tuning approach imitates both, yet the strongest teachers are ",
+      "summary_zh": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions. The standard fine-tuning approach imitates both, yet the strongest teachers are ",
+      "source": "arxiv_cs_cl",
+      "title_en": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1661560058,
+      "url": "http://arxiv.org/abs/2611.33133v1",
+      "title": "A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit",
+      "published_at": "2026-11-24T18:53:22+00:00",
+      "original_language": "en",
+      "summary_en": "Qwen3.5-0.8B rarely finishes reasoning in thinking mode: at a 4,096-token budget only 1 or 2 of 500 MATH-500 answers close their think block (two seeds), and accuracy is 15.4%. A recent demonstration had GPT-6 Astra edit 131,072 of the model's weights without gradients and reported MATH-500 rising f",
+      "summary_zh": "Qwen3.5-0.8B rarely finishes reasoning in thinking mode: at a 4,096-token budget only 1 or 2 of 500 MATH-500 answers close their think block (two seeds), and accuracy is 15.4%. A recent demonstration had GPT-6 Astra edit 131,072 of the model's weights without gradients and reported MATH-500 rising f",
+      "source": "arxiv_cs_cl",
+      "title_en": "A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 2343413589,
+      "url": "http://arxiv.org/abs/2611.33130v1",
+      "title": "Exploratory Midtraining for Robot Policies",
+      "published_at": "2026-11-24T18:52:34+00:00",
+      "original_language": "en",
+      "summary_en": "Robot policies predominantly learn from human-collected data emphasizing competent behavior, limiting coverage of the low-level behaviors needed to support autonomous improvement. We study how a form of midtraining can be used to build coverage over diverse low-level behaviors that connect challengi",
+      "summary_zh": "Robot policies predominantly learn from human-collected data emphasizing competent behavior, limiting coverage of the low-level behaviors needed to support autonomous improvement. We study how a form of midtraining can be used to build coverage over diverse low-level behaviors that connect challengi",
+      "source": "arxiv_cs_cl",
+      "title_en": "Exploratory Midtraining for Robot Policies",
+      "title_zh": "",
+      "theme": "arch",
+      "categories_en": [
+        "Research"
+      ],
+      "categories_zh": [
+        "研究"
+      ]
+    },
+    {
+      "id": 1619334895,
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "title": "Migrating our Messages API to Rust",
+      "published_at": "2026-11-25T00:00:00",
+      "original_language": "en",
+      "summary_en": "How we migrated our Messages API from Python to Rust.",
+      "summary_zh": "How we migrated our Messages API from Python to Rust.",
+      "source": "anthropic_research",
+      "title_en": "Migrating our Messages API to Rust",
+      "title_zh": "",
+      "theme": "apps",
+      "categories_en": [
+        "Industry"
+      ],
+      "categories_zh": [
+        "业界"
+      ]
+    },
+    {
+      "id": 1032545678,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview.2",
+      "title": "QwenLM/qwen-code: Release v1.0.0-preview.2",
+      "published_at": "2026-11-25T06:37:49+00:00",
+      "original_language": "en",
+      "summary_en": "## Highlights\r\n\r\n- Add Qwen4-Max to the Qwen subscription catalog (1M context window, image and video input).\r\n- Show a reset countdown when Qwen subscription credits run out, and add an `/upgrade` command that opens the subscription plans page.\r\n- Qwen subscription requests now carry the QwenCode u",
+      "summary_zh": "## Highlights\r\n\r\n- Add Qwen4-Max to the Qwen subscription catalog (1M context window, image and video input).\r\n- Show a reset countdown when Qwen subscription credits run out, and add an `/upgrade` command that opens the subscription plans page.\r\n- Qwen subscription requests now carry the QwenCode u",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v1.0.0-preview.2",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1597522890,
+      "url": "https://github.com/QwenLM/FlashQLA/releases/tag/v0.1.4",
+      "title": "QwenLM/FlashQLA: FlashQLA v0.1.4",
+      "published_at": "2026-11-25T15:14:49+00:00",
+      "original_language": "en",
+      "summary_en": "# FlashQLA v0.1.4\r\n\r\n## 🚀 Highlights\r\n\r\n- **FP32 / TF32x3 cross-partition correction** by @Erix025 — the inter-card `h0` / `dht` fold now reads the gathered `(h, M)` buffers through slot maps (no unpack/reindex materialised), and picks FP32 or 3-pass TF32 correction at runtime from a wave-aware heur",
+      "summary_zh": "# FlashQLA v0.1.4\r\n\r\n## 🚀 Highlights\r\n\r\n- **FP32 / TF32x3 cross-partition correction** by @Erix025 — the inter-card `h0` / `dht` fold now reads the gathered `(h, M)` buffers through slot maps (no unpack/reindex materialised), and picks FP32 or 3-pass TF32 correction at runtime from a wave-aware heur",
+      "source": "qwen_github",
+      "title_en": "QwenLM/FlashQLA: FlashQLA v0.1.4",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2420625692,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0",
+      "title": "MoonshotAI/kimi-code: Kimi Code Desktop 1.5.0",
+      "published_at": "2026-11-25T12:55:10+00:00",
+      "original_language": "en",
+      "summary_en": "## 1.5.0\n\n### Minor Changes\n\n- [#5414](https://github.com/MoonshotAI/kimi-code/pull/5414) [`132c4e8`](https://github.com/MoonshotAI/kimi-code/commit/132c4e88b1d316a7d9a9b2f20df4d59a88061dc7) Thanks [@liruifengv](https://github.com/liruifengv)! - Add a prompt prediction switch under Settings > Lab. T",
+      "summary_zh": "## 1.5.0\n\n### Minor Changes\n\n- [#5414](https://github.com/MoonshotAI/kimi-code/pull/5414) [`132c4e8`](https://github.com/MoonshotAI/kimi-code/commit/132c4e88b1d316a7d9a9b2f20df4d59a88061dc7) Thanks [@liruifengv](https://github.com/liruifengv)! - Add a prompt prediction switch under Settings > Lab. T",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: Kimi Code Desktop 1.5.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 212887619,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.8.0",
+      "title": "MoonshotAI/kimi-code: Kimi Code CLI 2.8.0",
+      "published_at": "2026-11-25T12:41:25+00:00",
+      "original_language": "en",
+      "summary_en": "### Minor Changes\n\n- [#5414](https://github.com/MoonshotAI/kimi-code/pull/5414) [`132c4e8`](https://github.com/MoonshotAI/kimi-code/commit/132c4e88b1d316a7d9a9b2f20df4d59a88061dc7) Thanks [@liruifengv](https://github.com/liruifengv)! - Improve prompt prediction interactions. Enable with KIMI_CODE_EX",
+      "summary_zh": "### Minor Changes\n\n- [#5414](https://github.com/MoonshotAI/kimi-code/pull/5414) [`132c4e8`](https://github.com/MoonshotAI/kimi-code/commit/132c4e88b1d316a7d9a9b2f20df4d59a88061dc7) Thanks [@liruifengv](https://github.com/liruifengv)! - Improve prompt prediction interactions. Enable with KIMI_CODE_EX",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: Kimi Code CLI 2.8.0",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
