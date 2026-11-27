@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-27",
+  "items": [
+    {
+      "id": 2899819491,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.39",
+      "title": "QwenLM/qwen-code: SDK TypeScript Release sdk-typescript-v0.1.39",
+      "published_at": "2026-11-27T08:06:02+00:00",
+      "original_language": "en",
+      "summary_en": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.28.7\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.28.6\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "summary_zh": "## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.28.7\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK release bundles CLI version: 0.28.6\n\nSource: CLI built from source (same branch/ref as SDK)\n\n---\n\n## Bundled CLI Version\n\nThis SDK relea",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: SDK TypeScript Release sdk-typescript-v0.1.39",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 3443513574,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.7",
+      "title": "QwenLM/qwen-code: Release v0.28.7",
+      "published_at": "2026-11-26T18:04:26+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- qwen-release-notes:v2 -->\n\n## Highlights\n\n- Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. ([#18351](https://github.com/QwenLM/qwen-code/pull/18351))\n- Repeated-tool-call rejections now explain the cause ",
+      "summary_zh": "<!-- qwen-release-notes:v2 -->\n\n## Highlights\n\n- Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. ([#18351](https://github.com/QwenLM/qwen-code/pull/18351))\n- Repeated-tool-call rejections now explain the cause ",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.28.7",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 4009303272,
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.6-nightly.20261126.6b0cd79b",
+      "title": "QwenLM/qwen-code: Release v0.28.6-nightly.20261126.6b0cd79b",
+      "published_at": "2026-11-26T22:47:52+00:00",
+      "original_language": "en",
+      "summary_en": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.28.6-nightly.20261126.6b0cd79b -->\n\n## What's Changed\n* feat(qwen): add the Qwen Code CLI package on the Harness kernel by @sorrycc in https://github.com/QwenLM/qwen-code/pull/18351\n* fix(core): explain how to reco",
+      "summary_zh": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.28.6-nightly.20261126.6b0cd79b -->\n\n## What's Changed\n* feat(qwen): add the Qwen Code CLI package on the Harness kernel by @sorrycc in https://github.com/QwenLM/qwen-code/pull/18351\n* fix(core): explain how to reco",
+      "source": "qwen_github",
+      "title_en": "QwenLM/qwen-code: Release v0.28.6-nightly.20261126.6b0cd79b",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 2769728934,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.9.0-canary.20261127130549-5304618",
+      "title": "MoonshotAI/kimi-code: Kimi Code CLI 2.9.0-canary.20261127130549-5304618",
+      "published_at": "2026-11-27T13:27:35+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* feat(worktree): move active session when creating a new worktree by @Grapedge in https://github.com/MoonshotAI/kimi-code/pull/5646\n* feat(tui): add fullscreen mouse support for docked dialogs and selectors by @Grapedge in https://github.com/MoonshotAI/kimi-code/pull/5590\n* feat(t",
+      "summary_zh": "## What's Changed\n* feat(worktree): move active session when creating a new worktree by @Grapedge in https://github.com/MoonshotAI/kimi-code/pull/5646\n* feat(tui): add fullscreen mouse support for docked dialogs and selectors by @Grapedge in https://github.com/MoonshotAI/kimi-code/pull/5590\n* feat(t",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: Kimi Code CLI 2.9.0-canary.20261127130549-5304618",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    },
+    {
+      "id": 1242442189,
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai/kimi-code%402.9.0-canary.20261127101819-da8bdbb",
+      "title": "MoonshotAI/kimi-code: Kimi Code CLI 2.9.0-canary.20261127101819-da8bdbb",
+      "published_at": "2026-11-27T10:38:35+00:00",
+      "original_language": "en",
+      "summary_en": "## What's Changed\n* ci: let every push to main finish its CI run by @RealKai42 in https://github.com/MoonshotAI/kimi-code/pull/5609\n* ci(e2e): rerun failed nightly cases on the same commit and list the commits since the last green run by @RealKai42 in https://github.com/MoonshotAI/kimi-code/pull/561",
+      "summary_zh": "## What's Changed\n* ci: let every push to main finish its CI run by @RealKai42 in https://github.com/MoonshotAI/kimi-code/pull/5609\n* ci(e2e): rerun failed nightly cases on the same commit and list the commits since the last green run by @RealKai42 in https://github.com/MoonshotAI/kimi-code/pull/561",
+      "source": "moonshot_github",
+      "title_en": "MoonshotAI/kimi-code: Kimi Code CLI 2.9.0-canary.20261127101819-da8bdbb",
+      "title_zh": "",
+      "theme": "release",
+      "categories_en": [
+        "Release"
+      ],
+      "categories_zh": [
+        "发布"
+      ]
+    }
+  ]
+}
